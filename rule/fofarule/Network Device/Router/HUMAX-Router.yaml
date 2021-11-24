@@ -1,0 +1,7 @@
+info:
+  company: HUMAX Co., Ltd.
+  product: HUMAX-Router
+  softhard: '1'
+matches: |
+  body.icontains("<strong>we're sorry but rego_v2 doesn't work properly")
+  title.icontains("humax")

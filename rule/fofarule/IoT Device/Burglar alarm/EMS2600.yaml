@@ -1,0 +1,7 @@
+info:
+  company: sunwe
+  product: EMS2600
+  softhard: '1'
+matches: |
+  title.icontains("ems2600")
+  body.icontains("<b>ems2600 - 用户登录</b>")

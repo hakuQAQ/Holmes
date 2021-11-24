@@ -1,0 +1,9 @@
+info:
+  company: Pexip AS
+  product: pexip
+  softhard: '2'
+matches: |
+  body.icontains("<h2>pexip infinity</h2>")
+  body.icontains("<h2>会议平台</h2>")
+  body.icontains("pexip infinity")
+  body.icontains("pex-app")

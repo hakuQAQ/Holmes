@@ -1,0 +1,6 @@
+info:
+  company: August Bremicker und Söhne KG
+  product: Abus-Company's-product
+  softhard: '0'
+matches: |
+  banner.icontains("abus company products")

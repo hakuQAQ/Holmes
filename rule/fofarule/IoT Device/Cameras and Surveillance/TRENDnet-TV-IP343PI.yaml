@@ -1,0 +1,6 @@
+info:
+  company: TRENDnet, Inc.
+  product: TRENDnet-TV-IP343PI
+  softhard: '1'
+matches: |
+  body.icontains("var titlename='tv-ip343pi'")

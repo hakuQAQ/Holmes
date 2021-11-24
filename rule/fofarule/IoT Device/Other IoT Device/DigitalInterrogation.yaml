@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: DigitalInterrogation
+  softhard: '1'
+matches: |
+  body.icontains("classid='clsid:e77e049b-23fc-4db8-b756-60529a35fad5'")
+  body.icontains("刻录")

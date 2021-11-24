@@ -1,0 +1,6 @@
+info:
+  company: KT CORP
+  product: KT-EMU3000
+  softhard: '1'
+matches: |
+  banner.icontains("emu3000")

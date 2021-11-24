@@ -1,0 +1,6 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-GS108Tv2
+  softhard: '1'
+matches: |
+  banner.icontains("gs108tv2")

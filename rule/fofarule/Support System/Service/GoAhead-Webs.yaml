@@ -1,0 +1,7 @@
+info:
+  company: wolfSSL Inc.
+  product: GoAhead-Webs
+  softhard: '2'
+matches: |
+  header.icontains("goahead-webs")
+  banner.icontains("goahead-webs")

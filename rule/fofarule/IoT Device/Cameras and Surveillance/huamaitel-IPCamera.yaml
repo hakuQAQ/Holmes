@@ -1,0 +1,6 @@
+info:
+  company: huamaitel
+  product: huamaitel-IPCamera
+  softhard: '1'
+matches: |
+  body.icontains("<a href=\"#/alarm\">{{'alarm' | translate | uppercase}}</a>")

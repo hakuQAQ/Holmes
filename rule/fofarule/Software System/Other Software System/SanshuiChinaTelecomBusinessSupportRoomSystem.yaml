@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: SanshuiChinaTelecomBusinessSupportRoomSystem
+  softhard: '2'
+matches: |
+  body.icontains("background=\"images/vista.jpg\"")

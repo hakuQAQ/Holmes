@@ -1,0 +1,6 @@
+info:
+  company: GoCloud
+  product: gocloud-ISP1000-series-router
+  softhard: '1'
+matches: |
+  banner.icontains("gocloud isp1000 series router")

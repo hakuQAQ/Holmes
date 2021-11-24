@@ -1,0 +1,9 @@
+info:
+  company: netmoon
+  product: Netmoon's-Internet-product
+  softhard: '1'
+matches: |
+  title == "web configuration" && body.icontains("id=\"res_copy_id\">netmoon technology")
+  body.icontains("css/nmn_common.css")
+  title == "web configuration" && body.icontains("res[i].copy=res[i].copy3;")
+  body.icontains("technology development co., ltd")

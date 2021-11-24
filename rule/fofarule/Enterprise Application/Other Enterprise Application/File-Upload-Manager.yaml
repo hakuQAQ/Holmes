@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: File-Upload-Manager
+  softhard: '2'
+matches: |
+  title.icontains("file upload manager") && body.icontains("<img src=\"/images/header.jpg\" alt=\"file upload manager\">")

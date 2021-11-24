@@ -1,0 +1,7 @@
+info:
+  company: sonarqube
+  product: SonarQube
+  softhard: '2'
+matches: |
+  body.icontains("content=\"sonarqube")
+  title == "sonarqube"

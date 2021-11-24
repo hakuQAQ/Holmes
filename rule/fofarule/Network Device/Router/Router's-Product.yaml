@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Router's-Product
+  softhard: '1'
+matches: |
+  banner.icontains("802.11n wireless adsl 2/2+ router")

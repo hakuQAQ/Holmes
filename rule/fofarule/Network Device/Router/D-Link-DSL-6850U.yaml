@@ -1,0 +1,7 @@
+info:
+  company: D-Link
+  product: D-Link-DSL-6850U
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"dsl-6850u")
+  banner.icontains("dsl-6850u")

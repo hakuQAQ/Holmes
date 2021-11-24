@@ -1,0 +1,6 @@
+info:
+  company: Apple Inc.
+  product: Apple-MacBookPro
+  softhard: '1'
+matches: |
+  banner.icontains("macbookpro12,1")

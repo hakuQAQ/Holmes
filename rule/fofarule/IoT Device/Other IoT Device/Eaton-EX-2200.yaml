@@ -1,0 +1,6 @@
+info:
+  company: Eaton.
+  product: Eaton-EX-2200
+  softhard: '1'
+matches: |
+  banner.icontains("ex 2200")

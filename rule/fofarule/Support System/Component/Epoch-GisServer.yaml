@@ -1,0 +1,6 @@
+info:
+  company: syswinsoft
+  product: Epoch-GisServer
+  softhard: '2'
+matches: |
+  title.icontains("epoch gisserver")

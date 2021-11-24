@@ -1,0 +1,6 @@
+info:
+  company: WallacePOS
+  product: WallacePOS
+  softhard: '2'
+matches: |
+  title.icontains("wallacepos")

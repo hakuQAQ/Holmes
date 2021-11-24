@@ -1,0 +1,6 @@
+info:
+  company: Trend Micro Incorporated.
+  product: TrendMicro-S8010F
+  softhard: '1'
+matches: |
+  cert.icontains("s8010f")

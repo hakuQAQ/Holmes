@@ -1,0 +1,7 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-NBG4615-v2
+  softhard: '1'
+matches: |
+  body.icontains("<li class=\"modelname\">nbg4615 v2</li>")
+  banner.icontains("nbg4615 v2 login")

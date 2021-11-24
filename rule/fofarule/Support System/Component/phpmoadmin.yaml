@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: phpmoadmin
+  softhard: '2'
+matches: |
+  title.icontains("phpmoadmin")

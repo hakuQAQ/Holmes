@@ -1,0 +1,7 @@
+info:
+  company: diyou
+  product: Diyou-P2P
+  softhard: '2'
+matches: |
+  body.icontains("/js/diyou.js")
+  body.icontains("src=\"/dyweb/dythemes")

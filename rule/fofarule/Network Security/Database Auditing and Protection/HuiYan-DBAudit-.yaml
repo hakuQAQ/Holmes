@@ -1,0 +1,6 @@
+info:
+  company: captech
+  product: HuiYan-DBAudit-
+  softhard: '1'
+matches: |
+  title.icontains("慧眼数据库审计系统")

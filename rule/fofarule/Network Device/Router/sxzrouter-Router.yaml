@@ -1,0 +1,6 @@
+info:
+  company: sxzrouter
+  product: sxzrouter-Router
+  softhard: '1'
+matches: |
+  title.icontains("神行者路由")

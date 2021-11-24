@@ -1,0 +1,6 @@
+info:
+  company: Juniper Networks, Inc.
+  product: JUNIPer-SSG-140
+  softhard: '1'
+matches: |
+  banner.icontains("ssg-140")

@@ -1,0 +1,6 @@
+info:
+  company: Hewlett Packard Enterprise Development LP
+  product: HP-Premier-Layer2-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("premier layer2 switch")

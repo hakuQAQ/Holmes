@@ -1,0 +1,6 @@
+info:
+  company: Pixmeo
+  product: osirix-viewer
+  softhard: '2'
+matches: |
+  body.icontains("service provided by <a href=\"https://www.osirix-viewer.com\"")

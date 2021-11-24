@@ -1,0 +1,6 @@
+info:
+  company: Seiko Epson Corporation.
+  product: Epson-Ethernet-Interface-Card
+  softhard: '1'
+matches: |
+  banner.icontains("epson ") && banner.icontains("ethernet interface card")

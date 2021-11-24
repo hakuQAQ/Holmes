@@ -1,0 +1,7 @@
+info:
+  company: Cloudera
+  product: Cloudera-Manager
+  softhard: '2'
+matches: |
+  header.icontains("set-cookie: cloudera_manager_sessionid=")
+  body.icontains("var loginpageurl = \"/cmf/login\";")

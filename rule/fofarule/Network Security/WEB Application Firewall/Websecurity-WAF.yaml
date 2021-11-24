@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Websecurity-WAF
+  softhard: '2'
+matches: |
+  header.icontains("websecurity: waf 1.0") && banner.icontains("websecurity: waf 1.0")

@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: IgniteNet-Access-Point
+  softhard: '1'
+matches: |
+  title.icontains("ignitenet access point configuration")

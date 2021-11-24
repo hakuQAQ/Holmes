@@ -1,0 +1,10 @@
+info:
+  company: Nucleus Group.
+  product: Nucleus-CMS
+  softhard: '2'
+matches: |
+  header.icontains("generator: nucleus cms")
+  banner.icontains("generator: nucleus cms")
+  body.icontains("target=\"_blank\">nucleus cms")
+  body.icontains("nucleus_lf_name")
+  body.icontains("title=\"nucleus\" href=\"http://nucleuscms.org/")

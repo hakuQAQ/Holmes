@@ -1,0 +1,6 @@
+info:
+  company: Yichao
+  product: Yichao-System
+  softhard: '2'
+matches: |
+  body.icontains("src=\"amy/webos/jpmanager.js\"")

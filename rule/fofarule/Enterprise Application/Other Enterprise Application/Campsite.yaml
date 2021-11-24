@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Campsite
+  softhard: '2'
+matches: |
+  body.icontains("content=\"campsite")

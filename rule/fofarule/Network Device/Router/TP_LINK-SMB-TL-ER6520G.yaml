@@ -1,0 +1,7 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TP_LINK-SMB-TL-ER6520G
+  softhard: '1'
+matches: |
+  header.icontains("server: tp-link smb tl-er6520g")
+  banner.icontains("tp-link_smb_tl-er6520g")

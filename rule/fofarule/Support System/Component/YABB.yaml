@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: YABB
+  softhard: '2'
+matches: |
+  header.icontains("y2user")
+  body.icontains("yabbtime.gettime()")
+  body.icontains("/yabb.js")

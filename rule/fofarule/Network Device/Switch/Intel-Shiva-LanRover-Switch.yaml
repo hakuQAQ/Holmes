@@ -1,0 +1,6 @@
+info:
+  company: Intel Corporation
+  product: Intel-Shiva-LanRover-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("shiva lanrover access switch")

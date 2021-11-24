@@ -1,0 +1,7 @@
+info:
+  company: OPENHOST
+  product: OpenNemas
+  softhard: '2'
+matches: |
+  title.icontains("- opennemas administration")
+  body.icontains("content=\"opennemas ")

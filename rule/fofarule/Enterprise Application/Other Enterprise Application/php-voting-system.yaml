@@ -1,0 +1,7 @@
+info:
+  company: vote123
+  product: php-voting-system
+  softhard: '2'
+matches: |
+  body.icontains("content=\"qq 7000719") && body.icontains("content=\"http://www.888072.com")
+  body.icontains("content=\"http://www.vote123.cn")

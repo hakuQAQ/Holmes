@@ -1,0 +1,8 @@
+info:
+  company: Sierra Wireless Inc.
+  product: SierraWireless-AirLinkManager
+  softhard: '1'
+matches: |
+  title.icontains("acemanager")
+  body.icontains("brander/acemanager.css")
+  body.icontains("redir=redir+\"/admin/acemanager\"")

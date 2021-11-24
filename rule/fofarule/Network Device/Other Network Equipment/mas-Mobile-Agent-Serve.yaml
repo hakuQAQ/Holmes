@@ -1,0 +1,9 @@
+info:
+  company: Other
+  product: mas-Mobile-Agent-Serve
+  softhard: '2'
+matches: |
+  title.icontains("mas移动代理服务器")
+  body.icontains("action='/mas_security_check'>")
+  body.icontains("if(!isnotnull(document.forms[0].filepath.value, \"证书文件\"))")
+  title.icontains("移动代理服务器")

@@ -1,0 +1,6 @@
+info:
+  company: COMMSCOPE
+  product: ARRIS-DSR-4440
+  softhard: '1'
+matches: |
+  banner.icontains("dsr-4440 ")

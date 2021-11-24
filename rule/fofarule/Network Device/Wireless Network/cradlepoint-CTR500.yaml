@@ -1,0 +1,7 @@
+info:
+  company: Cradlepoint, Inc.
+  product: cradlepoint-CTR500
+  softhard: '1'
+matches: |
+  title.icontains("cradlepoint ctr500 gateway")
+  banner.icontains("ctr500 login:")

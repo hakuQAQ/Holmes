@@ -1,0 +1,8 @@
+info:
+  company: Chinaiwb
+  product: Chinaiwb-Intelligent-Firewal
+  softhard: '1'
+matches: |
+  title.icontains("皓峰防火墙")
+  body.icontains(" <body bgcolor=#ddeeff onload=\"document.all.user.focus()\">")
+  body.icontains("style=\"background:url(images/login.gif) no-repeat center\"")

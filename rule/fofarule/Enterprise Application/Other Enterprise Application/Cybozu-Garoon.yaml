@@ -1,0 +1,7 @@
+info:
+  company: Cybozu, Inc.
+  product: Cybozu-Garoon
+  softhard: '2'
+matches: |
+  header.icontains("server: cybozu-ws")
+  banner.icontains("server: cybozu-ws")

@@ -1,0 +1,7 @@
+info:
+  company: wstmart
+  product: WSTMart
+  softhard: '2'
+matches: |
+  body.icontains("powered by wstmart")
+  body.icontains("href=\"/wstmart/home/")

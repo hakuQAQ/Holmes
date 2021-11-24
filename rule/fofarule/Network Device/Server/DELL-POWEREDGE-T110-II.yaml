@@ -1,0 +1,9 @@
+info:
+  company: Dell Inc.
+  product: DELL-POWEREDGE-T110-II
+  softhard: '1'
+matches: |
+  banner.icontains("poweredge-t110-ii")
+  header.icontains("poweredge-t110-ii")
+  cert.icontains("poweredge-t110-ii") && banner.icontains("poweredge-t110")
+  cert.icontains("poweredge-t110")

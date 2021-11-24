@@ -1,0 +1,8 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-ER6300
+  softhard: '1'
+matches: |
+  title.icontains("er6300系统管理")
+  header.icontains("h3c er6300")
+  banner.icontains("er6300")

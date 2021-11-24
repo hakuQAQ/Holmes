@@ -1,0 +1,8 @@
+info:
+  company: Veritas Technologies LLC
+  product: Veritas-NetBackup
+  softhard: '2'
+matches: |
+  title.icontains("veritas netbackup opscenter")
+  body.icontains("href=\"/opscenter/features/common/images/favicon.ico\"")
+  title.icontains("veritas netbackup web management console")

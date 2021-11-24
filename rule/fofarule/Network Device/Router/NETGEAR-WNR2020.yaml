@@ -1,0 +1,9 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-WNR2020
+  softhard: '1'
+matches: |
+  header.icontains("netgear wnr2020")
+  body.icontains("var model=\"wnr2020\"")
+  title.icontains("netgear wireless router wnr2020")
+  banner.icontains("netgear wnr2020")

@@ -1,0 +1,7 @@
+info:
+  company: Symantec Corporation
+  product: Symantec-Messaging-Gateway
+  softhard: '1'
+matches: |
+  title.icontains("symantec messaging gateway")
+  banner.icontains("symantec messaging gateway")

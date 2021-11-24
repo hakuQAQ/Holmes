@@ -1,0 +1,8 @@
+info:
+  company: Pallets.
+  product: flask
+  softhard: '2'
+matches: |
+  header.icontains("etag: flask")
+  header.icontains("x-powered-by: flask")
+  banner.icontains("etag: flask") && banner.icontains("x-powered-by: flask")

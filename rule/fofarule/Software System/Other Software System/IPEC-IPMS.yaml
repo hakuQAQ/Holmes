@@ -1,0 +1,6 @@
+info:
+  company: IPEC
+  product: IPEC-IPMS
+  softhard: '2'
+matches: |
+  body.icontains("/login/lpec/qrcode.html")

@@ -1,0 +1,7 @@
+info:
+  company: DAVOLINK. Inc.
+  product: DAVOLINK-Router
+  softhard: '1'
+matches: |
+  title.icontains("setup configuration")
+  header.icontains("set-cookie: acookie=")

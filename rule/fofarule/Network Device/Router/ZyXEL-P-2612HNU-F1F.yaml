@@ -1,0 +1,6 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-P-2612HNU-F1F
+  softhard: '1'
+matches: |
+  title.icontains("p-2612hnu-f1f")

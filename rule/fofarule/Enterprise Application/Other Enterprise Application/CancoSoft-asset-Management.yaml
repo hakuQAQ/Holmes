@@ -1,0 +1,7 @@
+info:
+  company: cancosoft
+  product: CancoSoft-asset-Management
+  softhard: '2'
+matches: |
+  title.icontains("佳克实物资产全生命周期的数据分析管理软件")
+  body.icontains("var path = \"/cassets\";")

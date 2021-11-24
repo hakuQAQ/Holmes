@@ -1,0 +1,6 @@
+info:
+  company: CNVP
+  product: CNVP-JCMS
+  softhard: '2'
+matches: |
+  body.icontains("publish by jcms2010")

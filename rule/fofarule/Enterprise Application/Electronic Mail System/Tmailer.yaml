@@ -1,0 +1,7 @@
+info:
+  company: taiheinfo
+  product: Tmailer
+  softhard: '2'
+matches: |
+  title.icontains("tmailer") && body.icontains("content=\"tmailer")
+  body.icontains("href=\"/tmailer/img/logo/favicon.ico")

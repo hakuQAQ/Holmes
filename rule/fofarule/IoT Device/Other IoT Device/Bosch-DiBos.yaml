@@ -1,0 +1,7 @@
+info:
+  company: Bosch Sicherheitssysteme GmbH
+  product: Bosch-DiBos
+  softhard: '1'
+matches: |
+  title.icontains("dibos - login")
+  body.icontains("style/bovisnt.css")

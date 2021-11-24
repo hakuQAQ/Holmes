@@ -1,0 +1,8 @@
+info:
+  company: D-Link
+  product: D-Link-DSL-Router
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"dsl router")
+  banner.icontains("realm=\"dsl router")
+  title == "dsl router"

@@ -1,0 +1,7 @@
+info:
+  company: IPX International Inc.
+  product: IPX-DDK-1700BC
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"ddk-1700bc")
+  banner.icontains("ddk-1700bc")

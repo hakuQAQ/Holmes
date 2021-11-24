@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: OrderBook
+  softhard: '2'
+matches: |
+  body.icontains("getorderbook: function")

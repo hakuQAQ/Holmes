@@ -1,0 +1,9 @@
+info:
+  company: imoffice
+  product: imo-cloud-office
+  softhard: '2'
+matches: |
+  header.icontains("/server/page_download/")
+  body.icontains("download/imo_setup.exe")
+  title.icontains("imo云办公室")
+  body.icontains("title=\"imo云办公室\" href=\"http://imoffice.com")

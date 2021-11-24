@@ -1,0 +1,7 @@
+info:
+  company: Springer Nature Switzerland AG.
+  product: Springer
+  softhard: '2'
+matches: |
+  header.icontains("springercomcountry=") && banner.icontains("springercomcountry=")
+  body.icontains("src=\"//static.springer.com/")

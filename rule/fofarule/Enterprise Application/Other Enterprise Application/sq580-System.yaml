@@ -1,0 +1,6 @@
+info:
+  company: sq580
+  product: sq580-System
+  softhard: '2'
+matches: |
+  body.icontains("3cspan id='cnzz_stat_icon_1274142628")

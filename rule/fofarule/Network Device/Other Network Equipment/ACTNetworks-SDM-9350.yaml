@@ -1,0 +1,6 @@
+info:
+  company: ACT Networks.
+  product: ACTNetworks-SDM-9350
+  softhard: '1'
+matches: |
+  banner.icontains("act networks - sdm-9350")

@@ -1,0 +1,6 @@
+info:
+  company: dahuatech
+  product: dahua-VIID
+  softhard: '1'
+matches: |
+  body.icontains("id=\"js_title\">视频图像信息库</span>")

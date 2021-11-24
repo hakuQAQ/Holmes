@@ -1,0 +1,6 @@
+info:
+  company: reyzar
+  product: reyzar-WAF
+  softhard: '2'
+matches: |
+  header.icontains("reyzar-waf")

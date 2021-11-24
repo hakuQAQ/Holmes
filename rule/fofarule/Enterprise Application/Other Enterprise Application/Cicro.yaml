@@ -1,0 +1,8 @@
+info:
+  company: Cicro
+  product: Cicro
+  softhard: '2'
+matches: |
+  body.icontains("cicro") && body.icontains("cws") && body.icontains("content=\"cicro")
+  body.icontains("index.files/cicro_userdefine.css")
+  body.icontains("structure/index") && body.icontains("window.location.href=")

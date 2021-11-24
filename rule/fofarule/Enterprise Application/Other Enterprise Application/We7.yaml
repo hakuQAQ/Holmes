@@ -1,0 +1,6 @@
+info:
+  company: westengine
+  product: We7
+  softhard: '2'
+matches: |
+  body.icontains("/widgets/widgetcollection/")

@@ -1,0 +1,6 @@
+info:
+  company: videocomm
+  product: videocomm-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  body.icontains("<frame src=\"login.aspx\" name=\"contents\"  scrolling=auto frameborder")

@@ -1,0 +1,8 @@
+info:
+  company: COMMSCOPE
+  product: ARRIS-CMTS
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp")
+  banner.icontains("cmts_v05.01.06.05")
+  banner.icontains("arris")

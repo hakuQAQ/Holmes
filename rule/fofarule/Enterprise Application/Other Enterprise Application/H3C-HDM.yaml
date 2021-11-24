@@ -1,0 +1,8 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-HDM
+  softhard: '2'
+matches: |
+  body.icontains("/video_record.jnlp")
+  body.icontains("<iframe frameborder=\"0\" class=\"framelayout\" src=\"./page/blank.html\" name=\"mainframe\" id=\"mainframe")
+  header.icontains("h3c-hdm")

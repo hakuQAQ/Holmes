@@ -1,0 +1,7 @@
+info:
+  company: Microsoft Corporation
+  product: Windows-NT-6.1
+  softhard: '2'
+matches: |
+  banner.icontains("server os: windows nt 6.1")
+  header.icontains("windows nt 6.1")

@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: SIPGateway
+  softhard: '1'
+matches: |
+  title.icontains("sippuaccessserverctx") && body.icontains("<h5><a href=\"config.htm?file=config.htm\">start page</a></h5>")

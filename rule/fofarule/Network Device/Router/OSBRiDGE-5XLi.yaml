@@ -1,0 +1,6 @@
+info:
+  company: OSBRiDGE
+  product: OSBRiDGE-5XLi
+  softhard: '1'
+matches: |
+  banner.icontains("osbridge 5xli")

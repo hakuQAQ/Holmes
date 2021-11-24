@@ -1,0 +1,6 @@
+info:
+  company: Schneider Electric
+  product: Schneider-TAC-Xenta527
+  softhard: '1'
+matches: |
+  banner.icontains("tac xenta527")

@@ -1,0 +1,9 @@
+info:
+  company: Other
+  product: MailEnable
+  softhard: '2'
+matches: |
+  body.icontains("<!-- loginpanel_shell_table -->")
+  title == "mailenable - webmail" && body.icontains("class=\"loginpanel_botleft_div")
+  protocol.icontains("smtp") && banner.icontains("mailenable")
+  banner.icontains("mailenable pop3 server")

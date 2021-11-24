@@ -1,0 +1,6 @@
+info:
+  company: Leanote
+  product: Leanote-Notepad
+  softhard: '2'
+matches: |
+  body.icontains("name=\"author\" content=\"leanote,蚂蚁笔记\"")

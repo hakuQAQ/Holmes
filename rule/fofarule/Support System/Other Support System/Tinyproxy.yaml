@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: Tinyproxy
+  softhard: '2'
+matches: |
+  header.icontains("server: tinyproxy/")
+  banner.icontains("server: tinyproxy/")

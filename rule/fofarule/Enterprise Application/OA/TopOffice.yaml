@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: TopOffice
+  softhard: '2'
+matches: |
+  title.icontains("topoffice协同办公系统")

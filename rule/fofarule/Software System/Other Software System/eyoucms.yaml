@@ -1,0 +1,7 @@
+info:
+  company: eyoucms
+  product: eyoucms
+  softhard: '2'
+matches: |
+  body.icontains("powered by eyoucms")
+  body.icontains("name=\"generator\" content=\"eyoucms")

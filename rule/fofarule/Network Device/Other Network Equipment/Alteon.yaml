@@ -1,0 +1,7 @@
+info:
+  company: Radware
+  product: Alteon
+  softhard: '0'
+matches: |
+  header.icontains("alteon (d.s.) server") && banner.icontains("server: alteon (d.s.) server")
+  banner.icontains("ssh-2.0-alteon")

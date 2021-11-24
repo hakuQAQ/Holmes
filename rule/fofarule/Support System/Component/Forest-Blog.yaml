@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Forest-Blog
+  softhard: '2'
+matches: |
+  title.icontains("forest blog")

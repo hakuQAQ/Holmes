@@ -1,0 +1,7 @@
+info:
+  company: Sony Corporation
+  product: SONY-PCS-1600
+  softhard: '1'
+matches: |
+  header.icontains("basic realm=\"pcs-1600 web control\"")
+  banner.icontains("basic realm=\"pcs-1600 web control\"")

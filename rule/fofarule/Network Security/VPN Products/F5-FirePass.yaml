@@ -1,0 +1,9 @@
+info:
+  company: F5 Networks, Inc.
+  product: F5-FirePass
+  softhard: '1'
+matches: |
+  header.icontains("uroamtestcookie")
+  header.icontains("mrhsession")
+  header.icontains("vhost") && header.icontains("mrhintranetsession")
+  header.icontains("mrhcid")

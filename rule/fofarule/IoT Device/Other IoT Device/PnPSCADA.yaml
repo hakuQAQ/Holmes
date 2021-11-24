@@ -1,0 +1,8 @@
+info:
+  company: SDG Technologies cc.
+  product: PnPSCADA
+  softhard: '1'
+matches: |
+  title.icontains("welcome to plug and play scada")
+  title.icontains("login - pnpscada")
+  body.icontains("style='font-family:arial;font-size:10px'>pnpscada ")

@@ -1,0 +1,9 @@
+info:
+  company: Other
+  product: BackupPC
+  softhard: '1'
+matches: |
+  header.icontains("backuppc_admin")
+  banner.icontains("backuppc_admin")
+  header.icontains("backup") && body.icontains("/backuppc/image/logo.gif")
+  body.icontains("/index.cgi?action=editconfig")

@@ -1,0 +1,6 @@
+info:
+  company: YouYaLi
+  product: Communication-Service-Management-System
+  softhard: '2'
+matches: |
+  title.icontains("系统登录") && body.icontains("苏州优亚利电子科技有限公司")

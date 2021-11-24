@@ -1,0 +1,8 @@
+info:
+  company: avcon
+  product: AVCON6
+  softhard: '1'
+matches: |
+  body.icontains("filename=avcon6setup.exe")
+  title.icontains("avcon6系统管理平台")
+  body.icontains("language_dispose.action")

@@ -1,0 +1,8 @@
+info:
+  company: eqmail
+  product: Spammark-Mail-information-security-gateway
+  softhard: '1'
+matches: |
+  title.icontains("spammark邮件信息安全网关")
+  body.icontains("/cgi-bin/spammark?empty=1")
+  banner.icontains("smtp server (spammark")

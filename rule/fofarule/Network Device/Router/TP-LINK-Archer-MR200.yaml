@@ -1,0 +1,8 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TP-LINK-Archer-MR200
+  softhard: '1'
+matches: |
+  banner.icontains("0.9.1 0.0 v004a.0 build 151105 rel.42292n")
+  banner.icontains("0.9.1 0.0 v004a.0 build 160412 rel.38588n")
+  banner.icontains("0.9.1 1.1 v004a.0 build 160905 rel.60037n")

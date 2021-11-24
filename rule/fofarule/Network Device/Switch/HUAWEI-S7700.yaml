@@ -1,0 +1,7 @@
+info:
+  company: HUAWEI
+  product: HUAWEI-S7700
+  softhard: '1'
+matches: |
+  header.icontains("s7700")
+  header.icontains("server") && banner.icontains("s7700")

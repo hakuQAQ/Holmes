@@ -1,0 +1,7 @@
+info:
+  company: Tilgin AB.
+  product: i3micro
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"i3micro")
+  banner.icontains("realm=\"i3micro")

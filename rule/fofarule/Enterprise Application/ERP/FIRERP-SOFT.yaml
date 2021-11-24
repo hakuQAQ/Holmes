@@ -1,0 +1,7 @@
+info:
+  company: FirSoft
+  product: FIRERP-SOFT
+  softhard: '2'
+matches: |
+  title.icontains("菲尔教学管理erp")
+  body.icontains("mm_preloadimages('images/bt/bt_login_b.gif")

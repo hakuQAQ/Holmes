@@ -1,0 +1,6 @@
+info:
+  company: skyworth
+  product: SKYWORTH-Android-TV
+  softhard: '1'
+matches: |
+  banner.icontains("skyworth android tv")

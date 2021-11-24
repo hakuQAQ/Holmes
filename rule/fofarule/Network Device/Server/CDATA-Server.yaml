@@ -1,0 +1,8 @@
+info:
+  company: cdatatec
+  product: CDATA-Server
+  softhard: '1'
+matches: |
+  body.icontains("var key = evt.keycode?evt.keycode:evt.which")
+  body.icontains("placeholder=\"请输入管理员密码\"")
+  body.icontains("placeholder=\"please enter administrator password\"")

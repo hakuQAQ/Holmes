@@ -1,0 +1,7 @@
+info:
+  company: Maipu
+  product: Maipu-VPN
+  softhard: '1'
+matches: |
+  banner.icontains("mpsec-")
+  banner.icontains("ac")

@@ -1,0 +1,7 @@
+info:
+  company: YMail
+  product: YMail-Optical-Content-Reading
+  softhard: '2'
+matches: |
+  title.icontains("ymail's 智能反垃圾邮件系统")
+  body.icontains("/ymail/default/js/menu.js")

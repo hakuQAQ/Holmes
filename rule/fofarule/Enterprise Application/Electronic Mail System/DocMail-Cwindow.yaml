@@ -1,0 +1,9 @@
+info:
+  company: docmail
+  product: DocMail-Cwindow
+  softhard: '2'
+matches: |
+  body.icontains("href=\"http://www.docmail.cn/android/app/docmail.apk")
+  body.icontains("content=\"北京国信冠群技术有限公司,国信冠群,邮件")
+  title.icontains("cwindow云视窗安全电子邮件")
+  body.icontains("<a href=\"http://www.docmail.cn\" target=\"_blank\">")

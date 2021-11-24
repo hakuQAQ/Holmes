@@ -1,0 +1,7 @@
+info:
+  company: Roxen AB
+  product: Roxen
+  softhard: '2'
+matches: |
+  header.icontains("roxen")
+  banner.icontains("server: roxen")

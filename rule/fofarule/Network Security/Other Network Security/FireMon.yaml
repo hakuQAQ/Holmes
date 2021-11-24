@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: FireMon
+  softhard: '2'
+matches: |
+  title.icontains("firemon")

@@ -1,0 +1,7 @@
+info:
+  company: Oracle Corporation
+  product: Oracle-PeopleSoft
+  softhard: '2'
+matches: |
+  header.icontains("ps_tokenexpire")
+  banner.icontains("ps_tokenexpire")

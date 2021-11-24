@@ -1,0 +1,11 @@
+info:
+  company: Microsoft Corporation
+  product: ASP.NET-MVC
+  softhard: '2'
+matches: |
+  header.icontains("aspnetmvc")
+  banner.icontains("aspnetmvc")
+  title.icontains("asp.net mvc 应用程序")
+  title.icontains("my asp.net mvc application")
+  body.icontains("<h2>modify this template to jump-start your asp.net mvc application.</h2>")
+  body.icontains("asp.net mvc application</p>")

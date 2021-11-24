@@ -1,0 +1,8 @@
+info:
+  company: FC2, Inc.
+  product: FC2-Blog
+  softhard: '2'
+matches: |
+  header.icontains("bloguid")
+  header.icontains("cookietest=test")
+  banner.icontains("bloguid") && banner.icontains("cookietest=test")

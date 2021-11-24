@@ -1,0 +1,6 @@
+info:
+  company: intelbras lnc.
+  product: Intelbras-DVR
+  softhard: '1'
+matches: |
+  banner.icontains("intelbras dvr")

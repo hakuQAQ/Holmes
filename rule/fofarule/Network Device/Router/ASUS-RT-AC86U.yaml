@@ -1,0 +1,9 @@
+info:
+  company: ASUS
+  product: ASUS-RT-AC86U
+  softhard: '1'
+matches: |
+  banner.icontains("rt-ac86u")
+  body.icontains("<div class=\"prod_madelname\">rt-ac86u")
+  title.icontains("asus wireless router rt-ac86u")
+  cert.icontains("rt-ac86u")

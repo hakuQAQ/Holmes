@@ -1,0 +1,8 @@
+info:
+  company: wrzc
+  product: Wygk-Product
+  softhard: '2'
+matches: |
+  body.icontains("href=\"wrzcnet.ico")
+  body.icontains("<a href=\"mailto:webmaster@wrzc.net")
+  body.icontains("url = 'wrzcnet_vote.asp?stype=view';")

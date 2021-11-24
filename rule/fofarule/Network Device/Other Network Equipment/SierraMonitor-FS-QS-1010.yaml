@@ -1,0 +1,8 @@
+info:
+  company: Sierra Monitor Corporation
+  product: SierraMonitor-FS-QS-1010
+  softhard: '1'
+matches: |
+  banner.icontains("fieldserver technologies")
+  banner.icontains("fs-qs-1010")
+  header.icontains("realm=\"fs-qs-1010")

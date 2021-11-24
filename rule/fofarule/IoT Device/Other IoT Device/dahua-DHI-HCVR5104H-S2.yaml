@@ -1,0 +1,8 @@
+info:
+  company: Dahua
+  product: dahua-DHI-HCVR5104H-S2
+  softhard: '1'
+matches: |
+  banner.icontains("dhi-hcvr5104h-s2")
+  banner.icontains("dh-hcvr5104h-s2")
+  banner.icontains("hcvr5104h-s2")

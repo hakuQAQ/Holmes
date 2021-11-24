@@ -1,0 +1,6 @@
+info:
+  company: EnGenius Technologies, Inc.
+  product: EnGenius-Mesh-AP
+  softhard: '1'
+matches: |
+  banner.icontains("engenius mesh ap")

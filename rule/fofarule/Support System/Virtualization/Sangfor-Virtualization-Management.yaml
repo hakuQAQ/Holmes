@@ -1,0 +1,9 @@
+info:
+  company: Sangfor
+  product: Sangfor-Virtualization-Management
+  softhard: '2'
+matches: |
+  body.icontains("content=\"webkit|ie-stand\"")
+  body.icontains("id=\"privacytipwin\"")
+  cert.icontains("cn=sangfor vtp")
+  cert.icontains("commonname: sangfor vtp")

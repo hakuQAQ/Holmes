@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: naxsi
+  softhard: '2'
+matches: |
+  header.icontains("x-data-origin: naxsi") && banner.icontains("x-data-origin: naxsi")

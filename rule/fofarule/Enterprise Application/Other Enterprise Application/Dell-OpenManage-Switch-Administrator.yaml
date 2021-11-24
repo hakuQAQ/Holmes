@@ -1,0 +1,8 @@
+info:
+  company: Dell Inc.
+  product: Dell-OpenManage-Switch-Administrator
+  softhard: '2'
+matches: |
+  title.icontains("dell openmanage switch administrator")
+  body.icontains("window.top.location.href = \"dell_login.html")
+  body.icontains("progressgraphicnone")

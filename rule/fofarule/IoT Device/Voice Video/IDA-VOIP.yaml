@@ -1,0 +1,9 @@
+info:
+  company: IDA Corporation
+  product: IDA-VOIP
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"ida 20-28 voip")
+  header.icontains("realm=\"ida voip")
+  banner.icontains("realm=\"ida 20-28 voip")
+  banner.icontains("ida voip")

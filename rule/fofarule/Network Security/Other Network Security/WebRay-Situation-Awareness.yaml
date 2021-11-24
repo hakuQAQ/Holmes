@@ -1,0 +1,6 @@
+info:
+  company: webray
+  product: WebRay-Situation-Awareness
+  softhard: '2'
+matches: |
+  body.icontains("class=\"disclaimer\" style=\"color: #ffffff\">《盛邦安全网站监控预警平台服务协议》</a>")

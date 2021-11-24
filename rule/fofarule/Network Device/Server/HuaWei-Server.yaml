@@ -1,0 +1,9 @@
+info:
+  company: HUAWEI
+  product: HuaWei-Server
+  softhard: '1'
+matches: |
+  header.icontains("huawei-bmc")
+  title.icontains("imana&nbsp;200 login")
+  body.icontains("src=\"custom/logo.gif\"")
+  body.icontains("control/images/about.gif")

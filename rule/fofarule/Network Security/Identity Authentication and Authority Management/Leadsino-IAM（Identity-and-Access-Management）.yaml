@@ -1,0 +1,7 @@
+info:
+  company: Leadsino
+  product: Leadsino-IAM（Identity-and-Access-Management）
+  softhard: '2'
+matches: |
+  body.icontains("src='/public/sheme/default/images/ajax-loader.gif'")
+  body.icontains("杭州汉领信息科技有限公司")

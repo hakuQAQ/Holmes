@@ -1,0 +1,6 @@
+info:
+  company: chelen
+  product: chelen-System
+  softhard: '2'
+matches: |
+  body.icontains("iaus/media/js/login/login.js")

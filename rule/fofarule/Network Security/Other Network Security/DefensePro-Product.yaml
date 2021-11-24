@@ -1,0 +1,6 @@
+info:
+  company: DefensePro
+  product: DefensePro-Product
+  softhard: '2'
+matches: |
+  protocol.icontains("snmp") && banner.icontains("defensepro with ")

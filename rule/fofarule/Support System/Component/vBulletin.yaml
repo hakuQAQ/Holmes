@@ -1,0 +1,10 @@
+info:
+  company: vBulletin Solutions
+  product: vBulletin
+  softhard: '2'
+matches: |
+  title.icontains("powered by vbulletin")
+  body.icontains("content=\"vbulletin")
+  header.icontains("bbsessionhash") && header.icontains("bblastvisit")
+  body.icontains("powered by vbulletin&trade;")
+  body.icontains("<!-- do not remove this copyright notice -->powered by < a href=\"https://www.vbulletin.com\" id=\"vbulletinlink\">")

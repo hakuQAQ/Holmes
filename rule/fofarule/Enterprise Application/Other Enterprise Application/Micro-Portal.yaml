@@ -1,0 +1,6 @@
+info:
+  company: tvm
+  product: Micro-Portal
+  softhard: '2'
+matches: |
+  body.icontains("/tpl/home/weimeng/common/css/")

@@ -1,0 +1,6 @@
+info:
+  company: Panasonic Corporation
+  product: Panasonic-DP-Printer
+  softhard: '1'
+matches: |
+  banner.icontains("panasonic dp-")

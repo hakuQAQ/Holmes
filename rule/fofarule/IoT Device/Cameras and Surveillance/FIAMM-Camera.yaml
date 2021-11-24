@@ -1,0 +1,8 @@
+info:
+  company: sinonet
+  product: FIAMM-Camera
+  softhard: '1'
+matches: |
+  header.icontains("fiamm onvif")
+  body.icontains("fiamm. all rights reserved.")
+  body.icontains("vb.htm?authority3=")

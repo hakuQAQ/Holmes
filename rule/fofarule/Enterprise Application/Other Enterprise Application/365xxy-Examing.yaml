@@ -1,0 +1,7 @@
+info:
+  company: 365xxy
+  product: 365xxy-Examing
+  softhard: '2'
+matches: |
+  body.icontains("href=https://unpkg.com/element-ui/lib/theme-chalk/index.css")
+  body.icontains("<title>云时政在线考试系统</title>")

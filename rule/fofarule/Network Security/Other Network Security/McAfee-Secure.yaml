@@ -1,0 +1,6 @@
+info:
+  company: McAfee, Inc.
+  product: McAfee-Secure
+  softhard: '0'
+matches: |
+  body.icontains("www.mcafeesecure.com/ratingverify?ref=")

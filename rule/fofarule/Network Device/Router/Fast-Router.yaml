@@ -1,0 +1,7 @@
+info:
+  company: fast
+  product: Fast-Router
+  softhard: '1'
+matches: |
+  header.icontains("fast ")
+  header.icontains("router") && banner.icontains("fast ") && banner.icontains("router") && title.icontains("fast 无线路由器") && body.icontains("<a href=\"http://www.fastcom.com.cn\"><img src=\"../img/login/logo.gif")

@@ -1,0 +1,9 @@
+info:
+  company: Tripp Lite
+  product: PowerAlert
+  softhard: '2'
+matches: |
+  header.icontains("realm=\"poweralert")
+  banner.icontains("realm=\"poweralert")
+  header.icontains("server: poweralert http server")
+  banner.icontains("server: poweralert http server")

@@ -1,0 +1,6 @@
+info:
+  company: venustech
+  product: Web application detection system
+  softhard: '1'
+matches: |
+  title.icontains("天镜web应用检测系统")

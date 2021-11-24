@@ -1,0 +1,8 @@
+info:
+  company: '263'
+  product: 263-Meeting
+  softhard: '2'
+matches: |
+  title.icontains("263会议管理中心")
+  body.icontains("<frame src=\"/jsp/conference/meetinglist.jsp\" name=\"mainframe\"/>")
+  title == "263电话会议"

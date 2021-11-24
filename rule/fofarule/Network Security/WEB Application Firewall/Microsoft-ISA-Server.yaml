@@ -1,0 +1,7 @@
+info:
+  company: Microsoft Corporation
+  product: Microsoft-ISA-Server
+  softhard: '2'
+matches: |
+  body.icontains("the isa server denied the specified uniform resource locator")
+  body.icontains("the server denied the specified uniform resource locator (url). contact the server administrator")

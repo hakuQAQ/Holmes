@@ -1,0 +1,6 @@
+info:
+  company: LG Electronics.
+  product: LG-43UM7510PSB
+  softhard: '1'
+matches: |
+  body.icontains("<modelnumber>43um7510psb</modelnumber>")

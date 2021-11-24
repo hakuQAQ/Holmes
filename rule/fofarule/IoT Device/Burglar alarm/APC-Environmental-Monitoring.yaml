@@ -1,0 +1,6 @@
+info:
+  company: Schneider Electric
+  product: APC-Environmental-Monitoring
+  softhard: '1'
+matches: |
+  banner.icontains("apc environmental monitoring unit")

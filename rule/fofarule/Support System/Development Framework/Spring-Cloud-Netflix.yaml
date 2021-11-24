@@ -1,0 +1,8 @@
+info:
+  company: VMware, Inc.
+  product: Spring-Cloud-Netflix
+  softhard: '2'
+matches: |
+  title.icontains("hystrix dashboard")
+  header.icontains("x-application-context: hystrix-dashboard:")
+  banner.icontains("x-application-context: hystrix-dashboard:")

@@ -1,0 +1,6 @@
+info:
+  company: Barracuda Networks, Inc.
+  product: Barracuda-Backup-Server
+  softhard: '1'
+matches: |
+  header.icontains("backup_local_locale") && banner.icontains("backup_local_locale")

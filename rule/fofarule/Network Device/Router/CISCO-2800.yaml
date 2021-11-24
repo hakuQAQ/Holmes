@@ -1,0 +1,8 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-2800
+  softhard: '1'
+matches: |
+  banner.icontains("cisco ios software, 2800 software")
+  banner.icontains("cisco 2800")
+  banner.icontains("cisco 2800")

@@ -1,0 +1,8 @@
+info:
+  company: ACME Laboratories
+  product: ACME-PLC-Wireless-Router
+  softhard: '1'
+matches: |
+  body.icontains("plc systems, inc.")
+  title.icontains("plc wireless router")
+  body.icontains("lang_firmwarelogin")

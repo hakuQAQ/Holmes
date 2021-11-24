@@ -1,0 +1,6 @@
+info:
+  company: jufenginfo
+  product: jufenginfo-Camera
+  softhard: '1'
+matches: |
+  title.icontains("jftech")

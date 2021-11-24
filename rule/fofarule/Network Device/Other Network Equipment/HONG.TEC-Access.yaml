@@ -1,0 +1,6 @@
+info:
+  company: hongtec
+  product: HONG.TEC-Access
+  softhard: '1'
+matches: |
+  banner.icontains("ac-hong.tec-access ")

@@ -1,0 +1,7 @@
+info:
+  company: International Business Machines Corporation
+  product: Internet-Cluster-Manager
+  softhard: '2'
+matches: |
+  header.icontains("server: internet cluster manager")
+  banner.icontains("server: internet cluster manager")

@@ -1,0 +1,7 @@
+info:
+  company: Avaya Inc.
+  product: Nortel-Business-Secure-Router
+  softhard: '1'
+matches: |
+  banner.icontains("business secure router")
+  banner.icontains("nortel ")

@@ -1,0 +1,6 @@
+info:
+  company: Samsung Group
+  product: Samsung-ML-371x-Series
+  softhard: '1'
+matches: |
+  banner.icontains("samsung ml-371x series")

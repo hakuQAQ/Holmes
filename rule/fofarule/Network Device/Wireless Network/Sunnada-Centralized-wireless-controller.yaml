@@ -1,0 +1,7 @@
+info:
+  company: sunnada
+  product: Sunnada-Centralized-wireless-controller
+  softhard: '1'
+matches: |
+  banner.icontains("ac-sunnada-access ")
+  body.icontains("三元达通讯 - 集中无线控制器'")

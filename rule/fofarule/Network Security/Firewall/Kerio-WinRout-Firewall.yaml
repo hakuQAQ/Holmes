@@ -1,0 +1,10 @@
+info:
+  company: Kerio Technologies Inc.
+  product: Kerio-WinRout-Firewall
+  softhard: '1'
+matches: |
+  header.icontains("kerio winroute firewall")
+  banner.icontains("kerio winroute firewall")
+  body.icontains("style/bodynonauth.css")
+  body.icontains("/gfx/kerio_logo.gif")
+  title.icontains("kerio winroute firewall")

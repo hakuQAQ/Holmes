@@ -1,0 +1,8 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-XWN5001
+  softhard: '1'
+matches: |
+  header.icontains("netgear xwn5001")
+  title.icontains("netgear plc ap xwn5001")
+  banner.icontains("netgear xwn5001")

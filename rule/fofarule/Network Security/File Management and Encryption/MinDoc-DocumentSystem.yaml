@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: MinDoc-DocumentSystem
+  softhard: '2'
+matches: |
+  header.icontains("mindoc-version")
+  banner.icontains("mindoc-version")
+  body.icontains("powered by mindoc") && title.icontains("mindoc 接口文档在线管理系统")

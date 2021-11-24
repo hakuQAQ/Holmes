@@ -1,0 +1,8 @@
+info:
+  company: Axway Software
+  product: Axway-SecureTransport
+  softhard: '2'
+matches: |
+  header.icontains("securetransport")
+  title.icontains("welcome to securetransport")
+  title.icontains("axway securetransport")

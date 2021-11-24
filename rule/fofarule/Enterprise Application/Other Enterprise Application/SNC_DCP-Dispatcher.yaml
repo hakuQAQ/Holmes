@@ -1,0 +1,6 @@
+info:
+  company: NDCP
+  product: SNC_DCP-Dispatcher
+  softhard: '0'
+matches: |
+  title.icontains("snc-dcp dispatcher")

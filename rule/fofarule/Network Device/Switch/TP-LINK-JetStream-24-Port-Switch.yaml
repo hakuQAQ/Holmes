@@ -1,0 +1,6 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TP-LINK-JetStream-24-Port-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("jetstream 24-port gigabit l2 managed switch")

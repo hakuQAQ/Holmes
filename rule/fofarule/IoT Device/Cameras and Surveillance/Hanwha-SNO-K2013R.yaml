@@ -1,0 +1,6 @@
+info:
+  company: Hanwha Techwin Co., Ltd.
+  product: Hanwha-SNO-K2013R
+  softhard: '1'
+matches: |
+  body.icontains("var defaultfilename = \"sno-k2013r\"")

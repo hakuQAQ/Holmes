@@ -1,0 +1,7 @@
+info:
+  company: pengder
+  product: Scientific-research-instrument-network-service-platform
+  softhard: '2'
+matches: |
+  body.icontains("content: \"/lfsms/user/login2?go=\" + go")
+  title.icontains("科研仪器网络服务平台")

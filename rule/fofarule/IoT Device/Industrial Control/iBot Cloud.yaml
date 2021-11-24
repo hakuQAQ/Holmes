@@ -1,0 +1,7 @@
+info:
+  company: xiaoi
+  product: iBot Cloud
+  softhard: '2'
+matches: |
+  body.icontains("author:lvzhaohua")
+  title.icontains("小i智能机器人统一管理平台")

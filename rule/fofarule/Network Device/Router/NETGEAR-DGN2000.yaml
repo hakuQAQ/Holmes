@@ -1,0 +1,7 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-DGN2000
+  softhard: '1'
+matches: |
+  banner.icontains("netgear dgn2000")
+  header.icontains("netgear dgn2000 ")

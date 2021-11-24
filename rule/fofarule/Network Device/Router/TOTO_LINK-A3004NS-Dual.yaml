@@ -1,0 +1,6 @@
+info:
+  company: TOTOLINK Corp.
+  product: TOTO_LINK-A3004NS-Dual
+  softhard: '1'
+matches: |
+  body.icontains("src =\"/images2/login_back_za3nd.ch.gif\"")

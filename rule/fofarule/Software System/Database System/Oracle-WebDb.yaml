@@ -1,0 +1,8 @@
+info:
+  company: Oracle Corporation
+  product: Oracle-WebDb
+  softhard: '2'
+matches: |
+  header.icontains("server: oracle_webdb_listener")
+  banner.icontains("server: oracle_webdb_listener")
+  header.icontains("/webdb/webdb.home")

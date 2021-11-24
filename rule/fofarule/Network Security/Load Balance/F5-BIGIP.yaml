@@ -1,0 +1,16 @@
+info:
+  company: F5 Networks, Inc.
+  product: F5-BIGIP
+  softhard: '2'
+matches: |
+  header.icontains("bigipserver")
+  header.icontains("x-wa-info")
+  header.icontains("x-pvinfo") && header.icontains("f5_load") && title.icontains("big-ip&reg;")
+  header.icontains("realm=\"big-ip")
+  header.icontains("bigip") && header.icontains("big-ip") && header.icontains("mrhsession")
+  header.icontains("lastmrh_session")
+  header.icontains("f5_fullwt=")
+  header.icontains("f5_ht_shrinked=")
+  header.icontains("mrhshint=")
+  body.icontains("content=\"f5 networks, inc.")
+  title.icontains("big-ip") && banner.icontains("bigip")

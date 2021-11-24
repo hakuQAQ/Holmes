@@ -1,0 +1,6 @@
+info:
+  company: topwalk
+  product: Topwalk-DTP
+  softhard: '1'
+matches: |
+  banner.icontains("topwalk") && protocol.icontains("ftp")

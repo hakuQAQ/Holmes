@@ -1,0 +1,7 @@
+info:
+  company: appexnetworks
+  product: LotWan-Web-accelerator
+  softhard: '2'
+matches: |
+  title.icontains("lotwan 广域网加速系统")
+  body.icontains("北京华夏创新科技有限公司")

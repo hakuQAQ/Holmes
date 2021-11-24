@@ -1,0 +1,7 @@
+info:
+  company: OCS Inventory NG
+  product: OCS-Inventory-NG
+  softhard: '2'
+matches: |
+  body.icontains("css/ocsreports.css")
+  title == "ocs inventory"

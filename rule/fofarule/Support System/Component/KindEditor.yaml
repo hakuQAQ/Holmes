@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: KindEditor
+  softhard: '2'
+matches: |
+  body.icontains("kindeditor.js")
+  body.icontains("kindeditor.ready")
+  body.icontains("k.create") && body.icontains("kindeditor-min.js")

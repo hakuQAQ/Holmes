@@ -1,0 +1,6 @@
+info:
+  company: kouton
+  product: KOUTON-CTBS
+  softhard: '2'
+matches: |
+  body.icontains("欢迎使用 kouton ctbs advanced web client 系统!")

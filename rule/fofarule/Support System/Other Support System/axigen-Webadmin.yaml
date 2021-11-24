@@ -1,0 +1,9 @@
+info:
+  company: Axigen Messaging SRL
+  product: axigen-Webadmin
+  softhard: '2'
+matches: |
+  header.icontains("axigen-webadmin")
+  banner.icontains("axigen-webadmin")
+  banner.icontains("server: ") && body.icontains("<div class=\"name\">axigen&nbsp;webadmin</div>")
+  title.icontains("webadmin")

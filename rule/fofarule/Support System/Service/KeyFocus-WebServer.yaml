@@ -1,0 +1,7 @@
+info:
+  company: KeyFocus Ltd
+  product: KeyFocus-WebServer
+  softhard: '2'
+matches: |
+  header.icontains("server: kfwebserver")
+  banner.icontains("server: kfwebserver")

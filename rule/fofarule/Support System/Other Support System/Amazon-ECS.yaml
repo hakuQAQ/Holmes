@@ -1,0 +1,7 @@
+info:
+  company: Amazon.com, Inc.
+  product: Amazon-ECS
+  softhard: '2'
+matches: |
+  header.icontains("x-amz-error-")
+  banner.icontains("x-amz-error-")

@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: Swiftlet
+  softhard: '2'
+matches: |
+  header.icontains("swiftlet")
+  banner.icontains("swiftlet")

@@ -1,0 +1,7 @@
+info:
+  company: bugscan
+  product: BugScan
+  softhard: '2'
+matches: |
+  body.icontains("<title>bugscan memos</title>")
+  body.icontains("powered by bugscan")

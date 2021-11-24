@@ -1,0 +1,8 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-RV016-VPN-Router
+  softhard: '1'
+matches: |
+  banner.icontains("rv016 vpn router")
+  header.icontains("realm=\"rv016")
+  banner.icontains("realm=\"rv016")

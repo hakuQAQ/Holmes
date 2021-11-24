@@ -1,0 +1,7 @@
+info:
+  company: Verizon Communications Inc.
+  product: Verizon-Wireless-Router
+  softhard: '1'
+matches: |
+  title.icontains("wireless broadband router management console")
+  body.icontains("verizon_logo_blk.gif")

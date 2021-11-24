@@ -1,0 +1,6 @@
+info:
+  company: IP-COM
+  product: IP-COM
+  softhard: '1'
+matches: |
+  title.icontains("ip-com | login")

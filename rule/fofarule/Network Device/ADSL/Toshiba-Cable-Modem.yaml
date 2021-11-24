@@ -1,0 +1,7 @@
+info:
+  company: Toshiba Co. Ltd.
+  product: Toshiba-Cable-Modem
+  softhard: '1'
+matches: |
+  title.icontains("toshiba cable modem pcx3000")
+  header.icontains("pcx3000") && body.icontains("<font color=\"#980040\">")

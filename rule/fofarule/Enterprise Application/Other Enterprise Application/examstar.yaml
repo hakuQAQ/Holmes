@@ -1,0 +1,7 @@
+info:
+  company: kaoshixing
+  product: examstar
+  softhard: '2'
+matches: |
+  body.icontains("/examstar_icon.ico")
+  body.icontains("<div class=\"content-bottom-text\">考试星为您提供方便、高效的考试服务</div>")

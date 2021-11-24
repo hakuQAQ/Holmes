@@ -1,0 +1,7 @@
+info:
+  company: ZhongYou
+  product: ZhongYou-System
+  softhard: '2'
+matches: |
+  body.icontains("background=zhongyou.jpg")
+  body.icontains("众友科技巡检管理软件")

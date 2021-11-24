@@ -1,0 +1,8 @@
+info:
+  company: Hewlett Packard Enterprise Development LP
+  product: HP-BladeSystem
+  softhard: '1'
+matches: |
+  title.icontains("hp bladesystem")
+  body.icontains("checkhpsimsso")
+  body.icontains("//hpoa:enclosurestatus/")

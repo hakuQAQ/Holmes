@@ -1,0 +1,11 @@
+info:
+  company: leadsec
+  product: Leadsec-SSL-VPN
+  softhard: '1'
+matches: |
+  body.icontains("欢迎使用leadsec网御ssl vpn")
+  body.icontains("/ssl/down/usbkey.exe")
+  body.icontains("content=\"ssl,vpn,sslvpn")
+  body.icontains("/ssl/down/images_pc/")
+  header.icontains("xdaemon v1.0")
+  body.icontains("passworduserlogin")

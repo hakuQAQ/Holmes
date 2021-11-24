@@ -1,0 +1,7 @@
+info:
+  company: leadsec
+  product: Leadsec-Employee-Internet-Management
+  softhard: '1'
+matches: |
+  title.icontains("leadsec acm") && body.icontains("asdf</div>-->")
+  body.icontains("txtmac")

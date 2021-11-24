@@ -1,0 +1,6 @@
+info:
+  company: yuneasy
+  product: Yuneasy-IPCalling
+  softhard: '2'
+matches: |
+  body.icontains("云翌ip呼叫中心</span>")

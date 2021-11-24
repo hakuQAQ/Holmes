@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: ChinaStandardGatewayManagementSystem
+  softhard: '1'
+matches: |
+  body.icontains("title>国标网关管理系统</title")

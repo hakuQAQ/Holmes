@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Vacron-NVR
+  softhard: '1'
+matches: |
+  banner.icontains("dvr_netra")
+  body.icontains("name=\"vacron nvr login")
+  title.icontains("vacron nvr") && body.icontains("<strong>vacron</strong>")

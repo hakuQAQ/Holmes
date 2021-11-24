@@ -1,0 +1,7 @@
+info:
+  company: santachi
+  product: Santach-I-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  cert.icontains("cn=santachi") && body.icontains("visibility: inherit; width: 200px; z-index: 2\"><a href=\"paramlist.html\">")
+  body.icontains("//切换iframe 函数0-视频、录像；1-参数、日志")

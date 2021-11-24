@@ -1,0 +1,6 @@
+info:
+  company: TASS
+  product: Tass-SRJ1303
+  softhard: '1'
+matches: |
+  body.icontains("resources/js/utilfunction.js")

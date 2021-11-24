@@ -1,0 +1,10 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TP-LINK-Wireless-N-Router-WR941N
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"tp-link wireless n router wr941n")
+  title.icontains("tl-wr941n")
+  header.icontains("tp-link tl-wr941n")
+  header.icontains("tp-link wireless wr941n")
+  header.icontains("wireless n router wr941n")

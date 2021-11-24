@@ -1,0 +1,8 @@
+info:
+  company: Synaptics Incorporated.
+  product: Conexant-EmWeb
+  softhard: '2'
+matches: |
+  header.icontains("server: virata-emweb")
+  header.icontains("server: virata-emweb")
+  banner.icontains("server: virata-emweb") && banner.icontains("server: virata-emweb")

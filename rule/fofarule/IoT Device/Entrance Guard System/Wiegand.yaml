@@ -1,0 +1,6 @@
+info:
+  company: wiegand
+  product: Wiegand
+  softhard: '1'
+matches: |
+  title == "门禁专家" && body.icontains("<form method=post action=act_id_1>")

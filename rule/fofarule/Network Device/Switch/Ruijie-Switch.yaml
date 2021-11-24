@@ -1,0 +1,8 @@
+info:
+  company: Ruijie
+  product: Ruijie-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("red-giant")
+  banner.icontains("ruijie network")
+  banner.icontains("ruijie") && banner.icontains("switch") && body.icontains("ap设备中的配置并不重要") && body.icontains("id=\"a_lang_switch\"")

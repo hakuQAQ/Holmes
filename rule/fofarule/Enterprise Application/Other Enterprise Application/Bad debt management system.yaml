@@ -1,0 +1,7 @@
+info:
+  company: Chinaunicom
+  product: Bad debt management system
+  softhard: '2'
+matches: |
+  title.icontains("中国联通坏账管理系统")
+  body.icontains("登录密码错误次数超过5次，帐号被锁定。请联系省坏账系统管理员，或发邮件解锁")

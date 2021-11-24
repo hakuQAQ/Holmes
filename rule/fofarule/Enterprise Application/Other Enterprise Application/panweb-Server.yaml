@@ -1,0 +1,8 @@
+info:
+  company: Panweb ltd.
+  product: panweb-Server
+  softhard: '2'
+matches: |
+  banner.icontains("server: panweb server")
+  banner.icontains("router") && header.icontains("server: panweb server")
+  body.icontains("router")

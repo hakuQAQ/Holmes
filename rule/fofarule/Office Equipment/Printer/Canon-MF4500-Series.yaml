@@ -1,0 +1,7 @@
+info:
+  company: Canon Inc.
+  product: Canon-MF4500-Series
+  softhard: '1'
+matches: |
+  banner.icontains("canon mf4500 series")
+  body.icontains("<td>mf4500 series</td>")

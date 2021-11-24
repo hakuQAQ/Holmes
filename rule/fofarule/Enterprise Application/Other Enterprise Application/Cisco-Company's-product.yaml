@@ -1,0 +1,9 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-Company's-product
+  softhard: '0'
+matches: |
+  banner.icontains("by cisco systems")
+  protocol.icontains("ssh")
+  banner.icontains("cisco") && title.icontains("cisco systems")
+  body.icontains("cisco systems, inc. all rights reserved")

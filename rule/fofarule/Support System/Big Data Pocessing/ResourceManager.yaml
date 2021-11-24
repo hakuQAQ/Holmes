@@ -1,0 +1,6 @@
+info:
+  company: Apache Hadoop
+  product: ResourceManager
+  softhard: '2'
+matches: |
+  body.icontains("this is standby rm. redirecting to the current active rm")

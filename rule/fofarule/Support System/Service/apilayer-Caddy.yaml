@@ -1,0 +1,7 @@
+info:
+  company: apilayer GmbH.
+  product: apilayer-Caddy
+  softhard: '2'
+matches: |
+  header.icontains("server: caddy")
+  banner.icontains("server: caddy")

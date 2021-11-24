@@ -1,0 +1,6 @@
+info:
+  company: Koninklijke Philips N.V.
+  product: PHILIPS-TV
+  softhard: '1'
+matches: |
+  banner.icontains("philips tv")

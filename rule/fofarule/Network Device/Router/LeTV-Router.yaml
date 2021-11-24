@@ -1,0 +1,7 @@
+info:
+  company: LeEco
+  product: LeTV-Router
+  softhard: '1'
+matches: |
+  title.icontains("乐视路由器")
+  body.icontains("<div class=\"login-logo\"></div>")

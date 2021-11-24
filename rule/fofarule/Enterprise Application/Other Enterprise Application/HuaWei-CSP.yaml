@@ -1,0 +1,6 @@
+info:
+  company: HUAWEI
+  product: HuaWei-CSP
+  softhard: '2'
+matches: |
+  title.icontains("huawei csp")

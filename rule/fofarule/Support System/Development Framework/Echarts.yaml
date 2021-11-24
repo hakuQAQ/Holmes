@@ -1,0 +1,10 @@
+info:
+  company: Baidu
+  product: Echarts
+  softhard: '2'
+matches: |
+  body.icontains("charts.init")
+  body.icontains("echarts.min.js")
+  body.icontains("content=\"echarts") && body.icontains("/echartshome.css")
+  body.icontains("echarts-all.js")
+  body.icontains("echarts-all.min.js")

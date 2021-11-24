@@ -1,0 +1,7 @@
+info:
+  company: Eaton.
+  product: Eaton-UPS
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp")
+  banner.icontains("eaton ") && banner.icontains("epdu")

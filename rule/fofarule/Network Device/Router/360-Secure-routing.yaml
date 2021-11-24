@@ -1,0 +1,7 @@
+info:
+  company: '360'
+  product: 360-Secure-routing
+  softhard: '1'
+matches: |
+  body.icontains("360loginflag")
+  title.icontains("360安全路由")

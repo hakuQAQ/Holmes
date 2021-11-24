@@ -1,0 +1,6 @@
+info:
+  company: Authine
+  product: Authine-H3-BPM
+  softhard: '2'
+matches: |
+  body.icontains("h3 bpm suite信息化的最佳实践")

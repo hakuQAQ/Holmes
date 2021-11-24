@@ -1,0 +1,7 @@
+info:
+  company: Dell Inc.
+  product: EMC-XtremIO-All-Flash-Array
+  softhard: '1'
+matches: |
+  title.icontains("xtremio - download")
+  body.icontains("<h1>xtremio management application</h1>")

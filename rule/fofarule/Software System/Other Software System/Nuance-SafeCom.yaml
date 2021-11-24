@@ -1,0 +1,6 @@
+info:
+  company: Nuance Communications, Inc.
+  product: Nuance-SafeCom
+  softhard: '2'
+matches: |
+  body.icontains("safecom mobile print")

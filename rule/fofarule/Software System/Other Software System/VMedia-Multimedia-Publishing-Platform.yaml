@@ -1,0 +1,7 @@
+info:
+  company: VMedia Inc.
+  product: VMedia-Multimedia-Publishing-Platform
+  softhard: '2'
+matches: |
+  body.icontains("function toggle(targetid)")
+  body.icontains("class=\"video_00\"")

@@ -1,0 +1,8 @@
+info:
+  company: Alpha Software Corporation
+  product: Alpha-Five
+  softhard: '2'
+matches: |
+  header.icontains("alpha five")
+  header.icontains("a5wsessionid")
+  banner.icontains("alpha five") && banner.icontains("a5wsessionid")

@@ -1,0 +1,6 @@
+info:
+  company: ewebeditor
+  product: eWebEditor
+  softhard: '2'
+matches: |
+  body.icontains("/ewebeditor.htm?")

@@ -1,0 +1,6 @@
+info:
+  company: PIOLINK, Inc.
+  product: PIOLINK-TiFRONT-G24
+  softhard: '1'
+matches: |
+  banner.icontains("tifront-g24")

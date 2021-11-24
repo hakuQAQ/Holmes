@@ -1,0 +1,7 @@
+info:
+  company: Salien
+  product: Salien-Device-Integrity-Management-System
+  softhard: '2'
+matches: |
+  body.icontains("rmsie = /(msie/s|trident.*rv:)([/w.]+)/")
+  title.icontains("vercheck")

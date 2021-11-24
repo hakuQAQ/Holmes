@@ -1,0 +1,6 @@
+info:
+  company: International Business Machines Corporation
+  product: IBM-Flex-System-EN2092
+  softhard: '1'
+matches: |
+  body.icontains("ibm flex system en2092")

@@ -1,0 +1,8 @@
+info:
+  company: Maipu
+  product: Maipu-Router
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp")
+  banner.icontains("maipu") && banner.icontains("mypower (r) ")
+  banner.icontains("mypower ")

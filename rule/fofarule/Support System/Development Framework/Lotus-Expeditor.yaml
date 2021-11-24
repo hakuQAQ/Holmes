@@ -1,0 +1,6 @@
+info:
+  company: International Business Machines Corporation
+  product: Lotus-Expeditor
+  softhard: '2'
+matches: |
+  header.icontains("lotus expeditor web")

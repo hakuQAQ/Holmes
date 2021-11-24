@@ -1,0 +1,8 @@
+info:
+  company: tiandy
+  product: Tiandy-NVR
+  softhard: '1'
+matches: |
+  body.icontains("id=\"maintaince_dialog_ok\"")
+  body.icontains("playback</a>")
+  body.icontains("if(getdiscription(\"application/x-rs-sclient-v3")

@@ -1,0 +1,8 @@
+info:
+  company: Schneider Electric
+  product: Schneider-TAC-Xenta511
+  softhard: '1'
+matches: |
+  header.icontains("tac/xenta511")
+  banner.icontains("tac/xenta511")
+  banner.icontains("tac xenta511")

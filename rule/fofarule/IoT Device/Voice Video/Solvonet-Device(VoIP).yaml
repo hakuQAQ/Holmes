@@ -1,0 +1,7 @@
+info:
+  company: Synopsys, Inc.
+  product: Solvonet-Device(VoIP)
+  softhard: '1'
+matches: |
+  header.icontains("basic realm=\"solvonet\"")
+  banner.icontains("basic realm=\"solvonet\"")

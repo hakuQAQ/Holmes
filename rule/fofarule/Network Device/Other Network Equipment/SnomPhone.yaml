@@ -1,0 +1,8 @@
+info:
+  company: Snom Technology GmbH.
+  product: SnomPhone
+  softhard: '1'
+matches: |
+  body.icontains("<a href=\"http://snom.com\">snom ag</a><br>")
+  body.icontains("<tr><td class=\"flyoutlink\" colspan=\"2\"><b><a href=http://")
+  body.icontains("you can enter a simple telephone number (e.g. 0114930398330) or uri like info@snom.com.")

@@ -1,0 +1,8 @@
+info:
+  company: appexnetworks
+  product: appex-lotapp
+  softhard: '2'
+matches: |
+  body.icontains("appex network corporation")
+  body.icontains("/change_lan.php?lanid=en")
+  title.icontains("lotapp ") && title.icontains("lotapp 应用交付系统")

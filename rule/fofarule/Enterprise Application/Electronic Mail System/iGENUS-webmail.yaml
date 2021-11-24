@@ -1,0 +1,14 @@
+info:
+  company: igenus
+  product: iGENUS-webmail
+  softhard: '2'
+matches: |
+  body.icontains("script/logo_display_set.js")
+  body.icontains("check code")
+  body.icontains("top.location='login.php';")
+  body.icontains("<head ") && body.icontains("<script>top.location = \"/login.php\";</script>")
+  body.icontains("igenus webmail system") && body.icontains("href=\"http://www.igenus.org/\" target=\"_blank\">")
+  title.icontains("igenus webmail")
+
+#yamlflag
+#body.icontains("text/javascript")

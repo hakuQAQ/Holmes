@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: fnord
+  softhard: '2'
+matches: |
+  header.icontains("realm=\"fnord")
+  header.icontains("server: fnord")
+  banner.icontains("realm=\"fnord") && banner.icontains("server: fnord")

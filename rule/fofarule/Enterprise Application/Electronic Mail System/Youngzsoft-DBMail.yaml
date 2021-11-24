@@ -1,0 +1,8 @@
+info:
+  company: yaozhi
+  product: Youngzsoft-DBMail
+  softhard: '2'
+matches: |
+  title.icontains("遥志dbmail邮件服务器")
+  body.icontains("href=\"http://www.dbmailserver.com\" target=_blank")
+  banner.icontains("dbmail/shr pop3")

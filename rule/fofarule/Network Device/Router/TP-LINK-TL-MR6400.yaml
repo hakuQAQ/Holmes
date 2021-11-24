@@ -1,0 +1,9 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TP-LINK-TL-MR6400
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"tl-mr6400")
+  body.icontains("var modelname=\"tl-mr6400\"")
+  header.icontains("tp-link lte wireless n router mr6400")
+  header.icontains("tp-link mr6400")

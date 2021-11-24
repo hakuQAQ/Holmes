@@ -1,0 +1,6 @@
+info:
+  company: EFM Networks Co.,Ltd.
+  product: ipTIME-A9004M
+  softhard: '1'
+matches: |
+  body.icontains("src =\"/images2/login_title.a9004m.gif\"")

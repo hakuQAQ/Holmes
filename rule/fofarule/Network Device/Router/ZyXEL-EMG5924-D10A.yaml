@@ -1,0 +1,6 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-EMG5924-D10A
+  softhard: '1'
+matches: |
+  title.icontains("emg5924-d10a")

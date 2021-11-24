@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-Meeting-App
+  softhard: '2'
+matches: |
+  body.icontains("<div id=\"cisco_meeting_application\">")

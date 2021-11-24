@@ -1,0 +1,8 @@
+info:
+  company: Siemens AG.
+  product: Siemens-IP-Cameras
+  softhard: '1'
+matches: |
+  title.icontains("siemens ip camera")
+  header.icontains("compact siemens ip camera")
+  header.icontains("compact siemens wifi camera")

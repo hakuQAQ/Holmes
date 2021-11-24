@@ -1,0 +1,6 @@
+info:
+  company: allytel
+  product: Talentel_Log-Recording-Audio
+  softhard: '2'
+matches: |
+  title.icontains("欢迎您使用talentel_log-录音客户端系统")

@@ -1,0 +1,7 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-B5
+  softhard: '1'
+matches: |
+  body.icontains("var product_type = \"b5\"")
+  title.icontains("b5&nbsp设备登录")

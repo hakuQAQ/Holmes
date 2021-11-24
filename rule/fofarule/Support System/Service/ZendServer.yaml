@@ -1,0 +1,10 @@
+info:
+  company: Zend Technologies Ltd
+  product: ZendServer
+  softhard: '2'
+matches: |
+  header.icontains("zendserver")
+  header.icontains("tp-link wr720n")
+  banner.icontains("zendserver")
+  banner.icontains("tp-link wr720n")
+  banner.icontains("router")

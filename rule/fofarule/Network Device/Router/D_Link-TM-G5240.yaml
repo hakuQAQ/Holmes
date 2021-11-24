@@ -1,0 +1,7 @@
+info:
+  company: DLink
+  product: D_Link-TM-G5240
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"tm-g5240")
+  banner.icontains("realm=\"tm-g5240")

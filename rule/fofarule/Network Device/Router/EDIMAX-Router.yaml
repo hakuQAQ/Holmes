@@ -1,0 +1,8 @@
+info:
+  company: EDIMAX Technology Co., Ltd.
+  product: EDIMAX-Router
+  softhard: '1'
+matches: |
+  banner.icontains(" default name:admin password:1234")
+  header.icontains("realm=\"default: admin/1234")
+  banner.icontains("edimax router")

@@ -1,0 +1,7 @@
+info:
+  company: netcoretec
+  product: Netcore-Company's-product
+  softhard: '0'
+matches: |
+  header.icontains("netcore")
+  banner.icontains("vendor: netcore")

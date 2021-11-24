@@ -1,0 +1,8 @@
+info:
+  company: Amcrest Corp.
+  product: AMCREST-camera
+  softhard: '1'
+matches: |
+  body.icontains("amcrest") && body.icontains("w_cloudcurver")
+  body.icontains("onclick=\"chkalarmsound()") && body.icontains("id=\"play_alarm_sound")
+  body.icontains("amcrest technologies")

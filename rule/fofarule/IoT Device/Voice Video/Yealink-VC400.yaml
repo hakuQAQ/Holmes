@@ -1,0 +1,6 @@
+info:
+  company: Yealink Inc.
+  product: Yealink-VC400
+  softhard: '1'
+matches: |
+  body.icontains("span id=\"devtype\">vc400")

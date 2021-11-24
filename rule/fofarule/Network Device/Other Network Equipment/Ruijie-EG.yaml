@@ -1,0 +1,10 @@
+info:
+  company: Ruijie
+  product: Ruijie-EG
+  softhard: '1'
+matches: |
+  body.icontains("ruijie") && body.icontains("href=\"eg.css")
+  body.icontains("product: ['锐捷网络有限公司 eg易网关")
+  body.icontains("webchat.ruijie.com.cn") && body.icontains("main.htm")
+  body.icontains("4008 111 000")
+  body.icontains("www.ruijie.com.cn/service/know.aspx")

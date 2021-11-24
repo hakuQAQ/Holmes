@@ -1,0 +1,6 @@
+info:
+  company: ChinaTelecom
+  product: China-Telecom-Esurfing-Broadband-Government-and-enterprise-gateway
+  softhard: '1'
+matches: |
+  body.icontains("login") && body.icontains("loid_regist()")

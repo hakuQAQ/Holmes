@@ -1,0 +1,6 @@
+info:
+  company: IBM
+  product: IBM-Merge-PACS
+  softhard: '2'
+matches: |
+  body.icontains("<option value=\"merge pacs\">merge pacs</option>")

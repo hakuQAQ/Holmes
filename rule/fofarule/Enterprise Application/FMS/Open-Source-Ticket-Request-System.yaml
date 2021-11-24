@@ -1,0 +1,7 @@
+info:
+  company: OTRS AG
+  product: Open-Source-Ticket-Request-System
+  softhard: '2'
+matches: |
+  title == "otrs  :: login" && body.icontains("href=\"mailto:otrs@bearingpoint.com")
+  body.icontains("src=\"/otrs-web/images/")

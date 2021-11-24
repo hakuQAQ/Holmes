@@ -1,0 +1,6 @@
+info:
+  company: Chinaunicom
+  product: esales
+  softhard: '2'
+matches: |
+  title.icontains("ess电子化销售服务ipass认证管理系统")

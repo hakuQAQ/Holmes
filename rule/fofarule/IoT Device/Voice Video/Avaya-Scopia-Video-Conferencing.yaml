@@ -1,0 +1,6 @@
+info:
+  company: Avaya Inc.
+  product: Avaya-Scopia-Video-Conferencing
+  softhard: '1'
+matches: |
+  banner.icontains("scopia ")

@@ -1,0 +1,6 @@
+info:
+  company: esafenet
+  product: ESAFENET-DLP
+  softhard: '2'
+matches: |
+  body.icontains("cdgserver3")

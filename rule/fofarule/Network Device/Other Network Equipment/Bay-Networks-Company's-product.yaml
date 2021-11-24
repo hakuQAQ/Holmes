@@ -1,0 +1,6 @@
+info:
+  company: Avaya Inc.
+  product: Bay-Networks-Company's-product
+  softhard: '1'
+matches: |
+  banner.icontains("bay networks, inc. ")

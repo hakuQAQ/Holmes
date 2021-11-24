@@ -1,0 +1,7 @@
+info:
+  company: Citrix
+  product: Citrix-Receiver
+  softhard: '2'
+matches: |
+  body.icontains("href=\"clients/html5client/src/receiverthirdpartynotices.html\"")
+  body.icontains("logonbelt-topshadow") && body.icontains("upgradeavailable-already-installed-separator bar-separator")

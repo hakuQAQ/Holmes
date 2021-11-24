@@ -1,0 +1,6 @@
+info:
+  company: HILLSTONE
+  product: Hillstone-StoneOS
+  softhard: '2'
+matches: |
+  body.icontains("'hillstone stoneos software version ")

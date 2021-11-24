@@ -1,0 +1,6 @@
+info:
+  company: NEC Corporation
+  product: NEC-Portable-Internetwork-OS
+  softhard: '2'
+matches: |
+  banner.icontains("nec portable internetwork core operating system")

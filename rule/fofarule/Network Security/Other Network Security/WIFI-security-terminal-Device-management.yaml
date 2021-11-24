@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: WIFI-security-terminal-Device-management
+  softhard: '1'
+matches: |
+  body.icontains("<h1>wifi安全终端设备管理</h1>")

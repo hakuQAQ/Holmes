@@ -1,0 +1,6 @@
+info:
+  company: Preamsolutions
+  product: Preamsolutions-Inspection-and-Modification-Information-Platform
+  softhard: '2'
+matches: |
+  body.icontains("action=\"/gqjx/loginmgr.do?method=dologin")

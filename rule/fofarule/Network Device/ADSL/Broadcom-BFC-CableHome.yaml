@@ -1,0 +1,8 @@
+info:
+  company: Broadcom Inc.
+  product: Broadcom-BFC-CableHome
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp")
+  banner.icontains("bfc cablehome ")
+  banner.icontains("vendor: broadcom")

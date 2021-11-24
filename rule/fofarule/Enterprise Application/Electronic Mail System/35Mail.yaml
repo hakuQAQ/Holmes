@@ -1,0 +1,7 @@
+info:
+  company: 35com
+  product: 35Mail
+  softhard: '2'
+matches: |
+  body.icontains("switchingserverpopup") && body.icontains("35") && body.icontains("images/mail/35pushmail.app.png")
+  body.icontains("class=\"user_define_img_btn6\" href=\"http://help.mail.35.com/mailman/81.html")

@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: zzcms
+  softhard: '2'
+matches: |
+  title.icontains("zzcms-") && body.icontains("/zx/search.php")
+  body.icontains("/inc/showuserlogin.php?style=h&t=math.random()")

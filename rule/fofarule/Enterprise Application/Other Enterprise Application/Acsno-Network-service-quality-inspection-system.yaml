@@ -1,0 +1,6 @@
+info:
+  company: acsno
+  product: Acsno-Network-service-quality-inspection-system
+  softhard: '2'
+matches: |
+  title.icontains("埃森诺网络服务质量检测系统 ")

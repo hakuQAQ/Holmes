@@ -1,0 +1,6 @@
+info:
+  company: N2W Software, Inc.
+  product: N2WS
+  softhard: '2'
+matches: |
+  body.icontains("static/style/cpm_style.css")

@@ -1,0 +1,6 @@
+info:
+  company: xunruicms
+  product: XUNRUICMS
+  softhard: '2'
+matches: |
+  body.icontains("alt=\"xunruicms\"")

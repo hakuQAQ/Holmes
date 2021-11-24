@@ -1,0 +1,7 @@
+info:
+  company: HUAWEI
+  product: HuaWei-Inner-Web
+  softhard: '2'
+matches: |
+  title.icontains("huawei inner web")
+  body.icontains("hidden_frame.html")

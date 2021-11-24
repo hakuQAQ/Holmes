@@ -1,0 +1,6 @@
+info:
+  company: kt Telecop Co., Ltd
+  product: KT_telecop-Digital-Video
+  softhard: '1'
+matches: |
+  body.icontains("https://itunes.apple.com/us/app/ismart-viewer/")

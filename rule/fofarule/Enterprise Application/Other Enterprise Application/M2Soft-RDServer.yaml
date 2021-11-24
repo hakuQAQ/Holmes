@@ -1,0 +1,8 @@
+info:
+  company: M2SOFT CO., LTD.
+  product: M2Soft-RDServer
+  softhard: '2'
+matches: |
+  title.icontains("m2soft report designer server")
+  header.icontains("server: rdserver")
+  banner.icontains("server: rdserver")

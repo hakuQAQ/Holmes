@@ -1,0 +1,6 @@
+info:
+  company: Grandstream Networks, Inc.
+  product: Grandstream-GXV3140
+  softhard: '1'
+matches: |
+  body.icontains("document.title = \"gxv3140\"")

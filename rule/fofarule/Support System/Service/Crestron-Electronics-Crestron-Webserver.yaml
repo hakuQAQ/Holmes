@@ -1,0 +1,7 @@
+info:
+  company: Crestron Electronics, Inc.
+  product: Crestron-Electronics-Crestron-Webserver
+  softhard: '2'
+matches: |
+  header.icontains("crestron webserver")
+  banner.icontains("crestron webserver")

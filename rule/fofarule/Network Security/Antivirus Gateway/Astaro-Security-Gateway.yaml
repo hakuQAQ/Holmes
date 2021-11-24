@@ -1,0 +1,8 @@
+info:
+  company: Sophos Technologies Pvt. Ltd.
+  product: Astaro-Security-Gateway
+  softhard: '1'
+matches: |
+  title.icontains("astaro security gateway")
+  cert.icontains("astaro.lucentglow.com")
+  body.icontains("/acc_aggregated_reporting.js")

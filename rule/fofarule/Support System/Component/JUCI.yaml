@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: JUCI
+  softhard: '2'
+matches: |
+  title.icontains("juci") && body.icontains("src=\"/js/50-juci-event.js\"")

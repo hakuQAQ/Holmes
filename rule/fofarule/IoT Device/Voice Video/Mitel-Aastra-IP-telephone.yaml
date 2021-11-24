@@ -1,0 +1,7 @@
+info:
+  company: Mitel Networks Corporation
+  product: Mitel-Aastra-IP-telephone
+  softhard: '1'
+matches: |
+  title.icontains("aastra ip telephone")
+  body.icontains("<frame src=\"m_bar.asp\" name=\"sidemenu")

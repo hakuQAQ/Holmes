@@ -1,0 +1,8 @@
+info:
+  company: Oracle Corporation
+  product: Sun-GlassFish
+  softhard: '2'
+matches: |
+  header.icontains("glassfish server")
+  banner.icontains("server: glassfish server")
+  body.icontains("webui/jsf") && body.icontains("glassfish community")

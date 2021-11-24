@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: LuxCal
+  softhard: '2'
+matches: |
+  body.icontains("content=\"luxcal")
+  body.icontains("class='footlb'>lux")
+  body.icontains("content=\"roel buining")

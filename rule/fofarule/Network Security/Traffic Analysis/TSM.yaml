@@ -1,0 +1,7 @@
+info:
+  company: Asiainfo
+  product: TSM
+  softhard: '2'
+matches: |
+  title.icontains("中国联通移动流量分析管理系统")
+  body.icontains("var url = getcontextname() + \"?service=ajaxdirect/1/")

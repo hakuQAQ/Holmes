@@ -1,0 +1,9 @@
+info:
+  company: keyou
+  product: Union-HAC
+  softhard: '1'
+matches: |
+  body.icontains("hac v3 版 <br>")
+  body.icontains("/script/keysigned.js")
+  body.icontains("class=\"leftbox\">hac") && body.icontains("/image/serchnotice.jpg")
+  title.icontains("hac 运维审计系统登录")

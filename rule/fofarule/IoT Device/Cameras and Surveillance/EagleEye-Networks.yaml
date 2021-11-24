@@ -1,0 +1,8 @@
+info:
+  company: Eagle Eye Networks, Inc
+  product: EagleEye-Networks
+  softhard: '1'
+matches: |
+  title == "eagle eye networks" && body.icontains("href=\"css/eagle.base_efafdad3.css")
+  header.icontains("x-ee-lb-hostname: ")
+  body.icontains("title=\"eagle eye networks\">eagle eye networks</a></h1>")

@@ -1,0 +1,10 @@
+info:
+  company: Tiger Communications plc.
+  product: Tiger-IP-Connect
+  softhard: '2'
+matches: |
+  body.icontains("<link rel=\"stylesheet\" href=\"/include/firedigit.css\">")
+  body.icontains("<link rel=\"stylesheet\" href=\"/include/tms.css\">")
+  body.icontains("/include/tiger.css")
+  header.icontains("location network/index.php")
+  title.icontains("tiger ip connect")

@@ -1,0 +1,7 @@
+info:
+  company: Microsoft Corporation
+  product: Windows-Server-2012
+  softhard: '2'
+matches: |
+  banner.icontains("windows server 2012")
+  header.icontains("windows server 2012")

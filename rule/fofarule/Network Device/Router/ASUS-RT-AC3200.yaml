@@ -1,0 +1,12 @@
+info:
+  company: ASUS
+  product: ASUS-RT-AC3200
+  softhard: '1'
+matches: |
+  header.icontains("rt-ac3200")
+  banner.icontains("rt-ac3200")
+  body.icontains("<div class=\"prod_madelname\">rt-ac3200")
+  body.icontains("class=\"prod_madelname\" style=\"margin-left:78px;\">rt-ac3200")
+  body.icontains("capture(status_router.sys_model)</script></div>asus rt-ac3200")
+  body.icontains("var product_name='rt-ac3200'")
+  banner.icontains("asus rt-ac3200")

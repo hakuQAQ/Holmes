@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: Jigsaw
+  softhard: '2'
+matches: |
+  header.icontains("server: jigsaw")
+  banner.icontains("server: jigsaw")

@@ -1,0 +1,7 @@
+info:
+  company: MERCURY
+  product: Mercurycom-MW300R
+  softhard: '1'
+matches: |
+  header.icontains("mw300r")
+  banner.icontains("mw300r")

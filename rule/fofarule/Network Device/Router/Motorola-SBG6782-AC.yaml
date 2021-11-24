@@ -1,0 +1,6 @@
+info:
+  company: Motorola Solutions, Inc
+  product: Motorola-SBG6782-AC
+  softhard: '1'
+matches: |
+  body.icontains("id=\"thismodelnumberis\">sbg6782-ac")

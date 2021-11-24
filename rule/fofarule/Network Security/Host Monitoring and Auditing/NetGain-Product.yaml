@@ -1,0 +1,6 @@
+info:
+  company: NetGain
+  product: NetGain-Product
+  softhard: '2'
+matches: |
+  title.icontains("netgain")

@@ -1,0 +1,7 @@
+info:
+  company: AZTECH GROUP LTD.
+  product: Aztech-D140W
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"az-d140w")
+  banner.icontains("realm=\"az-d140w")

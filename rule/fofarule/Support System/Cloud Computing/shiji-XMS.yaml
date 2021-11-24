@@ -1,0 +1,7 @@
+info:
+  company: foxhis
+  product: shiji-XMS
+  softhard: '2'
+matches: |
+  body.icontains("href=\"xmsenv.exe\">系统运行环境")
+  title.icontains("西软云xms")

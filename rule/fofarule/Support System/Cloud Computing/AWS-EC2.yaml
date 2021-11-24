@@ -1,0 +1,8 @@
+info:
+  company: Amazon.com, Inc.
+  product: AWS-EC2
+  softhard: '2'
+matches: |
+  header.icontains("ec2-instance-id")
+  banner.icontains("ec2-instance-id")
+  body.icontains("welcome to nginx on amazon ec2!")

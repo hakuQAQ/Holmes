@@ -1,0 +1,7 @@
+info:
+  company: Power Science
+  product: Project-Management-System
+  softhard: '2'
+matches: |
+  body.icontains("var right = regexp.rightcontext")
+  body.icontains("window.top.location = \"login.aspx?url=\" + right\"")

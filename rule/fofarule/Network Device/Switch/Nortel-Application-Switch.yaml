@@ -1,0 +1,6 @@
+info:
+  company: Avaya Inc.
+  product: Nortel-Application-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("nortel application switch")

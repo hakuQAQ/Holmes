@@ -1,0 +1,6 @@
+info:
+  company: superv
+  product: superv-Meeting
+  softhard: '2'
+matches: |
+  body.icontains("id=\"ctl00_topcontrol1_lblsitedescription\"")

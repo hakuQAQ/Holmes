@@ -1,0 +1,6 @@
+info:
+  company: Apache Software Foundation
+  product: HiveServer
+  softhard: '2'
+matches: |
+  title.icontains("hiveserver - hive control")

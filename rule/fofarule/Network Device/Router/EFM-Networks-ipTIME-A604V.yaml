@@ -1,0 +1,6 @@
+info:
+  company: EFM Networks Co.,Ltd.
+  product: EFM-Networks-ipTIME-A604V
+  softhard: '1'
+matches: |
+  body.icontains("src=\"/images2/login_title.a604v.gif\"")

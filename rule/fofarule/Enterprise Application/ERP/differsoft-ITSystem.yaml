@@ -1,0 +1,6 @@
+info:
+  company: differsoft
+  product: differsoft-ITSystem
+  softhard: '2'
+matches: |
+  body.icontains("name=\"tbzcode\"")

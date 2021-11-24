@@ -1,0 +1,6 @@
+info:
+  company: Cox Communications, Inc.
+  product: COX-Wireless-Gateway
+  softhard: '1'
+matches: |
+  body.icontains("href=\"image/cox-logo.png\"")

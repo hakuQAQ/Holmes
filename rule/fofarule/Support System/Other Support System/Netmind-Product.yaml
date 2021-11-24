@@ -1,0 +1,7 @@
+info:
+  company: NETMIND
+  product: Netmind-Product
+  softhard: '1'
+matches: |
+  header.icontains("netmindsessionid")
+  banner.icontains("netmindsessionid")

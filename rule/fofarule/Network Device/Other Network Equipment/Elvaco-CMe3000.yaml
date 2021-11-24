@@ -1,0 +1,6 @@
+info:
+  company: Elvaco AB.
+  product: Elvaco-CMe3000
+  softhard: '1'
+matches: |
+  banner.icontains("elvaco cme3000")

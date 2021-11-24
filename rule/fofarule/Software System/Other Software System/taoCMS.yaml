@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: taoCMS
+  softhard: '2'
+matches: |
+  body.icontains("template/taocms")
+  body.icontains("src=\"/taocms/code/calendar.js\"")

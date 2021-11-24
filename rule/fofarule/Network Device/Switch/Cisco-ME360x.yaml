@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-ME360x
+  softhard: '1'
+matches: |
+  banner.icontains("cisco ios software, me360x software")

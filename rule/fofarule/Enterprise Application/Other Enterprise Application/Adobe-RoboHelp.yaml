@@ -1,0 +1,6 @@
+info:
+  company: Adobe Inc.
+  product: Adobe-RoboHelp
+  softhard: '2'
+matches: |
+  body.icontains("generator\" content=\"adobe robohelp")

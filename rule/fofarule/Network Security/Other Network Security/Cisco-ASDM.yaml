@@ -1,0 +1,7 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-ASDM
+  softhard: '1'
+matches: |
+  title.icontains("cisco asdm")
+  body.icontains("launcher_link\">install asdm launcher")

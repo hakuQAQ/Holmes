@@ -1,0 +1,6 @@
+info:
+  company: Accton Technology Corporation
+  product: Accton-24port-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("accton 24 port cheetah switch")

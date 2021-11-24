@@ -1,0 +1,6 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-FMG3024-D10A
+  softhard: '1'
+matches: |
+  title.icontains("fmg3024-d10a")

@@ -1,0 +1,7 @@
+info:
+  company: Derbytech, Inc.
+  product: Cipafilter
+  softhard: '2'
+matches: |
+  header.icontains("realm=\"cipafilter web management")
+  header.icontains("realm=\"cipafilter web administration")

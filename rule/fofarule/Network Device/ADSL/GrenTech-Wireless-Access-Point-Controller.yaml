@@ -1,0 +1,6 @@
+info:
+  company: powercn
+  product: GrenTech-Wireless-Access-Point-Controller
+  softhard: '1'
+matches: |
+  title.icontains("国人通信 - 集中无线控制器")

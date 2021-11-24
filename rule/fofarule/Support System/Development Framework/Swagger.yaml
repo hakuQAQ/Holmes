@@ -1,0 +1,8 @@
+info:
+  company: SmartBear Software.
+  product: Swagger
+  softhard: '2'
+matches: |
+  body.icontains("swagger-ui.css")
+  body.icontains("swagger-ui.js")
+  title.icontains("swagger ui")

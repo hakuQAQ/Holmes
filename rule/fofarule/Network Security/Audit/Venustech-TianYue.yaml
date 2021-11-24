@@ -1,0 +1,9 @@
+info:
+  company: venustech
+  product: Venustech-TianYue
+  softhard: '1'
+matches: |
+  title.icontains("天玥网络安全审计")
+  title == "天玥" && title.icontains("天玥网络安全审计系统v6.0")
+  body.icontains("<a href=\"../client/site-downloadruntimedetector")
+  title.icontains("网御网络审计系统")

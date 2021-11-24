@@ -1,0 +1,6 @@
+info:
+  company: ASUS
+  product: ASUS-RT-AX92U
+  softhard: '1'
+matches: |
+  body.icontains("<div class=\"prod_madelname\">rt-ax92u")

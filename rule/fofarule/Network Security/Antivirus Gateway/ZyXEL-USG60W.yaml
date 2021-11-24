@@ -1,0 +1,6 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-USG60W
+  softhard: '1'
+matches: |
+  banner.icontains("usg60w")

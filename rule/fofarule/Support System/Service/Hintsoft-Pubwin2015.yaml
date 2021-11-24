@@ -1,0 +1,8 @@
+info:
+  company: pubwin
+  product: Hintsoft-Pubwin2015
+  softhard: '2'
+matches: |
+  body.icontains("images/newlogin_01.jpg")
+  title.icontains("pubwin2015 综合业务web管理平台")
+  title.icontains("pubwin2015 web管理")

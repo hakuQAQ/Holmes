@@ -1,0 +1,8 @@
+info:
+  company: Axis Communications AB.
+  product: Axis-PrintServer
+  softhard: '1'
+matches: |
+  body.icontains("psb_printjobs.gif")
+  body.icontains("/cgi-bin/prodhelp?prod=")
+  banner.icontains("axis") && banner.icontains("network print server")

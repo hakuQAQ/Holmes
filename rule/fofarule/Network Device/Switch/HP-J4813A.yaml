@@ -1,0 +1,7 @@
+info:
+  company: HP Development Company, L.P.
+  product: HP-J4813A
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"hp j4813a")
+  banner.icontains("hp j4813a")

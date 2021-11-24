@@ -1,0 +1,8 @@
+info:
+  company: Citrix Systems, Inc.
+  product: Citrix-XenServer
+  softhard: '2'
+matches: |
+  body.icontains("citrix systems, inc. xenserver")
+  body.icontains("<a href=\"xencentersetup.exe\">xencenter installer</a>")
+  title.icontains("xenserver ")

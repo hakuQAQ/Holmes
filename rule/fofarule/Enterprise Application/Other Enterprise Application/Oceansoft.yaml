@@ -1,0 +1,10 @@
+info:
+  company: oceansoft
+  product: Oceansoft
+  softhard: '2'
+matches: |
+  body.icontains("江苏欧索软件有限公司")
+  body.icontains("/ocensoftcomm.js")
+  body.icontains("技术支持：<a href=\"http://www.oceansoft.com.cn/\">")
+  body.icontains("aspx/casecenter/acasecenter.aspx?pagetype=sxcx&casetype=sscs&casename=") && body.icontains("href=\"/e/action/listinfo/?")
+  body.icontains("江苏欧索")

@@ -1,0 +1,7 @@
+info:
+  company: Ruijie
+  product: Ruijie-Router
+  softhard: '1'
+matches: |
+  banner.icontains("ruijie router")
+  banner.icontains("ruijie net bar router")

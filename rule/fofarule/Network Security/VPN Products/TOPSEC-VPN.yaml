@@ -1,0 +1,9 @@
+info:
+  company: TOPSEC
+  product: TOPSEC-VPN
+  softhard: '1'
+matches: |
+  header.icontains("topsecsvportalname=")
+  body.icontains("window.location=\"/portal_default/index.html\";</script>")
+  body.icontains("window.location.href=\"/vone/pub/pda.html\";")
+  cert.icontains("commonname: topsec products1438078181")

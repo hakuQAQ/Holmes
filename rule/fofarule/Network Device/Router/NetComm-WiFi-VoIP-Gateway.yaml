@@ -1,0 +1,7 @@
+info:
+  company: NetComm Limited
+  product: NetComm-WiFi-VoIP-Gateway
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"netcomm wifi data and voip gateway")
+  banner.icontains("realm=\"netcomm wifi data and voip gateway")

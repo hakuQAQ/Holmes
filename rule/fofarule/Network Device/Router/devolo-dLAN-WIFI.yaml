@@ -1,0 +1,7 @@
+info:
+  company: devolo AG
+  product: devolo-dLAN-WIFI
+  softhard: '1'
+matches: |
+  title.icontains("webui")
+  body.icontains("href=\"customization.css\"")

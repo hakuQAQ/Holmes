@@ -1,0 +1,6 @@
+info:
+  company: SparkLAN Communications,lnc.
+  product: SparkLAN-Router
+  softhard: '1'
+matches: |
+  title == "dht 802.11n qos router" && header.icontains("mini_httpd")

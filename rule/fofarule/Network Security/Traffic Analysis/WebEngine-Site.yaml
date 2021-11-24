@@ -1,0 +1,8 @@
+info:
+  company: bluepacific
+  product: WebEngine-Site
+  softhard: '2'
+matches: |
+  title.icontains("webengine site")
+  body.icontains("href=\"/webengine/images/common.css")
+  body.icontains("location.href = \"/webengine/web/\";")

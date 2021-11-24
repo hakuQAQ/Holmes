@@ -1,0 +1,9 @@
+info:
+  company: Other
+  product: Operation-and-maintenance-security-management-platform
+  softhard: '2'
+matches: |
+  title.icontains("运维安全管理平台")
+
+#yamlflag
+#body.icontains("usm")

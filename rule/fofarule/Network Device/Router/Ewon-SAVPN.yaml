@@ -1,0 +1,6 @@
+info:
+  company: eWON SA
+  product: Ewon-SAVPN
+  softhard: '1'
+matches: |
+  header.icontains("ewon")

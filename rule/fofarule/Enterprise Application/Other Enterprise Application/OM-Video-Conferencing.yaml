@@ -1,0 +1,9 @@
+info:
+  company: omeeting
+  product: OM-Video-Conferencing
+  softhard: '2'
+matches: |
+  title.icontains("om视频会议")
+  body.icontains("<p><a href=\"http://www.omeeting.com\" target='_blank'>powered by")
+  body.icontains("content=\"om视频会议")
+  body.icontains("onclick=\"gotomeeting('/gotomeeting.php")

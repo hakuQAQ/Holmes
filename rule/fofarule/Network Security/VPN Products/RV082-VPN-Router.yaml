@@ -1,0 +1,8 @@
+info:
+  company: Cisco Systems, Inc.
+  product: RV082-VPN-Router
+  softhard: '1'
+matches: |
+  banner.icontains("rv082 vpn router")
+  header.icontains("realm=\"rv082")
+  banner.icontains("realm=\"rv082")

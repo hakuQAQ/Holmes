@@ -1,0 +1,6 @@
+info:
+  company: Conversant Solutions Pte Ltd.
+  product: Conversant-SwiftCDN
+  softhard: '2'
+matches: |
+  banner.icontains("swiftcdn")

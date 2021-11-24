@@ -1,0 +1,7 @@
+info:
+  company: Apache Software Foundation.
+  product: Storm
+  softhard: '2'
+matches: |
+  title.icontains("storm ui")
+  body.icontains("stormtimestr")

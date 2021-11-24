@@ -1,0 +1,8 @@
+info:
+  company: pantum
+  product: PANTUM-Printer-P3000
+  softhard: '1'
+matches: |
+  banner.icontains("des:pantum p3000")
+  title.icontains("seine p3000")
+  body.icontains("function gotosn() {location=\"/index.html")

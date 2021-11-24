@@ -1,0 +1,8 @@
+info:
+  company: fuho
+  product: FOHO-DVR
+  softhard: '1'
+matches: |
+  header.icontains("server: fuho-dvr")
+  banner.icontains("server: fuho-dvr")
+  header.icontains("realm=\"dvr manager") && banner.icontains("realm=\"dvr manager")

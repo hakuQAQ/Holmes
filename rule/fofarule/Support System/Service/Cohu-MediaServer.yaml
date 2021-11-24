@@ -1,0 +1,6 @@
+info:
+  company: Cohu, Inc
+  product: Cohu-MediaServer
+  softhard: '2'
+matches: |
+  banner.icontains("server: cohu")

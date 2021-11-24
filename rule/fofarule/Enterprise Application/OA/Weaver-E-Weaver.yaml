@@ -1,0 +1,8 @@
+info:
+  company: weaver
+  product: Weaver-E-Weaver
+  softhard: '2'
+matches: |
+  body.icontains("szfeatures")
+  body.icontains("redirecturl")
+  body.icontains("rnddata") && body.icontains("isdx")

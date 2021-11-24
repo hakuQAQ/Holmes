@@ -1,0 +1,11 @@
+info:
+  company: Siemens AG.
+  product: SIEMENS-S7-1200
+  softhard: '1'
+matches: |
+  banner.icontains("6es7 214")
+  banner.icontains("6es7 212")
+  banner.icontains("6es7 215") && banner.icontains("6es7 211")
+  banner.icontains("6es7 212")
+  banner.icontains("6es7 214")
+  banner.icontains("6es7 215")

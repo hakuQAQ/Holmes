@@ -1,0 +1,7 @@
+info:
+  company: BaiShiJia
+  product: BaiShiJia-CMS
+  softhard: '2'
+matches: |
+  title.icontains("佰仕佳cms集群管理系统")
+  body.icontains("/resource/images/cms.ico")

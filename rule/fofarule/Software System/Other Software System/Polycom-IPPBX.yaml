@@ -1,0 +1,7 @@
+info:
+  company: Polycom, Inc.
+  product: Polycom-IPPBX
+  softhard: '2'
+matches: |
+  body.icontains("src=\"cgi-bin/ippbx.cgi?module=showlogin\"")
+  body.icontains("src=\"cgi-bin/httptohttps.cgi\"")

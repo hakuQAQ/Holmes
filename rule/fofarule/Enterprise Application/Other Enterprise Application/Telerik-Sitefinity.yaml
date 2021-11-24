@@ -1,0 +1,7 @@
+info:
+  company: Progress Software Corporation
+  product: Telerik-Sitefinity
+  softhard: '2'
+matches: |
+  body.icontains("telerik.web.ui.webresource.axd")
+  body.icontains("content=\"sitefinity")

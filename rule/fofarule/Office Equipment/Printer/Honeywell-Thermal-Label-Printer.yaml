@@ -1,0 +1,6 @@
+info:
+  company: Honeywell International Inc.
+  product: Honeywell-Thermal-Label-Printer
+  softhard: '1'
+matches: |
+  banner.icontains("thermal label printer ")

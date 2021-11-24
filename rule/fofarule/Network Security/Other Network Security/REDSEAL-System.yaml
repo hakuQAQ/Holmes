@@ -1,0 +1,6 @@
+info:
+  company: RedSeal, Inc.
+  product: REDSEAL-System
+  softhard: '2'
+matches: |
+  body.icontains("alt=\"redseal, inc.\"/></a>")

@@ -1,0 +1,7 @@
+info:
+  company: HORTONWORKS
+  product: Hortonworks-SmartSense-Tool
+  softhard: '2'
+matches: |
+  title.icontains("hortonworks smartsense tool is loading...")
+  body.icontains("name=\"hstapp/config/environment\"")

@@ -1,0 +1,8 @@
+info:
+  company: safedog
+  product: Safedog
+  softhard: '2'
+matches: |
+  header.icontains("waf/2.0") && header.icontains("safedog") && header.icontains("set-cookie: safedog") && header.icontains("safedog-flow-item=")
+  banner.icontains("safedog") && banner.icontains("set-cookie: safedog")
+  banner.icontains("safedog-flow-item=")

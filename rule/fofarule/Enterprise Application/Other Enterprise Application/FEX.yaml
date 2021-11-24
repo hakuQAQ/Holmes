@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: FEX
+  softhard: '2'
+matches: |
+  header.icontains("server: fexsrv")
+  banner.icontains("server: fexsrv")
+  body.icontains("href=\"mailto:fexmaster@ostc.de")

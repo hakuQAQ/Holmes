@@ -1,0 +1,6 @@
+info:
+  company: 'Keenetic Limited '
+  product: KEENETIC-Product
+  softhard: '1'
+matches: |
+  body.icontains("content=\"keenetic web\"")

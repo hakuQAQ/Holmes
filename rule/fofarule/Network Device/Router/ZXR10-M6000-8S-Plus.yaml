@@ -1,0 +1,6 @@
+info:
+  company: ZTE
+  product: ZXR10-M6000-8S-Plus
+  softhard: '1'
+matches: |
+  banner.icontains("zxr10 m6000-8s plus")

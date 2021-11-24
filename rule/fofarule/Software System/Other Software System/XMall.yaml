@@ -1,0 +1,7 @@
+info:
+  company: exrick
+  product: XMall
+  softhard: '2'
+matches: |
+  title.icontains("xmall后台管理系统")
+  body.icontains("xmadmin.exirck.cn")

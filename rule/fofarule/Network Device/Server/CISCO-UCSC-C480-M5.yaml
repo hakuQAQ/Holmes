@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-UCSC-C480-M5
+  softhard: '1'
+matches: |
+  cert.icontains("pid:ucsc-c480-m5")

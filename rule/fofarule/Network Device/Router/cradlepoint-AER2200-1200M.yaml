@@ -1,0 +1,6 @@
+info:
+  company: Cradlepoint, Inc.
+  product: cradlepoint-AER2200-1200M
+  softhard: '1'
+matches: |
+  title.icontains("login :: aer2200-1200m")

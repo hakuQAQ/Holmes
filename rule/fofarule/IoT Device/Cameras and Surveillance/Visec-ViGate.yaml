@@ -1,0 +1,7 @@
+info:
+  company: Philex Enterprises, Inc.
+  product: Visec-ViGate
+  softhard: '1'
+matches: |
+  body.icontains("src='/themes/visec/images/")
+  body.icontains("name=\"passwordfld")

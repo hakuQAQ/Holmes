@@ -1,0 +1,7 @@
+info:
+  company: Silex Technology, Inc.
+  product: Silex-SX-3000GB
+  softhard: '1'
+matches: |
+  banner.icontains("silex sx-3000gb")
+  title.icontains("sx-3000gb")

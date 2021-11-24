@@ -1,0 +1,6 @@
+info:
+  company: ximo
+  product: XiMO-DNS
+  softhard: '1'
+matches: |
+  title.icontains("西默智能dns")

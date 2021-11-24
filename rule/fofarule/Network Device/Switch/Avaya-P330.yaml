@@ -1,0 +1,7 @@
+info:
+  company: Avaya Inc.
+  product: Avaya-P330
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp")
+  banner.icontains("avaya inc. - p330")

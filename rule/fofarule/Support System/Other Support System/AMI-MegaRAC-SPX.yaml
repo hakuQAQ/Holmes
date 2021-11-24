@@ -1,0 +1,6 @@
+info:
+  company: American Megatrends
+  product: AMI-MegaRAC-SPX
+  softhard: '2'
+matches: |
+  body.icontains("<modelname>ami megarac spx</modelname>")

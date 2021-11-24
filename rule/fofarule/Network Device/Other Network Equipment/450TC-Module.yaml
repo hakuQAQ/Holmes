@@ -1,0 +1,6 @@
+info:
+  company: Honeywell International Inc.
+  product: 450TC-Module
+  softhard: '1'
+matches: |
+  banner.icontains("450tc1") && banner.icontains("450tc2")

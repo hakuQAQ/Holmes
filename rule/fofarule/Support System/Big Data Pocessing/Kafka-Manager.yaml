@@ -1,0 +1,9 @@
+info:
+  company: Apache Software Foundation.
+  product: Kafka-Manager
+  softhard: '2'
+matches: |
+  header.icontains("kafka admin")
+  header.icontains("kafka-manager")
+  title.icontains("kafka manager") && body.icontains("/vassets/datatables/stylesheets")
+  body.icontains("vassets/images/2af62f58ee2baf495c9b3a9a1c30ce03-favicon.png")

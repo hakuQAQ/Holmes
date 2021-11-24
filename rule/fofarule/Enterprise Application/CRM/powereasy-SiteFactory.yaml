@@ -1,0 +1,8 @@
+info:
+  company: powereasy
+  product: powereasy-SiteFactory
+  softhard: '2'
+matches: |
+  body.icontains("id=\"validationsummary1\"")
+  body.icontains("class=\"user_main_l\"")
+  body.icontains("name=\"generator\"")

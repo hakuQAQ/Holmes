@@ -1,0 +1,9 @@
+info:
+  company: Technicolor.
+  product: Technicolor-Gateway
+  softhard: '1'
+matches: |
+  header.icontains("xauth_session_id")
+  body.icontains("technicolor gateway")
+  header.icontains("/login.lp") && banner.icontains("technicolor cablehome gateway ")
+  header.icontains("technicolor gateway")

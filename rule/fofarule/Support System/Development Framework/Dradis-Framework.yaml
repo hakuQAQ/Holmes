@@ -1,0 +1,7 @@
+info:
+  company: Security Roots Ltd.
+  product: Dradis-Framework
+  softhard: '2'
+matches: |
+  header.icontains("_dradis_session=")
+  body.icontains("<p class=\"copyright\">dradis")

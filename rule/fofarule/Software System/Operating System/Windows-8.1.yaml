@@ -1,0 +1,6 @@
+info:
+  company: Microsoft Corporation
+  product: Windows-8.1
+  softhard: '2'
+matches: |
+  banner.icontains("native os : windows 8.1")

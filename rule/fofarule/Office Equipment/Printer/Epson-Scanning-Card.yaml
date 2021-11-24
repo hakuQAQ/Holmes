@@ -1,0 +1,7 @@
+info:
+  company: Seiko Epson Corporation.
+  product: Epson-Scanning-Card
+  softhard: '1'
+matches: |
+  banner.icontains("epson")
+  banner.icontains("scanning card")

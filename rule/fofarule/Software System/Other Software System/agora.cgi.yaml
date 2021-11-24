@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: agora.cgi
+  softhard: '2'
+matches: |
+  body.icontains("/agora.cgi?product=") && body.icontains("/store/agora.cgi")

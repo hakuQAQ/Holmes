@@ -1,0 +1,9 @@
+info:
+  company: Other
+  product: i@Report
+  softhard: '2'
+matches: |
+  body.icontains("esensoft_ireport_server")
+  body.icontains("com.sanlink.server.login")
+  body.icontains("ireportclient")
+  body.icontains("css/ireport.css")

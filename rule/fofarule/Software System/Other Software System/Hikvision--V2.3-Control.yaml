@@ -1,0 +1,8 @@
+info:
+  company: Hikvision
+  product: Hikvision--V2.3-Control
+  softhard: '2'
+matches: |
+  body.icontains("hikvision v2.3控件网页demo")
+  body.icontains("杭州海康威视数字技术股份有限公司")
+  body.icontains("if(m_bdvrcontrol.stoptalk())")

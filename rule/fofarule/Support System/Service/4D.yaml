@@ -1,0 +1,6 @@
+info:
+  company: 4D SAS
+  product: 4D
+  softhard: '2'
+matches: |
+  header.icontains("4d")

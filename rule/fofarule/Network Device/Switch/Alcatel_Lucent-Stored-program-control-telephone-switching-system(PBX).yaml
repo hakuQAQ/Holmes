@@ -1,0 +1,8 @@
+info:
+  company: Alcatel-Lucent S.A.
+  product: Alcatel_Lucent-Stored-program-control-telephone-switching-system(PBX)
+  softhard: '1'
+matches: |
+  title.icontains("omnipcx for enterprise")
+  body.icontains("href=\"nmc/index.php\">configuration / save - restore")
+  body.icontains("changed by: daniel kaiber")

@@ -1,0 +1,7 @@
+info:
+  company: TRENDnet, Inc.
+  product: TRENDnet-TV-NVR104
+  softhard: '1'
+matches: |
+  banner.icontains("tv-nvr104")
+  header.icontains("realm=\"tv-nvr104")

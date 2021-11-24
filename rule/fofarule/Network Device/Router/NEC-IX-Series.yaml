@@ -1,0 +1,6 @@
+info:
+  company: NEC Corporation
+  product: NEC-IX-Series
+  softhard: '1'
+matches: |
+  banner.icontains("nec ") && banner.icontains("ix series ")

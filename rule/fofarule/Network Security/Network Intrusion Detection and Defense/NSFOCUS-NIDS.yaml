@@ -1,0 +1,6 @@
+info:
+  company: NSFOCUS
+  product: NSFOCUS-NIDS
+  softhard: '1'
+matches: |
+  body.icontains("/login_logo_nids_zh_cn.png")

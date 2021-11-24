@@ -1,0 +1,7 @@
+info:
+  company: ZTE
+  product: ZTE-BAVO-Multimedia-Business-Center
+  softhard: '1'
+matches: |
+  body.icontains("bavo 多媒体业务中心")
+  body.icontains("/zxms80css.css")

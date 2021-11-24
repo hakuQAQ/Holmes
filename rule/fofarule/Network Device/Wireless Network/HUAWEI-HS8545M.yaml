@@ -1,0 +1,8 @@
+info:
+  company: Huawei
+  product: HUAWEI-HS8545M
+  softhard: '1'
+matches: |
+  body.icontains("var productname = 'hs8545m'")
+  body.icontains("window.location=\"https://\" + sslhostip + \":\" + sslport")
+  body.icontains("var sslhostip ='170.79.114.90'")

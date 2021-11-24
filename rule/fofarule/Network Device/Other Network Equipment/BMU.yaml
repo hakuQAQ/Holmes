@@ -1,0 +1,6 @@
+info:
+  company: HUAWEI
+  product: BMU
+  softhard: '1'
+matches: |
+  body.icontains("版本： espace ecs")

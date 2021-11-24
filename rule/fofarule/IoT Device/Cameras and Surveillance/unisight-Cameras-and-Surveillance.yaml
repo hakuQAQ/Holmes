@@ -1,0 +1,9 @@
+info:
+  company: unisight
+  product: unisight-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  title.icontains("surveillance system") && body.icontains("<script src=\"js/flash.js")
+  body.icontains("<script src=\"js/png.js")
+  body.icontains("<script src=\"js/rightclick.js")
+  protocol.icontains("rtsp") && banner.icontains("realm=\"unisight")

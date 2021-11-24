@@ -1,0 +1,6 @@
+info:
+  company: Omnitracs, LLC.
+  product: IPR400
+  softhard: '1'
+matches: |
+  banner.icontains("ipr voip device ipr400 ")

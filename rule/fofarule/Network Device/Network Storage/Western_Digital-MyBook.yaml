@@ -1,0 +1,6 @@
+info:
+  company: Western Digital Corporation
+  product: Western_Digital-MyBook
+  softhard: '1'
+matches: |
+  body.icontains("src=\"/img/headernav_separator.gif\"")

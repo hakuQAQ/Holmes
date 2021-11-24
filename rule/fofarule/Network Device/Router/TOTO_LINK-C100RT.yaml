@@ -1,0 +1,6 @@
+info:
+  company: TOTOLINK
+  product: TOTO_LINK-C100RT
+  softhard: '1'
+matches: |
+  body.icontains("src =\"/images/login_back_c100rt.gif\"")

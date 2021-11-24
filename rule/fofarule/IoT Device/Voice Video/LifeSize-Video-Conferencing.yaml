@@ -1,0 +1,7 @@
+info:
+  company: Lifesize, Inc.
+  product: LifeSize-Video-Conferencing
+  softhard: '1'
+matches: |
+  body.icontains("src=\"js/swfobject.js")
+  body.icontains("src=\"js/lsjavascript.js")

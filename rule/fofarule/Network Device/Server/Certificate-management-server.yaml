@@ -1,0 +1,7 @@
+info:
+  company: BJCA
+  product: Certificate-management-server
+  softhard: '1'
+matches: |
+  body.icontains("name=\"spring-security-redirect\" value=\"/loginbycert\"")
+  title == "证书管理服务器"

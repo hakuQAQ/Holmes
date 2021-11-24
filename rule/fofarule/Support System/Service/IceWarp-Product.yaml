@@ -1,0 +1,6 @@
+info:
+  company: IceWarp Ltd.
+  product: IceWarp-Product
+  softhard: '1'
+matches: |
+  header.icontains("icewarp")

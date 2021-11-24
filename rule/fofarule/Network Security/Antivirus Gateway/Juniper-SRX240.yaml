@@ -1,0 +1,7 @@
+info:
+  company: Juniper Networks, Inc.
+  product: Juniper-SRX240
+  softhard: '1'
+matches: |
+  banner.icontains("juniper srx240")
+  banner.icontains("juniper-srx240")

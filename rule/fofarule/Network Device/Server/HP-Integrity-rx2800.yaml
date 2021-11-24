@@ -1,0 +1,6 @@
+info:
+  company: Hewlett Packard Enterprise Development LP
+  product: HP-Integrity-rx2800
+  softhard: '1'
+matches: |
+  banner.icontains("rx2800") && body.icontains("class=\"logintitlesub\">hpe integrity rx2800")

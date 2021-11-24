@@ -1,0 +1,9 @@
+info:
+  company: QNO
+  product: QNO-Router
+  softhard: '1'
+matches: |
+  body.icontains("/qnovirtual_keyboard.js")
+  body.icontains("/images/login_img01_03.gif")
+  body.icontains("login_bt_over.gif")
+  title.icontains("qno")

@@ -1,0 +1,6 @@
+info:
+  company: Teradata Corporation.
+  product: teradata-Aster
+  softhard: '2'
+matches: |
+  body.icontains("images/teradata_aster_logo.png")

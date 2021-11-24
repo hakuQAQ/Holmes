@@ -1,0 +1,9 @@
+info:
+  company: oVirt
+  product: oVirt-Virtualization
+  softhard: '2'
+matches: |
+  banner.icontains("/ovirt-engine/")
+  banner.icontains("location: ")
+  header.icontains("/ovirt-engine/")
+  body.icontains("<a href=\"https://www.ovirt.org\" class=\"obrand_loginpagelogolink\">")

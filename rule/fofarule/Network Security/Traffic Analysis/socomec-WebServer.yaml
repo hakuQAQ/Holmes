@@ -1,0 +1,8 @@
+info:
+  company: SOCOMEC Group S.A.
+  product: socomec-WebServer
+  softhard: '2'
+matches: |
+  body.icontains("diag.htm?src=index")
+  body.icontains("jqu_cke.js")
+  body.icontains("utility.js")

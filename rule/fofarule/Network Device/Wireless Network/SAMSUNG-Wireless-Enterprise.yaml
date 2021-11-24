@@ -1,0 +1,6 @@
+info:
+  company: Samsung Group
+  product: SAMSUNG-Wireless-Enterprise
+  softhard: '1'
+matches: |
+  body.icontains("<h1>wireless enterprise manager</h1>")

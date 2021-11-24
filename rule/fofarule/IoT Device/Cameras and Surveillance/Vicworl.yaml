@@ -1,0 +1,8 @@
+info:
+  company: Dreamsoft Web Studio
+  product: Vicworl
+  softhard: '1'
+matches: |
+  body.icontains("powered by vicworl")
+  body.icontains("content=\"vicworl")
+  body.icontains("vindex_right_d")

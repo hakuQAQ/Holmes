@@ -1,0 +1,8 @@
+info:
+  company: hechen
+  product: hechen-WAF
+  softhard: '1'
+matches: |
+  body.icontains("src=\"./js/jquery.validate.js\"")
+  body.icontains("class=\"inputsize2\"")
+  title.icontains("防火墙")

@@ -1,0 +1,8 @@
+info:
+  company: BSS Networked Audio Systems
+  product: BSSNASSoundweb-London
+  softhard: '1'
+matches: |
+  header.icontains("soundweb london")
+  banner.icontains("soundweb london")
+  banner.icontains("server: ")

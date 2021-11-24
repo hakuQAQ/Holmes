@@ -1,0 +1,7 @@
+info:
+  company: OWASP Foundation, Inc.
+  product: WebGoat
+  softhard: '2'
+matches: |
+  header.icontains("realm=\"webgoat")
+  banner.icontains("realm=\"webgoat")

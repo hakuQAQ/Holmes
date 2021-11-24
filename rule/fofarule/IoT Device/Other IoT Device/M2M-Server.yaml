@@ -1,0 +1,8 @@
+info:
+  company: WM Systems LLC.
+  product: M2M-Server
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"m2m server")
+  header.icontains("server: idvhttpd")
+  banner.icontains("server: idvhttpd") && banner.icontains("realm=\"m2m server")

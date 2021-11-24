@@ -1,0 +1,6 @@
+info:
+  company: WSNCM
+  product: WSNCM-IOT
+  softhard: '2'
+matches: |
+  body.icontains("class=\"login\">物联网供应链与金融风险管理服务")

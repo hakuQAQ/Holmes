@@ -1,0 +1,7 @@
+info:
+  company: airlinksecurity
+  product: AirLink-SkyIPCam
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"skyipcam")
+  banner.icontains("realm=\"skyipcam")

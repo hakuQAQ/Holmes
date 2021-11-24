@@ -1,0 +1,6 @@
+info:
+  company: Alcatel-Lucent S.A.
+  product: Alcatel_Lucent-OS6560-24X4
+  softhard: '1'
+matches: |
+  body.icontains("<span>device os6560-24x4")

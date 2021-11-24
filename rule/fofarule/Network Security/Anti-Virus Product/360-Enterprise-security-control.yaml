@@ -1,0 +1,6 @@
+info:
+  company: '360'
+  product: 360-Enterprise-security-control
+  softhard: '2'
+matches: |
+  title.icontains("360企业版控制中心")

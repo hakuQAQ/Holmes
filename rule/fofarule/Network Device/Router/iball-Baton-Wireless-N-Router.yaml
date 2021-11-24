@@ -1,0 +1,6 @@
+info:
+  company: Best IT World(India) Pvt. Ltd.
+  product: iball-Baton-Wireless-N-Router
+  softhard: '1'
+matches: |
+  title.icontains("iball baton wireless-n router")

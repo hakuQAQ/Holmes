@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: yunec
+  softhard: '2'
+matches: |
+  body.icontains("href=\"/17rec.html\"")

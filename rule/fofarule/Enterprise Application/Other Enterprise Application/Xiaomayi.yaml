@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Xiaomayi
+  softhard: '2'
+matches: |
+  title.icontains("powered by 小蚂蚁地方门户网站系统")
+  header.icontains("antxiaouserslogin")
+  body.icontains("/template/ant/css/anthomecomm.css")

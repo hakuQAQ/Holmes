@@ -1,0 +1,8 @@
+info:
+  company: Beanbag, Inc.
+  product: reviewboard
+  softhard: '2'
+matches: |
+  body.icontains("/static/rb/images/delete")
+  header.icontains("rbsessionid")
+  banner.icontains("rbsessionid")

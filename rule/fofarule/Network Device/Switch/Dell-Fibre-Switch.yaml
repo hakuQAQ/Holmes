@@ -1,0 +1,6 @@
+info:
+  company: Dell Inc.
+  product: Dell-Fibre-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("fibre channel switch")

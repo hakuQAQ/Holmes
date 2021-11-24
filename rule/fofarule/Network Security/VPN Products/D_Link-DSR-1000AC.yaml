@@ -1,0 +1,7 @@
+info:
+  company: DLink
+  product: D_Link-DSR-1000AC
+  softhard: '1'
+matches: |
+  body.icontains("unified services router - dsr-1000ac </div>")
+  banner.icontains(" dsr-1000ac")

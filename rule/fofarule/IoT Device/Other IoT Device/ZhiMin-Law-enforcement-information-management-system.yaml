@@ -1,0 +1,7 @@
+info:
+  company: zhiminkeji
+  product: ZhiMin-Law-enforcement-information-management-system
+  softhard: '1'
+matches: |
+  body.icontains("action=\"/?_a=login&_c=index&_m=index")
+  body.icontains("北京智敏科技发展有限公司·版权所有")

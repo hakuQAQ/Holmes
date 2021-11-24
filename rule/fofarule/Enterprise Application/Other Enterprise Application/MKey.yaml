@@ -1,0 +1,8 @@
+info:
+  company: Dheaven
+  product: MKey
+  softhard: '2'
+matches: |
+  body.icontains("北京数字天堂信息科技有限责任公司")
+  title.icontains("mkey") && title.icontains("mkey5云平台")
+  title.icontains("mkey®无线中间件")

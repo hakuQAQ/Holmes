@@ -1,0 +1,8 @@
+info:
+  company: Sangfor
+  product: sangfor-sip
+  softhard: '2'
+matches: |
+  body.icontains("window.sessionstorage.removeitem('serialcheckobj')")
+  body.icontains("src=\"/apps/secvisual/static/js/runtime.js?")
+  body.icontains("url: '../auth_manage/auth_manage/on_login'")

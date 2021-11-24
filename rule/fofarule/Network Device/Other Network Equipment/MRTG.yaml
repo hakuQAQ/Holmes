@@ -1,0 +1,10 @@
+info:
+  company: Other
+  product: MRTG
+  softhard: '2'
+matches: |
+  title.icontains("mrtg index page")
+  body.icontains("href=\"http://oss.oetiker.ch/mrtg/")
+  body.icontains("/mrtg-l.png") && body.icontains("command line is easier to read using \"view page properties\" of your browser")
+  header.icontains("realm=\"mrtg ")
+  banner.icontains("realm=\"mrtg ")

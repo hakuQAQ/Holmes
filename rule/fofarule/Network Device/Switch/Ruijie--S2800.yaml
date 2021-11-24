@@ -1,0 +1,6 @@
+info:
+  company: Ruijie
+  product: Ruijie--S2800
+  softhard: '1'
+matches: |
+  banner.icontains("star switch s2800")

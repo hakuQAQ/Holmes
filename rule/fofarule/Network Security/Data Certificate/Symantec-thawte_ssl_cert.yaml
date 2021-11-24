@@ -1,0 +1,6 @@
+info:
+  company: Symantec Corporation
+  product: Symantec-thawte_ssl_cert
+  softhard: '2'
+matches: |
+  body.icontains("https://seal.thawte.com/getthawteseal")

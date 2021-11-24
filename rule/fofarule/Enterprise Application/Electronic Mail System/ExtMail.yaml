@@ -1,0 +1,6 @@
+info:
+  company: extmail
+  product: ExtMail
+  softhard: '2'
+matches: |
+  title.icontains("欢迎使用extmail") && body.icontains("setcookie('extmail_username")

@@ -1,0 +1,6 @@
+info:
+  company: NetComm Limited
+  product: NetComm-GURNV5
+  softhard: '1'
+matches: |
+  banner.icontains("gurnv5")

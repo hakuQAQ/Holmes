@@ -1,0 +1,7 @@
+info:
+  company: AVTECH Software, Inc.
+  product: RoomAlert
+  softhard: '1'
+matches: |
+  banner.icontains("roomalert")
+  banner.icontains("room alert")

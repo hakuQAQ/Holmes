@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Wing-FTP-Server
+  softhard: '2'
+matches: |
+  header.icontains("server: wing ftp server")
+  banner.icontains("server: wing ftp server")
+  body.icontains("/help_javascript.htm") && cert.icontains("wing ftp server")

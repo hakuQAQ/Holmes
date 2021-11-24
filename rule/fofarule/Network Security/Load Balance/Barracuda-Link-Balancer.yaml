@@ -1,0 +1,7 @@
+info:
+  company: Barracuda Networks, Inc.
+  product: Barracuda-Link-Balancer
+  softhard: '1'
+matches: |
+  banner.icontains("barracuda link balancer")
+  title.icontains("barracuda link balancer")

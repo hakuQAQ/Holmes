@@ -1,0 +1,14 @@
+info:
+  company: Other
+  product: Ruby
+  softhard: '2'
+matches: |
+  header.icontains("ruby") && header.icontains("webrick") && header.icontains("phusion") && header.icontains("mongrel") && header.icontains("x-rack-cache")
+  body.icontains("src=\"/assets/")
+  body.icontains("name=\"csrf-param")
+  body.icontains("content=\"authenticity_token")
+  header.icontains("rails_env")
+  header.icontains("rubyversion")
+  banner.icontains("ruby") && banner.icontains("webrick") && banner.icontains("phusion") && banner.icontains("mongrel") && banner.icontains("x-rack-cache")
+  banner.icontains("rails_env")
+  banner.icontains("rubyversion")

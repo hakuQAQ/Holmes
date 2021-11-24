@@ -1,0 +1,7 @@
+info:
+  company: huianquan
+  product: AnHuiWAF
+  softhard: '2'
+matches: |
+  header.icontains("protected-by: anhui web firewall")
+  banner.icontains("protected-by: anhui web firewall")

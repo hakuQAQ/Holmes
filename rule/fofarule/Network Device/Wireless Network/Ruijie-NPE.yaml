@@ -1,0 +1,6 @@
+info:
+  company: Ruijie
+  product: Ruijie-NPE
+  softhard: '1'
+matches: |
+  body.icontains("alt=\"npe 网络出口控制设备\"")

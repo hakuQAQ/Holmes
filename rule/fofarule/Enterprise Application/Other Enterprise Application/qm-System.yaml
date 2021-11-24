@@ -1,0 +1,7 @@
+info:
+  company: QM
+  product: qm-System
+  softhard: '2'
+matches: |
+  body.icontains("assets/css/fdb.css")
+  body.icontains("src=\"polyfills.js")

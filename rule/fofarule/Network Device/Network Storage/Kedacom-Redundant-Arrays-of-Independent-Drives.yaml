@@ -1,0 +1,7 @@
+info:
+  company: kedacom
+  product: Kedacom-Redundant-Arrays-of-Independent-Drives
+  softhard: '1'
+matches: |
+  body.icontains("<meta name=\"kedacom\" content=\"true\">")
+  title.icontains("磁盘阵列管理系统")

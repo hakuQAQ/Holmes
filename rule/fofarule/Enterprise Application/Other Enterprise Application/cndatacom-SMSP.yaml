@@ -1,0 +1,6 @@
+info:
+  company: cndatacom
+  product: cndatacom-SMSP
+  softhard: '2'
+matches: |
+  body.icontains("/smrc/resources/default/")

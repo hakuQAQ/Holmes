@@ -1,0 +1,7 @@
+info:
+  company: Dell Inc.
+  product: DELL-Unisphere
+  softhard: '2'
+matches: |
+  body.icontains("用于 sc 系列的 unisphere")
+  body.icontains("unisphere for sc series")

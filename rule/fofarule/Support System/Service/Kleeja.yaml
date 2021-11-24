@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Kleeja
+  softhard: '2'
+matches: |
+  body.icontains("powered by kleeja")

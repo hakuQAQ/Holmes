@@ -1,0 +1,10 @@
+info:
+  company: Phocas Ltd
+  product: Phocas
+  softhard: '2'
+matches: |
+  body.icontains("href=\"https://www.phocassoftware.com\"")
+  title.icontains(" phocas: business intelligence software and data analytics ")
+  title.icontains("phocassoftware.com")
+  title.icontains("phocas user group")
+  title.icontains("documentation")

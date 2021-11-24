@@ -1,0 +1,8 @@
+info:
+  company: Apache Software Foundation.
+  product: Hadoop-Administration
+  softhard: '2'
+matches: |
+  title.icontains("hadoop administration")
+  body.icontains("/static/hadoop.css")
+  body.icontains("class=\"navbar-brand\">hadoop</div>")

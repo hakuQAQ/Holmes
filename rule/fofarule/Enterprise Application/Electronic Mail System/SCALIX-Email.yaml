@@ -1,0 +1,8 @@
+info:
+  company: Scalix Inc.
+  product: SCALIX-Email
+  softhard: '2'
+matches: |
+  banner.icontains("scalix imap")
+  banner.icontains("scalix pop3")
+  banner.icontains("scalix smtp")

@@ -1,0 +1,8 @@
+info:
+  company: 'BroadWin Technology, Inc. '
+  product: BroadWin-WebAccess
+  softhard: '1'
+matches: |
+  body.icontains("<!-- #begintemplate \"/templates/bw_templete1.dwt\" -->")
+  header.icontains("/broadweb/bwroot.asp?username=")
+  banner.icontains("/broadweb/bwroot.asp?username=")

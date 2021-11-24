@@ -1,0 +1,7 @@
+info:
+  company: Juniper Networks, Inc.
+  product: Juniper-Router
+  softhard: '1'
+matches: |
+  banner.icontains("juniper networks, inc")
+  banner.icontains("router")

@@ -1,0 +1,10 @@
+info:
+  company: NSFOCUS
+  product: NSFOCUS-WAF
+  softhard: '1'
+matches: |
+  title == "waf nsfocus" && body.icontains("/images/logo/nsfocus.png")
+  cert.icontains("email address: liuzhixu@intra.nsfocus.com ")
+  cert.icontains("commonname: wafg2")
+  header.icontains("nsfocus vmwaf")
+  banner.icontains("nsfocus vmwaf")

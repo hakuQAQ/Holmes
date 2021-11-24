@@ -1,0 +1,6 @@
+info:
+  company: HWS
+  product: HuWeiShen-Host-Management
+  softhard: '2'
+matches: |
+  title.icontains("护卫神·主机管理系统")

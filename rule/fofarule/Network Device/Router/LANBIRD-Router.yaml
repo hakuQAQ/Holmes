@@ -1,0 +1,6 @@
+info:
+  company: LANBIRD Technology Co. Ltd
+  product: LANBIRD-Router
+  softhard: '1'
+matches: |
+  banner.icontains("lanbird router ")

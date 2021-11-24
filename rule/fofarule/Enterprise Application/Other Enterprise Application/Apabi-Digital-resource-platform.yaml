@@ -1,0 +1,8 @@
+info:
+  company: apabi
+  product: Apabi-Digital-resource-platform
+  softhard: '2'
+matches: |
+  body.icontains("default/apabi.css")
+  body.icontains("<link href=\"http://apabi")
+  title.icontains("数字资源平台")

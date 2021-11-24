@@ -1,0 +1,11 @@
+info:
+  company: dptech
+  product: Dptech-Device
+  softhard: '1'
+matches: |
+  body.icontains("window.location = \"html/login_en.html\";")
+  cert.icontains("subject: c=cn, st=zhejiang, l=hangzhou, o=dptech, ou=dptech, cn=dptechnology.net/emailaddress=support@dptechnology.net")
+  title.icontains("web management interface for dptech") && cert.icontains("commonname: www.dptechnology.net")
+  cert.icontains("organization: dptech")
+  body.icontains("var valid_url=\"/func/web_main/validate?check=\"+hex_md5(s).tolowercase()")
+  banner.icontains("conplatssh")

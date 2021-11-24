@@ -1,0 +1,8 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-GS748T
+  softhard: '1'
+matches: |
+  body.icontains("gs748timage spacer50percent topalign righthalign")
+  title.icontains("netgear gs748t")
+  banner.icontains("gs748tv4")

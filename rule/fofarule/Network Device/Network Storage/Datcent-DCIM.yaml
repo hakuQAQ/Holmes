@@ -1,0 +1,6 @@
+info:
+  company: datcent
+  product: Datcent-DCIM
+  softhard: '1'
+matches: |
+  header.icontains("datcent")

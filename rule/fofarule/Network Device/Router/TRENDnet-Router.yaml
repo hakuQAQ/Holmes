@@ -1,0 +1,8 @@
+info:
+  company: TRENDnet, Inc.
+  product: TRENDnet-Router
+  softhard: '1'
+matches: |
+  body.icontains("trendnet")
+  body.icontains("var model= dev_info.model")
+  body.icontains("modlename: misc.misc[0].model")

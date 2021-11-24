@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: XOOPS
+  softhard: '2'
+matches: |
+  body.icontains("include/xoops.js")

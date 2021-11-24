@@ -1,0 +1,7 @@
+info:
+  company: drc
+  product: Distributed Regtech Collaboration Platform
+  softhard: '2'
+matches: |
+  title.icontains("drc自动化接入平台")
+  body.icontains("<span class=\"blue bolder\">drc</span>")

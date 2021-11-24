@@ -1,0 +1,6 @@
+info:
+  company: Greenbone Networks
+  product: Greenbone
+  softhard: '2'
+matches: |
+  title.icontains("greenbone security assistant")

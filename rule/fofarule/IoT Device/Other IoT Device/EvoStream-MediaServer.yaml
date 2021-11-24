@@ -1,0 +1,6 @@
+info:
+  company: EvoStream Inc
+  product: EvoStream-MediaServer
+  softhard: '1'
+matches: |
+  banner.icontains("server: evostream media server")

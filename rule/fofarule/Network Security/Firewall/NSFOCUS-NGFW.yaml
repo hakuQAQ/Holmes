@@ -1,0 +1,7 @@
+info:
+  company: NSFOCUS
+  product: NSFOCUS-NGFW
+  softhard: '1'
+matches: |
+  title.icontains("nsfocus nf")
+  body.icontains("/login_logo_nf_zh_cn.png")

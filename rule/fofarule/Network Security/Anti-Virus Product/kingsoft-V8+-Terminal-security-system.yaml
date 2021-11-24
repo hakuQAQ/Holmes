@@ -1,0 +1,8 @@
+info:
+  company: ejinshan
+  product: kingsoft-V8+-Terminal-security-system
+  softhard: '2'
+matches: |
+  title.icontains("在线安装-v8+终端安全系统web控制台")
+  body.icontains("class=\"anouncetext\">为了更好的保障企业内网的安全，公司决定从即日起全面部署金山企业安全终端防护优化系统")
+  body.icontains("href=\"mobiletools/android/net.ejinshan.avclient.apk")

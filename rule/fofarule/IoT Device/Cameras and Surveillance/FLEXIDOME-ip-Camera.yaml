@@ -1,0 +1,6 @@
+info:
+  company: Bosch Sicherheitssysteme GmbH
+  product: FLEXIDOME-ip-Camera
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp") && banner.icontains("flexidome ip")

@@ -1,0 +1,7 @@
+info:
+  company: Forcepoint LLC.
+  product: Websense-Email-Security-Gateway
+  softhard: '2'
+matches: |
+  banner.icontains("websense email")
+  title.icontains("websense email security gateway")

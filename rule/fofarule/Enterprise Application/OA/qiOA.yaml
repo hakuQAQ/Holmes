@@ -1,0 +1,8 @@
+info:
+  company: xuanruanjian
+  product: qiOA
+  softhard: '2'
+matches: |
+  body.icontains("js/jqselect.js")
+  body.icontains("css/css.css")
+  body.icontains("class=\"style1")

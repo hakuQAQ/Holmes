@@ -1,0 +1,9 @@
+info:
+  company: Belkin International, Inc.
+  product: LINKSYS-E1200
+  softhard: '1'
+matches: |
+  body.icontains("var mmc = {")
+  body.icontains("linksys e1200")
+  header.icontains("linksys e1200")
+  banner.icontains("linksys e1200")

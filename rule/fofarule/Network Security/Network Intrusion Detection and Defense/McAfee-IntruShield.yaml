@@ -1,0 +1,6 @@
+info:
+  company: McAfee, Inc.
+  product: McAfee-IntruShield
+  softhard: '2'
+matches: |
+  body.icontains("intrushield") && body.icontains("intruvert")

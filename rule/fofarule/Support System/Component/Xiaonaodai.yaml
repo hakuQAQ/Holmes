@@ -1,0 +1,6 @@
+info:
+  company: xiaonaodai
+  product: Xiaonaodai
+  softhard: '2'
+matches: |
+  body.icontains("http://stat.xiaonaodai.com/stat.php")

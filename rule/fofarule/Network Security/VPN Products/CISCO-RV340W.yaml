@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-RV340W
+  softhard: '1'
+matches: |
+  title.icontains("cisco rv340w")

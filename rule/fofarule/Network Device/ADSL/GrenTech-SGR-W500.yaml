@@ -1,0 +1,6 @@
+info:
+  company: powercn
+  product: GrenTech-SGR-W500
+  softhard: '1'
+matches: |
+  banner.icontains("sgr-w500")

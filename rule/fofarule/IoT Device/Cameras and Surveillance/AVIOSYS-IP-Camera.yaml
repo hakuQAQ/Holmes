@@ -1,0 +1,7 @@
+info:
+  company: AVIOSYS International Inc.
+  product: AVIOSYS-IP-Camera
+  softhard: '1'
+matches: |
+  body.icontains("copyright aviosys")
+  body.icontains("view log")

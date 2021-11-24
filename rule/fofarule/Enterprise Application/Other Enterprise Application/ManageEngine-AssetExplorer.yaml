@@ -1,0 +1,7 @@
+info:
+  company: Zoho Corporation Pvt. Ltd.
+  product: ManageEngine-AssetExplorer
+  softhard: '2'
+matches: |
+  title.icontains("manageengine assetexplorer")
+  body.icontains("class=\"footerf2\">manageengine assetexplorer")

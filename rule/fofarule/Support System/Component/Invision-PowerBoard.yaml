@@ -1,0 +1,6 @@
+info:
+  company: Invision Power Services, Inc.
+  product: Invision-PowerBoard
+  softhard: '2'
+matches: |
+  body.icontains("powered by <a href=\"http://www.invisionboard.com")

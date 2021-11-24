@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: Kayako-SupportSuite
+  softhard: '2'
+matches: |
+  body.icontains("powered by kayako esupport")
+  body.icontains("help desk software by kayako esupport")

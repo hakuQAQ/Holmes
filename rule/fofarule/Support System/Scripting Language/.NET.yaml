@@ -1,0 +1,6 @@
+info:
+  company: Microsoft Corporation
+  product: .NET
+  softhard: '2'
+matches: |
+  body.icontains("content=\"visual basic .net 7.1")

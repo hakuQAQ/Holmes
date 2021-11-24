@@ -1,0 +1,9 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TP-LINK-Wireless-Router
+  softhard: '1'
+matches: |
+  header.icontains("tp-link")
+  header.icontains("wireless")
+  banner.icontains("tp-link") && banner.icontains("wireless")
+  header.icontains("tp-link") && header.icontains("tl-") && protocol.icontains("telnet") && banner.icontains("tl-") && body.icontains("javascript:gourl('http://www.tp-link.com.cn');")

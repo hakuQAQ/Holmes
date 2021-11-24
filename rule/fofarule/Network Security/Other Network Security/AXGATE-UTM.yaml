@@ -1,0 +1,6 @@
+info:
+  company: AXGATE CO., LTD.
+  product: AXGATE-UTM
+  softhard: '1'
+matches: |
+  body.icontains("class=\"axgate\" ng-controller=\"logincontroller\"")

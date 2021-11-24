@@ -1,0 +1,7 @@
+info:
+  company: meitrack
+  product: MeiTrack
+  softhard: '2'
+matches: |
+  body.icontains("action=\"trackerlogin.aspx")
+  body.icontains("_trackermain_gtvtseries")

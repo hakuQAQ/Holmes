@@ -1,0 +1,6 @@
+info:
+  company: pldsec
+  product: Palladium-Unified-security-management-and-comprehensive-audit-system
+  softhard: '1'
+matches: |
+  body.icontains("module/image/pldsec.css")

@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Vigil-DVR
+  softhard: '1'
+matches: |
+  header.icontains("vigil-dvr")

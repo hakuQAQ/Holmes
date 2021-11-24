@@ -1,0 +1,6 @@
+info:
+  company: Ruijie
+  product: Ruijie-Cloud
+  softhard: '2'
+matches: |
+  body.icontains("content=\"rcp, 管理平台\"")

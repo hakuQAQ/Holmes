@@ -1,0 +1,6 @@
+info:
+  company: NETENTSEC
+  product: NETENTSEC-Log-analysis
+  softhard: '2'
+matches: |
+  title.icontains("日志分析中心 ") && body.icontains("网康")

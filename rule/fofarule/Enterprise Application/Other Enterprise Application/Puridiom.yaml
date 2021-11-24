@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Puridiom
+  softhard: '2'
+matches: |
+  body.icontains("content=\"/puridiom/system/header.jsp")
+  body.icontains("src=\"/puridiom/system/processing.jsp")
+  title.icontains("puridiom, enabling self-service procurement")

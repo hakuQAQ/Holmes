@@ -1,0 +1,7 @@
+info:
+  company: Sling Media, Inc.
+  product: SlingBox
+  softhard: '1'
+matches: |
+  header.icontains("set-cookie: _sling_skey")
+  banner.icontains("set-cookie: _sling_skey")

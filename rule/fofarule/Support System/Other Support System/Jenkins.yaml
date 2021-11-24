@@ -1,0 +1,13 @@
+info:
+  company: Other
+  product: Jenkins
+  softhard: '2'
+matches: |
+  header.icontains("x-jenkins")
+  header.icontains("x-hudson")
+  header.icontains("x-required-permission: hudson.model.hudson.read")
+  banner.icontains("x-jenkins")
+  banner.icontains("x-hudson")
+  banner.icontains("x-required-permission: hudson.model.hudson.read")
+  body.icontains("jenkins-agent-protocols")
+  header.icontains("content-type: text/plain")

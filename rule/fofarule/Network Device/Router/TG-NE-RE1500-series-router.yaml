@@ -1,0 +1,6 @@
+info:
+  company: tg-net
+  product: TG-NE-RE1500-series-router
+  softhard: '1'
+matches: |
+  banner.icontains("tg-ne re1500 series router")

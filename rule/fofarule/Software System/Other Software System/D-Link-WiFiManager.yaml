@@ -1,0 +1,6 @@
+info:
+  company: D-Link Corporation
+  product: D-Link-WiFiManager
+  softhard: '2'
+matches: |
+  title.icontains("d-link central wifimanager")

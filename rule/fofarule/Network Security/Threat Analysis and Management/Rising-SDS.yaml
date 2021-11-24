@@ -1,0 +1,7 @@
+info:
+  company: rising
+  product: Rising-SDS
+  softhard: '1'
+matches: |
+  cert.icontains("virus early warning system")
+  title.icontains("瑞星网络安全预警系统")

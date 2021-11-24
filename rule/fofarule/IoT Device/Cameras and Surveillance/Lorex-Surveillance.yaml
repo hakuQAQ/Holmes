@@ -1,0 +1,6 @@
+info:
+  company: Lorex Technology Inc.
+  product: Lorex-Surveillance
+  softhard: '1'
+matches: |
+  body.icontains("href=\"/lorex_webplugin.exe")

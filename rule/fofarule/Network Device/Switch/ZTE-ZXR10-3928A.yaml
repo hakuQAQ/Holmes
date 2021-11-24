@@ -1,0 +1,7 @@
+info:
+  company: ZTE
+  product: ZTE-ZXR10-3928A
+  softhard: '1'
+matches: |
+  banner.icontains("zxr10 3928a")
+  banner.icontains("zxr10_3928a")

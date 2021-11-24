@@ -1,0 +1,7 @@
+info:
+  company: Dell Inc.
+  product: DELL-POWEREDGE-R730XD
+  softhard: '1'
+matches: |
+  banner.icontains("poweredge-r730xd")
+  header.icontains("poweredge-r730xd")

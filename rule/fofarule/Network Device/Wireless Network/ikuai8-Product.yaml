@@ -1,0 +1,6 @@
+info:
+  company: ikuai8
+  product: ikuai8-Product
+  softhard: '1'
+matches: |
+  body.icontains("fc tc y_bg prompt-head-div")

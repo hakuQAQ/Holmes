@@ -1,0 +1,7 @@
+info:
+  company: Oracle Corporation
+  product: SJSWPS-OiWPS
+  softhard: '1'
+matches: |
+  header.icontains("oracle-iplanet-proxy-server")
+  banner.icontains("oracle-iplanet-proxy-server")

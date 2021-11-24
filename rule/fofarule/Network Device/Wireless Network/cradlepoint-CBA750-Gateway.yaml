@@ -1,0 +1,7 @@
+info:
+  company: Cradlepoint, Inc.
+  product: cradlepoint-CBA750-Gateway
+  softhard: '1'
+matches: |
+  body.icontains("cradlepoint cba750 gateway")
+  banner.icontains("cradlepoint cba750")

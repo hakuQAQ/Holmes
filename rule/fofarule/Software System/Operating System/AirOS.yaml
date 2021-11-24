@@ -1,0 +1,8 @@
+info:
+  company: Ubiquiti Inc.
+  product: AirOS
+  softhard: '2'
+matches: |
+  header.icontains("airos_sessionid")
+  header.icontains("cookiechecker?uri=")
+  banner.icontains("airos_sessionid") && banner.icontains("cookiechecker?uri=")

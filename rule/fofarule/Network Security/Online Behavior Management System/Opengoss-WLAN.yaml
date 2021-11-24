@@ -1,0 +1,7 @@
+info:
+  company: opengoss
+  product: Opengoss-WLAN
+  softhard: '2'
+matches: |
+  body.icontains("/stylesheets/themes/wifi2/ui.theme.css")
+  body.icontains("content=\"wlan综合网管系统\"")

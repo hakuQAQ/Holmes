@@ -1,0 +1,7 @@
+info:
+  company: Brocade Communications Systems, Inc.
+  product: Brocade-FCX624
+  softhard: '1'
+matches: |
+  banner.icontains("brocade ")
+  banner.icontains("fcx624")

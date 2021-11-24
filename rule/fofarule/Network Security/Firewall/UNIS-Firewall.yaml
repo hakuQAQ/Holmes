@@ -1,0 +1,8 @@
+info:
+  company: thunis
+  product: UNIS-Firewall
+  softhard: '1'
+matches: |
+  body.icontains("name=\"adminlogin\" action=\"/cgi-bin/manageaccount\">")
+  title.icontains("紫光防火墙")
+  body.icontains("<b><nobr>紫光防火墙")

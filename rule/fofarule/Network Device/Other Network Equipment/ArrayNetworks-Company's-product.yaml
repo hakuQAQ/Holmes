@@ -1,0 +1,7 @@
+info:
+  company: Array Networks, Inc
+  product: ArrayNetworks-Company's-product
+  softhard: '0'
+matches: |
+  header.icontains("realm=\"array networks webui")
+  banner.icontains("realm=\"array networks webui")

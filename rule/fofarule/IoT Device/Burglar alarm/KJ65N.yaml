@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: KJ65N
+  softhard: '1'
+matches: |
+  body.icontains("images/login/top002.gif")
+  body.icontains("worlddesktop/webform1.aspx")
+  title.icontains("kj65n")

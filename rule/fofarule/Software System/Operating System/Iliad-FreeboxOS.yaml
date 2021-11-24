@@ -1,0 +1,7 @@
+info:
+  company: Iliad group
+  product: Iliad-FreeboxOS
+  softhard: '2'
+matches: |
+  title.icontains("freebox os")
+  body.icontains("logo_freeboxos")

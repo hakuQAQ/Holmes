@@ -1,0 +1,11 @@
+info:
+  company: comexe
+  product: comexe-RAS
+  softhard: '2'
+matches: |
+  title.icontains("科迈ras")
+  body.icontains("type=\"application/npras")
+  body.icontains("href=\"pic/ras.ico") && body.icontains("href=\"pic/iras.ico")
+  body.icontains("科迈ras")
+  body.icontains("远程技术支持请求：<a href=\"http://www.comexe.cn")
+  body.icontains("href=\"cmxlogin.php\"")

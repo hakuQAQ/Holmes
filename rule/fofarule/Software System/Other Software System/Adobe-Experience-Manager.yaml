@@ -1,0 +1,7 @@
+info:
+  company: Adobe Inc.
+  product: Adobe-Experience-Manager
+  softhard: '2'
+matches: |
+  body.icontains("adobe experience manager")
+  body.icontains(" class=\"coral-heading coral-heading--1\"")

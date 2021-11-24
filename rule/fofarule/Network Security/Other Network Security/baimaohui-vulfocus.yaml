@@ -1,0 +1,6 @@
+info:
+  company: baimaohui
+  product: baimaohui-vulfocus
+  softhard: '2'
+matches: |
+  title.icontains("vulfocus")

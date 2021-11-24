@@ -1,0 +1,9 @@
+info:
+  company: Dell Inc.
+  product: EMC-OneFS
+  softhard: '2'
+matches: |
+  title.icontains("onefs")
+  body.icontains("href=\"/onefs/styles/onefs.css")
+  protocol.icontains("snmp") && banner.icontains("isilon onefs ")
+  header.icontains("onefs platform")

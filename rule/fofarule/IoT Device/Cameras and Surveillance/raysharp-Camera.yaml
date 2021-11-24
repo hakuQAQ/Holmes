@@ -1,0 +1,9 @@
+info:
+  company: raysharp
+  product: raysharp-Camera
+  softhard: '1'
+matches: |
+  body.icontains("window.location.href = \"html/webplugin.html\";")
+  body.icontains("userloginevent(msgid, chnumber, userpagert, userpreviewrt, userrecrt)")
+  body.icontains("<body onload=\"\" onselectstart=\"return fbd();\" onunload=\"closewnd()\" onresize=\"resetmasklayer\">")
+  body.icontains("rsvideoocx.cab")

@@ -1,0 +1,8 @@
+info:
+  company: Emerson Electric Co.
+  product: Emerson-Liebert-UPS
+  softhard: '1'
+matches: |
+  banner.icontains("liebert ups")
+  banner.icontains("liebert pro ii card")
+  banner.icontains("liebert smart ii card")

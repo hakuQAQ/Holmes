@@ -1,0 +1,6 @@
+info:
+  company: Schneider Electric
+  product: APC-WTM652G
+  softhard: '1'
+matches: |
+  banner.icontains("wtm652g")

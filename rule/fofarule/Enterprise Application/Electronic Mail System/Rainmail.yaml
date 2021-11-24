@@ -1,0 +1,7 @@
+info:
+  company: Carizen Software (P) Ltd.
+  product: Rainmail
+  softhard: '2'
+matches: |
+  body.icontains(".: <b>rainmail intranet login </b> :.</div>")
+  body.icontains("href=\"/resources/rainmailvpninstaller.exe")

@@ -1,0 +1,6 @@
+info:
+  company: Digital China Group Co., Ltd.
+  product: DCN-CS6200-28X-HI-24F
+  softhard: '1'
+matches: |
+  body.icontains("<b>cs6200-28x-hi-24f</b>")

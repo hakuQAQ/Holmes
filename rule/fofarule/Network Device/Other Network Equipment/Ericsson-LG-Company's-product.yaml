@@ -1,0 +1,6 @@
+info:
+  company: Telefonaktiebolaget LM Ericsson
+  product: Ericsson-LG-Company's-product
+  softhard: '1'
+matches: |
+  banner.icontains("ericsson-lg enterprise co.,ltd.")

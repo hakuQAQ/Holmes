@@ -1,0 +1,6 @@
+info:
+  company: Dell Inc.
+  product: DELL-N3024ET-ON
+  softhard: '1'
+matches: |
+  body.icontains("class=\"login_server_default\">n3024et-on")

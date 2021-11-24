@@ -1,0 +1,9 @@
+info:
+  company: Couchbase, Inc.
+  product: Couchbase
+  softhard: '2'
+matches: |
+  header.icontains("server: couchbase")
+  banner.icontains("server: couchbase")
+  title.icontains("couchbase console") && header.icontains("realm=\"couchbase")
+  banner.icontains("realm=\"couchbase")

@@ -1,0 +1,7 @@
+info:
+  company: HUAWEI
+  product: HuaWei-S9306
+  softhard: '1'
+matches: |
+  banner.icontains("quidway s9306")
+  header.icontains("s9306") && banner.icontains("s9306") && banner.icontains("server:") && banner.icontains("s9306")

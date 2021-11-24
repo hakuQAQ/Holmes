@@ -1,0 +1,7 @@
+info:
+  company: ZTE
+  product: ZTE-ZXV10
+  softhard: '1'
+matches: |
+  banner.icontains("zxv10 ")
+  banner.icontains("zxv10 fts2000")

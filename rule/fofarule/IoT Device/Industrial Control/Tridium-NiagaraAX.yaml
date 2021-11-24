@@ -1,0 +1,6 @@
+info:
+  company: Tridium, Inc.
+  product: Tridium-NiagaraAX
+  softhard: '1'
+matches: |
+  cert.icontains("niagaraax")

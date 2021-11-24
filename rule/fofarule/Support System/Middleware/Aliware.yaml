@@ -1,0 +1,6 @@
+info:
+  company: Alibaba Group
+  product: Aliware
+  softhard: '2'
+matches: |
+  title.icontains("阿里中间件自动化验证平台")

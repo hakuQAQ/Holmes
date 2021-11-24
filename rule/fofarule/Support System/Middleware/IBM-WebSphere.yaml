@@ -1,0 +1,10 @@
+info:
+  company: International Business Machines Corporation
+  product: IBM-WebSphere
+  softhard: '2'
+matches: |
+  header.icontains("websphere") && body.icontains("<br><i>ibm websphere application server</i>")
+  title.icontains("ibm http server")
+  body.icontains("websphere")
+  body.icontains("com.ibm.websphere.ihs.doc")
+  body.icontains("content=\"websphere application server")

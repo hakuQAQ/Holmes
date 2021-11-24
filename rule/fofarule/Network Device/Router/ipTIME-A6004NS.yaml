@@ -1,0 +1,6 @@
+info:
+  company: EFM Networks
+  product: ipTIME-A6004NS
+  softhard: '1'
+matches: |
+  body.icontains("src=\"/images2/login_title.a6004ns.gif\"")

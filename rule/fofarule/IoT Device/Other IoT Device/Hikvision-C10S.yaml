@@ -1,0 +1,6 @@
+info:
+  company: Hikvision
+  product: Hikvision-C10S
+  softhard: '1'
+matches: |
+  banner.icontains("hik-c10s login:")

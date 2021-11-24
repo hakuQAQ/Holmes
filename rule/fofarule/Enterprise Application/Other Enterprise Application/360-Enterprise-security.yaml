@@ -1,0 +1,9 @@
+info:
+  company: '360'
+  product: 360-Enterprise-security
+  softhard: '2'
+matches: |
+  body.icontains("360entinst") && body.icontains("关于全网部署360私有云的通知")
+  title == "私有云控制中心" && body.icontains("/download/360inst.exe")
+  title.icontains("360企业版")
+  body.icontains("天擎")

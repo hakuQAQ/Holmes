@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: Bootstrap-CDN
+  softhard: '2'
+matches: |
+  header.icontains("cdn.bootcss.com")
+  body.icontains("cdn.bootcss.com")

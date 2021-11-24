@@ -1,0 +1,6 @@
+info:
+  company: Apache Software Foundation.
+  product: Apache-Ambari
+  softhard: '2'
+matches: |
+  title.icontains("ambari")

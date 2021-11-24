@@ -1,0 +1,6 @@
+info:
+  company: ostdchina
+  product: OSTD-Cloud
+  softhard: '2'
+matches: |
+  body.icontains("class=\"sys-title-right\">智联云服务")

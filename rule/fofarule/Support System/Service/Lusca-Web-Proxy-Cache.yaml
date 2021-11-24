@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: Lusca-Web-Proxy-Cache
+  softhard: '2'
+matches: |
+  header.icontains("lusca")
+  banner.icontains("lusca")

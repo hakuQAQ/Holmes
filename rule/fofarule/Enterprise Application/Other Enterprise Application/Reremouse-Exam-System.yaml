@@ -1,0 +1,8 @@
+info:
+  company: wbdwl
+  product: Reremouse-Exam-System
+  softhard: '2'
+matches: |
+  body.icontains("蝙蝠在线考试系统")
+  body.icontains("博库医学在线考试系统，技术支持：杭州博库科技有限公司")
+  body.icontains("src=\"/resources/js/upscroll.js\"")

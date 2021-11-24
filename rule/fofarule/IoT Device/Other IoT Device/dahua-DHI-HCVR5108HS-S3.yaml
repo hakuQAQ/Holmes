@@ -1,0 +1,7 @@
+info:
+  company: Dahua
+  product: dahua-DHI-HCVR5108HS-S3
+  softhard: '1'
+matches: |
+  banner.icontains("dhi-hcvr5108hs-s3")
+  banner.icontains("hcvr5108hs-s3")

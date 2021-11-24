@@ -1,0 +1,6 @@
+info:
+  company: 'hollysys '
+  product: Hollysys-MES
+  softhard: '2'
+matches: |
+  body.icontains("resource=\"title_sub\"")

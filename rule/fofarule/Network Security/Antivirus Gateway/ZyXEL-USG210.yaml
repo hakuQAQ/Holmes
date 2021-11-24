@@ -1,0 +1,7 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-USG210
+  softhard: '1'
+matches: |
+  banner.icontains("usg210")
+  banner.icontains("usg2100") && title.icontains("usg210")

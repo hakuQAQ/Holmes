@@ -1,0 +1,13 @@
+info:
+  company: HUAWEI
+  product: HuaWei-anyoffice
+  softhard: '2'
+matches: |
+  body.icontains("mdmserver")
+  body.icontains("onclick=\"changelanguage")
+  body.icontains("cancelchangepwbtn")
+  cert.icontains("o=huawei, ou=anyoffice")
+  cert.icontains("cn=huawei anyoffice root ca")
+  body.icontains("<form id=\"jvform\" action=\"admin/business/login")
+  body.icontains("src=\"assets/conn-service/admin/")
+  title.icontains("anyoffice login")

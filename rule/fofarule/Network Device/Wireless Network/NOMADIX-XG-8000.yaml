@@ -1,0 +1,8 @@
+info:
+  company: Nomadix，Inc.
+  product: NOMADIX-XG-8000
+  softhard: '1'
+matches: |
+  banner.icontains("xg 8000")
+  header.icontains("realm=\"xg 8000")
+  title.icontains("xg 8000: login")

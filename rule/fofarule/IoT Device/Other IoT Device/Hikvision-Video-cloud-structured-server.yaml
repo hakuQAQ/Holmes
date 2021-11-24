@@ -1,0 +1,7 @@
+info:
+  company: Hikvision
+  product: Hikvision-Video-cloud-structured-server
+  softhard: '1'
+matches: |
+  title.icontains("视频云结构化服务器")
+  body.icontains("/common/hikui/")

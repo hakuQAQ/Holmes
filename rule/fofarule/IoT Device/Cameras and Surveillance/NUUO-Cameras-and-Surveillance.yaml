@@ -1,0 +1,7 @@
+info:
+  company: NUUO Inc.
+  product: NUUO-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  title.icontains("web remote client")
+  body.icontains("href=\"liveview-htmlskin/liveview.html")

@@ -1,0 +1,8 @@
+info:
+  company: Polycom, Inc.
+  product: Polycom-ViewStation
+  softhard: '1'
+matches: |
+  body.icontains("frame name=\"showmypcframe\"")
+  header.icontains("x-powered-by: realpresence resource platform")
+  banner.icontains("welcome to viewstation")

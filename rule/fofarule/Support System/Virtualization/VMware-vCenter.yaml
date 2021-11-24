@@ -1,0 +1,9 @@
+info:
+  company: VMware, Inc.
+  product: VMware-vCenter
+  softhard: '2'
+matches: |
+  title.icontains("id_converter_welcome")
+  body.icontains("/converter/vmware-converter-client.exe")
+  body.icontains("content=\"vmware vcenter")
+  body.icontains("/vmw_nsx_logo-black-triangle-500w.png")

@@ -1,0 +1,12 @@
+info:
+  company: cisco
+  product: Cisco-Prime-Infrastructure
+  softhard: '2'
+matches: |
+  body.icontains("<div class=\"xwtproductname\" >cisco prime infrastructure")
+  body.icontains("/webacs/lib/xwt/themes/prime/prime-xwt.css")
+  body.icontains("webacs/welcomeaction.do")
+  cert.icontains("prime infra")
+  header.icontains("server: prime")
+  banner.icontains("server: prime")
+  title.icontains("cisco  prime infrastructure")

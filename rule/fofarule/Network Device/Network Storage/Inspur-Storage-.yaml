@@ -1,0 +1,8 @@
+info:
+  company: Inspur
+  product: Inspur-Storage-
+  softhard: '1'
+matches: |
+  cert.icontains("ou=storage, o=inspur")
+  title.icontains("浪潮海量存储系统")
+  body.icontains("<td align=\"left\">浪潮存储 您身边的存储专家</td>")

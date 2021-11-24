@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: TomatoCMS
+  softhard: '2'
+matches: |
+  body.icontains("tomato.core.widget.loader.baseurl = 'http://")
+  body.icontains("<a href=\"http://www.tomatocms.com\" title=\"powered by tomatocms\" target=\"_blank\">")

@@ -1,0 +1,8 @@
+info:
+  company: New Rock
+  product: newrocktech-VOIP
+  softhard: '1'
+matches: |
+  body.icontains("location.href =\"login_web.htm\";")
+  body.icontains("__blf__.pushcallback(function")
+  body.icontains("<!-- public module end -->")

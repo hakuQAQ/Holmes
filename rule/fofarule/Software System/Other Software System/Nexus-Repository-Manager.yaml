@@ -1,0 +1,8 @@
+info:
+  company: Sonatype Inc.
+  product: Nexus-Repository-Manager
+  softhard: '2'
+matches: |
+  header.icontains("server: nexus/") && banner.icontains("server: nexus/")
+  body.icontains(" nexus repository manager")
+  body.icontains("progressmessage('initializing ...')")

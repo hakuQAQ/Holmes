@@ -1,0 +1,17 @@
+info:
+  company: Oracle Corporation
+  product: Oracle-Application-Server
+  softhard: '2'
+matches: |
+  header.icontains("oracle-application-server")
+  header.icontains("oracle application server")
+  banner.icontains("server: oracle application server")
+  header.icontains("oracle containers for j2ee")
+  header.icontains("oracle http server")
+  banner.icontains("server: oracle http server")
+  body.icontains("oracle http server</font></font></b></h1>")
+  title.icontains("oracle http server")
+  header.icontains("oracle_web_listener") && banner.icontains("server: oracle_web_listener")
+  body.icontains("mod_ssl web site")
+  body.icontains("oracle jsp documentation")
+  body.icontains("mod_ose documentation")

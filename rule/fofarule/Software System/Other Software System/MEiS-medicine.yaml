@@ -1,0 +1,7 @@
+info:
+  company: meis100
+  product: MEiS-medicine
+  softhard: '2'
+matches: |
+  body.icontains("<h1 class=\"logo\">欢迎使用 <span class=\"logo_icon\">meis</span> 医疗信息管理系统</h1>")
+  title.icontains("meis 医疗信息管理系统")

@@ -1,0 +1,6 @@
+info:
+  company: QNO
+  product: QNO-4WAN_1LAN_QoS_Security_Router
+  softhard: '1'
+matches: |
+  banner.icontains("4wan_1lan_qos_security_router")

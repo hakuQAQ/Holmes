@@ -1,0 +1,6 @@
+info:
+  company: Zyxel
+  product: ZyXEL-USG20-VPN
+  softhard: '1'
+matches: |
+  banner.icontains("usg20-vpn")

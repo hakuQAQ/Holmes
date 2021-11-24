@@ -1,0 +1,6 @@
+info:
+  company: CipherMail
+  product: ciphermail-Email-Encryption-Gateway
+  softhard: '2'
+matches: |
+  title.icontains("ciphermail email encryption gateway")

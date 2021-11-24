@@ -1,0 +1,7 @@
+info:
+  company: Apache Druid
+  product: Indexer-Coordinator
+  softhard: '2'
+matches: |
+  title.icontains("druid indexer coordinator console")
+  body.icontains("content=\"druid indexer coordinator console")

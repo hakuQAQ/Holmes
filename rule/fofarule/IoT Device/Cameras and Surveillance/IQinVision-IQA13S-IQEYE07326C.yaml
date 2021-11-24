@@ -1,0 +1,6 @@
+info:
+  company: IQinVision, Inc.
+  product: IQinVision-IQA13S-IQEYE07326C
+  softhard: '1'
+matches: |
+  title.icontains("iqa13s") && banner.icontains("iqinvision iqa13s")

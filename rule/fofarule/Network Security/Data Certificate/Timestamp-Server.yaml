@@ -1,0 +1,7 @@
+info:
+  company: BJCA
+  product: Timestamp-Server
+  softhard: '2'
+matches: |
+  title.icontains("时间戳服务器")
+  body.icontains("北京数字认证股份有限公司")

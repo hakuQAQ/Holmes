@@ -1,0 +1,6 @@
+info:
+  company: KYOCERA Corporation
+  product: KYOCERA-ECOSYS-M3540dn
+  softhard: '1'
+matches: |
+  banner.icontains("ecosys m3540dn")

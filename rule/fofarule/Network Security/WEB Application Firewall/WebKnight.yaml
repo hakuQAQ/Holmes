@@ -1,0 +1,7 @@
+info:
+  company: AQTRONiX
+  product: WebKnight
+  softhard: '2'
+matches: |
+  header.icontains("webknight")
+  banner.icontains("webknight")

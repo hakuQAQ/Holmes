@@ -1,0 +1,7 @@
+info:
+  company: The SquirrelMail Project Team
+  product: SquirrelMail
+  softhard: '2'
+matches: |
+  header.icontains("sqmsessid") && header.icontains("horde=") && title.icontains("squirrelmail - login")
+  body.icontains("function squirrelmail_loginpage_onload()")

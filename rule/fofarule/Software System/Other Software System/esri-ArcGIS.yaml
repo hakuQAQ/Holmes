@@ -1,0 +1,6 @@
+info:
+  company: Environmental Systems Research Institute, Inc.
+  product: esri-ArcGIS
+  softhard: '2'
+matches: |
+  body.icontains("esri/discovery/admin.js")

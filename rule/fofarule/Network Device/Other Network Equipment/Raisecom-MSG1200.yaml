@@ -1,0 +1,6 @@
+info:
+  company: raisecom
+  product: Raisecom-MSG1200
+  softhard: '1'
+matches: |
+  banner.icontains("msg1200-fe")

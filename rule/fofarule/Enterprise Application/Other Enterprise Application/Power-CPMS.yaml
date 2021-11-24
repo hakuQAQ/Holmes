@@ -1,0 +1,6 @@
+info:
+  company: Power Science
+  product: Power-CPMS
+  softhard: '2'
+matches: |
+  body.icontains("post(\"/ssosaml/saml2signonhandler.ashx\")")

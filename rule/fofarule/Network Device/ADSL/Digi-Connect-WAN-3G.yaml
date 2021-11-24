@@ -1,0 +1,9 @@
+info:
+  company: Digi International Inc.
+  product: Digi-Connect-WAN-3G
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp")
+  banner.icontains("connect wan 3g")
+  banner.icontains("watchport sensor")
+  banner.icontains("(rs232 serial)")

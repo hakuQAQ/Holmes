@@ -1,0 +1,7 @@
+info:
+  company: SCO Group
+  product: SCO-OpenServer
+  softhard: '2'
+matches: |
+  body.icontains("sco corporate web site")
+  body.icontains("gif/rlogo1.gif")

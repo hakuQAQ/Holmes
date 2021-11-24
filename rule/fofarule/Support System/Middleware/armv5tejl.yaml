@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: armv5tejl
+  softhard: '0'
+matches: |
+  banner.icontains("armv5tejl")

@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-SG300
+  softhard: '1'
+matches: |
+  banner.icontains("cisco sg300")

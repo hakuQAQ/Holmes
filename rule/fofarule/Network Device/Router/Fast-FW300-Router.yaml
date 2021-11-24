@@ -1,0 +1,7 @@
+info:
+  company: fast
+  product: Fast-FW300-Router
+  softhard: '1'
+matches: |
+  header.icontains("fw300r")
+  banner.icontains("fw300r")

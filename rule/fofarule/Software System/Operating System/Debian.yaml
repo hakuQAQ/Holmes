@@ -1,0 +1,7 @@
+info:
+  company: Public Interest, Inc.
+  product: Debian
+  softhard: '2'
+matches: |
+  banner.icontains("debian")
+  body.icontains("<h1>welcome to nginx on debian!</h1>")

@@ -1,0 +1,7 @@
+info:
+  company: kesion
+  product: KesionCMS
+  softhard: '2'
+matches: |
+  body.icontains("/ks_inc/common.js")
+  body.icontains("publish by kesioncms")

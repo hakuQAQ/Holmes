@@ -1,0 +1,7 @@
+info:
+  company: Infosec
+  product: Infosec-UTRUST
+  softhard: '2'
+matches: |
+  title.icontains("utrust统一身份认证和身份管理平台")
+  body.icontains("china utrust infortech co,.ltd")

@@ -1,0 +1,6 @@
+info:
+  company: 'Qualcomm Technologies, Inc. '
+  product: Qualcomm-4G-LTE-WiFi-Router
+  softhard: '1'
+matches: |
+  title.icontains("4g lte wifi router")

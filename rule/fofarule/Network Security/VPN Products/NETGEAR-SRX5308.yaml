@@ -1,0 +1,7 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-SRX5308
+  softhard: '1'
+matches: |
+  banner.icontains("srx5308 login: ")
+  body.icontains("gigabit quad wan ssl vpn firewall srx5308")

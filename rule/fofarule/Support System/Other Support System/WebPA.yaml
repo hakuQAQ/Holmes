@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: WebPA
+  softhard: '2'
+matches: |
+  title.icontains("webpa os")
+  title.icontains("web-pa login")
+  body.icontains("<td align=\"right\"><div id=\"inst_logo\"><img src=")

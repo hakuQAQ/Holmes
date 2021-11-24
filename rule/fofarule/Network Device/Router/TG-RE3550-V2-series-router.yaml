@@ -1,0 +1,6 @@
+info:
+  company: tg-net
+  product: TG-RE3550-V2-series-router
+  softhard: '1'
+matches: |
+  banner.icontains("tg-net re3550-v2 series router")

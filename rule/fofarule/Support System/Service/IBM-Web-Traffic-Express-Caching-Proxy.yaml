@@ -1,0 +1,8 @@
+info:
+  company: International Business Machines Corporation
+  product: IBM-Web-Traffic-Express-Caching-Proxy
+  softhard: '2'
+matches: |
+  header.icontains("ibm-proxy-wte")
+  banner.icontains("ibm-proxy-wte")
+  body.icontains("/admin-bin/webexec/wte.html")

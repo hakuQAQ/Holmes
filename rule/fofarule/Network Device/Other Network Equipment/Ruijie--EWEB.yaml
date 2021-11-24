@@ -1,0 +1,7 @@
+info:
+  company: Ruijie
+  product: Ruijie--EWEB
+  softhard: '2'
+matches: |
+  body.icontains("<span class=\"resource\" mark=\"login.copyright\">锐捷网络</span>")
+  body.icontains("login.getdeviceinfo") && title.icontains("锐捷网络-eweb网管系统")

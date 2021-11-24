@@ -1,0 +1,8 @@
+info:
+  company: bitmain
+  product: BITMAIN-antminer
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"antminer")
+  banner.icontains("realm=\"antminer")
+  title.icontains("antminer monitor")

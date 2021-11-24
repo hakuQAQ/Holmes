@@ -1,0 +1,7 @@
+info:
+  company: zoomnetcom
+  product: zoomnetcom-WLAN
+  softhard: '1'
+matches: |
+  body.icontains("var url=\"resetwebsvr.php?act=reset\";")
+  title == "中太数据 - 集中无线控制器"

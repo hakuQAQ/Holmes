@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: House5
+  softhard: '2'
+matches: |
+  body.icontains("/house5-style1/")

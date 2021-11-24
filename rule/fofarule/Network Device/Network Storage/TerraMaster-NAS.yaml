@@ -1,0 +1,15 @@
+info:
+  company: TerraMaster
+  product: TerraMaster-NAS
+  softhard: '1'
+matches: |
+  body.icontains("window.open('http://www.terra-master.com/','_blank');")
+  body.icontains("nas setup")
+  body.icontains("nas.cgi") && title.icontains("terramaster")
+  body.icontains("connfailed")
+  body.icontains("class=\"cloud-logo\"")
+  title.icontains("terramaster 系统管理")
+  body.icontains("class=\"newlogo pngfix\"") && banner.icontains("x-powered-by: terramaster")
+
+#yamlflag
+#body.icontains("x-ua-compatible")

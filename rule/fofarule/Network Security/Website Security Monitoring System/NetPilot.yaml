@@ -1,0 +1,7 @@
+info:
+  company: NetPilot Global Ltd
+  product: NetPilot
+  softhard: '2'
+matches: |
+  header.icontains("netpilot") && body.icontains("/images/netpilot/favicon.ico")
+  body.icontains("href=\"/sys/images/tree.css\" title=\"netpilot")

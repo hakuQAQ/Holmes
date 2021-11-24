@@ -1,0 +1,6 @@
+info:
+  company: DAS-security
+  product: DAS-USM
+  softhard: '1'
+matches: |
+  title.icontains("明御运维审计")

@@ -1,0 +1,8 @@
+info:
+  company: Inspur
+  product: Inspur-EC-Government-Approval-Platform
+  softhard: '2'
+matches: |
+  body.icontains("onlinequery/querylist.aspx")
+  title.icontains("浪潮政务")
+  body.icontains("langchao.ecgap.outportal")

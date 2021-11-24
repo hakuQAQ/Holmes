@@ -1,0 +1,7 @@
+info:
+  company: Citrix Systems, Inc.
+  product: Citrix-ConfProxy
+  softhard: '1'
+matches: |
+  header.icontains("server: confproxy")
+  banner.icontains("server: confproxy")

@@ -1,0 +1,7 @@
+info:
+  company: IDA Corporation
+  product: Easy-Link-RFIP
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"easy-link rfip")
+  banner.icontains("realm=\"easy-link rfip")

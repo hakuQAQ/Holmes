@@ -1,0 +1,6 @@
+info:
+  company: NGI Healthcare IT
+  product: NGI-DIAM4
+  softhard: '2'
+matches: |
+  body.icontains("src=\"/diam4/inc/lang/fr/lang.min.js\"")

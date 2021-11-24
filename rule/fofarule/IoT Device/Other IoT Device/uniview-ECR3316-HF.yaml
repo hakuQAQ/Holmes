@@ -1,0 +1,6 @@
+info:
+  company: uniview
+  product: uniview-ECR3316-HF
+  softhard: '1'
+matches: |
+  title.icontains("ecr3316-hf")

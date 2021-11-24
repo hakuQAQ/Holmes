@@ -1,0 +1,6 @@
+info:
+  company: Siemens AG.
+  product: Siemens-syngo.via
+  softhard: '2'
+matches: |
+  title.icontains("syngo.via start page") && body.icontains("class=\"backgr\" src=\"syngo-installation_1024x768.png")

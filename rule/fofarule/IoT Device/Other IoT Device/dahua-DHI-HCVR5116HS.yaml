@@ -1,0 +1,6 @@
+info:
+  company: Dahua
+  product: dahua-DHI-HCVR5116HS
+  softhard: '1'
+matches: |
+  banner.icontains("hcvr5116hs")

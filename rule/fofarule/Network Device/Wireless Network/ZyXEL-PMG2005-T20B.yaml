@@ -1,0 +1,8 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-PMG2005-T20B
+  softhard: '1'
+matches: |
+  body.icontains("pmg2005-t20b")
+  body.icontains("xpon onu</font>")
+  banner.icontains("pmg2005-t20b")

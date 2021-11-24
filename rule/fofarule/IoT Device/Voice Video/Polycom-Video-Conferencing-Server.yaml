@@ -1,0 +1,6 @@
+info:
+  company: Polycom, Inc.
+  product: Polycom-Video-Conferencing-Server
+  softhard: '1'
+matches: |
+  title.icontains("ema at carmel")

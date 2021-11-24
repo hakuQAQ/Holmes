@@ -1,0 +1,7 @@
+info:
+  company: Alibaba Group
+  product: PhpWind
+  softhard: '2'
+matches: |
+  title.icontains("powered by phpwind")
+  body.icontains("content=\"phpwind")

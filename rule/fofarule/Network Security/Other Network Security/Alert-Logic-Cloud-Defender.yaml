@@ -1,0 +1,6 @@
+info:
+  company: Alert Logic, Inc.
+  product: Alert-Logic-Cloud-Defender
+  softhard: '2'
+matches: |
+  title.icontains("alert logic appliance")

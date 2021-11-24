@@ -1,0 +1,9 @@
+info:
+  company: RemObjects Software, LLC
+  product: RemObjects-DXSock
+  softhard: '2'
+matches: |
+  header.icontains("remobjects")
+  title.icontains("erlib - remobjects")
+  body.icontains("content=\"remobjects sdk")
+  body.icontains("remobjects software, llc.")

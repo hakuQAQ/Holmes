@@ -1,0 +1,6 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-MSR3610
+  softhard: '1'
+matches: |
+  banner.icontains("msr3610")

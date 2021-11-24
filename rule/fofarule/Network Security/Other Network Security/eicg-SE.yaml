@@ -1,0 +1,6 @@
+info:
+  company: eicg
+  product: eicg-SE
+  softhard: '1'
+matches: |
+  body.icontains("window.location = \"login_simple.jsp\"")

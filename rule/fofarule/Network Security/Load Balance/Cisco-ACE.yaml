@@ -1,0 +1,8 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-ACE
+  softhard: '1'
+matches: |
+  header.icontains("cisco ace")
+  banner.icontains("cisco ace")
+  header.icontains("ace xml gateway") && banner.icontains("ace 4710")

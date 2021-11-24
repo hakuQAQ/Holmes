@@ -1,0 +1,7 @@
+info:
+  company: Atop Technologies, Inc.
+  product: Atop-Serial-Device-Server
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp")
+  banner.icontains("atop ")

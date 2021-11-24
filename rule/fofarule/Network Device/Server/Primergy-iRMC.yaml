@@ -1,0 +1,6 @@
+info:
+  company: Fujitsu Ltd
+  product: Primergy-iRMC
+  softhard: '1'
+matches: |
+  banner.icontains("primergy irmc")

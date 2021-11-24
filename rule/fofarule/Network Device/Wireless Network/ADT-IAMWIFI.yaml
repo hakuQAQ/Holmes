@@ -1,0 +1,6 @@
+info:
+  company: adtsec
+  product: ADT-IAMWIFI
+  softhard: '1'
+matches: |
+  body.icontains("jalert(\"请先同意上网协议!\",\"\")")

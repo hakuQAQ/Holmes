@@ -1,0 +1,6 @@
+info:
+  company: STARFACE GmbH
+  product: STARFACE-PBX
+  softhard: '1'
+matches: |
+  banner.icontains("server: starface pbx")

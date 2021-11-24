@@ -1,0 +1,6 @@
+info:
+  company: nokiasbell
+  product: EG766HW
+  softhard: '1'
+matches: |
+  banner.icontains("eg766hw-gc")

@@ -1,0 +1,7 @@
+info:
+  company: Alibaba Group
+  product: AliyunCDN
+  softhard: '2'
+matches: |
+  header.icontains("cdn.aliyuncs.com")
+  body.icontains("cdn.aliyuncs.com")

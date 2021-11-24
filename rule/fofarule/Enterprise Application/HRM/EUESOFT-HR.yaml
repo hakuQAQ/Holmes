@@ -1,0 +1,6 @@
+info:
+  company: YiHuRuiCheng
+  product: EUESOFT-HR
+  softhard: '2'
+matches: |
+  body.icontains("link.description = \"亿华软件\"")

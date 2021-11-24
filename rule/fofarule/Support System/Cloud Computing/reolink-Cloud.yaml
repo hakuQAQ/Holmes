@@ -1,0 +1,7 @@
+info:
+  company: Reolink Innovation Limited
+  product: reolink-Cloud
+  softhard: '2'
+matches: |
+  banner.icontains("server: reolink cloud")
+  header.icontains("reolink cloud")

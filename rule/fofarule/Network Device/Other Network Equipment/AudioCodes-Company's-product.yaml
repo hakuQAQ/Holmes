@@ -1,0 +1,6 @@
+info:
+  company: AudioCodes Limited.
+  product: AudioCodes-Company's-product
+  softhard: '1'
+matches: |
+  banner.icontains("vendor: audiocodes; ")

@@ -1,0 +1,8 @@
+info:
+  company: Helix OpCo, LLC
+  product: Helix-Rtsp
+  softhard: '1'
+matches: |
+  banner.icontains("helix server")
+  banner.icontains("server: helix universal media server")
+  header.icontains("helix server")

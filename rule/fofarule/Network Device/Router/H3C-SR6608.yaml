@@ -1,0 +1,7 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-SR6608
+  softhard: '1'
+matches: |
+  header.icontains("basic realm=\"h3c sr6608\"")
+  banner.icontains("sr6608")

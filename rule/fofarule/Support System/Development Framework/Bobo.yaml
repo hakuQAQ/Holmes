@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Bobo
+  softhard: '2'
+matches: |
+  header.icontains("bobo-exception-line") && banner.icontains("bobo-exception-line")

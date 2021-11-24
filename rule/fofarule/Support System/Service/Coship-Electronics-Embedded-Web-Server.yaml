@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Coship-Electronics-Embedded-Web-Server
+  softhard: '2'
+matches: |
+  header.icontains("coship electronics embedded web server")
+  banner.icontains("coship electronics embedded web server")
+  banner.icontains("server: ")

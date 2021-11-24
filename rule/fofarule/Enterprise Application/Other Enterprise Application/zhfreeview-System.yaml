@@ -1,0 +1,6 @@
+info:
+  company: zhfreeview
+  product: zhfreeview-System
+  softhard: '2'
+matches: |
+  title.icontains("全视通集成平台")

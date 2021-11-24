@@ -1,0 +1,7 @@
+info:
+  company: aipstar
+  product: Aipstar-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  banner.icontains("server: aipstar rtsp server")
+  title == "用户登录" && body.icontains("window.location.href = \"login.html\";")

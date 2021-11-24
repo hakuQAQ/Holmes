@@ -1,0 +1,10 @@
+info:
+  company: Juniper Networks, Inc.
+  product: Juniper-VPN
+  softhard: '1'
+matches: |
+  body.icontains("junos pulse secure access service")
+  title.icontains("juniper networks vpn")
+  body.icontains("dana-na/auth/lastauthserverused.js")
+  body.icontains("href=\"/dana-na/css/ds.css\"")
+  body.icontains("pulse connect secure")

@@ -1,0 +1,8 @@
+info:
+  company: NetBurner, Inc.
+  product: NetBurner-Network-to-Serial
+  softhard: '1'
+matches: |
+  banner.icontains("netburner")
+  banner.icontains("network to serial")
+  banner.icontains("to serial")

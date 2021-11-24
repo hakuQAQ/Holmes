@@ -1,0 +1,6 @@
+info:
+  company: The Linux Foundation
+  product: Spinnaker
+  softhard: '2'
+matches: |
+  header.icontains("spinnaker") && banner.icontains("server: spinnaker")

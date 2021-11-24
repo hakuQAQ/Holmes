@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-Expressway
+  softhard: '2'
+matches: |
+  body.icontains("expressway-e</legend>")

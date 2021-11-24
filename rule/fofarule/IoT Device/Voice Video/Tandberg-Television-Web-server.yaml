@@ -1,0 +1,7 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Tandberg-Television-Web-server
+  softhard: '1'
+matches: |
+  header.icontains("tandberg television web server")
+  banner.icontains("tandberg gatekeeper")

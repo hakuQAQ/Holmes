@@ -1,0 +1,15 @@
+info:
+  company: Other
+  product: XAMPP
+  softhard: '2'
+matches: |
+  header.icontains("xampps_info")
+  banner.icontains("xampps_info")
+  body.icontains("/xampps.jpg") && header.icontains("location http")
+  header.icontains("xampp") && body.icontains("content=\"kai oswald seidler")
+  title.icontains("xampp for")
+  title.icontains("xampp version")
+  body.icontains("font-size: 1.2em; color: red;\">new xampp")
+  header.icontains("xampp user")
+  title.icontains("welcome to xampp")
+  body.icontains("content=\"xampp ")

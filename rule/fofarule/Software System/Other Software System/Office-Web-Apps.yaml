@@ -1,0 +1,6 @@
+info:
+  company: Microsoft Corporation
+  product: Office-Web-Apps
+  softhard: '2'
+matches: |
+  body.icontains("var generatedviewurlelementid")

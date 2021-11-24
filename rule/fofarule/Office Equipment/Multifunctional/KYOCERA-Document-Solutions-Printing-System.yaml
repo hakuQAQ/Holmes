@@ -1,0 +1,6 @@
+info:
+  company: KYOCERA Corporation
+  product: KYOCERA-Document-Solutions-Printing-System
+  softhard: '1'
+matches: |
+  banner.icontains("kyocera document solutions printing system")

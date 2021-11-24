@@ -1,0 +1,8 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-R6080
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"netgear r6080")
+  banner.icontains("netgear r6080")
+  body.icontains("content=\"r6080\"")

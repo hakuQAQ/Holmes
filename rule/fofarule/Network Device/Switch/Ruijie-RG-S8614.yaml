@@ -1,0 +1,6 @@
+info:
+  company: Ruijie
+  product: Ruijie-RG-S8614
+  softhard: '1'
+matches: |
+  banner.icontains("s8614")

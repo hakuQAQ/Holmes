@@ -1,0 +1,6 @@
+info:
+  company: yisa
+  product: Yisa-Police-Big-Data-System
+  softhard: '1'
+matches: |
+  title.icontains("以萨警务大数据系统")

@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: sX-Shop
+  softhard: '2'
+matches: |
+  body.icontains("alert(\"ihr suchbegriff muss mind. aus 3 zeichen bestehen.\");")
+  body.icontains("content=\"source worx - software development\">")

@@ -1,0 +1,6 @@
+info:
+  company: Smart Scripts
+  product: SmartThumbs
+  softhard: '2'
+matches: |
+  body.icontains("powered by<a href=\"http://www.smart-scripts.com\">smart thumbs</a>")

@@ -1,0 +1,6 @@
+info:
+  company: tg-net
+  product: TG-RE8500-AC-series-router
+  softhard: '1'
+matches: |
+  banner.icontains("tg-net re8500-ac series router")

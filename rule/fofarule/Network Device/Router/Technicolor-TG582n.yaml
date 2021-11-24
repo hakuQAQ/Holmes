@@ -1,0 +1,8 @@
+info:
+  company: Technicolor SA.
+  product: Technicolor-TG582n
+  softhard: '1'
+matches: |
+  body.icontains("var headertext = 'technicolor&nbsp;tg582n'")
+  body.icontains("var headertext = 'technicolor tg582n'")
+  cert.icontains("technicolor tg582n")

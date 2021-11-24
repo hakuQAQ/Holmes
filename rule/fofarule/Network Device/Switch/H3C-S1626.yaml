@@ -1,0 +1,9 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-S1626
+  softhard: '1'
+matches: |
+  header.icontains("basic realm=\"h3c s1626\"")
+  body.icontains("var devicename =  \"h3c s1626\"")
+  banner.icontains("basic realm=\"h3c s1626\"")
+  banner.icontains("s1626")

@@ -1,0 +1,6 @@
+info:
+  company: HEADING
+  product: HEADING-E-Commerce-Platform
+  softhard: '2'
+matches: |
+  body.icontains("window.location.replace('/bin/hdnet.dll/login')")

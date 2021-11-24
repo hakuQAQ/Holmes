@@ -1,0 +1,7 @@
+info:
+  company: foscam
+  product: FOSCAM-NVR
+  softhard: '1'
+matches: |
+  body.icontains("style=\"background:url(images/con-logo-bg.png);")
+  title.icontains("nvr client")

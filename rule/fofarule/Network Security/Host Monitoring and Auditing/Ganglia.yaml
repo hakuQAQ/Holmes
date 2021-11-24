@@ -1,0 +1,10 @@
+info:
+  company: Other
+  product: Ganglia
+  softhard: '2'
+matches: |
+  title.icontains("ganglia:: cluster report")
+  body.icontains("onchange=\"ganglia_form.submit();")
+  body.icontains("name=\"ganglia_form")
+  header.icontains("gs=unspecified")
+  banner.icontains("gs=unspecified")

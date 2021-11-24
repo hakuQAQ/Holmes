@@ -1,0 +1,6 @@
+info:
+  company: A TLC S.r.l.
+  product: Aethra-DSL-Device
+  softhard: '1'
+matches: |
+  banner.icontains("aethra dsl device")

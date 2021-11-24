@@ -1,0 +1,8 @@
+info:
+  company: Cradlepoint, Inc.
+  product: cradlepoint-AER1600LP4
+  softhard: '1'
+matches: |
+  body.icontains("cplogin.model = \"aer1600lp4\"")
+  banner.icontains("aer1600lp4")
+  banner.icontains("cradlepoint aer1600lp4")

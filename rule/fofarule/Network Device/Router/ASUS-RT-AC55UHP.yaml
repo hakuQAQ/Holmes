@@ -1,0 +1,8 @@
+info:
+  company: ASUS
+  product: ASUS-RT-AC55UHP
+  softhard: '1'
+matches: |
+  header.icontains("rt-ac55uhp")
+  banner.icontains("rt-ac55uhp")
+  body.icontains("<div class=\"prod_madelname\">rt-ac55uhp")

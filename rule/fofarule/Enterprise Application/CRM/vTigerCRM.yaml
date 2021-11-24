@@ -1,0 +1,11 @@
+info:
+  company: Other
+  product: vTigerCRM
+  softhard: '2'
+matches: |
+  body.icontains("/images/vtigercrm_icon.ico")
+  body.icontains("<div class=\"poweredby\">powered by vtiger crm - ")
+  title.icontains("vtiger crm ") && body.icontains("src=\"themes/images/vtigername.gif\" alt=\"vtiger crm")
+  body.icontains("vtiger crm </span>")
+  body.icontains("<img src='http://stats.vtiger.com/stats.php?uid=")
+  body.icontains("<a href='http://www.vtiger.com' target='_blank'>vtiger.com</a>")

@@ -1,0 +1,6 @@
+info:
+  company: tapenjoy
+  product: tapenjoy-Manager
+  softhard: '2'
+matches: |
+  title.icontains("余香经分管理系统")

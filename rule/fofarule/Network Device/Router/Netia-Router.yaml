@@ -1,0 +1,8 @@
+info:
+  company: Netia SA
+  product: Netia-Router
+  softhard: '1'
+matches: |
+  header.icontains("set-cookie: rg_cookie_session_id")
+  body.icontains("watson") && banner.icontains("set-cookie: rg_cookie_session_id")
+  banner.icontains("watson shdsl router")

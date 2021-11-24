@@ -1,0 +1,8 @@
+info:
+  company: STULZ GMBH
+  product: Stulz-Klimatechnik
+  softhard: '1'
+matches: |
+  header.icontains("stulz gmbh klimatechnik")
+  title.icontains("wib 8000")
+  body.icontains("<img src=\"logo.png\" alt=\"stulz gmbh klimatechnik")

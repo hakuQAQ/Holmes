@@ -1,0 +1,7 @@
+info:
+  company: Sumitomo Electric Industries, Ltd.
+  product: Sumitomo-Electric-Industries
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"sumitomo electric industries")
+  banner.icontains("sumitomo electric industries")

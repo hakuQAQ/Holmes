@@ -1,0 +1,6 @@
+info:
+  company: Mitel Networks Corporation
+  product: Mitel-Internet-product
+  softhard: '0'
+matches: |
+  body.icontains("pathname = pathname.replace(/esm_loginmain.htm/i,\"main.htm\");")

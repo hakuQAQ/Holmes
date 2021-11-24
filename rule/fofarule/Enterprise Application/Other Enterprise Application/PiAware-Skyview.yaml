@@ -1,0 +1,7 @@
+info:
+  company: FlightAware
+  product: PiAware-Skyview
+  softhard: '2'
+matches: |
+  title.icontains("piaware skyview")
+  body.icontains("alt=\"piaware skyview\"")

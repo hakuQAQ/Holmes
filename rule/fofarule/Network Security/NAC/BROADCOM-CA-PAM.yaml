@@ -1,0 +1,7 @@
+info:
+  company: Broadcom Inc.
+  product: BROADCOM-CA-PAM
+  softhard: '2'
+matches: |
+  body.icontains("ispamclient = false")
+  body.icontains("/cspm/cleansession.jsp")

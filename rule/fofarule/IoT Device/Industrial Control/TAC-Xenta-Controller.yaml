@@ -1,0 +1,6 @@
+info:
+  company: Schneider Electric
+  product: TAC-Xenta-Controller
+  softhard: '1'
+matches: |
+  header.icontains("tac") && body.icontains("<html><body><script>var url=\"https://\"location.hostname\"/www/index/slogin.html\";location.href=url;</script></body></html>")

@@ -1,0 +1,8 @@
+info:
+  company: ifw8
+  product: ifw8-Router
+  softhard: '1'
+matches: |
+  body.icontains("/index.htm?page=")
+  body.icontains("images/login-logo.png")
+  body.icontains("www.ifw8.cn") && title.icontains("欢迎登录-蜂网互联")

@@ -1,0 +1,8 @@
+info:
+  company: HINHAN INC Co., Ltd.
+  product: WISEGIGA
+  softhard: '1'
+matches: |
+  body.icontains("/admin/css/style_wisegiga.css")
+  title.icontains("wisegiga")
+  body.icontains("images/i_logo01.gif")

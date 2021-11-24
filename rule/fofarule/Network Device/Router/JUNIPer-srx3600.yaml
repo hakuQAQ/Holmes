@@ -1,0 +1,7 @@
+info:
+  company: Juniper Networks, Inc.
+  product: JUNIPer-srx3600
+  softhard: '1'
+matches: |
+  banner.icontains("juniper networks, inc. srx3600")
+  body.icontains("class=\"jweb-title uppercase\"> - srx3600")

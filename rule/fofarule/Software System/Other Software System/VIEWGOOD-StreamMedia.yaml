@@ -1,0 +1,9 @@
+info:
+  company: viewgood
+  product: VIEWGOOD-StreamMedia
+  softhard: '2'
+matches: |
+  body.icontains("fgetquery")
+  body.icontains("viewgood")
+  body.icontains("location.href") && body.icontains("var webvirtualdiretory = 'viewgood';")
+  body.icontains("src='/viewgood/pc/")

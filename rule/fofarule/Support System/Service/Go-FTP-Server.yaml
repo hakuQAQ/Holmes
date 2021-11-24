@@ -1,0 +1,6 @@
+info:
+  company: Go-FTP-Server
+  product: Go-FTP-Server
+  softhard: '2'
+matches: |
+  banner.icontains("go ftp server")

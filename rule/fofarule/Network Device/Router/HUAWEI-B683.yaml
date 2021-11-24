@@ -1,0 +1,6 @@
+info:
+  company: Huawei
+  product: HUAWEI-B683
+  softhard: '1'
+matches: |
+  title.icontains("huawei b683")

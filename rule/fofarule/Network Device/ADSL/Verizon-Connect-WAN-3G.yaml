@@ -1,0 +1,7 @@
+info:
+  company: Verizon Communications Inc.
+  product: Verizon-Connect-WAN-3G
+  softhard: '1'
+matches: |
+  banner.icontains("connect wan 3g ia ")
+  banner.icontains("connect wan 3g verizon")

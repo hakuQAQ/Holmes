@@ -1,0 +1,7 @@
+info:
+  company: OpenSSl Software Foundation.
+  product: OpenSSL
+  softhard: '2'
+matches: |
+  header.icontains("openssl")
+  banner.icontains("openssl")

@@ -1,0 +1,8 @@
+info:
+  company: Apache Software Foundation.
+  product: Solr
+  softhard: '2'
+matches: |
+  title.icontains("solr admin")
+  body.icontains("solrcore initialization failures")
+  body.icontains("app_config.solr_path")

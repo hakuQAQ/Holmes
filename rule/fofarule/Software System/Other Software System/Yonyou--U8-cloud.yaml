@@ -1,0 +1,6 @@
+info:
+  company: Yonyou Network Co Ltd
+  product: Yonyou--U8-cloud
+  softhard: '2'
+matches: |
+  body.icontains("开启u8 cloud云端之旅")

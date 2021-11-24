@@ -1,0 +1,8 @@
+info:
+  company: Port25 Solutions, Inc.
+  product: PowerMTA
+  softhard: '2'
+matches: |
+  header.icontains("basic realm=\"powermta")
+  header.icontains("http/1.0 403")
+  body.icontains("<html><body>access denied.  please consult the http-access directive in the user's guide for more information.</body>")

@@ -1,0 +1,6 @@
+info:
+  company: DAVOLINK. Inc.
+  product: DAVOLINK-DV-332D
+  softhard: '1'
+matches: |
+  banner.icontains("dv-332d")

@@ -1,0 +1,8 @@
+info:
+  company: Avaya Inc.
+  product: Mcu-Video-Conferencing
+  softhard: '1'
+matches: |
+  body.icontains("mcuv572_1")
+  body.icontains("document.location.href = jarname + \"/login.asp\" + query")
+  title == "mcu default page"

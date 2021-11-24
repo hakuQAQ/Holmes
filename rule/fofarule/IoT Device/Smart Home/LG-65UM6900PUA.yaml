@@ -1,0 +1,6 @@
+info:
+  company: LG Electronics.
+  product: LG-65UM6900PUA
+  softhard: '1'
+matches: |
+  body.icontains("<modelnumber>65um6900pua</modelnumber>")

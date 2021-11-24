@@ -1,0 +1,6 @@
+info:
+  company: Dell Inc.
+  product: DELL-PowerEdge-T300
+  softhard: '1'
+matches: |
+  banner.icontains("poweredge-t300")

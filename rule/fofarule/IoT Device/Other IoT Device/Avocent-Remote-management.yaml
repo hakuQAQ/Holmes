@@ -1,0 +1,7 @@
+info:
+  company: Vertiv Co.
+  product: Avocent-Remote-management
+  softhard: '1'
+matches: |
+  title.icontains("remote management controller")
+  body.icontains("avocent corporation")

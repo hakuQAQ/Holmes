@@ -1,0 +1,8 @@
+info:
+  company: AdiMoney Networks.
+  product: AdiMoney
+  softhard: '2'
+matches: |
+  title.icontains("adimoney - mobile advertisement network")
+  body.icontains("<img src=\"/img/logo.png\" alt=\"adimoney\"/>")
+  body.icontains("content=\"adimoney.com mobile advertisement network. ")

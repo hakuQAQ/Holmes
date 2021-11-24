@@ -1,0 +1,6 @@
+info:
+  company: MikroTik
+  product: MikroTik-CCR1036
+  softhard: '1'
+matches: |
+  banner.icontains("routeros ccr1036")

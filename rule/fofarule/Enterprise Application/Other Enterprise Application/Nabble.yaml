@@ -1,0 +1,7 @@
+info:
+  company: Nabble，LLC
+  product: Nabble
+  softhard: '2'
+matches: |
+  body.icontains("class=\"nabble\" id=\"nabble")
+  body.icontains(">nabble</a>")

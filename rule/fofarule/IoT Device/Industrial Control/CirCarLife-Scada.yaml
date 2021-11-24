@@ -1,0 +1,6 @@
+info:
+  company: CIRCONTROL,S.A
+  product: CirCarLife-Scada
+  softhard: '1'
+matches: |
+  header.icontains("circarlife scada")

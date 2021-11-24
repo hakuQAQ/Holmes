@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: b2evolution
+  softhard: '2'
+matches: |
+  body.icontains("/powered-by-b2evolution-150t.gif")
+  body.icontains("powered by b2evolution")
+  body.icontains("content=\"b2evolution")

@@ -1,0 +1,6 @@
+info:
+  company: sxt234
+  product: sxt234-System
+  softhard: '2'
+matches: |
+  body.icontains("<div class=\"head_right\" onclick=\"window_close()\">")

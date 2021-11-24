@@ -1,0 +1,6 @@
+info:
+  company: Finetree Communications Co.,Ltd
+  product: 5MP-Network-Camera
+  softhard: '1'
+matches: |
+  title.icontains("5mp network camera")

@@ -1,0 +1,9 @@
+info:
+  company: WEBGATE Inc.
+  product: WebEye-Network-Camera
+  softhard: '1'
+matches: |
+  body.icontains("<p>click <a href=\"./login.ml?form_method=get") && body.icontains("<meta name=\"generator\" content=\"webgateinc\">")
+  title.icontains("webeye user login")
+  title.icontains("webeye index page")
+  title.icontains("webeye java applet page")

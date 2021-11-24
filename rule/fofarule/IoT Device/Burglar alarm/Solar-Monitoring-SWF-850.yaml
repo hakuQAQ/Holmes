@@ -1,0 +1,6 @@
+info:
+  company: Kinkei System Corporation
+  product: Solar-Monitoring-SWF-850
+  softhard: '1'
+matches: |
+  body.icontains("/pic/solarwiselogo.jpg")

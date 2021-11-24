@@ -1,0 +1,6 @@
+info:
+  company: Apereo foundation
+  product: Jasig-CAS
+  softhard: '2'
+matches: |
+  body.icontains("powered by <a href=\"http://www.jasig.org/cas")

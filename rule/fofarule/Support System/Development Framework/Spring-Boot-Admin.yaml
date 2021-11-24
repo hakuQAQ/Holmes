@@ -1,0 +1,7 @@
+info:
+  company: Pivotal Software, Inc.
+  product: Spring-Boot-Admin
+  softhard: '2'
+matches: |
+  body.icontains("spring boot admin")
+  title.icontains("spring boot admin")

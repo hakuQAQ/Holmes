@@ -1,0 +1,6 @@
+info:
+  company: WEBGATE Inc.
+  product: WEBGATE-Product
+  softhard: '1'
+matches: |
+  body.icontains("content=\"webgateinc\"")

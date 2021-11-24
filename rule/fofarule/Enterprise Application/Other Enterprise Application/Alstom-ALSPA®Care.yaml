@@ -1,0 +1,6 @@
+info:
+  company: ALSTOM Strongwish Inc.
+  product: Alstom-ALSPA®Care
+  softhard: '2'
+matches: |
+  body.icontains("asp/images/s8000plus.gif")

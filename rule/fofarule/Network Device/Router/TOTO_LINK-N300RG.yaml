@@ -1,0 +1,6 @@
+info:
+  company: TOTOLINK Corp.
+  product: TOTO_LINK-N300RG
+  softhard: '1'
+matches: |
+  body.icontains("src =\"/images/login_back_zn300rg.gif\"")

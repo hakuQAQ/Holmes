@@ -1,0 +1,7 @@
+info:
+  company: AVideo Platform
+  product: YouPHPTube-Encoder
+  softhard: '2'
+matches: |
+  title == "youphptube encoder" && body.icontains("view/js/seetalert")
+  body.icontains("youphptube")

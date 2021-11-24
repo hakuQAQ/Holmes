@@ -1,0 +1,7 @@
+info:
+  company: InterNiche Technologies, Inc.
+  product: Footprint
+  softhard: '1'
+matches: |
+  header.icontains("server: footprint ")
+  banner.icontains("server: footprint ")

@@ -1,0 +1,9 @@
+info:
+  company: MOXA
+  product: Moxa-Serial-Device-Server
+  softhard: '1'
+matches: |
+  protocol.icontains("ssh")
+  banner.icontains("moxa_1.0")
+  header.icontains("moxahttp")
+  banner.icontains("server: moxahttp")

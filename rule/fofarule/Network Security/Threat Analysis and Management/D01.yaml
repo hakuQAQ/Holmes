@@ -1,0 +1,8 @@
+info:
+  company: gov110
+  product: D01
+  softhard: '1'
+matches: |
+  body.icontains("/assets/gongan/")
+  body.icontains("公安部第一研究所")
+  title == "网探d01"

@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Hexabyte-ADSL
+  softhard: '2'
+matches: |
+  header.icontains("realm=\"hexabyte adsl") && banner.icontains("realm=\"hexabyte adsl")

@@ -1,0 +1,6 @@
+info:
+  company: Digicom S.p.A.
+  product: Michelangelo-PRO-V
+  softhard: '1'
+matches: |
+  banner.icontains("michelangelo pro-v")

@@ -1,0 +1,6 @@
+info:
+  company: handlink
+  product: Handlink-Company's-product
+  softhard: '1'
+matches: |
+  body.icontains("handlink technologies inc. all rights reserved.")

@@ -1,0 +1,7 @@
+info:
+  company: KT CORP
+  product: KT-Router
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"test@kt.com")
+  banner.icontains("realm=\"test@kt.com")

@@ -1,0 +1,6 @@
+info:
+  company: jinzay
+  product: NSTC-Software
+  softhard: '2'
+matches: |
+  body.icontains("skysz.fw.index.validatecodenew = \"/loginaction/validatecodenew.html")

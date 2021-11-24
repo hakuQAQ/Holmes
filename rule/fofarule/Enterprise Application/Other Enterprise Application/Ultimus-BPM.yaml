@@ -1,0 +1,6 @@
+info:
+  company: Ultimus
+  product: Ultimus-BPM
+  softhard: '2'
+matches: |
+  body.icontains("url=iportal/login.aspx")

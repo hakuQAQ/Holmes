@@ -1,0 +1,6 @@
+info:
+  company: Dasan Zhone Solutions
+  product: Innbox-Module
+  softhard: '1'
+matches: |
+  banner.icontains("innbox ")

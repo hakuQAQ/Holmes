@@ -1,0 +1,6 @@
+info:
+  company: GitHub, Inc.
+  product: Github-Enterprise
+  softhard: '2'
+matches: |
+  header.icontains("_gh_manage")

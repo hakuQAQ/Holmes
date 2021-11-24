@@ -1,0 +1,7 @@
+info:
+  company: acti
+  product: ACTi-NVR
+  softhard: '1'
+matches: |
+  body.icontains("var szproductbrand = 'acti'")
+  body.icontains("var szproducttype = 'nvr'")

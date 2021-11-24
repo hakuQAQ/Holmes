@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: QualityView-Ipcam
+  softhard: '1'
+matches: |
+  banner.icontains("welcome to qualityview ipcam")

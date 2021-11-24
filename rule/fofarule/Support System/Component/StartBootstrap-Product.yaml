@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: StartBootstrap-Product
+  softhard: '2'
+matches: |
+  body.icontains("src=\"img/portfolio/thumbnails/4.jpg\"")
+  body.icontains("we've got what you need!</h2>")

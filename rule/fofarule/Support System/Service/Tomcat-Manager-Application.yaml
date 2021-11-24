@@ -1,0 +1,7 @@
+info:
+  company: Apache Software Foundation.
+  product: Tomcat-Manager-Application
+  softhard: '2'
+matches: |
+  header.icontains("tomcat manager application")
+  banner.icontains("tomcat manager application")

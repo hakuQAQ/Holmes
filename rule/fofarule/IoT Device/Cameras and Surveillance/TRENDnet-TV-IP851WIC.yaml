@@ -1,0 +1,8 @@
+info:
+  company: TRENDnet, Inc.
+  product: TRENDnet-TV-IP851WIC
+  softhard: '1'
+matches: |
+  body.icontains("src=\"descript.gif?cidx=tv-ip851wic1.022014-03-31\"")
+  banner.icontains("tv-ip851wic")
+  header.icontains("realm=\"tv-ip851wic")

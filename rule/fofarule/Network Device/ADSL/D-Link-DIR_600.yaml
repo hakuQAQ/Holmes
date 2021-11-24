@@ -1,0 +1,10 @@
+info:
+  company: DLink
+  product: D-Link-DIR_600
+  softhard: '1'
+matches: |
+  banner.icontains("dir-600")
+  header.icontains("dir-600") && title.icontains("d-link systems, inc. | wireless router | home")
+  body.icontains("dir-600") && body.icontains("<div class=\"modelname\">dir-600")
+  body.icontains("var mmc = {")
+  body.icontains("dlink-dir600")

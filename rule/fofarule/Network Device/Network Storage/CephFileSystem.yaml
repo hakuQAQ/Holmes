@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: CephFileSystem
+  softhard: '2'
+matches: |
+  banner.icontains("ceph") && header.icontains("realm=\"ceph-mgr")

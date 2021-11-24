@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: tiki-Wiki-CMS
+  softhard: '2'
+matches: |
+  body.icontains("jquerytiki = new object")

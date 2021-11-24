@@ -1,0 +1,7 @@
+info:
+  company: Juniper Networks, Inc.
+  product: JUNIPer-EX4200-24f
+  softhard: '1'
+matches: |
+  banner.icontains("ex4200-24f")
+  body.icontains("class=\"jweb-title uppercase\"> - ex4200-24f")

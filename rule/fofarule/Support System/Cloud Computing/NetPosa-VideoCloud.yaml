@@ -1,0 +1,6 @@
+info:
+  company: netposa
+  product: NetPosa-VideoCloud
+  softhard: '2'
+matches: |
+  title.icontains("视云实战平台")

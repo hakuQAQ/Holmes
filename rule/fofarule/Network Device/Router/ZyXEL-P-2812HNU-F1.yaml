@@ -1,0 +1,6 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-P-2812HNU-F1
+  softhard: '1'
+matches: |
+  body.icontains("welcome to p-2812hnu-f1 configuration interface")

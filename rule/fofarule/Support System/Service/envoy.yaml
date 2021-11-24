@@ -1,0 +1,6 @@
+info:
+  company: envoyproxy
+  product: envoy
+  softhard: '2'
+matches: |
+  header.icontains("envoy")

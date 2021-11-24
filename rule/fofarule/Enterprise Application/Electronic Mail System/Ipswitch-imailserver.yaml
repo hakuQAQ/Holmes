@@ -1,0 +1,8 @@
+info:
+  company: Progress Software Corporation
+  product: Ipswitch-imailserver
+  softhard: '2'
+matches: |
+  body.icontains("myicalusername")
+  header.icontains("server: ipswitch-imail")
+  banner.icontains("server: ipswitch-imail")

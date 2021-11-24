@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Marconi-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("marconi ")

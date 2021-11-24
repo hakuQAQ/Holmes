@@ -1,0 +1,6 @@
+info:
+  company: Scientific Linux
+  product: Scientific-Linux
+  softhard: '2'
+matches: |
+  banner.icontains("scientific linux")

@@ -1,0 +1,13 @@
+info:
+  company: Bosch Sicherheitssysteme GmbH
+  product: Bosch-SPS
+  softhard: '1'
+matches: |
+  title.icontains("bosch security systems")
+  body.icontains("miccomp[0][1] ==")
+  body.icontains("src='inner_frmset.html'>")
+  header.icontains("vcs-videojet")
+  banner.icontains("vcs-videojet")
+  banner.icontains("videojet-8008")
+  title.icontains("vcs ag videojet")
+  title.icontains("b426") && body.icontains("bosch security systems.  all rights reserved.")

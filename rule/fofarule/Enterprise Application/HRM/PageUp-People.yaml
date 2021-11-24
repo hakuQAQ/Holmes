@@ -1,0 +1,7 @@
+info:
+  company: PageUp
+  product: PageUp-People
+  softhard: '2'
+matches: |
+  body.icontains("powered by pageup people")
+  body.icontains("class=\"pageuplink\" href=\"http://www.pageuppeople.com")

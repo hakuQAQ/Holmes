@@ -1,0 +1,8 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-ASA
+  softhard: '1'
+matches: |
+  header.icontains("cisco asa")
+  header.icontains("adaptive security appliance http")
+  banner.icontains("cisco adaptive security appliance")

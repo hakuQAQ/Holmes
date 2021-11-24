@@ -1,0 +1,8 @@
+info:
+  company: CAREL INDUSTRIES S.p.A.
+  product: Carel-Data-Server
+  softhard: '1'
+matches: |
+  body.icontains("src=\"/mpwebcorefn.js")
+  header.icontains("server: careldataserver")
+  banner.icontains("server: careldataserver")

@@ -1,0 +1,10 @@
+info:
+  company: Other
+  product: phpSysInfo
+  softhard: '2'
+matches: |
+  body.icontains("var stargeturl = \"index.php?disp=dynamic")
+  body.icontains("content=\"phpsysinfo")
+  title.icontains("phpsysinfo - ")
+  body.icontains("href=\"http://phpsysinfo.sourceforge.net/\">phpsysinfo")
+  body.icontains("/templates/phpsysinfo.css")

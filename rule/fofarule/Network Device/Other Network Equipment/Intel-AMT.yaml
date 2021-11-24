@@ -1,0 +1,9 @@
+info:
+  company: Intel Corporation
+  product: Intel-AMT
+  softhard: '1'
+matches: |
+  header.icontains("server: intel(r) standard manageability ")
+  banner.icontains("server: intel(r) standard manageability ")
+  header.icontains("server: intel(r) active management technology")
+  banner.icontains("server: intel(r) active management technology")

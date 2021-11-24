@@ -1,0 +1,11 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-Codian-Video-Conferencing
+  softhard: '1'
+matches: |
+  protocol.icontains("rtsp")
+  banner.icontains("server: codian mcu ")
+  banner.icontains("codian ip ")
+  banner.icontains("codian isdn ")
+  banner.icontains("codian mcu ") && title.icontains("codian mcu")
+  banner.icontains("codian mse ")

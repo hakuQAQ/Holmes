@@ -1,0 +1,7 @@
+info:
+  company: NetApp, Inc.
+  product: NetApp-Storage
+  softhard: '1'
+matches: |
+  header.icontains("netapp")
+  protocol.icontains("snmp") && banner.icontains("netapp")

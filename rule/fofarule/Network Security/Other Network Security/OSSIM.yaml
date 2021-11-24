@@ -1,0 +1,7 @@
+info:
+  company: AlienVault, Inc.
+  product: OSSIM
+  softhard: '2'
+matches: |
+  title.icontains("alienvault - open source sim")
+  title.icontains("alienvault ossim")

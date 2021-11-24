@@ -1,0 +1,6 @@
+info:
+  company: shuziguanxing
+  product: GuanXingTai
+  softhard: '2'
+matches: |
+  title.icontains("观星台")

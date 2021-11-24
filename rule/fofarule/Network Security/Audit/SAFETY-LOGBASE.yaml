@@ -1,0 +1,7 @@
+info:
+  company: logbase
+  product: SAFETY-LOGBASE
+  softhard: '2'
+matches: |
+  title.icontains("logbase")
+  header.icontains("dummy") && body.icontains("onclick=\"location.href='trustcert.cgi'")

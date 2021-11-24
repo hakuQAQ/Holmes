@@ -1,0 +1,6 @@
+info:
+  company: MOXA
+  product: Moxa-NP6610
+  softhard: '1'
+matches: |
+  banner.icontains("np6610")

@@ -1,0 +1,7 @@
+info:
+  company: Trend Micro Incorporated.
+  product: Trend-Threat-Discovery-Appliance
+  softhard: '1'
+matches: |
+  title.icontains("趋势科技威胁发现设备")
+  body.icontains("<span class=\"text_span\">启用 javascript 以使用威胁发现设备。</span>")

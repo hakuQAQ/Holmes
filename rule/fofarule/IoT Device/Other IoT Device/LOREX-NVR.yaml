@@ -1,0 +1,6 @@
+info:
+  company: Lorex Technology Inc.
+  product: LOREX-NVR
+  softhard: '1'
+matches: |
+  body.icontains("<div id=\"lorexcameras\" class=\"style29\">")

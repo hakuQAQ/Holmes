@@ -1,0 +1,6 @@
+info:
+  company: Dell Inc.
+  product: DELL-N2024P
+  softhard: '1'
+matches: |
+  body.icontains("class=\"login_server_default\">n2024p")

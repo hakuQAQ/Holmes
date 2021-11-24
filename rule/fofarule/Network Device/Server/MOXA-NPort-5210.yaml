@@ -1,0 +1,6 @@
+info:
+  company: MOXA
+  product: MOXA-NPort-5210
+  softhard: '1'
+matches: |
+  banner.icontains("nport 5210")

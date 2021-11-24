@@ -1,0 +1,9 @@
+info:
+  company: Carbon60 Operating Co. Ltd
+  product: MySQLMan
+  softhard: '2'
+matches: |
+  body.icontains("href=\"mysql.cgi?do=top_level_op")
+  header.icontains("mysqlman_url=")
+  banner.icontains("mysqlman_url=")
+  body.icontains("size=\"1\">mysqlman")

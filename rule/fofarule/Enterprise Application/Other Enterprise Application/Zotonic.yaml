@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Zotonic
+  softhard: '2'
+matches: |
+  body.icontains("powered by: zotonic") && body.icontains("/lib/js/apps/zotonic-1.0")

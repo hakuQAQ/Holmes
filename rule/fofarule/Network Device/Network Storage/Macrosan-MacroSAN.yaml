@@ -1,0 +1,6 @@
+info:
+  company: Macrosan
+  product: Macrosan-MacroSAN
+  softhard: '1'
+matches: |
+  body.icontains("macrosan数据存储设备")

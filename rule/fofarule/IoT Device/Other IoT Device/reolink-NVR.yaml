@@ -1,0 +1,7 @@
+info:
+  company: Reolink Innovation Limited
+  product: reolink-NVR
+  softhard: '1'
+matches: |
+  body.icontains("<a id=\"preview_play_balancestream\">balanced")
+  title == "reolink"

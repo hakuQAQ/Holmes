@@ -1,0 +1,7 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-UIS
+  softhard: '1'
+matches: |
+  title.icontains("h3c uis 统一管理矩阵")
+  body.icontains("uisalert")

@@ -1,0 +1,6 @@
+info:
+  company: Dahua
+  product: Dahua-DHI-NVR2104HS
+  softhard: '1'
+matches: |
+  banner.icontains("nvr2104hs")

@@ -1,0 +1,7 @@
+info:
+  company: Hewlett Packard Enterprise Development LP
+  product: HP-ML330-G6
+  softhard: '1'
+matches: |
+  banner.icontains("ml330-g6") && cert.icontains("ml330-g6")
+  body.icontains("servername=\"proliant ml330 g6")

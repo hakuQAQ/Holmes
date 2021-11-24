@@ -1,0 +1,7 @@
+info:
+  company: TRENDnet, Inc.
+  product: TRENDnet-TEW-820AP
+  softhard: '1'
+matches: |
+  body.icontains("tew-820ap")
+  body.icontains("<script>lang_obj.write(\"product_description\")")

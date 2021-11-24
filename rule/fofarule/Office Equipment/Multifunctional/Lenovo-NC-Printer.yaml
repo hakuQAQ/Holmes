@@ -1,0 +1,6 @@
+info:
+  company: Lenovo
+  product: Lenovo-NC-Printer
+  softhard: '1'
+matches: |
+  banner.icontains("lenovo nc-")

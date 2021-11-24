@@ -1,0 +1,7 @@
+info:
+  company: Dell Inc.
+  product: EMC-Documentum-Webtop
+  softhard: '2'
+matches: |
+  body.icontains("/webtop/index.js")
+  body.icontains("/webtop/webtop/theme/documentum/css/webtop.css")

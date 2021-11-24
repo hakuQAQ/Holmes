@@ -1,0 +1,8 @@
+info:
+  company: wangqi
+  product: WQ-CMS
+  softhard: '2'
+matches: |
+  body.icontains("powered by <a href='http://www.wqcms.com")
+  body.icontains("inc/wqcms.js")
+  body.icontains("style/wangqi/style.css")

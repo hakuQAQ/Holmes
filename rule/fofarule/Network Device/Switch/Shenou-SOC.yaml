@@ -1,0 +1,6 @@
+info:
+  company: shenou
+  product: Shenou-SOC
+  softhard: '1'
+matches: |
+  banner.icontains("soc http://www.shenou.com soc ")

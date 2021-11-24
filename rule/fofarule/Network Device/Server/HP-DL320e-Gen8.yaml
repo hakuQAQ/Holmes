@@ -1,0 +1,6 @@
+info:
+  company: Hewlett Packard Enterprise Development LP
+  product: HP-DL320e-Gen8
+  softhard: '1'
+matches: |
+  banner.icontains("dl320e-gen8") && cert.icontains("dl320e-gen8")

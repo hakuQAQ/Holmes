@@ -1,0 +1,6 @@
+info:
+  company: broada
+  product: Broada-Broadview-APM
+  softhard: '1'
+matches: |
+  title.icontains("broadview apm")

@@ -1,0 +1,7 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-NXC2500
+  softhard: '1'
+matches: |
+  body.icontains("name=\"model\">nxc2500<")
+  banner.icontains("nxc2500") && title.icontains("nxc2500")

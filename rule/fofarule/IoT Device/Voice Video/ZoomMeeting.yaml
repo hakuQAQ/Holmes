@@ -1,0 +1,6 @@
+info:
+  company: Zoom Telephonics, Inc.
+  product: ZoomMeeting
+  softhard: '2'
+matches: |
+  body.icontains("class=\"alert alert-success hideme zoom-newmessage\"")

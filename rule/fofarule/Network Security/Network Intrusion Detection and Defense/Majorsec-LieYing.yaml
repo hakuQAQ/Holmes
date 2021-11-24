@@ -1,0 +1,6 @@
+info:
+  company: Majorsec
+  product: Majorsec-LieYing
+  softhard: '2'
+matches: |
+  title.icontains("majorsec")

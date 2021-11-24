@@ -1,0 +1,7 @@
+info:
+  company: Proxim Wireless Corporation
+  product: Proxim-Wireles-Tsunami-Router
+  softhard: '1'
+matches: |
+  banner.icontains("tsunami qb")
+  banner.icontains("tsunami mp")

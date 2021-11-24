@@ -1,0 +1,7 @@
+info:
+  company: Loïc Hoguin
+  product: Cowboy
+  softhard: '2'
+matches: |
+  header.icontains("cowboy")
+  banner.icontains("cowboy")

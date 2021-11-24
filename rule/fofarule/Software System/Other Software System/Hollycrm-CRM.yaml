@@ -1,0 +1,7 @@
+info:
+  company: hollycrm
+  product: Hollycrm-CRM
+  softhard: '0'
+matches: |
+  body.icontains("/sso/client/passer")
+  body.icontains("jqxhr")

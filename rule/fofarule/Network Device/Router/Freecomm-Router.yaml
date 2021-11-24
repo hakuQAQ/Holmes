@@ -1,0 +1,7 @@
+info:
+  company: Freecomm Corporation
+  product: Freecomm-Router
+  softhard: '1'
+matches: |
+  banner.icontains("freecomm data communication")
+  banner.icontains("series software")

@@ -1,0 +1,11 @@
+info:
+  company: comingchina
+  product: U-Mail
+  softhard: '2'
+matches: |
+  body.icontains("<body link=\"white\" vlink=\"white\" alink=\"white\">")
+  body.icontains("<meta http-equiv=\"refresh\" content=\"0;url=./webmail/\">")
+  body.icontains("power by <a href=\"http://www.comingchina.com\">u-mail邮件服务器</a>")
+  title.icontains("u-mail邮件服务器") && body.icontains("static/images/login/login_37.jpg")
+  title.icontains("power by u-mail")
+  body.icontains("u-mail webadmin 要求启用 javascript")

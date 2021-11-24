@@ -1,0 +1,6 @@
+info:
+  company: SBR
+  product: SBR-LanSecS
+  softhard: '1'
+matches: |
+  title.icontains("lansecs第二代防火墙")

@@ -1,0 +1,7 @@
+info:
+  company: kedacom
+  product: KEDACOM-MediaServer
+  softhard: '1'
+matches: |
+  body.icontains("/grid/propsgrid.js")
+  body.icontains("src=\"js/ext/adapter/ext/ext-base.js\"")

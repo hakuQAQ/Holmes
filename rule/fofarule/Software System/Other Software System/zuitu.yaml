@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: zuitu
+  softhard: '2'
+matches: |
+  body.icontains("help/zuitu.php")

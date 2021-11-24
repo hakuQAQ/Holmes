@@ -1,0 +1,8 @@
+info:
+  company: AfterLogic Corp.
+  product: AfterLogic-WebMail
+  softhard: '2'
+matches: |
+  title.icontains("afterlogic webmail pro")
+  header.icontains("phpwebmailsessid")
+  banner.icontains("phpwebmailsessid")

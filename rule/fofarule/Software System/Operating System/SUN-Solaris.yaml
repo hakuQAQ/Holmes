@@ -1,0 +1,9 @@
+info:
+  company: Oracle Corporation
+  product: SUN-Solaris
+  softhard: '2'
+matches: |
+  banner.icontains("login: solaris 5.9 (sun)")
+  banner.icontains("sun solaris")
+  header.icontains("sun solaris")
+  banner.icontains("sun_ssh") && banner.icontains("sunos") && header.icontains("sunos")

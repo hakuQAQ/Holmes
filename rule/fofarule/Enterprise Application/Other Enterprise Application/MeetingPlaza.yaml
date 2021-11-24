@@ -1,0 +1,8 @@
+info:
+  company: NTT TechnoCross Corporation
+  product: MeetingPlaza
+  softhard: '2'
+matches: |
+  body.icontains("meetingplaza http tunneling")
+  header.icontains("interspace http tunneling")
+  banner.icontains("interspace http tunneling")

@@ -1,0 +1,6 @@
+info:
+  company: LG Electronics.
+  product: LG-55SM8100PSA
+  softhard: '1'
+matches: |
+  body.icontains("<modelname>55sm8100psa</modelname>")

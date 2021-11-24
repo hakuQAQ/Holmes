@@ -1,0 +1,6 @@
+info:
+  company: Hewlett Packard Enterprise Development LP
+  product: HP-DL180-GEN9
+  softhard: '1'
+matches: |
+  banner.icontains("dl180-gen9") && cert.icontains("dl180-gen9")

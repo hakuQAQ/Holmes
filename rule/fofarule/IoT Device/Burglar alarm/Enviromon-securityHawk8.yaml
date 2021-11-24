@@ -1,0 +1,6 @@
+info:
+  company: Enviromon
+  product: Enviromon-securityHawk8
+  softhard: '1'
+matches: |
+  banner.icontains("securityhawk8")

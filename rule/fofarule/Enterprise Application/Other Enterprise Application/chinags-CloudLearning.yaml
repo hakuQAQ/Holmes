@@ -1,0 +1,6 @@
+info:
+  company: chinags
+  product: chinags-CloudLearning
+  softhard: '2'
+matches: |
+  body.icontains("/integrats/gs.sub.systemmanager/dologin/json")

@@ -1,0 +1,6 @@
+info:
+  company: Riello Elettronica Group
+  product: NetMan
+  softhard: '1'
+matches: |
+  banner.icontains("netman ")

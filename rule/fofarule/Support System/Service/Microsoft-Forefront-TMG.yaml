@@ -1,0 +1,6 @@
+info:
+  company: Microsoft Corporation
+  product: Microsoft-Forefront-TMG
+  softhard: '2'
+matches: |
+  title.icontains("microsoft forefront tmg")

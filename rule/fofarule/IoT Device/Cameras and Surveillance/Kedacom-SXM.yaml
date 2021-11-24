@@ -1,0 +1,7 @@
+info:
+  company: kedacom
+  product: Kedacom-SXM
+  softhard: '1'
+matches: |
+  body.icontains("titlename = \"sxms审讯业务管理系统\";")
+  body.icontains("classid=\"clsid:01dfb4b4-0e07-4e3f-8b7a-98fd6bff153f\" codebase=\"files/ofctnewclsid.cab")

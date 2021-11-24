@@ -1,0 +1,7 @@
+info:
+  company: bestsch
+  product: Bestsch-Ecs
+  softhard: '2'
+matches: |
+  body.icontains("/userfiles/admin/customskin")
+  body.icontains("src=\"/include/ecsserverapi.js")

@@ -1,0 +1,9 @@
+info:
+  company: Sangfor
+  product: Sangfor-Behavior-Management-or-Identity-Authentication-System
+  softhard: '2'
+matches: |
+  title == "上网认证系统" && header.icontains("sinforhttpd")
+  body.icontains("<a href=\"/webauth/\">")
+  body.icontains("身份认证系统")
+  body.icontains("class=\"info-inner\"")

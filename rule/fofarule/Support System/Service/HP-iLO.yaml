@@ -1,0 +1,10 @@
+info:
+  company: Hewlett Packard Enterprise Development LP
+  product: HP-iLO
+  softhard: '2'
+matches: |
+  body.icontains("href=\"http://www.hp.com/go/ilo")
+  title.icontains("hp integrated lights-out")
+  body.icontains("js/ilo.js")
+  header.icontains("hp-ilo-server")
+  banner.icontains("management processor (mp) for hp integrity servers")

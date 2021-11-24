@@ -1,0 +1,7 @@
+info:
+  company: International Business Machines Corporation
+  product: IBM-Chassis-management
+  softhard: '2'
+matches: |
+  header.icontains("ibm chassis management")
+  body.icontains(",\"chassis_name\":")

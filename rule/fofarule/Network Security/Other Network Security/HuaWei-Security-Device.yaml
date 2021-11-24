@@ -1,0 +1,7 @@
+info:
+  company: HUAWEI
+  product: HuaWei-Security-Device
+  softhard: '1'
+matches: |
+  body.icontains("sweb-lib/resource/")
+  body.icontains("sweb-lib/plat/login/login_new.js")

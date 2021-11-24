@@ -1,0 +1,9 @@
+info:
+  company: ctop
+  product: CTOP-OA
+  softhard: '2'
+matches: |
+  body.icontains("/ctop/index.jsp")
+  body.icontains("/software/jinstall.exe")
+  body.icontains("src=\"images/logo-ctop.gif")
+  body.icontains("src=\"images/ctop_logo.gif")

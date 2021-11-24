@@ -1,0 +1,6 @@
+info:
+  company: HCL Technologies Limited
+  product: HCL-sametime
+  softhard: '2'
+matches: |
+  body.icontains("href=\"/chat/sametime192x192.png")

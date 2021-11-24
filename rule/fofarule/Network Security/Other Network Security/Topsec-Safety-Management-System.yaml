@@ -1,0 +1,6 @@
+info:
+  company: TOPSEC
+  product: Topsec-Safety-Management-System
+  softhard: '2'
+matches: |
+  title.icontains("天融信安全管理")

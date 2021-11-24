@@ -1,0 +1,6 @@
+info:
+  company: Advantech Co., Ltd.
+  product: ADVANTECH-WISE-3610
+  softhard: '1'
+matches: |
+  body.icontains("/advantech/advantech/css/main.css")

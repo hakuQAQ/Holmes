@@ -1,0 +1,7 @@
+info:
+  company: Hewlett Packard Enterprise Development LP
+  product: HP-Series-Router-MSR930
+  softhard: '1'
+matches: |
+  banner.icontains("hp series router msr930")
+  banner.icontains("hpe series router msr930")

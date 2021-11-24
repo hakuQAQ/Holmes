@@ -1,0 +1,6 @@
+info:
+  company: LINK1ONE
+  product: LINK_ONE-Roteador-Wireless-Router
+  softhard: '1'
+matches: |
+  title.icontains("roteador wireless n 300 mbps")

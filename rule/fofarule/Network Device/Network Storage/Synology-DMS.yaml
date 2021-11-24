@@ -1,0 +1,8 @@
+info:
+  company: Synology Inc.
+  product: Synology-DMS
+  softhard: '2'
+matches: |
+  title.icontains(" synology ")
+  body.icontains("class=\"logo-synology\"")
+  body.icontains("class=\"logo-dsm\"")

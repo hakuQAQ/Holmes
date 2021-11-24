@@ -1,0 +1,6 @@
+info:
+  company: D-Link Corporation
+  product: D-Link-DSL-2730E
+  softhard: '1'
+matches: |
+  body.icontains("product page</span>: dsl-2730e")

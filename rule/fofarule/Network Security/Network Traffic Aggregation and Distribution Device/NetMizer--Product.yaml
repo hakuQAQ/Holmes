@@ -1,0 +1,6 @@
+info:
+  company: lingzhou
+  product: NetMizer--Product
+  softhard: '0'
+matches: |
+  banner.icontains("netmizer")

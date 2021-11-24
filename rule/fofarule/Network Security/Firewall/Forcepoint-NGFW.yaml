@@ -1,0 +1,7 @@
+info:
+  company: Forcepoint LLC.
+  product: Forcepoint-NGFW
+  softhard: '1'
+matches: |
+  body.icontains("<div class=\"ngfwformfield\">")
+  body.icontains("id=\"software_name\">ngfw security management center")

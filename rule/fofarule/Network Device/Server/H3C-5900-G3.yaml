@@ -1,0 +1,7 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-5900-G3
+  softhard: '1'
+matches: |
+  banner.icontains("5900-g3")
+  header.icontains("5900-g3") && body.icontains("5900-g3")

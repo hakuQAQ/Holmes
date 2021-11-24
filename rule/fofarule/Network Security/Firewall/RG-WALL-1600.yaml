@@ -1,0 +1,8 @@
+info:
+  company: Ruijie
+  product: RG-WALL-1600
+  softhard: '1'
+matches: |
+  banner.icontains("rg-wall-1600")
+  header.icontains("xxxxxxxx")
+  banner.icontains("server: xxxxxxxx") && cert.icontains("organization: ruijie")

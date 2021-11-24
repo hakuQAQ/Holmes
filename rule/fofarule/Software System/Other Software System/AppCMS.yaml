@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: AppCMS
+  softhard: '2'
+matches: |
+  body.icontains("powerd by appcms")

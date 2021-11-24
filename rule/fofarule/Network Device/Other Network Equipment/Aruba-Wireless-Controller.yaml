@@ -1,0 +1,6 @@
+info:
+  company: Hewlett Packard Enterprise Development LP
+  product: Aruba-Wireless-Controller
+  softhard: '1'
+matches: |
+  banner.icontains("aruba-wireless-controller")

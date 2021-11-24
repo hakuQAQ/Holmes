@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-UC500
+  softhard: '1'
+matches: |
+  banner.icontains("cisco ios software, uc500 software")

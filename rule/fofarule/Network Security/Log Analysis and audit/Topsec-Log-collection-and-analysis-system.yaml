@@ -1,0 +1,7 @@
+info:
+  company: TOPSEC
+  product: Topsec-Log-collection-and-analysis-system
+  softhard: '2'
+matches: |
+  title.icontains("天融信日志收集与分析系统")
+  title.icontains("网络卫士日志收集与分析系统")

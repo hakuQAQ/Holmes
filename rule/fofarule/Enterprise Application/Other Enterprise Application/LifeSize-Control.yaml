@@ -1,0 +1,8 @@
+info:
+  company: Lifesize, Inc.
+  product: LifeSize-Control
+  softhard: '2'
+matches: |
+  body.icontains("/lifesizecontrol/asp/index.html")
+  header.icontains("lifesizecontrol")
+  banner.icontains("liferay portal")

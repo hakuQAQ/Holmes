@@ -1,0 +1,6 @@
+info:
+  company: Schneider Electric
+  product: Schneider-Data-Center-Expert
+  softhard: '1'
+matches: |
+  title == "data center expert"

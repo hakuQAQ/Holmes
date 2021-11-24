@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Hygieia-Dashboard
+  softhard: '2'
+matches: |
+  title == "hygieia dashboard"

@@ -1,0 +1,8 @@
+info:
+  company: Mitmproxy Project.
+  product: mitmproxy
+  softhard: '2'
+matches: |
+  header.icontains("mitmproxy")
+  banner.icontains("mitmproxy")
+  banner.icontains("server:")

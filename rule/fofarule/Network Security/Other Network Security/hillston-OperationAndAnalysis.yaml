@@ -1,0 +1,6 @@
+info:
+  company: HILLSTONE
+  product: hillston-OperationAndAnalysis
+  softhard: '2'
+matches: |
+  title.icontains("智·源") && body.icontains("/static/css/main.4672616b.chunk.css")

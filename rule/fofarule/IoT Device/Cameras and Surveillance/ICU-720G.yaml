@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: ICU-720G
+  softhard: '1'
+matches: |
+  banner.icontains("server: icu-720g")

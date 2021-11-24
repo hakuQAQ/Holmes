@@ -1,0 +1,6 @@
+info:
+  company: Teradata Corporation.
+  product: teradata-nCluster
+  softhard: '2'
+matches: |
+  body.icontains("redirecting to aster ncluster management console (amc)")

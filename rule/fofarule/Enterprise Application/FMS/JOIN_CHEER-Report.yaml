@@ -1,0 +1,6 @@
+info:
+  company: jiuqi
+  product: JOIN_CHEER-Report
+  softhard: '2'
+matches: |
+  body.icontains("jqci") && body.icontains("../netrep")

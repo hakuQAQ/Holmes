@@ -1,0 +1,7 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-GS724TR
+  softhard: '1'
+matches: |
+  body.icontains("gs724trimage spacer50percent topalign righthalign")
+  banner.icontains("gs724tr")

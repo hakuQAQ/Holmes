@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-TelePresence-Video-Conferencing
+  softhard: '1'
+matches: |
+  banner.icontains("cisco telepresence ")

@@ -1,0 +1,12 @@
+info:
+  company: Apache Software Foundation.
+  product: Apache-Tomcat
+  softhard: '2'
+matches: |
+  header.icontains("apache-coyote")
+  body.icontains("href=\"tomcat.css")
+  title.icontains("apache tomcat/") && body.icontains("tomcat.apache.org")
+  body.icontains("this is the default tomcat home page")
+  title.icontains("error report")
+  body.icontains("<h3>apache tomcat")
+  banner.icontains("apache-coyote")

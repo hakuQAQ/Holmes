@@ -1,0 +1,6 @@
+info:
+  company: bcrj
+  product: BeiChuang-Book-Retrieval-System
+  softhard: '2'
+matches: |
+  body.icontains("opac_two")

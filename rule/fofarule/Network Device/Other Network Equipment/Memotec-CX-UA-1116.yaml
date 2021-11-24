@@ -1,0 +1,6 @@
+info:
+  company: Memotec Inc.
+  product: Memotec-CX-UA-1116
+  softhard: '1'
+matches: |
+  banner.icontains("cx-ua 1116")

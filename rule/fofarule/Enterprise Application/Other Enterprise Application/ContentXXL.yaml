@@ -1,0 +1,6 @@
+info:
+  company: CURRY Innovations GmbH
+  product: ContentXXL
+  softhard: '2'
+matches: |
+  body.icontains("content=\"contentxxl")

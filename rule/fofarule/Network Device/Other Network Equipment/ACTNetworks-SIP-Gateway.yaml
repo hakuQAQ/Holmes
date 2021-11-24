@@ -1,0 +1,6 @@
+info:
+  company: ACT Networks.
+  product: ACTNetworks-SIP-Gateway
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp") && banner.icontains("act sip gateway")

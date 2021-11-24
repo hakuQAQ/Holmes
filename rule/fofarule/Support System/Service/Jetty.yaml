@@ -1,0 +1,7 @@
+info:
+  company: Eclipse Foundation, Inc.
+  product: Jetty
+  softhard: '2'
+matches: |
+  header.icontains("jetty")
+  banner.icontains("jetty")

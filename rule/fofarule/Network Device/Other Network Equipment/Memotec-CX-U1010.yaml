@@ -1,0 +1,6 @@
+info:
+  company: Memotec Inc.
+  product: Memotec-CX-U1010
+  softhard: '1'
+matches: |
+  banner.icontains("cx-u1010 ran gateway")

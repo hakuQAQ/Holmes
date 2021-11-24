@@ -1,0 +1,7 @@
+info:
+  company: realtek
+  product: RealTek-Network-adapter
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"realtek.com.tw")
+  banner.icontains("realm=\"realtek.com.tw")

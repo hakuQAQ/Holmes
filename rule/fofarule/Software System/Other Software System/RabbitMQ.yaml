@@ -1,0 +1,6 @@
+info:
+  company: Present Pivotal Software，Inc.
+  product: RabbitMQ
+  softhard: '2'
+matches: |
+  title.icontains("rabbitmq management") && banner.icontains("server:rabbitmq")

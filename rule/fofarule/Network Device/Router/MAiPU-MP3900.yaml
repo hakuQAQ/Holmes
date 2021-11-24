@@ -1,0 +1,6 @@
+info:
+  company: Maipu
+  product: MAiPU-MP3900
+  softhard: '1'
+matches: |
+  banner.icontains("mp3900")

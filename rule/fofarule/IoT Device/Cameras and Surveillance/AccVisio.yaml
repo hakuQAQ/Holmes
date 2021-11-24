@@ -1,0 +1,7 @@
+info:
+  company: accvisio
+  product: AccVisio
+  softhard: '1'
+matches: |
+  body.icontains("src=\"cgictl.htm")
+  header.icontains("wweb")

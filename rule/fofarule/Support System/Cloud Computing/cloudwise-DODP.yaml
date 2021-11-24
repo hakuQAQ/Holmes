@@ -1,0 +1,6 @@
+info:
+  company: cloudwise
+  product: cloudwise-DODP
+  softhard: '2'
+matches: |
+  body.icontains("/public/vendor/monaco/vs/loader.js")

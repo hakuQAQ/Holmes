@@ -1,0 +1,8 @@
+info:
+  company: Juniper Networks, Inc.
+  product: Juniper-DX
+  softhard: '1'
+matches: |
+  title.icontains("juniper dx")
+  body.icontains("<img alt=\"\" src=\"i/dx02.gif")
+  header.icontains("dx ") && header.icontains("webui")

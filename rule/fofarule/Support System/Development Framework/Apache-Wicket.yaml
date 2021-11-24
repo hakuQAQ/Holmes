@@ -1,0 +1,7 @@
+info:
+  company: Apache Software Foundation.
+  product: Apache-Wicket
+  softhard: '2'
+matches: |
+  body.icontains("xmlns:wicket=")
+  body.icontains("/org.apache.wicket.")

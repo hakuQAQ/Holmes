@@ -1,0 +1,7 @@
+info:
+  company: uniview
+  product: uniview-NVR516
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"nvr516")
+  banner.icontains("realm=\"nvr516")

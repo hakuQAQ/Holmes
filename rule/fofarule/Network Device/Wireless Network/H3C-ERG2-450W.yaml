@@ -1,0 +1,6 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-ERG2-450W
+  softhard: '1'
+matches: |
+  title.icontains("erg2-450w系统管理")

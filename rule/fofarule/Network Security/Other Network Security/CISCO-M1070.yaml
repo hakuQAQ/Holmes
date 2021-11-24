@@ -1,0 +1,8 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-M1070
+  softhard: '1'
+matches: |
+  body.icontains("alt=\"cisco m1070\"")
+  title.icontains("cisco content security management appliance m1070")
+  title.icontains("cisco ironport m1070")

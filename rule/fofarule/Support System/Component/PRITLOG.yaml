@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: PRITLOG
+  softhard: '2'
+matches: |
+  body.icontains("powered by <a href=\"http://pritlog.com/\">pritlog")
+  body.icontains("<em id=\"jserror\">please enable javascript for full functionality")

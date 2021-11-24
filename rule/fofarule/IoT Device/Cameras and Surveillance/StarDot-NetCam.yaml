@@ -1,0 +1,8 @@
+info:
+  company: StarDot Technologies
+  product: StarDot-NetCam
+  softhard: '1'
+matches: |
+  title.icontains("live image")
+  title.icontains("netcam live image")
+  body.icontains("<applet code=\"captureclient.class\" width=")

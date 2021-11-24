@@ -1,0 +1,6 @@
+info:
+  company: Openfind Information Technology INC.
+  product: MAIL2000-Mail
+  softhard: '2'
+matches: |
+  title.icontains("mail2000郵件系統") && title == "mail2000 message system"

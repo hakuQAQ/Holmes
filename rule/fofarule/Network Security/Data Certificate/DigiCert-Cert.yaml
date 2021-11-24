@@ -1,0 +1,6 @@
+info:
+  company: DigiCert
+  product: DigiCert-Cert
+  softhard: '2'
+matches: |
+  cert.icontains("digicert")

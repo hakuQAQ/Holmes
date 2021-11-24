@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: EDVR
+  softhard: '1'
+matches: |
+  title.icontains("edvs/edvr")

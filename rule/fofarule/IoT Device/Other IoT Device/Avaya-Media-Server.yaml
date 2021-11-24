@@ -1,0 +1,7 @@
+info:
+  company: Avaya Inc.
+  product: Avaya-Media-Server
+  softhard: '1'
+matches: |
+  title.icontains("element manager")
+  body.icontains("src=\"/emlogin/")

@@ -1,0 +1,6 @@
+info:
+  company: Huawei
+  product: HUAWEI-AR2240
+  softhard: '1'
+matches: |
+  banner.icontains("huawei ar2240")

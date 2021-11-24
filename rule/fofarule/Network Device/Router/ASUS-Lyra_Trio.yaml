@@ -1,0 +1,7 @@
+info:
+  company: asus
+  product: ASUS-Lyra_Trio
+  softhard: '1'
+matches: |
+  body.icontains("class=\"prod_madelname\">lyra_trio</div>")
+  title.icontains("asus wireless router lyra_trio")

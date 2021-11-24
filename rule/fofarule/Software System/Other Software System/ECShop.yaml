@@ -1,0 +1,7 @@
+info:
+  company: ecshop
+  product: ECShop
+  softhard: '2'
+matches: |
+  title.icontains("powered by ecshop")
+  header.icontains("ecs_id") && body.icontains("content=\"ecshop") && body.icontains("id=\"ecs_cartinfo\"")

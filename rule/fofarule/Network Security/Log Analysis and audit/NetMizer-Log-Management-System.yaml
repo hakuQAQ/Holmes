@@ -1,0 +1,8 @@
+info:
+  company: lingzhou
+  product: NetMizer-Log-Management-System
+  softhard: '2'
+matches: |
+  body.icontains("var mywindows = ext.create")
+  body.icontains("window.location.href=\"main.html\";")
+  title.icontains("netmizer 日志管理系统")

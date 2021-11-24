@@ -1,0 +1,7 @@
+info:
+  company: zmodo
+  product: zmodo-camera
+  softhard: '1'
+matches: |
+  body.icontains("top.frames.frmresource.location = getxmlurl")
+  body.icontains("name=\"mainframe\" frameborder=\"0\"  src=\"play.html\"")

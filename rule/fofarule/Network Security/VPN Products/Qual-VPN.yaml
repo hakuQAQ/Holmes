@@ -1,0 +1,6 @@
+info:
+  company: Qual Limited
+  product: Qual-VPN
+  softhard: '1'
+matches: |
+  banner.icontains("stonesoft security engine firewall/vpn")

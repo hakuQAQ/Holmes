@@ -1,0 +1,6 @@
+info:
+  company: thinker
+  product: Thinker-IntelligentGateway
+  softhard: '2'
+matches: |
+  body.icontains("智能网关系统<br>")

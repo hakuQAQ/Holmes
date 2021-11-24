@@ -1,0 +1,7 @@
+info:
+  company: Hitachi
+  product: Hitachi-Maintenance-Utility
+  softhard: '2'
+matches: |
+  title.icontains("maintenance utility")
+  body.icontains("__gwt_historyframe")

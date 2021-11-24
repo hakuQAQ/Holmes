@@ -1,0 +1,6 @@
+info:
+  company: Toshiba Co. Ltd.
+  product: Toshiba-Network-Camera
+  softhard: '1'
+matches: |
+  title.icontains("toshiba network camera")

@@ -1,0 +1,6 @@
+info:
+  company: Web Wiz Ltd.
+  product: Web-Wiz-Rich-Text-Editor
+  softhard: '2'
+matches: |
+  body.icontains("<a href=\"http://www.richtexteditor.org\"")

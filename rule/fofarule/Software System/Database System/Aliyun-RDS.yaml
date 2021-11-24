@@ -1,0 +1,6 @@
+info:
+  company: Alibaba Group
+  product: Aliyun-RDS
+  softhard: '2'
+matches: |
+  body.icontains("class=\"legend\">rds管理系统</div>")

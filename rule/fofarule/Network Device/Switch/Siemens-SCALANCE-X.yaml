@@ -1,0 +1,7 @@
+info:
+  company: Siemens AG.
+  product: Siemens-SCALANCE-X
+  softhard: '1'
+matches: |
+  title.icontains("scalance x management")
+  body.icontains("href=\"/doc/xspecial.css\"")

@@ -1,0 +1,7 @@
+info:
+  company: kedacom
+  product: Kedacom-phoenix
+  softhard: '1'
+matches: |
+  body.icontains("id=\"cuocx\" classid=\"clsid:a7ff7a36-3eef-4139-bfc0-faeb4c8eba08")
+  body.icontains("kedacom")

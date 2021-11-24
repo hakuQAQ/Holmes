@@ -1,0 +1,6 @@
+info:
+  company: FIBAR GROUP S.A.
+  product: FIBAR-Prodct
+  softhard: '2'
+matches: |
+  title.icontains("fibaro home center")

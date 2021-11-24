@@ -1,0 +1,6 @@
+info:
+  company: yapacs
+  product: yapacs-RemoteMeeting
+  softhard: '1'
+matches: |
+  body.icontains("www.yapacs.net")

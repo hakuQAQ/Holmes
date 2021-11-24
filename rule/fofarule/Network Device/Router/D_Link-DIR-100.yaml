@@ -1,0 +1,8 @@
+info:
+  company: DLink
+  product: D_Link-DIR-100
+  softhard: '1'
+matches: |
+  title.icontains("dir-100")
+  header.icontains(" realm=\"dir-100\"")
+  banner.icontains("dir-100")

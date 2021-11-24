@@ -1,0 +1,7 @@
+info:
+  company: Maipu
+  product: Maipu-VPN3005
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"mpsec vpn3005c")
+  banner.icontains("vpn3005c")

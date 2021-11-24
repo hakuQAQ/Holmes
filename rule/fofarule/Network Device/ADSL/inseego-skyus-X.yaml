@@ -1,0 +1,6 @@
+info:
+  company: Inseego Corp.
+  product: inseego-skyus-X
+  softhard: '1'
+matches: |
+  body.icontains("class=\"skyuscaption\"")

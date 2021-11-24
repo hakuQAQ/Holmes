@@ -1,0 +1,7 @@
+info:
+  company: TRENDnet, Inc.
+  product: TRENDnet-TV-IP430PI
+  softhard: '1'
+matches: |
+  banner.icontains("tv-ip430pi")
+  header.icontains("realm=\"tv-ip430pi")

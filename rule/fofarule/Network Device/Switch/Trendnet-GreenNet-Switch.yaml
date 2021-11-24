@@ -1,0 +1,7 @@
+info:
+  company: TRENDnet, Inc.
+  product: Trendnet-GreenNet-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("greennet ethernet switch")
+  banner.icontains("greennet switch")

@@ -1,0 +1,7 @@
+info:
+  company: Sony Corporation
+  product: SONY-SNC-CX600W
+  softhard: '1'
+matches: |
+  banner.icontains("snc-cx600w")
+  header.icontains("realm=\"snc-cx600w")

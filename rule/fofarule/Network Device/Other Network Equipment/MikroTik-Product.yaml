@@ -1,0 +1,6 @@
+info:
+  company: MikroTik
+  product: MikroTik-Product
+  softhard: '0'
+matches: |
+  banner.icontains("mikrotik")

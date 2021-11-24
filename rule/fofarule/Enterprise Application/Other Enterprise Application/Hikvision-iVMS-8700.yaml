@@ -1,0 +1,6 @@
+info:
+  company: Hikvision
+  product: Hikvision-iVMS-8700
+  softhard: '2'
+matches: |
+  body.icontains("src=\"/portal/common/js/commonvar.js")

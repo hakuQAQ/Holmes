@@ -1,0 +1,6 @@
+info:
+  company: bbsea
+  product: BBSea-PortServer
+  softhard: '1'
+matches: |
+  title.icontains("bbsea portserver")

@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: Geutebruck
+  softhard: '1'
+matches: |
+  body.icontains("geutebruck g-web")
+  body.icontains("content=\"geutebrück g-web\"")

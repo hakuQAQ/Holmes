@@ -1,0 +1,7 @@
+info:
+  company: NEXUS WIFI
+  product: Nexus-Router
+  softhard: '1'
+matches: |
+  body.icontains("http://nexuswifi.com/")
+  title.icontains("nexus nx")

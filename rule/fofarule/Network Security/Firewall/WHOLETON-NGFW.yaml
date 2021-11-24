@@ -1,0 +1,7 @@
+info:
+  company: WHOLETON
+  product: WHOLETON-NGFW
+  softhard: '1'
+matches: |
+  title.icontains("惠尔顿下一代防火墙")
+  body.icontains("/base/img/login_logo_ngaf.jpg")

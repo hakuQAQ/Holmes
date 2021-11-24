@@ -1,0 +1,7 @@
+info:
+  company: byzoro
+  product: Byzoro-Smart
+  softhard: '1'
+matches: |
+  body.icontains("smart s150&nbsp;系统登录")
+  title.icontains("smart--管理平台")

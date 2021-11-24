@@ -1,0 +1,7 @@
+info:
+  company: cnsoftweb
+  product: Baiding-OA
+  softhard: '2'
+matches: |
+  body.icontains("ca0b0334")
+  body.icontains("onload=\"javascript:form1.txtusername.focus")

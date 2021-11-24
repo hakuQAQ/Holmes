@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: SourceBans
+  softhard: '2'
+matches: |
+  body.icontains("<div id=\"footqversion\">version(")
+  body.icontains("http://www.sourcebans.net\" target=\"_blank\"><img src=\"images/sb.png")

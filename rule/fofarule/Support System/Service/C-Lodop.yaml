@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: C-Lodop
+  softhard: '2'
+matches: |
+  title.icontains("welcome to c-lodop")
+  body.icontains("<h1>关于c-lodop免费和注册授权</h1>")
+  body.icontains("document.getelementbyid(\"reqid\").value==document.getelementbyid(\"licid\").value")

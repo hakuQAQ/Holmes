@@ -1,0 +1,10 @@
+info:
+  company: zed3
+  product: Multimedia-scheduling-system
+  softhard: '1'
+matches: |
+  body.icontains("document.location=\"main.php\"")
+  header.icontains("content-length: 73")
+
+#yamlflag
+#body.icontains("<a ")

@@ -1,0 +1,6 @@
+info:
+  company: Hewlett Packard Enterprise Development LP
+  product: HP-Onboard-Administrator
+  softhard: '1'
+matches: |
+  banner.icontains("hp onboard administrator")

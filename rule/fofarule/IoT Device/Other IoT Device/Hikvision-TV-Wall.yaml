@@ -1,0 +1,6 @@
+info:
+  company: Hikvision
+  product: Hikvision-TV-Wall
+  softhard: '1'
+matches: |
+  title == "电视墙" && body.icontains("tvwall_newtvwall")

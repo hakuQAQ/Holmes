@@ -1,0 +1,6 @@
+info:
+  company: zhongan
+  product: zhongan-Xdecision
+  softhard: '2'
+matches: |
+  body.icontains("<div class=\"g-alert-content\" id=\"g-alert-contentsystem\">")

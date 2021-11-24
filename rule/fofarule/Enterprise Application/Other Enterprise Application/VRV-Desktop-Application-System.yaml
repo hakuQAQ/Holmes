@@ -1,0 +1,7 @@
+info:
+  company: VRV
+  product: VRV-Desktop-Application-System
+  softhard: '2'
+matches: |
+  body.icontains("<span id=\"lblvalidcompany\" class=\"validcompany\">vrv")
+  body.icontains("var vver = $('#hidverify').val();")

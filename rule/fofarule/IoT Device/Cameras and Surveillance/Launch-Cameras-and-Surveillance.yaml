@@ -1,0 +1,6 @@
+info:
+  company: launchdigital
+  product: Launch-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  body.icontains("action=\"webs/loginhandle")

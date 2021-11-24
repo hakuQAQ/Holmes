@@ -1,0 +1,13 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-iMC
+  softhard: '2'
+matches: |
+  body.icontains("imc来宾接入自助管理系统")
+  body.icontains("login_logo_h3c.png.jsf")
+  body.icontains("com_h3c_imc_usr_usermgr_alluser_overlaydiv")
+  body.icontains("action=\"/imc/login.jsf")
+  body.icontains("src=\"/imc/javax.faces.resource/images/login_logo_h3c.png.jsf?ln=primefaces-imc-new-webui")
+  body.icontains("<span class=\"cmn_mn_normalfont\">h3c 智能管理中心")
+  body.icontains("src=\"/imc/faces/extensionresource/com.h3c.imc.component.util.extensionresourceloader/") && body.icontains("h3c &#26234;&#33021;&#31649;&#29702;&#20013;&#24515;</span>")
+  body.icontains("href=\"/selfservice/javax.faces.resource/theme.css.xhtml?ln=primefaces-imc-classic-blue\"")

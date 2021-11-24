@@ -1,0 +1,7 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-USG40W
+  softhard: '1'
+matches: |
+  banner.icontains("usg40w")
+  title == "usg40w"

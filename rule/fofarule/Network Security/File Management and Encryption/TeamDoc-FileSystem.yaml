@@ -1,0 +1,7 @@
+info:
+  company: teamdoc
+  product: TeamDoc-FileSystem
+  softhard: '2'
+matches: |
+  body.icontains("id=\"labellink\"")
+  body.icontains("id=\"table_01\"")

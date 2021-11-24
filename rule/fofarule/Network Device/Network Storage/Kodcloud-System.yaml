@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: Kodcloud-System
+  softhard: '2'
+matches: |
+  title.icontains("kodexplorer")
+  body.icontains("/common/loading_simple.gif")

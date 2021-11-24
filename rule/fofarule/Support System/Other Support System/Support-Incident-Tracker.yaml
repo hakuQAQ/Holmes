@@ -1,0 +1,8 @@
+info:
+  company: The Support Incident Tracker Project
+  product: Support-Incident-Tracker
+  softhard: '2'
+matches: |
+  header.icontains("sitsessionid")
+  body.icontains("<div class='windowtitle'>sit! - login</div>")
+  body.icontains("content=\"sit! support incident tracker")

@@ -1,0 +1,6 @@
+info:
+  company: Alibaba
+  product: YOUKU-Router
+  softhard: '1'
+matches: |
+  title.icontains("优酷土豆路由宝")

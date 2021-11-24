@@ -1,0 +1,6 @@
+info:
+  company: Sundray
+  product: Sundray-Switch
+  softhard: '1'
+matches: |
+  body.icontains("var g_href =\"www.sundray.com\"")

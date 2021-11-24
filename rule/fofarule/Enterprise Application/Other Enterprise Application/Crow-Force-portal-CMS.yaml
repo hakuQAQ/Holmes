@@ -1,0 +1,6 @@
+info:
+  company: '300'
+  product: Crow-Force-portal-CMS
+  softhard: '2'
+matches: |
+  body.icontains("中企动力提供技术支持")

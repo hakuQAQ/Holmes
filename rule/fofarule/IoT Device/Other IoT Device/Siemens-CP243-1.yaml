@@ -1,0 +1,7 @@
+info:
+  company: Siemens AG.
+  product: Siemens-CP243-1
+  softhard: '1'
+matches: |
+  header.icontains("cp243-1 it")
+  banner.icontains("cp243-1 it")

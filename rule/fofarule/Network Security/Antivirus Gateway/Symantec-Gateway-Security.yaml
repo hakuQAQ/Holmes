@@ -1,0 +1,6 @@
+info:
+  company: Symantec Corporation
+  product: Symantec-Gateway-Security
+  softhard: '1'
+matches: |
+  banner.icontains("symantec gateway security")

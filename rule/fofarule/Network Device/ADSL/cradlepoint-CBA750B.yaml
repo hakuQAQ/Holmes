@@ -1,0 +1,6 @@
+info:
+  company: Cradlepoint, Inc.
+  product: cradlepoint-CBA750B
+  softhard: '1'
+matches: |
+  title.icontains("login :: cba750b")

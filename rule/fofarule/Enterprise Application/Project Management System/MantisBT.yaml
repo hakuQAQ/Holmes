@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: MantisBT
+  softhard: '2'
+matches: |
+  title.icontains("mantisbt administration")
+  body.icontains("powered by mantis bugtracker")
+  body.icontains("alt=\"mantis bugtracker")

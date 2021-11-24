@@ -1,0 +1,7 @@
+info:
+  company: PY Software.
+  product: PY_SOFTWARE-Active-WebCam
+  softhard: '1'
+matches: |
+  header.icontains("basic realm=\"py software active webcam\"")
+  banner.icontains("basic realm=\"py software active webcam\"")

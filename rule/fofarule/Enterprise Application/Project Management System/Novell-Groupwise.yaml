@@ -1,0 +1,8 @@
+info:
+  company: Micro Focus International plc
+  product: Novell-Groupwise
+  softhard: '2'
+matches: |
+  body.icontains("<!-- start novell services")
+  header.icontains("set-cookie: njscn=")
+  title == "novell web services"

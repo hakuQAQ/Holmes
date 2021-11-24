@@ -1,0 +1,9 @@
+info:
+  company: Samsung Group
+  product: Samsung-NVR
+  softhard: '1'
+matches: |
+  title.icontains("samsung techwin nvr web viewer")
+  body.icontains("$.nvr = {}; $.nvr.plugin_version = ")
+  body.icontains("$.nvr.plugin_version_check = ")
+  title == "wisenet nvr"

@@ -1,0 +1,6 @@
+info:
+  company: Ruijie
+  product: RG-WALL-V50
+  softhard: '1'
+matches: |
+  banner.icontains("rg-wall-v50")

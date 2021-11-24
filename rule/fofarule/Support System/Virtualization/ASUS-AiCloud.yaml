@@ -1,0 +1,6 @@
+info:
+  company: ASUSTeK Computer Inc.
+  product: ASUS-AiCloud
+  softhard: '2'
+matches: |
+  body.icontains("href=\"/smb/css/startup.png\"")

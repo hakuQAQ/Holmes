@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Maygion-IPCamera
+  softhard: '1'
+matches: |
+  header.icontains("maygion") && banner.icontains("maygion") && header.icontains("ipcamera")
+  banner.icontains("ipcamera")
+  body.icontains("product:ipcamera author:xwpcom@gmail.com") && banner.icontains("pcamera ftpserver(www.maygion.com)")

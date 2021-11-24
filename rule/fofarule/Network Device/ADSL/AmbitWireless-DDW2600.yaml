@@ -1,0 +1,6 @@
+info:
+  company: Ambit Wireless Networks, Inc.
+  product: AmbitWireless-DDW2600
+  softhard: '1'
+matches: |
+  banner.icontains("model: ddw2600")

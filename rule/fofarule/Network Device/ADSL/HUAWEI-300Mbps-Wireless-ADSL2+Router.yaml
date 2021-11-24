@@ -1,0 +1,7 @@
+info:
+  company: HUAWEI
+  product: HUAWEI-300Mbps-Wireless-ADSL2+Router
+  softhard: '1'
+matches: |
+  body.icontains("300mbps wireless adsl2+ router</font></span>');")
+  body.icontains("<img src=\"/images/logobig.png")

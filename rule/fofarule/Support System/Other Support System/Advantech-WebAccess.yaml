@@ -1,0 +1,9 @@
+info:
+  company: Advantech Co., Ltd.
+  product: Advantech-WebAccess
+  softhard: '2'
+matches: |
+  body.icontains("/bw_templete1.dwt")
+  body.icontains("/broadweb/webaccessclientsetup.exe")
+  body.icontains("/broadweb/bwuconfig.asp")
+  title.icontains("advantech webaccess 首頁")

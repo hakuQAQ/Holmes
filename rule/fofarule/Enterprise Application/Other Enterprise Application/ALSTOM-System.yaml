@@ -1,0 +1,6 @@
+info:
+  company: ALSTOM Strongwish Inc.
+  product: ALSTOM-System
+  softhard: '2'
+matches: |
+  body.icontains("href=\"technology_communion.asp")

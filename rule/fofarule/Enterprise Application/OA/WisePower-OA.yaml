@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: WisePower-OA
+  softhard: '2'
+matches: |
+  body.icontains("action=\"/wisepower/login.jsp")
+  title.icontains("wisepower office login")

@@ -1,0 +1,6 @@
+info:
+  company: Adobe Inc.
+  product: Adobe-CQ5
+  softhard: '2'
+matches: |
+  body.icontains("_jcr_content")

@@ -1,0 +1,7 @@
+info:
+  company: International Business Machines Corporation
+  product: IBM-GoServe
+  softhard: '2'
+matches: |
+  header.icontains("server: goserve")
+  banner.icontains("server: goserve")

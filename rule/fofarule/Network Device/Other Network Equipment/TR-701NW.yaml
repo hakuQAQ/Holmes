@@ -1,0 +1,6 @@
+info:
+  company: T&D Corporation.
+  product: TR-701NW
+  softhard: '1'
+matches: |
+  title.icontains("tr-701nw")

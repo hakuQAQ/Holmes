@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: PageCookery-Microblog
+  softhard: '2'
+matches: |
+  body.icontains("powered by <a href=\"http://pagecookery.com")

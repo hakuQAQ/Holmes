@@ -1,0 +1,6 @@
+info:
+  company: KYOCERA Corporation
+  product: KYOCERA-MITA-Printing-System
+  softhard: '1'
+matches: |
+  banner.icontains("kyocera mita printing system")

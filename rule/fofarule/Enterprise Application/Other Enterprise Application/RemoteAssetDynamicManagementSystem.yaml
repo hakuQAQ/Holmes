@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: RemoteAssetDynamicManagementSystem
+  softhard: '2'
+matches: |
+  title.icontains("远程资产动态管理系统")

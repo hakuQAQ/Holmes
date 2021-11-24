@@ -1,0 +1,6 @@
+info:
+  company: Avaya Inc.
+  product: Nortel-Networks-Company's-product
+  softhard: '0'
+matches: |
+  banner.icontains("nortel networks")

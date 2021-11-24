@@ -1,0 +1,8 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-DGN2200
+  softhard: '1'
+matches: |
+  header.icontains("netgear dgn2200")
+  title.icontains("netgear router dgn2200")
+  banner.icontains("netgear dgn2200")

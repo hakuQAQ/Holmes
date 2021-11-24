@@ -1,0 +1,7 @@
+info:
+  company: Willfar
+  product: Willfar-Interface-Management-Tool
+  softhard: '2'
+matches: |
+  body.icontains("the wasion software foundation")
+  body.icontains("alt=\"接口应用管理工具\"")

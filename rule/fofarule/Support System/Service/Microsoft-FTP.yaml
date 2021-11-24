@@ -1,0 +1,7 @@
+info:
+  company: Microsoft Corporation
+  product: Microsoft-FTP
+  softhard: '2'
+matches: |
+  protocol.icontains("ftp")
+  banner.icontains("microsoft ftp")

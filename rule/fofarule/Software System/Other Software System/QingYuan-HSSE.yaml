@@ -1,0 +1,6 @@
+info:
+  company: QingYuan
+  product: QingYuan-HSSE
+  softhard: '2'
+matches: |
+  body.icontains("hsse 系统")

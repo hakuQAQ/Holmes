@@ -1,0 +1,6 @@
+info:
+  company: yunjingwang
+  product: Yunjingwang-Web-filtering
+  softhard: '2'
+matches: |
+  title.icontains("云净网")

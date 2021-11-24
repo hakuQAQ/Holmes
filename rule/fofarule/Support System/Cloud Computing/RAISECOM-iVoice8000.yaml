@@ -1,0 +1,6 @@
+info:
+  company: raisecom
+  product: RAISECOM-iVoice8000
+  softhard: '2'
+matches: |
+  body.icontains("id=\"com_raisecom_ums_aos_portal_login_domain")

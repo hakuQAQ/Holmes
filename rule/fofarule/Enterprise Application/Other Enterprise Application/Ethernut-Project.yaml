@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Ethernut-Project
+  softhard: '2'
+matches: |
+  header.icontains("ethernut")

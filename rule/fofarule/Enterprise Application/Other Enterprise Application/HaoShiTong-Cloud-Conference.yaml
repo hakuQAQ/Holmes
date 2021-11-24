@@ -1,0 +1,8 @@
+info:
+  company: HST
+  product: HaoShiTong-Cloud-Conference
+  softhard: '2'
+matches: |
+  body.icontains("images/common/logina_1.gif")
+  body.icontains("content=\"fsmeeting")
+  body.icontains("type=\"hidden\" id=\"app.index.configsuclogin")

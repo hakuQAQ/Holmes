@@ -1,0 +1,7 @@
+info:
+  company: Yonyou
+  product: Yonyou-FE
+  softhard: '2'
+matches: |
+  title.icontains("fe协作")
+  body.icontains("v_show") && body.icontains("v_hedden")

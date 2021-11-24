@@ -1,0 +1,6 @@
+info:
+  company: ElasticHQ
+  product: ElasticSearch-HQ
+  softhard: '2'
+matches: |
+  title == "elastic search - hq"

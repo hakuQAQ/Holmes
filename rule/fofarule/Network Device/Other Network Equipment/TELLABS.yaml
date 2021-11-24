@@ -1,0 +1,6 @@
+info:
+  company: tellabs Inc.
+  product: TELLABS
+  softhard: '0'
+matches: |
+  banner.icontains("tellabs")

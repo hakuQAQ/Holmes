@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: ECash-System
+  softhard: '2'
+matches: |
+  body.icontains("<br>欢迎使用e-cash系统")

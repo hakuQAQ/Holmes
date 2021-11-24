@@ -1,0 +1,7 @@
+info:
+  company: ZTE
+  product: ZTE-Carrier-class-advanced-router
+  softhard: '1'
+matches: |
+  banner.icontains("t64e/t128")
+  banner.icontains("zte") && banner.icontains("zxr10_t128")

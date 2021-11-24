@@ -1,0 +1,6 @@
+info:
+  company: PHP Group
+  product: PHP-Probe-UPUPW
+  softhard: '2'
+matches: |
+  title.icontains("php探针-upupw绿色服务器平台")

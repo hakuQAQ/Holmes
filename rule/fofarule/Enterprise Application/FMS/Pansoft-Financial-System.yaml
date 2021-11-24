@@ -1,0 +1,7 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: Pansoft-Financial-System
+  softhard: '2'
+matches: |
+  body.icontains("pansoftplugins/multithreading/pancalc.js")
+  body.icontains("src=\"/login/img/loading.gif\"")

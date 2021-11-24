@@ -1,0 +1,7 @@
+info:
+  company: piaoyou
+  product: PiaoYou-ERP
+  softhard: '2'
+matches: |
+  body.icontains("css/sexybuttons.css") && body.icontains("ajax/confirm.ashx")
+  title.icontains("票友erp")

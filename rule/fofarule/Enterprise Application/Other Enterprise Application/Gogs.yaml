@@ -1,0 +1,7 @@
+info:
+  company: Gogs
+  product: Gogs
+  softhard: '2'
+matches: |
+  body.icontains("content=\"gogs")
+  body.icontains("<a class=\"item\" target=\"_blank\" href=\"https://gogs.io/docs\" rel=\"noreferrer\">帮助</a>")

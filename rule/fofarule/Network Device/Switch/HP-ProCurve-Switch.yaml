@@ -1,0 +1,11 @@
+info:
+  company: HP Development Company, L.P.
+  product: HP-ProCurve-Switch
+  softhard: '1'
+matches: |
+  header.icontains("server: ehttp")
+  banner.icontains("server: ehttp")
+  title.icontains("procurve switch") && banner.icontains("hp ") && banner.icontains("procurve switch")
+  banner.icontains("hp procurve 1810g")
+  banner.icontains("procurve")
+  banner.icontains("switch")

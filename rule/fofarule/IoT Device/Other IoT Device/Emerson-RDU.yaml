@@ -1,0 +1,6 @@
+info:
+  company: Emerson Electric Co.
+  product: Emerson-RDU
+  softhard: '1'
+matches: |
+  title.icontains("rdu-a login")

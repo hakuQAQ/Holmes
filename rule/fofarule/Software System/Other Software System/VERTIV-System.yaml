@@ -1,0 +1,6 @@
+info:
+  company: Vertiv Tech Co., Ltd.
+  product: VERTIV-System
+  softhard: '2'
+matches: |
+  body.icontains("var port = \"9528")

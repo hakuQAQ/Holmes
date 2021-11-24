@@ -1,0 +1,6 @@
+info:
+  company: PCITC
+  product: PCITC-Management-Platform
+  softhard: '2'
+matches: |
+  body.icontains("window.open(\"http://itmc.mmsh.sinopec.com/itgk/sysmgr/productregister/yunweiproregister.view\"); }  ")

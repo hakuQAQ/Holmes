@@ -1,0 +1,8 @@
+info:
+  company: 3CX Phone System
+  product: 3CX-Phone-System-Management-Console
+  softhard: '1'
+matches: |
+  title.icontains("3cx phone system management console")
+  body.icontains("src=\"/public/vendor.26422846c5ea381c.js\"")
+  body.icontains("src=\"/public/app.807e10d98cfac19e.js\"")

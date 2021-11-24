@@ -1,0 +1,6 @@
+info:
+  company: vue-manage-system
+  product: manage-system
+  softhard: '2'
+matches: |
+  body.icontains("content=\"基于vue2 + element ui 的后台管理系统解决方案")

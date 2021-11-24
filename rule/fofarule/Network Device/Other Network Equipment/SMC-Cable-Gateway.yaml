@@ -1,0 +1,8 @@
+info:
+  company: SMC Networks Asia Pacific Pte Ltd
+  product: SMC-Cable-Gateway
+  softhard: '1'
+matches: |
+  banner.icontains("docsis1.1/docsis2.0 cable residential gateway")
+  banner.icontains("docsis1.1/docsis2.0/docsis3.0 cable residential commercial router")
+  banner.icontains("docsis3.0 cable gateway") && banner.icontains("smc networks")

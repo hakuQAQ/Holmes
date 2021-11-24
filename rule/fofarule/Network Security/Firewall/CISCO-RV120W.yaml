@@ -1,0 +1,7 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-RV120W
+  softhard: '1'
+matches: |
+  banner.icontains("rv120w")
+  cert.icontains("rv120w") && cert.icontains("organization: cisco systems, inc.")

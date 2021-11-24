@@ -1,0 +1,6 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-Magic-R2+Pro
+  softhard: '1'
+matches: |
+  body.icontains("var product_type = \"r2+pro\"")

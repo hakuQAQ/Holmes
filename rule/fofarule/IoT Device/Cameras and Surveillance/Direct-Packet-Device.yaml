@@ -1,0 +1,6 @@
+info:
+  company: Direct Packet, Inc
+  product: Direct-Packet-Device
+  softhard: '1'
+matches: |
+  header.icontains("server: dpwebserver") && banner.icontains("server: dpwebserver")

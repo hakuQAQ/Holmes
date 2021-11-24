@@ -1,0 +1,11 @@
+info:
+  company: VRV
+  product: VRV-IM
+  softhard: '2'
+matches: |
+  title.icontains("连豆豆官网")
+  body.icontains("<h3>连豆豆pc客户端 </h3>")
+  body.icontains("href=\"http://im.vrv.cn/server-securitycenter/password/goretrieval.vrv")
+  body.icontains("class=\"loginusername\" value=\"\" placeholder=\"连豆豆账号/邮箱/手机号")
+  title.icontains("信源豆豆官网")
+  body.icontains("class=\"wj-text wj-title\">下载信源豆豆</p>")

@@ -1,0 +1,7 @@
+info:
+  company: ccshis
+  product: intelligent cloud
+  softhard: '2'
+matches: |
+  title.icontains("登录智选云")
+  body.icontains("handlexpapplycontact")

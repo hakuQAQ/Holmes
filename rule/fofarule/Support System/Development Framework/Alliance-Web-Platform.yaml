@@ -1,0 +1,7 @@
+info:
+  company: Apple Inc.
+  product: Alliance-Web-Platform
+  softhard: '2'
+matches: |
+  title.icontains("default alliance web platform application")
+  body.icontains("window.location = \"/swp/group/admin\";")

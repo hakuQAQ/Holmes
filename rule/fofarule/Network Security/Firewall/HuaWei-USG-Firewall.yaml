@@ -1,0 +1,6 @@
+info:
+  company: HUAWEI
+  product: HuaWei-USG-Firewall
+  softhard: '1'
+matches: |
+  body.icontains("ui_component/css/xtheme-black.css")

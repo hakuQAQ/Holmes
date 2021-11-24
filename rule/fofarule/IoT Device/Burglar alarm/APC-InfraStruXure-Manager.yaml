@@ -1,0 +1,6 @@
+info:
+  company: Schneider Electric
+  product: APC-InfraStruXure-Manager
+  softhard: '1'
+matches: |
+  banner.icontains("apc infrastruxure manager")

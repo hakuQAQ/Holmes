@@ -1,0 +1,6 @@
+info:
+  company: knet
+  product: KNET
+  softhard: '2'
+matches: |
+  body.icontains("https://ss.knet.cn/verifyseal.dll")

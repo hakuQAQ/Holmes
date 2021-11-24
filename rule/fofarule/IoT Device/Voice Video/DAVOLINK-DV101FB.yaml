@@ -1,0 +1,6 @@
+info:
+  company: DAVOLINK. Inc.
+  product: DAVOLINK-DV101FB
+  softhard: '1'
+matches: |
+  banner.icontains("dv101fb")

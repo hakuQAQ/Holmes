@@ -1,0 +1,7 @@
+info:
+  company: Bicesoft
+  product: Bicesoft-Super-Custom-Survey-Voting-System
+  softhard: '2'
+matches: |
+  body.icontains("href=\"images/bicesoft.css\"")
+  body.icontains("佰思超强自定义问卷调查系统(bicesoft.com)")

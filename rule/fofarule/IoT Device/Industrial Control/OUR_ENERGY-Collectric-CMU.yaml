@@ -1,0 +1,6 @@
+info:
+  company: Our Energy AB
+  product: OUR_ENERGY-Collectric-CMU
+  softhard: '1'
+matches: |
+  body.icontains("inloggning collectric cmu")

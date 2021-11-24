@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Acano-Server
+  softhard: '1'
+matches: |
+  banner.icontains("acano server")

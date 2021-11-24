@@ -1,0 +1,6 @@
+info:
+  company: Wavetop
+  product: Wavetop-DAYS
+  softhard: '2'
+matches: |
+  body.icontains("application/views/img/logo_wavetop.png")

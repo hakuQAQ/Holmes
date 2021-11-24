@@ -1,0 +1,9 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-Unified-IP-Phone
+  softhard: '1'
+matches: |
+  body.icontains("cisco unified ip phone")
+  body.icontains("device.statistics.configuration")
+  body.icontains("/cgi/java/serviceability?adapter=device.statistics.device")
+  body.icontains("cisco unified ip phone")

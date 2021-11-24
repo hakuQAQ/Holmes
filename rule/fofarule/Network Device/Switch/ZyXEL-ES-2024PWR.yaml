@@ -1,0 +1,7 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-ES-2024PWR
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"es-2024pwr")
+  banner.icontains("es-2024pwr")

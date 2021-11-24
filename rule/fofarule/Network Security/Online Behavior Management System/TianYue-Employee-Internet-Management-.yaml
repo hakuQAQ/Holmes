@@ -1,0 +1,7 @@
+info:
+  company: venustech
+  product: TianYue-Employee-Internet-Management-
+  softhard: '1'
+matches: |
+  title.icontains("netoray nsg 上网行为管理系统")
+  body.icontains("莱克斯科技")

@@ -1,0 +1,7 @@
+info:
+  company: 'Grafana Labs '
+  product: Grafana
+  softhard: '2'
+matches: |
+  title.icontains("grafana")
+  body.icontains("window.grafanabootdata = ")

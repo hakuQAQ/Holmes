@@ -1,0 +1,9 @@
+info:
+  company: Other
+  product: ZZZCMS
+  softhard: '2'
+matches: |
+  body.icontains("href=\"/?brandlist/zzzcms")
+  body.icontains(".banner .in_business ul li dd")
+  title.icontains("zzzcms网站管理系统zzzcms.com")
+  title.icontains("开源免费建站系统zzzcms.com")

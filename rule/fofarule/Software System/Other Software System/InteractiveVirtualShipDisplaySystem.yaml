@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: InteractiveVirtualShipDisplaySystem
+  softhard: '2'
+matches: |
+  body.icontains("交互式虚拟船舶展示系统</a>")

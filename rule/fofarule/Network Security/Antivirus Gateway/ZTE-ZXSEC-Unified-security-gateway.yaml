@@ -1,0 +1,10 @@
+info:
+  company: ZTE
+  product: ZTE-ZXSEC-Unified-security-gateway
+  softhard: '1'
+matches: |
+  title.icontains("安全网关")
+  body.icontains("welcome to login gateway system")
+
+#yamlflag
+#body.icontains("zte")

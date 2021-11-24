@@ -1,0 +1,7 @@
+info:
+  company: Matt's Script Archive, Inc.
+  product: FormMail
+  softhard: '2'
+matches: |
+  body.icontains("/formmail.pl")
+  body.icontains("href=\"http://www.worldwidemart.com/scripts/formmail.shtml")

@@ -1,0 +1,9 @@
+info:
+  company: Alibaba Group
+  product: AliyunOSS
+  softhard: '2'
+matches: |
+  header.icontains("server: aliyunoss")
+  header.icontains("x-oss-request-id")
+  header.icontains("aliyunocm")
+  banner.icontains("server: aliyunoss")

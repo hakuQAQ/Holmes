@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: PegaRULES
+  softhard: '2'
+matches: |
+  header.icontains("pega-rules=")
+  body.icontains("unable to logon to the pegarules system")
+  body.icontains("href=\"images/pzpegaicon.ico")

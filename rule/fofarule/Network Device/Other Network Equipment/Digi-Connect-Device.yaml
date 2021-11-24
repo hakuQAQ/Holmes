@@ -1,0 +1,6 @@
+info:
+  company: Digi International Inc.
+  product: Digi-Connect-Device
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp") && banner.icontains("digi connect device")

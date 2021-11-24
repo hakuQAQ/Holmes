@@ -1,0 +1,10 @@
+info:
+  company: McAfee, Inc.
+  product: McAfee-Email_Gateway
+  softhard: '1'
+matches: |
+  banner.icontains("eg4000/smtp ready")
+  banner.icontains("eg4500/smtp ready")
+  banner.icontains("eg5000/smtp ready")
+  banner.icontains("eg5500/smtp ready")
+  banner.icontains("mcafee email gateway ")

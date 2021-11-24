@@ -1,0 +1,7 @@
+info:
+  company: MikroTik
+  product: Mikrotik-HttpProxy
+  softhard: '2'
+matches: |
+  banner.icontains("server: mikrotik httpproxy")
+  header.icontains("server: mikrotik httpproxy")

@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: Yearning
+  softhard: '2'
+matches: |
+  title == "yearning" && body.icontains("href=/icon.png")
+  body.icontains("id=subnet")

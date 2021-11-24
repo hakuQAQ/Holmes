@@ -1,0 +1,7 @@
+info:
+  company: LoopUp Ltd.
+  product: loopup-Meeting
+  softhard: '2'
+matches: |
+  body.icontains("content=\"loopup\"")
+  body.icontains("machine:")

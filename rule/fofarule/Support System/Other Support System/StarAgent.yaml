@@ -1,0 +1,7 @@
+info:
+  company: Alibaba Group
+  product: StarAgent
+  softhard: '2'
+matches: |
+  body.icontains("window.location = \"/user/home.jsx\";")
+  body.icontains("href=\"/aisc/aisc.css")

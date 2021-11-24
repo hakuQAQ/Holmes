@@ -1,0 +1,7 @@
+info:
+  company: Sagemcom Group
+  product: Residential-Gateway
+  softhard: '1'
+matches: |
+  header.icontains("residential gateway") && title.icontains("residential gateway login")
+  body.icontains(" sagemcom corporation.")

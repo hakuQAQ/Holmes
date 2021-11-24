@@ -1,0 +1,7 @@
+info:
+  company: Apache Software Foundation.
+  product: APACHE-hadoop-YARN
+  softhard: '2'
+matches: |
+  body.icontains("/static/yarn.css")
+  body.icontains("yarn.dt.plugins.js")

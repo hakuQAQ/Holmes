@@ -1,0 +1,6 @@
+info:
+  company: March Networks
+  product: March-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  title.icontains("march networks command client")

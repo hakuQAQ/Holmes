@@ -1,0 +1,10 @@
+info:
+  company: Red Hat, Inc.
+  product: WildFly-Server
+  softhard: '2'
+matches: |
+  header.icontains("wildfly")
+  banner.icontains("wildfly") && banner.icontains("server:") && body.icontains("href=\"wildfly.css")
+  body.icontains("wildfly project")
+  title.icontains("welcome to wildfly")
+  header.icontains("360 web server")

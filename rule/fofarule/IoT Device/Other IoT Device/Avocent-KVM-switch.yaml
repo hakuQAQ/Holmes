@@ -1,0 +1,15 @@
+info:
+  company: Vertiv Group Corp.
+  product: Avocent-KVM-switch
+  softhard: '1'
+matches: |
+  banner.icontains("mpu2032")
+  title.icontains("mpu4032dac explorer")
+  body.icontains("src=\"/avct.js") && body.icontains("alt=\"avocent")
+  banner.icontains("mpu4032dac")
+  title.icontains("avocent dsr8035")
+  title.icontains("avocent dsr2035") && title.icontains("mpu1016 资源管理器")
+  title.icontains("mpu4032 资源管理器")
+  banner.icontains("a1000r 02.00.21")
+  banner.icontains("a1000r 02.00.22")
+  banner.icontains("a2000r ")

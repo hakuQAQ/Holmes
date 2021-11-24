@@ -1,0 +1,8 @@
+info:
+  company: VMware, Inc.
+  product: VMware-Horizon
+  softhard: '2'
+matches: |
+  title.icontains("vmware horizon")
+  body.icontains("href='https://www.vmware.com/go/viewclients'")
+  body.icontains("alt=\"vmware horizon\">")

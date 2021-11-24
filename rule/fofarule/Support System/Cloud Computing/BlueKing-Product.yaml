@@ -1,0 +1,6 @@
+info:
+  company: Tencent BlueKing
+  product: BlueKing-Product
+  softhard: '2'
+matches: |
+  title.icontains("蓝鲸智云")

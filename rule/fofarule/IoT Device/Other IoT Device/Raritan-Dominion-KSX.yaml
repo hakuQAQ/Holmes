@@ -1,0 +1,7 @@
+info:
+  company: Raritan Inc.
+  product: Raritan-Dominion-KSX
+  softhard: '1'
+matches: |
+  body.icontains("dominion ksx ")
+  body.icontains("producttype")

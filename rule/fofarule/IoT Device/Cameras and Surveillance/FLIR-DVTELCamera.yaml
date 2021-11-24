@@ -1,0 +1,7 @@
+info:
+  company: FLIR® Systems, Inc.
+  product: FLIR-DVTELCamera
+  softhard: '1'
+matches: |
+  body.icontains("class=\"loginleft displaynone\"")
+  body.icontains("class=\"footer\">dvtel inc")

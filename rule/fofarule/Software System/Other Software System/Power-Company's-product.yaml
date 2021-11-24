@@ -1,0 +1,6 @@
+info:
+  company: Power Science
+  product: Power-Company's-product
+  softhard: '2'
+matches: |
+  body.icontains("onclick=\"return settheme('60year')")

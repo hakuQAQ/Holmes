@@ -1,0 +1,6 @@
+info:
+  company: netzone
+  product: netzone-WebCache
+  softhard: '2'
+matches: |
+  body.icontains("广州高度软件有限公司版权所有")

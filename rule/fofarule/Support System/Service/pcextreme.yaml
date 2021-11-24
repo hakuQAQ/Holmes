@@ -1,0 +1,8 @@
+info:
+  company: PCextreme BV
+  product: pcextreme
+  softhard: '2'
+matches: |
+  body.icontains("deze server is eigendom van <a")
+  header.icontains("pcx/no-cache")
+  header.icontains("pcx/dynamic")

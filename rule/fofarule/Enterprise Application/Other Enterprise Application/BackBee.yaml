@@ -1,0 +1,6 @@
+info:
+  company: BackBee
+  product: BackBee
+  softhard: '2'
+matches: |
+  body.icontains("<div id=\"bb5-site-wrapper\">")

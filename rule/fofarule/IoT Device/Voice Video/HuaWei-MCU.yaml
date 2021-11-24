@@ -1,0 +1,8 @@
+info:
+  company: HUAWEI
+  product: HuaWei-MCU
+  softhard: '1'
+matches: |
+  body.icontains("mcur5-min.js")
+  body.icontains("mcutype.js")
+  title.icontains("huawei mcu")

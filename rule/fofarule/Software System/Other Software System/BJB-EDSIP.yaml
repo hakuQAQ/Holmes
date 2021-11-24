@@ -1,0 +1,6 @@
+info:
+  company: BJB
+  product: BJB-EDSIP
+  softhard: '2'
+matches: |
+  title.icontains("edsip八爪鱼平台") && body.icontains("content=\"同辉eds多媒体信息发布系统")

@@ -1,0 +1,7 @@
+info:
+  company: ZhengDaZhongRi
+  product: ZhengDaZhongRi-Education
+  softhard: '2'
+matches: |
+  body.icontains("images/lgline.gif")
+  body.icontains("lb_hint") && body.icontains("onclick=\"safecodeclick\" src=\"safecode.aspx")

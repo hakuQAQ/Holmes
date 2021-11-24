@@ -1,0 +1,7 @@
+info:
+  company: Yottabyte
+  product: Yottabyte-Rizhiyi
+  softhard: '2'
+matches: |
+  body.icontains("href=\"/static/assets/yottaweb-elements/index.css\"")
+  title.icontains("日志易管理系统")

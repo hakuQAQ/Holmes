@@ -1,0 +1,7 @@
+info:
+  company: Fortinet, Inc.
+  product: Fortinet-AscenLink
+  softhard: '1'
+matches: |
+  banner.icontains("ascenvision (ascenlink)")
+  banner.icontains("ascenvision ascenlink")

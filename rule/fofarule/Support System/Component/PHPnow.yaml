@@ -1,0 +1,9 @@
+info:
+  company: Other
+  product: PHPnow
+  softhard: '2'
+matches: |
+  title.icontains("phpnow works!")
+  body.icontains("href=\"http://phpnow.org/go.php?id=1005\">")
+  body.icontains("content=\"yinzcn@gmail.com")
+  body.icontains("by <a href=\"http://phpnow.org\">phpnow.org")

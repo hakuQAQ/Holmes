@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: phpems-exam-system
+  softhard: '2'
+matches: |
+  title.icontains("phpems") && body.icontains("content=\"phpems")

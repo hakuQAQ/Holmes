@@ -1,0 +1,6 @@
+info:
+  company: Ralph
+  product: ralph
+  softhard: '2'
+matches: |
+  body.icontains("ralph <strong>3</strong>")

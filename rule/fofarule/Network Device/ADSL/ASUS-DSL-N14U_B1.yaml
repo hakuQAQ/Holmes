@@ -1,0 +1,7 @@
+info:
+  company: ASUS
+  product: ASUS-DSL-N14U_B1
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"dsl-n14u_b1")
+  banner.icontains("dsl-n14u_b1")

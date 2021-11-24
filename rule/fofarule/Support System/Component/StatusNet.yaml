@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: StatusNet
+  softhard: '2'
+matches: |
+  body.icontains("<p>this site is powered by <a href=\"http://status.net/\">statusnet</a> version")
+  body.icontains("it runs the <a href=\"http://status.net/\">statusnet</a> microblogging software, version ")

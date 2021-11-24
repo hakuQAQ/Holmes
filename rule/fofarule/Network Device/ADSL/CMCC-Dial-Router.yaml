@@ -1,0 +1,7 @@
+info:
+  company: ChinaMobile
+  product: CMCC-Dial-Router
+  softhard: '1'
+matches: |
+  body.icontains("x_fib_register")
+  title.icontains("中国移动")

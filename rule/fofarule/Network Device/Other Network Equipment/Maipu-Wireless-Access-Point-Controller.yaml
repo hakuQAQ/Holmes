@@ -1,0 +1,6 @@
+info:
+  company: Maipu
+  product: Maipu-Wireless-Access-Point-Controller
+  softhard: '1'
+matches: |
+  body.icontains("js/localil8n.js")

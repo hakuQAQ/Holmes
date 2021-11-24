@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: ASPCMS
+  softhard: '2'
+matches: |
+  title.icontains("powered by aspcms")
+  body.icontains("content=\"aspcms")
+  body.icontains("/inc/aspcms_advjs.asp")

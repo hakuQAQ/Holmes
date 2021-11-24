@@ -1,0 +1,8 @@
+info:
+  company: Microsoft Corporation
+  product: ASP.NET-RequestValidationMode
+  softhard: '2'
+matches: |
+  header.icontains("http/1.1 500")
+  body.icontains("httprequestvalidationexception")
+  body.icontains("request validation has detected a potentially dangerous client input value")

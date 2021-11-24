@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Puppet-Node-Manager
+  softhard: '2'
+matches: |
+  title.icontains("puppet node manager")

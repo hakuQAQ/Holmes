@@ -1,0 +1,7 @@
+info:
+  company: zkvpn
+  product: NetShare-VPN
+  softhard: '1'
+matches: |
+  title.icontains("netshare")
+  title.icontains("vpn")

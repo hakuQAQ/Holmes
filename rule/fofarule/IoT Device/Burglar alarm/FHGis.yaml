@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: FHGis
+  softhard: '1'
+matches: |
+  body.icontains("onclick=\"goto('fhgis')\">")

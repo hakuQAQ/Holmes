@@ -1,0 +1,7 @@
+info:
+  company: Maipu
+  product: MAiPU-Config
+  softhard: '2'
+matches: |
+  title.icontains("系统配置管理")
+  header.icontains("maipu")

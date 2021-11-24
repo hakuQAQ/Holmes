@@ -1,0 +1,9 @@
+info:
+  company: Other
+  product: Generic-VoIP-Gateway
+  softhard: '1'
+matches: |
+  header.icontains("voip gateway configuration web server")
+  header.icontains("digest realm=\" voip gateway")
+  banner.icontains("voip gateway configuration web server")
+  banner.icontains("digest realm=\" voip gateway")

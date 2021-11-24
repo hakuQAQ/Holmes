@@ -1,0 +1,6 @@
+info:
+  company: jinhero
+  product: OMAudit
+  softhard: '0'
+matches: |
+  body.icontains("omaudit v3版")

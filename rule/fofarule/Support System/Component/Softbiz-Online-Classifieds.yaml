@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Softbiz-Online-Classifieds
+  softhard: '2'
+matches: |
+  body.icontains("http://www.softbizscripts.com/classified-ads-plus-script-features.php")

@@ -1,0 +1,6 @@
+info:
+  company: 'ISS, Inc. '
+  product: ISS-webcam
+  softhard: '1'
+matches: |
+  title.icontains("web interface of inspector")

@@ -1,0 +1,7 @@
+info:
+  company: NEC Corporation
+  product: NEC-MultiWriter
+  softhard: '1'
+matches: |
+  banner.icontains("nec color multiwriter")
+  banner.icontains("nec multiwriter ")

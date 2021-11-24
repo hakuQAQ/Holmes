@@ -1,0 +1,6 @@
+info:
+  company: meiqia
+  product: Mechat-Online-service
+  softhard: '2'
+matches: |
+  body.icontains("/meiqia.js")

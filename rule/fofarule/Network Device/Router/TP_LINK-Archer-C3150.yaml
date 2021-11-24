@@ -1,0 +1,8 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TP_LINK-Archer-C3150
+  softhard: '1'
+matches: |
+  banner.icontains("0.9.1 0.1 v005f.0 build 160603 rel.61835n")
+  body.icontains("var mmc = {")
+  body.icontains("tp-link archer c3150") && body.icontains("var modelname=\"archer c3150\"")

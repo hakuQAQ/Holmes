@@ -1,0 +1,6 @@
+info:
+  company: wisdata
+  product: Wisdata
+  softhard: '1'
+matches: |
+  cert.icontains("subject: c=cn, st=some-state, l=beijing, o=wisdata, cn=wisdata.com.cn")

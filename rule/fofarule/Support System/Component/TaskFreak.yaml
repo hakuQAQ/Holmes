@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: TaskFreak
+  softhard: '2'
+matches: |
+  body.icontains("<a href=\"http://www.taskfreak.com\">taskfreak")

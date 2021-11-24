@@ -1,0 +1,8 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-USG60
+  softhard: '1'
+matches: |
+  banner.icontains("usg60")
+  body.icontains("<div class=\"model\" id=\"model\" name=\"model\">usg60</div>")
+  title.icontains("usg60")

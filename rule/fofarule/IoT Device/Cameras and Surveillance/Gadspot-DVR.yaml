@@ -1,0 +1,7 @@
+info:
+  company: Gadspot
+  product: Gadspot-DVR
+  softhard: '1'
+matches: |
+  body.icontains("content=\"chenxiaohui\"")
+  body.icontains("name=\"configptz\"")

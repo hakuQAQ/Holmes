@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Ralink-HTTPD
+  softhard: '2'
+matches: |
+  header.icontains("ralink httpd")
+  banner.icontains("ralink httpd")
+  banner.icontains("server: ")

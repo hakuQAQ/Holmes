@@ -1,0 +1,7 @@
+info:
+  company: Hibernating Rhinos LTD
+  product: Hibernating-Rhinos-RavenDB
+  softhard: '2'
+matches: |
+  title.icontains("raven.studio")
+  body.icontains("alt=\"ravendb\"")

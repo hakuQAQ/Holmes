@@ -1,0 +1,6 @@
+info:
+  company: Avaya Inc.
+  product: Avaya-G700
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp") && banner.icontains("avaya g700")

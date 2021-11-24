@@ -1,0 +1,8 @@
+info:
+  company: Dell Inc.
+  product: EMC-Cluster-storage-
+  softhard: '1'
+matches: |
+  title.icontains("login - isilon")
+  body.icontains("isilon systems llc. all rights reserved")
+  body.icontains("id=\"dialog_title\">isilon administration</div>")

@@ -1,0 +1,9 @@
+info:
+  company: Cisco Systems, Inc.
+  product: RV042-VPN-Router
+  softhard: '1'
+matches: |
+  banner.icontains("rv042 vpn router")
+  header.icontains("realm=\"rv042")
+  header.icontains("realm=\"klo-rv042") && banner.icontains("realm=\"rv042")
+  banner.icontains("realm=\"klo-rv042")

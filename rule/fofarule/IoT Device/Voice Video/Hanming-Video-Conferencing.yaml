@@ -1,0 +1,7 @@
+info:
+  company: HST
+  product: Hanming-Video-Conferencing
+  softhard: '2'
+matches: |
+  body.icontains("class=\"win_introduce")
+  body.icontains("/resources/fmweb/other/js/login.js")

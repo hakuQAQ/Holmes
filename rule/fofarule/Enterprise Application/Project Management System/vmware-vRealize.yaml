@@ -1,0 +1,6 @@
+info:
+  company: VMware, Inc.
+  product: vmware-vRealize
+  softhard: '2'
+matches: |
+  body.icontains("正在重定向到 vrealize operations manager web")

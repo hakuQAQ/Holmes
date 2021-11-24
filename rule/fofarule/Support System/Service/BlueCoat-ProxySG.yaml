@@ -1,0 +1,8 @@
+info:
+  company: Broadcom Inc.
+  product: BlueCoat-ProxySG
+  softhard: '1'
+matches: |
+  header.icontains("proxysg")
+  header.icontains("bluecoat internet proxy")
+  banner.icontains("bluecoat internet proxy")

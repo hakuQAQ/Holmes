@@ -1,0 +1,8 @@
+info:
+  company: Easynetworks
+  product: Easynetworks-Firewall
+  softhard: '0'
+matches: |
+  body.icontains("apw_form_token")
+  body.icontains("class=\"login-head clearfix\"")
+  body.icontains("action=\"/logincheck\"")

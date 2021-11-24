@@ -1,0 +1,9 @@
+info:
+  company: Hikvision
+  product: Hikvision-Face-analysis-system
+  softhard: '1'
+matches: |
+  body.icontains("人脸分析子系统")
+  body.icontains("人脸实时报警系统")
+  title.icontains("人脸检索管理系统")
+  body.icontains("杭州海康威视数字技术股份有限公司")

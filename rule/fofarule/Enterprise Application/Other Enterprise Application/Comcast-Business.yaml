@@ -1,0 +1,6 @@
+info:
+  company: Comcast Corporation
+  product: Comcast-Business
+  softhard: '2'
+matches: |
+  body.icontains("cmn/css/common-min.css")

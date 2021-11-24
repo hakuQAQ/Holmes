@@ -1,0 +1,6 @@
+info:
+  company: Fortinet, Inc.
+  product: FortiADC
+  softhard: '1'
+matches: |
+  title.icontains("fortiadc")

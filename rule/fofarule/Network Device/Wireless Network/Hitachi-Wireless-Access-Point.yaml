@@ -1,0 +1,6 @@
+info:
+  company: Hitachi Data Systems Corporation
+  product: Hitachi-Wireless-Access-Point
+  softhard: '1'
+matches: |
+  banner.icontains("hitachi cable wireless access point")

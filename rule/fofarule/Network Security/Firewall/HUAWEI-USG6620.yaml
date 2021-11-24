@@ -1,0 +1,7 @@
+info:
+  company: '66000'
+  product: HUAWEI-USG6620
+  softhard: '1'
+matches: |
+  header.icontains("huawei usg6620")
+  banner.icontains("usg6620")

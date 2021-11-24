@@ -1,0 +1,6 @@
+info:
+  company: Automated Logic Corporation
+  product: AutomatedLogicCorporation-WebCTRL
+  softhard: '2'
+matches: |
+  body.icontains("href=\"/_common/lvl5/about/eula.jsp\"")

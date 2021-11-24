@@ -1,0 +1,7 @@
+info:
+  company: Prometheus
+  product: Node-Exporter
+  softhard: '2'
+matches: |
+  title == "node exporter" && body.icontains("<h1>node exporter</h1>")
+  body.icontains("metrics")

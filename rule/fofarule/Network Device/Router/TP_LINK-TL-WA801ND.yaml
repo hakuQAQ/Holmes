@@ -1,0 +1,12 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TP_LINK-TL-WA801ND
+  softhard: '1'
+matches: |
+  header.icontains("tp-link wireless wa801nd")
+  banner.icontains("tp-link wireless wa801nd")
+  header.icontains("realm=\"tp-link wireless n access point wa801nd")
+  banner.icontains("realm=\"tp-link wireless n access point wa801nd")
+  body.icontains("model no. tl-wa801nd </td></tr>")
+  body.icontains("if (url.indexof(\"tplinklogin.net\")")
+  body.icontains("tl-wa801nd")

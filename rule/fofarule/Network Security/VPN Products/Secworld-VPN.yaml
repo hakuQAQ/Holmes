@@ -1,0 +1,11 @@
+info:
+  company: Secworld
+  product: Secworld-VPN
+  softhard: '1'
+matches: |
+  body.icontains("admin/js/virtual_keyboard.js")
+  body.icontains("src=\"images/login_logo.gif\"")
+  title.icontains("网关") && body.icontains("/images/sslvpnportallogo.jpg")
+  header.icontains("host_for_cookie")
+  body.icontains("证书认证")
+  body.icontains("secworld")

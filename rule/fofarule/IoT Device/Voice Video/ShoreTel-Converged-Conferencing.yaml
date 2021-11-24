@@ -1,0 +1,7 @@
+info:
+  company: Mitel Networks Corp.
+  product: ShoreTel-Converged-Conferencing
+  softhard: '1'
+matches: |
+  body.icontains("<script src=\"/ics?action=get_branding_js\" charset=\"utf-8\"></script>")
+  body.icontains("<div style=\"visibility:hidden;display:none\" id=\"text_opening_product\">opening *brand_product_name*</div>")

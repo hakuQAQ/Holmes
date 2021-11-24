@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: ABO.CMS
+  softhard: '2'
+matches: |
+  header.icontains("abo.cms") && banner.icontains("abo.cms")

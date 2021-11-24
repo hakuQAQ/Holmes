@@ -1,0 +1,6 @@
+info:
+  company: hhdigital
+  product: hhdigital-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  body.icontains("<meta name=\"author\" content=\"hhdigital")

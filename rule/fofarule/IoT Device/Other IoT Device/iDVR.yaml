@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: iDVR
+  softhard: '1'
+matches: |
+  title.icontains("idvr") && header.icontains("server: idvrhttpsvr")
+  banner.icontains("server: idvrhttpsvr") && body.icontains("name=\"idvrform")

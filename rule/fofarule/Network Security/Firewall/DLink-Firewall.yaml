@@ -1,0 +1,7 @@
+info:
+  company: DLink
+  product: DLink-Firewall
+  softhard: '1'
+matches: |
+  banner.icontains("d-link firewall")
+  cert.icontains("d-link firewall")

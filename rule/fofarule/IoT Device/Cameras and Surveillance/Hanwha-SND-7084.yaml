@@ -1,0 +1,6 @@
+info:
+  company: Hanwha Techwin Co., Ltd.
+  product: Hanwha-SND-7084
+  softhard: '1'
+matches: |
+  body.icontains("var defaultfilename = \"snd-7084\"")

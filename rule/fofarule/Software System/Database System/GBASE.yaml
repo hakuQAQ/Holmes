@@ -1,0 +1,6 @@
+info:
+  company: gbase
+  product: GBASE
+  softhard: '2'
+matches: |
+  protocol.icontains("gbase")

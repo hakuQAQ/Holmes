@@ -1,0 +1,6 @@
+info:
+  company: baishan
+  product: BaiShanCloud
+  softhard: '2'
+matches: |
+  header.icontains("baishancloud-nginx")

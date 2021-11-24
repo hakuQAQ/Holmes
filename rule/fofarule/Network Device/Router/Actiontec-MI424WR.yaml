@@ -1,0 +1,6 @@
+info:
+  company: Actiontec Electronics, Inc.
+  product: Actiontec-MI424WR
+  softhard: '1'
+matches: |
+  body.icontains("</div> actiontec mi424wr")

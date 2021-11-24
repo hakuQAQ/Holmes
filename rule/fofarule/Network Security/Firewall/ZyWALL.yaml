@@ -1,0 +1,6 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyWALL
+  softhard: '1'
+matches: |
+  banner.icontains("zywall ")

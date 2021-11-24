@@ -1,0 +1,8 @@
+info:
+  company: FourFaith
+  product: FourFaith-Product
+  softhard: '1'
+matches: |
+  header.icontains("httpd_four-faith")
+  banner.icontains("httpd_four-faith")
+  banner.icontains("server:")

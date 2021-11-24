@@ -1,0 +1,7 @@
+info:
+  company: Motorola Solutions, Inc
+  product: Motorola-RFS7000
+  softhard: '1'
+matches: |
+  banner.icontains("rfs7000 wireless")
+  banner.icontains("rfs7000")

@@ -1,0 +1,6 @@
+info:
+  company: Microsoft Corporation
+  product: Microsoft-Skype-for-Business
+  softhard: '2'
+matches: |
+  body.icontains("var reachclientproductname = \"skype for business web 应用\"")

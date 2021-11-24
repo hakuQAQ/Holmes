@@ -1,0 +1,6 @@
+info:
+  company: Alibaba Group
+  product: Alibaba-Group-DMS
+  softhard: '2'
+matches: |
+  body.icontains("copyright &copy;  dms  all rights reserved （alibaba 数据管理产品）")

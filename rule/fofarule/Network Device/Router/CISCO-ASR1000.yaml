@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-ASR1000
+  softhard: '1'
+matches: |
+  banner.icontains("cisco ios software, asr1000 software")

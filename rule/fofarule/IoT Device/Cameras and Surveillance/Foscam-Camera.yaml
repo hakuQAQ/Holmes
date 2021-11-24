@@ -1,0 +1,13 @@
+info:
+  company: foscam
+  product: Foscam-Camera
+  softhard: '1'
+matches: |
+  body.icontains("<script src=\"get_status.cgi")
+  body.icontains("scrolling=\"auto\" src=\"login.htm\"></iframe>")
+  header.icontains("boa/") && body.icontains("pluginspage=\"ipcwebcomponents.exe\" type=\"application/ipcam-regplugin\"")
+  body.icontains("id=\"maskheaderdiv\"")
+  banner.icontains("foscam ftp")
+  body.icontains("id=\"ptzguard\"")
+  body.icontains("style=\"background:url(images/con-logo-bg.png);")
+  title.icontains("ipcam client")

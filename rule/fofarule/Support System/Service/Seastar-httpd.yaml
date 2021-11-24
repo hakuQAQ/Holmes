@@ -1,0 +1,6 @@
+info:
+  company: Seastar
+  product: Seastar-httpd
+  softhard: '2'
+matches: |
+  header.icontains("seastar httpd")

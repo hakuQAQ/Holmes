@@ -1,0 +1,7 @@
+info:
+  company: Symantec Corporation
+  product: Norton-Cloud-Connect
+  softhard: '2'
+matches: |
+  title.icontains("- norton cloud connect")
+  body.icontains("<h2 style=\"margin-left: 0px;\">norton cloud connect</h2>")

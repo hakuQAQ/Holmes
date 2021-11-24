@@ -1,0 +1,7 @@
+info:
+  company: QiZhi Technology
+  product: shterm-Fortres-Machine
+  softhard: '1'
+matches: |
+  body.icontains("class=\"forget_pwd hide\" href=\"#\" onclick=\"forgot_pwd();")
+  body.icontains("var driver = dllregistered(\"xectrl13.xfpauthenexportx\");")

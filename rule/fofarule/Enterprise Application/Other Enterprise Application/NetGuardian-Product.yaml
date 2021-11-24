@@ -1,0 +1,6 @@
+info:
+  company: DPS Telecom
+  product: NetGuardian-Product
+  softhard: '0'
+matches: |
+  banner.icontains("netguardian ")

@@ -1,0 +1,6 @@
+info:
+  company: Ecoband Limited
+  product: Ecoband-Internet-Product
+  softhard: '0'
+matches: |
+  banner.icontains("ecoband networks")

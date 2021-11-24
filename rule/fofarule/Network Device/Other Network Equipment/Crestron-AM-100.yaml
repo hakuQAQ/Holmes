@@ -1,0 +1,6 @@
+info:
+  company: Crestron Electronics, Inc.
+  product: Crestron-AM-100
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp") && banner.icontains("crestron electronics am-100 ")

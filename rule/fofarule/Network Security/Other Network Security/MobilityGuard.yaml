@@ -1,0 +1,7 @@
+info:
+  company: Corporate MobilityGuard AB
+  product: MobilityGuard
+  softhard: '2'
+matches: |
+  header.icontains("mobilityguard")
+  body.icontains("click here for more information about mobilityguard")

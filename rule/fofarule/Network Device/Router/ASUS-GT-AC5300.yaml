@@ -1,0 +1,10 @@
+info:
+  company: ASUS
+  product: ASUS-GT-AC5300
+  softhard: '1'
+matches: |
+  banner.icontains("asus-gt-ac5300")
+  body.icontains("<div class=\"prod_madelname\">gt-ac5300")
+  body.icontains("var based_modelid = 'gt-ac5300'")
+  body.icontains("document.getelementsbyclassname(\"model-name\")[0].innerhtml = \"gt-ac5300\"")
+  title.icontains("gt-ac5300")

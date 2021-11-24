@@ -1,0 +1,8 @@
+info:
+  company: PHP Support Tickets
+  product: PHP-Support-Tickets
+  softhard: '2'
+matches: |
+  body.icontains("title=\"php support tickets\">php support tickets")
+  title.icontains("php support tickets")
+  body.icontains("content=\"triangle solutions ltd")

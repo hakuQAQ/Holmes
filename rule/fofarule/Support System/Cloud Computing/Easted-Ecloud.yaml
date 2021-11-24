@@ -1,0 +1,7 @@
+info:
+  company: easted
+  product: Easted-Ecloud
+  softhard: '2'
+matches: |
+  title.icontains("easted云计算虚拟化平台")
+  body.icontains("<span>easted vserver虚拟数据中心系统</span></a></div>")

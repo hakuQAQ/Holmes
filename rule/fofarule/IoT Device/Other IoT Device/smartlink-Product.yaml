@@ -1,0 +1,7 @@
+info:
+  company: Smartlink Network Systems LTD.
+  product: smartlink-Product
+  softhard: '1'
+matches: |
+  title.icontains("smartlink")
+  body.icontains("smartlink network systems ltd.")

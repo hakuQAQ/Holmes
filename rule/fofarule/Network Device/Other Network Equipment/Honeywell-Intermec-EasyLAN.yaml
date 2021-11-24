@@ -1,0 +1,7 @@
+info:
+  company: Honeywell International Inc.
+  product: Honeywell-Intermec-EasyLAN
+  softhard: '2'
+matches: |
+  header.icontains("server: xcd webadmin") && banner.icontains("server: xcd webadmin")
+  body.icontains("color=\"black\" size=\"5\">intermec easylan")

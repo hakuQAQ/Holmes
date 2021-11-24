@@ -1,0 +1,10 @@
+info:
+  company: Vicon Industries.
+  product: Vicon-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  title.icontains("iqeye: live images")
+  body.icontains("content=\"brian lau, iqinvision")
+  body.icontains("loc = \"iqeyevid.html") && banner.icontains("server: iqinvision embedded")
+  banner.icontains("iqinvision ")
+  banner.icontains("version")

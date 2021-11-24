@@ -1,0 +1,7 @@
+info:
+  company: Apache Software Foundation.
+  product: APACHE-Oozie-Web-Console
+  softhard: '2'
+matches: |
+  body.icontains("oozie-console")
+  body.icontains("href=\"/oozie\">oozie console")

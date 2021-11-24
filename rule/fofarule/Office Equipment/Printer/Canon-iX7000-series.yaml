@@ -1,0 +1,6 @@
+info:
+  company: Canon Inc.
+  product: Canon-iX7000-series
+  softhard: '1'
+matches: |
+  body.icontains("nowrap>canon ix7000 series</td>")

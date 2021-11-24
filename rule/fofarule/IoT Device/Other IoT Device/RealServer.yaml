@@ -1,0 +1,7 @@
+info:
+  company: RealNetworks，Inc.
+  product: RealServer
+  softhard: '1'
+matches: |
+  protocol.icontains("rtsp")
+  banner.icontains("server: realserver version")

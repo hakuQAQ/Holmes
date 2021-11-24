@@ -1,0 +1,7 @@
+info:
+  company: BitKeeper, Inc.
+  product: BitKeeper
+  softhard: '2'
+matches: |
+  header.icontains("server: bkhttp")
+  banner.icontains("server: bkhttp")

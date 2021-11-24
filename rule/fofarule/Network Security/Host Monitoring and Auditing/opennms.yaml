@@ -1,0 +1,9 @@
+info:
+  company: OpenNMS Group, Inc.
+  product: opennms
+  softhard: '2'
+matches: |
+  header.icontains("/opennms/login.jsp")
+  banner.icontains("/opennms/login.jsp")
+  body.icontains("/css/gwt-asset.css") && body.icontains("opennms® is a registered trademark of")
+  title.icontains("opennms web console") && body.icontains("/opennms/index.jsp")

@@ -1,0 +1,6 @@
+info:
+  company: joinf
+  product: joinf-ERP
+  softhard: '2'
+matches: |
+  body.icontains("<h1>富通天下erp</h1>")

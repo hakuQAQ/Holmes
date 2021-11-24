@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Z-Blog
+  softhard: '2'
+matches: |
+  body.icontains("generator\" content=\"z-blog")
+  header.icontains("product: z-blog")
+  banner.icontains("product: z-blog")

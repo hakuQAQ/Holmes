@@ -1,0 +1,6 @@
+info:
+  company: NewStart
+  product: NewStart-HA-Management
+  softhard: '2'
+matches: |
+  title.icontains("newstart ha management interface")

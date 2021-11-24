@@ -1,0 +1,6 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-GS716Tv2
+  softhard: '1'
+matches: |
+  banner.icontains("gs716tv2")

@@ -1,0 +1,6 @@
+info:
+  company: Array Networks, Inc
+  product: ArrayNetworks-VPN
+  softhard: '1'
+matches: |
+  body.icontains("an_util.js")

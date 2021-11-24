@@ -1,0 +1,8 @@
+info:
+  company: Rosewill，Inc.
+  product: rosewill-router
+  softhard: '1'
+matches: |
+  header.icontains("rnx-n300rt")
+  header.icontains("default: admin/admin")
+  banner.icontains("rnx-n300rt")

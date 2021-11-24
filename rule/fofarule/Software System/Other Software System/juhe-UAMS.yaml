@@ -1,0 +1,8 @@
+info:
+  company: juhe
+  product: juhe-UAMS
+  softhard: '2'
+matches: |
+  body.icontains("action=\"login.aspx\" id=\"ctl00\"")
+  body.icontains("background-color: #4a93be;")
+  title == "聚合统一认证管理系统"

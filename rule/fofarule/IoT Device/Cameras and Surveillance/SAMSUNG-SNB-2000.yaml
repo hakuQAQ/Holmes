@@ -1,0 +1,8 @@
+info:
+  company: Samsung Group
+  product: SAMSUNG-SNB-2000
+  softhard: '1'
+matches: |
+  header.icontains("must-revalidate")
+  header.icontains("digest realm=\"net-i\", nonce")
+  banner.icontains("digest realm=\"net-i\", nonce") && banner.icontains("must-revalidate")

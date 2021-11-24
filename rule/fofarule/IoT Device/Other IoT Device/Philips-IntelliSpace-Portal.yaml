@@ -1,0 +1,7 @@
+info:
+  company: Koninklijke Philips N.V.
+  product: Philips-IntelliSpace-Portal
+  softhard: '1'
+matches: |
+  title.icontains("philips intellispace portal")
+  body.icontains("philips intellispace portal</span><br>")

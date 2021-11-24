@@ -1,0 +1,7 @@
+info:
+  company: Sony Corporation
+  product: SONY-BRC-H800
+  softhard: '1'
+matches: |
+  banner.icontains("brc-h800")
+  header.icontains("realm=\"brc-h800")

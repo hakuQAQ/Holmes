@@ -1,0 +1,9 @@
+info:
+  company: LiveZilla GmbH i.L.
+  product: LiveZilla
+  softhard: '2'
+matches: |
+  body.icontains("thank you for using livezilla!")
+  body.icontains("content=\"livezilla")
+  body.icontains("href=\"http://www.livezilla.net\" target=\"_blank")
+  body.icontains("livezilla is a registered trademark of livezilla gmbh</div>")

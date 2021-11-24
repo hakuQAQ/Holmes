@@ -1,0 +1,7 @@
+info:
+  company: Assistive Technology
+  product: AChecker-Web-accessibility-evaluation-tool
+  softhard: '2'
+matches: |
+  body.icontains("content=\"achecker is a web accessibility")
+  title.icontains("checker : web accessibility checker")

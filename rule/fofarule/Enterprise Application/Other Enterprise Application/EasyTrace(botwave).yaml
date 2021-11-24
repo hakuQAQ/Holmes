@@ -1,0 +1,6 @@
+info:
+  company: botwave
+  product: EasyTrace(botwave)
+  softhard: '2'
+matches: |
+  title.icontains("easytrace") && body.icontains("login_page")

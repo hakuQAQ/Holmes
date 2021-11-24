@@ -1,0 +1,8 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-R6020
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"netgear r6020")
+  banner.icontains("netgear r6020")
+  body.icontains("content=\"r6020\"")

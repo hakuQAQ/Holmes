@@ -1,0 +1,7 @@
+info:
+  company: airlinksecurity
+  product: AirLink-WL-2600CAM
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"wl-2600cam")
+  banner.icontains("realm=\"wl-2600cam")

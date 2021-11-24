@@ -1,0 +1,6 @@
+info:
+  company: NexG Co., Ltd.
+  product: NexG-VForce
+  softhard: '1'
+matches: |
+  body.icontains("var lurl = \"vos.shtml\"")

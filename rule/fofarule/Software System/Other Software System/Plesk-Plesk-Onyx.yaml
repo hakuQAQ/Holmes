@@ -1,0 +1,7 @@
+info:
+  company: Plesk
+  product: Plesk-Plesk-Onyx
+  softhard: '2'
+matches: |
+  title == "plesk onyx 17.8.11" && title.icontains("plesk onyx")
+  body.icontains("name=\"plesk-build\"")

@@ -1,0 +1,8 @@
+info:
+  company: Rapid7
+  product: NeXpose-Security-Console
+  softhard: '2'
+matches: |
+  body.icontains("/nexpose-dark.min.css")
+  body.icontains("nexposeccpassword")
+  body.icontains("/nexpose-features.js")

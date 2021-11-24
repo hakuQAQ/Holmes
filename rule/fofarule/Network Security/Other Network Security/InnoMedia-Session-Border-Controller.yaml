@@ -1,0 +1,7 @@
+info:
+  company: InnoMedia, Inc.
+  product: InnoMedia-Session-Border-Controller
+  softhard: '1'
+matches: |
+  banner.icontains("enterprise session border controller")
+  banner.icontains("innomedia inc.;")

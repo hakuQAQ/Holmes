@@ -1,0 +1,7 @@
+info:
+  company: Dell Inc.
+  product: DELL-PowerEdge-R620
+  softhard: '1'
+matches: |
+  body.icontains("id=\"serverinfo\"> poweredge r620")
+  banner.icontains("poweredge r620")

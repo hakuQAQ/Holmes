@@ -1,0 +1,7 @@
+info:
+  company: Rimon Internet
+  product: Internet-Rimon-Filter
+  softhard: '2'
+matches: |
+  header.icontains("rimon: rwc_block")
+  banner.icontains("rimon: rwc_block")

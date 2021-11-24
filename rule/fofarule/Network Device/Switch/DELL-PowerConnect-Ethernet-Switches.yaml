@@ -1,0 +1,7 @@
+info:
+  company: Dell Inc.
+  product: DELL-PowerConnect-Ethernet-Switches
+  softhard: '1'
+matches: |
+  body.icontains("branding.html")
+  title.icontains("dell openmanage switch administrator")

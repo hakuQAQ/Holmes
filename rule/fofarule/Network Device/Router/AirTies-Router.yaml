@@ -1,0 +1,6 @@
+info:
+  company: AirTies Wireless Networks
+  product: AirTies-Router
+  softhard: '1'
+matches: |
+  title.icontains("airties")

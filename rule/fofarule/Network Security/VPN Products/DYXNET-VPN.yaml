@@ -1,0 +1,6 @@
+info:
+  company: DYXnet Group
+  product: DYXNET-VPN
+  softhard: '1'
+matches: |
+  banner.icontains("dyxnet network")

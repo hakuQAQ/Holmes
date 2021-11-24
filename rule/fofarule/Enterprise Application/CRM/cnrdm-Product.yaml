@@ -1,0 +1,6 @@
+info:
+  company: cnrdm
+  product: cnrdm-Product
+  softhard: '2'
+matches: |
+  body.icontains("登录青铜器rdm</b></div>")

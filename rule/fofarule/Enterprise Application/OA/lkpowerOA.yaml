@@ -1,0 +1,10 @@
+info:
+  company: lkpower
+  product: lkpowerOA
+  softhard: '2'
+matches: |
+  body.icontains("/lksys_windowcontrolscript.js")
+  body.icontains("onload=\"lksys_pubmaxwin()")
+  body.icontains("id=\"lkblogin\" href=\"javascript:__dopostback('lkblogin','')")
+  body.icontains("identityvalidator")
+  body.icontains("hhctrlmax")

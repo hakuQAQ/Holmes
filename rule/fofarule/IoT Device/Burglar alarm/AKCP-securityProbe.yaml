@@ -1,0 +1,6 @@
+info:
+  company: AKCP Inc.
+  product: AKCP-securityProbe
+  softhard: '1'
+matches: |
+  banner.icontains("securityprobe ")

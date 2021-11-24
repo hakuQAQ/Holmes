@@ -1,0 +1,7 @@
+info:
+  company: kingdee
+  product: kingdee-OA
+  softhard: '2'
+matches: |
+  header.icontains("oa/login/logout.jsp") && body.icontains("location.href=\"/kingdee/index.jsp\"")
+  body.icontains("logo-kingdee.png")

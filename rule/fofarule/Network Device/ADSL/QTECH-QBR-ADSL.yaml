@@ -1,0 +1,7 @@
+info:
+  company: QTECH
+  product: QTECH-QBR-ADSL
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"qbr")
+  banner.icontains("realm=\"qbr")

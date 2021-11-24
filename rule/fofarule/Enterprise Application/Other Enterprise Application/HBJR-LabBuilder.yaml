@@ -1,0 +1,6 @@
+info:
+  company: HBJR
+  product: HBJR-LabBuilder
+  softhard: '2'
+matches: |
+  body.icontains("labbuilder 实验室信息管理系统")

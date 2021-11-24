@@ -1,0 +1,6 @@
+info:
+  company: Dell Inc.
+  product: DELL-PowerEdge-4400
+  softhard: '1'
+matches: |
+  banner.icontains("poweredge 4400")

@@ -1,0 +1,6 @@
+info:
+  company: TRENDnet, Inc.
+  product: TRENDnet-TV-IP344PI
+  softhard: '1'
+matches: |
+  body.icontains("<span>tv-ip344pi</span>")

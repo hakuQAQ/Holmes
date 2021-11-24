@@ -1,0 +1,11 @@
+info:
+  company: qiniu
+  product: QiniuCDN
+  softhard: '2'
+matches: |
+  header.icontains("glb.clouddn.com")
+  body.icontains("glb.clouddn.com")
+  header.icontains("glb.qiniucdn.com") && body.icontains("glb.qiniucdn.com")
+  header.icontains("cdn.staticfile.org")
+  body.icontains("cdn.staticfile.org")
+  header.icontains("x-qiniu-zone")

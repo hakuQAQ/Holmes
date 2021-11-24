@@ -1,0 +1,8 @@
+info:
+  company: IceWarp Ltd
+  product: IceWarp-Server
+  softhard: '2'
+matches: |
+  header.icontains("icewarp") && body.icontains("powered by <a href=\"http://www.icewarp.com")
+  banner.icontains("esmtp icewarp")
+  protocol.icontains("pop3") && banner.icontains(" merak ")

@@ -1,0 +1,6 @@
+info:
+  company: Sangfor
+  product: Sangfor Branch Business Center
+  softhard: '2'
+matches: |
+  body.icontains("location.href = '/bbc/index'")

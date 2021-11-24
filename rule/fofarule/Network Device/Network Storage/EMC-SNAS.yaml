@@ -1,0 +1,7 @@
+info:
+  company: Dell Inc.
+  product: EMC-SNAS
+  softhard: '1'
+matches: |
+  banner.icontains("emc-snas")
+  banner.icontains("emc celerra file server   project: snas")

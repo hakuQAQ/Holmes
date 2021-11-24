@@ -1,0 +1,6 @@
+info:
+  company: Telco Solution
+  product: Telindus-Router
+  softhard: '1'
+matches: |
+  banner.icontains("$telindus ")

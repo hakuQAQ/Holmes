@@ -1,0 +1,7 @@
+info:
+  company: CData Software, Inc.
+  product: cdata-OLTs
+  softhard: '1'
+matches: |
+  banner.icontains("command line interface for epon system")
+  banner.icontains("olt epon e8ps")

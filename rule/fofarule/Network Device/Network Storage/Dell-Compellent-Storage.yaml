@@ -1,0 +1,8 @@
+info:
+  company: Dell Inc.
+  product: Dell-Compellent-Storage
+  softhard: '1'
+matches: |
+  title.icontains("compellent storage center")
+  cert.icontains("o=compellent technologies")
+  body.icontains("code: 'com.compellent.systemexplorer.systemexplorer.class',")

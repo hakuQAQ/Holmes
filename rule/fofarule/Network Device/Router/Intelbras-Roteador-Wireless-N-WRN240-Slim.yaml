@@ -1,0 +1,6 @@
+info:
+  company: intelbras lnc.
+  product: Intelbras-Roteador-Wireless-N-WRN240-Slim
+  softhard: '1'
+matches: |
+  title.icontains("roteador wireless n wrn240 slim")

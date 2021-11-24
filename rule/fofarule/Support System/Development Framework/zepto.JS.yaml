@@ -1,0 +1,7 @@
+info:
+  company: Thomas Fuchs
+  product: zepto.JS
+  softhard: '2'
+matches: |
+  body.icontains("zepto.js")
+  body.icontains("zepto.min.js")

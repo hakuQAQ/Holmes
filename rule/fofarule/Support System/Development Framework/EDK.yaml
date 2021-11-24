@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: EDK
+  softhard: '2'
+matches: |
+  body.icontains("<!-- /killlistable.tpl -->")

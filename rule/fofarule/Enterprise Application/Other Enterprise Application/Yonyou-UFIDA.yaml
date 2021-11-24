@@ -1,0 +1,6 @@
+info:
+  company: Yonyou Network Co Ltd
+  product: Yonyou-UFIDA
+  softhard: '2'
+matches: |
+  body.icontains("/system/login/login.asp?appid=")

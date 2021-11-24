@@ -1,0 +1,6 @@
+info:
+  company: Dell Inc.
+  product: DELL-idrac-FCZXMW1
+  softhard: '1'
+matches: |
+  body.icontains("var tmphn = \"idrac-fczxmw1\"")

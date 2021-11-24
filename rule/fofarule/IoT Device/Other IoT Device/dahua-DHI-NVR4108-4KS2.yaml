@@ -1,0 +1,6 @@
+info:
+  company: Dahua
+  product: dahua-DHI-NVR4108-4KS2
+  softhard: '1'
+matches: |
+  banner.icontains("dhi-nvr4108-4ks2")

@@ -1,0 +1,10 @@
+info:
+  company: Zoho Corporation Pvt. Ltd.
+  product: ManageEngine-ADAudit
+  softhard: '2'
+matches: |
+  title.icontains("manageengine - adaudit plus") && body.icontains("adauditplus authentication")
+  title.icontains("manageengine - admanager plus")
+  body.icontains("title=\"manageengine admanager plus")
+  title.icontains("admanager plus")
+  body.icontains("manageengine")

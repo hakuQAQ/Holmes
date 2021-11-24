@@ -1,0 +1,7 @@
+info:
+  company: UBB Systems, LLC
+  product: Ultimate-Bulletin-Board
+  softhard: '2'
+matches: |
+  body.icontains("<meta name=\"generator\" content=\"ubb.threads")
+  body.icontains("<a href=\"http://www.groupee.com/landing/goto.php?a=ubb.classic\">powered by ubb.classic&trade")

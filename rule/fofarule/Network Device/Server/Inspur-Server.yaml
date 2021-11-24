@@ -1,0 +1,8 @@
+info:
+  company: Inspur
+  product: Inspur-Server
+  softhard: '1'
+matches: |
+  body.icontains("img/inspur_logo.png")
+  body.icontains("<!-- add by zhchhong")
+  title.icontains("management") && body.icontains("<frame src=\"./page/blank.html\" name=\"mainframe\" id=\"mainframe\" scrolling=\"no\" noresize=\"false\"></frame>")

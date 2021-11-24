@@ -1,0 +1,7 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-NER324
+  softhard: '1'
+matches: |
+  title.icontains("ner324系统管理")
+  body.icontains("generator")

@@ -1,0 +1,6 @@
+info:
+  company: topwalk
+  product: Topwalk-Data-Consolidation
+  softhard: '1'
+matches: |
+  body.icontains("window.location.href=\"top_dti-debug/top_dtisingle.html")

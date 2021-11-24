@@ -1,0 +1,7 @@
+info:
+  company: biolims
+  product: Bio-LIMS
+  softhard: '2'
+matches: |
+  body.icontains("/lims/js/login.js")
+  body.icontains("/lims/dist/css/font-awesome.min.css")

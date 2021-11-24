@@ -1,0 +1,9 @@
+info:
+  company: Tilgin AB.
+  product: Tilgin-Router
+  softhard: '1'
+matches: |
+  body.icontains("href=\"/compressed-control.css\">")
+  body.icontains("<a href=\"/status/\" class=\"menuitem\"")
+  body.icontains("<h1 id=\"title\">welcome to the tilgin router</h1>")
+  title.icontains("vood") && body.icontains("<a href=\"/wizard/\" class=\"\" title=\"wizard\">")

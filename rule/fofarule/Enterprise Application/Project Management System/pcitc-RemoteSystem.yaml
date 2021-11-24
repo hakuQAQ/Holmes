@@ -1,0 +1,7 @@
+info:
+  company: PCITC
+  product: pcitc-RemoteSystem
+  softhard: '2'
+matches: |
+  body.icontains("src=\"validatecode.aspx\"")
+  body.icontains("class=\"f-loading-mask ui-widget ui-widget-content\"")

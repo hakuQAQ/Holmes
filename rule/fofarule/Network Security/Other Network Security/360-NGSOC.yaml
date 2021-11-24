@@ -1,0 +1,6 @@
+info:
+  company: '360'
+  product: 360-NGSOC
+  softhard: '2'
+matches: |
+  title.icontains("ngsoc关联规则引擎") && title.icontains("ngsoc日志采集探针")

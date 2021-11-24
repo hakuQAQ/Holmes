@@ -1,0 +1,13 @@
+info:
+  company: Python Software Foundation
+  product: Zope
+  softhard: '2'
+matches: |
+  header.icontains("zope") && header.icontains("server: zope")
+  header.icontains("x-powered-by: zope")
+  header.icontains("basic realm=\"zope")
+  header.icontains("x-debug-frontend-key: zope")
+  banner.icontains("zope") && banner.icontains("server: zope")
+  banner.icontains("x-powered-by: zope")
+  banner.icontains("basic realm=\"zope")
+  banner.icontains("x-debug-frontend-key: zope")

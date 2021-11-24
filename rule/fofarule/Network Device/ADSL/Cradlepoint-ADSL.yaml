@@ -1,0 +1,6 @@
+info:
+  company: Cradlepoint, Inc.
+  product: Cradlepoint-ADSL
+  softhard: '1'
+matches: |
+  banner.icontains("cradlepoint ")

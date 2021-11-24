@@ -1,0 +1,7 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-Acceleration
+  softhard: '2'
+matches: |
+  header.icontains("cisco acceleration")
+  banner.icontains("server: cisco acceleration")

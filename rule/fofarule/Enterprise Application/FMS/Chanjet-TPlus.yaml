@@ -1,0 +1,6 @@
+info:
+  company: chanjet
+  product: Chanjet-TPlus
+  softhard: '2'
+matches: |
+  body.icontains("><script>location='/tplus/';</script></body>")

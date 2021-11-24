@@ -1,0 +1,9 @@
+info:
+  company: rpcti
+  product: Runpu-Embedded-telephone-recording-system
+  softhard: '1'
+matches: |
+  title.icontains("润普嵌入式网络电话录音系统")
+  body.icontains("<th colspan=\"3\">润普嵌入式网络电话录音系统</th>")
+  header.icontains("/login.lgi?orgurl=/") && header.icontains("set-cookie: orgurl=/")
+  body.icontains("润普科技")

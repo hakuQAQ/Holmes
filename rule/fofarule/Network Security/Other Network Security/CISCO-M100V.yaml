@@ -1,0 +1,7 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-M100V
+  softhard: '1'
+matches: |
+  body.icontains("alt=\"cisco m100v\"")
+  title.icontains("cisco content security management virtual appliance m100v")

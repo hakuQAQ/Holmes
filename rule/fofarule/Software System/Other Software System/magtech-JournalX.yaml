@@ -1,0 +1,6 @@
+info:
+  company: Beijing Magtech S&T Co., Ltd
+  product: magtech-JournalX
+  softhard: '2'
+matches: |
+  body.icontains("journalx/authorlogon.action?mag_id")

@@ -1,0 +1,6 @@
+info:
+  company: Imhotep, Inc.
+  product: siteGENIUS
+  softhard: '2'
+matches: |
+  body.icontains("var portalbrowser = window.open('popup.php?page_type='+page_type+'&lang=")

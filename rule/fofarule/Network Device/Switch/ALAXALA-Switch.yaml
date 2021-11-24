@@ -1,0 +1,6 @@
+info:
+  company: ALAXALA Networks Corporation
+  product: ALAXALA-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("alaxala ")

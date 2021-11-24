@@ -1,0 +1,6 @@
+info:
+  company: SECUSYS GROUP.
+  product: TC348NT-Security-access-module
+  softhard: '1'
+matches: |
+  title.icontains("tc348nt pannel")

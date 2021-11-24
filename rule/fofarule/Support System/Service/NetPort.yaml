@@ -1,0 +1,9 @@
+info:
+  company: Conitec GmbH
+  product: NetPort
+  softhard: '2'
+matches: |
+  header.icontains("server: netport software")
+  banner.icontains("server: netport software")
+  header.icontains("power by netport")
+  banner.icontains("power by netport")

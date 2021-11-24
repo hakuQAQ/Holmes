@@ -1,0 +1,6 @@
+info:
+  company: racekeji
+  product: Company's-product
+  softhard: '1'
+matches: |
+  body.icontains("辽宁瑞思科技有限公司&nbsp;&nbsp;&nbsp;&nbsp;版权所有")

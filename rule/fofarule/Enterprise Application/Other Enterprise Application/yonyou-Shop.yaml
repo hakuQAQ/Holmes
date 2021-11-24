@@ -1,0 +1,9 @@
+info:
+  company: Yonyou Network Co Ltd
+  product: yonyou-Shop
+  softhard: '2'
+matches: |
+  title.icontains("网上商城")
+  body.icontains("url:\"/shophome/ajaxgetcompetemessagelist.action\",")
+  body.icontains("$.post(\"/shopfront/shoppingcar/gotoshoppingcartajax.action\",function(data){")
+  body.icontains("北京用友政务软件股份有限公司")

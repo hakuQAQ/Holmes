@@ -1,0 +1,7 @@
+info:
+  company: Xecure Lab Co., Ltd.
+  product: XecureVPN
+  softhard: '2'
+matches: |
+  title.icontains("xecure vpn manager")
+  body.icontains("xnstyle.css")

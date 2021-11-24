@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: SpFTP
+  softhard: '2'
+matches: |
+  banner.icontains("spftp")

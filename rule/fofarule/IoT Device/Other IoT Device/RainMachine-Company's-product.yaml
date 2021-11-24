@@ -1,0 +1,6 @@
+info:
+  company: Green Electronics LLC
+  product: RainMachine-Company's-product
+  softhard: '1'
+matches: |
+  title.icontains("rainmachine")

@@ -1,0 +1,7 @@
+info:
+  company: zkteco
+  product: ZKTECO-ZEM800
+  softhard: '1'
+matches: |
+  banner.icontains("zem800 login:")
+  protocol.icontains("telnet")

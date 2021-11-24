@@ -1,0 +1,8 @@
+info:
+  company: Raritan Inc.
+  product: Raritan-Company's-product
+  softhard: '0'
+matches: |
+  title.icontains("akc client check")
+  body.icontains("<!-- raritan logo -->")
+  body.icontains("<div id=\"raritan_logo")

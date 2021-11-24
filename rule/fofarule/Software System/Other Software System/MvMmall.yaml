@@ -1,0 +1,7 @@
+info:
+  company: mvmmall
+  product: MvMmall
+  softhard: '2'
+matches: |
+  body.icontains("content=\"mvmmall")
+  body.icontains("content=\"www.mvmmall.cn\"")

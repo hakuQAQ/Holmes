@@ -1,0 +1,8 @@
+info:
+  company: PowerDNS
+  product: PowerDNS
+  softhard: '2'
+matches: |
+  header.icontains("basic realm=\"powerdns")
+  protocol.icontains("dns")
+  banner.icontains("powerdns")

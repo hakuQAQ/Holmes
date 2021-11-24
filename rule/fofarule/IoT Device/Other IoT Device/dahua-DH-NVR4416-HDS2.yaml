@@ -1,0 +1,6 @@
+info:
+  company: Dahua
+  product: dahua-DH-NVR4416-HDS2
+  softhard: '1'
+matches: |
+  banner.icontains("dh-nvr4416-hds2")

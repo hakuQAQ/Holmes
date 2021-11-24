@@ -1,0 +1,6 @@
+info:
+  company: OPT
+  product: OPT-WebFieldAssis
+  softhard: '2'
+matches: |
+  body.icontains("href=\"javascript:__dopostback('lbanonymous','')\"")

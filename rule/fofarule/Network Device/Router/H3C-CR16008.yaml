@@ -1,0 +1,7 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-CR16008
+  softhard: '1'
+matches: |
+  banner.icontains("h3c cr16008")
+  banner.icontains("h3c cr16008-x")

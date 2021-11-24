@@ -1,0 +1,6 @@
+info:
+  company: TOTOLINK
+  product: TOTO_LINK-N300RB
+  softhard: '1'
+matches: |
+  title == "totolink n300rb"

@@ -1,0 +1,7 @@
+info:
+  company: suremail
+  product: Suremail
+  softhard: '2'
+matches: |
+  body.icontains("content=\"北京国信安邮科技有限公司")
+  body.icontains("<span> 客服邮箱：support@suremail.cn</span>")

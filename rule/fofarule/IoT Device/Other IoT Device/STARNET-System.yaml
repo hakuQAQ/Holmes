@@ -1,0 +1,6 @@
+info:
+  company: STARNET
+  product: STARNET-System
+  softhard: '1'
+matches: |
+  body.icontains("var contextpath='/dmb'")

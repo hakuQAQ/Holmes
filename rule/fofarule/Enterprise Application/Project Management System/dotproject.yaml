@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: dotproject
+  softhard: '2'
+matches: |
+  body.icontains("/images/dp_icon.gif")

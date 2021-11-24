@@ -1,0 +1,7 @@
+info:
+  company: FreeSWITCH Inc.
+  product: Freeswitch-Company's-product
+  softhard: '2'
+matches: |
+  banner.icontains("server: freeswitch")
+  banner.icontains("server: freeswitch")

@@ -1,0 +1,7 @@
+info:
+  company: Gigaset AG
+  product: Gigaset-VOIP
+  softhard: '1'
+matches: |
+  body.icontains("onclick=\"javascript:open_gigaset_help_window()")
+  body.icontains("gigaset communications")

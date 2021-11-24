@@ -1,0 +1,6 @@
+info:
+  company: bluedon
+  product: Bluedon-WebGuard-Tamper-Resistance
+  softhard: '1'
+matches: |
+  body.icontains("background: url(images/loginbg.jpg) #e5f1fc")

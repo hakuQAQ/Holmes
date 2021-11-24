@@ -1,0 +1,7 @@
+info:
+  company: landray
+  product: Landray-EIS-Smart-collaboration-platform
+  softhard: '2'
+matches: |
+  body.icontains("/scripts/jquery.landray.common.js")
+  body.icontains("v11_qrcodebar clr")

@@ -1,0 +1,6 @@
+info:
+  company: GoPro, Inc.
+  product: GoPro-HERO3-camera
+  softhard: '1'
+matches: |
+  header.icontains("gopro web server")

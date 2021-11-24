@@ -1,0 +1,8 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-R6220
+  softhard: '1'
+matches: |
+  header.icontains("netgear r6220")
+  banner.icontains("netgear r6220")
+  title.icontains("netgear router r6220 ")

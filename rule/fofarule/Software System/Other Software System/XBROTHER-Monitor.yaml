@@ -1,0 +1,6 @@
+info:
+  company: xbrother
+  product: XBROTHER-Monitor
+  softhard: '2'
+matches: |
+  body.icontains("if (!getcookie(\"x_gu_sid\"")

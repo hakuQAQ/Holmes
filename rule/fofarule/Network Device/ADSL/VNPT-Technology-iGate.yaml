@@ -1,0 +1,7 @@
+info:
+  company: VNPT Technology.
+  product: VNPT-Technology-iGate
+  softhard: '1'
+matches: |
+  body.icontains("copyright &copy;2013 - vnpt technology")
+  title.icontains("igate")

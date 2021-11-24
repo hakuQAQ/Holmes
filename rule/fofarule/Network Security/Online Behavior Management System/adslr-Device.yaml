@@ -1,0 +1,6 @@
+info:
+  company: adslr
+  product: adslr-Device
+  softhard: '1'
+matches: |
+  body.icontains("cgi-bin/login") && body.icontains("languagechange")

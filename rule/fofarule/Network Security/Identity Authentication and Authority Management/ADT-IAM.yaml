@@ -1,0 +1,6 @@
+info:
+  company: adtsec
+  product: ADT-IAM
+  softhard: '2'
+matches: |
+  body.icontains("content=\"tpn,vpn,内网安全,内网控制,主机防护\"")

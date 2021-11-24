@@ -1,0 +1,6 @@
+info:
+  company: Alibaba Group
+  product: EagleEye
+  softhard: '2'
+matches: |
+  body.icontains("eagleeye 钉钉答疑群")

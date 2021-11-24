@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: ValueApex-EAMic
+  softhard: '2'
+matches: |
+  body.icontains("log into my eamic® account")

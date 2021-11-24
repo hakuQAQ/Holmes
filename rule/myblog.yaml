@@ -1,0 +1,6 @@
+info:
+  company: Myblog
+  product: Myblog
+  softhard: '2'
+matches: |
+  body.icontains("wordpress") && title.icontains("hakuQAQ")

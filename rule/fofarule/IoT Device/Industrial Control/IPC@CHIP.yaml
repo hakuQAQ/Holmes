@@ -1,0 +1,8 @@
+info:
+  company: BECK IPC GmbH
+  product: IPC@CHIP
+  softhard: '1'
+matches: |
+  header.icontains("ipc@chip")
+  banner.icontains("ipc@chip")
+  protocol.icontains("http")

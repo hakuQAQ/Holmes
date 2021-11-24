@@ -1,0 +1,6 @@
+info:
+  company: COMMSCOPE
+  product: ARRIS-D5-Universal-EdgeQAM
+  softhard: '1'
+matches: |
+  banner.icontains("arris d5 universal edgeqam")

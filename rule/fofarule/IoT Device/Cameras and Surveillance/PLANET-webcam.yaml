@@ -1,0 +1,6 @@
+info:
+  company: PLANET Technology Corporation.
+  product: PLANET-webcam
+  softhard: '1'
+matches: |
+  title.icontains("planet ip surveillance")

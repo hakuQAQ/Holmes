@@ -1,0 +1,6 @@
+info:
+  company: NetVu Ltd
+  product: Dedicated-Micros-Device
+  softhard: '1'
+matches: |
+  header.icontains("adh-web")

@@ -1,0 +1,6 @@
+info:
+  company: Netis Systems Co., Ltd.
+  product: Netis-WF2429T-AP
+  softhard: '1'
+matches: |
+  banner.icontains("wf2429t ap")

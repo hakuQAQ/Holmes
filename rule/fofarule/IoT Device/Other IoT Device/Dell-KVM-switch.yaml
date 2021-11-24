@@ -1,0 +1,7 @@
+info:
+  company: Dell Inc.
+  product: Dell-KVM-switch
+  softhard: '1'
+matches: |
+  body.icontains("src=\"/avct.js")
+  body.icontains("/dell/")

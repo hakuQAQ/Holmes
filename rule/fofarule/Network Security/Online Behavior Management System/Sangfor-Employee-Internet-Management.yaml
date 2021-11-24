@@ -1,0 +1,12 @@
+info:
+  company: Sangfor
+  product: Sangfor-Employee-Internet-Management
+  softhard: '2'
+matches: |
+  body.icontains("content=\"must-revalidate\"") && body.icontains(" = function(str, key)")
+  body.icontains("document.cookie = 'sangfor_session_hash=0'")
+  body.icontains("上网优化管理")
+  title.icontains("sangfor上网行为管理")
+  body.icontains("href=\"http://sec.sangfor.com.cn/events/89.html\"")
+  body.icontains("internet authentication system")
+  title.icontains("上网认证系统")

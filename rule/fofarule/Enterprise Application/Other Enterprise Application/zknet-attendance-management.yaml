@@ -1,0 +1,9 @@
+info:
+  company: zkteco
+  product: zknet-attendance-management
+  softhard: '2'
+matches: |
+  title.icontains("zknet考勤管理系统")
+  body.icontains("onclick=\"showstate(gettext('forgotten password')) ")
+  body.icontains("zknet") && body.icontains("zksoftware inc.")
+  body.icontains("web考勤管理系统")

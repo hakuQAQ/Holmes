@@ -1,0 +1,7 @@
+info:
+  company: Array Networks, Inc
+  product: ArrayNetworks-APV
+  softhard: '1'
+matches: |
+  body.icontains("apv webui")
+  title.icontains("login") && body.icontains("avx webui") && banner.icontains("array apv ")

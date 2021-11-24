@@ -1,0 +1,6 @@
+info:
+  company: Comrex Corporation
+  product: COMREX-MediaServer
+  softhard: '2'
+matches: |
+  banner.icontains("server: comrex")

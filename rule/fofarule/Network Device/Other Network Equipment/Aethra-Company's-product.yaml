@@ -1,0 +1,6 @@
+info:
+  company: A TLC S.r.l.
+  product: Aethra-Company's-product
+  softhard: '0'
+matches: |
+  protocol.icontains("snmp") && banner.icontains("aethra ")

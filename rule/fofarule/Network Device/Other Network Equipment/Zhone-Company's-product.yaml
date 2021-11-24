@@ -1,0 +1,6 @@
+info:
+  company: Dasan Zhone Solutions
+  product: Zhone-Company's-product
+  softhard: '1'
+matches: |
+  banner.icontains("vendor: zhone technologies inc.;")

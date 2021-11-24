@@ -1,0 +1,7 @@
+info:
+  company: renreninvest
+  product: ThinkPHP-YFCMF
+  softhard: '2'
+matches: |
+  body.icontains("yfcmf") && body.icontains("/public/others/maxlength.js")
+  body.icontains("/yfcmf/yfcmf.js")

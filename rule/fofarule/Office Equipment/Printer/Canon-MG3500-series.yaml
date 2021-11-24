@@ -1,0 +1,6 @@
+info:
+  company: Canon Inc.
+  product: Canon-MG3500-series
+  softhard: '1'
+matches: |
+  body.icontains("nowrap>canon mg3500 series</td>")

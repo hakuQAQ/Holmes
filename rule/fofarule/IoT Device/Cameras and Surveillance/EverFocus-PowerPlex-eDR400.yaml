@@ -1,0 +1,6 @@
+info:
+  company: EverFocus Co., Ltd.
+  product: EverFocus-PowerPlex-eDR400
+  softhard: '1'
+matches: |
+  title.icontains("welcome to edr400")

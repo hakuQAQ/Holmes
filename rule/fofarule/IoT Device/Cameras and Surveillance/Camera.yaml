@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Camera
+  softhard: '1'
+matches: |
+  body.icontains("href=\"/doc/css/rzslider.css\"")

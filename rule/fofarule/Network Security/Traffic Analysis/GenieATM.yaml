@@ -1,0 +1,8 @@
+info:
+  company: Genie Networks Ltd,
+  product: GenieATM
+  softhard: '2'
+matches: |
+  title.icontains("genieatm")
+  body.icontains("copyright© genie networks ltd.")
+  body.icontains("defect 3531")

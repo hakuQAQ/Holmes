@@ -1,0 +1,8 @@
+info:
+  company: OpenResty Inc.
+  product: OpenResty
+  softhard: '2'
+matches: |
+  header.icontains("ngx_openresty")
+  header.icontains("openresty")
+  body.icontains("<center>openresty/") && banner.icontains("server: openresty")

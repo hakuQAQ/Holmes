@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Pharos-LPC
+  softhard: '1'
+matches: |
+  title.icontains("pharos lpc")
+  header.icontains("realm=\"pharoslpc")
+  banner.icontains("realm=\"pharoslpc")

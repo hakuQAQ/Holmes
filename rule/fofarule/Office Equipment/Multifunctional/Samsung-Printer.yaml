@@ -1,0 +1,10 @@
+info:
+  company: Samsung Group
+  product: Samsung-Printer
+  softhard: '1'
+matches: |
+  body.icontains("href=\"css/sws-all.css\"")
+  title.icontains("syncthru web service")
+  body.icontains("sws_loading_wait")
+  body.icontains("redirecttosws")
+  body.icontains("location = \"/sws/index.html\";")

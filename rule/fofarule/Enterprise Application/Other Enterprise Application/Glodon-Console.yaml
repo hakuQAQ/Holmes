@@ -1,0 +1,7 @@
+info:
+  company: Glodon
+  product: Glodon-Console
+  softhard: '2'
+matches: |
+  body.icontains("src=\"/scripts/dd_belatedpng.js")
+  body.icontains("url: \"/console/account/logon\"")

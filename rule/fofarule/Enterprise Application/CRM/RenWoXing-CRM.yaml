@@ -1,0 +1,7 @@
+info:
+  company: wecrm
+  product: RenWoXing-CRM
+  softhard: '2'
+matches: |
+  body.icontains("/resources/imgs/defaultannex/loginpictures/")
+  title == "欢迎使用任我行crm"

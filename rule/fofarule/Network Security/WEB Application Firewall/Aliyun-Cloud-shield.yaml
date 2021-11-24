@@ -1,0 +1,7 @@
+info:
+  company: Alibaba Group
+  product: Aliyun-Cloud-shield
+  softhard: '2'
+matches: |
+  header.icontains("yundun") && header.icontains("set-cookie: yundun_404")
+  banner.icontains("yundun") && banner.icontains("server") && banner.icontains("set-cookie: yundun_404")

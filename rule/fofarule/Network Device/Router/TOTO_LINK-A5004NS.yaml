@@ -1,0 +1,6 @@
+info:
+  company: TOTOLINK
+  product: TOTO_LINK-A5004NS
+  softhard: '1'
+matches: |
+  body.icontains("src =\"/images2/login_back_za5004s.en.gif\"")

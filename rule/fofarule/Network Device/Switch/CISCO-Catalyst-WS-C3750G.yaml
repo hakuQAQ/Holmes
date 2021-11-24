@@ -1,0 +1,7 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-Catalyst-WS-C3750G
+  softhard: '1'
+matches: |
+  banner.icontains("ws-c3750g")
+  body.icontains("<h2>accessing cisco ws-c3750g")

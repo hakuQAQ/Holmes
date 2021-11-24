@@ -1,0 +1,6 @@
+info:
+  company: Opengear, Inc
+  product: Opengear-Management-Console
+  softhard: '1'
+matches: |
+  title.icontains("opengear management console")

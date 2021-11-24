@@ -1,0 +1,6 @@
+info:
+  company: ChinaMobileTietongIntelligentProductBranch
+  product: cmtietong-Router
+  softhard: '1'
+matches: |
+  body.icontains("src=\"img/by_web.png\"")

@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: WaveIP
+  softhard: '1'
+matches: |
+  body.icontains("<td><b>mac</td><td id=\"unitmac")

@@ -1,0 +1,7 @@
+info:
+  company: Plixer, LLC.
+  product: Scrutinizer-Traffic-management-system
+  softhard: '1'
+matches: |
+  body.icontains("<div id='testalerthdrmsg'>for the best scrutinizer experience possible, please address the issues below:")
+  title.icontains("scrutinizer")

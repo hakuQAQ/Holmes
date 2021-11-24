@@ -1,0 +1,6 @@
+info:
+  company: Hewlett Packard Enterprise Development LP
+  product: HP3000-SERIES
+  softhard: '1'
+matches: |
+  banner.icontains("hp3000 series")

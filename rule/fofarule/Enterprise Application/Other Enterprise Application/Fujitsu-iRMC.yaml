@@ -1,0 +1,7 @@
+info:
+  company: Fujitsu Ltd
+  product: Fujitsu-iRMC
+  softhard: '2'
+matches: |
+  header.icontains("realm=\"irmc ")
+  banner.icontains("realm=\"irmc ")

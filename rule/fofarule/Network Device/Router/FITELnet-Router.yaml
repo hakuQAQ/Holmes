@@ -1,0 +1,9 @@
+info:
+  company: FURUKAWA ELECTRIC CO., LTD.
+  product: FITELnet-Router
+  softhard: '1'
+matches: |
+  header.icontains("server: gr-httpd server")
+  banner.icontains("server: gr-httpd server")
+  title.icontains("fitelnet-")
+  banner.icontains("fitelnet")

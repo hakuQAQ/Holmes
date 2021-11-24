@@ -1,0 +1,15 @@
+info:
+  company: amaxit
+  product: Winmail-Server
+  softhard: '2'
+matches: |
+  header.icontains("magicwinmail_default_language")
+  body.icontains("amax information technologies inc.")
+  body.icontains("pop3,smtp server: <font color=red>")
+  body.icontains("src=\"themes/default/images/mail_pic.jpg")
+  body.icontains("sessid") && body.icontains("encryptpwd")
+  body.icontains("f_theme") && body.icontains("pwdplaceholder")
+  banner.icontains("winmail mail server")
+  body.icontains("winmail mail server")
+  body.icontains("(build ") && body.icontains("background=\"customer/winmail_bg11.jpg")
+  body.icontains("src=\"customer/index_winmail_new.gif")

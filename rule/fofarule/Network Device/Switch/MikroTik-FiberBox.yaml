@@ -1,0 +1,6 @@
+info:
+  company: MikroTik
+  product: MikroTik-FiberBox
+  softhard: '1'
+matches: |
+  banner.icontains("fiberbox")

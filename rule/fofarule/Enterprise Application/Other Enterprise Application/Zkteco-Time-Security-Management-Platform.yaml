@@ -1,0 +1,6 @@
+info:
+  company: zkteco
+  product: Zkteco-Time-Security-Management-Platform
+  softhard: '2'
+matches: |
+  title.icontains("zkeco 时间&安全管理平台")

@@ -1,0 +1,7 @@
+info:
+  company: AMI Corporation
+  product: AMI-IMM
+  softhard: '1'
+matches: |
+  title == "imm" && body.icontains("ami.com")
+  body.icontains("<frame src=\"page/blank.html\" id=\"frametree\" name=\"frametree\" scrolling=\"auto\" noresize=\"false\"></frame>")

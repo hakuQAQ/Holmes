@@ -1,0 +1,6 @@
+info:
+  company: Hanwha Techwin Co., Ltd.
+  product: Hanwha-SRN-K3570S
+  softhard: '1'
+matches: |
+  body.icontains("$.nvr.model_name=\"srn-k3570s\"")

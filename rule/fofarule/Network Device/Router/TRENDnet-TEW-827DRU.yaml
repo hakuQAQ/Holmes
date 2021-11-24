@@ -1,0 +1,6 @@
+info:
+  company: TRENDnet, Inc.
+  product: TRENDnet-TEW-827DRU
+  softhard: '1'
+matches: |
+  body.icontains("var model = \"tew-827dru\"")

@@ -1,0 +1,7 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TP-LINK-Router
+  softhard: '1'
+matches: |
+  header.icontains("tp-link")
+  header.icontains("router") && header.icontains("wireless")

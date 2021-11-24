@@ -1,0 +1,6 @@
+info:
+  company: intelbras lnc.
+  product: intelbras-RF-301K
+  softhard: '1'
+matches: |
+  title.icontains("rf 301k")

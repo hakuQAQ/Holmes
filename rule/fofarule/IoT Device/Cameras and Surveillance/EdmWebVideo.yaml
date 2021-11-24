@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: EdmWebVideo
+  softhard: '1'
+matches: |
+  title.icontains("edmwebvideo")

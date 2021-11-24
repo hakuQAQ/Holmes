@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: SillySmart
+  softhard: '2'
+matches: |
+  body.icontains("var slsbuild")

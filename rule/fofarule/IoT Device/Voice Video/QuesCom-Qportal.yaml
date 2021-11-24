@@ -1,0 +1,9 @@
+info:
+  company: QuesCom
+  product: QuesCom-Qportal
+  softhard: '0'
+matches: |
+  body.icontains("<head profile=\"http://www.quescom.com")
+  body.icontains("href=\"/qpuser.css")
+  header.icontains("octowebsvr/com")
+  body.icontains("<frame src=\"/cticall/cticall_close.asp\" name=\"cticlose")

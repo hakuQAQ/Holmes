@@ -1,0 +1,8 @@
+info:
+  company: General Electric Company
+  product: Cimplicity-WebView
+  softhard: '1'
+matches: |
+  header.icontains("server: cimplicity-httpsvr")
+  banner.icontains("server: cimplicity-httpsvr")
+  body.icontains("<applet name=\"prowlerclientappletobject\" archive=\"/prowlerclient.jar")

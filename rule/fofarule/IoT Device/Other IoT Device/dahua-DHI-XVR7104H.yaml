@@ -1,0 +1,6 @@
+info:
+  company: Dahua
+  product: dahua-DHI-XVR7104H
+  softhard: '1'
+matches: |
+  banner.icontains("dhi-xvr7104h")

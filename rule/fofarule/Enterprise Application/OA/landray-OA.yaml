@@ -1,0 +1,6 @@
+info:
+  company: landray
+  product: landray-OA
+  softhard: '2'
+matches: |
+  body.icontains("lui_login_message_td") && body.icontains("form_bottom")

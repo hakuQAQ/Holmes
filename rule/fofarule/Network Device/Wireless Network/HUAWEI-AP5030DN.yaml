@@ -1,0 +1,6 @@
+info:
+  company: HUAWEI
+  product: HUAWEI-AP5030DN
+  softhard: '1'
+matches: |
+  body.icontains("<span class=\"medium\" >本设备支持fat模式（fat模式下可单独工作）")

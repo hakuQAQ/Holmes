@@ -1,0 +1,8 @@
+info:
+  company: Rapid Voice and Data Solutions
+  product: RAPID-Browser
+  softhard: '2'
+matches: |
+  title.icontains("welcome to rapid browser")
+  body.icontains("<!-- ### bullet table ### -->")
+  body.icontains("images/login_button.gif\" alt=\"login to rapid browser")

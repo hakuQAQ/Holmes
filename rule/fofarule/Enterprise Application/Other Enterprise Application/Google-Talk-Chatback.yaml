@@ -1,0 +1,6 @@
+info:
+  company: Google LLC
+  product: Google-Talk-Chatback
+  softhard: '2'
+matches: |
+  body.icontains("www.google.com/talk/service/")

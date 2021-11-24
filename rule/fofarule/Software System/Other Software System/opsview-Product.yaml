@@ -1,0 +1,9 @@
+info:
+  company: Opsview Ltd.
+  product: opsview-Product
+  softhard: '2'
+matches: |
+  body.icontains("/images/opsview_logo_large.gif")
+  body.icontains("/images/opsviewcommunitylogo-large.png")
+  body.icontains("follow @opsview")
+  title.icontains("opsview")

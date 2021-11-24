@@ -1,0 +1,6 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-NBG2105
+  softhard: '1'
+matches: |
+  title.icontains("zyxel nbg2105")

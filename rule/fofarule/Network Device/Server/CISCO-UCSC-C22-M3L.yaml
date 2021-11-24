@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-UCSC-C22-M3L
+  softhard: '1'
+matches: |
+  cert.icontains("pid:ucsc-c22-m3l")

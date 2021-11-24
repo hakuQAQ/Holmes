@@ -1,0 +1,7 @@
+info:
+  company: Oracle Corporation
+  product: Netscape-FastTrack
+  softhard: '2'
+matches: |
+  header.icontains("server: netscape-fasttrack")
+  banner.icontains("server: netscape-fasttrack")

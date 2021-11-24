@@ -1,0 +1,8 @@
+info:
+  company: Spiceworks Inc.
+  product: Spiceworks
+  softhard: '2'
+matches: |
+  body.icontains("<meta name=\"author\" content=\"spiceworks, inc.\" />")
+  body.icontains("<link href=\"/stylesheets/general.css?")
+  body.icontains("<h1><img alt=\"spiceworks\" src=\"/images/logos/large.png")

@@ -1,0 +1,6 @@
+info:
+  company: Axis Communications AB.
+  product: AXIS-M3014
+  softhard: '1'
+matches: |
+  banner.icontains("axis m3014")

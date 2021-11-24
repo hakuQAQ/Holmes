@@ -1,0 +1,7 @@
+info:
+  company: koal
+  product: Signature-Verification-Management-System
+  softhard: '2'
+matches: |
+  title.icontains("签名验证管理系统")
+  body.icontains("版权所有：北京格尔国信科技有限公司")

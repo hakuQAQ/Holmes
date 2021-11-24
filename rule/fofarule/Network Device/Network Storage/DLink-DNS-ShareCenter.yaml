@@ -1,0 +1,7 @@
+info:
+  company: DLink
+  product: DLink-DNS-ShareCenter
+  softhard: '1'
+matches: |
+  body.icontains("/cgi-bin/login_mgr.cgi")
+  body.icontains("sharecenter")

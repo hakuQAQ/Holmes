@@ -1,0 +1,7 @@
+info:
+  company: Bytevalue
+  product: Bytevalue-Intelligent-flow-Control-Router
+  softhard: '1'
+matches: |
+  title.icontains("bytevalue 智能流控路由器")
+  body.icontains("<a href=\"http://www.bytevalue.com/\" target=\"_blank\">")

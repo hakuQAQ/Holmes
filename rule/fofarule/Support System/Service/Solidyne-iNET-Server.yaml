@@ -1,0 +1,8 @@
+info:
+  company: Solidyne Controls International.
+  product: Solidyne-iNET-Server
+  softhard: '2'
+matches: |
+  body.icontains("<meta http-equiv=\"refresh\" content=\"0; url=/hmi/\">")
+  title.icontains("solidyne inet server")
+  body.icontains("<frame name=\"frleft\" scrolling=\"no\" id=\"frleft\" src=\"qfrleft.aspx\">")

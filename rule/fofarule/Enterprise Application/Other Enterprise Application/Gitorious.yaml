@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Gitorious
+  softhard: '2'
+matches: |
+  header.icontains("_gitorious_sess")
+  banner.icontains("_gitorious_sess")
+  body.icontains("powered by gitorious")

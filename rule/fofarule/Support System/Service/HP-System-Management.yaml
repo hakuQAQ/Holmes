@@ -1,0 +1,10 @@
+info:
+  company: HP Development Company, L.P.
+  product: HP-System-Management
+  softhard: '2'
+matches: |
+  title.icontains("hp system management homepage")
+  header.icontains("server: compaqhttpserver")
+  header.icontains("set-cookie: compaq-hmmd")
+  banner.icontains("server: compaqhttpserver")
+  banner.icontains("set-cookie: compaq-hmmd")

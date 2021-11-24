@@ -1,0 +1,6 @@
+info:
+  company: VRV
+  product: VRV-Product
+  softhard: '0'
+matches: |
+  protocol.icontains("vrv")

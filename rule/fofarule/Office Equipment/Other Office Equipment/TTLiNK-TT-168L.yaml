@@ -1,0 +1,6 @@
+info:
+  company: ttlink
+  product: TTLiNK-TT-168L
+  softhard: '1'
+matches: |
+  body.icontains(">tt-168l</a>")

@@ -1,0 +1,7 @@
+info:
+  company: Vidyo, Inc.
+  product: Video-Conferencing
+  softhard: '1'
+matches: |
+  title.icontains("vidyorouter configuration")
+  body.icontains("href=\"/vr2conf/themes/vidyo/vidyo.css")

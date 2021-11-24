@@ -1,0 +1,6 @@
+info:
+  company: vcl components
+  product: GateQuest-PHP-Site-Recommender
+  softhard: '2'
+matches: |
+  title.icontains("gatequest")

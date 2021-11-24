@@ -1,0 +1,7 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TP-LINK-VR200v
+  softhard: '1'
+matches: |
+  banner.icontains("0.7.0 0.18 v0007.0 build 130114 rel.62291n")
+  banner.icontains("0.8.0 0.3 v0053.0 build 150906 rel.32427n")

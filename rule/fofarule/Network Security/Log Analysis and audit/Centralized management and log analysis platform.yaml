@@ -1,0 +1,6 @@
+info:
+  company: venustech
+  product: Centralized management and log analysis platform
+  softhard: '1'
+matches: |
+  title.icontains("天玥集中管理与日志分析平台")

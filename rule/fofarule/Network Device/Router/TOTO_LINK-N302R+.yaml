@@ -1,0 +1,6 @@
+info:
+  company: TOTOLINK
+  product: TOTO_LINK-N302R+
+  softhard: '1'
+matches: |
+  body.icontains("src =\"/images/login_back_zn302rp.gif\"")

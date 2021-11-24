@@ -1,0 +1,8 @@
+info:
+  company: HUAWEI
+  product: HuaWei-Router
+  softhard: '1'
+matches: |
+  title.icontains("wimax cpe configuration")
+  header.icontains("httpwarnflg")
+  body.icontains("huawei technologies")

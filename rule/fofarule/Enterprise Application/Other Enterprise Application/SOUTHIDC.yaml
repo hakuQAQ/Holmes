@@ -1,0 +1,8 @@
+info:
+  company: southidc
+  product: SOUTHIDC
+  softhard: '2'
+matches: |
+  body.icontains("/southidckefu.js")
+  body.icontains("content=\"copyright 2003-2015 - southidc.net")
+  body.icontains("/southidcj2f.js")

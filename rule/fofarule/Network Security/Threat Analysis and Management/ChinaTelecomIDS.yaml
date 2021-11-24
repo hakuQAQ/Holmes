@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: ChinaTelecomIDS
+  softhard: '2'
+matches: |
+  title.icontains("佛山电信网络攻击智能检测系统")

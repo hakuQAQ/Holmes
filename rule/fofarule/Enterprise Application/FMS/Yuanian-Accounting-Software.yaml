@@ -1,0 +1,7 @@
+info:
+  company: yuanian
+  product: Yuanian-Accounting-Software
+  softhard: '2'
+matches: |
+  body.icontains("yuannian.css")
+  body.icontains("/image/logo/yuannian.gif")

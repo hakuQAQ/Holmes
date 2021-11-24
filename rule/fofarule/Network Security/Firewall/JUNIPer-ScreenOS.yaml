@@ -1,0 +1,7 @@
+info:
+  company: Juniper Networks, Inc.
+  product: JUNIPer-ScreenOS
+  softhard: '1'
+matches: |
+  header.icontains("virata-emweb")
+  body.icontains("admin_pw")

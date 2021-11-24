@@ -1,0 +1,7 @@
+info:
+  company: Siemens AG.
+  product: Siemens-OpenState
+  softhard: '1'
+matches: |
+  cert.icontains("cn=siemens com")
+  cert.icontains("cn=openstage")

@@ -1,0 +1,6 @@
+info:
+  company: MI
+  product: Naftis
+  softhard: '2'
+matches: |
+  title == "naftis" && body.icontains("href=\"/public/naftis.png")

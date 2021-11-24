@@ -1,0 +1,7 @@
+info:
+  company: Apache Software Foundation.
+  product: APACHE-Airflow
+  softhard: '2'
+matches: |
+  body.icontains("src=\"/static/pin_100.png\"")
+  body.icontains("<span>airflow</span>")

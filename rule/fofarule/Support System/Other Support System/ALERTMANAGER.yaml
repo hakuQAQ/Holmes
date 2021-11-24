@@ -1,0 +1,7 @@
+info:
+  company: Prometheus
+  product: ALERTMANAGER
+  softhard: '0'
+matches: |
+  title.icontains("alertmanager")
+  body.icontains("defaultcreator")

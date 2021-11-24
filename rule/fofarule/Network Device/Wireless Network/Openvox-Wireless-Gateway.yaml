@@ -1,0 +1,7 @@
+info:
+  company: OpenVox
+  product: Openvox-Wireless-Gateway
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"openvox-wireless-gateway")
+  banner.icontains("realm=\"openvox-wireless-gateway")

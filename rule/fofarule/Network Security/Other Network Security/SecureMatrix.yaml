@@ -1,0 +1,7 @@
+info:
+  company: CSE Co.,Ltd.
+  product: SecureMatrix
+  softhard: '0'
+matches: |
+  header.icontains("set-cookie: securematrix=")
+  banner.icontains("set-cookie: securematrix=")

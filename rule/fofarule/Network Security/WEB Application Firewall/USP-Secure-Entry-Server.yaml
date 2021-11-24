@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: USP-Secure-Entry-Server
+  softhard: '2'
+matches: |
+  header.icontains("secure entry server") && banner.icontains("secure entry server")

@@ -1,0 +1,11 @@
+info:
+  company: Transom Capital Group
+  product: Pelco-Sarix
+  softhard: '1'
+matches: |
+  title.icontains("sarix&trade;")
+  title.icontains("spectra enhanced")
+  body.icontains("/content/javascripts/scriptaculous.js?load=effects,slider,controls,dragdrop")
+  body.icontains("/content/javascripts/tooltip.js")
+  body.icontains("/content/javascripts/prototype.js")
+  body.icontains("function pegfootertobottom")

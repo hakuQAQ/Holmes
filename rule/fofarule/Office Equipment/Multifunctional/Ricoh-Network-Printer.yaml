@@ -1,0 +1,15 @@
+info:
+  company: Ricoh Company, Ltd.
+  product: Ricoh-Network-Printer
+  softhard: '1'
+matches: |
+  banner.icontains("ricoh network printer")
+  banner.icontains("ricoh network scanner")
+  body.icontains("settimeout('window.location=\"main.asp?lang=")
+  body.icontains("document.cookie=cookie_name + \"=\" + language + \"; expires=")
+  title.icontains("web image monitor")
+  header.icontains("cookieonoffchecker=")
+  banner.icontains("infotec mp ")
+  banner.icontains("ricoh mp ")
+  banner.icontains("ricoh pro ")
+  banner.icontains("ricoh sp ")

@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: FUDforum
+  softhard: '2'
+matches: |
+  body.icontains("powered by: fudforum")
+  header.icontains("fud_session_")
+  banner.icontains("fud_session_") && body.icontains("/adm/admloginuser.php")

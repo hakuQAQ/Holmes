@@ -1,0 +1,7 @@
+info:
+  company: Belkin International, Inc.
+  product: Linksys-WVBR0-25
+  softhard: '1'
+matches: |
+  body.icontains("wvbr0-25 model region code")
+  banner.icontains("wvbr0-25 model region code")

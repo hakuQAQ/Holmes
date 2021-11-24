@@ -1,0 +1,8 @@
+info:
+  company: Maipu
+  product: MAiPU-MP1800X-50
+  softhard: '1'
+matches: |
+  body.icontains("/assets/css/ui-dialog.css")
+  body.icontains("/form/formuserlogin")
+  banner.icontains("mp1800x-50")

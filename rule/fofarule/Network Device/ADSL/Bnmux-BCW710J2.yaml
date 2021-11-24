@@ -1,0 +1,7 @@
+info:
+  company: Broad Net Mux.
+  product: Bnmux-BCW710J2
+  softhard: '1'
+matches: |
+  banner.icontains("bcw710j2")
+  banner.icontains("vendor: bnmux;")

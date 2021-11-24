@@ -1,0 +1,9 @@
+info:
+  company: Ruijie
+  product: Ruijie-NBR-Router
+  softhard: '1'
+matches: |
+  body.icontains("ruijie - nbr")
+  body.icontains("support.ruijie.com.cn")
+  body.icontains("<p>系统负荷过高，导致网络拥塞，建议降低系统负荷或重启路由器")
+  body.icontains("class=\"line resource\" id=\"nbr_1\"")

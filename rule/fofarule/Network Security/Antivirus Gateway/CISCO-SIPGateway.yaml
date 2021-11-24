@@ -1,0 +1,7 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-SIPGateway
+  softhard: '1'
+matches: |
+  banner.icontains("server: cisco-sipgateway")
+  header.icontains("server: cisco-sipgateway")

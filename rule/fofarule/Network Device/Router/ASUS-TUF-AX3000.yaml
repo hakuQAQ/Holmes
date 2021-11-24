@@ -1,0 +1,7 @@
+info:
+  company: ASUSTeK Computer Inc.
+  product: ASUS-TUF-AX3000
+  softhard: '1'
+matches: |
+  body.icontains("document.getelementsbyclassname(\"model-name\")[0].innerhtml = \"tuf-ax3000\"")
+  body.icontains("class=\"prod_madelname\">tuf-ax3000</div>")

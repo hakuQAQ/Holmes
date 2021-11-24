@@ -1,0 +1,8 @@
+info:
+  company: anmai
+  product: anmai-System
+  softhard: '2'
+matches: |
+  body.icontains(" id=\"lblname\">版权所有：上海安脉计算机科技有限公司")
+  body.icontains("id=\"lblname1\">版权所有：上海安脉计算机科技有限公司")
+  body.icontains("<font color=\"#000000\">上海安脉计算机科技有限公司</font>")

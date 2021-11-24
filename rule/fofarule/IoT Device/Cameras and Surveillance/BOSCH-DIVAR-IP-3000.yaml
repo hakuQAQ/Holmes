@@ -1,0 +1,6 @@
+info:
+  company: Robert Bosch GmbH
+  product: BOSCH-DIVAR-IP-3000
+  softhard: '1'
+matches: |
+  body.icontains("vrmchunk.sethelpname('vrm_monitor')")

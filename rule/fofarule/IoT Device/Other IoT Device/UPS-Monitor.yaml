@@ -1,0 +1,6 @@
+info:
+  company: Nagios Enterprises, LLC
+  product: UPS-Monitor
+  softhard: '1'
+matches: |
+  title.icontains("ups monitor")

@@ -1,0 +1,7 @@
+info:
+  company: asp168
+  product: ASP168-OHO
+  softhard: '2'
+matches: |
+  body.icontains("upload/moban/images/style.css")
+  body.icontains("default.php?mod=article&do=detail&tid")

@@ -1,0 +1,6 @@
+info:
+  company: Datalink Systems Inc.
+  product: DataNet
+  softhard: '2'
+matches: |
+  body.icontains("href='/scada'>datanet scada interface")

@@ -1,0 +1,11 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-R6400
+  softhard: '1'
+matches: |
+  header.icontains("netgear r6400")
+  body.icontains("var mmc = {")
+  body.icontains("netgear r6400") && body.icontains("content=\"r6400\"")
+  cert.icontains("organization: netgear")
+  banner.icontains("netgear r6400")
+  banner.icontains("netgear r6400")

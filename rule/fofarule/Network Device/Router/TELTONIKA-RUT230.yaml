@@ -1,0 +1,6 @@
+info:
+  company: TELTONIKA lnc.
+  product: TELTONIKA-RUT230
+  softhard: '1'
+matches: |
+  title.icontains("teltonika-rut230")

@@ -1,0 +1,6 @@
+info:
+  company: vArmour Networks, Inc.
+  product: VArmour-Product
+  softhard: '2'
+matches: |
+  body.icontains("function loadmunchkinkey()")

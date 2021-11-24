@@ -1,0 +1,6 @@
+info:
+  company: yealink
+  product: Yealink-Video-Conferencing
+  softhard: '1'
+matches: |
+  header.icontains("yealink embed httpd")

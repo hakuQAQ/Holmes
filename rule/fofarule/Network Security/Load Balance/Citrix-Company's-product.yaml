@@ -1,0 +1,9 @@
+info:
+  company: Citrix
+  product: Citrix-Company's-product
+  softhard: '1'
+matches: |
+  body.icontains("value=\"guia\" selected")
+  title.icontains("citrix login")
+  body.icontains("netscape/firefox/opera")
+  body.icontains("dvrdvs-webs")

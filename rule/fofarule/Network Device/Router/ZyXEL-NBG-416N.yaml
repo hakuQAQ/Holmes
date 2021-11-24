@@ -1,0 +1,7 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-NBG-416N
+  softhard: '1'
+matches: |
+  header.icontains("nbg-416n n-lite home router")
+  header.icontains("nbg-418n n home router")

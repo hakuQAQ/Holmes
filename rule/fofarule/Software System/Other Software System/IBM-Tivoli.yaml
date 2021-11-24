@@ -1,0 +1,7 @@
+info:
+  company: IBM
+  product: IBM-Tivoli
+  softhard: '2'
+matches: |
+  body.icontains("tivoli netview uses an open source web server")
+  body.icontains("banner/tivoli/tv_icbanner.html")

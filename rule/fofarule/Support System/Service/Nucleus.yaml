@@ -1,0 +1,6 @@
+info:
+  company: Nucleus Group.
+  product: Nucleus
+  softhard: '2'
+matches: |
+  header.icontains("nucleus")

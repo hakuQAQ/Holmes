@@ -1,0 +1,7 @@
+info:
+  company: DASAN Networks, Inc.
+  product: DASAN-Router
+  softhard: '1'
+matches: |
+  body.icontains("cgi-bin/top.cgi")
+  body.icontains("cgi-bin/menu.cgi")

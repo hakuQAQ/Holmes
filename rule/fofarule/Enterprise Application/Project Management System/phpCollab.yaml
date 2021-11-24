@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: phpCollab
+  softhard: '2'
+matches: |
+  body.icontains("<!-- powered by phpcollab")
+  body.icontains("content='phpcollab")

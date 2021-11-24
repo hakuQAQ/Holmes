@@ -1,0 +1,7 @@
+info:
+  company: agilebpm
+  product: AgileBPM
+  softhard: '2'
+matches: |
+  body.icontains("class=\"logo-element\">bpm")
+  body.icontains("class=\"logo-element\">agile-bpm")

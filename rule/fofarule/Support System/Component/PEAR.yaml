@@ -1,0 +1,7 @@
+info:
+  company: PHP Group
+  product: PEAR
+  softhard: '2'
+matches: |
+  body.icontains("installed packages, channel pear")
+  body.icontains("content=\"webbased pear package manager")

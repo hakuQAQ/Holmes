@@ -1,0 +1,6 @@
+info:
+  company: Micro Focus International plc
+  product: Novell-iChain
+  softhard: '2'
+matches: |
+  body.icontains("src=\"ichainerrors/alertbar.gif") && title == "novell ichain" && title == "novell proxy" && header.icontains("host name received is not for this web site")

@@ -1,0 +1,7 @@
+info:
+  company: Fujitsu Ltd
+  product: Fujitsu-NetShelter-VPN
+  softhard: '1'
+matches: |
+  title.icontains("welcome to netshelter")
+  header.icontains("netshelter")

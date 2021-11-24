@@ -1,0 +1,14 @@
+info:
+  company: Hillstone
+  product: Hillstone-SG-6000
+  softhard: '1'
+matches: |
+  cert.icontains("cn=sg-6000, o=hillstone networks")
+  body.icontains("www.ncurity.com")
+  body.icontains("/loginok.html")
+  cert.icontains("hillstone")
+  cert.icontains("commonname: sg-6000") && cert.icontains("organization: hillstone networks")
+  body.icontains("style=\"background:url(images/login_box_bg_cn.gif);\"")
+  header.icontains("content-length: 5726") && title.icontains("浩鲸科技sslvpn")
+  cert.icontains("commonname: sg-6000")
+  cert.icontains("organization: hillstone networks")

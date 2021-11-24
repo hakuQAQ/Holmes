@@ -1,0 +1,6 @@
+info:
+  company: dvripc
+  product: Seentech-Network-Sentry
+  softhard: '1'
+matches: |
+  title.icontains("中科新业网络安全审计系统")

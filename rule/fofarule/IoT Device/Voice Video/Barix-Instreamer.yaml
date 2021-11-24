@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: Barix-Instreamer
+  softhard: '1'
+matches: |
+  banner.icontains("barix instreamer snr:")
+  banner.icontains("barix streaming client")

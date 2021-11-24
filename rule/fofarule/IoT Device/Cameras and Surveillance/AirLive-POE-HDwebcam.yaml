@@ -1,0 +1,6 @@
+info:
+  company: OvisLink Corp.
+  product: AirLive-POE-HDwebcam
+  softhard: '1'
+matches: |
+  body.icontains("js/variable_6.js")

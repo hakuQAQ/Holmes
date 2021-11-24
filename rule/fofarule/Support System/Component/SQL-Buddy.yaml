@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: SQL-Buddy
+  softhard: '2'
+matches: |
+  body.icontains("h3><a href=\"http://www.sqlbuddy.com/help")
+  body.icontains("href=\"themes/bittersweet/css/main.css")

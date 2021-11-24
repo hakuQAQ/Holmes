@@ -1,0 +1,6 @@
+info:
+  company: Pinpoint
+  product: Pinpoint
+  softhard: '2'
+matches: |
+  title == "pinpoint" && body.icontains("content=\"https://pinpoint.app")

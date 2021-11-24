@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: 17mail
+  softhard: '2'
+matches: |
+  body.icontains("//易企邮正式版发布")

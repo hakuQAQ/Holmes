@@ -1,0 +1,7 @@
+info:
+  company: Digi International Inc.
+  product: Digi-TransPort
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp")
+  banner.icontains("digi transport ")

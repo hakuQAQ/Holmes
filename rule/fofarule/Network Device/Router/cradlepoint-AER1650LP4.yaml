@@ -1,0 +1,6 @@
+info:
+  company: Cradlepoint, Inc.
+  product: cradlepoint-AER1650LP4
+  softhard: '1'
+matches: |
+  title.icontains("login :: aer1650lp4")

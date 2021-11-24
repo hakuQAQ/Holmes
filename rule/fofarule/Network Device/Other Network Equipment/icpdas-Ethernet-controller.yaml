@@ -1,0 +1,6 @@
+info:
+  company: ICP DAS CO., LTD.
+  product: icpdas-Ethernet-controller
+  softhard: '1'
+matches: |
+  header.icontains("7188e") && title.icontains("7188e3")

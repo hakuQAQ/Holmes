@@ -1,0 +1,7 @@
+info:
+  company: HUAWEI
+  product: HuaWei-Cloud-Bastion-Host
+  softhard: '2'
+matches: |
+  body.icontains("id=mtokenplugin width=0 height=0 style=\"position: absolute;left: 0px; top: 0px\"")
+  body.icontains("type=application/x-xtx-axhost") && cert.icontains("organization: 华为云安全")

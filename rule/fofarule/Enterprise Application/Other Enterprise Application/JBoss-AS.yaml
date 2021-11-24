@@ -1,0 +1,8 @@
+info:
+  company: Red Hat, Inc.
+  product: JBoss-AS
+  softhard: '2'
+matches: |
+  body.icontains("manage this jboss as instance")
+  title.icontains("welcome to jboss as")
+  header.icontains("jbossas") && banner.icontains("jbossas")

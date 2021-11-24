@@ -1,0 +1,7 @@
+info:
+  company: Carrier Corporation
+  product: Carrier-CCNWeb
+  softhard: '1'
+matches: |
+  body.icontains("/images/ccnweb.gif")
+  body.icontains("<applet code=\"jlogin.class\" archive=\"jlogin.jar")

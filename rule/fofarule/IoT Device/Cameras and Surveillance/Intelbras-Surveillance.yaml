@@ -1,0 +1,14 @@
+info:
+  company: intelbras lnc.
+  product: Intelbras-Surveillance
+  softhard: '1'
+matches: |
+  body.icontains("src=\"html/playbackindex.htm\"")
+  body.icontains("src=\"./webversion.js")
+  body.icontains("src=\"html/playbackindex.htm\"")
+  body.icontains("class=\"login-input-item login-type-display\"")
+  body.icontains("onclick=\"ocx.showplayback()\">回放")
+  body.icontains("id=\"b_playback\"")
+  body.icontains("class=\"main-nav-item\">回放")
+  body.icontains("function startplayall()")
+  title.icontains("intelbras")

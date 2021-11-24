@@ -1,0 +1,6 @@
+info:
+  company: genew
+  product: Genew-NC5200C
+  softhard: '1'
+matches: |
+  title == "nc5200c"

@@ -1,0 +1,12 @@
+info:
+  company: Konica Minolta, Inc.
+  product: Konica-Minolta-Printer
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp")
+  banner.icontains("konica minolta ")
+  header.icontains("lpc http server")
+  title.icontains("konica minolta")
+  body.icontains("vlink=\"#000000\" onload=\"location.replace('/wcd/index.html');\" >")
+  body.icontains("<meta http-equiv=\"refresh\" content=\"0; url=/wcd/js_error.xml\">")
+  body.icontains("<langno>en</langno> </mfp>")

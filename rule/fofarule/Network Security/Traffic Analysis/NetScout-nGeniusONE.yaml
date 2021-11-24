@@ -1,0 +1,7 @@
+info:
+  company: NETSCOUT
+  product: NetScout-nGeniusONE
+  softhard: '2'
+matches: |
+  title.icontains("ngenius redirect")
+  body.icontains("var newpath = \"/common/ngeniusdirect.jsp")

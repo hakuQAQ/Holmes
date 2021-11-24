@@ -1,0 +1,6 @@
+info:
+  company: Cayin Technology Co., Ltd.
+  product: CAYIN-SMP
+  softhard: '1'
+matches: |
+  body.icontains("/cgi-bin/wizard_index.cgi")

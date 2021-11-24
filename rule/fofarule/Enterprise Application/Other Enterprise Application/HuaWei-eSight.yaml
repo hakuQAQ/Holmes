@@ -1,0 +1,10 @@
+info:
+  company: HUAWEI
+  product: HuaWei-eSight
+  softhard: '2'
+matches: |
+  body.icontains("location.replace('login.action?_='+ new date().gettime());")
+  body.icontains("<a ") && body.icontains("<body onload=\"gotologin()\">")
+  body.icontains("esight_login_copy_right_font")
+  header.icontains("sso/login.action")
+  banner.icontains("sso/login.action")

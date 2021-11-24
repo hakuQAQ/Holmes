@@ -1,0 +1,8 @@
+info:
+  company: Raritan Inc.
+  product: Raritan-Security-gateway
+  softhard: '1'
+matches: |
+  title.icontains("raritan cc-sg")
+  body.icontains("src=\"images/ccsg logo.gif")
+  body.icontains("alt=\"cc-sg logo") && banner.icontains("raritan computer; commandcenter secure gateway")

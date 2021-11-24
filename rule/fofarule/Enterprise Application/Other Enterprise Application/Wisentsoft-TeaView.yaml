@@ -1,0 +1,6 @@
+info:
+  company: Wisentsoft
+  product: Wisentsoft-TeaView
+  softhard: '2'
+matches: |
+  title.icontains("teaview一体化监控运维管理平台")

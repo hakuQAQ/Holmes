@@ -1,0 +1,6 @@
+info:
+  company: ipxchina
+  product: MVB2000-Call-Center
+  softhard: '2'
+matches: |
+  title.icontains("mvb2000")

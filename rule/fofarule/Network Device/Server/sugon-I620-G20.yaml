@@ -1,0 +1,6 @@
+info:
+  company: Sugon
+  product: sugon-I620-G20
+  softhard: '1'
+matches: |
+  banner.icontains("i620-g20")

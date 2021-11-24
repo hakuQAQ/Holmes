@@ -1,0 +1,9 @@
+info:
+  company: InfluxData，Inc
+  product: influxdata-InfluxDB
+  softhard: '2'
+matches: |
+  body.icontains("class=\"influxdb-version\"")
+  body.icontains("influxdb")
+  title.icontains("influxdb administration")
+  title.icontains("influxdb - admin interface")

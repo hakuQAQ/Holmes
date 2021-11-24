@@ -1,0 +1,6 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TP-LINK-Archer-AC3200
+  softhard: '1'
+matches: |
+  banner.icontains("0.9.1 0.1 v004b.0 build 160116 rel.5035n")

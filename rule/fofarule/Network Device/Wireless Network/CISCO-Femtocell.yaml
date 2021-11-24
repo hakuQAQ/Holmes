@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-Femtocell
+  softhard: '1'
+matches: |
+  body.icontains("src=\"/cust/zonegate-image.jpg\"")

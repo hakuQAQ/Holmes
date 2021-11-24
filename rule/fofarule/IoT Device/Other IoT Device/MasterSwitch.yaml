@@ -1,0 +1,7 @@
+info:
+  company: The Master Switch, LLC.
+  product: MasterSwitch
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"masterswitch")
+  banner.icontains("realm=\"masterswitch")

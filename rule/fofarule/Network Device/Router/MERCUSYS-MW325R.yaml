@@ -1,0 +1,6 @@
+info:
+  company: MERCUSYS Technologies Co., Ltd.
+  product: MERCUSYS-MW325R
+  softhard: '1'
+matches: |
+  title.icontains("mw325r")

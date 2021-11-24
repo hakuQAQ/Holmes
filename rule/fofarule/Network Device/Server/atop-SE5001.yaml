@@ -1,0 +1,6 @@
+info:
+  company: Atop Technologies, Inc.
+  product: atop-SE5001
+  softhard: '1'
+matches: |
+  banner.icontains("se5001")

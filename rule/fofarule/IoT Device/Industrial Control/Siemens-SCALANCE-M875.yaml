@@ -1,0 +1,8 @@
+info:
+  company: Siemens AG.
+  product: Siemens-SCALANCE-M875
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"scalance m875")
+  cert.icontains("scalance m875")
+  banner.icontains("realm=\"scalance m875")

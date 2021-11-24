@@ -1,0 +1,12 @@
+info:
+  company: SalesAgility
+  product: SuiteCRM
+  softhard: '2'
+matches: |
+  body.icontains("sugar.themes.theme_name = 'suitep'")
+  body.icontains("sugar.themes.theme_name      = 'suiter'")
+  body.icontains("src=\"img/suitecrm.png\" alt=\"bitnami suitecrm stack\"")
+  body.icontains("supercharged by suitecrm")
+  body.icontains("src=\"custom/themes/default/images/company_logo.png")
+  body.icontains("alt=\"suitecrm\"")
+  header.icontains("set-cookie: sugar_user_theme=suitep")

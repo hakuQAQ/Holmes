@@ -1,0 +1,6 @@
+info:
+  company: Dell Inc.
+  product: Dell-Management-Card
+  softhard: '1'
+matches: |
+  banner.icontains("dell web/snmp management card ")

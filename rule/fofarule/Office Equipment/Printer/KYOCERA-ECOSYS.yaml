@@ -1,0 +1,6 @@
+info:
+  company: KYOCERA Corporation
+  product: KYOCERA-ECOSYS
+  softhard: '1'
+matches: |
+  banner.icontains("ecosys")

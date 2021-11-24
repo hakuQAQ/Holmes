@@ -1,0 +1,7 @@
+info:
+  company: Belkin International, Inc.
+  product: TomatoUSB-Linksys-E3000
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"linksys e3000")
+  banner.icontains("linksys e3000")

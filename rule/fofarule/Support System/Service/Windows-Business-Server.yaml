@@ -1,0 +1,8 @@
+info:
+  company: Microsoft Corporation
+  product: Windows-Business-Server
+  softhard: '2'
+matches: |
+  title.icontains("welcome to windows small business server")
+  body.icontains("src=\"images/sbslogo.gif")
+  body.icontains("href=\"/remote\">remote web workplace")

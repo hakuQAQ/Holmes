@@ -1,0 +1,7 @@
+info:
+  company: netzone
+  product: Flow-control-master
+  softhard: '1'
+matches: |
+  title.icontains("netzone")
+  title.icontains("流控大师")

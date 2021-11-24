@@ -1,0 +1,6 @@
+info:
+  company: Asentria Corporation.
+  product: SiteBoss
+  softhard: '2'
+matches: |
+  banner.icontains("siteboss ")

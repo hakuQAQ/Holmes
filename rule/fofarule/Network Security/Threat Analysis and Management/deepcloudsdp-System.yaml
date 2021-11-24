@@ -1,0 +1,6 @@
+info:
+  company: deepcloudsdp
+  product: deepcloudsdp-System
+  softhard: '2'
+matches: |
+  title.icontains("红芯安全管控平台")

@@ -1,0 +1,6 @@
+info:
+  company: Victorysoft
+  product: Victorysoft
+  softhard: '2'
+matches: |
+  body.icontains("value=\"style2012/style1/scripts/expressinstall.swf\"")

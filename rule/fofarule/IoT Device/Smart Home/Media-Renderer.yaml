@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Media-Renderer
+  softhard: '1'
+matches: |
+  body.icontains("<friendlyname>客厅电视-dlna<")

@@ -1,0 +1,6 @@
+info:
+  company: leadsec
+  product: leadsec-AntiVirusGateway
+  softhard: '1'
+matches: |
+  title.icontains("网御防病毒网关系统")

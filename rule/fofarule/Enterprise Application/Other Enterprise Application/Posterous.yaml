@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Posterous
+  softhard: '2'
+matches: |
+  body.icontains("content=\"posterous")
+  body.icontains("class=\"posterous_site_data")
+  header.icontains("_sharebymail_session_id=")

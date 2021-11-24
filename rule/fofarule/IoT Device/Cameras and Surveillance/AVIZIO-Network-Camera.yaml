@@ -1,0 +1,6 @@
+info:
+  company: Panasonic Corporation
+  product: AVIZIO-Network-Camera
+  softhard: '1'
+matches: |
+  title.icontains("avizio network camera")

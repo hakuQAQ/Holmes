@@ -1,0 +1,7 @@
+info:
+  company: Muratec America, Inc .
+  product: Muratec-MFX-Printer
+  softhard: '1'
+matches: |
+  banner.icontains("muratec mfx")
+  title.icontains("mfx-")

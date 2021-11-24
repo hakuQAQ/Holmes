@@ -1,0 +1,6 @@
+info:
+  company: Vicon Industries.
+  product: IQinVision-IQeye511DV
+  softhard: '1'
+matches: |
+  banner.icontains("iqinvision iqeye511dv")

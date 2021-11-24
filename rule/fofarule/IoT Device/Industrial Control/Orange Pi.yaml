@@ -1,0 +1,7 @@
+info:
+  company: Xunlong Software
+  product: Orange Pi
+  softhard: '1'
+matches: |
+  title.icontains("orangepi 系统信息")
+  body.icontains("<a href=\"index.jsp\" class=\"navbar-brand\">orangepi 控制台</a>")

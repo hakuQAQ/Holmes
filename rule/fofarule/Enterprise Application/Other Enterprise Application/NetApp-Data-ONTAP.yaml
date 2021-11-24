@@ -1,0 +1,7 @@
+info:
+  company: NetApp, Inc.
+  product: NetApp-Data-ONTAP
+  softhard: '2'
+matches: |
+  header.icontains("server: data ontap")
+  banner.icontains("server: data ontap")

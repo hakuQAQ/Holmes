@@ -1,0 +1,6 @@
+info:
+  company: Dell Inc.
+  product: DELL-PCT7024F
+  softhard: '1'
+matches: |
+  body.icontains("class=\"login_server_default\">pct7024f")

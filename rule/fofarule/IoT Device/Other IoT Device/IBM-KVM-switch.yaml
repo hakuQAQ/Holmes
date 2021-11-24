@@ -1,0 +1,6 @@
+info:
+  company: International Business Machines Corporation
+  product: IBM-KVM-switch
+  softhard: '1'
+matches: |
+  body.icontains("src=\"/avct.js") && body.icontains("alt=\"ibm")

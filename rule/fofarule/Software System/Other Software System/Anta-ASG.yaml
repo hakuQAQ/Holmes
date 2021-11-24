@@ -1,0 +1,7 @@
+info:
+  company: Anta
+  product: Anta-ASG
+  softhard: '2'
+matches: |
+  body.icontains("setcookie(\"asglanguage\",document.form1.planguage.value)")
+  title.icontains("登录")

@@ -1,0 +1,7 @@
+info:
+  company: mailer
+  product: Mailer
+  softhard: '2'
+matches: |
+  body.icontains("/jdwm/cgi/login.cgi?login")
+  banner.icontains("jdmail smtp")

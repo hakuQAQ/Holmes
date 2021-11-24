@@ -1,0 +1,7 @@
+info:
+  company: DLink
+  product: DLink-Internet-behavior-Router
+  softhard: '1'
+matches: |
+  body.icontains("<body oncontextmenu='return false;' onload=\"init();\" >")
+  body.icontains("top.window.open(\"login.html\",\"_self\");")

@@ -1,0 +1,7 @@
+info:
+  company: Sony Corporation
+  product: SONY-SNC-DH110T
+  softhard: '1'
+matches: |
+  banner.icontains("sony network camera snc-dh110t")
+  header.icontains("realm=\"sony network camera snc-dh110t")

@@ -1,0 +1,8 @@
+info:
+  company: ThreatConnect, Inc.
+  product: ThreatConnect-Platform
+  softhard: '2'
+matches: |
+  banner.icontains("threatconnect")
+  header.icontains("threatconnect")
+  body.icontains("content=\"threatconnect\" />")

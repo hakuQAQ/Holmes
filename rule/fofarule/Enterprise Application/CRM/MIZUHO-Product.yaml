@@ -1,0 +1,6 @@
+info:
+  company: Mizuho Bank, Ltd.
+  product: MIZUHO-Product
+  softhard: '2'
+matches: |
+  title.icontains("login") && body.icontains("mizuho bank, ltd.")

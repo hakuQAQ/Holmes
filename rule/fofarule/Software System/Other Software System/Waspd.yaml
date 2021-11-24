@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Waspd
+  softhard: '2'
+matches: |
+  body.icontains("pending waspd activities</font>")

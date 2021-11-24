@@ -1,0 +1,7 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-P-320W
+  softhard: '1'
+matches: |
+  body.icontains("welcome to zyxel p-320w")
+  body.icontains("p-320w") && body.icontains("loginpassword.value = \"zyxel zywall series\"")

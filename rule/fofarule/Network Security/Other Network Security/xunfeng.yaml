@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: xunfeng
+  softhard: '2'
+matches: |
+  title.icontains("巡风") && body.icontains("<a href=\"/filter\" class=\"logo\"><span>巡风</span></a>")

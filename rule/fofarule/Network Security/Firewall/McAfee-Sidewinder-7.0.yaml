@@ -1,0 +1,6 @@
+info:
+  company: McAfee, Inc.
+  product: McAfee-Sidewinder-7.0
+  softhard: '2'
+matches: |
+  banner.icontains("sidewinder 7.0")

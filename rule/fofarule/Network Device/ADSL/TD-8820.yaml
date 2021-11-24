@@ -1,0 +1,7 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TD-8820
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"td-8820")
+  banner.icontains("td-8820")

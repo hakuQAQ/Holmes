@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: ThoughtConduit
+  softhard: '2'
+matches: |
+  body.icontains("<html><head><title>error</title></head><body>your request produced an error.</body></html>")

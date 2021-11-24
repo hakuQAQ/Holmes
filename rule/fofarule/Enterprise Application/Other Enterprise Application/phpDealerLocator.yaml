@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: phpDealerLocator
+  softhard: '2'
+matches: |
+  body.icontains("class=\"pythonselect") && body.icontains("for=\"dealer_radiuss_dealer_zip")

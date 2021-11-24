@@ -1,0 +1,7 @@
+info:
+  company: ICALL
+  product: ICALL-CMS
+  softhard: '2'
+matches: |
+  title.icontains("icall后台管理中心")
+  body.icontains("var img_obj = document.getelementbyid('showing');")

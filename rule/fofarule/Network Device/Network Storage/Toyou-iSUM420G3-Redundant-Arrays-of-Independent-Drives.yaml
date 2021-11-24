@@ -1,0 +1,6 @@
+info:
+  company: toyou
+  product: Toyou-iSUM420G3-Redundant-Arrays-of-Independent-Drives
+  softhard: '1'
+matches: |
+  banner.icontains("isum420g3")

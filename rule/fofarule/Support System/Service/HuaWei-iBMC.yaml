@@ -1,0 +1,8 @@
+info:
+  company: HUAWEI
+  product: HuaWei-iBMC
+  softhard: '1'
+matches: |
+  title == "ibmc login" && body.icontains("/bmc/php/getmultiproperty.php")
+  body.icontains("/bmc/resources/css/cmn.css")
+  protocol.icontains("upnp") && banner.icontains("ibmc")

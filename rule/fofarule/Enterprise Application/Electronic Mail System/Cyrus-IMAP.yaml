@@ -1,0 +1,6 @@
+info:
+  company: Carnegie Mellon University
+  product: Cyrus-IMAP
+  softhard: '2'
+matches: |
+  banner.icontains("cyrus imap")

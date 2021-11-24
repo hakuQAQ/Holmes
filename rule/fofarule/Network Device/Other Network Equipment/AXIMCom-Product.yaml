@@ -1,0 +1,7 @@
+info:
+  company: aximcom
+  product: AXIMCom-Product
+  softhard: '0'
+matches: |
+  banner.icontains("aximcom product")
+  body.icontains("href='style/axim/table.css'")

@@ -1,0 +1,8 @@
+info:
+  company: thinkphp
+  product: ThinkPHP
+  softhard: '2'
+matches: |
+  header.icontains("thinkphp")
+  header.icontains("think_template")
+  body.icontains("href=\"http://www.thinkphp.cn\">thinkphp</a><sup>")

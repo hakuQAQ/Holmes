@@ -1,0 +1,7 @@
+info:
+  company: 'Teradek，LLC '
+  product: TERADEK-CUBE
+  softhard: '1'
+matches: |
+  body.icontains("index.cs?header=0")
+  body.icontains("teradek") && body.icontains("administrative console")

@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: Chart.js
+  softhard: '2'
+matches: |
+  body.icontains("chart.js")
+  body.icontains("chart.min.js")

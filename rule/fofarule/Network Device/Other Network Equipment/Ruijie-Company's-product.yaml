@@ -1,0 +1,11 @@
+info:
+  company: Ruijie
+  product: Ruijie-Company's-product
+  softhard: '1'
+matches: |
+  header.icontains("ruijie servrer")
+  header.icontains("rg/device")
+  banner.icontains("ruijie login:") && banner.icontains("vendor: ruijie general operation system")
+  banner.icontains("vendor: ruijie")
+  cert.icontains("organization: ruijie")
+  banner.icontains("rgos_ssh")

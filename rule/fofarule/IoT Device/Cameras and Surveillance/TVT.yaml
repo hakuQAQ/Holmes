@@ -1,0 +1,7 @@
+info:
+  company: TVT
+  product: TVT
+  softhard: '1'
+matches: |
+  header.icontains("cross web server") && title.icontains("dvr components download")
+  banner.icontains("server: tvt rtsp server")

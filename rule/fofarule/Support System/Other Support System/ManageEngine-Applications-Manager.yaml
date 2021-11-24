@@ -1,0 +1,9 @@
+info:
+  company: Zoho Corporation Pvt. Ltd.
+  product: ManageEngine-Applications-Manager
+  softhard: '2'
+matches: |
+  body.icontains("/appmanager.js")
+  title.icontains("applications manager ")
+  header.icontains("cookie: jsessionid_apm_9090")
+  banner.icontains("cookie: jsessionid_apm_9090")

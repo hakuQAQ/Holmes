@@ -1,0 +1,11 @@
+info:
+  company: Redrock Software Corporation
+  product: TutorTrac
+  softhard: '2'
+matches: |
+  body.icontains("font><a href=\"http://www.go-redrock.com\"><font")
+  title.icontains("tutortrac learning center tracking software")
+  header.icontains("set-cookie productcode")
+  header.icontains("set-cookie installcode")
+  header.icontains("location tracweb40")
+  header.icontains("location tutortrac")

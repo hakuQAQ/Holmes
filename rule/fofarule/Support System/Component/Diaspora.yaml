@@ -1,0 +1,10 @@
+info:
+  company: Other
+  product: Diaspora
+  softhard: '2'
+matches: |
+  header.icontains("_diaspora_session")
+  header.icontains("x-git-update")
+  header.icontains("x-git-revision") && banner.icontains("_diaspora_session")
+  banner.icontains("x-git-update")
+  banner.icontains("x-git-revision")

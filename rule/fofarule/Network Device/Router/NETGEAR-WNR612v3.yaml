@@ -1,0 +1,7 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-WNR612v3
+  softhard: '1'
+matches: |
+  header.icontains("netgear  wnr612v3")
+  banner.icontains("netgear  wnr612v3")

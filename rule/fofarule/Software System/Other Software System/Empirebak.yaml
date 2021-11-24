@@ -1,0 +1,8 @@
+info:
+  company: phome
+  product: Empirebak
+  softhard: '2'
+matches: |
+  body.icontains("powered by <a href=\"http://www.phome.net\" target=\"_blank\"><strong>empirebak</strong>")
+  body.icontains("<div align=\"center\">(<a href=\"doc.html\" target=\"_blank\">查看帝国备份王说明文档</a>)</div>")
+  title.icontains("帝国备份王后台登录")

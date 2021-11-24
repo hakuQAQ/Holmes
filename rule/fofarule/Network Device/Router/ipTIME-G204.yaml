@@ -1,0 +1,7 @@
+info:
+  company: EFM Networks Co.,Ltd.
+  product: ipTIME-G204
+  softhard: '1'
+matches: |
+  body.icontains("src =\"/images/login_back_g204.gif\"")
+  body.icontains("src=\"/images2/login_title.g204.gif\"")

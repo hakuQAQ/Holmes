@@ -1,0 +1,8 @@
+info:
+  company: MontaVista Software, LLC.
+  product: MontaVista-linux
+  softhard: '2'
+matches: |
+  banner.icontains("montavista")
+  header.icontains("montavista software")
+  header.icontains("montavista/")

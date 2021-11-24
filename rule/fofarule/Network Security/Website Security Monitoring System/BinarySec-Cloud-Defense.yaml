@@ -1,0 +1,7 @@
+info:
+  company: BinarySEC Corporation
+  product: BinarySec-Cloud-Defense
+  softhard: '2'
+matches: |
+  header.icontains("binarysec") && header.icontains("x-binarysec")
+  header.icontains("x-binarysec-nocache") && banner.icontains("x-binarysec-nocache")

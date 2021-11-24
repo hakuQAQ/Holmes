@@ -1,0 +1,8 @@
+info:
+  company: Rockliffe systems, Inc
+  product: MailSiteExpress
+  softhard: '2'
+matches: |
+  title == "mailsite express" && body.icontains("<b>mailsite <em>express")
+  body.icontains("onsubmit=\"openexpress(document.expresslogin)")
+  body.icontains("rockliffe systems, inc.")

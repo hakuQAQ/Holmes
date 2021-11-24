@@ -1,0 +1,6 @@
+info:
+  company: Motorola Solutions, Inc
+  product: Motorola-BSR-Router
+  softhard: '1'
+matches: |
+  banner.icontains("bsr ") && banner.icontains(" motorola inc")

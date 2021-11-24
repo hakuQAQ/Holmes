@@ -1,0 +1,7 @@
+info:
+  company: Hikvision
+  product: Hikvision-Video-coding-device-access-gateway
+  softhard: '1'
+matches: |
+  body.icontains("<input id=\"p_pass\" class=\"int\" onfocus=\"this.value='';\" tabindex=\"2\" name=\"p_pass")
+  body.icontains("href=\"/bncgi-bin/test.pl")

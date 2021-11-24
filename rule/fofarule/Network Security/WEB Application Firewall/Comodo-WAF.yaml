@@ -1,0 +1,6 @@
+info:
+  company: Comodo Security Solutions, Inc.
+  product: Comodo-WAF
+  softhard: '2'
+matches: |
+  header.icontains("protected by comodo waf")

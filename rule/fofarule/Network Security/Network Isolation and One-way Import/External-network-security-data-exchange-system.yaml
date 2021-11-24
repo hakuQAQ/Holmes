@@ -1,0 +1,9 @@
+info:
+  company: unimassystem
+  product: External-network-security-data-exchange-system
+  softhard: '1'
+matches: |
+  title.icontains("外网安全数据交换系统")
+  body.icontains("/unimas/")
+  cert.icontains("o=unimas")
+  cert.icontains("cn=test/emailaddress=gjw@unimassystem.com")

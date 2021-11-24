@@ -1,0 +1,8 @@
+info:
+  company: The Uniform Server Development Team.
+  product: Uniform-Server
+  softhard: '2'
+matches: |
+  body.icontains("<a href=\"http://www.uniformserver.com\">")
+  body.icontains("<meta name=\"description\" content=\"the uniform server 8.1.0-coral.\" />")
+  body.icontains("<div id=\"divider\">developed by <a href=\"http://www.uniformserver.com/\">the uniform server development team</a></div>")

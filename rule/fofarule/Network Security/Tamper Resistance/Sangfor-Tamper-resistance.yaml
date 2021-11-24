@@ -1,0 +1,8 @@
+info:
+  company: Sangfor
+  product: Sangfor-Tamper-resistance
+  softhard: '2'
+matches: |
+  title.icontains("防火墙web防篡改管理系统")
+  body.icontains("<li style=\"color:#999999;margin-left:6px;list-style:circle inside;\">如忘记密码，请与防火墙管理员联系</li>")
+  body.icontains("href=\"tamper/style/control.css\"")

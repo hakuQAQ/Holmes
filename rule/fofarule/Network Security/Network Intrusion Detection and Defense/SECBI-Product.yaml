@@ -1,0 +1,6 @@
+info:
+  company: SecBi LTD
+  product: SECBI-Product
+  softhard: '2'
+matches: |
+  body.icontains("/secbiutils.min.js")

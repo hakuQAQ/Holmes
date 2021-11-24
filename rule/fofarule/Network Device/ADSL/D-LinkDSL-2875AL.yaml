@@ -1,0 +1,6 @@
+info:
+  company: D-Link
+  product: D-LinkDSL-2875AL
+  softhard: '1'
+matches: |
+  title.icontains("dsl-2875al")

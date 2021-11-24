@@ -1,0 +1,7 @@
+info:
+  company: Fujitsu Ltd
+  product: Fujitsu-InfoProvider-Pro
+  softhard: '2'
+matches: |
+  header.icontains("fujitsu-infoprovider-pro")
+  banner.icontains("fujitsu-infoprovider-pro")

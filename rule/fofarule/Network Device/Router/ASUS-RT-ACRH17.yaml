@@ -1,0 +1,7 @@
+info:
+  company: ASUS
+  product: ASUS-RT-ACRH17
+  softhard: '1'
+matches: |
+  body.icontains("<div class=\"prod_madelname\">rt-acrh17")
+  banner.icontains("rt-acrh17")

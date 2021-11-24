@@ -1,0 +1,6 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-EQ-660R
+  softhard: '1'
+matches: |
+  banner.icontains("eq-660r")

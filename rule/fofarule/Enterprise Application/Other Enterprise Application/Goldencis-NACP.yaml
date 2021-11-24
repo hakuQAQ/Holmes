@@ -1,0 +1,7 @@
+info:
+  company: Goldencis
+  product: Goldencis-NACP
+  softhard: '2'
+matches: |
+  body.icontains("<div class=\"tit_b\"> 通过管理员分配的密码使用紧急入口。</div>")
+  title.icontains("金盾内网安全网络准入控制系统")

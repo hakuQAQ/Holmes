@@ -1,0 +1,6 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-P-2812HNU-F3
+  softhard: '1'
+matches: |
+  title.icontains("p-2812hnu-f3")

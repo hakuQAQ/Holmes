@@ -1,0 +1,8 @@
+info:
+  company: Zyxel Communications Corp.
+  product: Zyxel-USG20W
+  softhard: '1'
+matches: |
+  title.icontains("usg20w-vpn")
+  body.icontains(" class=\"usg_icon\"")
+  banner.icontains("usg20w-vpn")

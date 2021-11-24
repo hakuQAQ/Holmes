@@ -1,0 +1,12 @@
+info:
+  company: OLAT Systems
+  product: OLAT
+  softhard: '2'
+matches: |
+  body.icontains("title=\"homepage of open source lms olat")
+  body.icontains("content=\"olat")
+  title.icontains("olat - online learning and training")
+  body.icontains("content=\"olat 是一个学习内容管理系统 (lcms).")
+  body.icontains("content=\"olat - online learning and training")
+  body.icontains("o_info.uriprefix=\"/olat/dmz/\";")
+  body.icontains("href=\"/olat/raw/")

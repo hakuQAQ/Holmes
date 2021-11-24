@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Deluge-web
+  softhard: '2'
+matches: |
+  title.icontains("deluge: web ui")

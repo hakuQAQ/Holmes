@@ -1,0 +1,6 @@
+info:
+  company: powercn
+  product: Powercn-Access
+  softhard: '1'
+matches: |
+  banner.icontains("ac-powercn-access")

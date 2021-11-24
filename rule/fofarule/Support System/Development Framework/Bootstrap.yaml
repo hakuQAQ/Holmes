@@ -1,0 +1,9 @@
+info:
+  company: twitter
+  product: Bootstrap
+  softhard: '2'
+matches: |
+  body.icontains("bootstrap.css")
+  body.icontains("bootstrap.min.css")
+  body.icontains("bootstrap.js")
+  body.icontains("bootstrap.min.js")

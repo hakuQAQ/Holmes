@@ -1,0 +1,9 @@
+info:
+  company: 1039soft
+  product: 1039soft-JiaXiao
+  softhard: '2'
+matches: |
+  body.icontains("name=\"hid_qu_type\" id=\"hid_qu_type\"")
+  title.icontains("登录_1039家校通")
+  body.icontains("/handler/validatecode.ashx?id=")
+  body.icontains("txtyzm")

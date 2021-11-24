@@ -1,0 +1,6 @@
+info:
+  company: EFM Networks Co.,Ltd.
+  product: EFM-Networks-ipTIME-N104R
+  softhard: '1'
+matches: |
+  title.icontains("iptime n104r")

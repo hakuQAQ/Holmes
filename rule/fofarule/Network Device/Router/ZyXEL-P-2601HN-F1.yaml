@@ -1,0 +1,7 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-P-2601HN-F1
+  softhard: '1'
+matches: |
+  title.icontains("p-2601hn-f1")
+  banner.icontains("zyxel p-2601hn-f1")

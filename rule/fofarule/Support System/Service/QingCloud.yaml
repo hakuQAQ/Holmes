@@ -1,0 +1,7 @@
+info:
+  company: qingcloud
+  product: QingCloud
+  softhard: '2'
+matches: |
+  header.icontains("qingcloudelb")
+  body.icontains("content=\"云之基石，自由计算。qingcloud 青云为您提供按需分配、弹性可伸缩的计算能力。\"") && banner.icontains("qingcloudelb")

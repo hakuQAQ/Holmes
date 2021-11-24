@@ -1,0 +1,6 @@
+info:
+  company: APSTAR
+  product: Satellite broadband operation service platform
+  softhard: '2'
+matches: |
+  title.icontains("卫星宽带运营服务平台")

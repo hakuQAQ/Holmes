@@ -1,0 +1,8 @@
+info:
+  company: SolarWinds Worldwide, LLC.
+  product: Solarwinds-Traffic-Management
+  softhard: '2'
+matches: |
+  body.icontains("solarwinds")
+  title.icontains("solarwinds")
+  title.icontains("solarwinds network management") && body.icontains("solarwinds.css")

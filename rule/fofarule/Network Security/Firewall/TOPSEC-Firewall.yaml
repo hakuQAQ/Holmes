@@ -1,0 +1,8 @@
+info:
+  company: TOPSEC
+  product: TOPSEC-Firewall
+  softhard: '1'
+matches: |
+  title.icontains("topsec tos web user")
+  header.icontains("topwebserver")
+  body.icontains("web user interface")

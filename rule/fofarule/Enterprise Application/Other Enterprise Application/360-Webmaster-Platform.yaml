@@ -1,0 +1,6 @@
+info:
+  company: '360'
+  product: 360-Webmaster-Platform
+  softhard: '2'
+matches: |
+  body.icontains("360-site-verification")

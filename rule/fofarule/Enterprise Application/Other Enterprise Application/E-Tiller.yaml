@@ -1,0 +1,7 @@
+info:
+  company: etiller
+  product: E-Tiller
+  softhard: '2'
+matches: |
+  body.icontains("reader/view_abstract.aspx")
+  body.icontains("北京勤云")

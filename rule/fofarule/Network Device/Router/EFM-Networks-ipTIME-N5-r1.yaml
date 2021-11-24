@@ -1,0 +1,6 @@
+info:
+  company: EFM Networks Co.,Ltd.
+  product: EFM-Networks-ipTIME-N5-r1
+  softhard: '1'
+matches: |
+  body.icontains("src =\"/images/login_title_n5r1.gif\"")

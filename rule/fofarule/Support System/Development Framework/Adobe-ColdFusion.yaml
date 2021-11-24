@@ -1,0 +1,8 @@
+info:
+  company: Adobe Inc.
+  product: Adobe-ColdFusion
+  softhard: '2'
+matches: |
+  body.icontains("/cfajax/")
+  header.icontains("cftoken") && banner.icontains("cftoken") && body.icontains("coldfusion.ajax")
+  body.icontains("<cfscript>")

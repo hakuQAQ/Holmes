@@ -1,0 +1,7 @@
+info:
+  company: StarTech.com Ltd.
+  product: PDU02IP-Remote-Power-Control
+  softhard: '1'
+matches: |
+  banner.icontains("pdu02ip remote power control")
+  banner.icontains("pdu02ipsc remote power control")

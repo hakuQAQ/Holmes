@@ -1,0 +1,7 @@
+info:
+  company: OPAQ Networks
+  product: BlueNet-Video
+  softhard: '1'
+matches: |
+  body.icontains("/cgi-bin/client_execute.cgi?tud=0")
+  title.icontains("bluenet video viewer version")

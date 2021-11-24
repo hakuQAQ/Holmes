@@ -1,0 +1,8 @@
+info:
+  company: Huawei
+  product: HUAWEI-Tecal-E6000
+  softhard: '1'
+matches: |
+  title.icontains("tecal e6000 mm center-")
+  body.icontains("the standby mm can not view other board informations.")
+  body.icontains("<td class='td' id='pssystemstate'></td>")

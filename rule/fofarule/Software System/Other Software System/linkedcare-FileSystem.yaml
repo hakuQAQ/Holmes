@@ -1,0 +1,6 @@
+info:
+  company: linkedcare
+  product: linkedcare-FileSystem
+  softhard: '2'
+matches: |
+  title.icontains("e看牙文件上传api")

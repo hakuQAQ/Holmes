@@ -1,0 +1,6 @@
+info:
+  company: dnaTools, Inc.
+  product: dnaTools-dnaLIMS
+  softhard: '2'
+matches: |
+  body.icontains("dnalims") && body.icontains("/cgi-bin/dna/password.cgi")

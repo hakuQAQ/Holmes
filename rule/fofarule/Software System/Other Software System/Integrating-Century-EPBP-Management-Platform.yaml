@@ -1,0 +1,7 @@
+info:
+  company: Integrating Century
+  product: Integrating-Century-EPBP-Management-Platform
+  softhard: '2'
+matches: |
+  body.icontains("rmsie = /(msie/s|trident.*rv:)([/w.]+)/i")
+  body.icontains("match = rmsie.exec(window.navigator.useragent")

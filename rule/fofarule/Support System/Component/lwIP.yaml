@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: lwIP
+  softhard: '2'
+matches: |
+  header.icontains("lwip") && header.icontains("/projects/lwip")

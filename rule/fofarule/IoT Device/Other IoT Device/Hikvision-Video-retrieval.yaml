@@ -1,0 +1,7 @@
+info:
+  company: Hikvision
+  product: Hikvision-Video-retrieval
+  softhard: '1'
+matches: |
+  title.icontains("智能视频检索系统")
+  body.icontains("海康威视")

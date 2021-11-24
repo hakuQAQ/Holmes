@@ -1,0 +1,7 @@
+info:
+  company: Dell Inc.
+  product: DELL-N3024F
+  softhard: '1'
+matches: |
+  body.icontains("class=\"login_server_default\">n3024f")
+  banner.icontains("dell networking n3024f")

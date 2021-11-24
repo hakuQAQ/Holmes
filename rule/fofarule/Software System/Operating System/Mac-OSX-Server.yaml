@@ -1,0 +1,8 @@
+info:
+  company: Apple Inc.
+  product: Mac-OSX-Server
+  softhard: '2'
+matches: |
+  title == "mac os x server" && body.icontains("page_footer_appversion\">mac os x server")
+  header.icontains("realm=\"mac os x server")
+  banner.icontains("realm=\"mac os x server")

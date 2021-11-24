@@ -1,0 +1,9 @@
+info:
+  company: ChinaMobile
+  product: ChinaMobile-JX01
+  softhard: '0'
+matches: |
+  title.icontains("jx01移动代理服务器")
+  body.icontains("action=\"/loginaction.do")
+  body.icontains("name=\"org.apache.struts.taglib.html.token\"")
+  body.icontains("background=\"/images/loginbg.gif\"")

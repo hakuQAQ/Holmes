@@ -1,0 +1,8 @@
+info:
+  company: Zyxel Communications Corp.
+  product: zywall-usg-100
+  softhard: '1'
+matches: |
+  banner.icontains("zywall-usg-100")
+  banner.icontains("zywall usg 100")
+  title == "zywall usg 100"

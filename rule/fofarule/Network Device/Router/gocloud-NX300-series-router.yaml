@@ -1,0 +1,6 @@
+info:
+  company: GoCloud
+  product: gocloud-NX300-series-router
+  softhard: '1'
+matches: |
+  banner.icontains("gocloud nx300 series router")

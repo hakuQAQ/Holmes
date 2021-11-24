@@ -1,0 +1,7 @@
+info:
+  company: The FreeBSD Project.
+  product: FreeBSD
+  softhard: '2'
+matches: |
+  banner.icontains("freebsd")
+  header.icontains("freebsd")

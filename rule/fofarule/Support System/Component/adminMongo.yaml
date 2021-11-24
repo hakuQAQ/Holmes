@@ -1,0 +1,6 @@
+info:
+  company: MongoDB, Inc
+  product: adminMongo
+  softhard: '2'
+matches: |
+  title.icontains("adminmongo")

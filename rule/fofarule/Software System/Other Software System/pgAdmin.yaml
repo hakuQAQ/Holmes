@@ -1,0 +1,6 @@
+info:
+  company: pgAdmin
+  product: pgAdmin
+  softhard: '2'
+matches: |
+  body.icontains("pgadmin 客户端安装包")

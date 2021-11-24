@@ -1,0 +1,8 @@
+info:
+  company: Ruijie
+  product: Ruijie-RSR-Router
+  softhard: '1'
+matches: |
+  body.icontains("class=\"foot_login\">ruijie networks rsr router")
+  header.icontains("server: rg/device 10.x")
+  banner.icontains("server: rg/device 10.x")

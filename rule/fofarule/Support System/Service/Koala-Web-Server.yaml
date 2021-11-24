@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: Koala-Web-Server
+  softhard: '2'
+matches: |
+  header.icontains("server: koala web server")
+  banner.icontains("server: koala web server")

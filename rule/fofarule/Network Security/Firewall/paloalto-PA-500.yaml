@@ -1,0 +1,7 @@
+info:
+  company: Palo Alto Networks，Inc.
+  product: paloalto-PA-500
+  softhard: '1'
+matches: |
+  banner.icontains("pa-500")
+  cert.icontains("pa-500") && body.icontains("id=\"heading\">globalprotect portal</div>")

@@ -1,0 +1,6 @@
+info:
+  company: forsuntech
+  product: FORSUN-SafeGateway
+  softhard: '1'
+matches: |
+  title.icontains("科盾网关控制台")

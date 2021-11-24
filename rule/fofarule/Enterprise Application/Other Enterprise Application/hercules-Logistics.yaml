@@ -1,0 +1,6 @@
+info:
+  company: hercules
+  product: hercules-Logistics
+  softhard: '2'
+matches: |
+  body.icontains("document.cookie=\"4pl07username=\"+arraystr")

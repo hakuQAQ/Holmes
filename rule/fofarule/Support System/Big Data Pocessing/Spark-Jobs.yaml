@@ -1,0 +1,9 @@
+info:
+  company: Apache Spark
+  product: Spark-Jobs
+  softhard: '2'
+matches: |
+  body.icontains("href=\"/jobs/job?id=")
+  body.icontains("spark jobs")
+  title.icontains("inceptor")
+  title.icontains("jobs")

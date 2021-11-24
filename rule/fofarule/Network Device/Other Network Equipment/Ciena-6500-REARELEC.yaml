@@ -1,0 +1,7 @@
+info:
+  company: Ciena Corporation.
+  product: Ciena-6500-REARELEC
+  softhard: '1'
+matches: |
+  banner.icontains("6500 rearelec")
+  banner.icontains("ciena (r) corporation")

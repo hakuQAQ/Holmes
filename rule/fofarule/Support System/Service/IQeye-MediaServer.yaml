@@ -1,0 +1,6 @@
+info:
+  company: IQinVision, Inc.
+  product: IQeye-MediaServer
+  softhard: '2'
+matches: |
+  banner.icontains("server: iqinvision")

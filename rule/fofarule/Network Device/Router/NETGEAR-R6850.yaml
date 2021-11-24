@@ -1,0 +1,8 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-R6850
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"netgear netgear r6850")
+  header.icontains("realm=\"netgear r6850")
+  banner.icontains("netgear r6850")

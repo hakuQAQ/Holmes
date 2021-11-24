@@ -1,0 +1,6 @@
+info:
+  company: netcrm
+  product: netcrm
+  softhard: '2'
+matches: |
+  body.icontains("href=\"runecrm.ico\"")

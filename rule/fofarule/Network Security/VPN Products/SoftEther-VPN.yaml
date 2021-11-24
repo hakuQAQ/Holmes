@@ -1,0 +1,8 @@
+info:
+  company: SoftEther Project.
+  product: SoftEther-VPN
+  softhard: '0'
+matches: |
+  title == "softether vpn server" && body.icontains("<li>manage this vpn server or vpn bridge<ul>")
+  banner.icontains("content-length: 1999")
+  cert.icontains("softether.net")

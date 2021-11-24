@@ -1,0 +1,6 @@
+info:
+  company: openmas
+  product: OpenMas
+  softhard: '2'
+matches: |
+  title.icontains("openmas") && body.icontains("loginhead\"><link href=\"app_themes")

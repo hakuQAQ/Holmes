@@ -1,0 +1,8 @@
+info:
+  company: justsafe
+  product: ChinaMDM-Mobile-Device-Management
+  softhard: '2'
+matches: |
+  title.icontains("chinamdm终端管理系统")
+  body.icontains("innerhtml=\"chinamdm移动终端管理系统")
+  body.icontains("justsy/user/searchmenusbyusername/")

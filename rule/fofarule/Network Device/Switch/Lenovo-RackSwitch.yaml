@@ -1,0 +1,6 @@
+info:
+  company: Lenovo
+  product: Lenovo-RackSwitch
+  softhard: '1'
+matches: |
+  banner.icontains("lenovo rackswitch")

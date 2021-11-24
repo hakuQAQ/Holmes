@@ -1,0 +1,8 @@
+info:
+  company: Oracle Corporation
+  product: Oracle-Primerva
+  softhard: '2'
+matches: |
+  body.icontains("primavera systems, inc")
+  body.icontains("class=\"introareabuildid")
+  body.icontains("com.primavera.detectplugin.detectpluginapplet.class")

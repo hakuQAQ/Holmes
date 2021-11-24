@@ -1,0 +1,8 @@
+info:
+  company: 3dcart Shopping Carts.
+  product: 3dcart
+  softhard: '2'
+matches: |
+  body.icontains("powered by 3dcart")
+  header.icontains("3dvisit") && body.icontains("<!--start: 3dcart stats-->")
+  header.icontains("x-powered-by: 3dcart")

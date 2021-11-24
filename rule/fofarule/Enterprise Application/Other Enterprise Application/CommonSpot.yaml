@@ -1,0 +1,6 @@
+info:
+  company: PaperThin, Inc
+  product: CommonSpot
+  softhard: '2'
+matches: |
+  body.icontains("content=\"commonspot")

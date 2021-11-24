@@ -1,0 +1,7 @@
+info:
+  company: smartsecuri
+  product: smartsecuri-VideoSecurityGateway
+  softhard: '1'
+matches: |
+  body.icontains("id=\"view-login\"")
+  body.icontains("title').text('视频会议安全系统")

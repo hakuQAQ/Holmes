@@ -1,0 +1,12 @@
+info:
+  company: ASUS
+  product: ASUS-RT-AC5300
+  softhard: '1'
+matches: |
+  header.icontains("rt-ac5300")
+  banner.icontains("rt-ac5300")
+  body.icontains("<div class=\"prod_madelname\">rt-ac5300")
+  body.icontains("var mmc = {")
+  body.icontains("asus rt-ac5300")
+  title.icontains("rt-ac5300")
+  banner.icontains("asus rt-ac5300")

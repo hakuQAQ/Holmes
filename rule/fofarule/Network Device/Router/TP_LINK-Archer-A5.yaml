@@ -1,0 +1,7 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TP_LINK-Archer-A5
+  softhard: '1'
+matches: |
+  body.icontains("if (url.indexof(\"tplinklogin.net\")")
+  body.icontains("archer a5")

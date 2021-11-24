@@ -1,0 +1,6 @@
+info:
+  company: 1caitong
+  product: 1caitong
+  softhard: '2'
+matches: |
+  body.icontains("/custom/groupnewslist.aspx?groupid=")

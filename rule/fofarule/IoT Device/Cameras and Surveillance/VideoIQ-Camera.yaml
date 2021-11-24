@@ -1,0 +1,7 @@
+info:
+  company: Avigilon Corporation
+  product: VideoIQ-Camera
+  softhard: '1'
+matches: |
+  title.icontains("videoiq camera login") && header.icontains("realm=\"avigilon")
+  banner.icontains("realm=\"avigilon")

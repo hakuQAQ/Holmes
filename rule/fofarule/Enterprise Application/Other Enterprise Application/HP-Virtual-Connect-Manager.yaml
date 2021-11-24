@@ -1,0 +1,7 @@
+info:
+  company: HP Development Company, L.P.
+  product: HP-Virtual-Connect-Manager
+  softhard: '2'
+matches: |
+  title.icontains("hp virtual connect manager")
+  body.icontains("name='mx_hidden' src=\"common/hiddenframe.html")

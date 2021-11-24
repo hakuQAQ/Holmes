@@ -1,0 +1,6 @@
+info:
+  company: Avaya Inc.
+  product: Ethernet-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("ethernet switch ")

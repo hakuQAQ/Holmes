@@ -1,0 +1,8 @@
+info:
+  company: Lynx Systems
+  product: LynxGuide
+  softhard: '2'
+matches: |
+  title.icontains("login to lynxguide")
+  header.icontains("access_num=")
+  banner.icontains("access_num=")

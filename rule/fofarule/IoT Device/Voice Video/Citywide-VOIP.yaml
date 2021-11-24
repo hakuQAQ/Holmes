@@ -1,0 +1,6 @@
+info:
+  company: Citywide Telecom Services
+  product: Citywide-VOIP
+  softhard: '1'
+matches: |
+  body.icontains("document.write(\"<div id='web_bottom'><h2>\" + copy_right.voip + \"</h2></div>\");")

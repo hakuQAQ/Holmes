@@ -1,0 +1,7 @@
+info:
+  company: Baidu
+  product: Customer Service Operations Management System
+  softhard: '2'
+matches: |
+  title.icontains("客服运营管理后台")
+  body.icontains("<div class=\"count-down\">页面在<em>5</em>秒后自动跳转至您有权限的页面</div>")

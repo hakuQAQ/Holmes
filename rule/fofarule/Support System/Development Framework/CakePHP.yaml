@@ -1,0 +1,6 @@
+info:
+  company: Cake Software Foundation，Inc
+  product: CakePHP
+  softhard: '2'
+matches: |
+  header.icontains("cakephp=") && banner.icontains("cakephp=")

@@ -1,0 +1,7 @@
+info:
+  company: gosuncn
+  product: GM-Electronic-security-document-management-system
+  softhard: '2'
+matches: |
+  body.icontains("</span>国迈安全私有云部. <span>all rights reserved")
+  body.icontains("国迈安全私有云部 all rights reserved")

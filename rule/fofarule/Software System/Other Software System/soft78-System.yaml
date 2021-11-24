@@ -1,0 +1,7 @@
+info:
+  company: soft78
+  product: soft78-System
+  softhard: '2'
+matches: |
+  body.icontains("offlineservice/showdownloadmessage.aspx")
+  body.icontains("add by sll")

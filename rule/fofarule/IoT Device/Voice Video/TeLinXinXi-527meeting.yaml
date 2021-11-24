@@ -1,0 +1,7 @@
+info:
+  company: TeLinXinXi
+  product: TeLinXinXi-527meeting
+  softhard: '2'
+matches: |
+  body.icontains("527meeting")
+  body.icontains(" content=\"轻会议\"")

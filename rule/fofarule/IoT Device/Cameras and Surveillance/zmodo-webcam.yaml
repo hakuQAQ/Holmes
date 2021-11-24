@@ -1,0 +1,6 @@
+info:
+  company: Zmodo Technology Corporation
+  product: zmodo-webcam
+  softhard: '1'
+matches: |
+  body.icontains("src='./img/bj.jpg',sizingmethod='scale'")

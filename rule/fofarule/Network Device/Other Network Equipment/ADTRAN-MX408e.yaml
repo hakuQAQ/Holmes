@@ -1,0 +1,7 @@
+info:
+  company: ADTRAN, Inc.
+  product: ADTRAN-MX408e
+  softhard: '1'
+matches: |
+  banner.icontains("adtran mx408e")
+  header.icontains("realm=\"adtran mx408e")

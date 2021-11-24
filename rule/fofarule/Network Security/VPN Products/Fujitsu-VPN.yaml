@@ -1,0 +1,8 @@
+info:
+  company: Fujitsu Ltd
+  product: Fujitsu-VPN
+  softhard: '2'
+matches: |
+  header.icontains("sslvpnlang")
+  banner.icontains("sslvpnlang")
+  body.icontains("_fj_sslvpn_login")

@@ -1,0 +1,10 @@
+info:
+  company: fiberhome
+  product: FiberHome-Fengine
+  softhard: '1'
+matches: |
+  banner.icontains("fengine")
+  banner.icontains("fiberhome ")
+  body.icontains("<h3><script>document.writeln(lang.lang_login_prompt);</script></h3>")
+  body.icontains("<form name=\"form1\" action=\"/cgi/login.cgi")
+  header.icontains("content-length: 3772")

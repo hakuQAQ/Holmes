@@ -1,0 +1,6 @@
+info:
+  company: Radware Ltd.
+  product: Radware-AppDirector
+  softhard: '1'
+matches: |
+  banner.icontains("appdirector with cookie persistency")

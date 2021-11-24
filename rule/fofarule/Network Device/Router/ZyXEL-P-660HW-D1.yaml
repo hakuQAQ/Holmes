@@ -1,0 +1,8 @@
+info:
+  company: Zyxel
+  product: ZyXEL-P-660HW-D1
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"p-660hw-d1")
+  banner.icontains("realm=\"p-660hw-d1")
+  banner.icontains("p-660hw-d1")

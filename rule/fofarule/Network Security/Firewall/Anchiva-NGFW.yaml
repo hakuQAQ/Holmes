@@ -1,0 +1,6 @@
+info:
+  company: anchiva
+  product: Anchiva-NGFW
+  softhard: '1'
+matches: |
+  title.icontains("安信华下一代防火墙")

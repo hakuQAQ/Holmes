@@ -1,0 +1,8 @@
+info:
+  company: D-Link Corporation
+  product: D-Link-DIR-620
+  softhard: '1'
+matches: |
+  body.icontains("dir-620")
+  body.icontains("d-link russia")
+  body.icontains("class='title'>dir-620")

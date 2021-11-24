@@ -1,0 +1,12 @@
+info:
+  company: International Business Machines Corporation
+  product: IBM-Lotus
+  softhard: '2'
+matches: |
+  header.icontains("lotus-domino") && body.icontains("href='/domcfg.nsf/csslogin?readform'>")
+  body.icontains("action=\"/names.nsf?login\" name=\"_dominoform")
+  body.icontains("软标科技")
+  body.icontains("domcfg.nsf") && body.icontains("login.nsf")
+  banner.icontains("server: lotus-domino")
+  banner.icontains("esmtp service (ibm domino")
+  body.icontains("esoaisapp/login.jsp") && body.icontains("main.nsf")

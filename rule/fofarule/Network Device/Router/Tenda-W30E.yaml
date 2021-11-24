@@ -1,0 +1,6 @@
+info:
+  company: Shenzhen Tenda Technology Co.,Ltd
+  product: Tenda-W30E
+  softhard: '1'
+matches: |
+  body.icontains("var sys_target = \"w30e\"")

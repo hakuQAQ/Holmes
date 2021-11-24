@@ -1,0 +1,9 @@
+info:
+  company: Zoho Corporation Pvt. Ltd.
+  product: ManageEngine-OpManager
+  softhard: '2'
+matches: |
+  title.icontains("manageengine opmanager")
+  body.icontains("the complete network monitoring software from manageengine")
+  body.icontains("<a href=\"http://www.manageengine.com/products/opmanager/index.html\" target=")
+  title.icontains("opmanager")

@@ -1,0 +1,22 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-Switch
+  softhard: '1'
+matches: |
+  protocol.icontains("snnp")
+  banner.icontains("h3c s3600v2")
+  banner.icontains("h3c s5500")
+  banner.icontains("h3c s5500ei")
+  banner.icontains("h3c s9508e") && banner.icontains("h3c s5800")
+  title.icontains("web user login")
+  body.icontains("nlanguagesupported")
+  header.icontains("lanswitch")
+  banner.icontains("h3c s5560-")
+  header.icontains("h3c httpd")
+  body.icontains("window.location = \"/wcn/banner?lang=")
+  body.icontains("style=\"background-color: #e1e9f5;\" onload=\"onbodyload()")
+  body.icontains("window.location = slang + \"/login.html\";")
+  header.icontains("switch") && title == "web user login" && body.icontains("window.location = \"en/login.html\";")
+  header.icontains("switch") && body.icontains("window.location = \"/web/device/login?lang=\"+slang;")
+  title.icontains("web user login")
+  body.icontains("<h2>web网管中")

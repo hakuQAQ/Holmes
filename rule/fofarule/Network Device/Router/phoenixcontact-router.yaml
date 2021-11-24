@@ -1,0 +1,7 @@
+info:
+  company: Phoenix Contact GmbH & Co. KG
+  product: phoenixcontact-router
+  softhard: '1'
+matches: |
+  banner.icontains("psi-modem-3g/router")
+  title.icontains("psi-modem-3g/router")

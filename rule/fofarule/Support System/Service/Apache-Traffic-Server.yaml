@@ -1,0 +1,7 @@
+info:
+  company: Apache Software Foundation.
+  product: Apache-Traffic-Server
+  softhard: '2'
+matches: |
+  header.icontains("apachetrafficserver")
+  banner.icontains("server: apachetrafficserver")

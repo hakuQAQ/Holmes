@@ -1,0 +1,6 @@
+info:
+  company: Schneider Electric
+  product: Schneider-Quantumn
+  softhard: '1'
+matches: |
+  title.icontains("schneider electric telecontrol - industrial web control")

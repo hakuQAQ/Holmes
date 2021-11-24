@@ -1,0 +1,7 @@
+info:
+  company: Telefonaktiebolaget LM Ericsson
+  product: Ericsson-TV-Web-Server
+  softhard: '2'
+matches: |
+  header.icontains("server : ericsson television web server")
+  banner.icontains("server : ericsson television web server")

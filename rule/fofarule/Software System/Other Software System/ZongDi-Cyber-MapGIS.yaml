@@ -1,0 +1,6 @@
+info:
+  company: ZongDi Cyber
+  product: ZongDi-Cyber-MapGIS
+  softhard: '2'
+matches: |
+  title.icontains("mapgis server manager")

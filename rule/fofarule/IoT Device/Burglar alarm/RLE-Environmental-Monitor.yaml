@@ -1,0 +1,6 @@
+info:
+  company: RLE Technologies, Inc.
+  product: RLE-Environmental-Monitor
+  softhard: '1'
+matches: |
+  banner.icontains("environmental monitor by rle technologies")

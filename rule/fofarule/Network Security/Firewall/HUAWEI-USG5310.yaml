@@ -1,0 +1,6 @@
+info:
+  company: Huawei
+  product: HUAWEI-USG5310
+  softhard: '1'
+matches: |
+  banner.icontains("usg5310")

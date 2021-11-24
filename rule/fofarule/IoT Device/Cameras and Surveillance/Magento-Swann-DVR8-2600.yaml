@@ -1,0 +1,7 @@
+info:
+  company: Magento Inc.
+  product: Magento-Swann-DVR8-2600
+  softhard: '1'
+matches: |
+  body.icontains("self.location = \"play.html\"")
+  body.icontains("if(navigator.useragent.indexof(\"safari\")")

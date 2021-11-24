@@ -1,0 +1,7 @@
+info:
+  company: Yonyou Network Co Ltd
+  product: Yonyou-ERP-NC
+  softhard: '2'
+matches: |
+  body.icontains("/nc/servlet/nc.ui.iufo.login.index")
+  title.icontains("用友新世纪")

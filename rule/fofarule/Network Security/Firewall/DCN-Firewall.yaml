@@ -1,0 +1,6 @@
+info:
+  company: DCN
+  product: DCN-Firewall
+  softhard: '1'
+matches: |
+  title.icontains("dcfos web management")

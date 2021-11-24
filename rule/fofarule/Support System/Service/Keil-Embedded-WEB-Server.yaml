@@ -1,0 +1,7 @@
+info:
+  company: ARM Inc
+  product: Keil-Embedded-WEB-Server
+  softhard: '2'
+matches: |
+  header.icontains("server: keil-eweb")
+  banner.icontains("server: keil-eweb")

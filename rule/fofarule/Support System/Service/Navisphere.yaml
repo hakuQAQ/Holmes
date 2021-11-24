@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Navisphere
+  softhard: '2'
+matches: |
+  title == "n a v i s p h e r e"

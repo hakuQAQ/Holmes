@@ -1,0 +1,6 @@
+info:
+  company: 'BroadLight Inc. '
+  product: BROADLIGHT-Residential-Gateway
+  softhard: '1'
+matches: |
+  body.icontains("<b>brg management</b>")

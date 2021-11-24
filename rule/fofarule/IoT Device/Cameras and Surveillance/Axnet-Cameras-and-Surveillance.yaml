@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: Axnet-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  body.icontains("clsid:4aadb758-f0b9-48dc-945b-f4c4f2accd42")
+  body.icontains("codebase=\"../axnet.cab")

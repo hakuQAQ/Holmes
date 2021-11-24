@@ -1,0 +1,7 @@
+info:
+  company: Secworld
+  product: Secworld-SecIPS
+  softhard: '1'
+matches: |
+  body.icontains("usbkey_plugin.cab") && body.icontains("无服务权限")
+  body.icontains("网神")

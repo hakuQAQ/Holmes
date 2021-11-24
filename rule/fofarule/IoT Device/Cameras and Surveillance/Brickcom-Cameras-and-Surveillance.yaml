@@ -1,0 +1,6 @@
+info:
+  company: Brickcom Corporation.
+  product: Brickcom-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"brickcom") && banner.icontains("realm=\"brickcom")

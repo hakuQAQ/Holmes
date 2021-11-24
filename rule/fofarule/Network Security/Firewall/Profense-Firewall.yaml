@@ -1,0 +1,8 @@
+info:
+  company: Alert Logic, Inc.
+  product: Profense-Firewall
+  softhard: '2'
+matches: |
+  header.icontains("plbsid=")
+  header.icontains("server: profense")
+  banner.icontains("plbsid=") && banner.icontains("server: profense")

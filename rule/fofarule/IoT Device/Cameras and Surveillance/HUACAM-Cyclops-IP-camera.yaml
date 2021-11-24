@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: HUACAM-Cyclops-IP-camera
+  softhard: '1'
+matches: |
+  body.icontains("please update your documents to reflect the new location")
+  header.icontains("gs-webs")

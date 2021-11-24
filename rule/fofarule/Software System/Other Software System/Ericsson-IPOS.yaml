@@ -1,0 +1,6 @@
+info:
+  company: Telefonaktiebolaget LM Ericsson
+  product: Ericsson-IPOS
+  softhard: '2'
+matches: |
+  banner.icontains("ericsson ipos")

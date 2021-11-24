@@ -1,0 +1,6 @@
+info:
+  company: bamboocloud
+  product: bamboocloud-BIM
+  softhard: '2'
+matches: |
+  body.icontains("bim 开发配置与运维控制台")

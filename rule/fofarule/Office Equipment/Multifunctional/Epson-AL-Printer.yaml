@@ -1,0 +1,6 @@
+info:
+  company: Seiko Epson Corporation.
+  product: Epson-AL-Printer
+  softhard: '1'
+matches: |
+  banner.icontains("epson al-")

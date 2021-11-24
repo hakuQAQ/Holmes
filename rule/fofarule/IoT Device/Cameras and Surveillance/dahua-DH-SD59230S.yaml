@@ -1,0 +1,6 @@
+info:
+  company: Dahua
+  product: dahua-DH-SD59230S
+  softhard: '1'
+matches: |
+  banner.icontains("dh-sd59230s")

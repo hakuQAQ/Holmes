@@ -1,0 +1,6 @@
+info:
+  company: FUNAI CORPORATION, INC.
+  product: SANYO-NETWORK-CAMERA
+  softhard: '1'
+matches: |
+  title.icontains("sanyo network camera")

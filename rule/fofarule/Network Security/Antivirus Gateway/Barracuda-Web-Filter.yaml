@@ -1,0 +1,6 @@
+info:
+  company: Barracuda Networks, Inc.
+  product: Barracuda-Web-Filter
+  softhard: '1'
+matches: |
+  banner.icontains("barracuda web filter")

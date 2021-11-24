@@ -1,0 +1,7 @@
+info:
+  company: nusoft
+  product: Multi-Homing-Gateway
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"multi-homing gateway")
+  banner.icontains("realm=\"wi-fi multi-homing")

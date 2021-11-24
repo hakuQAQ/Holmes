@@ -1,0 +1,7 @@
+info:
+  company: EFM Networks Co.,Ltd.
+  product: ipTIME-Router
+  softhard: '1'
+matches: |
+  title.icontains("networks - iptime")
+  body.icontains("href=iptime.css")

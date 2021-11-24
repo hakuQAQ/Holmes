@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-n7000
+  softhard: '1'
+matches: |
+  banner.icontains("cisco nx-os(tm) n7000")

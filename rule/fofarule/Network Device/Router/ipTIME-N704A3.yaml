@@ -1,0 +1,6 @@
+info:
+  company: EFM Networks
+  product: ipTIME-N704A3
+  softhard: '1'
+matches: |
+  body.icontains("src =\"/images2/login_title.n704a3.gif\"")

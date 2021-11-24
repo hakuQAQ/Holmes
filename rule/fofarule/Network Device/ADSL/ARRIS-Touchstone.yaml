@@ -1,0 +1,7 @@
+info:
+  company: COMMSCOPE
+  product: ARRIS-Touchstone
+  softhard: '1'
+matches: |
+  title.icontains("touchstone status")
+  body.icontains("passwithwarnings")

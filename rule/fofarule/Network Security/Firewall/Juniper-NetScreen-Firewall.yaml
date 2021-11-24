@@ -1,0 +1,6 @@
+info:
+  company: Juniper Networks, Inc.
+  product: Juniper-NetScreen-Firewall
+  softhard: '1'
+matches: |
+  banner.icontains("netscreen-")

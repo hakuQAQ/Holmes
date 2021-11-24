@@ -1,0 +1,11 @@
+info:
+  company: Grandnode
+  product: Grandnode
+  softhard: '2'
+matches: |
+  header.icontains("x-powered-by: grandnode")
+  header.icontains(".grand.customer=")
+  header.icontains(" .grand.antiforgery")
+  banner.icontains(".grand.customer=")
+  banner.icontains(" .grand.antiforgery") && body.icontains("name=\"generator\" content=\"grandnode")
+  banner.icontains("x-powered-by: grandnode")

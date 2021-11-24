@@ -1,0 +1,9 @@
+info:
+  company: Seagate Technology LLC
+  product: Seagate-NAS
+  softhard: '1'
+matches: |
+  body.icontains("login to blackarmor")
+  body.icontains("src=\"/admin/img/product-lg-lassen.png\"")
+  title.icontains("seagate nas")
+  body.icontains("p_user")

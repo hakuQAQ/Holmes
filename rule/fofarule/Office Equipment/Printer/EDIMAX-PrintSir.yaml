@@ -1,0 +1,6 @@
+info:
+  company: EDIMAX Technology Co., Ltd.
+  product: EDIMAX-PrintSir
+  softhard: '1'
+matches: |
+  body.icontains("<frame src=\"printsir.htm")

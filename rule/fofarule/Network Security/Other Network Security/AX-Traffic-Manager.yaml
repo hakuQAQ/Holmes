@@ -1,0 +1,6 @@
+info:
+  company: A10 Networks, Inc.
+  product: AX-Traffic-Manager
+  softhard: '1'
+matches: |
+  banner.icontains("ax series advanced traffic manager")

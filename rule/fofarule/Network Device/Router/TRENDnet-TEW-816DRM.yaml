@@ -1,0 +1,6 @@
+info:
+  company: TRENDnet, Inc.
+  product: TRENDnet-TEW-816DRM
+  softhard: '1'
+matches: |
+  body.icontains("id=\"uspw\">login to the tew-816drm</td>")

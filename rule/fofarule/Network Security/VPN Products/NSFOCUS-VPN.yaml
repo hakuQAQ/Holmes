@@ -1,0 +1,7 @@
+info:
+  company: NSFOCUS
+  product: NSFOCUS-VPN
+  softhard: '1'
+matches: |
+  body.icontains("/logo_login_nsfocus.png")
+  title == "sslvpn"

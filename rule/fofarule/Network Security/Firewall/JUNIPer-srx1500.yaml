@@ -1,0 +1,7 @@
+info:
+  company: Juniper Networks, Inc.
+  product: JUNIPer-srx1500
+  softhard: '1'
+matches: |
+  body.icontains("var modelphpstr = \"srx1500\"")
+  banner.icontains("srx1500") && cert.icontains("srx1500")

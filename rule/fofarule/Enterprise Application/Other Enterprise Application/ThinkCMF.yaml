@@ -1,0 +1,9 @@
+info:
+  company: Other
+  product: ThinkCMF
+  softhard: '2'
+matches: |
+  body.icontains("content=\"thinkcmf")
+  header.icontains("x-powered-by: thinkcmf")
+  banner.icontains("x-powered-by: thinkcmf")
+  body.icontains("made by <a href=\"http://www.thinkcmf.com\" target=\"_blank\">thinkcmf</a>")

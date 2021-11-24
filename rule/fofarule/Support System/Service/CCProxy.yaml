@@ -1,0 +1,8 @@
+info:
+  company: Youngzsoft Inc.
+  product: CCProxy
+  softhard: '2'
+matches: |
+  header.icontains("ccproxy")
+  header.icontains(" realm=\"ccproxy ")
+  banner.icontains("server: ccproxy") && banner.icontains(" realm=\"ccproxy ")

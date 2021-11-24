@@ -1,0 +1,9 @@
+info:
+  company: NSFOCUS
+  product: NSFOCUS-ADS
+  softhard: '1'
+matches: |
+  title == "nsfocus ads" && body.icontains("/login_logo_ads_en_us.png")
+  title.icontains("nsfocus ads")
+  body.icontains("nsfocus.png")
+  banner.icontains("nsfocus ads")

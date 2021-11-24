@@ -1,0 +1,7 @@
+info:
+  company: blink
+  product: B_LINK-Home-Gateway
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"b-link home gateway")
+  banner.icontains("realm=\"b-link home gateway")

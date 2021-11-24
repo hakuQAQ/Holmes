@@ -1,0 +1,7 @@
+info:
+  company: 5kcrm
+  product: 5k-CRM
+  softhard: '2'
+matches: |
+  title.icontains("悟空crm")
+  body.icontains("/public/js/5kcrm.js")

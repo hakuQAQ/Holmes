@@ -1,0 +1,7 @@
+info:
+  company: mercurycom
+  product: MERCURY-IP-Camera
+  softhard: '1'
+matches: |
+  banner.icontains("mercury ip-camera")
+  header.icontains("mercury ip-camera")

@@ -1,0 +1,9 @@
+info:
+  company: kingdee
+  product: kingdee-K3-cloud
+  softhard: '2'
+matches: |
+  title.icontains("k/3 cloud")
+  body.icontains("金蝶国际软件集团有限公司版权所有")
+  body.icontains("var formidafterlogin = '\"bos_mainconsolesutra\"")
+  body.icontains("class=\"kd-div-loading-ct\"")

@@ -1,0 +1,6 @@
+info:
+  company: LG Electronics.
+  product: LG-SuperSign
+  softhard: '2'
+matches: |
+  body.icontains("src=\"/ssw/js/user/index.js\"")

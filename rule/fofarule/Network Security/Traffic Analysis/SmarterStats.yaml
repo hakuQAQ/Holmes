@@ -1,0 +1,7 @@
+info:
+  company: SmarterTools Inc.
+  product: SmarterStats
+  softhard: '2'
+matches: |
+  title.icontains("login - smarterstats")
+  body.icontains("<td class=bar1inner>smarterstats")

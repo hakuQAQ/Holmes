@@ -1,0 +1,6 @@
+info:
+  company: Ruijie
+  product: Ruijie-EG1000M
+  softhard: '1'
+matches: |
+  banner.icontains("eg1000m")

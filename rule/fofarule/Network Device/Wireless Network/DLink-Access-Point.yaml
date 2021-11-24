@@ -1,0 +1,8 @@
+info:
+  company: DLink
+  product: DLink-Access-Point
+  softhard: '1'
+matches: |
+  banner.icontains("d-link 802.11b+ ap")
+  banner.icontains("d-link access point")
+  banner.icontains("d-link corp. access point")

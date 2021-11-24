@@ -1,0 +1,14 @@
+info:
+  company: EDIMAX Technology Co., Ltd.
+  product: EDIMAX-Modem
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"ar-7182wna")
+  header.icontains("realm=\"ar-7186wna")
+  header.icontains("realm=\"ar-7188wna") && header.icontains("realm=\"ar-7286wna")
+  header.icontains("realm=\"ar-7286wnb")
+  banner.icontains("realm=\"ar-7182wna")
+  banner.icontains("realm=\"ar-7186wna")
+  banner.icontains("realm=\"ar-7188wna")
+  banner.icontains("realm=\"ar-7286wna")
+  banner.icontains("realm=\"ar-7286wnb")

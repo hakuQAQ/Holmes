@@ -1,0 +1,8 @@
+info:
+  company: Alibaba Group
+  product: Ali-Monitoring-System
+  softhard: '2'
+matches: |
+  title.icontains("阿里集团监控系统")
+  body.icontains("/monitor/css/monitor.css")
+  body.icontains("href=\"/monitor/monitoritem/monitoritemlist.htm")

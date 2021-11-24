@@ -1,0 +1,8 @@
+info:
+  company: tydic
+  product: Management platform
+  softhard: '2'
+matches: |
+  body.icontains("北京天源迪科信息技术有限公司")
+  body.icontains("casloginview")
+  body.icontains("i-verfiy")

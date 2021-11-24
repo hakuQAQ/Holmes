@@ -1,0 +1,6 @@
+info:
+  company: PCITC
+  product: PCITC-HSE-Information-Management-Platform
+  softhard: '2'
+matches: |
+  title.icontains("登录 | hse信息管理平台")

@@ -1,0 +1,6 @@
+info:
+  company: ikuai8
+  product: ikuai8-Cloud
+  softhard: '2'
+matches: |
+  body.icontains("<strong>we're sorry but ikuai cloud platform doesn't ")

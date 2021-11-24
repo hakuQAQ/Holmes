@@ -1,0 +1,6 @@
+info:
+  company: Chinaunicom software
+  product: tiangong
+  softhard: '2'
+matches: |
+  title.icontains("天宫数据管理平台")

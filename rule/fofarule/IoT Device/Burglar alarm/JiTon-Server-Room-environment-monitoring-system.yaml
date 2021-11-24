@@ -1,0 +1,8 @@
+info:
+  company: jiton
+  product: JiTon-Server-Room-environment-monitoring-system
+  softhard: '1'
+matches: |
+  title.icontains("环境监控系统")
+  body.icontains(" var ierrorcode = args.errorcode")
+  title.icontains("计通机房环境监控系统")

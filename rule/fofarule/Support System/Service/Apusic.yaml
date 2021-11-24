@@ -1,0 +1,9 @@
+info:
+  company: apusic
+  product: Apusic
+  softhard: '2'
+matches: |
+  title.icontains("欢迎使用apusic应用服务器")
+  body.icontains("<td>管理apusic应用服务器</td>")
+  header.icontains("server: apusic application server")
+  banner.icontains("server: apusic application server")

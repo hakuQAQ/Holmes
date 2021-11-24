@@ -1,0 +1,6 @@
+info:
+  company: Marcopacs
+  product: marcopacs-Product
+  softhard: '2'
+matches: |
+  body.icontains("data-redirect=\"account/systemconfiguration.aspx\"")

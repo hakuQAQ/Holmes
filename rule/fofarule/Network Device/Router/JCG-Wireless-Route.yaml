@@ -1,0 +1,7 @@
+info:
+  company: jcgcn
+  product: JCG-Wireless-Route
+  softhard: '1'
+matches: |
+  title.icontains("wireless router")
+  body.icontains("http://www.jcgcn.com")

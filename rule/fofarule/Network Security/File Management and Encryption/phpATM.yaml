@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: phpATM
+  softhard: '2'
+matches: |
+  body.icontains("src=\"viewer_bottom.php?file=")
+  body.icontains("powered by phpatm")
+  body.icontains("powered by php advanced transfer manager")

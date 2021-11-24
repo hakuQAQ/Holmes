@@ -1,0 +1,9 @@
+info:
+  company: QNO
+  product: QNO-GQF500-Router
+  softhard: '1'
+matches: |
+  banner.icontains("gqf500")
+  header.icontains("realm=\"gqf500")
+  header.icontains("realm=\"gqf500_4wan_gigabit_router")
+  banner.icontains("realm=\"gqf500_4wan_gigabit_router")

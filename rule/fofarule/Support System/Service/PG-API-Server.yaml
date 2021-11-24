@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: PG-API-Server
+  softhard: '2'
+matches: |
+  header.icontains("pg api server")
+  header.icontains("pgapiserv")
+  banner.icontains("pg api server") && banner.icontains("pgapiserv")

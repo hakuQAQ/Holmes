@@ -1,0 +1,6 @@
+info:
+  company: SOMANSA Co., Ltd.
+  product: SOMANSA-DLP+Center
+  softhard: '2'
+matches: |
+  body.icontains("<a href=\"/dlpcenter/\" class=\"btn dlpcenter\">")

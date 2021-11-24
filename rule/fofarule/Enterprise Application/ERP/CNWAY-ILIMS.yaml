@@ -1,0 +1,7 @@
+info:
+  company: cnway
+  product: CNWAY-ILIMS
+  softhard: '2'
+matches: |
+  body.icontains("src=\"/extjs/adapter/ext/ext-base-js")
+  body.icontains("/js/allpagefunction.js")

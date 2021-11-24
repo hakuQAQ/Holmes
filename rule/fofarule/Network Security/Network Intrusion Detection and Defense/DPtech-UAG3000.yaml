@@ -1,0 +1,6 @@
+info:
+  company: dptech
+  product: DPtech-UAG3000
+  softhard: '1'
+matches: |
+  banner.icontains("dptech uag3000")

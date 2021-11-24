@@ -1,0 +1,7 @@
+info:
+  company: International Business Machines Corporation
+  product: IBM-x3650
+  softhard: '1'
+matches: |
+  banner.icontains("ibm system x3650")
+  cert.icontains("ibm system x3650")

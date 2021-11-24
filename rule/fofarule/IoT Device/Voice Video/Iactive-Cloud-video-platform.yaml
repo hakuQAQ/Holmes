@@ -1,0 +1,7 @@
+info:
+  company: iactive
+  product: Iactive-Cloud-video-platform
+  softhard: '1'
+matches: |
+  title == "acenter" && body.icontains("/js/roomheight.js")
+  body.icontains("meetingshow!show.action")

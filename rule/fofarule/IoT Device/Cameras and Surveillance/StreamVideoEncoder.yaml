@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: StreamVideoEncoder
+  softhard: '1'
+matches: |
+  body.icontains("流媒体编码器专业版</span>")

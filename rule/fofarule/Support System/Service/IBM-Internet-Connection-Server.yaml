@@ -1,0 +1,7 @@
+info:
+  company: International Business Machines Corporation
+  product: IBM-Internet-Connection-Server
+  softhard: '1'
+matches: |
+  header.icontains("server: ibm internet connection server")
+  banner.icontains("server: ibm internet connection server")

@@ -1,0 +1,8 @@
+info:
+  company: radvision
+  product: RADVISION-Video-Conferencing
+  softhard: '1'
+matches: |
+  title.icontains("welcome to radvision")
+  body.icontains("/icm/image/login/network_manager-radvision.jpg")
+  body.icontains("window.location=\"login/aelogin.php\";")

@@ -1,0 +1,6 @@
+info:
+  company: United Gulf Gate Trd. Co.
+  product: XonTel-Network-Camera
+  softhard: '1'
+matches: |
+  title.icontains("xontel network camera")

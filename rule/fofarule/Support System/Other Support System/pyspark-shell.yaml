@@ -1,0 +1,6 @@
+info:
+  company: Apache Spark
+  product: pyspark-shell
+  softhard: '2'
+matches: |
+  title.icontains("pyspark-shell")

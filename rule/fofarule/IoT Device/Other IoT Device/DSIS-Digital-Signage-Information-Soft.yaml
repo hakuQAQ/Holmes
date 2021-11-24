@@ -1,0 +1,7 @@
+info:
+  company: sangame
+  product: DSIS-Digital-Signage-Information-Soft
+  softhard: '1'
+matches: |
+  title == "欢迎使用多媒体发布系统" && body.icontains("content=\"数游dsis多媒体信息发布系统")
+  title.icontains("数游ds-is数字标牌软件")

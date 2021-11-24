@@ -1,0 +1,8 @@
+info:
+  company: dnion
+  product: Dnion-CDN
+  softhard: '2'
+matches: |
+  header.icontains("dnion")
+  header.icontains("fastcdn.com")
+  banner.icontains("server: dnion") && header.icontains("dnionos") && banner.icontains("server: dnionos")

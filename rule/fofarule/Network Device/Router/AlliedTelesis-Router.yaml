@@ -1,0 +1,6 @@
+info:
+  company: Allied Telesis, Inc.
+  product: AlliedTelesis-Router
+  softhard: '1'
+matches: |
+  banner.icontains("allied telesis router/switch")

@@ -1,0 +1,6 @@
+info:
+  company: BENQ Corporation
+  product: BenQ-W2000
+  softhard: '1'
+matches: |
+  banner.icontains("w2000 microsoft ftp")

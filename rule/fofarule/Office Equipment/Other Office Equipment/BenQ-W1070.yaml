@@ -1,0 +1,6 @@
+info:
+  company: BENQ Corporation
+  product: BenQ-W1070
+  softhard: '1'
+matches: |
+  banner.icontains("w1070")

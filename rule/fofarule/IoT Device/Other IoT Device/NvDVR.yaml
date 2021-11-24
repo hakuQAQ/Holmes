@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: NvDVR
+  softhard: '1'
+matches: |
+  title.icontains("xwebplay")

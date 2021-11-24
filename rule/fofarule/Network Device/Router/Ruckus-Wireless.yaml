@@ -1,0 +1,12 @@
+info:
+  company: COMMSCOPE
+  product: Ruckus-Wireless
+  softhard: '1'
+matches: |
+  body.icontains("alt=\"ruckus wireless\" title=\"ruckus wireless")
+  body.icontains("mon.  tell me your username")
+  title.icontains("ruckus wireless")
+  header.icontains("ruckuswireless")
+  banner.icontains("ruckuswireless")
+  banner.icontains("ruckus wireless ")
+  title.icontains("ruckus wireless")

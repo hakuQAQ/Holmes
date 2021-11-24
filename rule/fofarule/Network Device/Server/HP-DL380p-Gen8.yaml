@@ -1,0 +1,6 @@
+info:
+  company: Hewlett Packard Enterprise Development LP
+  product: HP-DL380p-Gen8
+  softhard: '1'
+matches: |
+  banner.icontains("dl380p-gen8")

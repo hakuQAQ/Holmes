@@ -1,0 +1,6 @@
+info:
+  company: xhlis
+  product: xhlis-RuleManager
+  softhard: '2'
+matches: |
+  title.icontains("杏和智能规则管理")

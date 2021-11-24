@@ -1,0 +1,8 @@
+info:
+  company: mSHIFT, Inc.
+  product: MShift
+  softhard: '2'
+matches: |
+  body.icontains("powered by mshift&reg")
+  header.icontains("dcttype=1;")
+  banner.icontains("dcttype=1;")

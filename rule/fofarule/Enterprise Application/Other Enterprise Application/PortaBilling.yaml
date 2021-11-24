@@ -1,0 +1,6 @@
+info:
+  company: PartaOne, Inc.
+  product: PortaBilling
+  softhard: '2'
+matches: |
+  title.icontains("portabilling -- new installation")

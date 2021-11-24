@@ -1,0 +1,6 @@
+info:
+  company: zfsoft
+  product: zfsoft-Leaingrn
+  softhard: '2'
+matches: |
+  body.icontains("href=\"/jwglxt/logo/favicon.ico\"")

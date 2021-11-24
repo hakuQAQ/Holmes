@@ -1,0 +1,6 @@
+info:
+  company: HUAWEI
+  product: HuaWei-Intelligent-Call-Center
+  softhard: '2'
+matches: |
+  title.icontains("huawei 智能呼叫中心")

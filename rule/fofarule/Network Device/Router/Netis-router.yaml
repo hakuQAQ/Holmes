@@ -1,0 +1,8 @@
+info:
+  company: netcoretec
+  product: Netis-router
+  softhard: '1'
+matches: |
+  body.icontains("script/netcore.js")
+  body.icontains("./script/logic.js")
+  body.icontains("netis")

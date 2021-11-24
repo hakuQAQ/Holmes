@@ -1,0 +1,8 @@
+info:
+  company: activeWeb GmbH.
+  product: activeWeb-Content-Server
+  softhard: '2'
+matches: |
+  body.icontains("awnocachebegin__awnocachebegin__awnocachebegin__awnocachebegin__awnocachebegin")
+  header.icontains("x-awcache") && banner.icontains("x-awcache")
+  body.icontains("activeweb cache extension")

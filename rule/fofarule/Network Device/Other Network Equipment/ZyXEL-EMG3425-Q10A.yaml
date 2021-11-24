@@ -1,0 +1,7 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-EMG3425-Q10A
+  softhard: '1'
+matches: |
+  body.icontains("class=\"modelname\">emg3425-q10a<")
+  banner.icontains("emg3425-q10a")

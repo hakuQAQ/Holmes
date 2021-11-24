@@ -1,0 +1,12 @@
+info:
+  company: Citrix Systems, Inc.
+  product: Citrix-Netscaler
+  softhard: '2'
+matches: |
+  header.icontains("ns_af")
+  header.icontains("ns-cache")
+  header.icontains("set-cookie: citrix_ns_id")
+  banner.icontains("netscaler ns10.1")
+  banner.icontains("netscaler ns10.5")
+  title.icontains("citrix login")
+  body.icontains("netscape/firefox/opera")

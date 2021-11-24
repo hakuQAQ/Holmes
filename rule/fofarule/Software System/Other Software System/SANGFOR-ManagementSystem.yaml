@@ -1,0 +1,8 @@
+info:
+  company: Sangfor
+  product: SANGFOR-ManagementSystem
+  softhard: '2'
+matches: |
+  body.icontains("/cgi-bin/login.cgi?requestname=")
+  body.icontains("var msg = '对不起，集中管理平台暂不支持您当前使用的浏览器")
+  body.icontains("var msg = '对不起, '+str+'暂不支持您当前使用的浏览器")

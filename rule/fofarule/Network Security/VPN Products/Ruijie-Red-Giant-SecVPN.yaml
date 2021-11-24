@@ -1,0 +1,6 @@
+info:
+  company: Ruijie
+  product: Ruijie-Red-Giant-SecVPN
+  softhard: '1'
+matches: |
+  banner.icontains("red-giant secvpn series")

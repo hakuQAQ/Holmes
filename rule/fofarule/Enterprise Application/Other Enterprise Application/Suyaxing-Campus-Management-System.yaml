@@ -1,0 +1,6 @@
+info:
+  company: suyaxing
+  product: Suyaxing-Campus-Management-System
+  softhard: '2'
+matches: |
+  body.icontains("/ws2004/public/")

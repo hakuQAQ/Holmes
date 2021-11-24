@@ -1,0 +1,6 @@
+info:
+  company: Lexmark International, Inc.
+  product: Lexmark-Company's-product
+  softhard: '1'
+matches: |
+  banner.icontains("lexmark ")

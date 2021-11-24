@@ -1,0 +1,6 @@
+info:
+  company: Chinaunicom software
+  product: Mesosphere DC/OS
+  softhard: '2'
+matches: |
+  title.icontains("天宫dc/os")

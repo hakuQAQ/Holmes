@@ -1,0 +1,6 @@
+info:
+  company: TOPSEC
+  product: Topsec-TopAD
+  softhard: '1'
+matches: |
+  title.icontains("天融信 topad")

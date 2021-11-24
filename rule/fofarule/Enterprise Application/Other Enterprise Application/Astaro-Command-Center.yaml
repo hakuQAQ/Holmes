@@ -1,0 +1,7 @@
+info:
+  company: Sophos Technologies Pvt. Ltd.
+  product: Astaro-Command-Center
+  softhard: '2'
+matches: |
+  body.icontains("/js/_variables_from_backend.js?")
+  body.icontains("commandcenter")

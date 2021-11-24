@@ -1,0 +1,7 @@
+info:
+  company: DeleGate
+  product: DeleGate
+  softhard: '2'
+matches: |
+  header.icontains("delegate")
+  banner.icontains("server: delegate")

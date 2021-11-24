@@ -1,0 +1,10 @@
+info:
+  company: 8cms
+  product: 8cms
+  softhard: '2'
+matches: |
+  title.icontains("powered by ljcms")
+  body.icontains("/data/attachment")
+  body.icontains("http://www.itf4.cn") && body.icontains("liangjing.org")
+  body.icontains("/tpl/templets")
+  body.icontains("ljcms")

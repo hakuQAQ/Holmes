@@ -1,0 +1,7 @@
+info:
+  company: posun
+  product: POSUN-Sales
+  softhard: '2'
+matches: |
+  body.icontains("src=\"/view/static/js/eidpcommon.min.js\"")
+  body.icontains("<p>快易销公众号</p>")

@@ -1,0 +1,6 @@
+info:
+  company: Fujitsu Ltd.
+  product: FUJITSU-PRIMERGY-tx200
+  softhard: '1'
+matches: |
+  banner.icontains("primergy-tx200")

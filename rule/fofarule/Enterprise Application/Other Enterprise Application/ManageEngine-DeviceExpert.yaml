@@ -1,0 +1,10 @@
+info:
+  company: Zoho Corporation Pvt. Ltd.
+  product: ManageEngine-DeviceExpert
+  softhard: '2'
+matches: |
+  body.icontains("/deviceexpert.js")
+  title.icontains("manageengine password manager")
+  body.icontains("password manager pro does not allow")
+  body.icontains("selectpasswordpolicy")
+  body.icontains("changepasswordpolicy")

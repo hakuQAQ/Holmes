@@ -1,0 +1,6 @@
+info:
+  company: Hanwha Techwin Co., Ltd.
+  product: Hanwha-SPE-101
+  softhard: '1'
+matches: |
+  body.icontains("var defaultfilename = \"spe-101\"")

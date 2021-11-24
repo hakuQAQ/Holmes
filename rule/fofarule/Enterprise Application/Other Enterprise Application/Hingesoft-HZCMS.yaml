@@ -1,0 +1,7 @@
+info:
+  company: hingesoft
+  product: Hingesoft-HZCMS
+  softhard: '2'
+matches: |
+  body.icontains("produced by")
+  body.icontains("网站群内容管理系统")

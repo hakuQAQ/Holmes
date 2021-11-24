@@ -1,0 +1,7 @@
+info:
+  company: Sagemcom Group
+  product: Sagemcom-TR-069
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"sagemcom tr-069\"")
+  banner.icontains("realm=\"sagemcom tr-069\"")

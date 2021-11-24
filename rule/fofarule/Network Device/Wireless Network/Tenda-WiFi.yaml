@@ -1,0 +1,7 @@
+info:
+  company: Shenzhen Tenda Technology Co.,Ltd
+  product: Tenda-WiFi
+  softhard: '1'
+matches: |
+  body.icontains("src=\"img/logo-inverse.png\" alt=\"tenda logo\"")
+  title.icontains("repeater")

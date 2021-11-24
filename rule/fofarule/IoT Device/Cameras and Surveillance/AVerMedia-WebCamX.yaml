@@ -1,0 +1,7 @@
+info:
+  company: AVerMedia Technologies, Inc.
+  product: AVerMedia-WebCamX
+  softhard: '1'
+matches: |
+  body.icontains("id='webcamx'")
+  body.icontains("depending on the internet bandwidth, it might take a few minutes to download the software.")

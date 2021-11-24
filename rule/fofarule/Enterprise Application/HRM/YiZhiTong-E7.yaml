@@ -1,0 +1,6 @@
+info:
+  company: YiZhiTong
+  product: YiZhiTong-E7
+  softhard: '2'
+matches: |
+  body.icontains("name=\"hidden_isbiaozhun\"")

@@ -1,0 +1,11 @@
+info:
+  company: Apache Software Foundation.
+  product: Apache-Web-Server
+  softhard: '2'
+matches: |
+  header.icontains("apache")
+  header.icontains("apache-coyote")
+  header.icontains("covalentsnmp") && header.icontains("httpd") && banner.icontains("server: httpd")
+  banner.icontains("server: apache")
+  banner.icontains("apache-coyote")
+  banner.icontains("covalentsnmp")

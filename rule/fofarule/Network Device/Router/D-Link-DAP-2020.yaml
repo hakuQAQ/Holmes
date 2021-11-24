@@ -1,0 +1,6 @@
+info:
+  company: D-Link
+  product: D-Link-DAP-2020
+  softhard: '1'
+matches: |
+  body.icontains("<a href=\"http://www.dlink.com.tw\" target=_blank>dap-2020")

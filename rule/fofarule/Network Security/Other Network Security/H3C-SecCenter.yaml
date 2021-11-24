@@ -1,0 +1,9 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-SecCenter
+  softhard: '1'
+matches: |
+  body.icontains("请登录后使用seccenter安全管理中心")
+  body.icontains("background=\"/seccenter/img/index_02.gif")
+  body.icontains("src=\"/seccenter/img/logo.gif")
+  body.icontains("window.top.location='/seccenter/index.jsp';")

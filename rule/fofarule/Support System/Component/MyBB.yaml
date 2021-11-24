@@ -1,0 +1,10 @@
+info:
+  company: Other
+  product: MyBB
+  softhard: '2'
+matches: |
+  body.icontains("powered by <a href=\"http://www.mybboard.com")
+  body.icontains("<!-- mybb is free software developed and maintained")
+  body.icontains("visibility of the mybb copyright at any time")
+  body.icontains("onchange=\"mybb.changelanguage();")
+  header.icontains(" mybb[lastvisit]=")

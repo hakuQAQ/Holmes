@@ -1,0 +1,7 @@
+info:
+  company: IndusGuard
+  product: IndusGuard-WAF
+  softhard: '2'
+matches: |
+  title.icontains("indusguard waf")
+  body.icontains("wafportal/wafportal.nocache.js")

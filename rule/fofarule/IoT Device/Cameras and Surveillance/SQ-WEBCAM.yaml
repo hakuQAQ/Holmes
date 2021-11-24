@@ -1,0 +1,7 @@
+info:
+  company: Brivo Inc.
+  product: SQ-WEBCAM
+  softhard: '1'
+matches: |
+  header.icontains("server: sq-webcam")
+  banner.icontains("server: sq-webcam")

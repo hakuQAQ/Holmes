@@ -1,0 +1,8 @@
+info:
+  company: zkteco
+  product: Entrance-Guard-system
+  softhard: '2'
+matches: |
+  body.icontains("/media/images/zkeco16.ico")
+  header.icontains("sessionidadms")
+  title.icontains("考勤管理系统")

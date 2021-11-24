@@ -1,0 +1,7 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-Gateway
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"amg1001-")
+  banner.icontains("realm=\"amg1001-")

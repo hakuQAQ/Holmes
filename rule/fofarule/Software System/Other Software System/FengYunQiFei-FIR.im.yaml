@@ -1,0 +1,7 @@
+info:
+  company: FengYunQiFei
+  product: FengYunQiFei-FIR.im
+  softhard: '2'
+matches: |
+  body.icontains("href=\"android/com.apsp.xnmdm-signed.apk\"")
+  title.icontains("客户端")

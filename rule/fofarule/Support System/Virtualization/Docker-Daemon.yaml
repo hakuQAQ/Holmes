@@ -1,0 +1,8 @@
+info:
+  company: Docker，Inc
+  product: Docker-Daemon
+  softhard: '2'
+matches: |2
+
+  header.icontains("content-length:19")
+  header.icontains("text/plain")

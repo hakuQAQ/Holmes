@@ -1,0 +1,8 @@
+info:
+  company: TKH Security Solutions.
+  product: Siqura-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"siqura") && banner.icontains("realm=\"siqura")
+  body.icontains("class=\"small\">powered by siqura")
+  body.icontains("<img src='../common/logo_siqura.jpg'")

@@ -1,0 +1,8 @@
+info:
+  company: Accellion，Inc.
+  product: Accellion-Secure-File-Transfer
+  softhard: '2'
+matches: |
+  header.icontains("sfcurl=deleted;")
+  banner.icontains("sfcurl=deleted;")
+  body.icontains("secured by accellion")

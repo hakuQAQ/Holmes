@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: Somfy-Product
+  softhard: '0'
+matches: |
+  title == "somfy" && title.icontains("centrale")
+  body.icontains("somfy") && body.icontains("copyright")

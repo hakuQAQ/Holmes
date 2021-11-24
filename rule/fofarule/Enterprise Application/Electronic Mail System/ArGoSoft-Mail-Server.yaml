@@ -1,0 +1,7 @@
+info:
+  company: ArGo Software Design
+  product: ArGoSoft-Mail-Server
+  softhard: '2'
+matches: |
+  header.icontains("argosoft mail server") && body.icontains("argosoft mail server plus for")
+  banner.icontains("argosoft mail server") && title.icontains("argosoft mail server")

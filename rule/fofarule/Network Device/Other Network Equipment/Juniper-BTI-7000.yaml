@@ -1,0 +1,6 @@
+info:
+  company: Juniper Networks, Inc.
+  product: Juniper-BTI-7000
+  softhard: '1'
+matches: |
+  banner.icontains("bti systems.;bti 7000")

@@ -1,0 +1,6 @@
+info:
+  company: Avaya Inc.
+  product: Nortel-Business-Policy-Switch-2000
+  softhard: '1'
+matches: |
+  banner.icontains("business policy switch 2000")

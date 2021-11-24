@@ -1,0 +1,7 @@
+info:
+  company: FutureSystems Inc.
+  product: FutureSystems-WeGuardia-SSLplus
+  softhard: '1'
+matches: |
+  body.icontains("id=\"tsgssl\"")
+  body.icontains("sslplus")

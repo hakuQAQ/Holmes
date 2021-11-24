@@ -1,0 +1,9 @@
+info:
+  company: Synology Inc.
+  product: Synology-NAS
+  softhard: '1'
+matches: |
+  body.icontains("content=\"diskstation")
+  body.icontains("nas") && title.icontains("synology diskstation")
+  body.icontains("content=\"synology diskstation")
+  banner.icontains("diskstation") && body.icontains("content=\"synology nas 提供功能完整的网络存储")

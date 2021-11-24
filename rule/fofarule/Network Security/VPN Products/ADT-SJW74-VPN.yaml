@@ -1,0 +1,7 @@
+info:
+  company: adtsec
+  product: ADT-SJW74-VPN
+  softhard: '1'
+matches: |
+  body.icontains("src=\"./system/usbkey.js\"")
+  body.icontains("sjw74")

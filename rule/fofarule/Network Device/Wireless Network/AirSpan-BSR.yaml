@@ -1,0 +1,6 @@
+info:
+  company: Airspan Networks
+  product: AirSpan-BSR
+  softhard: '1'
+matches: |
+  banner.icontains("airspan - wipll bsr")

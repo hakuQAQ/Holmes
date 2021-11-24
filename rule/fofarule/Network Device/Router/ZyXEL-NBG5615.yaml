@@ -1,0 +1,6 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-NBG5615
+  softhard: '1'
+matches: |
+  body.icontains("<li class=\"modelname\">nbg5615</li>")

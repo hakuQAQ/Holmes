@@ -1,0 +1,6 @@
+info:
+  company: IQinVision, Inc.
+  product: IQinVision-IQeye710D
+  softhard: '1'
+matches: |
+  title.icontains("iqeye710d")

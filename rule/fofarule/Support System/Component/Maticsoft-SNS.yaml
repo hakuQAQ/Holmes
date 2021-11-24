@@ -1,0 +1,8 @@
+info:
+  company: maticsoft
+  product: Maticsoft-SNS
+  softhard: '2'
+matches: |
+  body.icontains("maticsoftsns")
+  body.icontains("maticsoft")
+  body.icontains("/areas/sns/")

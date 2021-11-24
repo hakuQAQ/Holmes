@@ -1,0 +1,8 @@
+info:
+  company: Oki Electric Industry Co., Ltd.
+  product: OKI-Printer
+  softhard: '1'
+matches: |
+  header.icontains("okidata-httpd")
+  banner.icontains("oki okilan ")
+  banner.icontains("printserver")

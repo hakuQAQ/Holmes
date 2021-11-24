@@ -1,0 +1,8 @@
+info:
+  company: Siemens AG.
+  product: Siemens-Router
+  softhard: '1'
+matches: |
+  header.icontains("basic realm=\"siemens adsl")
+  banner.icontains("siemens ")
+  banner.icontains("router")

@@ -1,0 +1,8 @@
+info:
+  company: Grandstream Networks, Inc.
+  product: Grandstream-IP-Phone
+  softhard: '1'
+matches: |
+  body.icontains("__gwt_historyframe")
+  title.icontains("loading web application")
+  body.icontains("webapp/webapp.nocache.js")

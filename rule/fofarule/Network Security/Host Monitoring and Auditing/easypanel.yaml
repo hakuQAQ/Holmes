@@ -1,0 +1,6 @@
+info:
+  company: Bangteng Inc.
+  product: easypanel
+  softhard: '2'
+matches: |
+  body.icontains("/vhost/view/default/style/login.css")

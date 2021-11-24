@@ -1,0 +1,10 @@
+info:
+  company: kedacom
+  product: Kedacom-DVR-Access-gateway
+  softhard: '1'
+matches: |
+  title.icontains("欢迎使用dvr接入网关")
+  body.icontains("classid=\"clsid:23cf673f-3fe7-467d-aa36-d2aa72d5361b")
+  body.icontains("src='images/ind_log_kedacom.png')")
+  body.icontains("苏州科达科技有限公司")
+  body.icontains("/kdc/")

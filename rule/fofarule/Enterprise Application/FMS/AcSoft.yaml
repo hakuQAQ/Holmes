@@ -1,0 +1,9 @@
+info:
+  company: haidilao
+  product: AcSoft
+  softhard: '2'
+matches: |
+  title.icontains("费用报销系统")
+  body.icontains("login_1\">ca密码")
+  body.icontains("window.external.addfavorite")
+  body.icontains("安财")

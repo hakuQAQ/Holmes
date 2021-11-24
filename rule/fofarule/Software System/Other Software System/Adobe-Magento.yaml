@@ -1,0 +1,9 @@
+info:
+  company: Magento Inc.
+  product: Adobe-Magento
+  softhard: '2'
+matches: |
+  body.icontains("/skin/frontend/")
+  body.icontains("blank_img")
+  body.icontains("magento, varien, e-commerce") && header.icontains("redkiwi-cloud")
+  banner.icontains("redkiwi-cloud")

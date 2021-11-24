@@ -1,0 +1,7 @@
+info:
+  company: Oracle Corporation
+  product: Sun-Web-Server
+  softhard: '2'
+matches: |
+  header.icontains("server: sun-web-server")
+  banner.icontains("server: sun-web-server")

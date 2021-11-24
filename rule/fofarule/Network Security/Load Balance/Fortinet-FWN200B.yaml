@@ -1,0 +1,6 @@
+info:
+  company: Fortinet, Inc.
+  product: Fortinet-FWN200B
+  softhard: '1'
+matches: |
+  banner.icontains("fwn200b")

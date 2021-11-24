@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Hiki
+  softhard: '2'
+matches: |
+  body.icontains("content=\"hiki")
+  body.icontains("/hiki_base.css")
+  body.icontains("by <a href=\"http://hikiwiki.org/")

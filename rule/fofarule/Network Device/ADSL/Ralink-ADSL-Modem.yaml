@@ -1,0 +1,6 @@
+info:
+  company: MediaTek Inc.
+  product: Ralink-ADSL-Modem
+  softhard: '1'
+matches: |
+  banner.icontains("ralink adsl modem")

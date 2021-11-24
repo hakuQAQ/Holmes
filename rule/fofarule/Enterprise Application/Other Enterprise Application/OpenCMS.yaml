@@ -1,0 +1,7 @@
+info:
+  company: Alkacon Software GmbH
+  product: OpenCMS
+  softhard: '2'
+matches: |
+  body.icontains("content=\"opencms")
+  body.icontains("powered by opencms")

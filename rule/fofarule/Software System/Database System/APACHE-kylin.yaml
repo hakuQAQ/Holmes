@@ -1,0 +1,7 @@
+info:
+  company: Apache Software Foundation.
+  product: APACHE-kylin
+  softhard: '2'
+matches: |
+  body.icontains("href=\"/kylin/\"")
+  body.icontains("to you under the apache license")

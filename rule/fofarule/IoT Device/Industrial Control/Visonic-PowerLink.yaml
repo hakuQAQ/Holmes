@@ -1,0 +1,6 @@
+info:
+  company: Tyco International Ltd.
+  product: Visonic-PowerLink
+  softhard: '1'
+matches: |
+  title.icontains("visonic powerlink")

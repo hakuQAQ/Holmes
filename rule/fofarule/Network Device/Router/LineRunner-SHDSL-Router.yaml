@@ -1,0 +1,6 @@
+info:
+  company: Teletra Komtrans
+  product: LineRunner-SHDSL-Router
+  softhard: '1'
+matches: |
+  banner.icontains("device: linerunner shdsl router; ")

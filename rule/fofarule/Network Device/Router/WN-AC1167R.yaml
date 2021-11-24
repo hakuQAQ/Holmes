@@ -1,0 +1,6 @@
+info:
+  company: I-O DATA DEVICE, INC.
+  product: WN-AC1167R
+  softhard: '1'
+matches: |
+  title.icontains("wn-ac1167r")

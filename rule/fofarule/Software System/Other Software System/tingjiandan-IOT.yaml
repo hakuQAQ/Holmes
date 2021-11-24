@@ -1,0 +1,6 @@
+info:
+  company: tingjiandan
+  product: tingjiandan-IOT
+  softhard: '2'
+matches: |
+  body.icontains("id=\"hwebsystemtitle\"")

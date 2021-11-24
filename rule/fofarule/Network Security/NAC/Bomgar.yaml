@@ -1,0 +1,7 @@
+info:
+  company: BeyondTrust Corporation
+  product: Bomgar
+  softhard: '1'
+matches: |
+  body.icontains("alt=\"remote support by bomgar")
+  body.icontains("<a href=\"http://www.bomgar.com/products\" class=\"inverse")

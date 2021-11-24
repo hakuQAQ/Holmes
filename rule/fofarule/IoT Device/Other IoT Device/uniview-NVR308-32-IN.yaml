@@ -1,0 +1,6 @@
+info:
+  company: uniview
+  product: uniview-NVR308-32-IN
+  softhard: '1'
+matches: |
+  title.icontains("nvr308-32-in")

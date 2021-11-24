@@ -1,0 +1,6 @@
+info:
+  company: CP PLUS GmbH & Co. KG.
+  product: CP_PLUS-webcam
+  softhard: '1'
+matches: |
+  title.icontains("cpplus remote – web view")

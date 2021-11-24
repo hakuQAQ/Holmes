@@ -1,0 +1,7 @@
+info:
+  company: '360'
+  product: 360WiFi-Expander
+  softhard: '1'
+matches: |
+  title.icontains("360wifi扩展器") && body.icontains("id=\"slogan\">欢迎使用360wifi扩展器</div>")
+  body.icontains("srouter_360r1_ios")

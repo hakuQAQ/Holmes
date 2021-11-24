@@ -1,0 +1,6 @@
+info:
+  company: HUAWEI
+  product: HuaWei-Agile-Controller
+  softhard: '2'
+matches: |
+  title.icontains("agile controller login")

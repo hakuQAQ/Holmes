@@ -1,0 +1,6 @@
+info:
+  company: wdlinux
+  product: WDCP-Management-System
+  softhard: '2'
+matches: |
+  title.icontains("wdcp服务器") && title.icontains("lanmp_wdcp 安装成功")

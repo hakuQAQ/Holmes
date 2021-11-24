@@ -1,0 +1,6 @@
+info:
+  company: Eaton.
+  product: Eaton-EX-1500-RT2U
+  softhard: '1'
+matches: |
+  banner.icontains("ex 1500 rt2u")

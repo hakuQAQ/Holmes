@@ -1,0 +1,6 @@
+info:
+  company: Ruijie
+  product: Ruijie-Employee-Internet-Management
+  softhard: '1'
+matches: |
+  body.icontains("webui/images/ruijie") && title.icontains("统一上网")

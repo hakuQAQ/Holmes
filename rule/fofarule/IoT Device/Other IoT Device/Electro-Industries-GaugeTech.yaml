@@ -1,0 +1,7 @@
+info:
+  company: Electro Industries/GaugeTech Inc.
+  product: Electro-Industries-GaugeTech
+  softhard: '1'
+matches: |
+  header.icontains("server: eig embedded web server")
+  banner.icontains("server: eig embedded web server")

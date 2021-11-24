@@ -1,0 +1,6 @@
+info:
+  company: EFM Networks Co.,Ltd.
+  product: EFM-Networks-ipTIME-N104R3
+  softhard: '1'
+matches: |
+  body.icontains("src =\"/images/login_title_n104r3.gif\"")

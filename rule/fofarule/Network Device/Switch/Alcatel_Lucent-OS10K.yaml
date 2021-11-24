@@ -1,0 +1,6 @@
+info:
+  company: Alcatel-Lucent S.A.
+  product: Alcatel_Lucent-OS10K
+  softhard: '1'
+matches: |
+  body.icontains("<span>device os10k")

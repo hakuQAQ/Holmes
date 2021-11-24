@@ -1,0 +1,6 @@
+info:
+  company: VMware, Inc.
+  product: VMware-Certification-Services
+  softhard: '2'
+matches: |
+  protocol.icontains("vmware_authentication_daemon")

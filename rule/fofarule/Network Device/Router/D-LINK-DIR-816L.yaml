@@ -1,0 +1,7 @@
+info:
+  company: D-Link
+  product: D-LINK-DIR-816L
+  softhard: '1'
+matches: |
+  body.icontains("<div class=\"modelname\">dir-816l")
+  body.icontains(">product page : dir-816l<a href=\"javascript:check_is_modified('http://support.dlink.com/')\">")

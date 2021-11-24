@@ -1,0 +1,6 @@
+info:
+  company: tg-net
+  product: TG-REC1550-series-router
+  softhard: '1'
+matches: |
+  banner.icontains("tg-net rec1550 series router")

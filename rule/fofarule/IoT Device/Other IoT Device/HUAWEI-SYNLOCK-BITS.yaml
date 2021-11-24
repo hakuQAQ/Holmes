@@ -1,0 +1,6 @@
+info:
+  company: Huawei
+  product: HUAWEI-SYNLOCK-BITS
+  softhard: '1'
+matches: |
+  banner.icontains("huawei synlock bits")

@@ -1,0 +1,7 @@
+info:
+  company: Paessler AG
+  product: PRTG-Network-Monitor
+  softhard: '2'
+matches: |
+  title.icontains("prtg network monitor")
+  header.icontains("prtg") && body.icontains("href=\"/css/prtgmini.css?prtgversion=")

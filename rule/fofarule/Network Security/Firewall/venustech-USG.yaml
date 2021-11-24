@@ -1,0 +1,8 @@
+info:
+  company: venustech
+  product: venustech-USG
+  softhard: '1'
+matches: |
+  title.icontains("天清汉马usg")
+  body.icontains("var hasloading = $changeyzm.is(\".item_code_loading\")")
+  body.icontains("span id=\"changeyzm\"")

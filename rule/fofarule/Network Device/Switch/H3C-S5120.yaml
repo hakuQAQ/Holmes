@@ -1,0 +1,7 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-S5120
+  softhard: '1'
+matches: |
+  banner.icontains("h3c switch s5120")
+  banner.icontains("h3c s5120")

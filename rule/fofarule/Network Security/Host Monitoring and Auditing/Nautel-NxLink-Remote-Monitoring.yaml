@@ -1,0 +1,6 @@
+info:
+  company: Nautel
+  product: Nautel-NxLink-Remote-Monitoring
+  softhard: '1'
+matches: |
+  banner.icontains("nautel nxlink remote monitoring and control device")

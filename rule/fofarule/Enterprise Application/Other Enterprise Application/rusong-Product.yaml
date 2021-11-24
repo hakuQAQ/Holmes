@@ -1,0 +1,6 @@
+info:
+  company: rusong
+  product: rusong-Product
+  softhard: '2'
+matches: |
+  body.icontains("plugins/wbb/barrett.js")

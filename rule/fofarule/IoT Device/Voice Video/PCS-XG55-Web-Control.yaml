@@ -1,0 +1,7 @@
+info:
+  company: Sony Corporation
+  product: PCS-XG55-Web-Control
+  softhard: '2'
+matches: |
+  header.icontains("realm=\"pcs-xg55 web control")
+  banner.icontains("realm=\"pcs-xg55 web control")

@@ -1,0 +1,6 @@
+info:
+  company: konka
+  product: KONKA-TV-2969
+  softhard: '1'
+matches: |
+  banner.icontains("konka android tv 2969")

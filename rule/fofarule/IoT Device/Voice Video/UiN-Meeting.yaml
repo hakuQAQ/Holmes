@@ -1,0 +1,6 @@
+info:
+  company: uin
+  product: UiN-Meeting
+  softhard: '2'
+matches: |
+  body.icontains("uin.plist")

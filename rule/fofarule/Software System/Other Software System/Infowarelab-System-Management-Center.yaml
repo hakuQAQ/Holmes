@@ -1,0 +1,6 @@
+info:
+  company: infowarelab
+  product: Infowarelab-System-Management-Center
+  softhard: '2'
+matches: |
+  body.icontains("class=\"main_loginbar") && body.icontains("<div class=\"main_supporterbar\">")

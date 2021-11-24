@@ -1,0 +1,10 @@
+info:
+  company: Fortinet, Inc.
+  product: Fortinet-Firewall
+  softhard: '1'
+matches: |
+  body.icontains("str_table.mail_token_msg")
+  body.icontains("fortitoken")
+  body.icontains("array") && body.icontains("and crack_kbd_event from jsconsole.js")
+  body.icontains("export_symbol try_login")
+  body.icontains("ajax login")

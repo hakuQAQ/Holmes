@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Softbiz-Online-Auctions-Script
+  softhard: '2'
+matches: |
+  body.icontains("powered by <a href=\"http://www.softbizscripts.com")

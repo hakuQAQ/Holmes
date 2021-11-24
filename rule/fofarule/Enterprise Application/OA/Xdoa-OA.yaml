@@ -1,0 +1,7 @@
+info:
+  company: xdoa
+  product: Xdoa-OA
+  softhard: '2'
+matches: |
+  body.icontains("http://www.xdoa.cn</a>")
+  body.icontains("北京创信达科技有限公司")

@@ -1,0 +1,8 @@
+info:
+  company: Six Apart，Ltd
+  product: Movable-Type
+  softhard: '2'
+matches: |
+  body.icontains("movable type version")
+  body.icontains("content=\"movable type")
+  body.icontains("rel=\"generator\">movable type")

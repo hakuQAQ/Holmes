@@ -1,0 +1,6 @@
+info:
+  company: acsno
+  product: ACSNO-Network-Probe
+  softhard: '2'
+matches: |
+  title.icontains("探针管理与测试系统-登录界面")

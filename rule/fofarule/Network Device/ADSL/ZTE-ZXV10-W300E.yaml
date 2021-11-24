@@ -1,0 +1,7 @@
+info:
+  company: ZTE
+  product: ZTE-ZXV10-W300E
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"zxv10 w300e")
+  banner.icontains("realm=\"zxv10 w300e")

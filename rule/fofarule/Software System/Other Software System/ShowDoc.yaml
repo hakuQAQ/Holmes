@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: ShowDoc
+  softhard: '2'
+matches: |
+  title.icontains("showdoc")

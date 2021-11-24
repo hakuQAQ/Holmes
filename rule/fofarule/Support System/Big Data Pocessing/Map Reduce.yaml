@@ -1,0 +1,7 @@
+info:
+  company: Apache Software Foundation.
+  product: Map/Reduce
+  softhard: '2'
+matches: |
+  header.icontains("mapreduce")
+  body.icontains("it looks like you are making an http request to a hadoop ipc port")

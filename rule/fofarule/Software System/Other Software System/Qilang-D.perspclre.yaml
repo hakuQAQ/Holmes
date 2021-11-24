@@ -1,0 +1,6 @@
+info:
+  company: qilang88
+  product: Qilang-D.perspclre
+  softhard: '2'
+matches: |
+  title.icontains("d.perspclre")

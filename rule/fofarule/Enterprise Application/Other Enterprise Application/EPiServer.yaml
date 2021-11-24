@@ -1,0 +1,8 @@
+info:
+  company: Episerver Inc.
+  product: EPiServer
+  softhard: '2'
+matches: |
+  body.icontains("content=\"episerver")
+  body.icontains("/javascript/episerverscriptmanager.js")
+  header.icontains("episerver")

@@ -1,0 +1,6 @@
+info:
+  company: Dahua
+  product: dahua-DH-NVR4108HS-8P-4KS2
+  softhard: '1'
+matches: |
+  banner.icontains("dh-nvr4108hs-8p-4ks2")

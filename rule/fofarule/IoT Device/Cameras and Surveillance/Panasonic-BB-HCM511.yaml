@@ -1,0 +1,7 @@
+info:
+  company: Panasonic Corporation
+  product: Panasonic-BB-HCM511
+  softhard: '1'
+matches: |
+  header.icontains("basic realm=\"generaluser/administrator\"")
+  banner.icontains("basic realm=\"generaluser/administrator\"")

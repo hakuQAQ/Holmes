@@ -1,0 +1,7 @@
+info:
+  company: Allied Telesis, Inc.
+  product: CentreCOM-AR-Routor
+  softhard: '1'
+matches: |
+  body.icontains("centrecom&reg; ar260s v2</span>")
+  body.icontains("centrecom&reg; arx640s</span>")

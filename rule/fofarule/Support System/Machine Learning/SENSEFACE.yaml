@@ -1,0 +1,7 @@
+info:
+  company: sensetime
+  product: SENSEFACE
+  softhard: '1'
+matches: |
+  body.icontains("class=\"copyright\" href=\"http://www.sensetime.com")
+  title.icontains("senseface")

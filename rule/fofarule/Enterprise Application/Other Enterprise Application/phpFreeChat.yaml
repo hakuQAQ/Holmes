@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: phpFreeChat
+  softhard: '2'
+matches: |
+  body.icontains("powered by phpfreechat")
+  body.icontains("src=\"http://www.phpfreechat.net/pub/")

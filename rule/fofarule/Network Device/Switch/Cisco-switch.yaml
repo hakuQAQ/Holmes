@@ -1,0 +1,13 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-switch
+  softhard: '1'
+matches: |
+  body.icontains("/cs8941ddbf/")
+  body.icontains("class=\"titleciscouser")
+  body.icontains("id=\"lbldevname\" class=\"titleciscolog")
+  header.icontains("realm=\"cisco css")
+  banner.icontains("realm=\"cisco css")
+  body.icontains("cisco systems")
+  body.icontains("frmwrkresource.htm")
+  body.icontains("<frame src=\"dashboard.shtml")

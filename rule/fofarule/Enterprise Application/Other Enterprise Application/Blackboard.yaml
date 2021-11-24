@@ -1,0 +1,7 @@
+info:
+  company: Blackboard Inc.
+  product: Blackboard
+  softhard: '2'
+matches: |
+  header.icontains("x-blackboard-product") && header.icontains("x-blackboard-appserver")
+  banner.icontains("x-blackboard-product") && banner.icontains("x-blackboard-appserver")

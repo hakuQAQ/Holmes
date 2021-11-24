@@ -1,0 +1,7 @@
+info:
+  company: thinputer
+  product: Server-virtualization-OVP
+  softhard: '2'
+matches: |
+  cert.icontains("cn=thinputer technology")
+  cert.icontains("cn=ovp")

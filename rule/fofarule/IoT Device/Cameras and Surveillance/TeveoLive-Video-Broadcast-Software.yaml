@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: TeveoLive-Video-Broadcast-Software
+  softhard: '1'
+matches: |
+  header.icontains("server: teveolive http server")
+  banner.icontains("server: teveolive http server")

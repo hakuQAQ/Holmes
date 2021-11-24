@@ -1,0 +1,15 @@
+info:
+  company: TMSoft Solu??es em Informática LTDA
+  product: TMSoft-MyAuth-Gateway
+  softhard: '2'
+matches: |
+  header.icontains("tmsoft solucoes (www.tmsoft.com.br)")
+  header.icontains("x-software-info myauth gateway")
+  header.icontains("x-software-owner patrick brandao")
+  header.icontains("x-manager-by myauth gateway")
+  header.icontains("set-cookie myauth")
+  banner.icontains("tmsoft solucoes (www.tmsoft.com.br)")
+  banner.icontains("x-software-info myauth gateway")
+  banner.icontains("x-software-owner patrick brandao")
+  banner.icontains("x-manager-by myauth gateway")
+  banner.icontains("set-cookie myauth")

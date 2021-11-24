@@ -1,0 +1,6 @@
+info:
+  company: dehaier
+  product: dehaier-Software
+  softhard: '2'
+matches: |
+  title.icontains("德海尔医疗管理系统")

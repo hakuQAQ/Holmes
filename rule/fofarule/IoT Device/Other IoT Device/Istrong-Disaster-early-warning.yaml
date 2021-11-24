@@ -1,0 +1,9 @@
+info:
+  company: strongsoft
+  product: Istrong-Disaster-early-warning
+  softhard: '1'
+matches: |
+  title.icontains("预警")
+  body.icontains("技术支持:福建四创")
+  body.icontains("技术支持")
+  body.icontains("福建四创软件有限公司")

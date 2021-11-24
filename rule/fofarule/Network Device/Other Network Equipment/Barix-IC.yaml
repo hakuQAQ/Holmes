@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Barix-IC
+  softhard: '1'
+matches: |
+  banner.icontains("barix annuncicom ic")

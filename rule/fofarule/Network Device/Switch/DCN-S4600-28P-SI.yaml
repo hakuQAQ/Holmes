@@ -1,0 +1,6 @@
+info:
+  company: Digital China Group Co., Ltd.
+  product: DCN-S4600-28P-SI
+  softhard: '1'
+matches: |
+  body.icontains("<b>s4600-28p-si</b>")

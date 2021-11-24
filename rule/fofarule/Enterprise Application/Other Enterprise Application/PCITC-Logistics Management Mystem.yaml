@@ -1,0 +1,6 @@
+info:
+  company: PCITC
+  product: PCITC-Logistics Management Mystem
+  softhard: '2'
+matches: |
+  body.icontains(" href=\"/newimages/login/logo_icon.ico")

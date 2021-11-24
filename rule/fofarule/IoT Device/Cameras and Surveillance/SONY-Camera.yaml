@@ -1,0 +1,7 @@
+info:
+  company: Sony Corporation
+  product: SONY-Camera
+  softhard: '1'
+matches: |
+  title.icontains("sony network camera") && body.icontains("inquiry.cgi?inqjs=system")
+  body.icontains("name=\"jsvframe") && body.icontains("setwindowvar = window.open(\"/adm/file.cgi?next_file=setting.htm\", \"adminwin\", setwinoptions);")

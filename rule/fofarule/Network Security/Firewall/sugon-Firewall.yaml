@@ -1,0 +1,6 @@
+info:
+  company: Sugon
+  product: sugon-Firewall
+  softhard: '1'
+matches: |
+  body.icontains("class=\"login_main_text\">曙光龙芯防火墙</div>")

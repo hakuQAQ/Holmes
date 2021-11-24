@@ -1,0 +1,6 @@
+info:
+  company: '360'
+  product: 360-Webscan
+  softhard: '2'
+matches: |
+  body.icontains("webscan.360.cn/status/pai/hash")

@@ -1,0 +1,10 @@
+info:
+  company: Huawei
+  product: HUAWEI-Secoway-USG2230
+  softhard: '1'
+matches: |
+  header.icontains("secoway usg2230")
+  banner.icontains("secoway usg2230")
+
+#yamlflag
+#header.icontains("set-cookie")

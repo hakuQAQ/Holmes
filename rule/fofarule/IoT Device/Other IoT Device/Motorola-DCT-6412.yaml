@@ -1,0 +1,7 @@
+info:
+  company: Motorola Solutions, Inc
+  product: Motorola-DCT-6412
+  softhard: '1'
+matches: |
+  banner.icontains("vendor: motorola corporation;")
+  banner.icontains("dct-6412")

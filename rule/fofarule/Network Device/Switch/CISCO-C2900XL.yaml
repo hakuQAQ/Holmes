@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-C2900XL
+  softhard: '1'
+matches: |
+  banner.icontains("ios (tm) c2900xl")

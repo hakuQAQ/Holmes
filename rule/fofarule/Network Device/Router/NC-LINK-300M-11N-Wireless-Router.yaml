@@ -1,0 +1,7 @@
+info:
+  company: NC-LINK Technology Co.，Ltd.
+  product: NC-LINK-300M-11N-Wireless-Router
+  softhard: '1'
+matches: |
+  body.icontains("href='img/amtc_logo.png'")
+  body.icontains("href=\"http://www.nc-link.cn/\"")

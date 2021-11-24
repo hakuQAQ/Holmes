@@ -1,0 +1,7 @@
+info:
+  company: Silex Technology, Inc.
+  product: Silex-Print-Server
+  softhard: '1'
+matches: |
+  body.icontains("silex_logo.gif")
+  header.icontains("silex web admin")

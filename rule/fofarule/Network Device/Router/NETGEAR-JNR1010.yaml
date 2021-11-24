@@ -1,0 +1,8 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-JNR1010
+  softhard: '1'
+matches: |
+  header.icontains("netgear jnr1010")
+  header.icontains("netgear  jnr1010")
+  banner.icontains("netgear jnr1010") && banner.icontains("netgear  jnr1010")

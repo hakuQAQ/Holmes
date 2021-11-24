@@ -1,0 +1,7 @@
+info:
+  company: EFM Networks
+  product: ipTIME G504
+  softhard: '1'
+matches: |
+  body.icontains("src =\"/images/login_back_g504.gif\"")
+  body.icontains("src =\"/images2/login_title.g504.gif\"")

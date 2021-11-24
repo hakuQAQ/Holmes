@@ -1,0 +1,6 @@
+info:
+  company: International Business Machines Corporation
+  product: IBM-UltraScalable-Specialist
+  softhard: '1'
+matches: |
+  title.icontains("ibm ultrascalable specialist")

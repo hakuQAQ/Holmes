@@ -1,0 +1,6 @@
+info:
+  company: gov110
+  product: K01
+  softhard: '1'
+matches: |
+  body.icontains("网络攻击阻断系统")

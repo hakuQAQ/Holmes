@@ -1,0 +1,6 @@
+info:
+  company: Sophos Technologies Pvt. Ltd.
+  product: Sophos-UTM
+  softhard: '1'
+matches: |
+  body.icontains("wfe/asg/js/")

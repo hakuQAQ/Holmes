@@ -1,0 +1,8 @@
+info:
+  company: ZTE
+  product: ZTE-Router
+  softhard: '1'
+matches: |
+  banner.icontains("router of zte corporation")
+  banner.icontains("zxr10") && banner.icontains("switch") && header.icontains("server: zte/rosng")
+  banner.icontains("server: zte/rosng")

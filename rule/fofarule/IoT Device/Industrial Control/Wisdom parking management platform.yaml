@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: Wisdom parking management platform
+  softhard: '1'
+matches: |
+  body.icontains("content=\"智慧停车管理平台")
+  body.icontains("<div class=\"login-tit w320 h72\">登录账号</div>")

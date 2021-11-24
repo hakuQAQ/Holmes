@@ -1,0 +1,12 @@
+info:
+  company: SonicWall Inc.
+  product: SonicWALL-Company's-product
+  softhard: '0'
+matches: |
+  banner.icontains("server: sonicwall") && header.icontains("server: sonicwall")
+  body.icontains("this request is blocked by the sonicwall")
+  body.icontains("web site blocked")
+  body.icontains("document.getelementbyid(\"nsa_banner")
+  banner.icontains("sonicwall tz ")
+  banner.icontains("sonicwall pro ")
+  banner.icontains("sonicwall nsa ") && banner.icontains("sonicwall sra ")

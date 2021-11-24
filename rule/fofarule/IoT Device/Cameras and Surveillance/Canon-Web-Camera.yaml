@@ -1,0 +1,8 @@
+info:
+  company: Canon Inc.
+  product: Canon-Web-Camera
+  softhard: '1'
+matches: |
+  body.icontains("/viewer/live/en/live.html")
+  header.icontains("vb") && body.icontains("content=\"vb-c10")
+  title.icontains("network camera vb-")

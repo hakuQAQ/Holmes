@@ -1,0 +1,8 @@
+info:
+  company: Apple Inc.
+  product: MacbookAIR
+  softhard: '1'
+matches: |
+  banner.icontains("macbook-air")
+  banner.icontains("macbookair")
+  header.icontains("macbook-air")

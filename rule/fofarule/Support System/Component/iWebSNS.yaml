@@ -1,0 +1,7 @@
+info:
+  company: jooyea
+  product: iWebSNS
+  softhard: '2'
+matches: |
+  body.icontains("/jooyea/images/sns_idea1.jpg")
+  body.icontains("/jooyea/images/snslogo.gif")

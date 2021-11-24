@@ -1,0 +1,6 @@
+info:
+  company: HuaWei
+  product: HUAWEI-HG532e
+  softhard: '1'
+matches: |
+  title.icontains("hg532e")

@@ -1,0 +1,7 @@
+info:
+  company: Brocade Communications Systems, Inc.
+  product: Brocade-Network-Advisor
+  softhard: '2'
+matches: |
+  title.icontains("network advisor login")
+  body.icontains("<span class=\"ui-menuitem-text\">about network advisor</span></a>")

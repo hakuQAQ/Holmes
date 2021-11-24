@@ -1,0 +1,12 @@
+info:
+  company: weaver
+  product: Weaver-OA
+  softhard: '2'
+matches: |
+  header.icontains("testbancookie")
+  banner.icontains("testbancookie")
+  body.icontains("/wui/common/css/w7ovfont.css")
+  body.icontains("typeof poppedwindow")
+  body.icontains("client/jquery.client_wev8.js")
+  body.icontains("/theme/ecology8/jquery/js/zdialog_wev8.js")
+  body.icontains("ecology8/lang/weaver_lang_7_wev8.js")

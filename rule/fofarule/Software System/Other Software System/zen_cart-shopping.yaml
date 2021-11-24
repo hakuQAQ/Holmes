@@ -1,0 +1,8 @@
+info:
+  company: Zen Ventures, LLC
+  product: zen_cart-shopping
+  softhard: '2'
+matches: |
+  body.icontains("shopping cart program by zen cart")
+  header.icontains("set-cookie: zenid=")
+  header.icontains("shoppingcartsession=")

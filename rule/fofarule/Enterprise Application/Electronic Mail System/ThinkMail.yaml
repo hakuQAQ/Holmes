@@ -1,0 +1,10 @@
+info:
+  company: Lenovo
+  product: ThinkMail
+  softhard: '2'
+matches: |
+  title.icontains("thinkmail 企业邮箱")
+  body.icontains("href='http://www.thinkcloud.cn' target='_blank'>thinkcloud</a>.all right reserved</div>")
+  body.icontains("app_download\":\"\",\"thinkmail官网")
+  body.icontains("/webmail\"+\"/common/validatecode.do")
+  body.icontains("/resource/se/common/jquery.js")

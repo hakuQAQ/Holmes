@@ -1,0 +1,9 @@
+info:
+  company: MERCURY
+  product: Mercury-Router
+  softhard: '1'
+matches: |
+  header.icontains("mw4530r")
+  header.icontains("mac1200r")
+  title.icontains("mercury 无线路由器")
+  banner.icontains("mw4530r") && banner.icontains("mac1200r")

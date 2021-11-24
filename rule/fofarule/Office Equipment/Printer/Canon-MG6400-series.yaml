@@ -1,0 +1,6 @@
+info:
+  company: Canon Inc.
+  product: Canon-MG6400-series
+  softhard: '1'
+matches: |
+  body.icontains("nowrap>canon mg6400 series</td>")

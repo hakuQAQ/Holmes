@@ -1,0 +1,8 @@
+info:
+  company: SUSE LLC.
+  product: openSUSE
+  softhard: '2'
+matches: |
+  banner.icontains("opensuse")
+  header.icontains("opensuse")
+  banner.icontains("x01welcome to suse") && banner.icontains("suse") && header.icontains("suse")

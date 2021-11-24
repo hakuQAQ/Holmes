@@ -1,0 +1,8 @@
+info:
+  company: Zyxel
+  product: ZyXEL-ZyWALL-USG-1000
+  softhard: '1'
+matches: |
+  banner.icontains("zywall usg 1000")
+  title.icontains("zywall usg 1000")
+  banner.icontains("usg 1000")

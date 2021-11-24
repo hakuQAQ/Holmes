@@ -1,0 +1,6 @@
+info:
+  company: Brocade Communications Systems, Inc.
+  product: Brocade-NetIron-Router
+  softhard: '1'
+matches: |
+  banner.icontains("brocade netiron ")

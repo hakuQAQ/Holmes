@@ -1,0 +1,7 @@
+info:
+  company: wisetone
+  product: Employee-Internet-Management
+  softhard: '1'
+matches: |
+  body.icontains("data/soft_down/openvpn.zip")
+  body.icontains("/soft_down/mdog.exe")

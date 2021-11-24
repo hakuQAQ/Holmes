@@ -1,0 +1,11 @@
+info:
+  company: Docker，Inc
+  product: Docker
+  softhard: '2'
+matches: |
+  header.icontains("x-docker-registry-version")
+  header.icontains("x-docker: production")
+  header.icontains("x-docker-container: nginx")
+  banner.icontains("x-docker-registry-version")
+  banner.icontains("x-docker: production")
+  banner.icontains("x-docker-container: nginx")

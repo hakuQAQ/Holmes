@@ -1,0 +1,8 @@
+info:
+  company: Buffalo Inc.
+  product: BUFFALO-Network-Device
+  softhard: '1'
+matches: |
+  banner.icontains("buffalo bs-")
+  banner.icontains("buffalo bsl-")
+  banner.icontains("buffalo wzr-")

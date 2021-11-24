@@ -1,0 +1,6 @@
+info:
+  company: Bond International Software Plc
+  product: Bond-AdaptUX
+  softhard: '2'
+matches: |
+  header.icontains("secretserver") && body.icontains("adapt application")

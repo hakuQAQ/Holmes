@@ -1,0 +1,7 @@
+info:
+  company: Sony Corporation
+  product: SONY-SNC-WR630
+  softhard: '1'
+matches: |
+  banner.icontains("snc-wr630")
+  header.icontains("realm=\"snc-wr630")

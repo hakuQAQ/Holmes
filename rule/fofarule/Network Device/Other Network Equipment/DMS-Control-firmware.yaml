@@ -1,0 +1,7 @@
+info:
+  company: Daktronics Dr.
+  product: DMS-Control-firmware
+  softhard: '1'
+matches: |
+  banner.icontains("daktronics, inc. vfc-3000")
+  banner.icontains("daktronics, inc. vfc")

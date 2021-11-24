@@ -1,0 +1,7 @@
+info:
+  company: Ruijie
+  product: Ruijie-NGFW
+  softhard: '1'
+matches: |
+  body.icontains("webui/images/ruijie")
+  body.icontains("锐捷") && title.icontains("ngfw") && title.icontains("下一代防火墙")

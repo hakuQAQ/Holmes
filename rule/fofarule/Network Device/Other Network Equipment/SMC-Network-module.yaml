@@ -1,0 +1,7 @@
+info:
+  company: SMC Networks Asia Pacific Pte Ltd
+  product: SMC-Network-module
+  softhard: '1'
+matches: |
+  banner.icontains("smc networks; sw_rev: ")
+  banner.icontains("model: ")

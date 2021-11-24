@@ -1,0 +1,6 @@
+info:
+  company: kuaipu
+  product: kuaipu-M6
+  softhard: '2'
+matches: |
+  body.icontains("src=\"resource/javascript/jkpm6.datetime.js")

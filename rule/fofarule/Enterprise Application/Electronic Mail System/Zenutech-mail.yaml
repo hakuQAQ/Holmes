@@ -1,0 +1,7 @@
+info:
+  company: Zenutech
+  product: Zenutech-mail
+  softhard: '2'
+matches: |
+  header.icontains("realm=\"enter your zenutech account id and password:")
+  banner.icontains("realm=\"enter your zenutech account id and password:")

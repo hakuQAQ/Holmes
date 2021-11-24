@@ -1,0 +1,6 @@
+info:
+  company: Biamp Systems
+  product: Biamp-Server
+  softhard: '1'
+matches: |
+  protocol.icontains("telnet") && banner.icontains("welcome to the biamp telnet server")

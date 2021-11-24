@@ -1,0 +1,8 @@
+info:
+  company: HUAWEI
+  product: HuaWei-eSpace-IAD
+  softhard: '1'
+matches: |
+  body.icontains("<span id='lang' value='huawei_announce'></span>")
+  title.icontains("index_title")
+  banner.icontains("huawei integrated access software")

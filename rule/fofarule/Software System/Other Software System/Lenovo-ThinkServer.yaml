@@ -1,0 +1,7 @@
+info:
+  company: lenovo
+  product: Lenovo-ThinkServer
+  softhard: '2'
+matches: |
+  body.icontains("thinkserver")
+  title.icontains("远程管理")

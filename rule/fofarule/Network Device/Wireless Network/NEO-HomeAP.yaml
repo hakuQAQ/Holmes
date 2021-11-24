@@ -1,0 +1,7 @@
+info:
+  company: Neo Information Systems Co., Ltd.
+  product: NEO-HomeAP
+  softhard: '1'
+matches: |
+  header.icontains("neo-homeap")
+  banner.icontains("nis-hap11n")

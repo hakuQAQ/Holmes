@@ -1,0 +1,6 @@
+info:
+  company: dayrui
+  product: Dayrui-poscms
+  softhard: '2'
+matches: |
+  body.icontains("/statics/admin/global/plugins/font-awesome/css/font-awesome.min.css")

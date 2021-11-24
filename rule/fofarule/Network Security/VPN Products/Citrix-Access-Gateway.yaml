@@ -1,0 +1,18 @@
+info:
+  company: Citrix Systems, Inc.
+  product: Citrix-Access-Gateway
+  softhard: '2'
+matches: |
+  title.icontains("citrix access gateway")
+  body.icontains("href=\"/vpn/images/accessgateway.ico")
+  header.icontains("ezisneercsresu=")
+  header.icontains("cyms-secs")
+  header.icontains("pwcount") && body.icontains("/vpn/images/accessgateway.ico")
+  title.icontains("citrix gateway")
+  body.icontains("href=\"/vpn/images/accessgateway.ico")
+  body.icontains("class=\"citrixreceiverlogoaboutbox\"")
+  body.icontains("/vpn/js/gateway_login_view.js?")
+  body.icontains("cloud.ottoworkfroce.eu/vpn/index.html")
+  body.icontains("vpn/js/lsgateway_login_view.js")
+  body.icontains("class=\"_ctxstxt_netscalergateway\"")
+  body.icontains("receiver/images/common/icon_vpn.ico")

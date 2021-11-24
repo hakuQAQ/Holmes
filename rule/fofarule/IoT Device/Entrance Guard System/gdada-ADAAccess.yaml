@@ -1,0 +1,6 @@
+info:
+  company: gdada
+  product: gdada-ADAAccess
+  softhard: '1'
+matches: |
+  body.icontains(" welcome to ada access control system ")

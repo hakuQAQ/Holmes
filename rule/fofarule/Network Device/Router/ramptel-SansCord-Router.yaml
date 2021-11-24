@@ -1,0 +1,7 @@
+info:
+  company: Ramptel Solutions Private Limited
+  product: ramptel-SansCord-Router
+  softhard: '1'
+matches: |
+  body.icontains("name=username value=\"ywrtaw4=\"")
+  body.icontains("href=\"http://www.ramptel.com/\"")

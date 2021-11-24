@@ -1,0 +1,9 @@
+info:
+  company: Trend Micro Incorporated.
+  product: Trend-Smart-Protection-Server
+  softhard: '2'
+matches: |
+  cert.icontains("smart protection server")
+  body.icontains("lastrow_right")
+  body.icontains("redirect_reason")
+  title.icontains("趋势科技云安全智能防护服务器")

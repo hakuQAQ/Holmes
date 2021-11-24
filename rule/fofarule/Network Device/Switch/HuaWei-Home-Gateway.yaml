@@ -1,0 +1,17 @@
+info:
+  company: HUAWEI
+  product: HuaWei-Home-Gateway
+  softhard: '1'
+matches: |
+  header.icontains("huaweihomegateway")
+  body.icontains("menu.homegatewaytitle")
+  header.icontains("huawei srg2220") && title.icontains("huawei home gateway")
+  title.icontains("home gateway hg630 ") && header.icontains("sessionid_r3")
+  title.icontains(" home gateway")
+  header.icontains("sessionid_r3")
+  body.icontains("huaweilogo")
+  banner.icontains("huaweihomegateway")
+  body.icontains("document.write(\"<title>\" + gvarlogin + \"</title>\")")
+  body.icontains("' + gvartitle + '")
+  banner.icontains("huawei home gateway")
+  banner.icontains("huawei  home gateway")

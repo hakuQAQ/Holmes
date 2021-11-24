@@ -1,0 +1,6 @@
+info:
+  company: ultrapower
+  product: Ultra-CMDB
+  softhard: '2'
+matches: |
+  title == "cmdb" && body.icontains("<span class=\"logo-text\">matrix</span>")

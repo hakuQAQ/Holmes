@@ -1,0 +1,6 @@
+info:
+  company: MAX-TECH.
+  product: Max_Tech-C300N
+  softhard: '1'
+matches: |
+  title.icontains("max-c300n")

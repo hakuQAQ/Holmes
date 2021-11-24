@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: phxEventManager
+  softhard: '2'
+matches: |
+  body.icontains("<td><div class=\"minicalmonth")
+  body.icontains("src=\"pem-includes/xajax/xajax_js/xajax_core.js")
+  body.icontains("powered by phxeventmanager")

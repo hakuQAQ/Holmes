@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: GPSweb
+  softhard: '2'
+matches: |
+  title.icontains("gpsweb") && header.icontains("gpsweb") && body.icontains("src=\"/gpsweb/js/add_string_prototype.js\"")

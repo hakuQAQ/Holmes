@@ -1,0 +1,6 @@
+info:
+  company: Alibaba Group
+  product: Alimonitor
+  softhard: '2'
+matches: |
+  title.icontains("alimonitor通知收发中心muses")

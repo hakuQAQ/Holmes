@@ -1,0 +1,6 @@
+info:
+  company: Digital Data Communications GmbH
+  product: LevelOne-11g-Wireless-Router
+  softhard: '1'
+matches: |
+  banner.icontains("11g wireless broadband router")

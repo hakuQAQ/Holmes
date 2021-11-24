@@ -1,0 +1,6 @@
+info:
+  company: pcitech
+  product: openEAP
+  softhard: '2'
+matches: |
+  title.icontains("openeap_统一登录门户")

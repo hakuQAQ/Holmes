@@ -1,0 +1,6 @@
+info:
+  company: uniview
+  product: uniview-NVR208-16
+  softhard: '1'
+matches: |
+  banner.icontains("nvr208-16 login:")

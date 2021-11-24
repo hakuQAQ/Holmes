@@ -1,0 +1,6 @@
+info:
+  company: TRENDnet, Inc.
+  product: TRENDnet-TPL-410AP
+  softhard: '1'
+matches: |
+  body.icontains("login to the tpl-410ap</td>")

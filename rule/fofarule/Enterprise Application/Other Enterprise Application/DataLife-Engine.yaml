@@ -1,0 +1,7 @@
+info:
+  company: Softnyus Media Group
+  product: DataLife-Engine
+  softhard: '2'
+matches: |
+  body.icontains("content=\"datalife engine")
+  header.icontains("dle_")

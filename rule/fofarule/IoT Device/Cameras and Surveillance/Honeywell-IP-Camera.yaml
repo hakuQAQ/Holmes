@@ -1,0 +1,7 @@
+info:
+  company: Honeywell International Inc.
+  product: Honeywell-IP-Camera
+  softhard: '1'
+matches: |
+  title.icontains("honeywell ip-camera") && body.icontains("checking hnvr client control version......")
+  cert.icontains("o=honeywell, ou=security group")

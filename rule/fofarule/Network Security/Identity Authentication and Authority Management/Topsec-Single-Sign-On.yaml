@@ -1,0 +1,6 @@
+info:
+  company: TOPSEC
+  product: Topsec-Single-Sign-On
+  softhard: '2'
+matches: |
+  title.icontains("topsec单点登录系统")

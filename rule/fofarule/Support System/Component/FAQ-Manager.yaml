@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: FAQ-Manager
+  softhard: '2'
+matches: |
+  body.icontains("<td><font size=\"-1\">&nbsp;</font><p><b><font size=\"-1\">faq admin area</font></b></td>")
+  body.icontains("<a href=\"admin/\">admin area</a></td></tr></table></body></html>")

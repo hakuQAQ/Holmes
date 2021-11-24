@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Residential-ADSL-Gateway
+  softhard: '1'
+matches: |
+  banner.icontains("residential adsl gateway")

@@ -1,0 +1,7 @@
+info:
+  company: Microsoft Corporation
+  product: MS-SDK-HttpServer
+  softhard: '2'
+matches: |
+  header.icontains("ms-sdk-httpserver")
+  banner.icontains("server: ms-sdk-httpserver")

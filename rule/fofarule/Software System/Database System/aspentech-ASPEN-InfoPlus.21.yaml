@@ -1,0 +1,6 @@
+info:
+  company: Aspen Technology, Inc.
+  product: aspentech-ASPEN-InfoPlus.21
+  softhard: '2'
+matches: |
+  body.icontains("src=\"/aspencui/css/appstyles.js")

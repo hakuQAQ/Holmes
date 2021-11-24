@@ -1,0 +1,7 @@
+info:
+  company: fanwe
+  product: Fanwe
+  softhard: '2'
+matches: |
+  body.icontains("app/tpl/fanwe_1/images/lazy_loading.gif")
+  body.icontains("index.php?ctl=article_cate")

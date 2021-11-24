@@ -1,0 +1,7 @@
+info:
+  company: ipcom
+  product: IPCOM-AP
+  softhard: '1'
+matches: |
+  body.icontains("data-lang=\"apmp\"")
+  title.icontains("ip-com")

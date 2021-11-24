@@ -1,0 +1,6 @@
+info:
+  company: PT. GFSoft Indonesia
+  product: GFSOFT-Akuntansi-2008
+  softhard: '2'
+matches: |
+  body.icontains("src=\"images/box%20akuntansi%202008.png\"")

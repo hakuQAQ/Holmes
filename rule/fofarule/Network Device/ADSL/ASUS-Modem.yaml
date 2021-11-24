@@ -1,0 +1,12 @@
+info:
+  company: ASUS
+  product: ASUS-Modem
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"aam6000ev")
+  header.icontains("realm=\"aam6010ev")
+  header.icontains("realm=\"aam6020bi") && header.icontains("realm=\"aam6020vi")
+  banner.icontains("realm=\"aam6000ev")
+  banner.icontains("realm=\"aam6010ev")
+  banner.icontains("realm=\"aam6020bi")
+  banner.icontains("realm=\"aam6020vi")

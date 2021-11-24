@@ -1,0 +1,10 @@
+info:
+  company: uniview
+  product: Uniview-Data-management-server
+  softhard: '1'
+matches: |
+  title.icontains("数据管理服务器")
+  body.icontains("/webui/switch.php")
+  body.icontains("cur_type=\"devtype_ms8500\";")
+  body.icontains("value=devtype_dm8500 selected>dm8500")
+  body.icontains("cur_type=\"devtype_dm8500")

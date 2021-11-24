@@ -1,0 +1,6 @@
+info:
+  company: Alibaba Group
+  product: Alibaba-Group-TLog
+  softhard: '2'
+matches: |
+  body.icontains("content=\"tlog 实时数据处理")

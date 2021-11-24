@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: MiniServ
+  softhard: '2'
+matches: |
+  header.icontains("miniserv")
+  banner.icontains("server: miniserv")

@@ -1,0 +1,9 @@
+info:
+  company: QNAP Systems, Inc.
+  product: QNAP-NAS
+  softhard: '1'
+matches: |
+  header.icontains("http server")
+  body.icontains("redirect_suffix")
+  body.icontains("/css/qnap-default.css") && body.icontains("/redirect.html?count=\"+math.random()")
+  body.icontains("/indexnas.cgi?counter=")

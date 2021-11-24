@@ -1,0 +1,8 @@
+info:
+  company: Oracle Corporation
+  product: Oracle-ADF-Faces
+  softhard: '2'
+matches: |
+  body.icontains("content=\"oracle adf")
+  body.icontains("<!-- created by oracle adf faces")
+  body.icontains("var _adfwindowopenerror")

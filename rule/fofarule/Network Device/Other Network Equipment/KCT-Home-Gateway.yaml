@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: KCT-Home-Gateway
+  softhard: '1'
+matches: |
+  banner.icontains("kct home gateway")

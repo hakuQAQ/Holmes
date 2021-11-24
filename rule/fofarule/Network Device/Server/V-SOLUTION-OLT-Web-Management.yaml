@@ -1,0 +1,6 @@
+info:
+  company: vsolcn
+  product: V-SOLUTION-OLT-Web-Management
+  softhard: '1'
+matches: |
+  title.icontains("olt web management interface")

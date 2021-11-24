@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: FirePHP
+  softhard: '2'
+matches: |
+  header.icontains("x-wf-")
+  header.icontains("meta.wildfirehq.org")
+  banner.icontains("x-wf-") && banner.icontains("meta.wildfirehq.org")

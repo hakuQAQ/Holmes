@@ -1,0 +1,6 @@
+info:
+  company: LG Electronics.
+  product: LG-32LF6310-CB
+  softhard: '1'
+matches: |
+  body.icontains("<modelnumber>32lf6310-cb</modelnumber>")

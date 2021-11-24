@@ -1,0 +1,7 @@
+info:
+  company: Kerio Technologies Inc.
+  product: Kerio-Operator
+  softhard: '1'
+matches: |
+  banner.icontains("kerio operator")
+  banner.icontains("server: kerio operator")

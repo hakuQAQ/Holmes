@@ -1,0 +1,6 @@
+info:
+  company: Yamaha Corporation
+  product: Yamaha-FWX120
+  softhard: '1'
+matches: |
+  banner.icontains("fwx120")

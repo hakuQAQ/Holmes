@@ -1,0 +1,8 @@
+info:
+  company: TOPSEC
+  product: Topsec-WEB-application-firewall
+  softhard: '1'
+matches: |
+  title.icontains("天融信web应用防火墙")
+  title.icontains("web user login")
+  body.icontains("evpng.fix('div, ul, img, li, input'); //evpng.fix('pngid1, pngid2')")

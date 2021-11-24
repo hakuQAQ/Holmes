@@ -1,0 +1,6 @@
+info:
+  company: xhlis
+  product: xhlis-OA
+  softhard: '2'
+matches: |
+  body.icontains("<title>杏和区域检验业务协同平台登录界面</title>")

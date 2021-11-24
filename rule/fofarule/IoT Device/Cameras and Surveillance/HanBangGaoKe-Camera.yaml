@@ -1,0 +1,6 @@
+info:
+  company: hbgk
+  product: HanBangGaoKe-Camera
+  softhard: '1'
+matches: |
+  header.icontains("nvr webserver") && protocol.icontains("rtsp") && banner.icontains("hb-dvr") && title == "hanbang web service" && body.icontains("id=\"id_download_coomet\"")

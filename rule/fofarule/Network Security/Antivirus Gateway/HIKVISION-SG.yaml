@@ -1,0 +1,7 @@
+info:
+  company: Hikvision
+  product: HIKVISION-SG
+  softhard: '1'
+matches: |
+  body.icontains("src=\"./webui/js/jquerylib/jquery-1.7.2.min.js\"")
+  title.icontains("安全接入网关")

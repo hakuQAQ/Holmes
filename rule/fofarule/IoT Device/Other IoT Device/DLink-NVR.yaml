@@ -1,0 +1,7 @@
+info:
+  company: DLink
+  product: DLink-NVR
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"dnr-")
+  banner.icontains("realm=\"dnr-")

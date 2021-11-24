@@ -1,0 +1,12 @@
+info:
+  company: kingdee
+  product: kingdee-EAS
+  softhard: '2'
+matches: |
+  body.icontains("eassessionid")
+  header.icontains("easportal")
+  header.icontains("eassso/login")
+  banner.icontains("eassso/login")
+  body.icontains("/eassso/common")
+  title.icontains("eas系统登录")
+  body.icontains("金蝶")

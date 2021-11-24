@@ -1,0 +1,7 @@
+info:
+  company: DASAN Networks, Inc.
+  product: DASAN-H150N
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"h150n tr-069 admin")
+  banner.icontains("realm=\"h150n tr-069 admin")

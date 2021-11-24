@@ -1,0 +1,32 @@
+info:
+  company: Dahua
+  product: Dahua-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  body.icontains("id=\"search_card_label\" for=\"search_plateenable\">车牌号码</label>")
+  protocol.icontains("rtsp") && banner.icontains("server: dahua rtsp")
+  header.icontains("server: dahua drs")
+  banner.icontains("server: dahua drs")
+  header.icontains("server: dahua rtsp server")
+  banner.icontains("server: dahua rtsp server")
+  header.icontains("zhejiang dahua technology")
+  header.icontains("content-length: 59552")
+  banner.icontains("zhejiang dahua technology")
+  banner.icontains("basic realm=\"dahuartsp")
+  body.icontains("var g_isdeviceinited = true")
+  body.icontains("widget/js/jquery.ui.widget.js")
+  body.icontains("title::com_menu.title_setup")
+  title.icontains("watashi service")
+  body.icontains("css/playbackindex.css") && body.icontains("class=\"j_content j_min_width\"")
+  body.icontains("j_sub_con j_loginbox")
+  body.icontains("overflow:hidden;background-color")
+  body.icontains("js/urlparser.js")
+  body.icontains("id=\"lab_loading\" class=\"j_load_p")
+  body.icontains("src=\"/cap.js\"")
+  body.icontains("'nav_margin').style.visibility = 'visible")
+  title == "web service" && body.icontains("/css/oem.css")
+  body.icontains("loginfoot\">web视频监控系统")
+  body.icontains("webapp.ability.getwebcap('showgb28181client'")
+  body.icontains("class=\"ui-tip-container\" id=\"remark_modu\"")
+  body.icontains("class=\"login_inputbox ui-input fn-width163\"")
+  body.icontains("tl(\"huazhonghua\")")

@@ -1,0 +1,6 @@
+info:
+  company: Digital China Group Co., Ltd.
+  product: DCN-DCWS-6002
+  softhard: '1'
+matches: |
+  body.icontains("id=\"span_thead\">dcws-6002</span>")

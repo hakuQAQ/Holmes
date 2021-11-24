@@ -1,0 +1,10 @@
+info:
+  company: siteserver
+  product: SiteServer
+  softhard: '2'
+matches: |
+  body.icontains("powered by") && body.icontains("http://www.siteserver.cn")
+  body.icontains("siteserver cms")
+  title.icontains("powered by siteserver cms")
+  body.icontains("t_系统首页模板") && body.icontains("siteserver")
+  body.icontains("sitefiles")

@@ -1,0 +1,7 @@
+info:
+  company: Alcatel-Lucent S.A.
+  product: Alcatel_Lucent-OmniVista-2500-NMS
+  softhard: '2'
+matches: |
+  title.icontains("omnivista 2500 nms")
+  cert.icontains("commonname: ov2500-upam-cportal.al-enterprise.com")

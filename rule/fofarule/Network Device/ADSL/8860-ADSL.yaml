@@ -1,0 +1,6 @@
+info:
+  company: Innoband Technologies
+  product: 8860-ADSL
+  softhard: '1'
+matches: |
+  banner.icontains("8860-c1. h/w: adsl-m")

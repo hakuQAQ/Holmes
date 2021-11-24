@@ -1,0 +1,6 @@
+info:
+  company: Dahua
+  product: dahua-DH-SD50220TN-HN
+  softhard: '1'
+matches: |
+  banner.icontains("dh-sd50220tn-hn")

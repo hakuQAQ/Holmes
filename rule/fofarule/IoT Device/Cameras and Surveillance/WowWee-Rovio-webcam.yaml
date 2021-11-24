@@ -1,0 +1,6 @@
+info:
+  company: WowWee Group Limited.
+  product: WowWee-Rovio-webcam
+  softhard: '1'
+matches: |
+  header.icontains("basic realm=\"rovio\"") && banner.icontains("basic realm=\"rovio\"")

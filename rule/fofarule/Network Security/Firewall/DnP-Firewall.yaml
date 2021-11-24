@@ -1,0 +1,9 @@
+info:
+  company: Other
+  product: DnP-Firewall
+  softhard: '2'
+matches: |
+  title.icontains("powered by dnp firewall")
+  body.icontains("name=\"dnp_firewall_redirect")
+  body.icontains("<form name=dnp_firewall")
+  body.icontains("dnp_firewall_redirect")

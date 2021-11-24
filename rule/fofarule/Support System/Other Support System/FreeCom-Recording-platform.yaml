@@ -1,0 +1,8 @@
+info:
+  company: Freecomm Corporation
+  product: FreeCom-Recording-platform
+  softhard: '1'
+matches: |
+  body.icontains("'freeset通信系统集中网管系统')")
+  title.icontains("freecom录音平台")
+  body.icontains("freecom录音平台---登录")

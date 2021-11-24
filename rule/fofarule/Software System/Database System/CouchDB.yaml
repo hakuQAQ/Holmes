@@ -1,0 +1,9 @@
+info:
+  company: Apache Software Foundation.
+  product: CouchDB
+  softhard: '2'
+matches: |
+  header.icontains("couchdb")
+  header.icontains("200 ok") && body.icontains("{\"couchdb\":\"welcome\",")
+  body.icontains("\"version\"")
+  header.icontains("couchdb") && header.icontains("x-couchdb-body-time: 0") && protocol.icontains("couchdb") && body.icontains("\"couchdb\":\"welcome\"")

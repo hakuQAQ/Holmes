@@ -1,0 +1,7 @@
+info:
+  company: LG Electronics.
+  product: LG-Network-Storage
+  softhard: '1'
+matches: |
+  title.icontains("welcome to lg electronics")
+  body.icontains("style=\"background:url('../images/login/form_bg_lg_nas_storage.gif'); background-repeat:no-repeat;\">")

@@ -1,0 +1,9 @@
+info:
+  company: Elastic, Inc.
+  product: Kibana
+  softhard: '2'
+matches: |
+  title.icontains("kibana") && body.icontains("kbnversion")
+  header.icontains("kbn-name: kibana") && header.icontains("kbn-version")
+  banner.icontains("kbn-name: kibana")
+  banner.icontains("kbn-version")

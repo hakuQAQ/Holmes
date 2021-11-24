@@ -1,0 +1,7 @@
+info:
+  company: DLink
+  product: DLink-DI-604
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"di-604")
+  banner.icontains("di-604")

@@ -1,0 +1,7 @@
+info:
+  company: 30san
+  product: 30san-Email
+  softhard: '2'
+matches: |
+  title == "安全电子邮件系统" && body.icontains("30san.all rights reserved.</div>")
+  cert.icontains("subject: c=cn, st=sichuan, l=chengdu, o=30san information system ltd., ou=dragon mail 2")

@@ -1,0 +1,8 @@
+info:
+  company: Dax Networks Limited.
+  product: DX-1821
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp")
+  banner.icontains("dax networks")
+  banner.icontains("dx-1821")

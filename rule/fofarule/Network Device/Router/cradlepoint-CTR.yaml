@@ -1,0 +1,6 @@
+info:
+  company: Cradlepoint, Inc.
+  product: cradlepoint-CTR
+  softhard: '1'
+matches: |
+  title.icontains("cradlepoint ctr")

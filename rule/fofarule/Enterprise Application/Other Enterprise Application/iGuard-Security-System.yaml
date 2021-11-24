@@ -1,0 +1,7 @@
+info:
+  company: Lucky Technology Ltd.
+  product: iGuard-Security-System
+  softhard: '2'
+matches: |
+  header.icontains("realm=\"iguard embedded web server")
+  body.icontains("content=\"lucky-tech iguard")

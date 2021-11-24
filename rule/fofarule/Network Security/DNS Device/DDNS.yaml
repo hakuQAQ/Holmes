@@ -1,0 +1,7 @@
+info:
+  company: ddns
+  product: DDNS
+  softhard: '1'
+matches: |
+  header.icontains("ddns:")
+  banner.icontains("ddns:")

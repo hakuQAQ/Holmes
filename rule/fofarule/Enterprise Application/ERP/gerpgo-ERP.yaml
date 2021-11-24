@@ -1,0 +1,6 @@
+info:
+  company: gerpgo
+  product: gerpgo-ERP
+  softhard: '2'
+matches: |
+  body.icontains("static/style/images/tou.png\") no-repeat")

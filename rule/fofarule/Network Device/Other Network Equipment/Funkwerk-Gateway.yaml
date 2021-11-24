@@ -1,0 +1,8 @@
+info:
+  company: Funkwerk AG
+  product: Funkwerk-Gateway
+  softhard: '1'
+matches: |
+  header.icontains("funkwerk boss")
+  banner.icontains("funkwerk boss")
+  title.icontains("welcome to your funkwerk gateway")

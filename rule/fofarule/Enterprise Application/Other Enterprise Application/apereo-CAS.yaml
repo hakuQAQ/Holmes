@@ -1,0 +1,6 @@
+info:
+  company: Apereo, Inc.
+  product: apereo-CAS
+  softhard: '2'
+matches: |
+  body.icontains("cas &#8211; central authentication service")

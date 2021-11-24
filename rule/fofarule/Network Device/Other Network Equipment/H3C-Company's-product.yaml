@@ -1,0 +1,15 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-Company's-product
+  softhard: '1'
+matches: |
+  body.icontains("service@h3c.com")
+  body.icontains("h3c corporation") && body.icontains("icg_helpscript.js")
+  header.icontains("h3c tech")
+  banner.icontains("hangzhou h3c")
+  header.icontains("h3c") && banner.icontains("h3c login:")
+  banner.icontains("hangzhou  h3c ")
+  banner.icontains("new h3c technologies co., ltd. ")
+
+#yamlflag
+#body.icontains("copyright")

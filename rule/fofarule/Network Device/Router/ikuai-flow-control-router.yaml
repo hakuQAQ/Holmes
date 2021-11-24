@@ -1,0 +1,10 @@
+info:
+  company: ikuai8
+  product: ikuai-flow-control-router
+  softhard: '1'
+matches: |
+  title.icontains("爱快")
+  body.icontains("/resources/images/land_prompt_ico01.gif")
+  title.icontains("登录爱快流控路由")
+  body.icontains("<li><a href=\"http://www.ikuai8.com\" target=\"_blank\">官网</a></li>")
+  body.icontains("src=/static/js/manifest.6513b08df486af67396b.js>")

@@ -1,0 +1,7 @@
+info:
+  company: kill
+  product: KILL-Mail-security-gateway
+  softhard: '1'
+matches: |
+  title.icontains("kill邮件安全网关")
+  body.icontains("background=\"skins/default/images/login_ksgm.jpg")

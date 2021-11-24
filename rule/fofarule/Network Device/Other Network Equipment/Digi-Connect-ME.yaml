@@ -1,0 +1,8 @@
+info:
+  company: Digi International Inc.
+  product: Digi-Connect-ME
+  softhard: '1'
+matches: |
+  banner.icontains("digi connect me")
+  banner.icontains("digi connect me4")
+  body.icontains("digi connect me")

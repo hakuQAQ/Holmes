@@ -1,0 +1,7 @@
+info:
+  company: Polycom, Inc.
+  product: Polycom-Company's-product
+  softhard: '0'
+matches: |
+  title.icontains("polycom login")
+  body.icontains("href=\"resources/weblogin-all.css")

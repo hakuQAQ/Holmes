@@ -1,0 +1,7 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TP-LINK-108M-Wireless-ADSL2+Router
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"108m wireless adsl2+ router")
+  banner.icontains("realm=\"108m wireless adsl2+ router")

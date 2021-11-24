@@ -1,0 +1,10 @@
+info:
+  company: drm
+  product: Document-Security-Management-System
+  softhard: '2'
+matches: |
+  title.icontains("前沿风雷电子文档安全管理系统")
+  title.icontains("前沿文档安全管理软件")
+  body.icontains("href=\"/drm/template/css/login.css\"")
+  body.icontains("action=\"/drm/login.do\"")
+  body.icontains("src=\"/drm/encjs/barrett.js\"")

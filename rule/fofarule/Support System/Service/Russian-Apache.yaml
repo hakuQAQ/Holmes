@@ -1,0 +1,6 @@
+info:
+  company: The Apache Group.
+  product: Russian-Apache
+  softhard: '2'
+matches: |
+  header.icontains("rus/")

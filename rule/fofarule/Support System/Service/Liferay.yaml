@@ -1,0 +1,12 @@
+info:
+  company: Liferay Inc.
+  product: Liferay
+  softhard: '2'
+matches: |
+  body.icontains("powered by liferay portal")
+  header.icontains("liferay portal")
+  banner.icontains("liferay portal")
+  header.icontains("guest_language_id=")
+  banner.icontains("guest_language_id=")
+  body.icontains("liferay.aui")
+  body.icontains("liferay.currenturl")

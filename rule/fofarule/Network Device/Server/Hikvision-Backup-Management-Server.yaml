@@ -1,0 +1,6 @@
+info:
+  company: Hikvision
+  product: Hikvision-Backup-Management-Server
+  softhard: '1'
+matches: |
+  title.icontains("备份管理服务器 ")

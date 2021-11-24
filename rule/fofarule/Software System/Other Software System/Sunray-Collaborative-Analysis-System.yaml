@@ -1,0 +1,6 @@
+info:
+  company: Sunray
+  product: Sunray-Collaborative-Analysis-System
+  softhard: '2'
+matches: |
+  title.icontains("圈闭井位论证协同分析系统")

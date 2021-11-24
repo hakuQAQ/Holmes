@@ -1,0 +1,6 @@
+info:
+  company: HP
+  product: HP-B6000-StoreOnce
+  softhard: '1'
+matches: |
+  body.icontains("href=\"./theme/default/css/hp_fusion_management.css\"")

@@ -1,0 +1,6 @@
+info:
+  company: Chinaunicom
+  product: Industry check system
+  softhard: '2'
+matches: |
+  title.icontains("中国联通会业核对系统")

@@ -1,0 +1,7 @@
+info:
+  company: Enhancesoft
+  product: osTicket
+  softhard: '2'
+matches: |
+  body.icontains("<li>osticket version") && title.icontains("osticket installer")
+  body.icontains("href=\"http://osticket.com\">osticket.com")

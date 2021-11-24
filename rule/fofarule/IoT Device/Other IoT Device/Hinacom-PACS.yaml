@@ -1,0 +1,7 @@
+info:
+  company: hinacom
+  product: Hinacom-PACS
+  softhard: '1'
+matches: |
+  title.icontains("海纳医信医疗影像信息管理系统")
+  body.icontains("var iconbaseurl = baseurl + 'content/site/icons/';")

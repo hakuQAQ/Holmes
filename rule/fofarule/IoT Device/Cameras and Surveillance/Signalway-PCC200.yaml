@@ -1,0 +1,7 @@
+info:
+  company: signalway
+  product: Signalway-PCC200
+  softhard: '1'
+matches: |
+  body.icontains("<span class=\"bannertextcompany\">pcc200</span>")
+  title.icontains("pcc200b管理")

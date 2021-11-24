@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Openfire
+  softhard: '2'
+matches: |
+  body.icontains("background: transparent url(images/login_logo.gif) no-repeat")
+  body.icontains("class=\"row justify-content-center\"")
+  body.icontains("<title>openfire 管理界面</title>")

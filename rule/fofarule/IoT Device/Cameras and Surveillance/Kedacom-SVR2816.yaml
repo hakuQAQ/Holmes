@@ -1,0 +1,7 @@
+info:
+  company: kedacom
+  product: Kedacom-SVR2816
+  softhard: '1'
+matches: |
+  title.icontains("svr2816客户端下载")
+  body.icontains("<a href=\"download/svr2816 quick start guide.pdf")

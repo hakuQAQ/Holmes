@@ -1,0 +1,7 @@
+info:
+  company: acsoft
+  product: acsoft-Cloud
+  softhard: '2'
+matches: |
+  body.icontains("sdiyun.com, all rights reserved")
+  body.icontains("onrememberpasswordclick")

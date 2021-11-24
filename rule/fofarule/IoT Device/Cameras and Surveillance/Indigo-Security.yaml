@@ -1,0 +1,6 @@
+info:
+  company: IndigoVision Inc.
+  product: Indigo-Security
+  softhard: '1'
+matches: |
+  banner.icontains("server: indigo-security")

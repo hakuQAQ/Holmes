@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: LuManager
+  softhard: '2'
+matches: |
+  title.icontains("lumanager")

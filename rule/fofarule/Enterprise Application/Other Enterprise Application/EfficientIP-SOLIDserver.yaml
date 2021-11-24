@@ -1,0 +1,6 @@
+info:
+  company: EfficientIP
+  product: EfficientIP-SOLIDserver
+  softhard: '2'
+matches: |
+  banner.icontains("efficientip solidserver")

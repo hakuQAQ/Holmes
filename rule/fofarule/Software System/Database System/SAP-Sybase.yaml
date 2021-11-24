@@ -1,0 +1,8 @@
+info:
+  company: SAP Software Solutions
+  product: SAP-Sybase
+  softhard: '2'
+matches: |
+  header.icontains("server: adaptiveserveranywhere")
+  banner.icontains("server: adaptiveserveranywhere")
+  header.icontains("server: sqlanywhere") && banner.icontains("server: sqlanywhere")

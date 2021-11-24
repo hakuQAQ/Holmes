@@ -1,0 +1,7 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-B365
+  softhard: '1'
+matches: |
+  body.icontains("var product_type = \"b365\"")
+  title.icontains("b365&nbsp路由器登录")

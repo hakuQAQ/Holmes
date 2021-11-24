@@ -1,0 +1,10 @@
+info:
+  company: Neustar, Inc.
+  product: neustar-UltraDNS
+  softhard: '2'
+matches: |
+  header.icontains("ultradns client redirection server")
+  banner.icontains("ultradns client redirection server")
+  banner.icontains("server: ")
+  protocol.icontains("dns")
+  banner.icontains("ultradns")

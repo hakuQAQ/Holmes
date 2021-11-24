@@ -1,0 +1,7 @@
+info:
+  company: Apache Spark
+  product: Spark history-server
+  softhard: '2'
+matches: |
+  title == "history server" && body.icontains("spark")
+  body.icontains("src=\"/static/historypage-common.js\">")

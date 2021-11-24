@@ -1,0 +1,7 @@
+info:
+  company: yeastar
+  product: TG400
+  softhard: '1'
+matches: |
+  title.icontains("tg400")
+  banner.icontains("server: tg400")

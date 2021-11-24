@@ -1,0 +1,7 @@
+info:
+  company: nusoft
+  product: MHG-450
+  softhard: '1'
+matches: |
+  banner.icontains("mhg-450 ")
+  header.icontains("realm=\"mhg-450")

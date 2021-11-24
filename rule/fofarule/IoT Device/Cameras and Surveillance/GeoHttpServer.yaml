@@ -1,0 +1,7 @@
+info:
+  company: geovision
+  product: GeoHttpServer
+  softhard: '1'
+matches: |
+  header.icontains("server: geohttpserver")
+  banner.icontains("server: geohttpserver")

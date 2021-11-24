@@ -1,0 +1,7 @@
+info:
+  company: coship
+  product: Coship-Router-module
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"coship electronics wireless route module")
+  banner.icontains("realm=\"coship electronics wireless route module")

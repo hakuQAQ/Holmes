@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Gitweb
+  softhard: '2'
+matches: |
+  body.icontains("content=\"gitweb")
+  body.icontains("/gitweb.css")
+  body.icontains("/gitweb.js")

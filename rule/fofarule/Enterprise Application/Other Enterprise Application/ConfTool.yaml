@@ -1,0 +1,7 @@
+info:
+  company: ConfTool GmbH
+  product: ConfTool
+  softhard: '2'
+matches: |
+  body.icontains("<h2 align=center>conftool conference administration")
+  body.icontains("<a href='http://www.conftool.net'>conference management software")

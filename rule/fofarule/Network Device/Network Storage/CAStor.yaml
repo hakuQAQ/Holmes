@@ -1,0 +1,6 @@
+info:
+  company: Caringo, Inc.
+  product: CAStor
+  softhard: '1'
+matches: |
+  header.icontains("castor")

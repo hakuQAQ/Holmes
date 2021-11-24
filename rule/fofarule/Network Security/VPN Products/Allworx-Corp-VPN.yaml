@@ -1,0 +1,6 @@
+info:
+  company: Allworx Corp.
+  product: Allworx-Corp-VPN
+  softhard: '1'
+matches: |
+  banner.icontains("vendor: allworx server vpn")

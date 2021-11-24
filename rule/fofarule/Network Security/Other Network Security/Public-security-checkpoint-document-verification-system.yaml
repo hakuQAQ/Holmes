@@ -1,0 +1,6 @@
+info:
+  company: seekfangle
+  product: Public-security-checkpoint-document-verification-system
+  softhard: '2'
+matches: |
+  body.icontains("content=\"公安检查站人脸/证件合一核录系统")

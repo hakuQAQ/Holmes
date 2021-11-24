@@ -1,0 +1,6 @@
+info:
+  company: MOXA
+  product: Moxa-Async-Server
+  softhard: '1'
+matches: |
+  banner.icontains("moxa async server ")

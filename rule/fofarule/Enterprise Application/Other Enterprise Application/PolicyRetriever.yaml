@@ -1,0 +1,7 @@
+info:
+  company: Microsoft Corporation
+  product: PolicyRetriever
+  softhard: '2'
+matches: |
+  title.icontains("policyretriever ")
+  body.icontains("class=\"heading1\">policyretriever service</p>")

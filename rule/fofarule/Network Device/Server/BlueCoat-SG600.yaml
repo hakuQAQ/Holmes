@@ -1,0 +1,6 @@
+info:
+  company: Blue Coat Systems, Inc.
+  product: BlueCoat-SG600
+  softhard: '1'
+matches: |
+  banner.icontains("blue coat sg600")

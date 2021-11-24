@@ -1,0 +1,7 @@
+info:
+  company: InfiNet Wireless
+  product: Infinet-R5000-WANFleX
+  softhard: '1'
+matches: |
+  banner.icontains("r5000 wanflex")
+  banner.icontains("revolution wireless router r5000-cpe")

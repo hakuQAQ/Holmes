@@ -1,0 +1,6 @@
+info:
+  company: Sprint IP Voice and Data Business Solutions
+  product: Sprint-Product
+  softhard: '1'
+matches: |
+  banner.icontains("server: springt")

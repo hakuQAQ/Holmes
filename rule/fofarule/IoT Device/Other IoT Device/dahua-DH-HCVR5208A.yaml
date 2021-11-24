@@ -1,0 +1,6 @@
+info:
+  company: Dahua
+  product: dahua-DH-HCVR5208A
+  softhard: '1'
+matches: |
+  banner.icontains("hcvr5208a")

@@ -1,0 +1,6 @@
+info:
+  company: Vodafone Group plc
+  product: Arcor-Easy-Box
+  softhard: '1'
+matches: |
+  banner.icontains("arcor-easy box")

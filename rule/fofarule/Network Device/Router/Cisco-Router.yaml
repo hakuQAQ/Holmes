@@ -1,0 +1,16 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-Router
+  softhard: '1'
+matches: |
+  banner.icontains("cisco router")
+  header.icontains("realm=\"pa cisco router")
+  header.icontains("realm=\"cisco-router") && header.icontains("realm=\"level 15 access")
+  header.icontains("realm=\"level_15_access")
+  header.icontains("realm=\"access")
+  header.icontains("server") && banner.icontains("realm=\"level_15_access")
+  header.icontains("level_15 or view_access")
+  header.icontains("level_1_or_view_access")
+  body.icontains("router.copyright")
+  body.icontains("cisco") && body.icontains("cisco_logo_about.png") && body.icontains("src='/image/small_bg.jpg'")
+  title.icontains("router") && body.icontains("src=\"/images/login_progress.gif")

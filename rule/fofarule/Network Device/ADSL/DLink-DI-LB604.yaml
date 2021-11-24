@@ -1,0 +1,7 @@
+info:
+  company: DLink
+  product: DLink-DI-LB604
+  softhard: '1'
+matches: |
+  header.icontains("di-lb604")
+  banner.icontains("di-lb604")

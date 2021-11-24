@@ -1,0 +1,8 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-ICG1800
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"h3c icg 1800")
+  header.icontains("realm=\"h3c icg1800")
+  banner.icontains("h3c icg 1800") && banner.icontains("h3c icg1800")

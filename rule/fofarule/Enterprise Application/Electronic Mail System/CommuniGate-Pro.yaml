@@ -1,0 +1,9 @@
+info:
+  company: CommuniGate Systems, Inc.
+  product: CommuniGate-Pro
+  softhard: '2'
+matches: |
+  header.icontains("server: communigatepro")
+  banner.icontains("server: communigatepro")
+  protocol.icontains("snmp") && banner.icontains("communigate pro")
+  title.icontains("communigate pro")

@@ -1,0 +1,6 @@
+info:
+  company: hanbang
+  product: HANBANG-MediaServer
+  softhard: '2'
+matches: |
+  banner.icontains("server: hb-dvr")

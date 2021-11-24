@@ -1,0 +1,8 @@
+info:
+  company: arcvideo
+  product: Arcvideo-Live
+  softhard: '1'
+matches: |
+  title.icontains("arcvideo live")
+  banner.icontains("arcvideo")
+  header.icontains("arcvideo")

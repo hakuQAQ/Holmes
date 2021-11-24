@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: DVWA
+  softhard: '2'
+matches: |
+  title.icontains("damn vulnerable web app (dvwa) - login")
+  body.icontains("dvwa/css/login.css")
+  body.icontains("dvwa/images/login_logo.png")

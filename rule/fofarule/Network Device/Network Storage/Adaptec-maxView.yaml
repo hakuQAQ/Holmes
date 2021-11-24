@@ -1,0 +1,7 @@
+info:
+  company: Microchip Technology Inc.
+  product: Adaptec-maxView
+  softhard: '2'
+matches: |
+  title.icontains("maxview storage manager")
+  body.icontains("action=\"/maxview/manager/login.xhtml")

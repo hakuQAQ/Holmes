@@ -1,0 +1,8 @@
+info:
+  company: Red Hat, Inc.
+  product: CentOS
+  softhard: '2'
+matches: |
+  banner.icontains("centos")
+  title.icontains("apache http server test page powered by centos")
+  header.icontains("centos")

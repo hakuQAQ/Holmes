@@ -1,0 +1,6 @@
+info:
+  company: LG Electronics.
+  product: LG-49UM7100PLB
+  softhard: '1'
+matches: |
+  body.icontains("<modelname>49um7100plb</modelname>")

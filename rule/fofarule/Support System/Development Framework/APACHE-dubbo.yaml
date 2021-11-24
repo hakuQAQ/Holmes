@@ -1,0 +1,8 @@
+info:
+  company: Apache Software Foundation.
+  product: APACHE-dubbo
+  softhard: '2'
+matches: |
+  header.icontains(" basic realm=\"dubbo\"") && banner.icontains("basic realm=\"dubbo\"")
+  title == "dubbo" && banner.icontains("unsupported command: get")
+  protocol.icontains("apache-dubbo")

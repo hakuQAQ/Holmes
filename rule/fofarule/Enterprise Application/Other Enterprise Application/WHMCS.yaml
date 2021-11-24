@@ -1,0 +1,7 @@
+info:
+  company: WHMCS Limited.
+  product: WHMCS
+  softhard: '2'
+matches: |
+  body.icontains("powered by <a href=\"http://www.whmcs.com")
+  body.icontains("<div id=\"welcome_box\">please <a href=\"clientarea.php\" title=\"login\"><strong>login</strong></a> or <a href=\"register.php\" title=\"register\"><strong>register</strong></a></div>")

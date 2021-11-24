@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: KodiTV
+  softhard: '1'
+matches: |
+  title == "kodi" && body.icontains("title=\"kodi library")

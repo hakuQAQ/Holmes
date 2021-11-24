@@ -1,0 +1,7 @@
+info:
+  company: JianHengXinAn
+  product: JianHengXinAn-JH-LAS
+  softhard: '2'
+matches: |
+  body.icontains("jh-la3600")
+  body.icontains("建恒信安日志审计系统")

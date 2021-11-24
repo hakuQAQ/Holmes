@@ -1,0 +1,9 @@
+info:
+  company: DLink
+  product: D_Link-DVG-N5402SP
+  softhard: '1'
+matches: |
+  title.icontains("dvg-n5402sp/c1")
+  body.icontains("welcome to dvg-n5402sp-r")
+  body.icontains("welcome to dvg-n5402sp")
+  body.icontains("lang_firmwarelogin")

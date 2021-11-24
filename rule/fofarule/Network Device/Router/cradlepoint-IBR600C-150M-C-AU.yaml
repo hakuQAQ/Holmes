@@ -1,0 +1,7 @@
+info:
+  company: Cradlepoint, Inc.
+  product: cradlepoint-IBR600C-150M-C-AU
+  softhard: '1'
+matches: |
+  banner.icontains("cradlepoint ibr600c-150m-c-au")
+  title.icontains("ibr600c-150m-c-au")

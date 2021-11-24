@@ -1,0 +1,6 @@
+info:
+  company: Aurora
+  product: Aurora-CH3000
+  softhard: '1'
+matches: |
+  banner.icontains("aurora networks ch3000")

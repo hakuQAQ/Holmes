@@ -1,0 +1,12 @@
+info:
+  company: Proxmox Server Solutions GmbH.
+  product: Proxmox-VE
+  softhard: '2'
+matches: |
+  body.icontains("class=\"boxheadline\">proxmox virtual environment")
+  body.icontains("href='http://www.proxmox.com' target='_blank' class=\"boxheadline")
+  body.icontains("ext.create('pve.stdworkspace')")
+  header.icontains("pve-api-daemon")
+  banner.icontains("pve-api-daemon")
+  banner.icontains("server: ")
+  cert.icontains("proxmox virtual environment")

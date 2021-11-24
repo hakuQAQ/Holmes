@@ -1,0 +1,7 @@
+info:
+  company: Palo Alto Networks，Inc.
+  product: PaloAlto-Firewall
+  softhard: '1'
+matches: |
+  body.icontains("access to the web page you were trying to visit has been blocked in accordance with company policy")
+  banner.icontains("pa-500") && banner.icontains("pa-200") && header.icontains("pa-200")

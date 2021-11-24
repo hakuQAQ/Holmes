@@ -1,0 +1,10 @@
+info:
+  company: Lenovo
+  product: Lenovo-Printer
+  softhard: '1'
+matches: |
+  banner.icontains("lenovo cs")
+  banner.icontains("pjl") && banner.icontains("lenovo") && banner.icontains("lenovo cs2010dw")
+  banner.icontains("lenovo network printer")
+  title.icontains("printserver homepage")
+  body.icontains("<frame name=lower  src=\"index.files/user.files/index.htm\">")

@@ -1,0 +1,6 @@
+info:
+  company: GeoTrust, Inc.
+  product: GeoTrust-Cert
+  softhard: '2'
+matches: |
+  body.icontains("//smarticon.geotrust.com/si.js")

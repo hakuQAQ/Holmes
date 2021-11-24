@@ -1,0 +1,10 @@
+info:
+  company: ourphp
+  product: OURPHP
+  softhard: '2'
+matches: |
+  body.icontains("content=\"ourphp")
+  body.icontains("powered by ourphp")
+  body.icontains("<div class=\"nav_ourphp\">")
+  body.icontains("/function/plugs/layer/layer.min.js")
+  body.icontains("/templates/default/images/erweima.png")

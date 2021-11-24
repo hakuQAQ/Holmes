@@ -1,0 +1,7 @@
+info:
+  company: ZTE
+  product: ZTE-C320
+  softhard: '1'
+matches: |
+  banner.icontains("c320 version")
+  banner.icontains("zte") && banner.icontains("zxan product c320 of zte corporation")

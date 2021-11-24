@@ -1,0 +1,6 @@
+info:
+  company: Cradlepoint，Inc.
+  product: Cradlepoint-CBA850
+  softhard: '1'
+matches: |
+  body.icontains("cplogin.model = \"cba850\"")

@@ -1,0 +1,7 @@
+info:
+  company: Ubiquiti Inc.
+  product: Ubiquiti-UNMS
+  softhard: '2'
+matches: |
+  body.icontains("content=\"unms\"")
+  title.icontains("unms")

@@ -1,0 +1,6 @@
+info:
+  company: 54kefu
+  product: 54-Customer-service
+  softhard: '2'
+matches: |
+  body.icontains("src=\"http://code.54kefu.net/")

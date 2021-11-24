@@ -1,0 +1,6 @@
+info:
+  company: ATEN INTERNATIONAL Co., Ltd.
+  product: Aten-KVM
+  softhard: '1'
+matches: |
+  title.icontains("kn2132")

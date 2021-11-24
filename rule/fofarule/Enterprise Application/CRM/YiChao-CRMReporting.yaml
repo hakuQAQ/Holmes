@@ -1,0 +1,6 @@
+info:
+  company: Yichao
+  product: YiChao-CRMReporting
+  softhard: '2'
+matches: |
+  body.icontains("href=\"/css/vendors~index.acfeb.css\"")

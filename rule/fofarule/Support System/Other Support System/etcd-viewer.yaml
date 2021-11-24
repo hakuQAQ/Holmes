@@ -1,0 +1,7 @@
+info:
+  company: etcd-viewer
+  product: etcd-viewer
+  softhard: '2'
+matches: |
+  title.icontains("etcd viewer")
+  body.icontains("<a class=\"navbar-brand\" href=\"./home\">etcd viewer</a>")

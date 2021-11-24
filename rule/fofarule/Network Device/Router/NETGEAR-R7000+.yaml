@@ -1,0 +1,6 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-R7000+
+  softhard: '1'
+matches: |
+  header.icontains("netgear r7000+")

@@ -1,0 +1,6 @@
+info:
+  company: YouHua
+  product: YouHua-iEMOS_CW
+  softhard: '2'
+matches: |
+  body.icontains("var id = document.getelementbyid(\"txtyhmm\").value")

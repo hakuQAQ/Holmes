@@ -1,0 +1,6 @@
+info:
+  company: nington
+  product: nington-CAS
+  softhard: '1'
+matches: |
+  body.icontains("id=\"dynamicpasswordwithmobile\">")

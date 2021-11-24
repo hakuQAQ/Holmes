@@ -1,0 +1,7 @@
+info:
+  company: Juniper Networks, Inc.
+  product: JUNIPer-QFX5100-48t-6q
+  softhard: '1'
+matches: |
+  banner.icontains("qfx5100-48t-6q")
+  body.icontains("class=\"jweb-title uppercase\"> - qfx5100-48t-6q")

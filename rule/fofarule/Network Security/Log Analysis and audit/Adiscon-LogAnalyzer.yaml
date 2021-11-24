@@ -1,0 +1,7 @@
+info:
+  company: Adiscon GmbH
+  product: Adiscon-LogAnalyzer
+  softhard: '2'
+matches: |
+  title.icontains("adiscon loganalyzer") && body.icontains("adiscon loganalyzer")
+  body.icontains("adiscon gmbh")

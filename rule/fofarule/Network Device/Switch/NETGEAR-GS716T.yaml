@@ -1,0 +1,6 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-GS716T
+  softhard: '1'
+matches: |
+  body.icontains("class=\"gs716timage spacer50percent topalign righthalign\"")

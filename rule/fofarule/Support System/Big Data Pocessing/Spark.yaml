@@ -1,0 +1,8 @@
+info:
+  company: Apache Software Foundation.
+  product: Spark
+  softhard: '2'
+matches: |
+  title.icontains("spark worker at")
+  title.icontains("spark://")
+  body.icontains("serversparkversion")

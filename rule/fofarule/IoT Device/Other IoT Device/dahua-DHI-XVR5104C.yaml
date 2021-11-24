@@ -1,0 +1,6 @@
+info:
+  company: Dahua
+  product: dahua-DHI-XVR5104C
+  softhard: '1'
+matches: |
+  banner.icontains("dhi-xvr5104c")

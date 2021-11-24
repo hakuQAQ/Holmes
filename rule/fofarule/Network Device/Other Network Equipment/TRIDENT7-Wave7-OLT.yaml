@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: TRIDENT7-Wave7-OLT
+  softhard: '1'
+matches: |
+  body.icontains("wave7 optics, inc. all rights reserved.")
+  title.icontains("trident7 system login")
+  body.icontains("<td valign=\"bottom\" colspan=2><font size=2 align=\"justify\">&copy; ")

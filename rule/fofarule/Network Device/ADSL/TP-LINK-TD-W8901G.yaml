@@ -1,0 +1,7 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TP-LINK-TD-W8901G
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"td-w8901g")
+  banner.icontains("td-w8901g")

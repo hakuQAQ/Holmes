@@ -1,0 +1,7 @@
+info:
+  company: pmway
+  product: PMWAY-E4
+  softhard: '2'
+matches: |
+  body.icontains("风<span style=\"padding-left: 12px;\"></span>格")
+  body.icontains("热情似火</option>")

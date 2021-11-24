@@ -1,0 +1,7 @@
+info:
+  company: Portainer.
+  product: portainer
+  softhard: '2'
+matches: |
+  title.icontains("portainer")
+  body.icontains("href=\"ico/safari-pinned-tab.svg\"")

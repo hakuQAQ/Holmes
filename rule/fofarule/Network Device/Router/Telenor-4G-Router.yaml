@@ -1,0 +1,10 @@
+info:
+  company: Telenor Group
+  product: Telenor-4G-Router
+  softhard: '2'
+matches: |
+  body.icontains("window.location.href=\"http://")
+  body.icontains("if(login_flag==\"1\")")
+  body.icontains("<form id=\"default_login\" name=\"default_login\" method=\"post\" action=\"/goform/user_login\">")
+  body.icontains("please power off and plug in (u)sim card. then power on again. or pin is permanently blocked, please contact the provider")
+  title.icontains("4g router")

@@ -1,0 +1,6 @@
+info:
+  company: Sangfor
+  product: SANGFOR-S5100
+  softhard: '1'
+matches: |
+  body.icontains("id=\"ver_title\">s5100")

@@ -1,0 +1,6 @@
+info:
+  company: Smarsh, Inc
+  product: Smarsh-SmarshMail!
+  softhard: '2'
+matches: |
+  banner.icontains("smarshmail!")

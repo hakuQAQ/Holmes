@@ -1,0 +1,6 @@
+info:
+  company: venustech
+  product: Venustech-ADM-DetectorWeb
+  softhard: '1'
+matches: |
+  title.icontains("天清异常流量检测")

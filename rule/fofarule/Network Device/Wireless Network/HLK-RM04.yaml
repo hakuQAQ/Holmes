@@ -1,0 +1,7 @@
+info:
+  company: hlktech
+  product: HLK-RM04
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"hlk-rm04")
+  banner.icontains("realm=\"hlk-rm04")

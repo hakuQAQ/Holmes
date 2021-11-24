@@ -1,0 +1,6 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-SR8806-X-S
+  softhard: '1'
+matches: |
+  banner.icontains("sr8806-x-s")

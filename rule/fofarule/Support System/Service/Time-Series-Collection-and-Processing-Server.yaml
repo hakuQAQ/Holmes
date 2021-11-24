@@ -1,0 +1,6 @@
+info:
+  company: Prometheus
+  product: Time-Series-Collection-and-Processing-Server
+  softhard: '2'
+matches: |
+  title.icontains("prometheus time series collection and processing server")

@@ -1,0 +1,6 @@
+info:
+  company: entersoft
+  product: EnterCRM
+  softhard: '2'
+matches: |
+  body.icontains("entercrm")

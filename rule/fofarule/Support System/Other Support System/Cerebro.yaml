@@ -1,0 +1,6 @@
+info:
+  company: Cerebro
+  product: Cerebro
+  softhard: '2'
+matches: |
+  body.icontains("lang=\"en\" ng-app=\"cerebro")

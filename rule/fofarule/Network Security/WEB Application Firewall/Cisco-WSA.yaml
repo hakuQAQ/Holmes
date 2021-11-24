@@ -1,0 +1,7 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-WSA
+  softhard: '1'
+matches: |
+  header.icontains("cisco-wsa")
+  banner.icontains("cisco-wsa")

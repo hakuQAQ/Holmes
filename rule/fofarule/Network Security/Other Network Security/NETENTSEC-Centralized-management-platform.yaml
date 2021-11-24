@@ -1,0 +1,6 @@
+info:
+  company: NETENTSEC
+  product: NETENTSEC-Centralized-management-platform
+  softhard: '1'
+matches: |
+  title.icontains("网康集中管理平台")

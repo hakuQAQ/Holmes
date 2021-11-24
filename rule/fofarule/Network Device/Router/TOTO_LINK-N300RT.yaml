@@ -1,0 +1,10 @@
+info:
+  company: TOTOLINK
+  product: TOTO_LINK-N300RT
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"totolink n300rt")
+  banner.icontains("realm=\"totolink n300rt")
+  header.icontains("realm=\"n300rt")
+  banner.icontains("realm=\"n300rt")
+  body.icontains("src =\"/images/login_back_zn300rt.gif")

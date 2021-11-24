@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: webfs
+  softhard: '2'
+matches: |
+  header.icontains("webfs")

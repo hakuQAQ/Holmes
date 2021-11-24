@@ -1,0 +1,7 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TP-LINK-VPN
+  softhard: '1'
+matches: |
+  header.icontains("tp-link")
+  header.icontains("vpn") && banner.icontains("tp-link") && banner.icontains("vpn")

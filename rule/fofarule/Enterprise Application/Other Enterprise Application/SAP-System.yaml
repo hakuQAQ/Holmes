@@ -1,0 +1,7 @@
+info:
+  company: SAP Software Solutions
+  product: SAP-System
+  softhard: '2'
+matches: |
+  header.icontains("realm=\"sap-system")
+  banner.icontains("realm=\"sap-system")

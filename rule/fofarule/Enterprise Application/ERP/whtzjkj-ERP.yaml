@@ -1,0 +1,6 @@
+info:
+  company: whtzjkj
+  product: whtzjkj-ERP
+  softhard: '2'
+matches: |
+  body.icontains("href=\"/content/home/tzjlog.ico\"")

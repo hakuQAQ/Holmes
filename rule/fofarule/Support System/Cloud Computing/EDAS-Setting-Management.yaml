@@ -1,0 +1,6 @@
+info:
+  company: Alibaba Group
+  product: EDAS-Setting-Management
+  softhard: '2'
+matches: |
+  title == "edas配置中心" && body.icontains("lcccommoncontroller")

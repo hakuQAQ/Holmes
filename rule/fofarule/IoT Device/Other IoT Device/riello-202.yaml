@@ -1,0 +1,7 @@
+info:
+  company: Riello Elettronica Group
+  product: riello-202
+  softhard: '1'
+matches: |
+  banner.icontains("netman 202")
+  title.icontains("netman 202")

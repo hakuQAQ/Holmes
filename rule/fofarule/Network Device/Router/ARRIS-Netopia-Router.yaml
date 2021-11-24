@@ -1,0 +1,8 @@
+info:
+  company: COMMSCOPE
+  product: ARRIS-Netopia-Router
+  softhard: '1'
+matches: |
+  banner.icontains("netopia-")
+  header.icontains("realm=\"netopia-")
+  header.icontains("netopia-payments.")

@@ -1,0 +1,8 @@
+info:
+  company: Rowisoft GmbH
+  product: Rowisoft-skyBlue
+  softhard: '2'
+matches: |
+  header.icontains("rowisoft skyblue")
+  banner.icontains("rowisoft skyblue")
+  banner.icontains("server: ")

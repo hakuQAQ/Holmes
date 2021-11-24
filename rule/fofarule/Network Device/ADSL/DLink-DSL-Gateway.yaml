@@ -1,0 +1,7 @@
+info:
+  company: DLink
+  product: DLink-DSL-Gateway
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"dsl gateway")
+  banner.icontains("realm=\"dsl gateway")

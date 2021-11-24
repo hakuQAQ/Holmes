@@ -1,0 +1,6 @@
+info:
+  company: TPlink
+  product: TP_LINK-Omada-Controller
+  softhard: '2'
+matches: |
+  body.icontains("content=\"width=1300,initial-scale=1,minimal-ui\"")

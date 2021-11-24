@@ -1,0 +1,6 @@
+info:
+  company: bdcom
+  product: Bdcom-BSR2800
+  softhard: '1'
+matches: |
+  banner.icontains("bsr2800")

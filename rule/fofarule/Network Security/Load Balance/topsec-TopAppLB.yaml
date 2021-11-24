@@ -1,0 +1,7 @@
+info:
+  company: TOPSEC
+  product: topsec-TopAppLB
+  softhard: '2'
+matches: |
+  title.icontains("topapp-lb 负载均衡系统")
+  title.icontains("topapp-lb load balancer")

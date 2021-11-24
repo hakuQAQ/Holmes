@@ -1,0 +1,6 @@
+info:
+  company: emtronix
+  product: Emtronix-EM9X60
+  softhard: '1'
+matches: |
+  banner.icontains("em9x60 login")

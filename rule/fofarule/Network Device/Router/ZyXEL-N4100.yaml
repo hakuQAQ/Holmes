@@ -1,0 +1,7 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-N4100
+  softhard: '1'
+matches: |
+  title.icontains("zyxel n4100")
+  title.icontains("zyxel zyair n4100")

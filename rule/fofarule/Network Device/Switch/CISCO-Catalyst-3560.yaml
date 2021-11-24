@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-Catalyst-3560
+  softhard: '1'
+matches: |
+  banner.icontains("catalyst 3560")

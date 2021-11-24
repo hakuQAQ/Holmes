@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: kindred-loadbalancer
+  softhard: '0'
+matches: |
+  header.icontains("kindred-loadbalancer")

@@ -1,0 +1,7 @@
+info:
+  company: yeastar
+  product: Yeastar-VOIP
+  softhard: '1'
+matches: |
+  body.icontains("yeastar")
+  body.icontains("l.cp.common.copyright")

@@ -1,0 +1,7 @@
+info:
+  company: Intelliants LLC
+  product: eLitius
+  softhard: '2'
+matches: |
+  body.icontains("content=\"elitius")
+  body.icontains("target=\"_blank\" title=\"affiliate")

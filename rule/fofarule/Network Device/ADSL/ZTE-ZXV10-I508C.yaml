@@ -1,0 +1,6 @@
+info:
+  company: ZTE
+  product: ZTE-ZXV10-I508C
+  softhard: '1'
+matches: |
+  banner.icontains("zxv10-i508c")

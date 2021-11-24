@@ -1,0 +1,8 @@
+info:
+  company: HUMAX Co., Ltd.
+  product: HG100R-L4
+  softhard: '1'
+matches: |
+  body.icontains("nav.rg_str_incorrect_id_password")
+  body.icontains("copyright &copy; 2014 humax co., ltd. all rights reserved")
+  title.icontains("quick setup")

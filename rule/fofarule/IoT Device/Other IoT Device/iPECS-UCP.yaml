@@ -1,0 +1,6 @@
+info:
+  company: Ericsson-LG Enterprise Co., Ltd.
+  product: iPECS-UCP
+  softhard: '1'
+matches: |
+  body.icontains("src=\"img/ipecs_logo_white.png\"")

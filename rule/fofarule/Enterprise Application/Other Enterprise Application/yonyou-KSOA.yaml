@@ -1,0 +1,6 @@
+info:
+  company: Yonyou Network Co Ltd
+  product: yonyou-KSOA
+  softhard: '2'
+matches: |
+  body.icontains("onmouseout=\"this.classname='btn btnoff'\"")

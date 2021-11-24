@@ -1,0 +1,7 @@
+info:
+  company: rising
+  product: Rising-Antivirus-Online
+  softhard: '2'
+matches: |
+  title.icontains("瑞星杀毒软件网络版")
+  body.icontains("src=\"ravweb_files/")

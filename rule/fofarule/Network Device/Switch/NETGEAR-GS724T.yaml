@@ -1,0 +1,6 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-GS724T
+  softhard: '1'
+matches: |
+  body.icontains("http://kbserver.netgear.com/products/gs724t.asp")

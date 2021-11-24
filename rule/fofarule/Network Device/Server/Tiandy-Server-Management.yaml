@@ -1,0 +1,6 @@
+info:
+  company: tiandy
+  product: Tiandy-Server-Management
+  softhard: '1'
+matches: |
+  body.icontains("window.location = \"./web/logon.php\";")

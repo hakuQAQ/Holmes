@@ -1,0 +1,7 @@
+info:
+  company: Juniper Networks, Inc.
+  product: Juniper-Firewall
+  softhard: '1'
+matches: |
+  banner.icontains("juniper firewall")
+  banner.icontains("juniper srx firewall")

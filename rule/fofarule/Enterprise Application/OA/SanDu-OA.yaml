@@ -1,0 +1,7 @@
+info:
+  company: 3dusoft
+  product: SanDu-OA
+  softhard: '2'
+matches: |
+  body.icontains("青岛叁度信息技术有限公司")
+  title.icontains(" oa ")

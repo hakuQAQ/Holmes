@@ -1,0 +1,6 @@
+info:
+  company: SDL plc
+  product: SDL-Studio
+  softhard: '2'
+matches: |
+  title.icontains("sdl studio groupshare")

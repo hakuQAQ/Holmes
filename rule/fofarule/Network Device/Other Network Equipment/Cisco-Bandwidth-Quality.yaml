@@ -1,0 +1,7 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-Bandwidth-Quality
+  softhard: '2'
+matches: |
+  banner.icontains("cisco bandwidth quality analysis")
+  banner.icontains("cisco bandwidth quality manager")

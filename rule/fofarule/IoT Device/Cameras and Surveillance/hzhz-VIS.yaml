@@ -1,0 +1,7 @@
+info:
+  company: hzhz
+  product: hzhz-VIS
+  softhard: '1'
+matches: |
+  body.icontains("src=\"lib/ext/ext-lang-zh_cn.js\"")
+  body.icontains("id=\"bodyid\"")

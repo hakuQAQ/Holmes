@@ -1,0 +1,7 @@
+info:
+  company: TRENDnet, Inc.
+  product: TRENDnet-TEW-822DRE
+  softhard: '1'
+matches: |
+  body.icontains("tew-822dre")
+  body.icontains("lang_obj.write(\"product_description\")")

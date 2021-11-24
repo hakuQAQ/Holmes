@@ -1,0 +1,7 @@
+info:
+  company: szhtkj
+  product: GC-ReimbursementSystem
+  softhard: '0'
+matches: |
+  body.icontains("src=\"randomimage.aspx\"")
+  body.icontains("id=\"imgbtn\"")

@@ -1,0 +1,11 @@
+info:
+  company: Other
+  product: Gargoyle-Router
+  softhard: '1'
+matches: |
+  title.icontains("石像鬼（gargoyle）路由器管理程序")
+  body.icontains("src=\"/themes/gargoyle/images/wait_icon.gif\"")
+  body.icontains("href=\"/themes/gargoyle/images/favicon.png\"")
+  title == "gargoyle router management utility" && body.icontains("gargoyle firmware webgui for router management")
+  header.icontains("httpd_gargoyle")
+  cert.icontains("gargoyle router management utility")

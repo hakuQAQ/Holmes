@@ -1,0 +1,7 @@
+info:
+  company: Ricoh Company, Ltd.
+  product: Ricoh-Aficio-Printer
+  softhard: '1'
+matches: |
+  title.icontains("ricoh aficio ")
+  banner.icontains("ricoh aficio")

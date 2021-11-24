@@ -1,0 +1,6 @@
+info:
+  company: Welfare Electronic Component Limited.
+  product: AVTECH-AV787
+  softhard: '1'
+matches: |
+  header.icontains("av-tech av787")

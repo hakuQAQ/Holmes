@@ -1,0 +1,8 @@
+info:
+  company: juanvision
+  product: JUNA-Camera
+  softhard: '1'
+matches: |
+  body.icontains("style=\"font-size:24px;float:left;\">network video client")
+  title.icontains("partizan web surveillance")
+  header.icontains("jaws/")

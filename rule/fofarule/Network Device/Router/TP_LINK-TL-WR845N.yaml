@@ -1,0 +1,9 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TP_LINK-TL-WR845N
+  softhard: '1'
+matches: |
+  body.icontains("if (url.indexof(\"tplinklogin.net\")")
+  body.icontains("tl-wr845n")
+  title.icontains("tl-wr845n")
+  header.icontains("tp-link wireless n router wr845n")

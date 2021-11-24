@@ -1,0 +1,7 @@
+info:
+  company: Schneider Electric
+  product: Schneider-EGX100
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"egx100")
+  banner.icontains("realm=\"egx100")

@@ -1,0 +1,10 @@
+info:
+  company: Red Hat, Inc.
+  product: Jboss
+  softhard: '2'
+matches: |
+  header.icontains("jboss")
+  title.icontains("welcome to jboss")
+  title.icontains("welcome to jboss as") && header.icontains("jboss-eap")
+  banner.icontains("server: jboss")
+  banner.icontains("server: jboss-eap")

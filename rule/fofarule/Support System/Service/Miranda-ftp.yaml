@@ -1,0 +1,6 @@
+info:
+  company: Sophos Technologies Pvt. Ltd.
+  product: Miranda-ftp
+  softhard: '2'
+matches: |
+  banner.icontains("miranda ftp server")

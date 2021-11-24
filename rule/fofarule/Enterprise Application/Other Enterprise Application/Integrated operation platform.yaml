@@ -1,0 +1,6 @@
+info:
+  company: Chinaunicom software
+  product: Integrated operation platform
+  softhard: '2'
+matches: |
+  title.icontains("天宫一体化运营平台")

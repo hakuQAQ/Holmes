@@ -1,0 +1,6 @@
+info:
+  company: RealVNC
+  product: RealVNC
+  softhard: '2'
+matches: |
+  header.icontains("realvnc") && title.icontains("vnc viewer")

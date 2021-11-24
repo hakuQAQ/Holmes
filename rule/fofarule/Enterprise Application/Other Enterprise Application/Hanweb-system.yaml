@@ -1,0 +1,10 @@
+info:
+  company: Hanweb
+  product: Hanweb-system
+  softhard: '2'
+matches: |
+  body.icontains("produced by 大汉网络")
+  body.icontains("<a href='http://www.hanweb.com' style='display:none'>")
+  body.icontains("<meta name='generator' content='大汉版通'>")
+  body.icontains("<meta name='author' content='大汉网络'>")
+  body.icontains("/jcms_files/jcms")

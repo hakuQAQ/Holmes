@@ -1,0 +1,8 @@
+info:
+  company: International Business Machines Corporation
+  product: IBM-WebSphere-DataPower
+  softhard: '1'
+matches: |
+  header.icontains("x-backside-transport") && title.icontains("28ze") && header.icontains("360 web server")
+  banner.icontains("x-backside-transport")
+  banner.icontains("360 web server")

@@ -1,0 +1,7 @@
+info:
+  company: Netmeans Photography.
+  product: OpenNewsletter
+  softhard: '2'
+matches: |
+  body.icontains("href=\"http://netmeans.net\">netmeans.net")
+  body.icontains("this software is based on the opennewsletter project")

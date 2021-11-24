@@ -1,0 +1,11 @@
+info:
+  company: Oracle Corporation
+  product: Oracle-iPlanet
+  softhard: '2'
+matches: |
+  header.icontains("iplanet-web-proxy-server")
+  header.icontains("iplanet-webserver-enterprise")
+  header.icontains("oracle-iplanet-web-server")
+  banner.icontains("iplanet-web-proxy-server")
+  banner.icontains("iplanet-webserver-enterprise")
+  banner.icontains("oracle-iplanet-web-server")

@@ -1,0 +1,6 @@
+info:
+  company: Observa Telecom
+  product: OBSERVA-telcom
+  softhard: '1'
+matches: |
+  title == "observa"

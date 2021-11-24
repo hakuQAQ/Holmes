@@ -1,0 +1,7 @@
+info:
+  company: Grandstream Networks, Inc.
+  product: Grandstream-company's-product
+  softhard: '0'
+matches: |
+  header.icontains("grandstream") && title.icontains("grandstream device configuration")
+  banner.icontains("server: grandstream")

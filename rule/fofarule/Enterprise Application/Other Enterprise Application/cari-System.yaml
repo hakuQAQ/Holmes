@@ -1,0 +1,6 @@
+info:
+  company: cari
+  product: cari-System
+  softhard: '2'
+matches: |
+  body.icontains("src=\"/cariweb/images/images-new")

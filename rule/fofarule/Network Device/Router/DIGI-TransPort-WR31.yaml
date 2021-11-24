@@ -1,0 +1,6 @@
+info:
+  company: Digi International Inc.
+  product: DIGI-TransPort-WR31
+  softhard: '1'
+matches: |
+  body.icontains("class=\"heading\">transport wr31")

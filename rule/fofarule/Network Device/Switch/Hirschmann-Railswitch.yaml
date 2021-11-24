@@ -1,0 +1,7 @@
+info:
+  company: Belden Inc.
+  product: Hirschmann-Railswitch
+  softhard: '1'
+matches: |
+  banner.icontains("hirschmann railswitch")
+  banner.icontains("hirschmann rail switch power")

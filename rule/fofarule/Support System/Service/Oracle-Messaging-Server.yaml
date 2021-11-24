@@ -1,0 +1,6 @@
+info:
+  company: Oracle Corporation
+  product: Oracle-Messaging-Server
+  softhard: '2'
+matches: |
+  banner.icontains("oracle communications messaging server")

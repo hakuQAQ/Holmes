@@ -1,0 +1,6 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-EMG2926
+  softhard: '1'
+matches: |
+  body.icontains("<li class=\"modelname\">emg2926</li>")

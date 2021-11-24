@@ -1,0 +1,7 @@
+info:
+  company: Lightbend
+  product: Play-Framework
+  softhard: '2'
+matches: |
+  header.icontains("play! framework")
+  banner.icontains("server: play! framework")

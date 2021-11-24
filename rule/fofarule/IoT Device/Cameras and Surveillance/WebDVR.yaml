@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: WebDVR
+  softhard: '1'
+matches: |
+  title.icontains("webdvr")

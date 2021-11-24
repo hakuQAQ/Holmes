@@ -1,0 +1,9 @@
+info:
+  company: handlink
+  product: Handlink-ISS-7000
+  softhard: '1'
+matches: |
+  body.icontains("window.location='login.cgi';")
+
+#yamlflag
+#body.icontains("<a")

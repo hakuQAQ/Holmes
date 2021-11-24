@@ -1,0 +1,7 @@
+info:
+  company: iceflow
+  product: ICEFLOW-VPN
+  softhard: '1'
+matches: |
+  header.icontains("iceflow")
+  title.icontains("iceflow vpn router")

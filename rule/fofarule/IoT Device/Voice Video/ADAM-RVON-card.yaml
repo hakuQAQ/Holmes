@@ -1,0 +1,7 @@
+info:
+  company: Adam Internet Pty. Ltd.
+  product: ADAM-RVON-card
+  softhard: '1'
+matches: |
+  banner.icontains("adam rvon- ")
+  banner.icontains("card,")

@@ -1,0 +1,7 @@
+info:
+  company: MyRepHP ORMworks.
+  product: MYRE-PHP
+  softhard: '2'
+matches: |
+  body.icontains("<!-- begin: menu footer don't change anything")
+  body.icontains("<b><u>my last viewed</u></b>")

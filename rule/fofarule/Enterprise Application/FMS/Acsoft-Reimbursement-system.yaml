@@ -1,0 +1,8 @@
+info:
+  company: acsoft
+  product: Acsoft-Reimbursement-system
+  softhard: '2'
+matches: |
+  body.icontains("<div id=\"dsitetitle\"") && body.icontains("by:lin.zhibin")
+  body.icontains("window.external.addfavorite(location.href,document.title);")
+  body.icontains("安财")

@@ -1,0 +1,7 @@
+info:
+  company: Barracuda Networks, Inc.
+  product: Barracuda-SSL-VPN
+  softhard: '1'
+matches: |
+  banner.icontains("barracuda ssl vpn")
+  title.icontains("barracuda ssl vpn")

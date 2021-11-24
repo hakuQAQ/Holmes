@@ -1,0 +1,7 @@
+info:
+  company: Smartlink Network Systems LTD.
+  product: smartlink-DIGISOL
+  softhard: '1'
+matches: |
+  title.icontains("digisol")
+  body.icontains("smartlink network systems ltd.")

@@ -1,0 +1,6 @@
+info:
+  company: AKCP Inc.
+  product: AKCP-sensorProbe
+  softhard: '1'
+matches: |
+  header.icontains("akcp embedded web server")

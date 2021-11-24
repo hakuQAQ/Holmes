@@ -1,0 +1,6 @@
+info:
+  company: Ubiquiti Inc.
+  product: UBNT-Streaming-Server
+  softhard: '1'
+matches: |
+  protocol.icontains("rtsp") && banner.icontains("ubnt streaming server")

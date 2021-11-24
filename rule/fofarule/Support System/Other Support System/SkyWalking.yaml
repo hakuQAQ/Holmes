@@ -1,0 +1,6 @@
+info:
+  company: Apache SkyWalking
+  product: SkyWalking
+  softhard: '2'
+matches: |
+  title == "skywalking"

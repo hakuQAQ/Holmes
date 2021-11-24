@@ -1,0 +1,12 @@
+info:
+  company: Zimbra, Inc.
+  product: Zimbra
+  softhard: '2'
+matches: |
+  header.icontains("zm_test=")
+  banner.icontains("zm_test=")
+  body.icontains("window._zimbramail")
+  body.icontains("content=\"zimbra")
+  banner.icontains("zimbra imap4rev1")
+  banner.icontains("zimbra pop3 server")
+  title.icontains("zimbra 网络客户端登录")

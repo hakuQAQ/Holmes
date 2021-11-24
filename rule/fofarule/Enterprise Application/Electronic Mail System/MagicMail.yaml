@@ -1,0 +1,6 @@
+info:
+  company: amaxit
+  product: MagicMail
+  softhard: '2'
+matches: |
+  body.icontains("/aboutus/magicmail.gif")

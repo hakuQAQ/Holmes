@@ -1,0 +1,6 @@
+info:
+  company: HubSpot, Inc.
+  product: HubSpot
+  softhard: '2'
+matches: |
+  body.icontains("js.hubspot.com/analytics")

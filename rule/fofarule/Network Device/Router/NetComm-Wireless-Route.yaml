@@ -1,0 +1,8 @@
+info:
+  company: NetComm Limited
+  product: NetComm-Wireless-Route
+  softhard: '1'
+matches: |
+  banner.icontains("netcomm wireless router")
+  body.icontains("powered by netcomm")
+  title.icontains("login")

@@ -1,0 +1,7 @@
+info:
+  company: IBM
+  product: IBM-DL_MONITOR
+  softhard: '2'
+matches: |
+  header.icontains("dl_monitor")
+  banner.icontains("dl_monitor")

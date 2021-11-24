@@ -1,0 +1,6 @@
+info:
+  company: Dahua
+  product: Dahua-ESS6024S
+  softhard: '1'
+matches: |
+  banner.icontains("linux ess6024s")

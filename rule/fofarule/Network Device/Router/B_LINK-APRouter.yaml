@@ -1,0 +1,7 @@
+info:
+  company: blink
+  product: B_LINK-APRouter
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"b-link-aprouter")
+  banner.icontains("realm=\"b-link-aprouter")

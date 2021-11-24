@@ -1,0 +1,8 @@
+info:
+  company: IBM
+  product: IBM System X
+  softhard: '1'
+matches: |
+  body.icontains("str_login_pls_login")
+  header.icontains("content-length: 3883")
+  body.icontains("american megatrends inc.</font>")

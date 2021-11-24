@@ -1,0 +1,7 @@
+info:
+  company: D-Link Corporation
+  product: D_Link-web-camera
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"administrator or user\"")
+  banner.icontains("realm=\"administrator or user\"")

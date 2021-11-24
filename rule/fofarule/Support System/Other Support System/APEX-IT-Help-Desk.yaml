@@ -1,0 +1,6 @@
+info:
+  company: Zoho Corporation Pvt. Ltd.
+  product: APEX-IT-Help-Desk
+  softhard: '2'
+matches: |
+  title.icontains("apex it help desk")

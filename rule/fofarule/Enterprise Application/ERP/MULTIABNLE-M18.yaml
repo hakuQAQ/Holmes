@@ -1,0 +1,6 @@
+info:
+  company: Multiable Company
+  product: MULTIABNLE-M18
+  softhard: '2'
+matches: |
+  body.icontains("<label>打开m18 app， 扫描二维码</label>")

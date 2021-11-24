@@ -1,0 +1,6 @@
+info:
+  company: Huawei
+  product: HUAWEI-S5328C-EI
+  softhard: '1'
+matches: |
+  banner.icontains("s5328c-ei")

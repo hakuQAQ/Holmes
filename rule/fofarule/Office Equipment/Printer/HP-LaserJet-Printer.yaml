@@ -1,0 +1,12 @@
+info:
+  company: HP Development Company, L.P.
+  product: HP-LaserJet-Printer
+  softhard: '1'
+matches: |
+  header.icontains("hp-chaisoe")
+  title.icontains("hp color laserjet")
+  title.icontains("hp laserjet") && banner.icontains("laserjet")
+  banner.icontains("hp color laserjet")
+  title.icontains("hp &raquo; &#35774;&#22791;&#29366;&#24577;")
+  banner.icontains("location: /ssi/index.htm")
+  banner.icontains("server: mrvl-r1_0")

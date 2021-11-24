@@ -1,0 +1,6 @@
+info:
+  company: gzmwiccard
+  product: gzmwiccard-System
+  softhard: '2'
+matches: |
+  body.icontains("抄表器驱动tp1100m")

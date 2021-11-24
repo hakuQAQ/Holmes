@@ -1,0 +1,6 @@
+info:
+  company: Alibaba Group
+  product: AliyunMQS
+  softhard: '2'
+matches: |
+  header.icontains("aliyunmqs")

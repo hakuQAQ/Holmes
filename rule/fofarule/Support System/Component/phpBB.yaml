@@ -1,0 +1,10 @@
+info:
+  company: phpBB Limited
+  product: phpBB
+  softhard: '2'
+matches: |
+  header.icontains("set-cookie: phpbb3_")
+  header.icontains("httponly, phpbb3_")
+  body.icontains("&copy;") && body.icontains("http://www.longluntan.com/zh/phpbb/")
+  body.icontains("phpbb") && body.icontains("phpbb group\" />")
+  body.icontains("start quick hack - phpbb statistics mod")

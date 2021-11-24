@@ -1,0 +1,6 @@
+info:
+  company: Inseego Corp.
+  product: inseego-Skyus-E
+  softhard: '1'
+matches: |
+  body.icontains("src=\"img/skyus_e_fpos.png\"")

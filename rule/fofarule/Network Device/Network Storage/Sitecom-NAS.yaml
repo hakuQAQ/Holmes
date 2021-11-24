@@ -1,0 +1,7 @@
+info:
+  company: Sitecom B.V.
+  product: Sitecom-NAS
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"sitecom login enter password (default is sitecom)")
+  banner.icontains("realm=\"sitecom login enter password (default is sitecom)")

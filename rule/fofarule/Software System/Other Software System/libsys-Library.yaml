@@ -1,0 +1,6 @@
+info:
+  company: libsys
+  product: libsys-Library
+  softhard: '2'
+matches: |
+  body.icontains("<div class=\"header_opac_logo\">")

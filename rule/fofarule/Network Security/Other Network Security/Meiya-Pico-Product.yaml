@@ -1,0 +1,7 @@
+info:
+  company: meiyapico
+  product: Meiya-Pico-Product
+  softhard: '1'
+matches: |
+  title.icontains("手机数据采集系统 - 美亚柏科")
+  body.icontains("meiya pico. all rights reserved")

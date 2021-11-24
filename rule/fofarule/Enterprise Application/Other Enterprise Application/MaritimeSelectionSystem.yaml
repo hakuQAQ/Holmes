@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: MaritimeSelectionSystem
+  softhard: '2'
+matches: |
+  body.icontains("海事选船系统</el-col>")

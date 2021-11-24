@@ -1,0 +1,7 @@
+info:
+  company: Formosa21 Inc
+  product: VPON
+  softhard: '1'
+matches: |
+  body.icontains("/ctrl_ver.js")
+  header.icontains("vpon server")

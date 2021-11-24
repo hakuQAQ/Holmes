@@ -1,0 +1,7 @@
+info:
+  company: Cradlepoint, Inc.
+  product: cradlepoint-MBR1200
+  softhard: '1'
+matches: |
+  title.icontains("cradlepoint mbr1200 gateway")
+  banner.icontains("cradlepoint mbr1200")

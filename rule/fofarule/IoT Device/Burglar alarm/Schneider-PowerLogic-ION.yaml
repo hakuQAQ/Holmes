@@ -1,0 +1,19 @@
+info:
+  company: Schneider Electric
+  product: Schneider-PowerLogic-ION
+  softhard: '1'
+matches: |
+  title.icontains("powerlogic")
+  title.icontains("ion") && header.icontains("allegro-software-rompager")
+  header.icontains("7650 ion")
+  header.icontains("7550 ion")
+  header.icontains("8650 ion")
+  header.icontains("8600 ion")
+  header.icontains("7300 ion")
+  header.icontains("6200 ion")
+  banner.icontains("7650 ion")
+  banner.icontains("7550 ion")
+  banner.icontains("8650 ion")
+  banner.icontains("8600 ion")
+  banner.icontains("7300 ion")
+  banner.icontains("6200 ion")

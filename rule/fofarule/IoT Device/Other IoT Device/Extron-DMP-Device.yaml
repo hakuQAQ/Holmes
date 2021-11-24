@@ -1,0 +1,6 @@
+info:
+  company: Extron Electronics.
+  product: Extron-DMP-Device
+  softhard: '1'
+matches: |
+  body.icontains("<title>\"+xmodel+\" default web pages</title>\"")

@@ -1,0 +1,7 @@
+info:
+  company: Comcast Cable Communications，LLC
+  product: Xfinity-Comcast-Business-Gateway
+  softhard: '1'
+matches: |
+  body.icontains("comcast business gateway")
+  title.icontains("comcast business gateway")

@@ -1,0 +1,8 @@
+info:
+  company: Episerver Inc.
+  product: Ektron-CMS
+  softhard: '2'
+matches: |
+  body.icontains("/java/ektron.js")
+  header.icontains("ektguid=")
+  banner.icontains("ektguid=")

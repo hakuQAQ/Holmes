@@ -1,0 +1,11 @@
+info:
+  company: Sangfor
+  product: Sangfor-SSL-VPN
+  softhard: '1'
+matches: |
+  body.icontains("login_psw.csp")
+  header.icontains("twfid") && banner.icontains("set-cookie: twfid")
+  body.icontains("luyi 20120223")
+  title.icontains("sangfor-ssl")
+  body.icontains("<font color=\"white\">深信服科技版权所有")
+  body.icontains("ssl vpn")

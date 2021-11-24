@@ -1,0 +1,8 @@
+info:
+  company: Hewlett Packard Enterprise Development LP
+  product: 3Com-3CDSG8
+  softhard: '1'
+matches: |
+  title.icontains("3com corporation web interface")
+  body.icontains("content=\" 3cdsg8\"")
+  banner.icontains("3com 3cdsg8 - ")

@@ -1,0 +1,9 @@
+info:
+  company: ecisp
+  product: ESPCMS
+  softhard: '2'
+matches: |
+  title.icontains("powered by espcms")
+  body.icontains("powered by espcms")
+  body.icontains("infolist_fff")
+  body.icontains("/templates/default/style/tempates_div.css")

@@ -1,0 +1,7 @@
+info:
+  company: CrushFTP, LLC
+  product: CrushFTP
+  softhard: '2'
+matches: |
+  header.icontains("crushftp http server")
+  title.icontains("crushftp webinterface")

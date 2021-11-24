@@ -1,0 +1,8 @@
+info:
+  company: MongoDB, Inc
+  product: MongoDb
+  softhard: '2'
+matches: |
+  body.icontains("<a href=\"/_replset\">replica set status</a></p>")
+  protocol.icontains("mongodb") && body.icontains("you are trying to access mongodb")
+  title.icontains("mongod.exe")

@@ -1,0 +1,10 @@
+info:
+  company: JBMC Software
+  product: Directadmin
+  softhard: '2'
+matches: |
+  header.icontains("x-directadmin")
+  header.icontains("directadmin daemon")
+  title.icontains("directadmin login")
+  banner.icontains("x-directadmin")
+  banner.icontains("directadmin daemon")

@@ -1,0 +1,12 @@
+info:
+  company: D-Link
+  product: D-Link-DIR-615
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"d-link dir-615")
+  banner.icontains("realm=\"d-link dir-615")
+  title.icontains("dir-615") && body.icontains("content=\"d-link device")
+  body.icontains("content=\"dir-615")
+  body.icontains("<a href='http://support.dlink.com.tw'  target=_blank><font class=l_tb>dir-615")
+  body.icontains("var modemver=\"dir-615\"")
+  body.icontains("<div class=\"modelname\">dir-615")

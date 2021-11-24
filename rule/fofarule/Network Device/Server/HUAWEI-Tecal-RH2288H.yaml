@@ -1,0 +1,6 @@
+info:
+  company: Huawei
+  product: HUAWEI-Tecal-RH2288H
+  softhard: '1'
+matches: |
+  banner.icontains("tecal-rh2288h")

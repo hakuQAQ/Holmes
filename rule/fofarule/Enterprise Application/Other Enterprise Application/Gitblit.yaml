@@ -1,0 +1,6 @@
+info:
+  company: Gitblit
+  product: Gitblit
+  softhard: '2'
+matches: |
+  title == "gitblit" && body.icontains("<a title=\"gitblit homepage\" href=\"http://gitblit.com/\">")

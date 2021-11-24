@@ -1,0 +1,14 @@
+info:
+  company: Schneider Electric
+  product: APC-UPS-Management-Card
+  softhard: '1'
+matches: |
+  header.icontains("apc management card")
+  body.icontains("class=\"apclogo\"")
+  banner.icontains("apc web/snmp management card")
+  header.icontains("network management card")
+  banner.icontains("ap9617 network")
+  banner.icontains("ap8853 network")
+  banner.icontains("network management card aos")
+  banner.icontains("network management card for ups")
+  title.icontains("ups management web login")

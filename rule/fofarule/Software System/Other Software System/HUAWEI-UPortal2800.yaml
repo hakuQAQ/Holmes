@@ -1,0 +1,8 @@
+info:
+  company: Huawei
+  product: HUAWEI-UPortal2800
+  softhard: '2'
+matches: |
+  header.icontains("uportal2800")
+  banner.icontains("uportal2800")
+  banner.icontains("server: ")

@@ -1,0 +1,7 @@
+info:
+  company: OpenDaylight Project
+  product: OPENDAYLIGHT-Product
+  softhard: '2'
+matches: |
+  title.icontains("opendaylight")
+  body.icontains("j_security_check")

@@ -1,0 +1,7 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-SSL-VPN
+  softhard: '1'
+matches: |
+  body.icontains("keep me signed in</span>")
+  body.icontains("welcome to ssl vpn</h1>")

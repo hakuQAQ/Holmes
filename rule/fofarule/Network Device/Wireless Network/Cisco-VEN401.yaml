@@ -1,0 +1,7 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-VEN401
+  softhard: '1'
+matches: |
+  header.icontains("cisco ven401")
+  banner.icontains("cisco ven401")

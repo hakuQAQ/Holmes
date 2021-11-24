@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: GoAccess-Log
+  softhard: '2'
+matches: |
+  body.icontains("by <a href=\"https://goaccess.io/\">goaccess</a>")

@@ -1,0 +1,9 @@
+info:
+  company: O2Micro International Limited.
+  product: O2Micro-Firewall
+  softhard: '0'
+matches: |
+  header.icontains("server: o2micro")
+  header.icontains("set-cookie: cgisessid=01010011111100000000111110010011;")
+  banner.icontains("server: o2micro")
+  banner.icontains("set-cookie: cgisessid=01010011111100000000111110010011;")

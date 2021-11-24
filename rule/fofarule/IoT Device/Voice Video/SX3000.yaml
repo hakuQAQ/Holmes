@@ -1,0 +1,6 @@
+info:
+  company: New Rock
+  product: SX3000
+  softhard: '1'
+matches: |
+  title.icontains("sx3000")

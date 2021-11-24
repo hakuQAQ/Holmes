@@ -1,0 +1,6 @@
+info:
+  company: HUAWEI
+  product: HuaWei-U2000
+  softhard: '1'
+matches: |
+  cert.icontains("o=huawei technologies, ou=u2000")

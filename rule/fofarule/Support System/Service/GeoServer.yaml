@@ -1,0 +1,10 @@
+info:
+  company: Other
+  product: GeoServer
+  softhard: '2'
+matches: |
+  body.icontains("/org.geoserver.web.geoserverbasepage/")
+  body.icontains("class=\"geoserver lebeg")
+  body.icontains("/webapps/geoserver")
+  body.icontains("window.location.replace(\"web/\");")
+  body.icontains("geoserver")

@@ -1,0 +1,6 @@
+info:
+  company: Uniregistry Corp.
+  product: DeluxeBB
+  softhard: '2'
+matches: |
+  body.icontains("content=\"powered by deluxebb")

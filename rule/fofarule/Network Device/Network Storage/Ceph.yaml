@@ -1,0 +1,6 @@
+info:
+  company: Red Hat, Inc.
+  product: Ceph
+  softhard: '2'
+matches: |
+  body.icontains("class=\"ceph-none-found\" rv-hide=\"rbd_pools")

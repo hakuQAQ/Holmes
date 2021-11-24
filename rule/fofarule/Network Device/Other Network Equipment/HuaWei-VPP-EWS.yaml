@@ -1,0 +1,6 @@
+info:
+  company: HUAWEI
+  product: HuaWei-VPP-EWS
+  softhard: '1'
+matches: |
+  header.icontains("huawei vpp ews")

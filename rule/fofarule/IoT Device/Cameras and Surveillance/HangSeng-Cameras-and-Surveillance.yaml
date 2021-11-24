@@ -1,0 +1,6 @@
+info:
+  company: hisome
+  product: HangSeng-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  body.icontains("codebase=\"hisome_activex.exe")

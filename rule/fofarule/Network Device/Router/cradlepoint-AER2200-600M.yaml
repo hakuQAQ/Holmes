@@ -1,0 +1,7 @@
+info:
+  company: Cradlepoint, Inc.
+  product: cradlepoint-AER2200-600M
+  softhard: '1'
+matches: |
+  title.icontains("login :: aer2200-600m")
+  body.icontains("cplogin.model = \"aer2200-fips-600m\";")

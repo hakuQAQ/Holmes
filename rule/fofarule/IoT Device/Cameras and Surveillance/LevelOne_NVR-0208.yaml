@@ -1,0 +1,6 @@
+info:
+  company: Digital Data Communications GmbH
+  product: LevelOne_NVR-0208
+  softhard: '1'
+matches: |
+  banner.icontains("nvr-0208") && header.icontains("realm=\"nvr-0208")

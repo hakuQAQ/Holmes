@@ -1,0 +1,7 @@
+info:
+  company: TOPSEC
+  product: Topsec--TopAudit-
+  softhard: '1'
+matches: |
+  body.icontains("onclick=\"dlg_download()")
+  title.icontains("天融信网络审计系统")

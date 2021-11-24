@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: noVNC
+  softhard: '2'
+matches: |
+  body.icontains("id=\"novnc-control-bar")
+  body.icontains("novnc example: simple")
+  body.icontains("<!--novnc buttons-->") && title == "novnc"

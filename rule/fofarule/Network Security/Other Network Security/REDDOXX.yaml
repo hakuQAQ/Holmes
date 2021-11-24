@@ -1,0 +1,6 @@
+info:
+  company: REDDOXX GmbH
+  product: REDDOXX
+  softhard: '2'
+matches: |
+  body.icontains("148779de-1cf1-49bb-8bdb-129321cf8974")

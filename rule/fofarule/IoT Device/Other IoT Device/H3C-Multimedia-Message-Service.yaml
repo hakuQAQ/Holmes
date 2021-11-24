@@ -1,0 +1,7 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-Multimedia-Message-Service
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp")
+  banner.icontains("h3c multimediaware software")

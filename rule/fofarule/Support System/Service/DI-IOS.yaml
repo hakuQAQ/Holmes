@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: DI-IOS
+  softhard: '2'
+matches: |
+  header.icontains("di-ios")
+  banner.icontains("server: di-ios")

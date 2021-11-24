@@ -1,0 +1,6 @@
+info:
+  company: VOX Electronics
+  product: VOX-Android-TV
+  softhard: '1'
+matches: |
+  banner.icontains("vox android tv")

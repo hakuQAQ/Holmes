@@ -1,0 +1,7 @@
+info:
+  company: 'SystemBase Co., Ltd. '
+  product: SystemBase-PortBase
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"portbase")
+  banner.icontains("realm=\"portbase")

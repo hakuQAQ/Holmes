@@ -1,0 +1,9 @@
+info:
+  company: Softnext Technologies Corp.
+  product: Softnext-SPAM
+  softhard: '2'
+matches: |
+  body.icontains("snspam/spam_request/")
+  title.icontains("spam sqr")
+  body.icontains("snspam/start_page.asp")
+  body.icontains("spam_request/spam_requestact.asp")

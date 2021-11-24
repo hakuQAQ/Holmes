@@ -1,0 +1,8 @@
+info:
+  company: cmstop
+  product: CMSTop
+  softhard: '2'
+matches: |
+  body.icontains("/css/cmstop-common.css")
+  body.icontains("/js/cmstop-common.js")
+  body.icontains("cmstop-list-text.css") && body.icontains("<a class=\"poweredby\" href=\"http://www.cmstop.com\"")

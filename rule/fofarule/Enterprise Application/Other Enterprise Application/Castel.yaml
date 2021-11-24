@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Castel
+  softhard: '0'
+matches: |
+  title == "castel"

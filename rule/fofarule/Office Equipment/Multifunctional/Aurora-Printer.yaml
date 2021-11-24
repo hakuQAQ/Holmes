@@ -1,0 +1,8 @@
+info:
+  company: Aurora
+  product: Aurora-Printer
+  softhard: '1'
+matches: |
+  banner.icontains("aurora ad")
+  banner.icontains("adc223") && banner.icontains("aurora adc ") && banner.icontains("aurora adc286")
+  banner.icontains("aurora adc366")

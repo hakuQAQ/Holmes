@@ -1,0 +1,15 @@
+info:
+  company: OvisLink Corp.
+  product: AirLive-Wireless-Device
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"airlive wl-")
+  header.icontains("realm=\"airlive wt-")
+  header.icontains("realm=\"airlive n.power")
+  header.icontains("realm=\"airlive wmm-")
+  header.icontains("realm=\"airlive ap60") && header.icontains("realm=\"airlive air3g") && header.icontains("realm=\"airlive g.duo")
+  banner.icontains("realm=\"airlive wl-")
+  banner.icontains("realm=\"airlive wt-")
+  banner.icontains("realm=\"airlive n.power")
+  banner.icontains("realm=\"airlive wmm-")
+  banner.icontains("realm=\"airlive ap60") && banner.icontains("realm=\"airlive air3g") && banner.icontains("realm=\"airlive g.duo")

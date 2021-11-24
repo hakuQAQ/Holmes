@@ -1,0 +1,10 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TP-LINK-Company's-product
+  softhard: '1'
+matches: |
+  body.icontains("http-equiv=\"refresh\" content=\"0; url=/webpages/login.html\"")
+  header.icontains("realm=\"tp-link")
+  header.icontains("server: tp-link")
+  banner.icontains("realm=\"tp-link")
+  banner.icontains("server: tp-link")

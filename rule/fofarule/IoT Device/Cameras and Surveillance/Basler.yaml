@@ -1,0 +1,7 @@
+info:
+  company: Basler AG
+  product: Basler
+  softhard: '1'
+matches: |
+  body.icontains("basler ag")
+  header.icontains("fnord")

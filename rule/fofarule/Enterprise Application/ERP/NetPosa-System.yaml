@@ -1,0 +1,7 @@
+info:
+  company: netposa
+  product: NetPosa-System
+  softhard: '2'
+matches: |
+  title.icontains("社会资源接入管理服务系统")
+  body.icontains("netposa")

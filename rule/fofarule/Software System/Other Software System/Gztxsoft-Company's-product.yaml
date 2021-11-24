@@ -1,0 +1,7 @@
+info:
+  company: Gztxsoft
+  product: Gztxsoft-Company's-product
+  softhard: '2'
+matches: |
+  body.icontains("src=\"/aaa/ipweb/scripts/zngc-login-style.js\"")
+  body.icontains("src=\"/aaa/ipweb/scripts/showoperationresult.js\"")

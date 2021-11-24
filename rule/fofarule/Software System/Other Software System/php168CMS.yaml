@@ -1,0 +1,6 @@
+info:
+  company: php168
+  product: php168CMS
+  softhard: '2'
+matches: |
+  body.icontains("var system = 'cms")

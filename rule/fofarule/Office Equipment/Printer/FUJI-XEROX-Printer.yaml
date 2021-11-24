@@ -1,0 +1,25 @@
+info:
+  company: Fuji Xerox Co., Ltd.
+  product: FUJI-XEROX-Printer
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp")
+  banner.icontains("fuji xerox docu")
+  banner.icontains("xerox workcentre")
+  banner.icontains("xerox docucentre")
+  banner.icontains("xerox docuprint") && banner.icontains("fuji xerox apeosport")
+  banner.icontains("fuji xerox document centre")
+  banner.icontains("fuji xerox color")
+  title.icontains("docuprint ")
+  body.icontains("<frame src=\"headstat.htm\" name=\"top")
+  title.icontains("docucentre")
+  body.icontains("<frame src=\"footer.asp\" name=\"footer\" title=\"footer\" scrolling=\"no\" noresize marginheight=\"2\">")
+  title.icontains("epson") && body.icontains("var jtpath = '/jt/cgi-bin/';")
+  body.icontains("fuji xerox")
+  title.icontains("internet services")
+  body.icontains("frames[2].window.location.href=jtpath + loc;")
+  body.icontains("properties/aboutprinter.html")
+  body.icontains("phaser 6250dp</title>")
+  body.icontains("phaser 6250n</title>") && body.icontains("phaser 4500dt</font></td>")
+  banner.icontains("fx docuprint ")
+  banner.icontains("fuji xerox versant ")

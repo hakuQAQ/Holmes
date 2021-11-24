@@ -1,0 +1,6 @@
+info:
+  company: superred
+  product: Superred-Management-system
+  softhard: '2'
+matches: |
+  header.icontains("onceas-webcontainer") && body.icontains("class=\"style8\">北京万里红科技股份有限公司</span>")

@@ -1,0 +1,8 @@
+info:
+  company: momeeting
+  product: momeeting-MOVISION
+  softhard: '2'
+matches: |
+  body.icontains("class=\"meeting movision\"")
+  body.icontains("document.title=\"登录-摩云视讯\"")
+  body.icontains("<!-- 科达视讯云 摩云视讯 电信有区别 -->")

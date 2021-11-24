@@ -1,0 +1,7 @@
+info:
+  company: Zyxel
+  product: ZyXEL-ZyWALL-310
+  softhard: '1'
+matches: |
+  banner.icontains("zywall 310")
+  title == "zywall 310"

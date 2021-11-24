@@ -1,0 +1,7 @@
+info:
+  company: Dell Inc.
+  product: DELL-N1148P-ON
+  softhard: '1'
+matches: |
+  body.icontains("class=\"login_server_default\">n1148p-on")
+  banner.icontains("dell emc networking n1148p-on")

@@ -1,0 +1,10 @@
+info:
+  company: Other
+  product: SmartCDS
+  softhard: '2'
+matches: |
+  header.icontains("smartcds version")
+  header.icontains("server: smartcds")
+  header.icontains("x-smartcds-error") && banner.icontains("smartcds version")
+  banner.icontains("server: smartcds")
+  banner.icontains("x-smartcds-error")

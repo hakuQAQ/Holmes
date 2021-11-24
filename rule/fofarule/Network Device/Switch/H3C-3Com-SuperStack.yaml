@@ -1,0 +1,6 @@
+info:
+  company: H3C
+  product: H3C-3Com-SuperStack
+  softhard: '1'
+matches: |
+  banner.icontains("3com superstack")

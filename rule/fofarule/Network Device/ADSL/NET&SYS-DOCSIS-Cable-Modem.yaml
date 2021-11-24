@@ -1,0 +1,7 @@
+info:
+  company: National Enhance Technology Corp.
+  product: NET&SYS-DOCSIS-Cable-Modem
+  softhard: '1'
+matches: |
+  banner.icontains("net&sys docsis 2.0 cable modem")
+  banner.icontains("net&sys docsis cable modem")

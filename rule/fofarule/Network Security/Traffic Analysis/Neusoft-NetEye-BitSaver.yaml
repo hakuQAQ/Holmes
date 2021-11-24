@@ -1,0 +1,8 @@
+info:
+  company: neusoft
+  product: Neusoft-NetEye-BitSaver
+  softhard: '2'
+matches: |
+  title.icontains("neteye网络流量分析与响应系统")
+  body.icontains("action=\"/ntars/loginaction.do")
+  body.icontains("href=\"/ntars/css/")

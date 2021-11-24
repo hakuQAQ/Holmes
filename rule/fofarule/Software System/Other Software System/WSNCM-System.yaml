@@ -1,0 +1,6 @@
+info:
+  company: WSNCM
+  product: WSNCM-System
+  softhard: '2'
+matches: |
+  body.icontains("class=\"login\">wsncm动态仓单系统")

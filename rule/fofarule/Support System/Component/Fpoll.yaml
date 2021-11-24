@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Fpoll
+  softhard: '2'
+matches: |
+  body.icontains("admincp/css.css")

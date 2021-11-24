@@ -1,0 +1,11 @@
+info:
+  company: Other
+  product: BeeS_CMS
+  softhard: '2'
+matches: |
+  body.icontains("powerd by")
+  body.icontains("beescms") && body.icontains("template/default/images/slides.min.jquery.js")
+  body.icontains("/default/images/xslider.js")
+  body.icontains("/default/images/search_btn.gif")
+  body.icontains("powerd by beescms")
+  body.icontains("mx_form/mx_form.php")

@@ -1,0 +1,6 @@
+info:
+  company: VRV
+  product: VRV-NAC
+  softhard: '2'
+matches: |
+  body.icontains("欢迎登录北信源网络接入控制系统") && body.icontains("localstorage.setitem('doctitle','北信源网络接入控制系统')")

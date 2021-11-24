@@ -1,0 +1,7 @@
+info:
+  company: Digi International Inc.
+  product: Digi-RCM-2000
+  softhard: '1'
+matches: |
+  body.icontains("window.location.replace(\"/flex\");")
+  header.icontains("content-length: 337 ")

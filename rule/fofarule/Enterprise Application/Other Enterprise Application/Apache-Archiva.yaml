@@ -1,0 +1,8 @@
+info:
+  company: Apache Software Foundation.
+  product: Apache-Archiva
+  softhard: '2'
+matches: |
+  title.icontains("apache archiva")
+  body.icontains("/archiva.js")
+  body.icontains("/archiva.css")

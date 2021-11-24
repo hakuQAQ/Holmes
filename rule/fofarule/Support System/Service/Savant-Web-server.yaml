@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Savant-Web-server
+  softhard: '2'
+matches: |
+  header.icontains("server: savant")
+  header.icontains("realm=\"savant")
+  banner.icontains("server: savant") && banner.icontains("realm=\"savant")

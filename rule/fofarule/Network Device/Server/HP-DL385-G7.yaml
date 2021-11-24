@@ -1,0 +1,6 @@
+info:
+  company: Hewlett Packard Enterprise Development LP
+  product: HP-DL385-G7
+  softhard: '1'
+matches: |
+  banner.icontains("dl385-g7")

@@ -1,0 +1,10 @@
+info:
+  company: Other
+  product: net2ftp
+  softhard: '2'
+matches: |
+  title.icontains("net2ftp - a web based ftp client")
+  body.icontains("<!-- net2ftp version")
+  body.icontains("<!-- end of net2ftp login form")
+  body.icontains("href=\"http://www.net2ftp.com\">net2ftp</a>")
+  body.icontains("content=\"net2ftp")

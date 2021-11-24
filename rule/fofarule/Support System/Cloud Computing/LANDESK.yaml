@@ -1,0 +1,7 @@
+info:
+  company: Ivanti.
+  product: LANDESK
+  softhard: '2'
+matches: |
+  title.icontains("landesk")
+  body.icontains("landesk") && title.icontains("cloud services appliance") && body.icontains("cloud services appliance")

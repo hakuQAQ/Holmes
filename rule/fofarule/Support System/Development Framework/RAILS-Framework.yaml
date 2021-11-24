@@ -1,0 +1,10 @@
+info:
+  company: Other
+  product: RAILS-Framework
+  softhard: '2'
+matches: |
+  title == "ruby on rails" && body.icontains("content=\"ruby on rails ")
+  body.icontains("alt=\"ruby on rails\" ")
+  body.icontains("/users/sign_in")
+  body.icontains("type=\"hidden\" name=\"authenticity_token")
+  body.icontains("href=\"/assets/")

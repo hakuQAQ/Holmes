@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-DPC3848VM
+  softhard: '1'
+matches: |
+  body.icontains("class=\"productname\">dpc3848vm</span>")

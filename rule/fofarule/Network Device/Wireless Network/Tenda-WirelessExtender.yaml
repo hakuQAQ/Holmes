@@ -1,0 +1,7 @@
+info:
+  company: Shenzhen Tenda Technology Co.,Ltd
+  product: Tenda-WirelessExtender
+  softhard: '1'
+matches: |
+  body.icontains("alt=\"tenda logo\"")
+  body.icontains("extender")

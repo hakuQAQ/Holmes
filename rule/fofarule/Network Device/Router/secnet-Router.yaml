@@ -1,0 +1,7 @@
+info:
+  company: secnet
+  product: secnet-Router
+  softhard: '1'
+matches: |
+  title.icontains("安网-智能路由系统")
+  title == "智能路由系统" && title.icontains("安网科技-智能路由系统")

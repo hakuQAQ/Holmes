@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: Crocus
+  softhard: '2'
+matches: |
+  body.icontains("for=\"inp_verification\"")
+  body.icontains("src=\"images/logo.png\"")

@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: NetArtMedia-Real-Estate-Portal
+  softhard: '2'
+matches: |
+  body.icontains("powered by <a href=\"http://www.netartmedia.net/realestate")

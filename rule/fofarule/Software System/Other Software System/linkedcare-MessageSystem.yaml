@@ -1,0 +1,6 @@
+info:
+  company: linkedcare
+  product: linkedcare-MessageSystem
+  softhard: '2'
+matches: |
+  title.icontains("e看牙消息平台")

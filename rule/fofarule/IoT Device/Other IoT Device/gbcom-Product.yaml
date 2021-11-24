@@ -1,0 +1,6 @@
+info:
+  company: gbcom
+  product: gbcom-Product
+  softhard: '1'
+matches: |
+  body.icontains("src=\"/cgi-bin/snmpmanager.cgi?cgimodule=login\"")

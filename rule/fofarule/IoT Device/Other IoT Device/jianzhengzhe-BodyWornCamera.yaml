@@ -1,0 +1,9 @@
+info:
+  company: jianzhengzhe
+  product: jianzhengzhe-BodyWornCamera
+  softhard: '1'
+matches: |
+  title.icontains("见证者采集工作站")
+  body.icontains("/user/getdefaultpage")
+  body.icontains("/record/index")
+  body.icontains("href=\"/html/download.html\">工具下载</a></li>")

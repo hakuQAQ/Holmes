@@ -1,0 +1,7 @@
+info:
+  company: uniview
+  product: Uniview-VM8500
+  softhard: '1'
+matches: |
+  banner.icontains("uniview vm8500")
+  body.icontains("vm8500-imos110")

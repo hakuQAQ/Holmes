@@ -1,0 +1,6 @@
+info:
+  company: EVERSEC
+  product: jinqing
+  softhard: '0'
+matches: |
+  title == "企业安全威胁感知系统" && body.icontains("action=\"/j_spring_security_check")

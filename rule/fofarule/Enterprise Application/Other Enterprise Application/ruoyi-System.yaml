@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: ruoyi-System
+  softhard: '2'
+matches: |
+  body.icontains("/ry-ui.css") && body.icontains("/ry-ui.js")
+  title.icontains("若依管理系统")

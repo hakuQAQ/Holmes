@@ -1,0 +1,6 @@
+info:
+  company: General Electric Company
+  product: GE-Security
+  softhard: '1'
+matches: |
+  title == "ge-security" && body.icontains("<frame src=\"/servlets/top\" name=\"upper\" marginheight=\"2\"")

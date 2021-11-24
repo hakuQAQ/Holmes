@@ -1,0 +1,7 @@
+info:
+  company: YUNWENTECHNOLOGY
+  product: faqrobot
+  softhard: '2'
+matches: |
+  body.icontains("content=\"faq客服机器人")
+  body.icontains("南京云问网络技术有限公司")

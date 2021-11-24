@@ -1,0 +1,6 @@
+info:
+  company: boka
+  product: SiteEngine
+  softhard: '2'
+matches: |
+  body.icontains("content=\"boka siteengine")

@@ -1,0 +1,11 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TP_LINK-AC750
+  softhard: '1'
+matches: |
+  body.icontains("if (url.indexof(\"tplinklogin.net\")")
+  body.icontains("ac750") && header.icontains("realm=\"tp-link ac750")
+  banner.icontains("realm=\"tp-link ac750")
+  body.icontains("var modeldesc=\"ac750 wireless dual band router\"")
+  body.icontains("var modelname=\"archer c20\"")
+  body.icontains("ac750")

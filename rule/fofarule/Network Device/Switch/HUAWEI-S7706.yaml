@@ -1,0 +1,7 @@
+info:
+  company: Huawei
+  product: HUAWEI-S7706
+  softhard: '1'
+matches: |
+  banner.icontains("quidway s7706")
+  header.icontains("s7706")

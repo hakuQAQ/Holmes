@@ -1,0 +1,6 @@
+info:
+  company: tongtool
+  product: Isunor-Order-Management-System
+  softhard: '2'
+matches: |
+  body.icontains("var c_name = 'jsessionid';")

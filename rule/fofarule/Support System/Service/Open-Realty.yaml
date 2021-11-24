@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Open-Realty
+  softhard: '2'
+matches: |
+  title.icontains("open-realty")
+  body.icontains("content=\"open-realty")
+  body.icontains("href=\"http://www.open-realty.org\" title=\"powered by open-realty")

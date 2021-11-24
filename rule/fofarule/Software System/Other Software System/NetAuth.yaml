@@ -1,0 +1,8 @@
+info:
+  company: Infosec
+  product: NetAuth
+  softhard: '2'
+matches: |
+  body.icontains("src=\"image/loginauthorize.png\"")
+  body.icontains("onmouseover=\"mm_swapimage('image1','','image/loginok_after.gif',1)\"")
+  title.icontains("netauth统一身份认证管理系统")

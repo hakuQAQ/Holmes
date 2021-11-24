@@ -1,0 +1,7 @@
+info:
+  company: Syncloud, Ltd.
+  product: syncloud
+  softhard: '1'
+matches: |
+  body.icontains("syncloud")
+  body.icontains("onelogo")

@@ -1,0 +1,6 @@
+info:
+  company: hisilicon
+  product: HISILICON-Hi3798MV100
+  softhard: '1'
+matches: |
+  banner.icontains("hi3798mv100")

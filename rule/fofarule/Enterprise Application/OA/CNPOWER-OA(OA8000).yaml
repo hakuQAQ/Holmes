@@ -1,0 +1,6 @@
+info:
+  company: CNPOWER
+  product: CNPOWER-OA(OA8000)
+  softhard: '2'
+matches: |
+  body.icontains("/oaapp/webobjects/oaapp.woa")

@@ -1,0 +1,6 @@
+info:
+  company: Zkwell
+  product: Zkwell-Corrosion-Monitoring-and-Corrosion-Protection-Management-System
+  softhard: '2'
+matches: |
+  body.icontains("background-image:url(images/devicebg.jpg)")

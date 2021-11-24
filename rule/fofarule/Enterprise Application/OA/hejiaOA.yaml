@@ -1,0 +1,6 @@
+info:
+  company: hejia
+  product: hejiaOA
+  softhard: '2'
+matches: |
+  body.icontains("href=\"/templates/everythingisok/index.css\"")

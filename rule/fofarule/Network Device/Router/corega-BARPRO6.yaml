@@ -1,0 +1,7 @@
+info:
+  company: Corega Inc
+  product: corega-BARPRO6
+  softhard: '1'
+matches: |
+  header.icontains("cg-barpro6")
+  banner.icontains("cg-barpro6")

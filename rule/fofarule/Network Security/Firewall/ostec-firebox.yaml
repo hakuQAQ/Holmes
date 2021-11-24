@@ -1,0 +1,7 @@
+info:
+  company: OSTEC Business Security
+  product: ostec-firebox
+  softhard: '2'
+matches: |
+  body.icontains("background-image: url('/icones/fundo_firebox.png')")
+  body.icontains("http://colorzilla.com/")

@@ -1,0 +1,8 @@
+info:
+  company: Rockwell Automation, Inc.
+  product: SCADA-PLC
+  softhard: '1'
+matches: |
+  body.icontains("/images/rockcolor.gif")
+  body.icontains("/ralogo.gif")
+  body.icontains("ethernet processor")

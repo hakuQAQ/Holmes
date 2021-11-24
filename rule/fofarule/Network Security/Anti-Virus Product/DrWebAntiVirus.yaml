@@ -1,0 +1,9 @@
+info:
+  company: Other
+  product: DrWebAntiVirus
+  softhard: '2'
+matches: |
+  header.icontains("server: drwebserver")
+  banner.icontains("server: drwebserver/")
+  body.icontains("alt=\"dr.web \"") && header.icontains("drweb_personal_office=")
+  body.icontains("/avdesk/includes/system/templates/images/logo_en.png")

@@ -1,0 +1,7 @@
+info:
+  company: adslr
+  product: adslr-Router
+  softhard: '1'
+matches: |
+  body.icontains("href=\"css/r1login.css\"")
+  body.icontains("src=\"chinesehl.js\"")

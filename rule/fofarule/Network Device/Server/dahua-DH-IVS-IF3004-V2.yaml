@@ -1,0 +1,6 @@
+info:
+  company: Dahua
+  product: dahua-DH-IVS-IF3004-V2
+  softhard: '1'
+matches: |
+  banner.icontains("dh-ivs-if3004-v2")

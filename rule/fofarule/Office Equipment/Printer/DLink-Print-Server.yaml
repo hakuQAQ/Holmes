@@ -1,0 +1,7 @@
+info:
+  company: DLink
+  product: DLink-Print-Server
+  softhard: '1'
+matches: |
+  banner.icontains("d-link dp-")
+  header.icontains("realm=\"dp-302")

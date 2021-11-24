@@ -1,0 +1,6 @@
+info:
+  company: HILLSTONE
+  product: Hillstone-SR-320
+  softhard: '1'
+matches: |
+  cert.icontains("commonname: sr-320")

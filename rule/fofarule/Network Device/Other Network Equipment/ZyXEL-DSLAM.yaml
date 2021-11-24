@@ -1,0 +1,10 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-DSLAM
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"aam1212-")
+  header.icontains("realm=\"ies-612")
+  header.icontains("realm=\"ies-1000") && banner.icontains("aam1212-")
+  banner.icontains("realm=\"ies-612")
+  banner.icontains("realm=\"ies-1000")

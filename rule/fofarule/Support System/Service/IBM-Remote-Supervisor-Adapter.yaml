@@ -1,0 +1,8 @@
+info:
+  company: International Business Machines Corporation
+  product: IBM-Remote-Supervisor-Adapter
+  softhard: '1'
+matches: |
+  banner.icontains("ibm remote supervisor adapter ii")
+  body.icontains("<frame scrolling=\"no\" src=\"/private/userlogin_logo.ssi")
+  header.icontains("/private/testcookie.ssi?sessid=")

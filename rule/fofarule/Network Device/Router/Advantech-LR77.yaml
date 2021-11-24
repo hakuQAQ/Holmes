@@ -1,0 +1,7 @@
+info:
+  company: Advantech Co., Ltd.
+  product: Advantech-LR77
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp")
+  banner.icontains("lr77") && header.icontains("lr77-v2") && title.icontains("lr77-v2l")

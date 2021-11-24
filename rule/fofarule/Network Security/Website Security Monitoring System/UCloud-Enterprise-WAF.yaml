@@ -1,0 +1,6 @@
+info:
+  company: ucloud
+  product: UCloud-Enterprise-WAF
+  softhard: '2'
+matches: |
+  header.icontains("uewaf")

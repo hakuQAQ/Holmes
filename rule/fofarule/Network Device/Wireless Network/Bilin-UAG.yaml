@@ -1,0 +1,6 @@
+info:
+  company: BILIN Tech.Co.,Ltd.
+  product: Bilin-UAG
+  softhard: '1'
+matches: |
+  title.icontains("智慧网关配置平台")

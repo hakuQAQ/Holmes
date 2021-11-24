@@ -1,0 +1,6 @@
+info:
+  company: Allied Telesis, Inc.
+  product: AlliedTelesis-AT-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("allied telesis at-")

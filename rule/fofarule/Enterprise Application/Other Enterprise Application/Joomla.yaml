@@ -1,0 +1,8 @@
+info:
+  company: Open Source Matters, Inc.
+  product: Joomla
+  softhard: '2'
+matches: |
+  body.icontains("content=\"joomla")
+  body.icontains("/media/system/js/core.js")
+  body.icontains("/media/system/js/mootools-core.js")

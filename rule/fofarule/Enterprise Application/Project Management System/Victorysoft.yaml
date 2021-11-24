@@ -1,0 +1,6 @@
+info:
+  company: Victorysoft
+  product: Victorysoft
+  softhard: '2'
+matches: |
+  body.icontains("href=\"webstyles/webstyle1/style1/css.css\"")

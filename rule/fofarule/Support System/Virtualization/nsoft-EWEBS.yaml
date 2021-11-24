@@ -1,0 +1,8 @@
+info:
+  company: nsoft
+  product: nsoft-EWEBS
+  softhard: '2'
+matches: |
+  body.icontains("/js/xajax05/xajax_js/xajax_core.js")
+  title.icontains("易正远程")
+  body.icontains("<a href='../client/ewebsclientsetup.exe'></a> </td>")

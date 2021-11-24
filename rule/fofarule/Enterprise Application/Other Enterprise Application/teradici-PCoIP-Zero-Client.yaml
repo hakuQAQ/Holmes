@@ -1,0 +1,7 @@
+info:
+  company: Teradici Corporation.
+  product: teradici-PCoIP-Zero-Client
+  softhard: '2'
+matches: |
+  body.icontains("pcoip&#174 zero client")
+  body.icontains("password_value")

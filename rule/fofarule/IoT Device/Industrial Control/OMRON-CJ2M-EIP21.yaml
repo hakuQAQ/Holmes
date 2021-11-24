@@ -1,0 +1,6 @@
+info:
+  company: OMRON Corporation
+  product: OMRON-CJ2M-EIP21
+  softhard: '1'
+matches: |
+  banner.icontains("cj2m-eip21")

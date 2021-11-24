@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: DVR-Systems-webcam
+  softhard: '1'
+matches: |
+  body.icontains("your client does not have permission to get url /index.htm from this server.")
+  header.icontains("basic realm=\"server\"")

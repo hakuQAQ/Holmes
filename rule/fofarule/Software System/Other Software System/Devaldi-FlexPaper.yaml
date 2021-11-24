@@ -1,0 +1,7 @@
+info:
+  company: Devaldi
+  product: Devaldi-FlexPaper
+  softhard: '2'
+matches: |
+  body.icontains("login to the flexpaper console")
+  body.icontains("href=\"http://flexpaper.devaldi.com/plugins.htm\"")

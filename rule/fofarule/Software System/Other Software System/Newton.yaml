@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Newton
+  softhard: '2'
+matches: |
+  body.icontains("name=\"group_sn\"")

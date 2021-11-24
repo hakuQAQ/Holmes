@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: iPeer
+  softhard: '2'
+matches: |
+  body.icontains("powered by ipeer")
+  header.icontains("ipeer=") && banner.icontains("ipeer=") && body.icontains("/js/ipeer.js")
+  body.icontains("/css/ipeer.css")

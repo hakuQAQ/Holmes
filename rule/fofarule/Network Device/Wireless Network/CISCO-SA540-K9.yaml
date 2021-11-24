@@ -1,0 +1,7 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-SA540-K9
+  softhard: '1'
+matches: |
+  body.icontains("class=\"h3login\">small business pro")
+  cert.icontains("sa540-k9")

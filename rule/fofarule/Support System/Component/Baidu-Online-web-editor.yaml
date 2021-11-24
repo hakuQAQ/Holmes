@@ -1,0 +1,7 @@
+info:
+  company: Baidu
+  product: Baidu-Online-web-editor
+  softhard: '2'
+matches: |
+  body.icontains("ueditor.all.js")
+  body.icontains("ue.geteditor")

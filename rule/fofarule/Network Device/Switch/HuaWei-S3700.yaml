@@ -1,0 +1,6 @@
+info:
+  company: HUAWEI
+  product: HuaWei-S3700
+  softhard: '1'
+matches: |
+  banner.icontains("s3700")

@@ -1,0 +1,6 @@
+info:
+  company: HuiZhi Electronic
+  product: Smart-CMS
+  softhard: '2'
+matches: |
+  body.icontains("name=\"formdoc\" action=\"/hz/sys/login/logined.jsp")

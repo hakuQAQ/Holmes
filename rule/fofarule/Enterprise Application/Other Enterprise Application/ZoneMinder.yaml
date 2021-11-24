@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: ZoneMinder
+  softhard: '2'
+matches: |
+  body.icontains("zoneminder login")

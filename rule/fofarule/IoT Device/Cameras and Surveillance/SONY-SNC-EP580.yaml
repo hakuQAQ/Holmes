@@ -1,0 +1,7 @@
+info:
+  company: Sony Corporation
+  product: SONY-SNC-EP580
+  softhard: '1'
+matches: |
+  banner.icontains("sony network camera snc-ep580")
+  header.icontains("realm=\"sony network camera snc-ep580")

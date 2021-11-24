@@ -1,0 +1,8 @@
+info:
+  company: Startbbs Inc.
+  product: Startbbs
+  softhard: '2'
+matches: |
+  body.icontains("content=\"startbbs")
+  header.icontains("stb_csrf_cookie")
+  banner.icontains("stb_csrf_cookie")

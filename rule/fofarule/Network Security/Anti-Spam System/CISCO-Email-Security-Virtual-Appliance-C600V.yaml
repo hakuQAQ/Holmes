@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-Email-Security-Virtual-Appliance-C600V
+  softhard: '1'
+matches: |
+  title.icontains("email security virtual appliance   c600v")

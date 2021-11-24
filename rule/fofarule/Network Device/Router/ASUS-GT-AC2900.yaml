@@ -1,0 +1,7 @@
+info:
+  company: ASUS
+  product: ASUS-GT-AC2900
+  softhard: '1'
+matches: |
+  title.icontains("asus wireless router gt-ac2900")
+  body.icontains("document.getelementsbyclassname(\"model-name\")[0].innerhtml = \"gt-ac2900\"")

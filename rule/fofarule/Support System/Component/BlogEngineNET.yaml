@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: BlogEngineNET
+  softhard: '2'
+matches: |
+  body.icontains("pics/blogengine.ico")
+  body.icontains("powered by")
+  body.icontains("http://www.dotnetblogengine.net")

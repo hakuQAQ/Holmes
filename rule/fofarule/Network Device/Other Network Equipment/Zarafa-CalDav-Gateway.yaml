@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: Zarafa-CalDav-Gateway
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"zarafa caldav gateway")
+  banner.icontains("realm=\"zarafa caldav gateway")

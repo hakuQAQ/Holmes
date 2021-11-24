@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: PmWiki
+  softhard: '2'
+matches: |
+  header.icontains("imstime=")
+  body.icontains("<span class='commentout-pmwikiorg'>")
+  body.icontains("<a href=\"http://www.pmwiki.org/\" target=")

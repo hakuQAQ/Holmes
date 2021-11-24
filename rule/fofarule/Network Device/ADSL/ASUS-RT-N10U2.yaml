@@ -1,0 +1,7 @@
+info:
+  company: ASUS
+  product: ASUS-RT-N10U2
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"rt-n10u2")
+  banner.icontains("realm=\"rt-n10u2")

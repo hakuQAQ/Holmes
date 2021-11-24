@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: gvs-server
+  softhard: '2'
+matches: |
+  banner.icontains("server: gvs")
+  header.icontains("server: gvs")

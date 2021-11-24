@@ -1,0 +1,7 @@
+info:
+  company: reecam
+  product: ReeCam-IP-Camera
+  softhard: '1'
+matches: |
+  header.icontains("reecam") && header.icontains("360 web server")
+  banner.icontains("reecam") && banner.icontains("360 web server")

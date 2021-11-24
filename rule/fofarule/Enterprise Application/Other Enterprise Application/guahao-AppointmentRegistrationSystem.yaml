@@ -1,0 +1,6 @@
+info:
+  company: guahao
+  product: guahao-AppointmentRegistrationSystem
+  softhard: '2'
+matches: |
+  body.icontains("var title    = \"预约挂号系统\";")

@@ -1,0 +1,6 @@
+info:
+  company: uniview
+  product: uniview-VM5.0
+  softhard: '2'
+matches: |
+  body.icontains("vm5.0")

@@ -1,0 +1,10 @@
+info:
+  company: dedecms
+  product: DedeCMS
+  softhard: '2'
+matches: |
+  body.icontains("power by dedecms")
+  body.icontains("powered by")
+  body.icontains("http://www.dedecms.com/")
+  body.icontains("dedecms") && body.icontains("/templets/default/style/dedecms.css")
+  body.icontains("<div><h3>dedecms error warning!</h3>")

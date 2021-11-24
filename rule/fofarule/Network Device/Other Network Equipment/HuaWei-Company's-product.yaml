@@ -1,0 +1,13 @@
+info:
+  company: HUAWEI
+  product: HuaWei-Company's-product
+  softhard: '0'
+matches: |
+  protocol.icontains("snmp") && banner.icontains("vrp (r) software")
+  banner.icontains("huawei technologies") && body.icontains("copyright &copy; huawei technologies co.")
+  banner.icontains("huawei technologies co., ltd.")
+  banner.icontains("vendor: rndby/huawei")
+  banner.icontains("warning: telnet is not a secure protocol, and it is recommended to use stelnet")
+  banner.icontains("a private communication system")
+  banner.icontains("huawei technologies")
+  cert.icontains("huawei")

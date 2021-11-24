@@ -1,0 +1,8 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-ACS
+  softhard: '2'
+matches: |
+  title.icontains("acs5.3")
+  body.icontains("cisco") && body.icontains("<meta http-equiv=\"refresh\" content=\"0;url=/acsadmin\" />")
+  body.icontains("href=\"/acsadmin\">launch acs")

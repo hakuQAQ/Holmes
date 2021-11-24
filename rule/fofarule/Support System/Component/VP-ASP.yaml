@@ -1,0 +1,9 @@
+info:
+  company: Rocksalt International Pty Ltd.
+  product: VP-ASP
+  softhard: '2'
+matches: |
+  body.icontains("<a href=\"http://www.vpasp.com\">")
+  body.icontains("src=\"vs350.js")
+  body.icontains("shopdisplayproducts.asp?id=")
+  title.icontains("vp-asp shopping cart")

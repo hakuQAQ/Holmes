@@ -1,0 +1,6 @@
+info:
+  company: Isode Ltd.
+  product: Isode-M-Box
+  softhard: '2'
+matches: |
+  banner.icontains("isode m-box imap4rev1")

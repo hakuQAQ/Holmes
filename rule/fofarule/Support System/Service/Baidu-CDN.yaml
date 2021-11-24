@@ -1,0 +1,8 @@
+info:
+  company: Baidu
+  product: Baidu-CDN
+  softhard: '2'
+matches: |
+  header.icontains("apps.bdimg.com")
+  body.icontains("apps.bdimg.com")
+  header.icontains("libs.baidu.com") && body.icontains("libs.baidu.com")

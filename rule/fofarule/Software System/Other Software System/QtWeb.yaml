@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: QtWeb
+  softhard: '2'
+matches: |
+  body.icontains("url=gqrtweb")

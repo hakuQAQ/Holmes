@@ -1,0 +1,6 @@
+info:
+  company: hycas
+  product: hycas-System
+  softhard: '2'
+matches: |
+  body.icontains("src=\"/images/hyscm.jpg")

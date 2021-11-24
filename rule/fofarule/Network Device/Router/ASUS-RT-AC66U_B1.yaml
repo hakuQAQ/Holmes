@@ -1,0 +1,10 @@
+info:
+  company: ASUS
+  product: ASUS-RT-AC66U_B1
+  softhard: '1'
+matches: |
+  banner.icontains("asus rt-ac66u_b1")
+  body.icontains("<div class=\"prod_madelname\">rt-ac66u_b1")
+  body.icontains("var product_name='rt-ac66u_b1'")
+  body.icontains("class=\"prod_madelname\">jrs eco 100 on asus rt-ac66u_b1")
+  header.icontains("realm=\"rt-ac66u_b1")

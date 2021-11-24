@@ -1,0 +1,6 @@
+info:
+  company: Cradlepoint, Inc.
+  product: cradlepoint-AER3150
+  softhard: '1'
+matches: |
+  body.icontains("cplogin.model = \"aer3150\";")

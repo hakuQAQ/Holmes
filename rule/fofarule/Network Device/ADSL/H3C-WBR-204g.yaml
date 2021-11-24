@@ -1,0 +1,7 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-WBR-204g
+  softhard: '1'
+matches: |
+  banner.icontains("huawei-3com wbr-204g")
+  header.icontains("huawei-3com wbr-204g")

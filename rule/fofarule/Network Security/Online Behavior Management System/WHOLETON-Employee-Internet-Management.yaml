@@ -1,0 +1,8 @@
+info:
+  company: WHOLETON
+  product: WHOLETON-Employee-Internet-Management
+  softhard: '1'
+matches: |
+  body.icontains("updateloginpswd.php") && body.icontains("passroedele")
+  body.icontains("下一代防火墙") && title.icontains("惠尔顿上网行为管理")
+  body.icontains("classid=\"clsid:81be1f16-9d88-48cc-8d3e-cb8e37b71fee")

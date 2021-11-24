@@ -1,0 +1,7 @@
+info:
+  company: Dell Inc.
+  product: DELL-N4032
+  softhard: '1'
+matches: |
+  body.icontains("class=\"login_server_default\">n4032")
+  banner.icontains("dell networking n4032")

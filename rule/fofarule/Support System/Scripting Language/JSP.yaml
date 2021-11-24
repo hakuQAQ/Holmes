@@ -1,0 +1,7 @@
+info:
+  company: Oracle Corporation
+  product: JSP
+  softhard: '2'
+matches: |
+  header.icontains("jsp") && header.icontains("servlet") && header.icontains("jboss") && header.icontains("jsessionid")
+  banner.icontains("jsp") && banner.icontains("servlet") && banner.icontains("jboss") && banner.icontains("jsessionid")

@@ -1,0 +1,7 @@
+info:
+  company: Hanwei
+  product: Hanwei-Mobile-Platform
+  softhard: '2'
+matches: |
+  body.icontains("<img src=\"images/zshlogo.jpg\" />")
+  body.icontains("信任汉威的开发证书")

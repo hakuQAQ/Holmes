@@ -1,0 +1,7 @@
+info:
+  company: Technicolor.
+  product: Technicolor-BFC-cablemodem
+  softhard: '1'
+matches: |
+  banner.icontains("bfc cablemodem")
+  banner.icontains("vendor: technicolor")

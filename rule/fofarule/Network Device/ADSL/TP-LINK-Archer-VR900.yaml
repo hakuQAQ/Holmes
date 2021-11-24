@@ -1,0 +1,8 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TP-LINK-Archer-VR900
+  softhard: '1'
+matches: |
+  banner.icontains("0.9.1 1.2 v004c.0 build 150909 rel.39821n")
+  banner.icontains("0.9.1 1.4 v004c.0 build 160316 rel.44905n")
+  body.icontains("var modelname=\"archer vr900\"")

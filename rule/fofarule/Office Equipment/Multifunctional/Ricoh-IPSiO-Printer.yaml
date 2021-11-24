@@ -1,0 +1,6 @@
+info:
+  company: Ricoh Company, Ltd.
+  product: Ricoh-IPSiO-Printer
+  softhard: '1'
+matches: |
+  banner.icontains("ricoh ipsio ")

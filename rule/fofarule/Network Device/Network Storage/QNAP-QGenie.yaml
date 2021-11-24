@@ -1,0 +1,7 @@
+info:
+  company: QNAP Systems, Inc.
+  product: QNAP-QGenie
+  softhard: '1'
+matches: |
+  header.icontains("qgenie")
+  banner.icontains("qgenie") && banner.icontains("server: ") && title.icontains("qgenie - login")

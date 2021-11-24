@@ -1,0 +1,7 @@
+info:
+  company: ASUS
+  product: ASUS-R8000
+  softhard: '1'
+matches: |
+  banner.icontains("asus-r8000")
+  body.icontains("<div class=\"prod_madelname\">r8000")

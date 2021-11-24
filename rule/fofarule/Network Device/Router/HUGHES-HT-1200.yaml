@@ -1,0 +1,7 @@
+info:
+  company: Hughes Network Systems, LLC,
+  product: HUGHES-HT-1200
+  softhard: '1'
+matches: |
+  banner.icontains("hughes ht1200")
+  header.icontains("hughes ht1200")

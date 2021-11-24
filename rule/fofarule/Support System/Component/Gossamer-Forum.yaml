@@ -1,0 +1,7 @@
+info:
+  company: Carbon60 Operating Co. Ltd
+  product: Gossamer-Forum
+  softhard: '2'
+matches: |
+  body.icontains("href=\"gforum.cgi?username=")
+  title.icontains("gossamer forum")

@@ -1,0 +1,6 @@
+info:
+  company: Promisec Limited
+  product: promisec-System
+  softhard: '2'
+matches: |
+  body.icontains("name=\"promisecactivex\"")

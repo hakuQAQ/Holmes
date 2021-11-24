@@ -1,0 +1,7 @@
+info:
+  company: Honeywell International Inc.
+  product: HeiTel-Digital-Video-Device
+  softhard: '1'
+matches: |
+  header.icontains("server: heitel gmbh web server")
+  banner.icontains("server: heitel gmbh web server")

@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: QCubed-Development-Framework
+  softhard: '2'
+matches: |
+  body.icontains("<div id=\"codeversion\">qcubed development framework")
+  body.icontains("<b>qcubed version:</b>")

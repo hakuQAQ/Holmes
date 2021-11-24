@@ -1,0 +1,11 @@
+info:
+  company: Other
+  product: Drupal
+  softhard: '2'
+matches: |
+  header.icontains("x-generator: drupal") && body.icontains("content=\"drupal")
+  body.icontains("jquery.extend(drupal.settings")
+  body.icontains("/sites/default/files/")
+  body.icontains("/sites/all/modules/")
+  body.icontains("/sites/all/themes/")
+  header.icontains("ace-drupal7prod")

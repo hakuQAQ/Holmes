@@ -1,0 +1,6 @@
+info:
+  company: Dell Technologies
+  product: Dell-Navisphere-Express
+  softhard: '2'
+matches: |
+  body.icontains("parent.main.location = urlnonst + \"?nst=\" + top.menu.securitytoken")

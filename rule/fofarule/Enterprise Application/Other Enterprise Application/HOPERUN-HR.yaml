@@ -1,0 +1,7 @@
+info:
+  company: hoperun
+  product: HOPERUN-HR
+  softhard: '2'
+matches: |
+  body.icontains("src=./static/js/manifest")
+  body.icontains("<title>考核评测系统</title>")

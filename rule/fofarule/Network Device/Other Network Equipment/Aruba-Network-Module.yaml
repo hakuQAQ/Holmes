@@ -1,0 +1,6 @@
+info:
+  company: Hewlett Packard Enterprise Development LP
+  product: Aruba-Network-Module
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp") && banner.icontains("arubaos") && banner.icontains("model: ")

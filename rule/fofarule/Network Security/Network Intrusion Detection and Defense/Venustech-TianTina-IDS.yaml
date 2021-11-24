@@ -1,0 +1,8 @@
+info:
+  company: venustech
+  product: Venustech-TianTina-IDS
+  softhard: '1'
+matches: |
+  title.icontains("天阗入侵检测") && title.icontains("cybersensor")
+  header.icontains("vsappsrv1")
+  body.icontains("<div class=\"login_name\">天阗入侵检测与管理系统v7.0</div>")

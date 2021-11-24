@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Open-Xchange
+  softhard: '2'
+matches: |
+  body.icontains("you need to enable javascript to access the open-xchange server")
+  body.icontains("id=\"browserchecktext_id")
+  header.icontains("/ox6/ox.html")

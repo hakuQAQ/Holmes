@@ -1,0 +1,8 @@
+info:
+  company: TRENDnet, Inc.
+  product: Trendnet-Print-Server
+  softhard: '1'
+matches: |
+  header.icontains("print_server web")
+  body.icontains("<frame name=\"banner\" scrolling=\"no\" noresize target=\"inhalt\" src=\"head.htm\">")
+  banner.icontains("trendnet print server")

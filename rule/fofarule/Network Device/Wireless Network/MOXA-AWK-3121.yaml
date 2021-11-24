@@ -1,0 +1,7 @@
+info:
+  company: MOXA
+  product: MOXA-AWK-3121
+  softhard: '1'
+matches: |
+  body.icontains("var http_req =")
+  body.icontains("awk-3121")

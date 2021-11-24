@@ -1,0 +1,7 @@
+info:
+  company: fastweb
+  product: Fastweb
+  softhard: '2'
+matches: |
+  header.icontains("fw-via: ")
+  header.icontains("fastweb") && banner.icontains("server: fastweb")

@@ -1,0 +1,7 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-ER5200
+  softhard: '1'
+matches: |
+  title == "er5200系统管理" && header.icontains("h3c er5200")
+  banner.icontains("h3c er5200")

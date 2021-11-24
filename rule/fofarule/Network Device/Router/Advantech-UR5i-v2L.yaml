@@ -1,0 +1,6 @@
+info:
+  company: Advantech Co., Ltd.
+  product: Advantech-UR5i-v2L
+  softhard: '1'
+matches: |
+  title.icontains("ur5i-v2l")

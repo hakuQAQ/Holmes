@@ -1,0 +1,6 @@
+info:
+  company: uniview
+  product: uniview-IPC-B312-IR
+  softhard: '1'
+matches: |
+  banner.icontains("ipc-b312-ir")

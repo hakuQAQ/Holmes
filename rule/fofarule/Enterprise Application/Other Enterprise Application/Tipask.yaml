@@ -1,0 +1,6 @@
+info:
+  company: tipask
+  product: Tipask
+  softhard: '2'
+matches: |
+  body.icontains("content=\"tipask")

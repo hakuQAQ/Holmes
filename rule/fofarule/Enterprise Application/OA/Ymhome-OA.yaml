@@ -1,0 +1,7 @@
+info:
+  company: yimihome
+  product: Ymhome-OA
+  softhard: '2'
+matches: |
+  body.icontains("/yimioa.apk")
+  title.icontains("一米oa")

@@ -1,0 +1,7 @@
+info:
+  company: handlink
+  product: Handlink-Wireless-Route
+  softhard: '1'
+matches: |
+  title.icontains("---wg-")
+  body.icontains("handlink technologies inc.")

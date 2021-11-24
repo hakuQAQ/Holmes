@@ -1,0 +1,6 @@
+info:
+  company: primatelindia
+  product: Optical-Bypass-System
+  softhard: '0'
+matches: |
+  title.icontains("optical bypass system")

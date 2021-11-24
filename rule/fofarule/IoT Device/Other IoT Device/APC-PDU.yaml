@@ -1,0 +1,8 @@
+info:
+  company: Schneider Electric
+  product: APC-PDU
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp")
+  banner.icontains("apc masterswitch pdu")
+  banner.icontains("apc metered rack pdu") && banner.icontains("apc switched rack pdu")

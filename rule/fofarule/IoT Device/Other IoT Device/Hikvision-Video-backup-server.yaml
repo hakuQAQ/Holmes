@@ -1,0 +1,7 @@
+info:
+  company: Hikvision
+  product: Hikvision-Video-backup-server
+  softhard: '1'
+matches: |
+  title.icontains("video record backup")
+  body.icontains("备份管理服务器")

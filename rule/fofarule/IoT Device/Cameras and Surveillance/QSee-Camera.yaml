@@ -1,0 +1,6 @@
+info:
+  company: Q-See
+  product: QSee-Camera
+  softhard: '1'
+matches: |
+  body.icontains("handlerocxevents && handlerocxevents.drawnetplayrecord(chn);")

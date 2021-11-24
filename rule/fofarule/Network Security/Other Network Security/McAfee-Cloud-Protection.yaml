@@ -1,0 +1,7 @@
+info:
+  company: McAfee, Inc.
+  product: McAfee-Cloud-Protection
+  softhard: '2'
+matches: |
+  header.icontains("realm=\"mcafee cloud web protection")
+  banner.icontains("realm=\"mcafee cloud web protection")

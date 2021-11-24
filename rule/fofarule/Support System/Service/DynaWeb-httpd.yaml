@@ -1,0 +1,7 @@
+info:
+  company: Oracle Corporation
+  product: DynaWeb-httpd
+  softhard: '2'
+matches: |
+  header.icontains("server: dwhttpd")
+  banner.icontains("server: dwhttpd")

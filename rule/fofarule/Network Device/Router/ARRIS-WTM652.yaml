@@ -1,0 +1,8 @@
+info:
+  company: ARRIS
+  product: ARRIS-WTM652
+  softhard: '1'
+matches: |
+  body.icontains("content=\"arris 2307\"")
+  body.icontains("strhtml='<title>'+i1+'</title>';")
+  body.icontains("wtm652")

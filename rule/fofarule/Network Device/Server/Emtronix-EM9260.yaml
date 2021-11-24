@@ -1,0 +1,7 @@
+info:
+  company: emtronix
+  product: Emtronix-EM9260
+  softhard: '1'
+matches: |
+  body.icontains("class=\"style1\">em9260 web server")
+  title.icontains("em9260 web server")

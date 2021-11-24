@@ -1,0 +1,8 @@
+info:
+  company: LiteSpeed Technologies Inc.
+  product: LiteSpeed-Web-Admin-Console
+  softhard: '2'
+matches: |
+  title.icontains("litespeed web admin console")
+  header.icontains("lswswebui")
+  title.icontains("litespeed webadmin console")

@@ -1,0 +1,7 @@
+info:
+  company: Unify Inc.
+  product: OpenStage-IP-Phone
+  softhard: '1'
+matches: |
+  title.icontains("openstage ip phone")
+  body.icontains("name='webm_main_banner'")

@@ -1,0 +1,11 @@
+info:
+  company: KYOCERA Corporation
+  product: KYOCERA-Printer
+  softhard: '1'
+matches: |
+  header.icontains("server: km-mfp-http")
+  banner.icontains("server: km-mfp-http")
+  title.icontains("kyocera command center")
+  body.icontains("var modelname=\"fs-")
+  body.icontains("var currentpage=\"\";") && body.icontains("var modelname=")
+  protocol.icontains("snmp") && banner.icontains("kyocera printer")

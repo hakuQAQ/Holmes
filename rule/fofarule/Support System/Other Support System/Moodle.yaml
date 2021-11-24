@@ -1,0 +1,12 @@
+info:
+  company: Other
+  product: Moodle
+  softhard: '2'
+matches: |
+  body.icontains("title=\"moodle\" href=\"http://moodle.org/")
+  header.icontains("moodlesession=")
+  banner.icontains("moodlesession=")
+  body.icontains("content=\"moodle")
+  header.icontains("moodleid_")
+  banner.icontains("moodleid_")
+  body.icontains("m.str = {\"moodle\":")

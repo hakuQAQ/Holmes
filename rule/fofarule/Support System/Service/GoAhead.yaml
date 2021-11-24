@@ -1,0 +1,7 @@
+info:
+  company: Embedthis Software LLC.
+  product: GoAhead
+  softhard: '2'
+matches: |
+  header.icontains("goahead")
+  header.icontains("goahead-webs")

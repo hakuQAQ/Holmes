@@ -1,0 +1,8 @@
+info:
+  company: admin5
+  product: Zhu-Ji-Bao
+  softhard: '2'
+matches: |
+  body.icontains("您访问的是主机宝服务器默认页")
+  title.icontains("主机宝")
+  body.icontains("<a href=\"http://z.admin5.com/\" target=")

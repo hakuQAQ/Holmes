@@ -1,0 +1,6 @@
+info:
+  company: Advantech Co., Ltd.
+  product: advantech_WISE
+  softhard: '2'
+matches: |
+  body.icontains("remote manage your intelligent systems")

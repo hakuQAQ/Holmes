@@ -1,0 +1,6 @@
+info:
+  company: nitc
+  product: NITC-CMS
+  softhard: '2'
+matches: |
+  body.icontains("nitc web marketing service") && body.icontains("/images/nitc1.png")

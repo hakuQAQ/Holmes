@@ -1,0 +1,6 @@
+info:
+  company: DrayTek Corp.
+  product: DrayTek-Company's-product
+  softhard: '0'
+matches: |
+  banner.icontains("draytek corporation") && banner.icontains("router model")

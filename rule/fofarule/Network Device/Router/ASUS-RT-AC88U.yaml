@@ -1,0 +1,8 @@
+info:
+  company: ASUS
+  product: ASUS-RT-AC88U
+  softhard: '1'
+matches: |
+  banner.icontains("rt-ac88u")
+  body.icontains("<div class=\"prod_madelname\">rt-ac88u")
+  header.icontains("realm=\"asusrt-ac88u") && banner.icontains("asus rt-ac88u")

@@ -1,0 +1,6 @@
+info:
+  company: Google LLC
+  product: GWS
+  softhard: '2'
+matches: |
+  header.icontains("gws")

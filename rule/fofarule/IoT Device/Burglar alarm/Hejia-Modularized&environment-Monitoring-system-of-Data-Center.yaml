@@ -1,0 +1,7 @@
+info:
+  company: hejiaTech
+  product: Hejia-Modularized&environment-Monitoring-system-of-Data-Center
+  softhard: '1'
+matches: |
+  title.icontains("和嘉科技-机房动力环境监控系统")
+  body.icontains("content=\"www.hejia-tech.com")

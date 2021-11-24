@@ -1,0 +1,6 @@
+info:
+  company: broada
+  product: Broada-Company's-product
+  softhard: '0'
+matches: |
+  body.icontains("技术支持：北京广通信达科技有限公司 <br />")

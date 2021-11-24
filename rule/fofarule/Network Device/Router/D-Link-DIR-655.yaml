@@ -1,0 +1,8 @@
+info:
+  company: D-Link Corporation
+  product: D-Link-DIR-655
+  softhard: '1'
+matches: |
+  body.icontains("<a href=\"http://support.dlink.com.tw/\">dir-655")
+  body.icontains("onclick=\"return jump_if();\">dir-655")
+  banner.icontains("dir-655")

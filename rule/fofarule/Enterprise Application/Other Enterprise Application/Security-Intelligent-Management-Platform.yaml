@@ -1,0 +1,6 @@
+info:
+  company: rickyinfo
+  product: Security-Intelligent-Management-Platform
+  softhard: '2'
+matches: |
+  body.icontains("nanjing rickyinfo technology")

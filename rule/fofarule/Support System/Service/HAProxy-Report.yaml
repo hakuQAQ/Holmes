@@ -1,0 +1,6 @@
+info:
+  company: HAProxy Technologies, Inc.
+  product: HAProxy-Report
+  softhard: '2'
+matches: |
+  body.icontains("statistics report for haproxy")

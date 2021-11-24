@@ -1,0 +1,7 @@
+info:
+  company: xyhcms
+  product: XYHCMS
+  softhard: '2'
+matches: |
+  header.icontains("x-powered-by: xyhcms") && banner.icontains("x-powered-by: xyhcms")
+  body.icontains("power by xyhcms")

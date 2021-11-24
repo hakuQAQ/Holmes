@@ -1,0 +1,6 @@
+info:
+  company: cloudroom
+  product: cloudroom-Meeting
+  softhard: '2'
+matches: |
+  body.icontains("src=\"/companyimage/agents/sdk-logo.png\"")

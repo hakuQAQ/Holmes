@@ -1,0 +1,7 @@
+info:
+  company: '360'
+  product: QiAnXin-Product
+  softhard: '2'
+matches: |
+  header.icontains("iocpserver")
+  title.icontains("360企业安全部署")

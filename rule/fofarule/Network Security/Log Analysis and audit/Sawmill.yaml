@@ -1,0 +1,8 @@
+info:
+  company: 'Global IT Solution Co., LTD. '
+  product: Sawmill
+  softhard: '2'
+matches: |
+  body.icontains("<div id=\"password:error")
+  body.icontains("src=\"/picts/sawmill_logo.png")
+  header.icontains("sawmill")

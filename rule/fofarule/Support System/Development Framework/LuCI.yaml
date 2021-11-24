@@ -1,0 +1,11 @@
+info:
+  company: Other
+  product: LuCI
+  softhard: '2'
+matches: |
+  body.icontains("/luci-static/openwrt.org/cascade.css")
+  body.icontains("luci - lua configuration interface")
+  body.icontains("powered by luci")
+  body.icontains("action=\"/cgi-bin/luci\">")
+  body.icontains("href=\"/cgi-bin/luci\"></a>")
+  body.icontains("<head> <meta http-equiv=\"refresh\" content=\"0; url=/cgi-bin/luci\" /> </head>")

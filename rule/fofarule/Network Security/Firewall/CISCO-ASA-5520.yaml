@@ -1,0 +1,7 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-ASA-5520
+  softhard: '1'
+matches: |
+  cert.icontains("asa5520")
+  title == "ssl vpn service" && title.icontains("cisco asdm 7.6(1)")

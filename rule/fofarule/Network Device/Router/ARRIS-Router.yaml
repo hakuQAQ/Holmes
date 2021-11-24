@@ -1,0 +1,12 @@
+info:
+  company: COMMSCOPE
+  product: ARRIS-Router
+  softhard: '1'
+matches: |
+  body.icontains("copyright")
+  body.icontains("arris group")
+  body.icontains("/arris_style.css")
+  header.icontains("realm=\"arris")
+  banner.icontains("realm=\"arris") && body.icontains("content=\"arris 2307\"")
+  body.icontains("strhtml='<title>'+i1+'</title>';")
+  body.icontains("arris")

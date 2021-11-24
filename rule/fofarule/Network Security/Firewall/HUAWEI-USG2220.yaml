@@ -1,0 +1,7 @@
+info:
+  company: Huawei
+  product: HUAWEI-USG2220
+  softhard: '1'
+matches: |
+  banner.icontains("usg2220")
+  header.icontains("usg2220")

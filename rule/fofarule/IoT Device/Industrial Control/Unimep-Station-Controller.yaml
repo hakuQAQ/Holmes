@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: Unimep-Station-Controller
+  softhard: '1'
+matches: |
+  body.icontains("<a href=\"cgi-bin/log.log.cgi")
+  body.icontains("<meta name=\"description\" content=\"unimep station controller\">")

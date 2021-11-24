@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Storage-System
+  softhard: '1'
+matches: |
+  body.icontains("<frame name=\"reloadfrm\" src=\"refresh.php")

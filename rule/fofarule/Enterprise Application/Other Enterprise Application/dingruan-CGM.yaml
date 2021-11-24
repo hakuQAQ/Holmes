@@ -1,0 +1,6 @@
+info:
+  company: dingruan
+  product: dingruan-CGM
+  softhard: '2'
+matches: |
+  body.icontains("id='cgm' style='background-image")

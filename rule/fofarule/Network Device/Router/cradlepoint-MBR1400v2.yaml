@@ -1,0 +1,7 @@
+info:
+  company: Cradlepoint, Inc.
+  product: cradlepoint-MBR1400v2
+  softhard: '1'
+matches: |
+  title.icontains("login :: mbr1400v2")
+  banner.icontains("mbr1400v2")

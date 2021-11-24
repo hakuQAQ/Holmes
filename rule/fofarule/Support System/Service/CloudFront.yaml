@@ -1,0 +1,8 @@
+info:
+  company: Amazon.com, Inc.
+  product: CloudFront
+  softhard: '2'
+matches: |
+  header.icontains("x-amz-cf-id")
+  header.icontains("cloudfront")
+  banner.icontains("server: cloudfront") && header.icontains("x-cache: error from cloudfront")

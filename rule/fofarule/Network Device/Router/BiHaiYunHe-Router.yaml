@@ -1,0 +1,8 @@
+info:
+  company: liukongyun
+  product: BiHaiYunHe-Router
+  softhard: '1'
+matches: |
+  title.icontains("碧海云盒")
+  body.icontains("src=\"lib/ext-lang-zh_cn.js\"")
+  body.icontains("<h4>欢迎登录碧海云盒</h4>")

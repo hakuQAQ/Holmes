@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: NewPostCom-Wlan-AP
+  softhard: '1'
+matches: |
+  banner.icontains("newpostcom software platform wlan ap")

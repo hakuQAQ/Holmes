@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: CameraLife
+  softhard: '2'
+matches: |
+  body.icontains("content=\"camera life") && body.icontains("this site is powered by camera life")

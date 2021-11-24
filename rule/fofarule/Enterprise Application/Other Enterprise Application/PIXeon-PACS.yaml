@@ -1,0 +1,6 @@
+info:
+  company: Pixeon Medical Systems SA
+  product: PIXeon-PACS
+  softhard: '2'
+matches: |
+  body.icontains("<span class=\"apptitle\" id=\"apppixviewer\">")

@@ -1,0 +1,6 @@
+info:
+  company: Toshiba Co. Ltd.
+  product: Toshiba-Projector
+  softhard: '1'
+matches: |
+  header.icontains("toshiba-projector")

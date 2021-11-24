@@ -1,0 +1,9 @@
+info:
+  company: Other
+  product: Onethink
+  softhard: '2'
+matches: |
+  header.icontains("thinkphp")
+  title.icontains("onethink")
+  body.icontains("<a href=\"http://www.onethink.cn\" target=\"_blank\">onethink</a>")
+  body.icontains("/css/onethink.css")

@@ -1,0 +1,10 @@
+info:
+  company: Micro Focus International plc
+  product: Novell-NetWare
+  softhard: '2'
+matches: |
+  title.icontains("netware server")
+  body.icontains("code=\"nwshealth.class")
+  body.icontains("<b>novell netware") && banner.icontains("novell netware")
+  banner.icontains("server: netware http stack")
+  header.icontains("server: netware http stack")

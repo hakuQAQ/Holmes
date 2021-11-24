@@ -1,0 +1,6 @@
+info:
+  company: Microsoft Corporation
+  product: Windows-Small-Business-Server-2011
+  softhard: '2'
+matches: |
+  banner.icontains("windows small business server 2011")

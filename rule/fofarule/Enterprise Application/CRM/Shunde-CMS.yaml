@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Shunde-CMS
+  softhard: '2'
+matches: |
+  body.icontains("for=\"ctl00_cph_l_login_username\">crm帐号")

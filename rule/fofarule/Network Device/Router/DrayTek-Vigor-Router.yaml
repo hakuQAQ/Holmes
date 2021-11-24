@@ -1,0 +1,14 @@
+info:
+  company: DrayTek Corp.
+  product: DrayTek-Vigor-Router
+  softhard: '1'
+matches: |
+  header.icontains("server: vigoraccess web server")
+  banner.icontains("server: vigoraccess web server")
+  header.icontains("realm=\"login to vigor")
+  banner.icontains("realm=\"login to vigor")
+  title.icontains("vigor login page")
+  body.icontains("draytek corp. all rights reserved.")
+  header.icontains("realm=\"login to the router web configurator")
+  banner.icontains("login to the router web configurator")
+  cert.icontains("commonname: vigor router")

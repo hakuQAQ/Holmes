@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: LetoDMS
+  softhard: '2'
+matches: |
+  body.icontains("letodms free document management system")
+  header.icontains("out/out.viewfolder.php")
+  banner.icontains("out/out.viewfolder.php")

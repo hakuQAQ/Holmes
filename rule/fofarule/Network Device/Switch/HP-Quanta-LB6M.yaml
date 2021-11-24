@@ -1,0 +1,6 @@
+info:
+  company: Hewlett Packard Enterprise Development LP
+  product: HP-Quanta-LB6M
+  softhard: '1'
+matches: |
+  banner.icontains("quanta lb6m")

@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: udesk
+  softhard: '2'
+matches: |
+  body.icontains("assets-cli.udesk.cn/im_client/js/udeskapi.js")
+  body.icontains("udesk.cn/im_client/?web_plugin_id=")

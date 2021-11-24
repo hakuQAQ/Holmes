@@ -1,0 +1,9 @@
+info:
+  company: zhidesoft
+  product: Zidesoft-E8
+  softhard: '0'
+matches: |
+  body.icontains("http://www.zhidesoft.com/")
+
+#yamlflag
+#body.icontains("e8")

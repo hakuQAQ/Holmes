@@ -1,0 +1,11 @@
+info:
+  company: PHP Group
+  product: PHP
+  softhard: '2'
+matches: |
+  header.icontains("x-powered-by: php")
+  header.icontains("php/") && body.icontains(".php?") && header.icontains("php_session")
+  header.icontains("php_errors")
+  banner.icontains("php/") && banner.icontains("x-powered-by: php")
+  banner.icontains("php_session")
+  banner.icontains("php_errors")

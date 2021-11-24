@@ -1,0 +1,6 @@
+info:
+  company: tyxdgroup
+  product: tyxdgroup-Monitor
+  softhard: '1'
+matches: |
+  body.icontains("login.ashx?mode=valid")

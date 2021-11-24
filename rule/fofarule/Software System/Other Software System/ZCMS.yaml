@@ -1,0 +1,8 @@
+info:
+  company: zving
+  product: ZCMS
+  softhard: '2'
+matches: |
+  body.icontains("_zcms_shownewmessage") && body.icontains("zcms_skin")
+  title.icontains("zcms泽元内容管理")
+  body.icontains("app=zcms")

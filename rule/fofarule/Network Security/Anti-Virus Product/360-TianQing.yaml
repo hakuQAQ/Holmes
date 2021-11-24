@@ -1,0 +1,11 @@
+info:
+  company: '360'
+  product: 360-TianQing
+  softhard: '2'
+matches: |
+  title.icontains("360新天擎")
+  body.icontains("appid\":\"skylar6")
+  body.icontains("/task/index/detail?id={item.id}")
+  body.icontains("已过期或者未授权，购买请联系4008-136-360")
+  title.icontains("360天擎")
+  title.icontains("360天擎终端安全管理系统")

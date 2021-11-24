@@ -1,0 +1,7 @@
+info:
+  company: Telecom Italia
+  product: vocetelecomWIFI
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"vocetelecomwifi")
+  banner.icontains("realm=\"vocetelecomwifi")

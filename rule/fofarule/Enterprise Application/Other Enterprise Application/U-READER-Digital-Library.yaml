@@ -1,0 +1,8 @@
+info:
+  company: dynomedia
+  product: U-READER-Digital-Library
+  softhard: '2'
+matches: |
+  title.icontains("ureader digital library")
+  body.icontains("content=\"ureader")
+  body.icontains("class=\"login-show-title\">dynomedia inc.</p>")

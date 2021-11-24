@@ -1,0 +1,7 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-n5000
+  softhard: '1'
+matches: |
+  banner.icontains("cisco nx-os(tm) n5000")
+  banner.icontains("nexus 5000 switch")

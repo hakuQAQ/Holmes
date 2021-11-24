@@ -1,0 +1,7 @@
+info:
+  company: Star2Billing
+  product: CDR-Stats
+  softhard: '2'
+matches: |
+  title.icontains("cdr-stats | customer interface")
+  body.icontains("/static/cdr-stats/js/jquery")

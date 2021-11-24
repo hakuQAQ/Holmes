@@ -1,0 +1,8 @@
+info:
+  company: CCTV Camera Pros，LLC
+  product: CCTV-Cameras
+  softhard: '1'
+matches: |
+  body.icontains("style=\"font-size:24px;float:left;\">network video client")
+  title.icontains("partizan web surveillance")
+  header.icontains("thttpd/") && title.icontains("esee")

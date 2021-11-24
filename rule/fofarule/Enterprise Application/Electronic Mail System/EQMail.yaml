@@ -1,0 +1,8 @@
+info:
+  company: eqmail
+  product: EQMail
+  softhard: '2'
+matches: |
+  title.icontains("powered by eqmail!")
+  body.icontains("href=\"eqmail.ico")
+  body.icontains("<frame src=\"/cgi-bin/eqwebmail?empty=1")

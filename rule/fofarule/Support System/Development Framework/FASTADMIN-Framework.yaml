@@ -1,0 +1,10 @@
+info:
+  company: fastadmin
+  product: FASTADMIN-Framework
+  softhard: '2'
+matches: |
+  body.icontains("copyright © fastadmin.net")
+  title == "fastadmin" && body.icontains("class=\"navbar-brand\">fastadmin</a>")
+  body.icontains("<a href=\"/\" class=\"navbar-brand\">fastadmin</a>")
+  title.icontains("fastadmin") && body.icontains("<h1>fastadmin</h1>")
+  body.icontains("fastadmin.net")

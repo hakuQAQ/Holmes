@@ -1,0 +1,8 @@
+info:
+  company: SingleComm, LLC.
+  product: SingleComm-System
+  softhard: '2'
+matches: |
+  header.icontains("singlecomm")
+  banner.icontains("singlecomm")
+  banner.icontains("server: ")

@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: VideoSurveillanceManagementPlatform
+  softhard: '2'
+matches: |
+  body.icontains(" <span>平台采用最新图像化展现技术")

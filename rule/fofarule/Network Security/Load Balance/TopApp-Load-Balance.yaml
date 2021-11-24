@@ -1,0 +1,6 @@
+info:
+  company: TOPSEC
+  product: TopApp-Load-Balance
+  softhard: '1'
+matches: |
+  banner.icontains("topapp-")

@@ -1,0 +1,7 @@
+info:
+  company: UTT
+  product: HiPER-ROUTER
+  softhard: '1'
+matches: |
+  banner.icontains("hiper router")
+  header.icontains("hiper router")

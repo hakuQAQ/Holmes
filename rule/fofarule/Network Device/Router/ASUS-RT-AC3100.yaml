@@ -1,0 +1,11 @@
+info:
+  company: ASUS
+  product: ASUS-RT-AC3100
+  softhard: '1'
+matches: |
+  banner.icontains("asus rt-ac3100")
+  body.icontains("<div class=\"prod_madelname\">rt-ac3100")
+  body.icontains("var product_name='rt-ac3100'")
+  header.icontains("realm=\"rt-ac3100")
+  body.icontains("var mmc = {")
+  body.icontains("asus rt-ac3100")

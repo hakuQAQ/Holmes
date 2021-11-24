@@ -1,0 +1,6 @@
+info:
+  company: HANYANG DIGITECH CO., LTD
+  product: Hanyang-HYC-G800
+  softhard: '1'
+matches: |
+  body.icontains("var dev_str=\"(hyc-g800)\"")

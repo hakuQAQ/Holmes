@@ -1,0 +1,6 @@
+info:
+  company: QNO
+  product: QNO-4WAN_8LAN_IPSec_VPN_Router
+  softhard: '1'
+matches: |
+  banner.icontains("4wan_8lan_ipsec_vpn_router")

@@ -1,0 +1,7 @@
+info:
+  company: NetApp, Inc.
+  product: NetApp-NetCache-Appliance
+  softhard: '2'
+matches: |
+  header.icontains("server: netcache appliance")
+  banner.icontains("server: netcache appliance")

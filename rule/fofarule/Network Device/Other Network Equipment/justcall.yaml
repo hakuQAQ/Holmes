@@ -1,0 +1,11 @@
+info:
+  company: justcall
+  product: justcall
+  softhard: '1'
+matches: |
+  title.icontains("欢迎您使用集时通讯呼叫中心")
+  body.icontains("justadmin")
+  body.icontains("form.action=\"/justadmin/index.html\";")
+  body.icontains("<a href=\"http://www.justcall.cn\" target=\"_blank\">")
+  body.icontains("userweb/index.php?module=user&action=login")
+  body.icontains("justadmin")

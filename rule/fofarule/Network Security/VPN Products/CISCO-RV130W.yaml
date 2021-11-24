@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-RV130W
+  softhard: '1'
+matches: |
+  banner.icontains("cisco small business rv130w")

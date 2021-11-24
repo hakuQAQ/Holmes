@@ -1,0 +1,6 @@
+info:
+  company: Adobe Inc.
+  product: Adobe-GoLive
+  softhard: '2'
+matches: |
+  body.icontains("generator\" content=\"adobe golive")

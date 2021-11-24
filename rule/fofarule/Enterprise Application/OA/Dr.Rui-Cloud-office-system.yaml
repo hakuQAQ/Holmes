@@ -1,0 +1,7 @@
+info:
+  company: riicy
+  product: Dr.Rui-Cloud-office-system
+  softhard: '2'
+matches: |
+  body.icontains("/studentsign/tologin.di")
+  body.icontains("/user/toupdatepasswordpage.di")

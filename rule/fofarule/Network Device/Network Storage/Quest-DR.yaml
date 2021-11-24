@@ -1,0 +1,7 @@
+info:
+  company: Quest Software Inc.
+  product: Quest-DR
+  softhard: '2'
+matches: |
+  body.icontains("quest software")
+  body.icontains("cui-login-screen")

@@ -1,0 +1,7 @@
+info:
+  company: phpok
+  product: PHPOK
+  softhard: '2'
+matches: |
+  title.icontains("phpok") && body.icontains("powered by phpok.com")
+  body.icontains("content=\"phpok")

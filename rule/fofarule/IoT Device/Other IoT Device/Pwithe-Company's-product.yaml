@@ -1,0 +1,6 @@
+info:
+  company: pwithe
+  product: Pwithe-Company's-product
+  softhard: '1'
+matches: |
+  body.icontains("<p>技术支持 深圳警翼数码科技有限公司")

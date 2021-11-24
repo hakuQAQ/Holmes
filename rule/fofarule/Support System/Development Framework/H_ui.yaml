@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: H_ui
+  softhard: '2'
+matches: |
+  body.icontains("h-ui.js") && body.icontains("h-ui.min.js")
+  body.icontains("html5shi.js") && body.icontains("/css/h-ui.min.css")
+  body.icontains("/css/h-ui.login.css") && body.icontains("/h-ui.admin/")

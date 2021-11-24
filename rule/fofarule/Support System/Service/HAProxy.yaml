@@ -1,0 +1,8 @@
+info:
+  company: HAProxy Technologies, Inc.
+  product: HAProxy
+  softhard: '2'
+matches: |
+  header.icontains("realm=\"haproxy statistics")
+  banner.icontains("haproxy on top of other infrastructure")
+  banner.icontains("server:")

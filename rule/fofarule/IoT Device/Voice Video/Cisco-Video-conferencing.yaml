@@ -1,0 +1,10 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-Video-conferencing
+  softhard: '1'
+matches: |
+  banner.icontains("tandberg codec")
+  banner.icontains("cisco codec ")
+  banner.icontains("tandberg") && title.icontains("tandberg")
+  body.icontains("<frame src=\"framemiddle.htm\" name=\"no name\" noresize marginheight=\"0\">")
+  title.icontains("cisco codec")

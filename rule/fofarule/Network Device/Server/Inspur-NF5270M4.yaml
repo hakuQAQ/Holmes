@@ -1,0 +1,6 @@
+info:
+  company: Inspur
+  product: Inspur-NF5270M4
+  softhard: '1'
+matches: |
+  banner.icontains("nf5270m4")

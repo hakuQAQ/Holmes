@@ -1,0 +1,9 @@
+info:
+  company: adtsec
+  product: ADT-IAM
+  softhard: '1'
+matches: |
+  body.icontains("src=\"/page/assets/javascripts/adt.js\"")
+
+#yamlflag
+#body.icontains("iam")

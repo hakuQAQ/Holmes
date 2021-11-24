@@ -1,0 +1,7 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-ER2200G2
+  softhard: '1'
+matches: |
+  title.icontains("er2200g2系统管理")
+  body.icontains("\"=aaaaaaaa")

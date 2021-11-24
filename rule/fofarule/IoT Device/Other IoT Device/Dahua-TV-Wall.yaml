@@ -1,0 +1,8 @@
+info:
+  company: Dahua
+  product: Dahua-TV-Wall
+  softhard: '1'
+matches: |
+  body.icontains("estopall")
+  body.icontains("nav_screen")
+  body.icontains("nav_creen")

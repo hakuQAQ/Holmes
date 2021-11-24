@@ -1,0 +1,8 @@
+info:
+  company: Sophos Technologies Pvt. Ltd.
+  product: SOPHOS-Product
+  softhard: '0'
+matches: |
+  header.icontains("via: http/1.1 forward.http.proxy:3128")
+  title.icontains("blocked site")
+  body.icontains("<span class='logosophosfooterfont'>protected by</span>") && body.icontains("<td align='center'><img id='footerimage' name='footerimage' src='data:image/jpeg;base64")

@@ -1,0 +1,7 @@
+info:
+  company: lguang
+  product: LEGUANG-System
+  softhard: '1'
+matches: |
+  body.icontains("class=\"btn btn-zx btn-modal\"")
+  body.icontains("class=\"capslock\"")

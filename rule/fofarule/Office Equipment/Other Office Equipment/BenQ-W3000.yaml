@@ -1,0 +1,6 @@
+info:
+  company: BENQ Corporation
+  product: BenQ-W3000
+  softhard: '1'
+matches: |
+  banner.icontains("w3000")

@@ -1,0 +1,6 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-MAX-206M1R
+  softhard: '1'
+matches: |
+  banner.icontains("max-206m1r")

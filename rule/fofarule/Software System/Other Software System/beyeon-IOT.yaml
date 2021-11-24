@@ -1,0 +1,7 @@
+info:
+  company: beyeon
+  product: beyeon-IOT
+  softhard: '2'
+matches: |
+  body.icontains("版权所有:郑州蓝视科技有限公司")
+  body.icontains("var app_smp_type_name = '门店';var app_grp_type_name = '集团'")

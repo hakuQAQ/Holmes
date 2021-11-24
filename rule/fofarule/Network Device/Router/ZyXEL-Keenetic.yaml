@@ -1,0 +1,7 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-Keenetic
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"zyxel keenetic")
+  banner.icontains("zyxel-keenetic")

@@ -1,0 +1,6 @@
+info:
+  company: Instalcompact
+  product: Instalcompact-EmSyDia-1.6
+  softhard: '2'
+matches: |
+  body.icontains("urz/ic/") && title.icontains("emsydia 1.6")

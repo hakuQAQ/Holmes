@@ -1,0 +1,7 @@
+info:
+  company: Infortrend Technology Inc.
+  product: Infortrend-Company's-product
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp")
+  banner.icontains("infortrend snmp")

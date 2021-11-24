@@ -1,0 +1,7 @@
+info:
+  company: Biscom, Inc.
+  product: Biscom-Delivery-Server
+  softhard: '2'
+matches: |
+  body.icontains("/bds/stylesheets/fds.css")
+  body.icontains("/bds/includes/fdsjavascript.do")

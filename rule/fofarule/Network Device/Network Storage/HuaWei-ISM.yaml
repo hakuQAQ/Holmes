@@ -1,0 +1,10 @@
+info:
+  company: HUAWEI
+  product: HuaWei-ISM
+  softhard: '1'
+matches: |
+  body.icontains("<link href=\"ismb014.css\"")
+  title.icontains("oceanstor ism")
+  body.icontains("class=\"contextgray\">oceanstor")
+  body.icontains("document.location.href=thisurl + \"index_cn.cgi\";")
+  body.icontains("//begin h90005710  redirect http to https")

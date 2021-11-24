@@ -1,0 +1,7 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-BR104H
+  softhard: '1'
+matches: |
+  header.icontains("basic realm=\"h3c br104h\"")
+  banner.icontains("basic realm=\"h3c br104h\"")

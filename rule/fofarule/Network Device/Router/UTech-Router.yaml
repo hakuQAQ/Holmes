@@ -1,0 +1,7 @@
+info:
+  company: UTech
+  product: UTech-Router
+  softhard: '1'
+matches: |
+  body.icontains("u-tech roteador wi-fi")
+  body.icontains("copyright u-tech do brasil")

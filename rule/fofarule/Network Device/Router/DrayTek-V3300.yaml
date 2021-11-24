@@ -1,0 +1,6 @@
+info:
+  company: DrayTek Corp.
+  product: DrayTek-V3300
+  softhard: '1'
+matches: |
+  banner.icontains("draytek v3300 advanced router")

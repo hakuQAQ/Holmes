@@ -1,0 +1,6 @@
+info:
+  company: raisecom
+  product: raisecom-Wireless-Access-Point-Controller
+  softhard: '1'
+matches: |
+  body.icontains("var oemproductname = \"mvc_msg2300\"")

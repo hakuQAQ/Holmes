@@ -1,0 +1,7 @@
+info:
+  company: Delta Controls Inc.
+  product: DELTA-enteliTOUCH
+  softhard: '1'
+matches: |
+  header.icontains("delta entelitouch")
+  body.icontains("id=\"loginform\" action=\"hmi_login.asp?target=")

@@ -1,0 +1,7 @@
+info:
+  company: Adobe Inc.
+  product: Adobe-Flex
+  softhard: '2'
+matches: |
+  body.icontains("adobe flex")
+  body.icontains("learn more about flex at http://flex.org")

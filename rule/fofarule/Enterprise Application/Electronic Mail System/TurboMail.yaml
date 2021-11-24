@@ -1,0 +1,10 @@
+info:
+  company: turbomail
+  product: TurboMail
+  softhard: '2'
+matches: |
+  body.icontains("powered by turbomail") && body.icontains("wzcon1 clearfix")
+  title.icontains("turbomail邮件系统")
+  body.icontains("<a href=\"http://www.turbomail.org\">powered by turbomail</a>")
+  body.icontains("alt=\"turbomail 电子邮件系统\"/>")
+  banner.icontains("turbomail smtp")

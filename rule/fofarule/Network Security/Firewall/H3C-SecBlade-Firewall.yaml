@@ -1,0 +1,7 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-SecBlade-Firewall
+  softhard: '1'
+matches: |
+  banner.icontains("h3c firewall secblade")
+  banner.icontains("h3c secblade fw")

@@ -1,0 +1,6 @@
+info:
+  company: Polycom, Inc.
+  product: Polycom-VSX-7000e
+  softhard: '1'
+matches: |
+  banner.icontains("vsx 7000e")

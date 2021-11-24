@@ -1,0 +1,7 @@
+info:
+  company: Eseye Ltd.
+  product: DataflexViNE-VoIP-IAD
+  softhard: '1'
+matches: |
+  header.icontains("server: dataflexvine-webserver")
+  banner.icontains("server: dataflexvine-webserver")

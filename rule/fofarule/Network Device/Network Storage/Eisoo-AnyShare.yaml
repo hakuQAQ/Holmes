@@ -1,0 +1,7 @@
+info:
+  company: Eisoo
+  product: Eisoo-AnyShare
+  softhard: '2'
+matches: |
+  body.icontains("res/libs/webuploader/webuploader.css")
+  body.icontains("src=\"/res/libs/base64.min.js\"")

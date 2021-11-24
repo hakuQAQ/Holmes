@@ -1,0 +1,6 @@
+info:
+  company: BH
+  product: BH-BH5000C
+  softhard: '2'
+matches: |
+  body.icontains("bhclientcer:\"/modules/web/common/data/bhclient.cer")

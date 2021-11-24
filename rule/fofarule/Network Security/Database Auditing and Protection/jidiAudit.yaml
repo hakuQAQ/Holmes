@@ -1,0 +1,6 @@
+info:
+  company: jidisec
+  product: jidiAudit
+  softhard: '1'
+matches: |
+  body.icontains("jddba 1.0")

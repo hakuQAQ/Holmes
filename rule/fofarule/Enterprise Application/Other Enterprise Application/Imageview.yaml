@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Imageview
+  softhard: '2'
+matches: |
+  body.icontains("content=\"imageview")
+  body.icontains("by jorge schrauwen")
+  body.icontains("href=\"http://www.blackdot.be\" title=\"blackdot.be")

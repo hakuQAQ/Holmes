@@ -1,0 +1,6 @@
+info:
+  company: si
+  product: si-SafeGateway
+  softhard: '1'
+matches: |
+  title.icontains("黑盾运维安全网关(hd-sgs/v4.0)")

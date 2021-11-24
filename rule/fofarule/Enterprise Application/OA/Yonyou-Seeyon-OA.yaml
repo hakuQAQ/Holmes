@@ -1,0 +1,14 @@
+info:
+  company: Yonyou
+  product: Yonyou-Seeyon-OA
+  softhard: '2'
+matches: |
+  body.icontains("/seeyon/user-data/images/login/login.gif")
+  title.icontains("用友致远a")
+  body.icontains("/yyoa/") && header.icontains("path=/yyoa")
+  header.icontains("sy8044") && body.icontains("a6-v5企业版")
+  body.icontains("seeyon") && body.icontains("seeyonproductid")
+  body.icontains("/seeyon/common/")
+  body.icontains("var _ctxpath = '/seeyon'")
+  body.icontains("a8-v5企业版")
+  body.icontains("/seeyon/")

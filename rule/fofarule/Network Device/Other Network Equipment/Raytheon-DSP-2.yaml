@@ -1,0 +1,8 @@
+info:
+  company: RAYTHEON TECHNOLOGIES
+  product: Raytheon-DSP-2
+  softhard: '1'
+matches: |
+  title.icontains("dsp-2 configuration utility")
+  body.icontains("<b>unit name: dsp-2</b></center>")
+  body.icontains("raytheon corporation")

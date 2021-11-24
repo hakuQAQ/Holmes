@@ -1,0 +1,8 @@
+info:
+  company: SATLINK
+  product: SatLink
+  softhard: '1'
+matches: |
+  header.icontains("basic realm=\"satlink terminal")
+  body.icontains("<form id =\"statussatellite")
+  banner.icontains("satlink ")

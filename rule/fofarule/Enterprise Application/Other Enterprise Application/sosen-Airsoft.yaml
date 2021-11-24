@@ -1,0 +1,6 @@
+info:
+  company: sosen
+  product: sosen-Airsoft
+  softhard: '2'
+matches: |
+  body.icontains("pages/login_@del.jsp")

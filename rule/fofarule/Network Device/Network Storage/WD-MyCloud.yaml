@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: WD-MyCloud
+  softhard: '1'
+matches: |
+  body.icontains("_project_model_id_kings_canyon")
+  banner.icontains("welcome to wd my cloud")

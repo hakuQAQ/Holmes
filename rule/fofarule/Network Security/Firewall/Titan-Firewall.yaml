@@ -1,0 +1,9 @@
+info:
+  company: Oasis Technology, Inc.
+  product: Titan-Firewall
+  softhard: '1'
+matches: |
+  title.icontains("titan firewall")
+  body.icontains("<a href=http://www.titansistemas.com.br><font color=blue>www.titansistemas.com.br</a>")
+  title.icontains("titan web application firewall")
+  body.icontains("web应用防护系统")

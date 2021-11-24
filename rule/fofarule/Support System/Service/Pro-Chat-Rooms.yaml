@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Pro-Chat-Rooms
+  softhard: '2'
+matches: |
+  title.icontains("pro chat rooms")
+  body.icontains("border=\"0\" alt=\"pro chat rooms")
+  body.icontains("href='http://prochatrooms.com'>pro chat rooms</a>")

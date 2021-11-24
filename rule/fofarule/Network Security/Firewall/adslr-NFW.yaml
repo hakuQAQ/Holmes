@@ -1,0 +1,7 @@
+info:
+  company: adslr
+  product: adslr-NFW
+  softhard: '1'
+matches: |
+  title.icontains("下一代防火墙安全网关")
+  body.icontains("href=\"/css/cover_admin.css\"")

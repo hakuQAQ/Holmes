@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: SIDSA-EtherTV-IPTV-Card
+  softhard: '1'
+matches: |
+  banner.icontains("sidsa ethertv iptv card")

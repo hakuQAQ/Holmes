@@ -1,0 +1,6 @@
+info:
+  company: ishangu
+  product: ValleyCMS
+  softhard: '2'
+matches: |
+  body.icontains("href=\"viewcmscac.do") && body.icontains("href=\"/viewcmscac.do")

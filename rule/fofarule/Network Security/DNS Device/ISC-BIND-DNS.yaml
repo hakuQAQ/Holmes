@@ -1,0 +1,8 @@
+info:
+  company: Internet Systems Consortium, Inc.
+  product: ISC-BIND-DNS
+  softhard: '2'
+matches: |
+  banner.icontains("yamutech-bind")
+  banner.icontains("bind server")
+  banner.icontains("this is not a 'bind' server") && protocol.icontains("dns")

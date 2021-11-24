@@ -1,0 +1,6 @@
+info:
+  company: Digi International Inc.
+  product: Digi-ConnectCore-3G
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp") && banner.icontains("connectcore 3g")

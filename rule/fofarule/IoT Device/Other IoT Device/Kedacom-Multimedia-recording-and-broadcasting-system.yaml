@@ -1,0 +1,8 @@
+info:
+  company: kedacom
+  product: Kedacom-Multimedia-recording-and-broadcasting-system
+  softhard: '1'
+matches: |
+  title.icontains("vrs2000")
+  body.icontains("reqmodpwddata={\"msgid\":ev_vrs_req_msg.ev_vrs_mod_account")
+  title == "vrs" && body.icontains("#menu-vrs")

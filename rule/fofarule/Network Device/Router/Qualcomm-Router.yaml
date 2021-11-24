@@ -1,0 +1,7 @@
+info:
+  company: 'Qualcomm Technologies, Inc. '
+  product: Qualcomm-Router
+  softhard: '1'
+matches: |
+  header.icontains("qc-webs")
+  banner.icontains("qc-webs") && banner.icontains("server: ")

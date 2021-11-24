@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Company's-product
+  softhard: '1'
+matches: |
+  banner.icontains("vms - signalisation ver-mac inc")

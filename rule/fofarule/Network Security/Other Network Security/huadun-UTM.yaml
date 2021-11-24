@@ -1,0 +1,6 @@
+info:
+  company: huadun
+  product: huadun-UTM
+  softhard: '1'
+matches: |
+  body.icontains("content=\"huadun network security technology co.,ltd\"")

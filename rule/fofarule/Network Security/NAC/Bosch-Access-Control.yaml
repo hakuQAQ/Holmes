@@ -1,0 +1,8 @@
+info:
+  company: Bosch Sicherheitssysteme GmbH
+  product: Bosch-Access-Control
+  softhard: '1'
+matches: |
+  title.icontains("aec - login")
+  body.icontains("valign=\"top\" align=\"right\">aec ")
+  body.icontains("color=\"#1b528c\" >robert bosch gmbh reserves all rights")

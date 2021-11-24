@@ -1,0 +1,7 @@
+info:
+  company: Atlassian
+  product: Bitbucket
+  softhard: '2'
+matches: |
+  title.icontains("bitbucket") && body.icontains("/j_atl_security_check")
+  body.icontains("bitbucket.page.login")

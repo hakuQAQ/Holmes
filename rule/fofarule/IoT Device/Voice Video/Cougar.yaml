@@ -1,0 +1,7 @@
+info:
+  company: Chase Com
+  product: Cougar
+  softhard: '1'
+matches: |
+  header.icontains("server: cougar")
+  banner.icontains("server: cougar")

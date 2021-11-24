@@ -1,0 +1,6 @@
+info:
+  company: Lantronix, Inc.
+  product: Lantronix-SLSLP
+  softhard: '1'
+matches: |
+  banner.icontains("lantronix slslp")

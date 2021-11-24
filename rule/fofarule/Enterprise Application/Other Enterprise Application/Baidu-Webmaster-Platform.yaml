@@ -1,0 +1,6 @@
+info:
+  company: Baidu
+  product: Baidu-Webmaster-Platform
+  softhard: '2'
+matches: |
+  body.icontains("baidu-site-verification")

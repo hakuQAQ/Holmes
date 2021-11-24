@@ -1,0 +1,6 @@
+info:
+  company: TOTOLINK Corp.
+  product: TOTO_LINK-WIRELESS-ROUTER
+  softhard: '1'
+matches: |
+  title == "totolink" && title.icontains("totolink corp. | wireless router")

@@ -1,0 +1,7 @@
+info:
+  company: adtsec
+  product: ADT-TPN-2G
+  softhard: '1'
+matches: |
+  body.icontains("src=\"./system/usbkey.js\"")
+  body.icontains("tpn-2g")

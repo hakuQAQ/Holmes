@@ -1,0 +1,8 @@
+info:
+  company: shopnc
+  product: ShopNC
+  softhard: '2'
+matches: |
+  body.icontains("powered by shopnc")
+  body.icontains("copyright 2007-2014 shopnc inc")
+  body.icontains("content=\"shopnc")

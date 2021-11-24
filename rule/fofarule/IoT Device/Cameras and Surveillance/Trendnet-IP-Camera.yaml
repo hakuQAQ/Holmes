@@ -1,0 +1,9 @@
+info:
+  company: TRENDnet, Inc.
+  product: Trendnet-IP-Camera
+  softhard: '1'
+matches: |
+  header.icontains("basic realm=\"netcam\"") && header.icontains(" realm=\"tv-")
+  body.icontains("window.location = \"rdr.cgi\"")
+  banner.icontains("basic realm=\"netcam\"")
+  banner.icontains(" realm=\"tv-")

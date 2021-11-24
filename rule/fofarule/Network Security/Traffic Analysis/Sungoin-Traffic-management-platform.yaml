@@ -1,0 +1,6 @@
+info:
+  company: sungoin
+  product: Sungoin-Traffic-management-platform
+  softhard: '2'
+matches: |
+  body.icontains("尚景流量管理平台")

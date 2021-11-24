@@ -1,0 +1,6 @@
+info:
+  company: uniview
+  product: uniview-VM9500
+  softhard: '1'
+matches: |
+  body.icontains("软件版本：  vm9500")

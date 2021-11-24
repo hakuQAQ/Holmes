@@ -1,0 +1,7 @@
+info:
+  company: CETHIK
+  product: CETHIK-Reader-Configuration-System
+  softhard: '1'
+matches: |
+  body.icontains("if (suser == \"admin\" && spass == \"cetc52\") {")
+  body.icontains("rfid/content/superuser")

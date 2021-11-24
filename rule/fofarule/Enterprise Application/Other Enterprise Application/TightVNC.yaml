@@ -1,0 +1,9 @@
+info:
+  company: Other
+  product: TightVNC
+  softhard: '2'
+matches: |
+  title.icontains("tightvnc ") && title == "vnc desktop" && body.icontains("<applet archive=\"tightvnc-jviewer.jar\" ")
+  body.icontains("<a href=\"http://www.tightvnc.com/\">www.tightvnc.com")
+  body.icontains("js/thinvnc.sdk.js")
+  body.icontains("js/thinvnc.app.js")

@@ -1,0 +1,6 @@
+info:
+  company: wdlinux
+  product: Wdlinux
+  softhard: '2'
+matches: |
+  title.icontains("wdos")

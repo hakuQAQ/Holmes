@@ -1,0 +1,6 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-VMG3326-D20A
+  softhard: '1'
+matches: |
+  title.icontains("vmg3326-d20a")

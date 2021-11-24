@@ -1,0 +1,6 @@
+info:
+  company: embedsky
+  product: TQ2440
+  softhard: '1'
+matches: |
+  title.icontains("tq2440")

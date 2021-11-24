@@ -1,0 +1,10 @@
+info:
+  company: Lenovo
+  product: Lenovo-iomega
+  softhard: '1'
+matches: |
+  title.icontains("iomega-ix2")
+  body.icontains("href=\"foldercontent.html?folder=pictures")
+  body.icontains("var defaultpageprefix = \"page\";")
+  header.icontains("set-cookie: iomega")
+  banner.icontains("set-cookie: iomega")

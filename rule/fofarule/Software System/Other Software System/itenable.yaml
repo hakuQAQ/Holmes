@@ -1,0 +1,9 @@
+info:
+  company: itenable
+  product: itenable
+  softhard: '2'
+matches: |
+  body.icontains("/enableq.css")
+  body.icontains("js/checkquestion.js.php")
+  title.icontains("enableq在线问卷调查引擎")
+  body.icontains("/images/enableq.ico")

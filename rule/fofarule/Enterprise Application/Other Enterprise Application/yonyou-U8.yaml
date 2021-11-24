@@ -1,0 +1,7 @@
+info:
+  company: Yonyou Network Co Ltd
+  product: yonyou-U8
+  softhard: '2'
+matches: |
+  body.icontains("javascript/bw8.js")
+  body.icontains("var servervendor = 'yonyouupcn'")

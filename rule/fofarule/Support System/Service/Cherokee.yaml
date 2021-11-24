@@ -1,0 +1,7 @@
+info:
+  company: Alvaro Lopez Ortega
+  product: Cherokee
+  softhard: '2'
+matches: |
+  header.icontains("server: cherokee")
+  banner.icontains("server: cherokee")

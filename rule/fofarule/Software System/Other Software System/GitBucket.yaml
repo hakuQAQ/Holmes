@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: GitBucket
+  softhard: '2'
+matches: |
+  body.icontains("/assets/common/images/gitbucket.png")
+  header.icontains("gitbucket")
+  banner.icontains("gitbucket")

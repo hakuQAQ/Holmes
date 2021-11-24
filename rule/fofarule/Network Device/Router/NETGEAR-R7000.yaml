@@ -1,0 +1,15 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-R7000
+  softhard: '1'
+matches: |
+  header.icontains("netgear-r7000")
+  header.icontains("netgear r7000")
+  header.icontains("esi_netgear_r7000") && header.icontains("realm=\"r7000")
+  header.icontains("netgearr7000")
+  body.icontains("var mmc = {")
+  body.icontains("netgear r7000")
+  body.icontains("id=\"modulename\">nighthawk r7000")
+  body.icontains("content=\"r7000\"")
+  banner.icontains("netgear r7000")
+  banner.icontains("netgearr7000")

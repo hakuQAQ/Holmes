@@ -1,0 +1,6 @@
+info:
+  company: '360'
+  product: 360-Webguard
+  softhard: '2'
+matches: |
+  header.icontains("360wzb") && header.icontains("360wzws") && header.icontains("wzws-ray: ") && banner.icontains("360wzb") && banner.icontains("360wzws") && banner.icontains("wzws-ray: ")

@@ -1,0 +1,7 @@
+info:
+  company: colorfulcube
+  product: Colorfulcube-Traffic-management
+  softhard: '2'
+matches: |
+  title.icontains("流量管理后台")
+  body.icontains("checkcode.aspx")

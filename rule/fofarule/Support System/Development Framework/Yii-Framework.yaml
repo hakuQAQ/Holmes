@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Yii-Framework
+  softhard: '2'
+matches: |
+  header.icontains("yii_csrf_token")
+  banner.icontains("yii_csrf_token")
+  body.icontains("get started with yii")

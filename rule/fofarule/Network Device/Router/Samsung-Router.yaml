@@ -1,0 +1,6 @@
+info:
+  company: Samsung Group
+  product: Samsung-Router
+  softhard: '1'
+matches: |
+  title == "web management" && body.icontains("samsung electronics")

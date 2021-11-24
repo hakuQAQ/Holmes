@@ -1,0 +1,7 @@
+info:
+  company: usctech
+  product: UC-FAX
+  softhard: '1'
+matches: |
+  body.icontains(" href=\"web/css/faxcss.css\"")
+  body.icontains("src=\"web/img/log/logo-faxlogin.gif\"")

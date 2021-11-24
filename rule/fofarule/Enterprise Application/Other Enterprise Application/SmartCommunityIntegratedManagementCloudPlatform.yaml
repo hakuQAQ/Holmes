@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: SmartCommunityIntegratedManagementCloudPlatform
+  softhard: '2'
+matches: |
+  body.icontains("class=\"container_huanlegendtext\"")

@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: CPython
+  softhard: '2'
+matches: |
+  banner.icontains("cpython")
+  header.icontains("cpython")

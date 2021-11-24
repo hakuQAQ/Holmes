@@ -1,0 +1,6 @@
+info:
+  company: QingYuan
+  product: QingYuan-Management-system
+  softhard: '2'
+matches: |
+  body.icontains("-moz-background-size") && body.icontains("class=\"u_logo fa fa-user\"")

@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: SipProxyModuleCtx
+  softhard: '2'
+matches: |
+  title.icontains("sipproxymodulectx")
+  header.icontains("this is from sipproxymodulectx")
+  banner.icontains("this is from sipproxymodulectx")

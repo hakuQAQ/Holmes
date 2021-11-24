@@ -1,0 +1,7 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TP_LINK-TD-W9977
+  softhard: '1'
+matches: |
+  banner.icontains("0.1.0 0.9.1 v006f.0 build 161202 rel.49901n")
+  body.icontains("var modelname=\"td-w9977\"")

@@ -1,0 +1,6 @@
+info:
+  company: TianYang
+  product: TianYang-BPM-System
+  softhard: '2'
+matches: |
+  body.icontains("value=\"sinopec.ad\" readonly=\"readonly\" id=\"ddldomains2\"")

@@ -1,0 +1,7 @@
+info:
+  company: tinyrise
+  product: TinyRise-TinyShop
+  softhard: '2'
+matches: |
+  body.icontains("var server_url = '/__con__/__act__';")
+  body.icontains("tiny_token_")

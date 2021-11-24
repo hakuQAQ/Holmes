@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: ChinaOrganTransplantResponseSystem
+  softhard: '2'
+matches: |
+  body.icontains("src=\"images/logo_cotsr.png\"")
+  title.icontains("中国人体器官分配与共享计算机系统")

@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: FileVista
+  softhard: '2'
+matches: |
+  body.icontains("welcome to filevista") && body.icontains("<a href=\"http://www.gleamtech.com/products/filevista/web-file-manager")

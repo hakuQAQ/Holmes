@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: HostBill
+  softhard: '2'
+matches: |
+  body.icontains("powered by <a href=\"http://hostbillapp.com")
+  body.icontains("<strong>hostbill")

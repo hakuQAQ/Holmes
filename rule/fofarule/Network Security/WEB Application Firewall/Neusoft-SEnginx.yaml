@@ -1,0 +1,7 @@
+info:
+  company: neusoft
+  product: Neusoft-SEnginx
+  softhard: '2'
+matches: |
+  body.icontains("senginx-robot-mitigation")
+  header.icontains("senginx")

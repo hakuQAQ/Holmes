@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: BASE-Security
+  softhard: '0'
+matches: |
+  body.icontains("<!-- basic analysis and security engine (base) -->")
+  body.icontains("mailto:base@secureideas.net")

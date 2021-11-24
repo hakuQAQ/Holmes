@@ -1,0 +1,6 @@
+info:
+  company: koal
+  product: Koal-Secure-authentication-gateway
+  softhard: '2'
+matches: |
+  header.icontains("koal-ssl")

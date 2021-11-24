@@ -1,0 +1,6 @@
+info:
+  company: Zoho Corporation Pvt. Ltd.
+  product: ZOHO-ManageEngine-Desktop
+  softhard: '2'
+matches: |
+  title.icontains("manageengine desktop")

@@ -1,0 +1,7 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-Network-Analysis-Module
+  softhard: '1'
+matches: |
+  banner.icontains("network analysis module")
+  banner.icontains("cisco")

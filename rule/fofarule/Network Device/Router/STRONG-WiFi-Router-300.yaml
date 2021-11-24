@@ -1,0 +1,6 @@
+info:
+  company: STRONG.
+  product: STRONG-WiFi-Router-300
+  softhard: '1'
+matches: |
+  title.icontains("strong wifi router 300")

@@ -1,0 +1,7 @@
+info:
+  company: dptech
+  product: DPtech-IPS2000
+  softhard: '1'
+matches: |
+  banner.icontains("dptech ips2000") && banner.icontains("this is dptech")
+  banner.icontains("ips2000")

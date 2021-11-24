@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Seagull-PHP-Framework
+  softhard: '2'
+matches: |
+  body.icontains("var sgl_js_sessid")

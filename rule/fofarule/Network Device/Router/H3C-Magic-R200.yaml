@@ -1,0 +1,7 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-Magic-R200
+  softhard: '1'
+matches: |
+  body.icontains("var product_type = \"r200\"")
+  body.icontains("var product_type = \"r200g\"")

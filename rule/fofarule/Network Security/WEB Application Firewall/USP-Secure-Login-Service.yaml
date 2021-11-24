@@ -1,0 +1,11 @@
+info:
+  company: United Security Providers
+  product: USP-Secure-Login-Service
+  softhard: '0'
+matches: |
+  body.icontains("<!-- sls javascripts -->")
+  body.icontains("<form action=\"auth\" method=\"post\" name=\"loginform\" onsubmit=\"return checkformsubmit();\" >")
+  body.icontains("<input name=\"currentrequestedpage\" type=\"hidden\" value=")
+  header.icontains("slsstatus")
+  header.icontains("set-cookie slslanguage")
+  header.icontains("set-cookie scdid_s")

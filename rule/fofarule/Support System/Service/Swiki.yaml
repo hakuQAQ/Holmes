@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Swiki
+  softhard: '2'
+matches: |
+  body.icontains("<a href=\"http://minnow.cc.gatech.edu/swiki\" title=\"comswiki: powered by squeak\"><img src=\"/defaultscheme/comswiki.gif\" border=0 width=277 height=88 alt=\"comswiki: powered by squeak\"></a><br>")

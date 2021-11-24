@@ -1,0 +1,8 @@
+info:
+  company: SHARP CORPORATION
+  product: SHARP-XG-C435X
+  softhard: '1'
+matches: |
+  banner.icontains("xg-c435x")
+  header.icontains("realm=\"xg-c435x")
+  banner.icontains("sharp xg-c435x")

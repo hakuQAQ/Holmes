@@ -1,0 +1,9 @@
+info:
+  company: Xerox Corporation.
+  product: Xerox-CentreWare
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"centreware_is_admin")
+  header.icontains("realm=\"centreware internet services")
+  banner.icontains("realm=\"centreware_is_admin")
+  banner.icontains("realm=\"centreware internet services")

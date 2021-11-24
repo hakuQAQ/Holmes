@@ -1,0 +1,7 @@
+info:
+  company: D-Link
+  product: D-LinkDSL-2877AL
+  softhard: '1'
+matches: |
+  title.icontains("dsl-2877al")
+  banner.icontains("dsl-2877al")

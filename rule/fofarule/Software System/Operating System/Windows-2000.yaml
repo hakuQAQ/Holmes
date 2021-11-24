@@ -1,0 +1,7 @@
+info:
+  company: Microsoft Corporation
+  product: Windows-2000
+  softhard: '2'
+matches: |
+  banner.icontains("windows 2000 ")
+  header.icontains("windows 2000")

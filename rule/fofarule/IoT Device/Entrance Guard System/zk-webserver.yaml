@@ -1,0 +1,8 @@
+info:
+  company: zk-software
+  product: zk-webserver
+  softhard: '1'
+matches: |
+  body.icontains("/csl/login")
+  body.icontains("/csl/check")
+  header.icontains("zk web server")

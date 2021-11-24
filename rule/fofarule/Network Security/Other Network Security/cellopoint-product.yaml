@@ -1,0 +1,6 @@
+info:
+  company: Cellopoint International Corp.
+  product: cellopoint-product
+  softhard: '1'
+matches: |
+  banner.icontains("cellopoint") && cert.icontains("organization: cellopoint")

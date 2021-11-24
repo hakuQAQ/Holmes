@@ -1,0 +1,7 @@
+info:
+  company: OIC Group, Inc.
+  product: Exponent-CMS
+  softhard: '2'
+matches: |
+  body.icontains("content=\"exponent content management system")
+  body.icontains("powered by exponent cms")

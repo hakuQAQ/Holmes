@@ -1,0 +1,6 @@
+info:
+  company: TRENDnet, Inc.
+  product: TRENDnet-TEW-730APO
+  softhard: '1'
+matches: |
+  body.icontains("login to the tew-730apo")

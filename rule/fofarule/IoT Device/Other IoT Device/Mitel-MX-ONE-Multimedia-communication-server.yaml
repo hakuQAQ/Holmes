@@ -1,0 +1,6 @@
+info:
+  company: Mitel Networks Corporation
+  product: Mitel-MX-ONE-Multimedia-communication-server
+  softhard: '1'
+matches: |
+  title.icontains("mivoice mx-one provisioning manager")

@@ -1,0 +1,7 @@
+info:
+  company: Plex Inc.
+  product: Tautulli
+  softhard: '2'
+matches: |
+  title.icontains("plexpy - login")
+  body.icontains("alt=\"plexpy\"")

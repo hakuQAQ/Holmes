@@ -1,0 +1,6 @@
+info:
+  company: TAINET Communication System Corp.
+  product: Tainet-MERCURY-Router-Module
+  softhard: '1'
+matches: |
+  banner.icontains("mercury router module, tainet communication system corp.")

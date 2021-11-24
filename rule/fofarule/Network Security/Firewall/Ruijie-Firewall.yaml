@@ -1,0 +1,8 @@
+info:
+  company: Ruijie
+  product: Ruijie-Firewall
+  softhard: '1'
+matches: |
+  title.icontains("rg-wall")
+  body.icontains("4008 111 000")
+  body.icontains("ssl_index_next.html") && banner.icontains("rg-wall-")

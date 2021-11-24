@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Safe3WAF
+  softhard: '2'
+matches: |
+  header.icontains("safe3waf")
+  header.icontains("safe3 web firewall")
+  banner.icontains("safe3waf") && banner.icontains("safe3 web firewall")

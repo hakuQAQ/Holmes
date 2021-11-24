@@ -1,0 +1,7 @@
+info:
+  company: neutrontek
+  product: Neutron-Serial-Device-Server
+  softhard: '1'
+matches: |
+  title.icontains("中新创科 web 管理器")
+  title.icontains("串口服务器 web 管理器")

@@ -1,0 +1,6 @@
+info:
+  company: Belkin International, Inc.
+  product: Linksys-Modem
+  softhard: '1'
+matches: |
+  body.icontains("content=\"belkin")

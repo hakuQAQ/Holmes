@@ -1,0 +1,8 @@
+info:
+  company: Binatone Global
+  product: Motorola-Binatone-router
+  softhard: '1'
+matches: |
+  header.icontains("binatone")
+  header.icontains("router") && banner.icontains("binatone")
+  banner.icontains("router")

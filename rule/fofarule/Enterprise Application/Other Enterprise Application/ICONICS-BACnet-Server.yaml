@@ -1,0 +1,9 @@
+info:
+  company: ICONICS, Inc.
+  product: ICONICS-BACnet-Server
+  softhard: '2'
+matches: |
+  banner.icontains("iconics inc.")
+  banner.icontains("bacnet server for windows v1.0")
+  banner.icontains("iconics, inc.")
+  banner.icontains("bacnet server for windows v1.0")

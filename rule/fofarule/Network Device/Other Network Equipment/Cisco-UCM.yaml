@@ -1,0 +1,7 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-UCM
+  softhard: '2'
+matches: |
+  body.icontains("/ccmadmin/")
+  title.icontains("cisco unified")

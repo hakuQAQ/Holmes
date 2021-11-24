@@ -1,0 +1,6 @@
+info:
+  company: dptech
+  product: DPtech-SRG1000
+  softhard: '1'
+matches: |
+  banner.icontains("dptech srg1000")

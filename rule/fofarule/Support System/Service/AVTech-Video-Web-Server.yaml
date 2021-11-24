@@ -1,0 +1,8 @@
+info:
+  company: AVTECH Software, Inc.
+  product: AVTech-Video-Web-Server
+  softhard: '2'
+matches: |
+  title.icontains("--- video web server ---")
+  body.icontains("/av732e/setup.exe")
+  header.icontains("av-tech")

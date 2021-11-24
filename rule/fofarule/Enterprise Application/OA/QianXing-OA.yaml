@@ -1,0 +1,7 @@
+info:
+  company: QIANXING
+  product: QianXing-OA
+  softhard: '2'
+matches: |
+  body.icontains("input name=\"s1\" type=\"image\"")
+  body.icontains("count/mystat.asp")

@@ -1,0 +1,7 @@
+info:
+  company: Hikvision
+  product: HIKVISION-VideoCload
+  softhard: '2'
+matches: |
+  header.icontains("server: face-webs")
+  banner.icontains("server: face-webs")

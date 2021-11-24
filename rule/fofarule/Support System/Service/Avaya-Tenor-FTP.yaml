@@ -1,0 +1,6 @@
+info:
+  company: Avaya Inc.
+  product: Avaya-Tenor-FTP
+  softhard: '2'
+matches: |
+  banner.icontains("tenor multipath switch ftp")

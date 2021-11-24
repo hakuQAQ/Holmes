@@ -1,0 +1,10 @@
+info:
+  company: Other
+  product: WAMP
+  softhard: '2'
+matches: |
+  body.icontains("<li><a href=\"phpsysinfo/\">phpsysinfo</a></li>")
+  body.icontains("wampserver")
+  title.icontains("wampserver homepage")
+  body.icontains("title and h1 heading")
+  body.icontains("<h1><abbr title=\"windows\">w</abbr><abbr title=\"apache\">a</abbr><abbr title=\"mysql\">m</abbr><abbr title=\"php\">p</abbr></h1>")

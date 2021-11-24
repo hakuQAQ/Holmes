@@ -1,0 +1,7 @@
+info:
+  company: StackPath, LLC
+  product: MaxCDN
+  softhard: '2'
+matches: |
+  header.icontains("netdna")
+  banner.icontains("server: netdna")

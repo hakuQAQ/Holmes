@@ -1,0 +1,7 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-RV345
+  softhard: '1'
+matches: |
+  title.icontains("cisco rv345")
+  cert.icontains("rv345")

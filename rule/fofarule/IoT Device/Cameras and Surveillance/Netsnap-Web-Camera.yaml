@@ -1,0 +1,7 @@
+info:
+  company: Logan Industries, Inc.
+  product: Netsnap-Web-Camera
+  softhard: '1'
+matches: |
+  body.icontains("color=\"#008080\">live-webcam")
+  body.icontains("<small>netsnap is a registered trademark")

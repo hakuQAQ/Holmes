@@ -1,0 +1,6 @@
+info:
+  company: Alien Technology
+  product: Alien-RFID-Reader
+  softhard: '1'
+matches: |
+  banner.icontains("alien technology rfid reader")

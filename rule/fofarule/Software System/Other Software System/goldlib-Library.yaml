@@ -1,0 +1,10 @@
+info:
+  company: goldlib
+  product: goldlib-Library
+  softhard: '2'
+matches: |
+  body.icontains("onclick=\"change('book');")
+  body.icontains("/opac/periodicals")
+  body.icontains("class=\"jp-searchtabs")
+  body.icontains("金盘软件")
+  body.icontains("图书")

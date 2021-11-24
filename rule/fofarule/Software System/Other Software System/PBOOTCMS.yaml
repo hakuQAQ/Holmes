@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: PBOOTCMS
+  softhard: '2'
+matches: |
+  banner.icontains("set-cookie: pbootsystem=")
+  header.icontains("set-cookie: pbootsystem=")
+  title.icontains("pbootcms")

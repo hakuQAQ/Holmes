@@ -1,0 +1,7 @@
+info:
+  company: Hikvision
+  product: Hikvision--UDE
+  softhard: '1'
+matches: |
+  title.icontains("ude home")
+  body.icontains("hikvision")

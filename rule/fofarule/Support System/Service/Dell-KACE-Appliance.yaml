@@ -1,0 +1,7 @@
+info:
+  company: Quest Software Inc.
+  product: Dell-KACE-Appliance
+  softhard: '2'
+matches: |
+  header.icontains("x-dellkace-")
+  banner.icontains("x-dellkace-")

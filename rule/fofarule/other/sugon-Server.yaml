@@ -1,0 +1,6 @@
+info:
+  company: sugon
+  product: sugon-Server
+  softhard: '1'
+matches: |
+  title.icontains("server mgmt")

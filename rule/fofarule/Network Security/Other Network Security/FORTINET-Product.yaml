@@ -1,0 +1,11 @@
+info:
+  company: Fortinet, Inc.
+  product: FORTINET-Product
+  softhard: '1'
+matches: |
+  body.icontains("console.error('failed to parse language json')")
+  body.icontains("placeholder=\"next fortitoken code\"")
+  body.icontains("href=\"/15248/css/jquery.ui.css\"")
+  cert.icontains("organization: fortinet")
+  body.icontains("top.location=\"/login\"")
+  header.icontains("xxxxxxxx-xxxxx")

@@ -1,0 +1,9 @@
+info:
+  company: HUAWEI
+  product: HuaWei-Eudemon-Firewall
+  softhard: '1'
+matches: |
+  banner.icontains("eudemon200e")
+  banner.icontains("eudemon1000e")
+  banner.icontains("eudemon 200e") && banner.icontains("eudemon 200e")
+  header.icontains("huawei eudemon200e")

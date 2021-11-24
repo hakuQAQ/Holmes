@@ -1,0 +1,6 @@
+info:
+  company: srun
+  product: Srun3000-Billing-authentication-system
+  softhard: '2'
+matches: |
+  title.icontains("srun3000")

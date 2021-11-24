@@ -1,0 +1,6 @@
+info:
+  company: dfsjsoft
+  product: East-Auspicious-Clouds
+  softhard: '2'
+matches: |
+  title.icontains("东方祥云-登录") && body.icontains("<p>版权所有：贵州东方世纪科技股份有限公司")

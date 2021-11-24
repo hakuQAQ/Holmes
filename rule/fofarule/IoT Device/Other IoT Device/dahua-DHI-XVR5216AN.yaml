@@ -1,0 +1,6 @@
+info:
+  company: Dahua
+  product: dahua-DHI-XVR5216AN
+  softhard: '1'
+matches: |
+  banner.icontains("dhi-xvr5216an")

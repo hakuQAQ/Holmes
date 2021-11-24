@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: LK-IHC-Controller
+  softhard: '1'
+matches: |
+  title.icontains("lk ihc controller forside")
+  body.icontains("/images/bg_image_lk.jpg")

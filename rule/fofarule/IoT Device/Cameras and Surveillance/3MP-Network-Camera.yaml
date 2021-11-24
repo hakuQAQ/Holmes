@@ -1,0 +1,6 @@
+info:
+  company: Finetree Communications Co.,Ltd
+  product: 3MP-Network-Camera
+  softhard: '1'
+matches: |
+  title.icontains("3mp network camera")

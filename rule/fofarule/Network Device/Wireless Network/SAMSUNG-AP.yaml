@@ -1,0 +1,6 @@
+info:
+  company: Samsung Group
+  product: SAMSUNG-AP
+  softhard: '1'
+matches: |
+  body.icontains("<span>samsung ap manager</span>")

@@ -1,0 +1,6 @@
+info:
+  company: SonicWall Inc.
+  product: SONICWALL-SRA-4200
+  softhard: '1'
+matches: |
+  banner.icontains("sonicwall sra 4200 ")

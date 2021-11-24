@@ -1,0 +1,8 @@
+info:
+  company: Microsoft Corporation
+  product: IIS
+  softhard: '2'
+matches: |
+  header.icontains("microsoft-iis")
+  header.icontains("x-powered-by: waf/2.0")
+  banner.icontains("microsoft-iis") && banner.icontains("server")

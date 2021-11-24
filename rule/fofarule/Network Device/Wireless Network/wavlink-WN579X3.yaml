@@ -1,0 +1,6 @@
+info:
+  company: Wavlink
+  product: wavlink-WN579X3
+  softhard: '1'
+matches: |
+  body.icontains("var model=\"wn579x3\"")

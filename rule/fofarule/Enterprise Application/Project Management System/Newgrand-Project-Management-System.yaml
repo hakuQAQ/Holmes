@@ -1,0 +1,6 @@
+info:
+  company: Newgrand
+  product: Newgrand-Project-Management-System
+  softhard: '2'
+matches: |
+  title.icontains("uia登录") && body.icontains("src=\"../images/right.jpg\" alt=\"版权信息\"")

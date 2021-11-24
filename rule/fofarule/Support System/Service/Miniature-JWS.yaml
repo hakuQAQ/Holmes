@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Miniature-JWS
+  softhard: '2'
+matches: |
+  header.icontains("rogatkin's")

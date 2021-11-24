@@ -1,0 +1,7 @@
+info:
+  company: AXEL Ltd
+  product: Axel-Device
+  softhard: '1'
+matches: |
+  header.icontains("server: axel admin server")
+  banner.icontains("server: axel admin server")

@@ -1,0 +1,6 @@
+info:
+  company: comsenz
+  product: SupeSite
+  softhard: '2'
+matches: |
+  header.icontains("supe_sid")

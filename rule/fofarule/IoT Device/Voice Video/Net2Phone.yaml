@@ -1,0 +1,7 @@
+info:
+  company: Net2phone, Inc.
+  product: Net2Phone
+  softhard: '1'
+matches: |
+  title.icontains("net2phone init page")
+  body.icontains("net2phone, inc. all rights")

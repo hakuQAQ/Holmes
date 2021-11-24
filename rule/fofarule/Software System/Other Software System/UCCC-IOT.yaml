@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: UCCC-IOT
+  softhard: '2'
+matches: |
+  body.icontains("hidden-xs\">物联网云平台")

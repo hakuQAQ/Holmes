@@ -1,0 +1,10 @@
+info:
+  company: Hewlett Packard Enterprise Development LP
+  product: Aruba-Device
+  softhard: '0'
+matches: |
+  body.icontains("/images/arubalogo.gif")
+  body.icontains("aruba networks")
+
+#yamlflag
+#body.icontains("copyright")

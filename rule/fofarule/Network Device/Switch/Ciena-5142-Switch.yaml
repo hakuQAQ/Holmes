@@ -1,0 +1,6 @@
+info:
+  company: Ciena Corporation.
+  product: Ciena-5142-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("5142 service aggregation switch")

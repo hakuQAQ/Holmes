@@ -1,0 +1,8 @@
+info:
+  company: Axentra Corporation
+  product: Axentra-HipServ
+  softhard: '2'
+matches: |
+  body.icontains("content=\"axentra")
+  header.icontains("x-axentra-version")
+  banner.icontains("x-axentra-version")

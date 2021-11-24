@@ -1,0 +1,9 @@
+info:
+  company: embeDD GmbH
+  product: DD-WRT
+  softhard: '1'
+matches: |
+  body.icontains("style/pwc/ddwrt.css")
+  header.icontains("basic realm=\"dd-wrt")
+  header.icontains("server: dd-wrt") && banner.icontains("basic realm=\"dd-wrt")
+  banner.icontains("server: dd-wrt")

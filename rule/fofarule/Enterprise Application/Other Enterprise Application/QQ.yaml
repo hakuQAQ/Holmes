@@ -1,0 +1,6 @@
+info:
+  company: Tencent
+  product: QQ
+  softhard: '2'
+matches: |
+  body.icontains("tencent://message/")

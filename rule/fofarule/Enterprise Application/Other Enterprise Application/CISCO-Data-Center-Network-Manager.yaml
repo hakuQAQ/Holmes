@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-Data-Center-Network-Manager
+  softhard: '2'
+matches: |
+  title.icontains("data center network manager")

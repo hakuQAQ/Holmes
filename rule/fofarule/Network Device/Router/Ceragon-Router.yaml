@@ -1,0 +1,6 @@
+info:
+  company: Ceragon Networks Ltd.
+  product: Ceragon-Router
+  softhard: '1'
+matches: |
+  title == "web management" && body.icontains("<frame src=\"./responder.fcgi1?")

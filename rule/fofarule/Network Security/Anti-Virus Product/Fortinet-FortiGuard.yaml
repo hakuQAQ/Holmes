@@ -1,0 +1,8 @@
+info:
+  company: Fortinet, Inc.
+  product: Fortinet-FortiGuard
+  softhard: '2'
+matches: |
+  body.icontains("fortiguard web filtering")
+  title.icontains("web filter block override")
+  body.icontains("/xx/yy/zz/ci/mgpghgpgpfghcdpfggogfgeh")

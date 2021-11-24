@@ -1,0 +1,10 @@
+info:
+  company: Other
+  product: AutoIndex-PHP-Script
+  softhard: '2'
+matches: |
+  body.icontains("title=\"autoindex default")
+  header.icontains("set-cookie: autoindex2")
+  banner.icontains("set-cookie: autoindex2")
+  body.icontains("powered by")
+  body.icontains("autoindex.sourceforge.net/")

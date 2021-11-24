@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: IP-Video-embedded-camera
+  softhard: '1'
+matches: |
+  header.icontains("basic realm=\"camera server\"")
+  banner.icontains("basic realm=\"camera server\"")

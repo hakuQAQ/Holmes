@@ -1,0 +1,7 @@
+info:
+  company: REDMANER
+  product: microHttp
+  softhard: '2'
+matches: |
+  header.icontains("microhttp")
+  banner.icontains("server: microhttp")

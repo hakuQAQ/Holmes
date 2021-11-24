@@ -1,0 +1,9 @@
+info:
+  company: Dahua
+  product: dahua-DH-NVR2108HS
+  softhard: '1'
+matches: |
+  banner.icontains("x00id=dh-nvr2108hs")
+  header.icontains("id=dhi-nvr2108hs")
+  banner.icontains("id=dhi-nvr2108hs") && header.icontains("id=dh-nvr2108hs")
+  banner.icontains("id=dh-nvr2108hs")

@@ -1,0 +1,7 @@
+info:
+  company: voole
+  product: Voole-OTV
+  softhard: '1'
+matches: |
+  header.icontains("server: voole_cdn1.0")
+  banner.icontains("server: voole_cdn1.0")

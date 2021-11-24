@@ -1,0 +1,6 @@
+info:
+  company: Kasda Networks Inc.
+  product: Kasda-RTL867x
+  softhard: '1'
+matches: |
+  banner.icontains("rtl867x")

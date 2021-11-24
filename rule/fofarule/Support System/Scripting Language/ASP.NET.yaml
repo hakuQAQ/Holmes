@@ -1,0 +1,10 @@
+info:
+  company: Microsoft Corporation
+  product: ASP.NET
+  softhard: '2'
+matches: |
+  header.icontains("x-powered-by: asp.net")
+  title.icontains("asp.net application")
+  body.icontains("my asp.net application</p>")
+  body.icontains("<p class=\"lead\">asp.net is a free web framework for building great web sites and web applications using html, css, and javascript.</p>")
+  banner.icontains("x-powered-by: asp.net")

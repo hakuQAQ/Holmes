@@ -1,0 +1,7 @@
+info:
+  company: synjones
+  product: Golden-dragon-card-Ecard-website-query-subsystem
+  softhard: '2'
+matches: |
+  title.icontains("金龙卡金融化一卡通网站查询子系统")
+  body.icontains("location.href=\"homelogin.action")

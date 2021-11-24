@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Mahara
+  softhard: '2'
+matches: |
+  body.icontains("this site is powered by mahara")
+  body.icontains("id=\"powered-by\"><a href=\"http://mahara.org/")
+  body.icontains("{\"namedfieldempty\":")

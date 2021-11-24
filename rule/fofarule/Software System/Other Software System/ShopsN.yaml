@@ -1,0 +1,8 @@
+info:
+  company: shopsn
+  product: ShopsN
+  softhard: '2'
+matches: |
+  body.icontains("content=\"shopsn")
+  body.icontains("href=\"http://www.shopsn.net\">商城系统</a>&nbsp;提供技术支持")
+  body.icontains("<span>shopsn全网开源<a style=\"padding: 0px\" href=\"http://www.shopsn.net")

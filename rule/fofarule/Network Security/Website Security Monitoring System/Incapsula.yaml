@@ -1,0 +1,7 @@
+info:
+  company: Imperva.
+  product: Incapsula
+  softhard: '2'
+matches: |
+  header.icontains("x-cdn: incapsula") && body.icontains("incapsula incident id")
+  header.icontains("x-cdn: incapsula") && banner.icontains("x-cdn: incapsula")

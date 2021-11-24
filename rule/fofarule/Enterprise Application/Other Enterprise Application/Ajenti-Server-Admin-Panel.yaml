@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: Ajenti-Server-Admin-Panel
+  softhard: '2'
+matches: |
+  body.icontains("src=\"/ajenti:static/") && body.icontains("action=\"/ajenti:auth\"")
+  title.icontains("ajenti")

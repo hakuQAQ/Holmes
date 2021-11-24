@@ -1,0 +1,6 @@
+info:
+  company: Rockwell Automation, Inc.
+  product: Rockwell-Series-C-Revision
+  softhard: '1'
+matches: |
+  banner.icontains("series c revision")

@@ -1,0 +1,6 @@
+info:
+  company: Dahua
+  product: dahua-DHI-HCVR4232AN-S2
+  softhard: '1'
+matches: |
+  banner.icontains("dhi-hcvr4232an-s2")

@@ -1,0 +1,9 @@
+info:
+  company: Other
+  product: Site-Meter
+  softhard: '2'
+matches: |
+  body.icontains("sitemeter.com/meter.asp?site=")
+  body.icontains("sitemeter")
+  body.icontains("<!-- site meter -->") && body.icontains("site meter -->")
+  body.icontains("sitemeter.com/js/counter.js?site=")

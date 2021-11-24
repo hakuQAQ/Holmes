@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Pogoplug
+  softhard: '1'
+matches: |
+  header.icontains("hbhttp")

@@ -1,0 +1,6 @@
+info:
+  company: Hewlett Packard Enterprise Development LP
+  product: HP-MSA2312i
+  softhard: '1'
+matches: |
+  banner.icontains("hp storageworks msa2312i")

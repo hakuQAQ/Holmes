@@ -1,0 +1,6 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-MC101
+  softhard: '1'
+matches: |
+  title.icontains("mc101&nbsp路由器登录")

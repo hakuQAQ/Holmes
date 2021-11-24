@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-DOCSIS-Gateway
+  softhard: '1'
+matches: |
+  banner.icontains("cisco ") && banner.icontains("docsis") && banner.icontains("eurodocsis") && body.icontains("showxhead('cisco ")

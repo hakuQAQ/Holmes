@@ -1,0 +1,7 @@
+info:
+  company: ankki
+  product: Ankki-DBAudit
+  softhard: '1'
+matches: |
+  title.icontains("昂楷数据库审计系统")
+  body.icontains("support@ankki.com")

@@ -1,0 +1,8 @@
+info:
+  company: uniview
+  product: Uniview-Multimedia-platform-
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp")
+  banner.icontains("zhejiang uniview technologies co.")
+  banner.icontains("uniview multimedia plat")

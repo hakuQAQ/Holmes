@@ -1,0 +1,7 @@
+info:
+  company: Silex
+  product: PRICOM-H-260U
+  softhard: '1'
+matches: |
+  banner.icontains("pricom h-260u ")
+  banner.icontains("h-260u") && banner.icontains("silex technology, inc.")

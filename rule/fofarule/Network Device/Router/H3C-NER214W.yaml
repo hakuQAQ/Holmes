@@ -1,0 +1,6 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-NER214W
+  softhard: '1'
+matches: |
+  title.icontains("ner214w系统管理")

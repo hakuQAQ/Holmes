@@ -1,0 +1,6 @@
+info:
+  company: GSP Services, Inc.
+  product: MasqMail-Mail-Server
+  softhard: '2'
+matches: |
+  banner.icontains("masqmail")

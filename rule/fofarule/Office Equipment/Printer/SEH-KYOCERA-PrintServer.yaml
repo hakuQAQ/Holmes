@@ -1,0 +1,6 @@
+info:
+  company: SEH Computertechnik GmbH
+  product: SEH-KYOCERA-PrintServer
+  softhard: '1'
+matches: |
+  body.icontains("<html><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"> <title>print server homepage</title></head> <frameset cols=\"200")

@@ -1,0 +1,7 @@
+info:
+  company: HUAWEI
+  product: HuaWei-HG630
+  softhard: '1'
+matches: |
+  title.icontains("huawei hg630")
+  title.icontains("hg630 v2 home gateway")

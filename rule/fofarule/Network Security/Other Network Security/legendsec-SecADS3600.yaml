@@ -1,0 +1,6 @@
+info:
+  company: Secworld
+  product: legendsec-SecADS3600
+  softhard: '1'
+matches: |
+  title.icontains("网神secads 3600应用交付系统")

@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: poMMo
+  softhard: '2'
+matches: |
+  title.icontains("..pommo.. .")
+  body.icontains("powered by <a href=\"http://www.pommo.org/")
+  body.icontains("pommo.confirmmsg = ")

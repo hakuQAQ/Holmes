@@ -1,0 +1,13 @@
+info:
+  company: GitLab Inc
+  product: GitLab
+  softhard: '2'
+matches: |
+  header.icontains("_gitlab_session")
+  banner.icontains("_gitlab_session")
+  body.icontains("gon.default_issues_tracker")
+  body.icontains("content=\"gitlab community edition\"")
+  title.icontains("sign in · gitlab")
+  body.icontains("content=\"gitlab ")
+  body.icontains("<a href=\"https://about.gitlab.com/\">about gitlab")
+  body.icontains("class=\"col-sm-7 brand-holder pull-left\"")

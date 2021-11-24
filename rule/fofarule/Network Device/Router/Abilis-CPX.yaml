@@ -1,0 +1,6 @@
+info:
+  company: ABILIS Inc.
+  product: Abilis-CPX
+  softhard: '1'
+matches: |
+  banner.icontains("abilis cpx - ")

@@ -1,0 +1,6 @@
+info:
+  company: Symantec Corporation
+  product: Symantec-Client-Security
+  softhard: '2'
+matches: |
+  body.icontains("<!-- symantec client security web based installation -->")

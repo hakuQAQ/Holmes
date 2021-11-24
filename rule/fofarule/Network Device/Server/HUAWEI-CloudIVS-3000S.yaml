@@ -1,0 +1,6 @@
+info:
+  company: Huawei
+  product: HUAWEI-CloudIVS-3000S
+  softhard: '1'
+matches: |
+  banner.icontains("productname/cloudivs 3000s")

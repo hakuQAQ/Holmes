@@ -1,0 +1,7 @@
+info:
+  company: Phoenix Contact GmbH & Co. KG
+  product: Phoenix-Contact-Device
+  softhard: '1'
+matches: |
+  header.icontains("phoenix-contact")
+  header.icontains("powered by spidercontrol")

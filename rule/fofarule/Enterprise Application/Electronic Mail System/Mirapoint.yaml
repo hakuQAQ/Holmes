@@ -1,0 +1,8 @@
+info:
+  company: IceWarp Ltd.
+  product: Mirapoint
+  softhard: '2'
+matches: |
+  body.icontains("/wm/mail/login.html") && header.icontains("mirapoint")
+  banner.icontains("server: mirapoint")
+  banner.icontains("mirapoint pop3")

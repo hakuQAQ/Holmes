@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: OpenStack
+  softhard: '2'
+matches: |
+  title.icontains("openstack dashboard")

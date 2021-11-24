@@ -1,0 +1,7 @@
+info:
+  company: Merit LILIN Ent. Co., Ltd.
+  product: LILIN-Camera
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"merit lilin ent. co., ltd.")
+  banner.icontains("realm=\"merit lilin ent. co., ltd.")

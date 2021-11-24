@@ -1,0 +1,6 @@
+info:
+  company: WAT
+  product: WAT-System
+  softhard: '2'
+matches: |
+  body.icontains("生产经营计划统计一体化管理信息系统安装程序")

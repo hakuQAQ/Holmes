@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-ASA-5500-X
+  softhard: '1'
+matches: |
+  body.icontains("content=\"asa&nbsp;5500-x\"")

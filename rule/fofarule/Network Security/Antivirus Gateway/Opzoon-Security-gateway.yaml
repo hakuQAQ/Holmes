@@ -1,0 +1,9 @@
+info:
+  company: opzoon
+  product: Opzoon-Security-gateway
+  softhard: '1'
+matches: |
+  title.icontains("opzoon - ")
+  body.icontains("var opzoon_ver = document.getelementbyid(\"opzoon_version\"")
+  body.icontains("copy_right = {cn : \"\", en ")
+  cert.icontains("organization: www.opzoon.com")

@@ -1,0 +1,10 @@
+info:
+  company: Avaya Inc.
+  product: Avaya-Secure-Router
+  softhard: '1'
+matches: |
+  body.icontains("<b>about avaya secure router</b>")
+  body.icontains("<span id=\"guiname\">avaya secure router")
+  header.icontains("server: avaya http server")
+  banner.icontains("server: avaya http server")
+  title.icontains("avaya secure router")

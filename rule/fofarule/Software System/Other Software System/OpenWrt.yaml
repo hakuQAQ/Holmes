@@ -1,0 +1,9 @@
+info:
+  company: Other
+  product: OpenWrt
+  softhard: '2'
+matches: |
+  title.icontains("openwrt administrative")
+  header.icontains("realm=\"openwrt")
+  banner.icontains("realm=\"openwrt")
+  cert.icontains("l=uknown, cn=openwrt")

@@ -1,0 +1,11 @@
+info:
+  company: Other
+  product: Eureka-Server
+  softhard: '2'
+matches: |
+  body.icontains("eureka/css/wro.css")
+  header.icontains("eureka-server")
+  header.icontains("x-application-context")
+  banner.icontains("eureka-server")
+  banner.icontains("x-application-context")
+  title == "eureka" && body.icontains("<td><b>apollo-adminservice</b></td>")

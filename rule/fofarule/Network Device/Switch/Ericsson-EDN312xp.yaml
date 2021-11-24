@@ -1,0 +1,6 @@
+info:
+  company: Telefonaktiebolaget LM Ericsson
+  product: Ericsson-EDN312xp
+  softhard: '1'
+matches: |
+  banner.icontains("ericsson edn312xp")

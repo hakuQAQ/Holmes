@@ -1,0 +1,6 @@
+info:
+  company: LG Electronics.
+  product: LG-Smart-IP-Camera
+  softhard: '1'
+matches: |
+  body.icontains("ipcam_streamer.runelevatedweb(window.location.href)")

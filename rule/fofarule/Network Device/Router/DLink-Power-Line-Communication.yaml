@@ -1,0 +1,6 @@
+info:
+  company: DLink
+  product: DLink-Power-Line-Communication
+  softhard: '1'
+matches: |
+  header.icontains("dhp-") && header.icontains("server") && banner.icontains("dhp-") && banner.icontains("server")

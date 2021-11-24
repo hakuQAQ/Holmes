@@ -1,0 +1,7 @@
+info:
+  company: D-Link
+  product: D-Link-WIRELESS-AP
+  softhard: '1'
+matches: |
+  body.icontains("location.href = \"wizard_ap.htm\";")
+  body.icontains("<body onload=\"load_initial_settings('no-auth', 'get_restore_default')\">")

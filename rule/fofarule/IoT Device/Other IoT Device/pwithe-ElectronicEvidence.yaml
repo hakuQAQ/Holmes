@@ -1,0 +1,7 @@
+info:
+  company: pwithe
+  product: pwithe-ElectronicEvidence
+  softhard: '1'
+matches: |
+  title.icontains("消防移动电子证据管理系统")
+  body.icontains("深圳市警翼数码科技有限公司")

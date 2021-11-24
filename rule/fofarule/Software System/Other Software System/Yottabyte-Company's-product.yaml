@@ -1,0 +1,6 @@
+info:
+  company: Yottabyte
+  product: Yottabyte-Company's-product
+  softhard: '2'
+matches: |
+  body.icontains("class=\"btn btn-primary form-btn form-btn-login pull-right\"")

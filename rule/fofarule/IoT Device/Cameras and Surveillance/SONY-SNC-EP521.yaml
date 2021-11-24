@@ -1,0 +1,7 @@
+info:
+  company: Sony Corporation
+  product: SONY-SNC-EP521
+  softhard: '1'
+matches: |
+  banner.icontains("sony network camera snc-ep521")
+  header.icontains("sony network camera snc-ep521")

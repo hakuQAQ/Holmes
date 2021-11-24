@@ -1,0 +1,8 @@
+info:
+  company: ZTE
+  product: ZTE-ZXA10F460
+  softhard: '1'
+matches: |
+  body.icontains("<modelnumber>f460</modelnumber>")
+  title.icontains("f460") && title.icontains("zxa10f460")
+  banner.icontains("f460") && protocol.icontains("telnet")

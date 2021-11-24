@@ -1,0 +1,10 @@
+info:
+  company: Wowza Media Systems, LLC.
+  product: Wowza-Media-Server
+  softhard: '2'
+matches: |
+  header.icontains("www-authenticate realm=\"wowza media systems")
+  body.icontains("<html><head><title>wowza media server")
+  protocol.icontains("rtsp") && banner.icontains("wowza streaming engine")
+  banner.icontains("wowza media server")
+  banner.icontains("wowza media server")

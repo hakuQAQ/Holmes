@@ -1,0 +1,7 @@
+info:
+  company: SmarterTools Inc.
+  product: SmarterMail
+  softhard: '2'
+matches: |
+  body.icontains("<a href='http://www.smartertools.com/smartermail/mail-server-software.aspx' target='_blank>smartermail")
+  title.icontains("login - smartermail")

@@ -1,0 +1,6 @@
+info:
+  company: Dahua
+  product: Dahua-DVR
+  softhard: '1'
+matches: |
+  protocol.icontains("dahua") && protocol.icontains("snmp") && banner.icontains("dahuatech dvr")

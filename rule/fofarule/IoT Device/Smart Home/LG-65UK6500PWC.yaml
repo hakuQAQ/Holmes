@@ -1,0 +1,6 @@
+info:
+  company: LG Electronics.
+  product: LG-65UK6500PWC
+  softhard: '1'
+matches: |
+  body.icontains("<modelname>65uk6500pwc</modelname>")

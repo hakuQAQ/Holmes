@@ -1,0 +1,6 @@
+info:
+  company: Avaya Inc.
+  product: Ethernet-Routing-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("ethernet routing switch ")

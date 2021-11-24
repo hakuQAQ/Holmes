@@ -1,0 +1,8 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-M670
+  softhard: '1'
+matches: |
+  body.icontains("alt=\"cisco m670\"")
+  title.icontains("cisco content security management appliance m670")
+  title.icontains("cisco ironport m670")

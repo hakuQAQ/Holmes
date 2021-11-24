@@ -1,0 +1,6 @@
+info:
+  company: Dell Inc.
+  product: DELL-PCT8132
+  softhard: '1'
+matches: |
+  body.icontains("class=\"login_server_default\">pct8132")

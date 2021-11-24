@@ -1,0 +1,11 @@
+info:
+  company: Eyou
+  product: Eyou-Mail-system
+  softhard: '2'
+matches: |
+  title.icontains("eyou 邮件系统")
+  header.icontains("eyouws") && body.icontains("cr\">eyoumail")
+  header.icontains("emphpsid")
+  body.icontains("content=\"亿邮电子邮件系统")
+  body.icontains("/tpl/login/user/images/dbg.png")
+  body.icontains("var loginssl = document.form_login.login_ssl.value;")

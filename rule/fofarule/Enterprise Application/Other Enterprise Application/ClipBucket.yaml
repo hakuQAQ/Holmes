@@ -1,0 +1,8 @@
+info:
+  company: clipbucket
+  product: ClipBucket
+  softhard: '2'
+matches: |
+  body.icontains("content=\"clipbucket") && body.icontains("<!-- clipbucket")
+  body.icontains("<!-- forged by clipbucket")
+  body.icontains("href=\"http://clip-bucket.com/\">clipbucket")

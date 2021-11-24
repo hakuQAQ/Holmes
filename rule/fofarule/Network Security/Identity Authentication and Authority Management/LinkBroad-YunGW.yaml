@@ -1,0 +1,6 @@
+info:
+  company: LinkBroad
+  product: LinkBroad-YunGW
+  softhard: '2'
+matches: |
+  banner.icontains("linkbroad yungw")

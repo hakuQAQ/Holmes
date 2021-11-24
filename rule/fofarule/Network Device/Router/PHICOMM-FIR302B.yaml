@@ -1,0 +1,6 @@
+info:
+  company: phicomm
+  product: PHICOMM-FIR302B
+  softhard: '1'
+matches: |
+  title.icontains("fir302b")

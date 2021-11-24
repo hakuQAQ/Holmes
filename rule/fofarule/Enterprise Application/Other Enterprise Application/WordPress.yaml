@@ -1,0 +1,10 @@
+info:
+  company: Automattic Inc.
+  product: WordPress
+  softhard: '2'
+matches: |
+  body.icontains("name=\"generator\" content=\"wordpress ")
+  header.icontains("x-pingback")
+  header.icontains("/xmlrpc.php")
+  body.icontains("/wp-includes/")
+  header.icontains("wordpress_test_cookie")

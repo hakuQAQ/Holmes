@@ -1,0 +1,8 @@
+info:
+  company: fangmail
+  product: FangMail
+  softhard: '2'
+matches: |
+  body.icontains("/fangmail/default/css/em_css.css")
+  body.icontains("/fangmail/cgi/index.cgi")
+  banner.icontains("esmtp fangmail")

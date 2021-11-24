@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: TheHostingTool
+  softhard: '2'
+matches: |
+  body.icontains("<a href=\"http://thehostingtool.com\" target=\"_blank\">thehostingtool</a>")
+  body.icontains("<td width=\"20%\"><strong>server os:</strong></td>")
+  body.icontains("page=status&sub=phpinfo\">phpinfo</a>)</td>")

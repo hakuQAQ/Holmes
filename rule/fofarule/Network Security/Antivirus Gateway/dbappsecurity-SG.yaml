@@ -1,0 +1,6 @@
+info:
+  company: DAS-security
+  product: dbappsecurity-SG
+  softhard: '1'
+matches: |
+  title.icontains("明御安全网关")

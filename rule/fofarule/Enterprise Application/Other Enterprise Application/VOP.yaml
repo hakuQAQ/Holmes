@@ -1,0 +1,7 @@
+info:
+  company: Chinaunicom
+  product: VOP
+  softhard: '2'
+matches: |
+  body.icontains("lgdynacodebtn")
+  body.icontains("vop") && body.icontains("id=\"lgform\" action=\"/sso/login")

@@ -1,0 +1,6 @@
+info:
+  company: findersoft
+  product: findersoft-B9ERP
+  softhard: '2'
+matches: |
+  body.icontains("name=\"dbnameddl\"")

@@ -1,0 +1,7 @@
+info:
+  company: Belkin International, Inc.
+  product: Belkin-N150
+  softhard: '1'
+matches: |
+  body.icontains("src=\"setup_top.htm\"")
+  body.icontains("src=\"status.stm\"")

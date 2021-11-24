@@ -1,0 +1,7 @@
+info:
+  company: Robert Bosch GmbH
+  product: Siemens-Juicer
+  softhard: '1'
+matches: |
+  header.icontains("basic realm=\"mes3500")
+  banner.icontains("mes3500")

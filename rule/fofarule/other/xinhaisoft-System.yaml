@@ -1,0 +1,7 @@
+info:
+  company: xinhaisoft
+  product: xinhaisoft-System
+  softhard: '2'
+matches: |
+  body.icontains("../regist.asp?school=")
+  body.icontains("北京心海导航教育科技股份有限公司-中国心理网版权所有<br>")

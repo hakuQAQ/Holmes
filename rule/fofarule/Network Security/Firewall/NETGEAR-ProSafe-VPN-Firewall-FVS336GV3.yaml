@@ -1,0 +1,7 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-ProSafe-VPN-Firewall-FVS336GV3
+  softhard: '1'
+matches: |
+  banner.icontains("fvs336gv3")
+  body.icontains("gigabit dual wan ssl vpn firewall fvs336gv3</div>")

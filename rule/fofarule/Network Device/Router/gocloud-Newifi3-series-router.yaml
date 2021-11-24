@@ -1,0 +1,6 @@
+info:
+  company: GoCloud
+  product: gocloud-Newifi3-series-router
+  softhard: '1'
+matches: |
+  banner.icontains("gocloud newifi3 series router")

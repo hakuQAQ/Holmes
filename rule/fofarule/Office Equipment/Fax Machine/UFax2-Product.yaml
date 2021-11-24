@@ -1,0 +1,7 @@
+info:
+  company: ufax2
+  product: UFax2-Product
+  softhard: '1'
+matches: |
+  title.icontains("ufax2传真机用户登陆")
+  body.icontains("php/front_php/user_login.php")

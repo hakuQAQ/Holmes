@@ -1,0 +1,14 @@
+info:
+  company: DLink
+  product: DLink-Router
+  softhard: '1'
+matches: |
+  header.icontains("dlinkrouter")
+  header.icontains("webuicookie=")
+  body.icontains("d-link systems") && body.icontains("dsl-")
+  header.icontains("dlink router")
+  title.icontains("netsurveillance web")
+  banner.icontains("dlink-router login:")
+  body.icontains("login_title:'d-link router management system'")
+  body.icontains("src=\"/image/mobile_dlinklogo_login.png\"")
+  title.icontains("d-link")

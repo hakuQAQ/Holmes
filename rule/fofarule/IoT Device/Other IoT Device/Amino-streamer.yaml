@@ -1,0 +1,8 @@
+info:
+  company: Amino Communications
+  product: Amino-streamer
+  softhard: '1'
+matches: |
+  protocol.icontains("rtsp")
+  banner.icontains("server: amino streamer ")
+  banner.icontains("amino streamer")

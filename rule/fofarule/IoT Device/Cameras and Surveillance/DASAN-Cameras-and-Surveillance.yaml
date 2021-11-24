@@ -1,0 +1,6 @@
+info:
+  company: DASAN Networks, Inc.
+  product: DASAN-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  body.icontains("clear_cookie(\"login\");")

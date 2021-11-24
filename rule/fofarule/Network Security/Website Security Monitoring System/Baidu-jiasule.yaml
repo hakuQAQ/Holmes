@@ -1,0 +1,8 @@
+info:
+  company: Baidu
+  product: Baidu-jiasule
+  softhard: '2'
+matches: |
+  header.icontains("__jsluid") && body.icontains("notice-jiasule")
+  header.icontains("http/1.1 403") && body.icontains("static.jiasule.com/static/js/http_error.js")
+  banner.icontains("__jsluid")

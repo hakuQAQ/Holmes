@@ -1,0 +1,9 @@
+info:
+  company: DLink
+  product: DLink-Wireless-Router
+  softhard: '1'
+matches: |
+  title.icontains("d-link systems, inc.")
+  header.icontains("linux, http/1.1, dir-")
+  header.icontains("360 web server") && header.icontains("tenda upnp/1.0 miniupnpd/")
+  body.icontains("<td><img src=\"images/img_wireless_bottom.gif\"")

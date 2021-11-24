@@ -1,0 +1,6 @@
+info:
+  company: tg-net
+  product: TG-SR7000-series-router
+  softhard: '1'
+matches: |
+  banner.icontains("tg-net sr7000 series router")

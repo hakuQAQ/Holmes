@@ -1,0 +1,7 @@
+info:
+  company: Schneider Electric
+  product: APC-InfraStruxure
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"infrastruxure")
+  banner.icontains("realm=\"infrastruxure")

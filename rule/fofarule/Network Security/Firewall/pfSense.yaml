@@ -1,0 +1,9 @@
+info:
+  company: Electric Sheep Fencing, LLC.
+  product: pfSense
+  softhard: '2'
+matches: |
+  banner.icontains("pfsense ")
+  protocol.icontains("snmp") && body.icontains("https://www.pfsense.org/?gui=bootstrap")
+  body.icontains("rubicon communications, llc (netgate)")
+  body.icontains("<h4>login to pfsense</h4>")

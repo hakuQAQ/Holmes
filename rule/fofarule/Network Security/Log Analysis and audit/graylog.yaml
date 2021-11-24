@@ -1,0 +1,8 @@
+info:
+  company: Graylog, Inc.
+  product: graylog
+  softhard: '2'
+matches: |
+  title.icontains("graylog web interface")
+  body.icontains("org.graylog.plugins.pipelineprocessor.processorplugin")
+  header.icontains("x-graylog-node-id") && header.icontains("basic realm=\"graylog \"")

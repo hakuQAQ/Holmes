@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Zarafa
+  softhard: '2'
+matches: |
+  title.icontains("zarafa webaccess")

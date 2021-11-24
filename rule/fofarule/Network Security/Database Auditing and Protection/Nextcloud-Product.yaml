@@ -1,0 +1,7 @@
+info:
+  company: Nextcloud GmbH
+  product: Nextcloud-Product
+  softhard: '2'
+matches: |
+  body.icontains("nextcloud</a> – 给您所有数据一个安全的家")
+  title.icontains("nextcloud")

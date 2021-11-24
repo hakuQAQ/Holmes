@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: ProMail
+  softhard: '2'
+matches: |
+  title.icontains("promail &trade; - login")
+  body.icontains("powered by squirrelmail.org. squirrelmail")

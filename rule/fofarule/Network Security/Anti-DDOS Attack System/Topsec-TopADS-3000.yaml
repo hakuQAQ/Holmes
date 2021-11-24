@@ -1,0 +1,6 @@
+info:
+  company: TOPSEC
+  product: Topsec-TopADS-3000
+  softhard: '1'
+matches: |
+  title.icontains("天融信异常流量管理与抗拒绝服务系统")

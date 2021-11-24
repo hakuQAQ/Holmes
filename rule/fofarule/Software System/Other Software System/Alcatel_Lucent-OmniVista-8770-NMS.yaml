@@ -1,0 +1,6 @@
+info:
+  company: Alcatel-Lucent S.A.
+  product: Alcatel_Lucent-OmniVista-8770-NMS
+  softhard: '2'
+matches: |
+  title.icontains("alcatel-lucent omnivista 8770 nms")

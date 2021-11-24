@@ -1,0 +1,7 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-GS510TP
+  softhard: '1'
+matches: |
+  body.icontains("class=\"gs510tpimage spacer50percent topalign righthalign\"")
+  banner.icontains("gs510tp")

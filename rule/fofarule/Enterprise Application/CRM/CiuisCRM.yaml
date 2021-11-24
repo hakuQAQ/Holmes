@@ -1,0 +1,6 @@
+info:
+  company: Webnus
+  product: CiuisCRM
+  softhard: '2'
+matches: |
+  body.icontains("<div class=\"ciuis-body-content\">")

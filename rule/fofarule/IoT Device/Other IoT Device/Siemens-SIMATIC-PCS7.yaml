@@ -1,0 +1,10 @@
+info:
+  company: Siemens AG.
+  product: Siemens-SIMATIC-PCS7
+  softhard: '1'
+matches: |
+  body.icontains("<td class=\"static_field\">station name:</td>")
+  body.icontains("<link rel=\"stylesheet\" type=\"text/css\" href=\"/s7web.css\">")
+  body.icontains("siemens_firmenmarke_header.gif")
+  body.icontains("<td class=\"login_area\" colspan=\"2\"><img src=\"/simatic_controller.png\" alt=\"simatic s7 cp\"></td>")
+  banner.icontains("location: /portal0000.htm") && banner.icontains("siemens, simatic s7")

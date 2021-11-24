@@ -1,0 +1,6 @@
+info:
+  company: Forperfect Technologies
+  product: cInvoice
+  softhard: '2'
+matches: |
+  body.icontains("powered by <a href=\"http://www.forperfect.com/")

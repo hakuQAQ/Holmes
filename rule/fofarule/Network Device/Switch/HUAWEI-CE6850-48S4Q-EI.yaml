@@ -1,0 +1,6 @@
+info:
+  company: Huawei
+  product: HUAWEI-CE6850-48S4Q-EI
+  softhard: '1'
+matches: |
+  banner.icontains("ce6850-48s4q-ei")

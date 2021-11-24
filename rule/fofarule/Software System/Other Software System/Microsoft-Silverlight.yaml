@@ -1,0 +1,7 @@
+info:
+  company: Microsoft Corporation
+  product: Microsoft-Silverlight
+  softhard: '2'
+matches: |
+  title.icontains("app controller")
+  body.icontains("get microsoft silverlight")

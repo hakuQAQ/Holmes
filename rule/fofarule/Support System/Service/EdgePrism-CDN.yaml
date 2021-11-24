@@ -1,0 +1,7 @@
+info:
+  company: Limelight Networks
+  product: EdgePrism-CDN
+  softhard: '2'
+matches: |
+  header.icontains("edgeprism")
+  header.icontains("edgeprismssl")

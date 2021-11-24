@@ -1,0 +1,13 @@
+info:
+  company: MikroTik
+  product: MikroTik-Router
+  softhard: '1'
+matches: |
+  title.icontains("routeros")
+  body.icontains("mikrotik")
+  title.icontains("mikrotik routeros")
+  banner.icontains("mikrotik routeros")
+  protocol.icontains("snmp") && banner.icontains("routeros")
+  title.icontains("configuration")
+  body.icontains("routeros")
+  body.icontains("mikrotik")

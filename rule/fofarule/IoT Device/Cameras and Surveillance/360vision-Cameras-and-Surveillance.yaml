@@ -1,0 +1,7 @@
+info:
+  company: 360 Vision
+  product: 360vision-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  body.icontains("<frame src=\"glogon.htm\"/>")
+  title.icontains("360 vision technology")

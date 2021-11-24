@@ -1,0 +1,9 @@
+info:
+  company: Walle
+  product: Walle
+  softhard: '2'
+matches: |
+  title.icontains("walle 瓦力平台")
+  body.icontains("/dist/js/jquery.mobile.custom.min.js")
+  body.icontains("jquery('.widget-box.visible').removeclass('visible')")
+  body.icontains("walle")

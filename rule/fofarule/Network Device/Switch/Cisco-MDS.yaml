@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-MDS
+  softhard: '1'
+matches: |
+  title.icontains("cisco mds")

@@ -1,0 +1,6 @@
+info:
+  company: PHP Group
+  product: PHP-CGI
+  softhard: '2'
+matches: |
+  header.icontains("php-cgi") && banner.icontains("php-cgi")

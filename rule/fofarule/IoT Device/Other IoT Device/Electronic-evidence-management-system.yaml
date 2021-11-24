@@ -1,0 +1,9 @@
+info:
+  company: pwithe
+  product: Electronic-evidence-management-system
+  softhard: '1'
+matches: |
+  body.icontains("content=\"媒体数据管理系统")
+  body.icontains("diag.url = \"iframe.php?action=announce&position=login&id=\"+id;")
+  title.icontains("电子证据管理系统")
+  body.icontains("深圳警翼数码科技有限公司")

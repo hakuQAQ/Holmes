@@ -1,0 +1,8 @@
+info:
+  company: Barracuda Networks, Inc.
+  product: Barracuda-Device
+  softhard: '0'
+matches: |
+  header.icontains("barracudahttp")
+  cert.icontains("o=barracuda networks")
+  banner.icontains("server: barracudahttp")

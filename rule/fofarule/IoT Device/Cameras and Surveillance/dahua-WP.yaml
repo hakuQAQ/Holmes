@@ -1,0 +1,6 @@
+info:
+  company: dahuatech
+  product: dahua-WP
+  softhard: '1'
+matches: |
+  body.icontains("src=\"/wpms/asset/common/js/jsencrypt.min.js\"")

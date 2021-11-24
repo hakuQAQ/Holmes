@@ -1,0 +1,10 @@
+info:
+  company: BUFFALO INC.
+  product: Buffalo-TeraStation
+  softhard: '1'
+matches: |
+  title.icontains("terastation pro")
+  body.icontains("value=\"view terastation manual")
+  body.icontains("value=\"terastation handbuch lesen")
+  cert.icontains("o=buffalo inc")
+  cert.icontains("ou=nas")

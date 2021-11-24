@@ -1,0 +1,8 @@
+info:
+  company: kedacom
+  product: KEDACOM-Product
+  softhard: '1'
+matches: |
+  banner.icontains("kedacom. all rights reserved.")
+  header.icontains("realm=\"kedacom")
+  banner.icontains("realm=\"kedacom")

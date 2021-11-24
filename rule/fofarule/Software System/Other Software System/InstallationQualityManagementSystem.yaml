@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: InstallationQualityManagementSystem
+  softhard: '2'
+matches: |
+  body.icontains("images/ewuser_title.jpg")

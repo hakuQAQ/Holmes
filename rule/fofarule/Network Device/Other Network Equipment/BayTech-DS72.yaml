@@ -1,0 +1,6 @@
+info:
+  company: Bay Technical Associates
+  product: BayTech-DS72
+  softhard: '1'
+matches: |
+  banner.icontains("ds72 host module")

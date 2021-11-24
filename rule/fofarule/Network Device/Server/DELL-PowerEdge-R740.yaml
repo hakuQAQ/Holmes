@@ -1,0 +1,6 @@
+info:
+  company: Dell Inc.
+  product: DELL-PowerEdge-R740
+  softhard: '1'
+matches: |
+  banner.icontains("poweredge-r740")

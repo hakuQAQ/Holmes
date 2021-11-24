@@ -1,0 +1,12 @@
+info:
+  company: Microsoft Corporation
+  product: Windows-Server-2003
+  softhard: '2'
+matches: |
+  banner.icontains("windows version 5.2")
+  banner.icontains("windows server 2003 ")
+  banner.icontains("windows 2003") && header.icontains("windows server 2003")
+  header.icontains("/service pack")
+  header.icontains("5.2.3790")
+  banner.icontains("/service pack")
+  banner.icontains("5.2.3790")

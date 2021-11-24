@@ -1,0 +1,6 @@
+info:
+  company: Sindoh. Co. Ltd
+  product: SINDOH-Printer
+  softhard: '1'
+matches: |
+  banner.icontains("sindoh ")

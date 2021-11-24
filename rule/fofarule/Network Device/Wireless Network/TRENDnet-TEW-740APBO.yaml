@@ -1,0 +1,7 @@
+info:
+  company: TRENDnet, Inc.
+  product: TRENDnet-TEW-740APBO
+  softhard: '1'
+matches: |
+  body.icontains("tew-740apbo</div>")
+  title.icontains("tew-740apbo")

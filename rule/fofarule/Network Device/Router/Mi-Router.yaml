@@ -1,0 +1,18 @@
+info:
+  company: XiaoMi
+  product: Mi-Router
+  softhard: '1'
+matches: |
+  title.icontains("小米路由器")
+  header.icontains("tx-server: mixr")
+  body.icontains("url=/cgi-bin/luci/web")
+  body.icontains("mirouter-router-2</a>") && header.icontains("realm=\"mi-")
+  header.icontains("mi-router")
+  header.icontains("mi-routers")
+  header.icontains("mirouter3")
+  header.icontains("mirouter")
+  banner.icontains("realm=\"mi-")
+  banner.icontains("mi-router")
+  banner.icontains("mi-routers")
+  banner.icontains("mirouter3")
+  banner.icontains("mirouter")

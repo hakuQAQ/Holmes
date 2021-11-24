@@ -1,0 +1,6 @@
+info:
+  company: Siemens AG.
+  product: SIEMENS-Product
+  softhard: '1'
+matches: |
+  protocol == "s7"

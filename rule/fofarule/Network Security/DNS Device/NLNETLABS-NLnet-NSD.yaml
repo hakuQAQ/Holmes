@@ -1,0 +1,9 @@
+info:
+  company: Stichting NLnet Labs
+  product: NLNETLABS-NLnet-NSD
+  softhard: '2'
+matches: |
+  header.icontains("basic realm=\"nsd\"")
+  banner.icontains("basic realm=\"nsd\"")
+  banner.icontains("nsd demo server") && protocol.icontains("dns")
+  banner.icontains("nsd")

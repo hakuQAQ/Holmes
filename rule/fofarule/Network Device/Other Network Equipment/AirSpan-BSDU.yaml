@@ -1,0 +1,6 @@
+info:
+  company: Airspan Networks
+  product: AirSpan-BSDU
+  softhard: '1'
+matches: |
+  banner.icontains("airspan - wipll bsdu")

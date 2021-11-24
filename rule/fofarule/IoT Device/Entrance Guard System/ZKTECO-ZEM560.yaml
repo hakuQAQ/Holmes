@@ -1,0 +1,7 @@
+info:
+  company: zkteco
+  product: ZKTECO-ZEM560
+  softhard: '1'
+matches: |
+  banner.icontains("zem560 login:")
+  banner.icontains("(zem560) for mips ")

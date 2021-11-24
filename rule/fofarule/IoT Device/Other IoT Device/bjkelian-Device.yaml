@@ -1,0 +1,6 @@
+info:
+  company: bjkelian
+  product: bjkelian-Device
+  softhard: '1'
+matches: |
+  body.icontains("hw_type=\"imx100ag")

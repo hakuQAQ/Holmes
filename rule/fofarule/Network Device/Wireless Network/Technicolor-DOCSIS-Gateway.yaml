@@ -1,0 +1,7 @@
+info:
+  company: Technicolor SA.
+  product: Technicolor-DOCSIS-Gateway
+  softhard: '1'
+matches: |
+  title.icontains("common ui")
+  body.icontains("technicolor. all rights reserved.")

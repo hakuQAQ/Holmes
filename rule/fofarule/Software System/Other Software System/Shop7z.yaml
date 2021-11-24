@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Shop7z
+  softhard: '2'
+matches: |
+  header.icontains("sitekeyword")
+  body.icontains("id=\"www_zzjs_net_loding\"")
+  body.icontains("function www_zzjs_net_change")

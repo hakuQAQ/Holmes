@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Disqus
+  softhard: '2'
+matches: |
+  body.icontains("disqus_thread")

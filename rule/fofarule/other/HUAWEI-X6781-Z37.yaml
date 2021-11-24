@@ -1,0 +1,7 @@
+info:
+  company: Huawei
+  product: HUAWEI-X6781-Z37
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"huawei x6781-z37")
+  banner.icontains("realm=\"huawei x6781-z37")

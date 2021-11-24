@@ -1,0 +1,6 @@
+info:
+  company: 'xjhtqy '
+  product: xjhtqy-CRM
+  softhard: '2'
+matches: |
+  body.icontains("class=\"hidden-xs ewheaderrow\"><img src=\"aspximages/htqy.png\"")

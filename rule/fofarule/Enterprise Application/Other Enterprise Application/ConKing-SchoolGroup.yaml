@@ -1,0 +1,6 @@
+info:
+  company: conking
+  product: ConKing-SchoolGroup
+  softhard: '2'
+matches: |
+  body.icontains("javascripts/float.js") && body.icontains("vcxvcxv")

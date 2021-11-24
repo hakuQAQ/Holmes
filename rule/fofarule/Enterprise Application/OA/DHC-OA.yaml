@@ -1,0 +1,6 @@
+info:
+  company: dhcc
+  product: DHC-OA
+  softhard: '2'
+matches: |
+  body.icontains("src=\"/extcomponent/security/image/dhc.png\"")

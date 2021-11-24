@@ -1,0 +1,7 @@
+info:
+  company: Pivotal Software, Inc.
+  product: Spring-Security
+  softhard: '2'
+matches: |
+  header.icontains("realm=\"spring security application")
+  banner.icontains("realm=\"spring security application")

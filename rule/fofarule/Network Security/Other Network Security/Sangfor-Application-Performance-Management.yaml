@@ -1,0 +1,6 @@
+info:
+  company: Sangfor
+  product: Sangfor-Application-Performance-Management
+  softhard: '1'
+matches: |
+  title.icontains("sangfor apm") && body.icontains("help=\"版本信息:<br/>apm-")

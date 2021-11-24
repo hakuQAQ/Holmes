@@ -1,0 +1,8 @@
+info:
+  company: byzoro
+  product: byzoro-NFW
+  softhard: '1'
+matches: |
+  body.icontains("var title_zh = '下一代防火墙'")
+  body.icontains("class=\"login_main_text\">下一代防火墙</div>")
+  body.icontains("<title></title>")

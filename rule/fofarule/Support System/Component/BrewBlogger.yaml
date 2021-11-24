@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: BrewBlogger
+  softhard: '2'
+matches: |
+  body.icontains("developed by <a href=\"http://www.zkdigital.com")

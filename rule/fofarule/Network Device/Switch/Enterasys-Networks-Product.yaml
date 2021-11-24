@@ -1,0 +1,6 @@
+info:
+  company: Extreme Networks, Inc.
+  product: Enterasys-Networks-Product
+  softhard: '1'
+matches: |
+  banner.icontains("enterasys networks, inc. ")

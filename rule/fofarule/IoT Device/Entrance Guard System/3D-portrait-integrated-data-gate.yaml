@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: 3D-portrait-integrated-data-gate
+  softhard: '1'
+matches: |
+  title.icontains("欢迎使用三维人像综合数据门!")
+  body.icontains("<body onload=\"checkexplorer('/page/login_new')\">")

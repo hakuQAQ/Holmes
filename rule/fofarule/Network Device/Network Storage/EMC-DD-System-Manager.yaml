@@ -1,0 +1,9 @@
+info:
+  company: Dell Inc.
+  product: EMC-DD-System-Manager
+  softhard: '2'
+matches: |
+  body.icontains("emc-favicon.ico")
+  body.icontains("dd system manager")
+  body.icontains("datadomain enterprise manager") && header.icontains("/ddem") && title.icontains("301 moved permanently")
+  header.icontains("/ddem/login/")

@@ -1,0 +1,6 @@
+info:
+  company: sogou
+  product: Sogou-Webmaster-Platform
+  softhard: '2'
+matches: |
+  body.icontains("sogou_site_verification")

@@ -1,0 +1,6 @@
+info:
+  company: Alibaba Group
+  product: ALIYUN-RDS-API
+  softhard: '2'
+matches: |
+  title == "aliyun rds api" && body.icontains("href=\"system!stat.jspa")

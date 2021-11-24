@@ -1,0 +1,7 @@
+info:
+  company: K2 Software, Inc.
+  product: SourceCode-K2
+  softhard: '2'
+matches: |
+  body.icontains("document.getelementbyid(\"redirectform\").action = \"../mxworkspace/login.aspx")
+  body.icontains("document.getelementbyid(\"redirectform\").action = \"../workspace/default.aspx")

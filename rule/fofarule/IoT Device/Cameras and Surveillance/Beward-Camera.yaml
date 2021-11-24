@@ -1,0 +1,7 @@
+info:
+  company: Beward R&D Co., Ltd.
+  product: Beward-Camera
+  softhard: '1'
+matches: |
+  header.icontains("ipcamera-webs")
+  title.icontains("web service")

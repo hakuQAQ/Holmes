@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: DokuWiki
+  softhard: '2'
+matches: |
+  body.icontains("powered by dokuwiki")
+  body.icontains("content=\"dokuwiki")
+  body.icontains("<div id=\"dokuwiki")

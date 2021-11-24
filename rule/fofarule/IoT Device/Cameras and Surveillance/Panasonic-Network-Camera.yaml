@@ -1,0 +1,14 @@
+info:
+  company: Panasonic Corporation
+  product: Panasonic-Network-Camera
+  softhard: '1'
+matches: |
+  header.icontains("u s software web server")
+  body.icontains("multicameraframe?mode=motion&language")
+  header.icontains("ver2.4 rev0")
+  body.icontains("name=bar src=\"cgitagmenu?page=top&language=")
+  title.icontains("wj-nt104 main page")
+  body.icontains("src=\"cgitagmenu?page=")
+  body.icontains("var svideoinput=\"pal") && body.icontains("content=\"(c) panasonic syetem networks co.,ltd.")
+  body.icontains("/js/cmsgtab.js")
+  body.icontains("src=\"barfoot.html\"")

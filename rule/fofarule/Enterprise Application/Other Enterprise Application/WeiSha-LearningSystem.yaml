@@ -1,0 +1,6 @@
+info:
+  company: weishakeji
+  product: WeiSha-LearningSystem
+  softhard: '2'
+matches: |
+  body.icontains("/utility/corescripts/widget.js")

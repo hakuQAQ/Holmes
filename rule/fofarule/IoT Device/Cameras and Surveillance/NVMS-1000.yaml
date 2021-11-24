@@ -1,0 +1,6 @@
+info:
+  company: TVT
+  product: NVMS-1000
+  softhard: '2'
+matches: |
+  title.icontains("nvms-1000")

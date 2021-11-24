@@ -1,0 +1,10 @@
+info:
+  company: Zyxel Communications Corp.
+  product: Zyxel-Company's-product
+  softhard: '0'
+matches: |
+  body.icontains("forms/rpauth_1")
+  body.icontains("alcatel-lucent")
+  header.icontains("ndm-sysmode")
+  body.icontains("href=\"/zyxel.ico")
+  banner.icontains("vendor: zyxel communication corp.") && banner.icontains("zyxel ssh server")

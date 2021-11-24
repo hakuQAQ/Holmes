@@ -1,0 +1,7 @@
+info:
+  company: owtware
+  product: Owtware-iConn-End-user-calculation
+  softhard: '2'
+matches: |
+  title.icontains("owvm_product_name")
+  body.icontains("src=\"/res/api/owvmapi.js?")

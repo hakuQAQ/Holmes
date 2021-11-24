@@ -1,0 +1,8 @@
+info:
+  company: 78oa
+  product: 78OA
+  softhard: '2'
+matches: |
+  body.icontains("/resource/javascript/system/runtime.min.js")
+  body.icontains("license.78oa.com")
+  title.icontains("78oa") && body.icontains("src=\"/module/index.php")

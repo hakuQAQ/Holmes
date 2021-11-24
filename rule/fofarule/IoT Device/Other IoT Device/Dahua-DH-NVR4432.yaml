@@ -1,0 +1,6 @@
+info:
+  company: Dahua
+  product: Dahua-DH-NVR4432
+  softhard: '1'
+matches: |
+  banner.icontains("nvr4432")

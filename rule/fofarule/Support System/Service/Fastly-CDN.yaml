@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Fastly-CDN
+  softhard: '2'
+matches: |
+  body.icontains("fastcdn.org")

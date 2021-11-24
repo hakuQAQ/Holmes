@@ -1,0 +1,8 @@
+info:
+  company: Elecom Co., Ltd.
+  product: Elecom-Thecus-NAS
+  softhard: '1'
+matches: |
+  body.icontains("if(mod_ui=='thecus')")
+  body.icontains("msg:\"您无任何 raid 系统。\"")
+  body.icontains("msg:\"you don`t have any raid system.\",")

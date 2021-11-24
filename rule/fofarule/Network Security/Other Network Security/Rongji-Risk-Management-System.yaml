@@ -1,0 +1,7 @@
+info:
+  company: rongji
+  product: Rongji-Risk-Management-System
+  softhard: '2'
+matches: |
+  title.icontains("榕基风险管理系统")
+  header.icontains("rj-rms")

@@ -1,0 +1,8 @@
+info:
+  company: HUAWEI
+  product: FIT-AP
+  softhard: '1'
+matches: |
+  header.icontains("wlan") && body.icontains("tit1.innerhtml='current mode: fit';")
+  title.icontains("配置fit ap")
+  title.icontains("配置出厂fit ap")

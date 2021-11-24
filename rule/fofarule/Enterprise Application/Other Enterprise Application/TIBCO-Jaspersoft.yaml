@@ -1,0 +1,6 @@
+info:
+  company: TIBCO Software Inc.
+  product: TIBCO-Jaspersoft
+  softhard: '2'
+matches: |
+  title.icontains("tibco jaspersoft")

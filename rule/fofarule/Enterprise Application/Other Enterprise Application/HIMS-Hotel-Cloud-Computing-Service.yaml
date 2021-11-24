@@ -1,0 +1,7 @@
+info:
+  company: luopan
+  product: HIMS-Hotel-Cloud-Computing-Service
+  softhard: '2'
+matches: |
+  body.icontains("gb_root_dir") && body.icontains("maincontent.css")
+  body.icontains("hims酒店云计算服务")

@@ -1,0 +1,6 @@
+info:
+  company: Avaya Inc.
+  product: Avaya-Common-Photonic-Layer
+  softhard: '1'
+matches: |
+  banner.icontains("common photonic layer")

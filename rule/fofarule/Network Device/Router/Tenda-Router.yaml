@@ -1,0 +1,16 @@
+info:
+  company: Shenzhen Tenda Technology Co.,Ltd
+  product: Tenda-Router
+  softhard: '1'
+matches: |
+  title.icontains("tenda | login")
+  title.icontains("tenda|登录")
+  title == "tenda" && title.icontains("tenda ") && title.icontains("router") && body.icontains("('tenda '+sys_target+' router');")
+  header.icontains("access to tenda ")
+  body.icontains("background:url(tenda-logo-big.png)")
+  body.icontains("/css/tenda.css")
+  title.icontains("tenda 11n无线路由器登录界面")
+  title.icontains("tenda web master")
+  body.icontains("router to restore")
+  body.icontains("router and reset")
+  header.icontains("360 web server")

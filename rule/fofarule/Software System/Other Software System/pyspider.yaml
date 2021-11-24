@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: pyspider
+  softhard: '2'
+matches: |
+  body.icontains("content=\"pyspider dashboard\"")

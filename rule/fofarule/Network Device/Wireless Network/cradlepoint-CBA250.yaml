@@ -1,0 +1,6 @@
+info:
+  company: Cradlepoint, Inc.
+  product: cradlepoint-CBA250
+  softhard: '1'
+matches: |
+  title.icontains("cradlepoint cba250 gateway")

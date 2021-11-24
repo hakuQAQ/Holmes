@@ -1,0 +1,6 @@
+info:
+  company: tisson
+  product: TISSON-System
+  softhard: '2'
+matches: |
+  body.icontains("dlqaweb_deploy/webresource.axd")

@@ -1,0 +1,6 @@
+info:
+  company: Pulse Secure, LLC.
+  product: ZEUS-webserver
+  softhard: '2'
+matches: |
+  header.icontains("zeus") && banner.icontains("server: zeus")

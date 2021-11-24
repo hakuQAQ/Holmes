@@ -1,0 +1,8 @@
+info:
+  company: Joyent, Inc.
+  product: Joyent
+  softhard: '2'
+matches: |
+  header.icontains("realm=\"joyent")
+  header.icontains("served-by: joyent")
+  banner.icontains("realm=\"joyent") && banner.icontains("served-by: joyent")

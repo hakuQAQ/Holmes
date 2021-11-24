@@ -1,0 +1,9 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-DGND3700
+  softhard: '1'
+matches: |
+  header.icontains("netgear dgnd3700")
+  banner.icontains("netgear dgnd3700")
+  body.icontains("var host_name=\"dgnd3700\"")
+  body.icontains("content=\"dgnd3700")

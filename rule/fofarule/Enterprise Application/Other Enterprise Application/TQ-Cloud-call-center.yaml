@@ -1,0 +1,7 @@
+info:
+  company: TG
+  product: TQ-Cloud-call-center
+  softhard: '2'
+matches: |
+  body.icontains("tq.cn/floatcard?")
+  title.icontains("tq云呼叫中心")

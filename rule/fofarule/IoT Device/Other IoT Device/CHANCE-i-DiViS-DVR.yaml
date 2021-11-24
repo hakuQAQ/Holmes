@@ -1,0 +1,7 @@
+info:
+  company: DIVIS DVR
+  product: CHANCE-i-DiViS-DVR
+  softhard: '1'
+matches: |
+  header.icontains("techno vision security system ver")
+  banner.icontains("techno vision security system ver")

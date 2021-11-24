@@ -1,0 +1,9 @@
+info:
+  company: Other
+  product: TwonkyServer
+  softhard: '2'
+matches: |
+  title.icontains("twonkymedia server media browser")
+  title.icontains("twonkyserver media browser")
+  header.icontains("twonkymedia upnp")
+  body.icontains("<meta name=\"description\" content=\"twonkymedia digital home\">")

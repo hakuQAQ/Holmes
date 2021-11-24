@@ -1,0 +1,7 @@
+info:
+  company: Rise Broadband
+  product: Rise_Broadband-WRT500
+  softhard: '1'
+matches: |
+  body.icontains("floatkiller")
+  body.icontains("/style/g800_readynet_jab.png")

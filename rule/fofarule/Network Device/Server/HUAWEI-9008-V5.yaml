@@ -1,0 +1,6 @@
+info:
+  company: Huawei
+  product: HUAWEI-9008-V5
+  softhard: '1'
+matches: |
+  banner.icontains("productname/9008 v5")

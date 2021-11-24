@@ -1,0 +1,6 @@
+info:
+  company: Sundray
+  product: Sundray-Firewall
+  softhard: '1'
+matches: |
+  body.icontains("help = decodeuricomponent(version_info_ch)")

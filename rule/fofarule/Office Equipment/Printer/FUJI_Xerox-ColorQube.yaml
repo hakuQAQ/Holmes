@@ -1,0 +1,7 @@
+info:
+  company: Fuji Xerox Co. Ltd.
+  product: FUJI_Xerox-ColorQube
+  softhard: '1'
+matches: |
+  body.icontains("document.write('<title>' + 'xerox workcentre')")
+  body.icontains("document.write('<title>' + 'xerox colorqube')")

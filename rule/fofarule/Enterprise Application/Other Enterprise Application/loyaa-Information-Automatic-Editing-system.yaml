@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: loyaa-Information-Automatic-Editing-system
+  softhard: '2'
+matches: |
+  body.icontains("/loyaa/common.lib.js")

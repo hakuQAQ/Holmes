@@ -1,0 +1,6 @@
+info:
+  company: Hewlett Packard Enterprise Development LP
+  product: HP-VC-Flex
+  softhard: '1'
+matches: |
+  banner.icontains("hp vc flex")

@@ -1,0 +1,8 @@
+info:
+  company: ZTE Corporation
+  product: ZTE-EBG2800
+  softhard: '1'
+matches: |
+  body.icontains("location.href =\"login_web.htm\";")
+  body.icontains("https://dl.newrocktech.com/static/web/remote.js")
+  body.icontains("images/load.gif")

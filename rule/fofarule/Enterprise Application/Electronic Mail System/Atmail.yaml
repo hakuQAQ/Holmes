@@ -1,0 +1,9 @@
+info:
+  company: atmail pty ltd.
+  product: Atmail
+  softhard: '2'
+matches: |
+  body.icontains("powered by atmail")
+  header.icontains("atmail6") && banner.icontains("atmail6") && body.icontains("fixshowmail")
+  body.icontains("/index.php/mail/auth/processlogin")
+  body.icontains("<input id=\"mailserverinput")

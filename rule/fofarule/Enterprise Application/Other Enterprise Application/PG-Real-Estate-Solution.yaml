@@ -1,0 +1,7 @@
+info:
+  company: PG RealEstate
+  product: PG-Real-Estate-Solution
+  softhard: '2'
+matches: |
+  title.icontains("pg real estate solution")
+  body.icontains(">pg real estate solution - real estate web site design")

@@ -1,0 +1,6 @@
+info:
+  company: Aisino
+  product: Aisino-Telecom
+  softhard: '2'
+matches: |
+  body.icontains("<font class=\"bottomfont\">航天信息股份有限公司 电信行业版")

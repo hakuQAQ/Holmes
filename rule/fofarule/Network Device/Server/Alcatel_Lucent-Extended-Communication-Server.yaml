@@ -1,0 +1,6 @@
+info:
+  company: Alcatel-Lucent S.A.
+  product: Alcatel_Lucent-Extended-Communication-Server
+  softhard: '2'
+matches: |
+  title.icontains("alcatel-lucent extended communication server")

@@ -1,0 +1,10 @@
+info:
+  company: Siemens AG.
+  product: Siemens-SIMATIC-HMI
+  softhard: '1'
+matches: |
+  body.icontains("/images/siemens_firmenmarke.gif")
+  header.icontains("simatic hmi")
+  banner.icontains("simatic hmi ")
+  body.icontains("hint:<br> when the devicename contains an underscore ( _ ) some browsers have a bug that makes it impossible to log in.<br> one possible solution may be to use the ip address of the device instead of the name, or to use another browser.")
+  body.icontains("<meta http-equiv=\"refresh\" content=\"0;url=/www/start.html\">")

@@ -1,0 +1,9 @@
+info:
+  company: ASUS
+  product: ASUS-Router
+  softhard: '1'
+matches: |
+  body.icontains("asuswrt")
+  header.icontains("asus app")
+  header.icontains("asus rt-") && header.icontains("asus wl-")
+  banner.icontains("asus-dsl-")

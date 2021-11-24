@@ -1,0 +1,6 @@
+info:
+  company: Dell Technologies
+  product: DELL-DCS2210
+  softhard: '1'
+matches: |
+  body.icontains("id=\"serverinfo\"> dcs2210")

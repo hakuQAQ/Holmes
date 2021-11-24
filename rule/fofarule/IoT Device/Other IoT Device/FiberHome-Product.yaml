@@ -1,0 +1,8 @@
+info:
+  company: fiberhome
+  product: FiberHome-Product
+  softhard: '1'
+matches: |
+  title.icontains("fiberhome")
+  body.icontains("fiberhome systems, inc.")
+  body.icontains("scos_fx@fiberhome.com ")

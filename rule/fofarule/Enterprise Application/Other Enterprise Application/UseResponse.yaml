@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: UseResponse
+  softhard: '2'
+matches: |
+  body.icontains("<form id=\"system-form-registration\" enctype=\"application/x-www-form-urlencoded\" class=\"system-form-registration\" accept-charset=\"utf-8")
+  body.icontains("title=\"customer feedback software, community support system\" target=\"_blank\" href=\"http://www.useresponse.com\" class=\"popup-logo\">")

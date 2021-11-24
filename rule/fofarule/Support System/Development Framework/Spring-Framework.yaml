@@ -1,0 +1,7 @@
+info:
+  company: Pivotal Software, Inc.
+  product: Spring-Framework
+  softhard: '2'
+matches: |
+  header.icontains("org.springframework.web.servlet.i18n.cookielocaleresolver.locale=")
+  body.icontains("<h1>whitelabel error page</h1>")

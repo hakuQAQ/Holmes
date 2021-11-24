@@ -1,0 +1,7 @@
+info:
+  company: Belkin International, Inc.
+  product: Linksys-Print-Server
+  softhard: '1'
+matches: |
+  header.icontains("print_server web")
+  body.icontains("print server for usb with 4-port switch")

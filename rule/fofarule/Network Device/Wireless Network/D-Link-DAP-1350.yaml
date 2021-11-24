@@ -1,0 +1,8 @@
+info:
+  company: D-Link
+  product: D-Link-DAP-1350
+  softhard: '1'
+matches: |
+  title.icontains("d-link systems, inc. | wireless client : login")
+  header.icontains("content-length: 8441")
+  body.icontains("lang_obj.write('product_page')")

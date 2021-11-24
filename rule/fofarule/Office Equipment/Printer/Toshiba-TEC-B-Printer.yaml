@@ -1,0 +1,6 @@
+info:
+  company: Toshiba Co. Ltd.
+  product: Toshiba-TEC-B-Printer
+  softhard: '1'
+matches: |
+  banner.icontains("toshiba tec b-")

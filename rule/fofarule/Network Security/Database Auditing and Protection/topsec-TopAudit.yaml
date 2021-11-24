@@ -1,0 +1,8 @@
+info:
+  company: TopSec
+  product: topsec-TopAudit
+  softhard: '1'
+matches: |
+  banner.icontains("topsec topaudit")
+  body.icontains("topaudit")
+  body.icontains("ta-w 登录系统")

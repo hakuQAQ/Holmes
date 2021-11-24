@@ -1,0 +1,6 @@
+info:
+  company: Bosch Sicherheitssysteme GmbH
+  product: Bosch-DINION-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp") && banner.icontains("dinion ") && banner.icontains("dinion ip")

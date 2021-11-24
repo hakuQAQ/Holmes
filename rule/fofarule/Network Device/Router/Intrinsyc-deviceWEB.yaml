@@ -1,0 +1,7 @@
+info:
+  company: Intrinsyc Technologies Corp.
+  product: Intrinsyc-deviceWEB
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"intrinsyc deviceweb")
+  banner.icontains("realm=\"intrinsyc deviceweb")

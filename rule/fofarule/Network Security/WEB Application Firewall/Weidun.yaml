@@ -1,0 +1,7 @@
+info:
+  company: weidun
+  product: Weidun
+  softhard: '2'
+matches: |
+  header.icontains("firewall: www.weidun.com.cn")
+  banner.icontains("firewall: www.weidun.com.cn")

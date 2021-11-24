@@ -1,0 +1,7 @@
+info:
+  company: Easynetworks
+  product: Easynetworks-Product
+  softhard: '0'
+matches: |
+  body.icontains("highcharts/js/modules/no-data-to-display.js")
+  body.icontains("extjs5/build/examples/ux/css/itemselector.css")

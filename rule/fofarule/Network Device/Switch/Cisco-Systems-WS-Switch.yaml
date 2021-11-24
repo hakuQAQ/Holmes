@@ -1,0 +1,8 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-Systems-WS-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("cisco systems ws-")
+  banner.icontains("cisco systems, inc. ws-")
+  body.icontains("<h2>accessing cisco ws-")

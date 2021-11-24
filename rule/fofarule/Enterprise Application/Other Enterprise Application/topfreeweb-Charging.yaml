@@ -1,0 +1,7 @@
+info:
+  company: topfreeweb
+  product: topfreeweb-Charging
+  softhard: '2'
+matches: |
+  body.icontains("background=\"images/logbg.jpg\"")
+  body.icontains("value=\"经理\">经理</option>")

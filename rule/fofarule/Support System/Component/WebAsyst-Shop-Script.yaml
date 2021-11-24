@@ -1,0 +1,7 @@
+info:
+  company: Webasyst
+  product: WebAsyst-Shop-Script
+  softhard: '2'
+matches: |
+  body.icontains("<a href=\"http://www.shop-script.com")
+  body.icontains("powered by webasyst shop-script <a href=\"http://www.shop-script.com/\" style=\"font-weight: normal\">shopping cart software</a>")

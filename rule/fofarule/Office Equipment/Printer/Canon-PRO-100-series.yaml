@@ -1,0 +1,6 @@
+info:
+  company: Canon Inc.
+  product: Canon-PRO-100-series
+  softhard: '1'
+matches: |
+  body.icontains("nowrap>canon pro-100 series</td>")

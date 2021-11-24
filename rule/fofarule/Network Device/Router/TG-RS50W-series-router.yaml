@@ -1,0 +1,6 @@
+info:
+  company: tg-net
+  product: TG-RS50W-series-router
+  softhard: '1'
+matches: |
+  banner.icontains("tg-net rs50w series router")

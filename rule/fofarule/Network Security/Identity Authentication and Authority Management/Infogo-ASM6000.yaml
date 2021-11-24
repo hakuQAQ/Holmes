@@ -1,0 +1,7 @@
+info:
+  company: infogo
+  product: Infogo-ASM6000
+  softhard: '1'
+matches: |
+  body.icontains("判断是否为特殊项目??石化项目")
+  body.icontains("中石化统一认证项目的跳转地址")

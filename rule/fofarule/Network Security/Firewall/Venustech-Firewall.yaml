@@ -1,0 +1,11 @@
+info:
+  company: venustech
+  product: Venustech-Firewall
+  softhard: '1'
+matches: |
+  body.icontains("var title_zh = '天清汉马usg防火墙';")
+  body.icontains("venusense fw")
+  title.icontains("应用交付系统")
+  title.icontains("天清汉马usg")
+  title.icontains("venusense usg")
+  title.icontains("启明星辰 安全系统")

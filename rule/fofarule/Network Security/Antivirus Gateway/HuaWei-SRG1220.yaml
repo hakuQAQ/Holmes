@@ -1,0 +1,7 @@
+info:
+  company: HUAWEI
+  product: HuaWei-SRG1220
+  softhard: '1'
+matches: |
+  banner.icontains("srg1220")
+  header.icontains("huawei srg1220")

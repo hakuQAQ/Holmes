@@ -1,0 +1,10 @@
+info:
+  company: ZTE
+  product: ZTE-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("zxr10 ros version")
+  banner.icontains("zxr10 of zte corporation")
+  banner.icontains("switch of zte corporation")
+  banner.icontains("zxr10") && banner.icontains("zte") && banner.icontains("zxr10 ftp service")
+  banner.icontains("switch")

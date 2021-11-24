@@ -1,0 +1,11 @@
+info:
+  company: HUAWEI
+  product: HuaWei-Camera
+  softhard: '1'
+matches: |
+  cert.icontains("ou=enterprise uc&c productline video surveillance pdu")
+  body.icontains("action=\"/goform/web_usrloginproc")
+  header.icontains("webserver")
+  cert.icontains("o=huawei, ou=enterprise uc&c productline, ou=collaborative applicantion pdu")
+  title.icontains("huawei ipc") && cert.icontains("o=huawei")
+  cert.icontains("cn=huawei ipc")

@@ -1,0 +1,6 @@
+info:
+  company: Nowayer, Inc
+  product: Nowayer-FTP
+  softhard: '2'
+matches: |
+  body.icontains("content=\"nowayer\"")

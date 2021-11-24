@@ -1,0 +1,6 @@
+info:
+  company: megvii
+  product: Megvii-Company's-product
+  softhard: '1'
+matches: |
+  body.icontains("powered by megvii 本产品由旷视®提供智能技术支持")

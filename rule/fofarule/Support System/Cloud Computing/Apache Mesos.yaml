@@ -1,0 +1,7 @@
+info:
+  company: Apache Mesos
+  product: Apache Mesos
+  softhard: '2'
+matches: |
+  title == "mesos" && body.icontains("href=\"/static/css/mesos.css")
+  body.icontains("<img src=\"/static/img/mesos_logo.png\" alt=\"apache mesos\">")

@@ -1,0 +1,7 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-USG1100
+  softhard: '1'
+matches: |
+  banner.icontains("usg1100")
+  title == "usg1100" && body.icontains("usg_icon")

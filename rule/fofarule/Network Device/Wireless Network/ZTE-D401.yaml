@@ -1,0 +1,6 @@
+info:
+  company: ZTE
+  product: ZTE-D401
+  softhard: '1'
+matches: |
+  body.icontains("d401</font></div>")

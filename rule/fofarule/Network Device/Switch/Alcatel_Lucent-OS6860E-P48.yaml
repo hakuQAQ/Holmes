@@ -1,0 +1,6 @@
+info:
+  company: Alcatel-Lucent S.A.
+  product: Alcatel_Lucent-OS6860E-P48
+  softhard: '1'
+matches: |
+  body.icontains("<span>device os6860e-p48")

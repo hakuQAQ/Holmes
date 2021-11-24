@@ -1,0 +1,6 @@
+info:
+  company: RethinkDB
+  product: RethinkDB
+  softhard: '2'
+matches: |
+  title.icontains("rethinkdb administration")

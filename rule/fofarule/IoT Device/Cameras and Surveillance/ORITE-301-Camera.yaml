@@ -1,0 +1,7 @@
+info:
+  company: Orite Group Pty.Ltd.
+  product: ORITE-301-Camera
+  softhard: '1'
+matches: |
+  title.icontains("orite audio ip-camera")
+  title == "orite ic301"

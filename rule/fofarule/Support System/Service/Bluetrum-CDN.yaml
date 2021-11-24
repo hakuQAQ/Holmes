@@ -1,0 +1,7 @@
+info:
+  company: chinacache
+  product: Bluetrum-CDN
+  softhard: '2'
+matches: |
+  header.icontains("powered-by-chinacache")
+  banner.icontains("powered-by-chinacache")

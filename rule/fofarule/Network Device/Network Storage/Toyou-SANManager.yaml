@@ -1,0 +1,6 @@
+info:
+  company: toyou
+  product: Toyou-SANManager
+  softhard: '1'
+matches: |
+  title.icontains("toyou sanmanager")

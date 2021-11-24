@@ -1,0 +1,12 @@
+info:
+  company: VIVOTEK Inc.
+  product: Vivotek-Network-Camera
+  softhard: '1'
+matches: |
+  header.icontains("vivotek network camera")
+  header.icontains("network dome camera")
+  header.icontains("network camera with pan tilt")
+  header.icontains("wireless network camera")
+  body.icontains("<div id=\"logo_icon\"><a href=\"http://www.vivotek.com/\" target=\"_blank\"><img alt=\"logo\" src=\"pic/logo.gif\"></a></div>")
+  title.icontains("vivotek - network camera") && banner.icontains("network camera ftp server")
+  header.icontains("microsoft-iis")

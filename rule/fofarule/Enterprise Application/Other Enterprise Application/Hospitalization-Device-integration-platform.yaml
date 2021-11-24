@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Hospitalization-Device-integration-platform
+  softhard: '2'
+matches: |
+  title.icontains("住院设备集成平台")

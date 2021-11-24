@@ -1,0 +1,6 @@
+info:
+  company: Chinaunicom
+  product: CBSS automated testing
+  softhard: '2'
+matches: |
+  body.icontains("<p>copyright&copy cbss 项目组 自动化测试小组</p>")

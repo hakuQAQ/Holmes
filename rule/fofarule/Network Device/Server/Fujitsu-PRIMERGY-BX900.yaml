@@ -1,0 +1,6 @@
+info:
+  company: Fujitsu Ltd
+  product: Fujitsu-PRIMERGY-BX900
+  softhard: '1'
+matches: |
+  banner.icontains("primergy bx900")

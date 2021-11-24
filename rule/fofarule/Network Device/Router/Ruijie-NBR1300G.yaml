@@ -1,0 +1,8 @@
+info:
+  company: Ruijie
+  product: Ruijie-NBR1300G
+  softhard: '1'
+matches: |
+  banner.icontains("router(nbr1300g)")
+  banner.icontains("_nbr1300g")
+  banner.icontains("vendor: ruijie general operation system")

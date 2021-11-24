@@ -1,0 +1,7 @@
+info:
+  company: Sercomm Corporation
+  product: SERCOMM-DRG600
+  softhard: '1'
+matches: |
+  banner.icontains("drg600")
+  header.icontains("realm=\"drg600.wifi")

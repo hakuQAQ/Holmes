@@ -1,0 +1,7 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: h3c-Cloud
+  softhard: '2'
+matches: |
+  body.icontains("分布式存储管理系统 </p>")
+  body.icontains("vstor")

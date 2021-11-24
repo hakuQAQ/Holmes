@@ -1,0 +1,6 @@
+info:
+  company: Trend Micro Incorporated.
+  product: TrendMicro-IWSA5000
+  softhard: '1'
+matches: |
+  banner.icontains("iwsa5000")

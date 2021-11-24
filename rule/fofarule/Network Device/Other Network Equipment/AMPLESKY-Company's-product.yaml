@@ -1,0 +1,8 @@
+info:
+  company: amplesky
+  product: AMPLESKY-Company's-product
+  softhard: '0'
+matches: |
+  title.icontains("amplesky tc5000d")
+  body.icontains("var fullmessage = \"天地阳光通信科技（北京）有限公司")
+  title.icontains("流媒体单元管理平台---天地阳光通信科技（北京）有限公司")

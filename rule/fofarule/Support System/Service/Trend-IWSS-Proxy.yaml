@@ -1,0 +1,7 @@
+info:
+  company: Trend Micro Incorporated.
+  product: Trend-IWSS-Proxy
+  softhard: '2'
+matches: |
+  header.icontains("proxy-agent: iwss")
+  banner.icontains("proxy-agent: iwss")

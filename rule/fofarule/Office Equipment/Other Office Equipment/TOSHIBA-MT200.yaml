@@ -1,0 +1,6 @@
+info:
+  company: Toshiba Co. Ltd.
+  product: TOSHIBA-MT200
+  softhard: '1'
+matches: |
+  banner.icontains("mt200 ftp")

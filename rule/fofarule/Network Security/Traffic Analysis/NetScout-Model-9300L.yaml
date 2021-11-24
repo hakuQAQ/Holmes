@@ -1,0 +1,6 @@
+info:
+  company: NETSCOUT
+  product: NetScout-Model-9300L
+  softhard: '1'
+matches: |
+  banner.icontains("netscout model ")

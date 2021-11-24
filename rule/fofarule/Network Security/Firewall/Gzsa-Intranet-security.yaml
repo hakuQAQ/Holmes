@@ -1,0 +1,7 @@
+info:
+  company: gzsa
+  product: Gzsa-Intranet-security
+  softhard: '2'
+matches: |
+  title.icontains("内网终端安全管理系统登陆界面")
+  body.icontains("gzsa. all rights reserved</span>")

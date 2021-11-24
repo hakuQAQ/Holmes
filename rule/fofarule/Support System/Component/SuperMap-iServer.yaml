@@ -1,0 +1,8 @@
+info:
+  company: supermap
+  product: SuperMap-iServer
+  softhard: '2'
+matches: |
+  title.icontains("欢迎使用 supermap iserver 6r")
+  body.icontains("window.location.href=\"iserver\";")
+  body.icontains("id=\"copyright\"><a href=\"http://www.supermap.com.cn")

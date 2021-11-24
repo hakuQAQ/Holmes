@@ -1,0 +1,6 @@
+info:
+  company: MOBOTIX AG
+  product: MOBOTIX-M26
+  softhard: '1'
+matches: |
+  body.icontains("class=\"bold featurestypeinfo\">m26")

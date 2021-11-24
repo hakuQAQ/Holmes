@@ -1,0 +1,6 @@
+info:
+  company: ZTE Corporation
+  product: ZTE-ZXR10-5952D
+  softhard: '1'
+matches: |
+  banner.icontains("zte 5952d software")

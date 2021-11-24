@@ -1,0 +1,7 @@
+info:
+  company: vixtel
+  product: Speed-Test
+  softhard: '2'
+matches: |
+  body.icontains("classid=\"clsid:53028063-426b-446d-85f9-62e9e3dc5501\"")
+  header.icontains("netvista server/3.0")

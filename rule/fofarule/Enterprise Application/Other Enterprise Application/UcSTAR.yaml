@@ -1,0 +1,6 @@
+info:
+  company: qqtech
+  product: UcSTAR
+  softhard: '2'
+matches: |
+  title.icontains("ucstar 管理控制台")

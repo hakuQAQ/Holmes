@@ -1,0 +1,7 @@
+info:
+  company: Zoom Telephonics, Inc.
+  product: zoom-ADSL-X5
+  softhard: '1'
+matches: |
+  banner.icontains("/hag/pages/home.htm")
+  header.icontains("/hag/pages/home.htm")

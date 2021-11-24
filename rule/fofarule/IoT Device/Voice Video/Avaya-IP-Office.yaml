@@ -1,0 +1,10 @@
+info:
+  company: Avaya Inc.
+  product: Avaya-IP-Office
+  softhard: '1'
+matches: |
+  header.icontains("ipoffice")
+  title.icontains("about ip office")
+  body.icontains("action=\"/login/index.php?st=11&lng=")
+  banner.icontains("server: ipoffice/")
+  banner.icontains("301")

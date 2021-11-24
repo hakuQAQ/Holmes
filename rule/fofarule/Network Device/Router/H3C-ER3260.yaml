@@ -1,0 +1,8 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-ER3260
+  softhard: '1'
+matches: |
+  title.icontains("er3260系统管理")
+  header.icontains("h3c er3260")
+  banner.icontains("h3c er3260")

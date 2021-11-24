@@ -1,0 +1,7 @@
+info:
+  company: Gruppo Telecom Italia
+  product: OLIVETTI-Printing-System
+  softhard: '1'
+matches: |
+  banner.icontains("olivetti  printing system")
+  banner.icontains("olivetti printing system")

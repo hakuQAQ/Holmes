@@ -1,0 +1,7 @@
+info:
+  company: CETC
+  product: Cetc-IFW-XI502
+  softhard: '1'
+matches: |
+  title.icontains("工业防火墙")
+  body.icontains("/webgui/scripts/dd_belatedpng.js")

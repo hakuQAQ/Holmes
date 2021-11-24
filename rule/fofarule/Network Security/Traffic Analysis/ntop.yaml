@@ -1,0 +1,9 @@
+info:
+  company: Other
+  product: ntop
+  softhard: '2'
+matches: |
+  body.icontains("global traffic statistics")
+  header.icontains("ntop") && banner.icontains("server: ntop")
+  body.icontains("ntopmenuid")
+  body.icontains("/css/ntopng.css")

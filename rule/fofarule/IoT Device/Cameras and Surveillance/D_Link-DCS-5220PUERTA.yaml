@@ -1,0 +1,6 @@
+info:
+  company: DLink
+  product: D_Link-DCS-5220PUERTA
+  softhard: '1'
+matches: |
+  body.icontains("basic realm=\"dcs-5220puerta\"")

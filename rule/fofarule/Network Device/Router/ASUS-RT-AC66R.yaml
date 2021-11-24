@@ -1,0 +1,9 @@
+info:
+  company: ASUS
+  product: ASUS-RT-AC66R
+  softhard: '1'
+matches: |
+  header.icontains("rt-ac66r")
+  banner.icontains("rt-ac66r")
+  body.icontains("<div class=\"prod_madelname\">rt-ac66r")
+  body.icontains("class=\"prod_madelname\" style=\"margin-left:78px;\">rt-ac66r</div>")

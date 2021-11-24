@@ -1,0 +1,8 @@
+info:
+  company: D-Link
+  product: D-link-850L
+  softhard: '1'
+matches: |
+  body.icontains("target=\"_blank\">dir-850l")
+  body.icontains("modelname\">dir-850l")
+  body.icontains(">產品頁面 : dir-850l<a href=\"javascript:check_is_modified('http://support.dlink.com/')\">")

@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: phpmps
+  softhard: '2'
+matches: |
+  body.icontains("powered by phpmps")
+  body.icontains("templates/phpmps/style/index.css")

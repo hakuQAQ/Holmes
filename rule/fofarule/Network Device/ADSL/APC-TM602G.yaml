@@ -1,0 +1,6 @@
+info:
+  company: Schneider Electric
+  product: APC-TM602G
+  softhard: '1'
+matches: |
+  banner.icontains("tm602g")

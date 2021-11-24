@@ -1,0 +1,7 @@
+info:
+  company: a2b technologies inc.
+  product: a2b-Webserver
+  softhard: '2'
+matches: |
+  header.icontains("server: a2b webserver")
+  banner.icontains("server: a2b webserver")

@@ -1,0 +1,6 @@
+info:
+  company: NETENTSEC
+  product: netentsec-Sales
+  softhard: '2'
+matches: |
+  title.icontains("网康智能营销平台")

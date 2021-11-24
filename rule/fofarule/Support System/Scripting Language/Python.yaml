@@ -1,0 +1,7 @@
+info:
+  company: Python Software Foundation
+  product: Python
+  softhard: '2'
+matches: |
+  header.icontains("python")
+  header.icontains("django") && banner.icontains("python") && banner.icontains("django")

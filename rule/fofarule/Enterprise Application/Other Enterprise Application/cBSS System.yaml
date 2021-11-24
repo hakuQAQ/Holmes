@@ -1,0 +1,13 @@
+info:
+  company: Chinaunicom
+  product: cBSS System
+  softhard: '2'
+matches: |
+  body.icontains("</a>登录cbss系统</p>")
+  header.icontains("cookie_cbss")
+  header.icontains("bss_jsessionid")
+  body.icontains("<li>com.cbss.xss.filter.xssfilter.dofilter")
+  header.icontains("bss_fileserv_jsessionid")
+  header.icontains("bss_hm_jsessionid")
+  header.icontains("bss_acctmanm_jsessionid") && banner.icontains("bss_jsessionid")
+  banner.icontains("bss_hm_jsessionid")

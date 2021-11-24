@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: SpeedTouch
+  softhard: '1'
+matches: |
+  header.icontains("basic realm=\"speedtouch")
+  header.icontains("digest realm=\"speedtouch")
+  banner.icontains("speedtouch ")

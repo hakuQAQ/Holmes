@@ -1,0 +1,6 @@
+info:
+  company: zlgmcu
+  product: Zlgmcu-Microcontrollers
+  softhard: '1'
+matches: |
+  header.icontains("zlgmcu corporation")

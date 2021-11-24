@@ -1,0 +1,10 @@
+info:
+  company: Toshiba Co. Ltd.
+  product: Toshiba-Printer
+  softhard: '1'
+matches: |
+  body.icontains("<title class=\"clstitle1\">topaccess</title>")
+  body.icontains("<frameset name=\"tatoplevelframeset\" rows=\"*\"")
+  body.icontains("<frame name=\"toplevelframe\" src='frameindex.html?v= ")
+  body.icontains("if(location.href.indexof(\"?main=efiling\") == -1){")
+  banner.icontains("toshiba e-")

@@ -1,0 +1,7 @@
+info:
+  company: Morningstar, Inc.
+  product: AdviserLogicCli
+  softhard: '2'
+matches: |
+  title.icontains("- adviserlogiccli")
+  body.icontains("navigator.serviceworker.register('/adviserlogiccache.js')")

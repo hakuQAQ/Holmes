@@ -1,0 +1,7 @@
+info:
+  company: ZAVIO Inc.
+  product: ZAVIO-Camera
+  softhard: '1'
+matches: |
+  body.icontains("dynacolor")
+  body.icontains("osdcmdtb")

@@ -1,0 +1,6 @@
+info:
+  company: LG Electronics.
+  product: LG-OLED55E8PLA
+  softhard: '1'
+matches: |
+  body.icontains("<modelname>oled55e8pla</modelname>")

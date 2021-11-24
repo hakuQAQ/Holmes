@@ -1,0 +1,7 @@
+info:
+  company: Alibaba Group
+  product: Tengine
+  softhard: '2'
+matches: |
+  header.icontains("tengine")
+  banner.icontains("server: tengine")

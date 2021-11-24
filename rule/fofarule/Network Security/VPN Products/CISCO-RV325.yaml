@@ -1,0 +1,8 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-RV325
+  softhard: '1'
+matches: |
+  banner.icontains("cisco rv325")
+  banner.icontains("cisco small business rv325")
+  cert.icontains("rv325") && cert.icontains("rv325.rcwwolfs.nl")

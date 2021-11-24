@@ -1,0 +1,6 @@
+info:
+  company: General Electric Company
+  product: GE-NX590
+  softhard: '1'
+matches: |
+  banner.icontains("(ge-interlogix) / nx590")

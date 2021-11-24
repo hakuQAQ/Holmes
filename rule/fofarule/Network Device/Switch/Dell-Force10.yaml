@@ -1,0 +1,8 @@
+info:
+  company: Dell Inc.
+  product: Dell-Force10
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp")
+  banner.icontains("dell force10 ")
+  banner.icontains("force10 networks")

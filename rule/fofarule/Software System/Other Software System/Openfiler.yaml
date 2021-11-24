@@ -1,0 +1,7 @@
+info:
+  company: Openfiler.
+  product: Openfiler
+  softhard: '2'
+matches: |
+  body.icontains("href=\"http://www.openfiler.com/\">openfiler")
+  body.icontains("</strong>openfiler nas/san appliance")

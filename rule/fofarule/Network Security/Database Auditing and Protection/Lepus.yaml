@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Lepus
+  softhard: '2'
+matches: |
+  title.icontains("登录-天兔 数据库监控系统")
+  body.icontains("language/switchover\"+'/'+current_language")
+  body.icontains("登录")

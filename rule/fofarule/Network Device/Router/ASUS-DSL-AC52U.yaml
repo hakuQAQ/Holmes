@@ -1,0 +1,8 @@
+info:
+  company: ASUS
+  product: ASUS-DSL-AC52U
+  softhard: '1'
+matches: |
+  banner.icontains("asus-dsl-ac52u")
+  header.icontains("realm=\"dsl-ac52u")
+  banner.icontains("realm=\"dsl-ac52u") && body.icontains("<div class=\"prod_madelname\">dsl-ac52u")

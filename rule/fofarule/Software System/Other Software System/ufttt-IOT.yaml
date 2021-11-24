@@ -1,0 +1,6 @@
+info:
+  company: ufttt
+  product: ufttt-IOT
+  softhard: '2'
+matches: |
+  body.icontains("src=\"sdkjs/uftttsdk2.js\"")

@@ -1,0 +1,11 @@
+info:
+  company: International Business Machines Corporation
+  product: IBM-Lotus-Sametime
+  softhard: '2'
+matches: |
+  header.icontains("sametime server") && banner.icontains("sametime server")
+  banner.icontains("server: ")
+  body.icontains("src=\"sametime/avtest.js\"")
+  body.icontains("href=\"sametime/meetingcenter-moz.css\"")
+  body.icontains("class=\"sametimemeetingsbuttontransparent\"")
+  body.icontains("sametime/themes/images/blank.gif")

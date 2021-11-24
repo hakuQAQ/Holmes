@@ -1,0 +1,7 @@
+info:
+  company: cnoa
+  product: Cnoa-OA
+  softhard: '2'
+matches: |
+  body.icontains("powered by 协众oa") && body.icontains("admin@cnoa.cn")
+  body.icontains("powered by cnoa.cn")

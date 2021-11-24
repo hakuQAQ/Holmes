@@ -1,0 +1,6 @@
+info:
+  company: Centerm
+  product: Centerm
+  softhard: '2'
+matches: |
+  body.icontains("new ct.extapp.aboutsystemwindow()")

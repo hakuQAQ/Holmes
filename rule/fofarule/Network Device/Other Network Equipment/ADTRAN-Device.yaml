@@ -1,0 +1,7 @@
+info:
+  company: ADTRAN, Inc.
+  product: ADTRAN-Device
+  softhard: '1'
+matches: |
+  header.icontains("adtran") && header.icontains("netvanta ")
+  banner.icontains("netvanta ")

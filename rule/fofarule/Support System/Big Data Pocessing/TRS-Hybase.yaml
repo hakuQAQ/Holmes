@@ -1,0 +1,7 @@
+info:
+  company: TRS
+  product: TRS-Hybase
+  softhard: '2'
+matches: |
+  title.icontains("trs hybase管理台")
+  body.icontains("href=\"#\">trs hybase</a>")

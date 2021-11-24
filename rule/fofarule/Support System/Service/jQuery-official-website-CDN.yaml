@@ -1,0 +1,7 @@
+info:
+  company: The jQuery Foundation.
+  product: jQuery-official-website-CDN
+  softhard: '2'
+matches: |
+  header.icontains("code.jquery.com")
+  body.icontains("code.jquery.com")

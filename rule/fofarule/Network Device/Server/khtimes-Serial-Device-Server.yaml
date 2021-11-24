@@ -1,0 +1,7 @@
+info:
+  company: canhigher
+  product: khtimes-Serial-Device-Server
+  softhard: '1'
+matches: |
+  title.icontains("canhigher")
+  title.icontains("io server")

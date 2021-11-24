@@ -1,0 +1,7 @@
+info:
+  company: HUMAX Co., Ltd.
+  product: HUMAX-QUANTUM-T3AV2
+  softhard: '1'
+matches: |
+  body.icontains("id=\"product_model\"><script>dw(mdl_name)")
+  body.icontains("dw(\"t3atv2\") : dw(\"t3av2\")")

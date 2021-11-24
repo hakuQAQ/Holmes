@@ -1,0 +1,7 @@
+info:
+  company: jit
+  product: Jit-Web-Connector
+  softhard: '2'
+matches: |
+  title.icontains("吉大正元web connector")
+  body.icontains("location.href='/cgi-bin/cgiproxy.exe?action=start';")

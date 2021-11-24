@@ -1,0 +1,6 @@
+info:
+  company: Ben Software Ltd.
+  product: Ben_Software-SecuritySpy-webcam
+  softhard: '1'
+matches: |
+  title.icontains("securityspy web server")

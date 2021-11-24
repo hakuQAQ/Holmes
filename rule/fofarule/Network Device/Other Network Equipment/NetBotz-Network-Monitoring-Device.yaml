@@ -1,0 +1,10 @@
+info:
+  company: Schneider Electric
+  product: NetBotz-Network-Monitoring-Device
+  softhard: '2'
+matches: |
+  title.icontains("netbotz( network monitoring) appliance")
+  body.icontains("href=\"/netbotz.css")
+  header.icontains("realm=\"netbotz appliance")
+  body.icontains("href=\"http://www.netbotz.com\" target")
+  banner.icontains("realm=\"netbotz appliance")

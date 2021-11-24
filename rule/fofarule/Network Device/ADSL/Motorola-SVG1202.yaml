@@ -1,0 +1,7 @@
+info:
+  company: Motorola Solutions, Inc
+  product: Motorola-SVG1202
+  softhard: '1'
+matches: |
+  banner.icontains("motorola")
+  banner.icontains("svg1202") && banner.icontains("model: svg1202")

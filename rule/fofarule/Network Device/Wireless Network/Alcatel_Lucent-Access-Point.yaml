@@ -1,0 +1,6 @@
+info:
+  company: Alcatel-Lucent S.A.
+  product: Alcatel_Lucent-Access-Point
+  softhard: '1'
+matches: |
+  banner.icontains("lucent access point")

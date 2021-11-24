@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Telecom-OSS
+  softhard: '2'
+matches: |
+  banner.icontains("/cas/login?service=") && banner.icontains("; path=/portal/; httponly")
+  header.icontains("/cas/login?service=")
+  header.icontains("; path=/portal/; httponly")

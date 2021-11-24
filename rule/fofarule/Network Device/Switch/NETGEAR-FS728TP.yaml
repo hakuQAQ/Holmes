@@ -1,0 +1,6 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-FS728TP
+  softhard: '1'
+matches: |
+  body.icontains("class=\"fs728tpimage spacer50percent topalign righthalign\"")

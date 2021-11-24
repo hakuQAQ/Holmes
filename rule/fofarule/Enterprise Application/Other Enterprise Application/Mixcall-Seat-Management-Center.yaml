@@ -1,0 +1,8 @@
+info:
+  company: singhead
+  product: Mixcall-Seat-Management-Center
+  softhard: '2'
+matches: |
+  title.icontains("mixcall座席管理中心")
+  body.icontains("深圳市深海捷科技有限公司")
+  body.icontains("/admin/modules/admin/statics/images/")

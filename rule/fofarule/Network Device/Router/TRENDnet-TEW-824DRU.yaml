@@ -1,0 +1,7 @@
+info:
+  company: TRENDnet, Inc.
+  product: TRENDnet-TEW-824DRU
+  softhard: '1'
+matches: |
+  body.icontains("var model = \"tew-824dru\"")
+  body.icontains("capture(status_router.sys_model)</script></div>trendnet tew824dru")

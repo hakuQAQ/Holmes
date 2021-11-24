@@ -1,0 +1,6 @@
+info:
+  company: Avaya Inc.
+  product: Avaya-ERS-8810
+  softhard: '1'
+matches: |
+  banner.icontains("ers-8810")

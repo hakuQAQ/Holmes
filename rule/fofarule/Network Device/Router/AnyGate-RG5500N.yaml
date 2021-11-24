@@ -1,0 +1,6 @@
+info:
+  company: ANYGATE E&C CO., LTD.
+  product: AnyGate-RG5500N
+  softhard: '1'
+matches: |
+  body.icontains("td class=\"right\">rg5500n")

@@ -1,0 +1,7 @@
+info:
+  company: Sony Corporation
+  product: SONY-SNC-VM772R
+  softhard: '1'
+matches: |
+  banner.icontains("snc-vm772r")
+  header.icontains("realm=\"snc-vm772r")

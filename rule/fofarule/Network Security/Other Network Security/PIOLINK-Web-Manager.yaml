@@ -1,0 +1,6 @@
+info:
+  company: PIOLINK, Inc.
+  product: PIOLINK-Web-Manager
+  softhard: '2'
+matches: |
+  title.icontains("piolink web manager") && body.icontains("<td class=col_head>login - piolink web manager</td>")

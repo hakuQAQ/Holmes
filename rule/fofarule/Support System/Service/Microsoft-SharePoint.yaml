@@ -1,0 +1,16 @@
+info:
+  company: Microsoft Corporation
+  product: Microsoft-SharePoint
+  softhard: '2'
+matches: |
+  header.icontains("microsoftsharepointteamservices")
+  header.icontains("x-sharepointhealthscore")
+  header.icontains("sharepointerror")
+  header.icontains("sprequestduration")
+  body.icontains("content=\"microsoft sharepoint")
+  body.icontains("content=\"sharepoint team")
+  body.icontains("id=\"msowebpartpage_postbacksource")
+  banner.icontains("microsoftsharepointteamservices")
+  banner.icontains("x-sharepointhealthscore")
+  banner.icontains("sharepointerror")
+  banner.icontains("sprequestduration")

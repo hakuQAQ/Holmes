@@ -1,0 +1,6 @@
+info:
+  company: NGI Healthcare IT
+  product: NGI-GXD5-Pacs
+  softhard: '2'
+matches: |
+  body.icontains("<div id=\"passwordwrapper\" class=\"fieldwrapper\">")

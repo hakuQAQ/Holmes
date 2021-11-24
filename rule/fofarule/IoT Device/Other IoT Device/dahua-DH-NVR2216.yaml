@@ -1,0 +1,6 @@
+info:
+  company: Dahua
+  product: dahua-DH-NVR2216
+  softhard: '1'
+matches: |
+  banner.icontains("nvr2216")

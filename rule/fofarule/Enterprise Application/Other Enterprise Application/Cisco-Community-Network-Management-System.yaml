@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-Community-Network-Management-System
+  softhard: '2'
+matches: |
+  header.icontains("cisco小区网络管理系统")

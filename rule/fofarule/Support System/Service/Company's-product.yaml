@@ -1,0 +1,6 @@
+info:
+  company: drcom
+  product: Company's-product
+  softhard: '0'
+matches: |
+  banner.icontains("drcom-server/internet")

@@ -1,0 +1,6 @@
+info:
+  company: phpoa
+  product: PHPOA
+  softhard: '2'
+matches: |
+  body.icontains("admin_img/msg_bg.png")

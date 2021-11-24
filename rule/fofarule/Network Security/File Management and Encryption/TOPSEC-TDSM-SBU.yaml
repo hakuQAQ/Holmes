@@ -1,0 +1,6 @@
+info:
+  company: TOPSEC
+  product: TOPSEC-TDSM-SBU
+  softhard: '2'
+matches: |
+  title.icontains("天融信数据安全管理系统")

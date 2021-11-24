@@ -1,0 +1,7 @@
+info:
+  company: Dell
+  product: Dell-Open-Manage
+  softhard: '2'
+matches: |
+  title.icontains("open manage&trade;")
+  body.icontains("<img title=\"open manage\" alt=\"open manage")

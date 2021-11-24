@@ -1,0 +1,6 @@
+info:
+  company: leadsec
+  product: Leadsec-WAF
+  softhard: '1'
+matches: |
+  body.icontains("<div id=\"divlogin\">") && title == "网御waf"

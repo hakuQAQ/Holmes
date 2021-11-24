@@ -1,0 +1,6 @@
+info:
+  company: ICBC
+  product: ICBC-GYJ
+  softhard: '2'
+matches: |
+  body.icontains("var s3_app_address=\"https://gyj.icbc.com.cn\"")

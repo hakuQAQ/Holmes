@@ -1,0 +1,7 @@
+info:
+  company: Inspur
+  product: Inspur-NF5280M4
+  softhard: '1'
+matches: |
+  cert.icontains("nf5280m4")
+  banner.icontains("nf5280m4")

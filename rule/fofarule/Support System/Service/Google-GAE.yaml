@@ -1,0 +1,7 @@
+info:
+  company: Google LLC
+  product: Google-GAE
+  softhard: '2'
+matches: |
+  header.icontains("google frontend")
+  header.icontains("gfe")

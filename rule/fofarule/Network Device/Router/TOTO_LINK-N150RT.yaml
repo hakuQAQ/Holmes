@@ -1,0 +1,8 @@
+info:
+  company: TOTOLINK Corp.
+  product: TOTO_LINK-N150RT
+  softhard: '1'
+matches: |
+  body.icontains("src =\"/images/login_back_zn150rt.gif")
+  header.icontains("realm=\"totolink n150rt")
+  banner.icontains("realm=\"totolink n150rt")

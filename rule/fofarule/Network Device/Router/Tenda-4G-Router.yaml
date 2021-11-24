@@ -1,0 +1,7 @@
+info:
+  company: Shenzhen Tenda Technology Co.,Ltd
+  product: Tenda-4G-Router
+  softhard: '1'
+matches: |
+  body.icontains("3g/4g router")
+  body.icontains("id=\"tendaimg\"")

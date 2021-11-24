@@ -1,0 +1,6 @@
+info:
+  company: LOYTEC electronics GmbH
+  product: LOYTEC-LINX
+  softhard: '1'
+matches: |
+  body.icontains("device_info/device_info")

@@ -1,0 +1,7 @@
+info:
+  company: PLANET Technology Corporation.
+  product: Planet-NVR-915
+  softhard: '1'
+matches: |
+  banner.icontains("nvr-915 login:")
+  header.icontains("realm=\"nvr-915")

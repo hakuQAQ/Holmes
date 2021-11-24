@@ -1,0 +1,6 @@
+info:
+  company: Zebra Technologies Corp.
+  product: ZEBRA-TLP-2824-Plus
+  softhard: '1'
+matches: |
+  body.icontains("ztc tlp 2824 plus</h1>")

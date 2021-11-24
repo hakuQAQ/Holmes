@@ -1,0 +1,6 @@
+info:
+  company: Apple Inc.
+  product: Apple-AirPort
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp") && banner.icontains("apple airport")

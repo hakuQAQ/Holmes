@@ -1,0 +1,7 @@
+info:
+  company: AirLive
+  product: AirLive-WIAS
+  softhard: '1'
+matches: |
+  body.icontains("check.shtml")
+  body.icontains("wias")

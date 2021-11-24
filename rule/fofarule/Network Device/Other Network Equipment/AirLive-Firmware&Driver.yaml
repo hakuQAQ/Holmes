@@ -1,0 +1,9 @@
+info:
+  company: OvisLink Corp.
+  product: AirLive-Firmware&Driver
+  softhard: '1'
+matches: |
+  header.icontains("airlive airmax5")
+  header.icontains("realm=\"airlive wha-")
+  header.icontains("airlive airmax2") && banner.icontains("airlive airmax5")
+  banner.icontains("realm=\"airlive wha-") && banner.icontains("airlive airmax2")

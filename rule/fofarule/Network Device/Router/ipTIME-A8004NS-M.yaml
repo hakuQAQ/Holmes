@@ -1,0 +1,6 @@
+info:
+  company: EFM Networks Co.,Ltd.
+  product: ipTIME-A8004NS-M
+  softhard: '1'
+matches: |
+  body.icontains("src=\"/images2/login_title.a8004nm.gif\"")

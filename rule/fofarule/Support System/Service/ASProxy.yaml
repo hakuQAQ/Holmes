@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: ASProxy
+  softhard: '2'
+matches: |
+  body.icontains("surf the web invisibly using asproxy power")
+  body.icontains("btnasproxydisplaybutton")

@@ -1,0 +1,6 @@
+info:
+  company: ASUS
+  product: ASUS-GT-AC2900_SH
+  softhard: '1'
+matches: |
+  body.icontains("document.getelementsbyclassname(\"model-name\")[0].innerhtml = \"gt-ac2900_sh\"")

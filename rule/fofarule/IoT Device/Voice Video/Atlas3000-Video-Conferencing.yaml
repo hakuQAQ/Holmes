@@ -1,0 +1,6 @@
+info:
+  company: Atlas Communications.
+  product: Atlas3000-Video-Conferencing
+  softhard: '1'
+matches: |
+  banner.icontains("aethra video communication system")

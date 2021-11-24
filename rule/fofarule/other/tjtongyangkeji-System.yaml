@@ -1,0 +1,6 @@
+info:
+  company: tjtongyangkeji
+  product: tjtongyangkeji-System
+  softhard: '0'
+matches: |
+  body.icontains("/content/tongyang-login.css")

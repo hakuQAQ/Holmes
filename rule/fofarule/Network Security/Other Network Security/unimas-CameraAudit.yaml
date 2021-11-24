@@ -1,0 +1,7 @@
+info:
+  company: unimassystem
+  product: unimas-CameraAudit
+  softhard: '2'
+matches: |
+  title.icontains("视频安全接入用户认证系统")
+  body.icontains("txtpasswordcssclass")

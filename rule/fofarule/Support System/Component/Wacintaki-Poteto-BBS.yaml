@@ -1,0 +1,7 @@
+info:
+  company: Wacintaki-Poteto-BBS
+  product: Wacintaki-Poteto-BBS
+  softhard: '2'
+matches: |
+  body.icontains("<a href=\"http://www.ninechime.com/products/\" title=\"get your own free bbs!\">wacintaki")
+  body.icontains("by <a href=\"http://suteki.nu\">ranmaguy</a> and <a href=\"http://www.cellosoft.com\">marcello</a>")

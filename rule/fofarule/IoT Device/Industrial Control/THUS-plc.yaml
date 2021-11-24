@@ -1,0 +1,8 @@
+info:
+  company: Vodafone Limited.
+  product: THUS-plc
+  softhard: '1'
+matches: |
+  banner.icontains("thus plc")
+  body.icontains("copyright (c) 2003 thus plc")
+  body.icontains("<img src=\"thuslogo.gif\" width=")

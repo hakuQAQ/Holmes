@@ -1,0 +1,6 @@
+info:
+  company: intelbras lnc.
+  product: Intelbras-Roteador-Wireless-N-WIN300
+  softhard: '1'
+matches: |
+  title.icontains("roteador wireless n win 300")

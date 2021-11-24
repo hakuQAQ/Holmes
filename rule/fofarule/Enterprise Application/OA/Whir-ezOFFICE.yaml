@@ -1,0 +1,11 @@
+info:
+  company: whir
+  product: Whir-ezOFFICE
+  softhard: '2'
+matches: |
+  title.icontains("ezoffice")
+  body.icontains("ezofficeusername")
+  title.icontains("万户oa")
+  body.icontains("whirrootpath")
+  body.icontains("/defaultroot/js/cookie.js")
+  header.icontains("loclan")

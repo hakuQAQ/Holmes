@@ -1,0 +1,6 @@
+info:
+  company: mygica
+  product: MyGica-S905-TV-Box
+  softhard: '1'
+matches: |
+  banner.icontains("mygica_s905 tv box")

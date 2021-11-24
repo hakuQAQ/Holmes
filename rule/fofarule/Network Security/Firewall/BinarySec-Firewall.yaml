@@ -1,0 +1,7 @@
+info:
+  company: BinarySEC Corporation
+  product: BinarySec-Firewall
+  softhard: '1'
+matches: |
+  header.icontains("x-binarysec")
+  banner.icontains("x-binarysec")

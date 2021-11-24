@@ -1,0 +1,9 @@
+info:
+  company: ZTE
+  product: ZTE-IAD-Voice-Gateway
+  softhard: '1'
+matches: |
+  body.icontains("/image/banner_i532.jpg")
+  body.icontains("/image/i202.gif")
+  body.icontains("/image/banner_top.jpg")
+  body.icontains("system log in")

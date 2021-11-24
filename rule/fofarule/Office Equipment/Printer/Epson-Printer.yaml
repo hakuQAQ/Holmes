@@ -1,0 +1,13 @@
+info:
+  company: Seiko Epson Corporation.
+  product: Epson-Printer
+  softhard: '1'
+matches: |
+  header.icontains("server: epson-http")
+  banner.icontains("server: epson-http")
+  title.icontains("epsonnet config") && title.icontains("epsonnet webassist")
+  body.icontains("content=\"seiko epson") && title.icontains("epsonnet ")
+  body.icontains("/presentation/")
+  protocol.icontains("snmp") && banner.icontains("epson") && banner.icontains("print server")
+  body.icontains("<title>epsonnet config rev.1.0a</title>")
+  body.icontains("<title>epsonnet webassist rev.2.1ae</title>")

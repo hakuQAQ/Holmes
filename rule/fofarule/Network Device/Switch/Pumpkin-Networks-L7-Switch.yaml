@@ -1,0 +1,6 @@
+info:
+  company: Pumpkin Networks Inc.
+  product: Pumpkin-Networks-L7-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("pumpkin networks l7 switch")

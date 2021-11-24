@@ -1,0 +1,7 @@
+info:
+  company: khtimes
+  product: COMHIGHER-Serial-Device-Server
+  softhard: '1'
+matches: |
+  title.icontains("comhigher serial io server")
+  title.icontains("comhigher web configuration")

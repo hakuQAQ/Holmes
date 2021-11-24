@@ -1,0 +1,7 @@
+info:
+  company: PIOLINK, Inc.
+  product: PIOLINK-TiFRONT-Product
+  softhard: '1'
+matches: |
+  banner.icontains("tifront-")
+  body.icontains("<em>tifront, the security switch")

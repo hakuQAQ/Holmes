@@ -1,0 +1,7 @@
+info:
+  company: Chinaunicom
+  product: sdcncsi
+  softhard: '2'
+matches: |
+  body.icontains("<em class=\"wk-fl\">在沃系统</em>")
+  body.icontains("refreshcaptchaimgfun")

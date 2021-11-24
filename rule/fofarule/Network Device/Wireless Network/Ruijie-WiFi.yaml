@@ -1,0 +1,6 @@
+info:
+  company: Ruijie
+  product: Ruijie-WiFi
+  softhard: '1'
+matches: |
+  body.icontains("var apmainpage = 'ap/main.htm")

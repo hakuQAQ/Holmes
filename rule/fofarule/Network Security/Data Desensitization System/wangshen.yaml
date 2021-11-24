@@ -1,0 +1,6 @@
+info:
+  company: QIANXIN
+  product: wangshen
+  softhard: '0'
+matches: |
+  body.icontains("<a href=\"#!/home\" class=\"sysname\">360网神数据脱敏系统 ")

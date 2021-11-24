@@ -1,0 +1,6 @@
+info:
+  company: airlinksecurity
+  product: AirLink-AIC250
+  softhard: '1'
+matches: |
+  body.icontains("aic250") && header.icontains("realm=\"aic250")

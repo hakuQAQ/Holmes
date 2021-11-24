@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: superplaceholder.js
+  softhard: '2'
+matches: |
+  body.icontains("superplaceholder.js") && body.icontains("superplaceholder.min.js")

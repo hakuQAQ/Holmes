@@ -1,0 +1,7 @@
+info:
+  company: Oracle Corporation
+  product: StorageTek-NAS
+  softhard: '1'
+matches: |
+  header.icontains("storagetek-httpd")
+  title.icontains("sun storagetek nas os web admin")

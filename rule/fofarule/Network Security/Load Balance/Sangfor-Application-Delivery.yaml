@@ -1,0 +1,11 @@
+info:
+  company: Sangfor
+  product: Sangfor-Application-Delivery
+  softhard: '1'
+matches: |
+  body.icontains("default_target=\"/cgi-bin/login.cgi?action=log&fro=self")
+  title.icontains("loading...")
+  cert.icontains("sangfor") && body.icontains("var check_login_key")
+  title.icontains("loading...")
+  body.icontains("var check_login_key")
+  body.icontains("/static/es5_shim/es5-sham.js")

@@ -1,0 +1,7 @@
+info:
+  company: International Business Machines Corporation
+  product: IBM-Mobile-Connect
+  softhard: '1'
+matches: |
+  header.icontains("ibm mobile connect")
+  banner.icontains("ibm mobile connect")

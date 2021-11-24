@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: ASZENO-RTSP
+  softhard: '1'
+matches: |
+  protocol.icontains("rtsp") && banner.icontains("aszeno rtsp server")

@@ -1,0 +1,6 @@
+info:
+  company: Hewlett Packard Enterprise Development LP
+  product: HP-IP-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("hp ip console switch")

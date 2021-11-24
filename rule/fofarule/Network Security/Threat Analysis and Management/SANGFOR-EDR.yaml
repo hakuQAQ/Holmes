@@ -1,0 +1,8 @@
+info:
+  company: SangFor
+  product: SANGFOR-EDR
+  softhard: '2'
+matches: |
+  body.icontains("datalayer','gtm-tl7g2lw'")
+  cert.icontains("commonname: 222.222.222.0")
+  cert.icontains("organization: infosec")

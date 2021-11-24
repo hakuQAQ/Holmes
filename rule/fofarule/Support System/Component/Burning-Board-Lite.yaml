@@ -1,0 +1,7 @@
+info:
+  company: WoltLab GmbH
+  product: Burning-Board-Lite
+  softhard: '2'
+matches: |
+  body.icontains("powered by <b><a href=\"http://www.woltlab.de")
+  body.icontains("powered by <b>burning board")

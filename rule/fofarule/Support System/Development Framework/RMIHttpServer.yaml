@@ -1,0 +1,7 @@
+info:
+  company: Oracle Corporation
+  product: RMIHttpServer
+  softhard: '2'
+matches: |
+  body.icontains("cloudclient httpserver is running...")
+  header.icontains("rmihttpserver")

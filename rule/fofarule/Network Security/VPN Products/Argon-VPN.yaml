@@ -1,0 +1,7 @@
+info:
+  company: Argon Systems
+  product: Argon-VPN
+  softhard: '1'
+matches: |
+  banner.icontains("vpn firewall")
+  banner.icontains("argon")

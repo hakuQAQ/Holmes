@@ -1,0 +1,6 @@
+info:
+  company: Hikvision
+  product: HIKVISION-BigDataDiagnosis
+  softhard: '2'
+matches: |
+  body.icontains("大数据诊断工具</strong>")

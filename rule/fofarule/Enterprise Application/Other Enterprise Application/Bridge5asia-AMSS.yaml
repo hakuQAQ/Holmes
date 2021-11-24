@@ -1,0 +1,7 @@
+info:
+  company: Bridge5 Asia Pte Ltd
+  product: Bridge5asia-AMSS
+  softhard: '2'
+matches: |
+  body.icontains("education area management support system : amss++")
+  body.icontains("/statics/js/mdo-angular-cryptography.js")

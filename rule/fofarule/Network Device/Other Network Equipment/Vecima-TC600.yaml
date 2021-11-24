@@ -1,0 +1,6 @@
+info:
+  company: Vecima Networks Inc.
+  product: Vecima-TC600
+  softhard: '1'
+matches: |
+  banner.icontains("tc600") && banner.icontains(" vecima networks")

@@ -1,0 +1,8 @@
+info:
+  company: sursen
+  product: SurDoc
+  softhard: '2'
+matches: |
+  title.icontains("360书生企业云盘")
+  body.icontains("<h1>欢迎使用360书生云盘！</h1>")
+  body.icontains("<p>copyright@2016 pan.surdoc.net all rights</p>")

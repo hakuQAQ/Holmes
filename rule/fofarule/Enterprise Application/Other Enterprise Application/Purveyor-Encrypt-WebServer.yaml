@@ -1,0 +1,6 @@
+info:
+  company: VMS Software，Inc
+  product: Purveyor-Encrypt-WebServer
+  softhard: '2'
+matches: |
+  header.icontains("purveyor encrypt")

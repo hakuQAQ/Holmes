@@ -1,0 +1,8 @@
+info:
+  company: wecenter
+  product: WeCenter
+  softhard: '2'
+matches: |
+  body.icontains("aw_template.js")
+  body.icontains("content=\"wecenter")
+  body.icontains("powered by <a href=\"http://www.wecenter.com/?copyright")

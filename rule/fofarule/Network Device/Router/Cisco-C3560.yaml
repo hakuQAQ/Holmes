@@ -1,0 +1,7 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-C3560
+  softhard: '1'
+matches: |
+  banner.icontains("cisco ios software, c3560 software")
+  banner.icontains("c3560") && banner.icontains("cisco")

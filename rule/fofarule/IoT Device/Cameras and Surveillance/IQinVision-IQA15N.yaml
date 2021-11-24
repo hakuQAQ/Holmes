@@ -1,0 +1,6 @@
+info:
+  company: IQinVision, Inc.
+  product: IQinVision-IQA15N
+  softhard: '1'
+matches: |
+  title.icontains("iqa15n") && banner.icontains("iqinvision iqa15n")

@@ -1,0 +1,6 @@
+info:
+  company: Trend Micro Incorporated.
+  product: Trendmicro-IMSA
+  softhard: '1'
+matches: |
+  banner.icontains("220 esmtp imsa")

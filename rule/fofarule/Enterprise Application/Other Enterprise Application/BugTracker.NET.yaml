@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: BugTracker.NET
+  softhard: '2'
+matches: |
+  body.icontains("href=\"btnet.css")
+  body.icontains("valign=middle><a href=http://ifdefined.com/bugtrackernet.html>")
+  body.icontains("<div class=logo>bugtracker.net")

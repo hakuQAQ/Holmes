@@ -1,0 +1,7 @@
+info:
+  company: ejinshan
+  product: kingsoft-DuBa-Enterprise
+  softhard: '2'
+matches: |
+  title.icontains("金山毒霸企业版")
+  body.icontains("class=\"title\">关于全网部署金山毒霸企业版")

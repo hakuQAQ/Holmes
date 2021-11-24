@@ -1,0 +1,7 @@
+info:
+  company: sequoiadb
+  product: SequoiaDB-
+  softhard: '2'
+matches: |
+  title == "sequoiadb" && body.icontains(" onclick='toggle_tb_data(\"createcs\")")
+  body.icontains("class=\"btn btn-default\" onclick=\"updateconnect();\">")

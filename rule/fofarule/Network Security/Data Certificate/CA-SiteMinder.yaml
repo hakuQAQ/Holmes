@@ -1,0 +1,6 @@
+info:
+  company: Broadcom Inc.
+  product: CA-SiteMinder
+  softhard: '2'
+matches: |
+  body.icontains("<!-- siteminder encoding")

@@ -1,0 +1,8 @@
+info:
+  company: uniview
+  product: Uniview-Unistor
+  softhard: '1'
+matches: |
+  body.icontains("content=\"uniview")
+  body.icontains("src='app/h3cstorage.gif'")
+  title.icontains("uniview unistor - webstart")

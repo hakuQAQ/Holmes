@@ -1,0 +1,7 @@
+info:
+  company: sztoptel
+  product: TOPTEL-RG2000
+  softhard: '1'
+matches: |
+  body.icontains("action=/goform/login")
+  body.icontains("href=\"css/htmleaf-demo.css\"")

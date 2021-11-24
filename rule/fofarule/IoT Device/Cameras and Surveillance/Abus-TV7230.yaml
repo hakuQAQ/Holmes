@@ -1,0 +1,7 @@
+info:
+  company: August Bremicker und Söhne KG
+  product: Abus-TV7230
+  softhard: '1'
+matches: |
+  title.icontains("tv7230") && header.icontains("realm=\"tv7230")
+  banner.icontains("realm=\"tv7230")

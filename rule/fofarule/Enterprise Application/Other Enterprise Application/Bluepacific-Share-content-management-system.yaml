@@ -1,0 +1,6 @@
+info:
+  company: bluepacific
+  product: Bluepacific-Share-content-management-system
+  softhard: '2'
+matches: |
+  body.icontains("/visadmin/viscms/index.do")

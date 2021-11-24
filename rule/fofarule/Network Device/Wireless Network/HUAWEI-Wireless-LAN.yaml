@@ -1,0 +1,7 @@
+info:
+  company: HUAWEI
+  product: HUAWEI-Wireless-LAN
+  softhard: '1'
+matches: |
+  header.icontains("wlan") && body.icontains("cloud access point")
+  body.icontains("access controller")

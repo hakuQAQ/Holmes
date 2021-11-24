@@ -1,0 +1,8 @@
+info:
+  company: Axis Communications AB.
+  product: Axis-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  banner.icontains("network camera")
+  banner.icontains("axis") && body.icontains("<meta http-equiv=\"refresh\" content=\"0; url=/view/viewer_index.shtml?id=0\" />")
+  body.icontains("content=\"axis communications ab") && title.icontains("axis") && banner.icontains("armv4tl") && banner.icontains("axis")

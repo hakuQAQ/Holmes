@@ -1,0 +1,7 @@
+info:
+  company: easyn
+  product: EasyN-TAS-Tech-IPCam
+  softhard: '1'
+matches: |
+  header.icontains("tas-tech ipcam")
+  banner.icontains("server: tas-tech ipcam")

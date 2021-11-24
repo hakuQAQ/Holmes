@@ -1,0 +1,6 @@
+info:
+  company: Zebra Technologies Corp.
+  product: ZEBRA-105SLPlus-203dpi-ZPL
+  softhard: '1'
+matches: |
+  body.icontains("ztc 105slplus-203dpi zpl</h1>")

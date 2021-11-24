@@ -1,0 +1,9 @@
+info:
+  company: Netgear, Inc.
+  product: NETGEAR-WNR2000v5
+  softhard: '1'
+matches: |
+  header.icontains("netgear wnr2000v5")
+  banner.icontains("netgear wnr2000v5")
+  title.icontains("netgear router wnr2000v5")
+  body.icontains("class=\"router_name_div\">wnr2000v5</div>")

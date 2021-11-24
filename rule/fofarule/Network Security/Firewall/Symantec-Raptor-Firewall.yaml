@@ -1,0 +1,6 @@
+info:
+  company: Symantec Corporation
+  product: Symantec-Raptor-Firewall
+  softhard: '2'
+matches: |
+  header.icontains("simple, secure web server")

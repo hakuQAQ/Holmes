@@ -1,0 +1,8 @@
+info:
+  company: seafile
+  product: seafile
+  softhard: '2'
+matches: |
+  title.icontains("private seafile")
+  body.icontains("css/seahub.min.css")
+  body.icontains("seafile_global") && body.icontains("seafile") && title.icontains("seafile")

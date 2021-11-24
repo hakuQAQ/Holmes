@@ -1,0 +1,7 @@
+info:
+  company: avcon
+  product: AVCON-Video-On-Demand-platform
+  softhard: '1'
+matches: |
+  title.icontains("avcon-点播管理平台")
+  body.icontains("<form action=\"./avcon.action\" method")

@@ -1,0 +1,6 @@
+info:
+  company: Emerson Electric Co.
+  product: Emerson-permasense
+  softhard: '2'
+matches: |
+  body.icontains("href=\"/permasense/app/webroot/flot/css/layout.print.ie.css")

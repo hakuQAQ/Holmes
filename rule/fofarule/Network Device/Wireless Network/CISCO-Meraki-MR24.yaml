@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-Meraki-MR24
+  softhard: '1'
+matches: |
+  banner.icontains("meraki mr24")

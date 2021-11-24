@@ -1,0 +1,9 @@
+info:
+  company: SugarCRM Inc.
+  product: SugarCRM
+  softhard: '2'
+matches: |
+  body.icontains("<a href=\" javascript:void window.open('http://support.sugarcrm.com')\">support</a>")
+  body.icontains("<img style='margin-top: 2px' border='0' width='106' height='23' src='include/images/poweredby_sugarcrm.png' alt='powered by sugarcrm'>")
+  body.icontains("<script>var module_sugar_grp1 = 'users';</script><script>var action_sugar_grp1 = 'login';</script><script>jscal_today")
+  header.icontains("index.php?action=login&module=users") && title.icontains("sugarcrm")

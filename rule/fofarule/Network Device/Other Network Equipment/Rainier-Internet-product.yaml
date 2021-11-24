@@ -1,0 +1,6 @@
+info:
+  company: rainier
+  product: Rainier-Internet-product
+  softhard: '2'
+matches: |
+  body.icontains("<a href=\"http://www.rainier.net.cn\">北京润尼尔网络科技有限公司")

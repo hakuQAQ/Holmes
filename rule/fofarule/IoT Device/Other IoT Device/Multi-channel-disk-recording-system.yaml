@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: Multi-channel-disk-recording-system
+  softhard: '1'
+matches: |
+  body.icontains("id=\"webrecclient1")
+  title.icontains("multi-channel disk recording system")

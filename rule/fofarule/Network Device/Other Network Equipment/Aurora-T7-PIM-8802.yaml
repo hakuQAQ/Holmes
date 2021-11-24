@@ -1,0 +1,6 @@
+info:
+  company: Aurora
+  product: Aurora-T7-PIM-8802
+  softhard: '1'
+matches: |
+  banner.icontains("aurora t7-pim-8802")

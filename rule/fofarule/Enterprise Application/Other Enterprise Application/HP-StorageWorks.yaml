@@ -1,0 +1,7 @@
+info:
+  company: HP Development Company, L.P.
+  product: HP-StorageWorks
+  softhard: '2'
+matches: |
+  title.icontains("hp storageworks")
+  protocol.icontains("snmp") && banner.icontains("hp storageworks ")

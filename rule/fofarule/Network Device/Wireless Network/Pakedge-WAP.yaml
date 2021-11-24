@@ -1,0 +1,7 @@
+info:
+  company: Pakedge Device & Software, Inc.
+  product: Pakedge-WAP
+  softhard: '1'
+matches: |
+  banner.icontains("pakedge")
+  banner.icontains("wap")

@@ -1,0 +1,8 @@
+info:
+  company: aircheng
+  product: iWebShop
+  softhard: '2'
+matches: |
+  body.icontains("_skinpath")
+  body.icontains("_themepath")
+  body.icontains("_weburl") && body.icontains("class=\"pro_title\">iwebshop支付测试")

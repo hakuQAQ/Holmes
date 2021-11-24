@@ -1,0 +1,6 @@
+info:
+  company: COMMSCOPE
+  product: ARRIS-Home-Media-Gateway
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp") && banner.icontains("arris whole home solution media gateway")

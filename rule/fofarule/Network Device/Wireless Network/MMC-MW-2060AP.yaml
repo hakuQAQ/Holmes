@@ -1,0 +1,6 @@
+info:
+  company: MMC Technology, Inc.
+  product: MMC-MW-2060AP
+  softhard: '1'
+matches: |
+  title.icontains("mmc technology mw")

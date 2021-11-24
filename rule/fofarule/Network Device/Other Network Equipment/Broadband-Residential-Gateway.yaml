@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Broadband-Residential-Gateway
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp") && banner.icontains("broadband residential gateway")

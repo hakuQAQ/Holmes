@@ -1,0 +1,14 @@
+info:
+  company: SAP Software Solutions
+  product: SAP-Web-Application-Server
+  softhard: '2'
+matches: |
+  header.icontains("sap-usercontext")
+  banner.icontains("sap-usercontext")
+  body.icontains("name=\"sap-login-xsrf") && title.icontains("sap web application server")
+  header.icontains("server: sap web application server")
+  banner.icontains("server: sap web application server")
+  header.icontains("server: sap netweaver application server")
+  banner.icontains("server: sap netweaver application server")
+  header.icontains("server: sap j2ee engine")
+  banner.icontains("server: sap j2ee engine")

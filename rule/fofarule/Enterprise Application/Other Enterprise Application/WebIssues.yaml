@@ -1,0 +1,7 @@
+info:
+  company: Michał Męciński
+  product: WebIssues
+  softhard: '2'
+matches: |
+  body.icontains("<div id=\"header-right\">webissues")
+  body.icontains("<div><input type=\"hidden\" name=\"__formid\" id=\"field-login-__formid\" value=\"login\" />")

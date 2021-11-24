@@ -1,0 +1,6 @@
+info:
+  company: GpsGate AB
+  product: GpsGate-Server
+  softhard: '2'
+matches: |
+  title.icontains("gpsgate server  ")

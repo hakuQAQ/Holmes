@@ -1,0 +1,6 @@
+info:
+  company: linknat
+  product: VOS-VOS2009
+  softhard: '2'
+matches: |
+  body.icontains("content=\"vos2009, voip, voip运营支撑系统, 软交换\"")

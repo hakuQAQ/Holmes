@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: qmail
+  softhard: '2'
+matches: |
+  banner.icontains("214 qmail home page: http://pobox.com/~djb/qmail.html")
+  banner.icontains("qmail-ldap")
+  protocol.icontains("smtp") && protocol.icontains("imap")

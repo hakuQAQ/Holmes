@@ -1,0 +1,7 @@
+info:
+  company: Surfilter
+  product: Surfilter-NET110
+  softhard: '1'
+matches: |
+  body.icontains("net110网络安全审计系统")
+  body.icontains("simplemodal.1.4.1.min.js")

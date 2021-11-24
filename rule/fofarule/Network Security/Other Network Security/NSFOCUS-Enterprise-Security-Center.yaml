@@ -1,0 +1,9 @@
+info:
+  company: NSFOCUS
+  product: NSFOCUS-Enterprise-Security-Center
+  softhard: '2'
+matches: |
+  title.icontains("绿盟科技企业安全中心")
+  body.icontains("/login_logo_espc_zh_cn.png")
+  title.icontains("绿盟企业安全中心")
+  body.icontains("/login_logo_espc_zh_cn.png")

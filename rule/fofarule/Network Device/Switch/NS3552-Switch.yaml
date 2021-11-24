@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: NS3552-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("ns3552-8p-2s managed switch")

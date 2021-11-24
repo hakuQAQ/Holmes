@@ -1,0 +1,7 @@
+info:
+  company: Alibaba
+  product: JStorm
+  softhard: '2'
+matches: |
+  title.icontains("jstorm ui ")
+  body.icontains("content=\"jstorm")

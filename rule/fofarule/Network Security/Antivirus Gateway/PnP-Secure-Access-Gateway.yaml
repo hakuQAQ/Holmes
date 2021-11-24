@@ -1,0 +1,6 @@
+info:
+  company: PNP SECURE INC.
+  product: PnP-Secure-Access-Gateway
+  softhard: '1'
+matches: |
+  banner.icontains("pnp secure access gateway")

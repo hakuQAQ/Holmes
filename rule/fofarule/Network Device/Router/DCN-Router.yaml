@@ -1,0 +1,11 @@
+info:
+  company: Digital China Group Co., Ltd.
+  product: DCN-Router
+  softhard: '1'
+matches: |
+  body.icontains("content=\"dcn-utm-web-management")
+  body.icontains("/script/dcn_common.js")
+  body.icontains("src=\"/function/classes/class.checkcode.php")
+  body.icontains("/dcn_ui.css")
+  title == "web management" && body.icontains("'www.dcnetworks.com.cn'")
+  cert.icontains("o=digitalchina networks")

@@ -1,0 +1,9 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-Wireless-LAN-Controller
+  softhard: '1'
+matches: |
+  body.icontains("action=\"/main_login.html")
+  body.icontains("cisco systems")
+  body.icontains("onclick=\"loginaction()")
+  title == "cisco systems login" && banner.icontains("cisco_wlc")

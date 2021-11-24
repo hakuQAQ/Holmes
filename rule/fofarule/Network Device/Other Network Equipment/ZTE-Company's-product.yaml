@@ -1,0 +1,8 @@
+info:
+  company: ZTE
+  product: ZTE-Company's-product
+  softhard: '0'
+matches: |
+  banner.icontains("zte corporation")
+  header.icontains("mini web server 1.0 zte ")
+  banner.icontains("ssh-2.0-zte_ssh.") && banner.icontains("vendor: zte")

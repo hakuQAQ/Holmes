@@ -1,0 +1,6 @@
+info:
+  company: jltech
+  product: jltech
+  softhard: '2'
+matches: |
+  body.icontains("京伦建站系统 ") && body.icontains("jlwcs")

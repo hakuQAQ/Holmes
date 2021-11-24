@@ -1,0 +1,6 @@
+info:
+  company: Secworld
+  product: Secworld-SecIPS-Sensor
+  softhard: '1'
+matches: |
+  banner.icontains("secips sensor")

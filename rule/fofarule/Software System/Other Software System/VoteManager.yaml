@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: VoteManager
+  softhard: '2'
+matches: |
+  title.icontains("31cms2016投票管理系统")
+  body.icontains("content=\"微平台投票系统")
+  body.icontains("content=\"微平台投票管理系统") && body.icontains("<a href=\"http://www.cdrbp.cn\">微信数字投票")

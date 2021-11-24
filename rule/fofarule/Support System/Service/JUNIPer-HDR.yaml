@@ -1,0 +1,8 @@
+info:
+  company: Juniper Networks, Inc.
+  product: JUNIPer-HDR
+  softhard: '2'
+matches: |
+  body.icontains("/stylesheet/juniper.css")
+  body.icontains("/hdr_logo.gif")
+  title.icontains("vpn")

@@ -1,0 +1,8 @@
+info:
+  company: nstrong
+  product: Nstrong-ITmaster
+  softhard: '2'
+matches: |
+  title.icontains("网强it综合管理系统")
+  body.icontains("var base_path = '/stormweb';")
+  body.icontains("netstrong")

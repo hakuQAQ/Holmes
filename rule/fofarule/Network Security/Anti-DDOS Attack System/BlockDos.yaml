@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: BlockDos
+  softhard: '2'
+matches: |
+  banner.icontains("server: blockdos.net") && header.icontains("blockdos.net")
+  header.icontains("blockdos")

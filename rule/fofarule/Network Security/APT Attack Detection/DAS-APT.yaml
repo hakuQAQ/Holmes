@@ -1,0 +1,6 @@
+info:
+  company: DAS-security
+  product: DAS-APT
+  softhard: '2'
+matches: |
+  title.icontains("明御apt攻击")

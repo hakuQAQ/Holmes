@@ -1,0 +1,6 @@
+info:
+  company: yingtaihengxin
+  product: Serial-Device-Server-eth2232X
+  softhard: '1'
+matches: |
+  title == "串口服务器---eth2232x"

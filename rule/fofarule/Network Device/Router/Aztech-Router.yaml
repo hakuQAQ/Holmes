@@ -1,0 +1,7 @@
+info:
+  company: AZTECH GROUP LTD.
+  product: Aztech-Router
+  softhard: '1'
+matches: |
+  banner.icontains("adsl wlan")
+  banner.icontains("aztech systems, ltd.")

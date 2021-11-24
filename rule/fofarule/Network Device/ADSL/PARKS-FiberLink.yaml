@@ -1,0 +1,6 @@
+info:
+  company: PARKS
+  product: PARKS-FiberLink
+  softhard: '1'
+matches: |
+  banner.icontains("parks fiberlink")

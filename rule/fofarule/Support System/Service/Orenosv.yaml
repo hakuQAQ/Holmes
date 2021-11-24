@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: Orenosv
+  softhard: '2'
+matches: |
+  header.icontains("server: orenosv")
+  banner.icontains("server: orenosv")

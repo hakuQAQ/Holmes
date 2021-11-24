@@ -1,0 +1,6 @@
+info:
+  company: EverFocus Co., Ltd.
+  product: ECOR
+  softhard: '1'
+matches: |
+  header.icontains("ecor264") && banner.icontains("ecor264")

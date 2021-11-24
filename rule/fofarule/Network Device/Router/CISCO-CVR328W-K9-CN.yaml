@@ -1,0 +1,7 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-CVR328W-K9-CN
+  softhard: '1'
+matches: |
+  body.icontains("src='/js/cn_cvr328w'")
+  body.icontains("pidname='cvr328w-k9-cn'")

@@ -1,0 +1,7 @@
+info:
+  company: 7moor
+  product: 7moor-Product
+  softhard: '2'
+matches: |
+  body.icontains("class=\"ds_do_action domain_aboutus\"")
+  body.icontains("/javascripts/qiniu/qiniu.js")

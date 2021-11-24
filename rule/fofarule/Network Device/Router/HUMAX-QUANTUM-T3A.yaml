@@ -1,0 +1,6 @@
+info:
+  company: HUMAX Co., Ltd.
+  product: HUMAX-QUANTUM-T3A
+  softhard: '1'
+matches: |
+  body.icontains("class=\"pro-model\" align=\"left\"")

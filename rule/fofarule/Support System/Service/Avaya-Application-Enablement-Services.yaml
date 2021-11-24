@@ -1,0 +1,7 @@
+info:
+  company: Avaya Inc.
+  product: Avaya-Application-Enablement-Services
+  softhard: '2'
+matches: |
+  body.icontains("<b>application enablement services&nbsp;</b>")
+  body.icontains("avaya")

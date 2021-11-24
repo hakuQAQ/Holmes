@@ -1,0 +1,7 @@
+info:
+  company: Siemens AG.
+  product: Siemens-SIMATIC
+  softhard: '1'
+matches: |
+  banner.icontains("siemens, simatic")
+  banner.icontains("siemens ag simatic ")

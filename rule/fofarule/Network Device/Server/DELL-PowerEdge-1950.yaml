@@ -1,0 +1,8 @@
+info:
+  company: Dell Inc.
+  product: DELL-PowerEdge-1950
+  softhard: '1'
+matches: |
+  banner.icontains("poweredge-1950")
+  cert.icontains("poweredge-1950")
+  body.icontains("poweredge--1950/cgi-bin/sicweb.exe")

@@ -1,0 +1,7 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-EMG2926-Q10A
+  softhard: '1'
+matches: |
+  body.icontains("class=\"modelname\">emg2926-q10a<")
+  banner.icontains("emg2926-q10a")

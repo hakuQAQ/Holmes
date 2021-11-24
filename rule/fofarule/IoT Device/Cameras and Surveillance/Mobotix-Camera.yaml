@@ -1,0 +1,7 @@
+info:
+  company: MOBOTIX AG
+  product: Mobotix-Camera
+  softhard: '1'
+matches: |
+  body.icontains("content=\"mobotix ag") && header.icontains("mobotix camera")
+  banner.icontains("mobotix camera")

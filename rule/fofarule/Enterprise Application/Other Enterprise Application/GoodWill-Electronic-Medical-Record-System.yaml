@@ -1,0 +1,6 @@
+info:
+  company: goodwillcis
+  product: GoodWill-Electronic-Medical-Record-System
+  softhard: '2'
+matches: |
+  title.icontains("北京嘉和美康电子病历系统")

@@ -1,0 +1,6 @@
+info:
+  company: SBR
+  product: IT-internal-control-bastion-host
+  softhard: '1'
+matches: |
+  title.icontains("it内控堡垒主机")

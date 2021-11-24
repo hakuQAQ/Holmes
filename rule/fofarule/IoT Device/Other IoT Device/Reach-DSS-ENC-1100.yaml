@@ -1,0 +1,6 @@
+info:
+  company: szreach
+  product: Reach-DSS-ENC-1100
+  softhard: '1'
+matches: |
+  title.icontains(":::encoder(dss-enc-1100):::")

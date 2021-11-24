@@ -1,0 +1,7 @@
+info:
+  company: InterNiche Technologies, Inc.
+  product: InterNiche-WebServer
+  softhard: '2'
+matches: |
+  header.icontains("interniche technologies webserver")
+  banner.icontains("server: interniche technologies webserver")

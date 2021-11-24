@@ -1,0 +1,6 @@
+info:
+  company: Teradata Corporation.
+  product: teradata-Viewpoint
+  softhard: '2'
+matches: |
+  title.icontains("teradata viewpoint")

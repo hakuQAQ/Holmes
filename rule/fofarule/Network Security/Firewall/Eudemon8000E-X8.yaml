@@ -1,0 +1,10 @@
+info:
+  company: HUAWEI
+  product: Eudemon8000E-X8
+  softhard: '1'
+matches: |
+  header.icontains("huawei eudemon8000e-x8")
+  banner.icontains("eudemon8000e-x8")
+
+#yamlflag
+#header.icontains("set-cookie:")

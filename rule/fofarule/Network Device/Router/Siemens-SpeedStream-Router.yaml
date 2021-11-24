@@ -1,0 +1,9 @@
+info:
+  company: Siemens AG.
+  product: Siemens-SpeedStream-Router
+  softhard: '1'
+matches: |
+  body.icontains("<title>speedstream router management interface</title>")
+  body.icontains("siemens subscriber networks -->")
+  banner.icontains("siemens subscriber networks ")
+  banner.icontains("speedstream ")

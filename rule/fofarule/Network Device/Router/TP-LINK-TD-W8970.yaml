@@ -1,0 +1,15 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TP-LINK-TD-W8970
+  softhard: '1'
+matches: |
+  header.icontains("tp-link 300mbps wireless n gigabit adsl2+ modem router td-w8970")
+  banner.icontains("0.6.0 1.2 v000c.0 build 130201 rel.54921n")
+  banner.icontains("0.6.0 2.1 v000c.0 build 130415 rel.34164n")
+  banner.icontains("0.6.0 2.12 v000c.0 build 140613 rel.31066n")
+  banner.icontains("0.6.0 2.13 v000c.0 build 140919 rel.52310n")
+  banner.icontains("0.6.0 2.8 v000c.0 build 130828 rel.38099n")
+  banner.icontains("0.6.0 2.9 v000c.0 build 131114 rel.33362n")
+  banner.icontains("0.9.1 0.1 v0035.0 build 141010 rel.53828n")
+  banner.icontains("0.9.1 1.1 v0035.0 build 141212 rel.33999n")
+  banner.icontains("0.9.1 1.2 v0035.0 build 150427 rel.63930n")

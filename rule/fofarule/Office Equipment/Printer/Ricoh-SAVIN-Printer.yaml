@@ -1,0 +1,6 @@
+info:
+  company: Ricoh Company, Ltd.
+  product: Ricoh-SAVIN-Printer
+  softhard: '1'
+matches: |
+  banner.icontains("savin ")

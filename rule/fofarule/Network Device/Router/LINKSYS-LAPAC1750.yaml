@@ -1,0 +1,6 @@
+info:
+  company: Belkin International, Inc.
+  product: LINKSYS-LAPAC1750
+  softhard: '1'
+matches: |
+  title.icontains("lapac1750 wireless ac1750 access point with poe")

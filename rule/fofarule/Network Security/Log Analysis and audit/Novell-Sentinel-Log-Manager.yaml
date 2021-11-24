@@ -1,0 +1,7 @@
+info:
+  company: Micro Focus International plc
+  product: Novell-Sentinel-Log-Manager
+  softhard: '2'
+matches: |
+  body.icontains("title=\"novell sentinel log manager")
+  body.icontains("content=\"0;url=/novelllogmanager\">")

@@ -1,0 +1,8 @@
+info:
+  company: Digital Pulse Sdn. Bhd.
+  product: DPFax
+  softhard: '2'
+matches: |
+  title.icontains("dpfax - minifaxserver")
+  body.icontains("content=\"dpfax - minifaxserver ")
+  body.icontains("<img src=\"images/dpfax-big.png\" border=\"0\" alt=\"dpfax")

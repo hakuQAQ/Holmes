@@ -1,0 +1,6 @@
+info:
+  company: live800
+  product: Live800
+  softhard: '2'
+matches: |
+  header.icontains("live800") && header.icontains("live800")

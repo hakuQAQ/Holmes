@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: OMD-Monitoring
+  softhard: '2'
+matches: |
+  header.icontains("realm=\"omd monitoring")
+  banner.icontains("realm=\"omd monitoring")

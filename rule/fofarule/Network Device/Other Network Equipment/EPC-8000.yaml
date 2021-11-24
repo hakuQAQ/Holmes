@@ -1,0 +1,6 @@
+info:
+  company: zlg
+  product: EPC-8000
+  softhard: '1'
+matches: |
+  banner.icontains("epc-8000 ftp server")

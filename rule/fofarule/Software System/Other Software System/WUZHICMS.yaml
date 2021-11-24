@@ -1,0 +1,6 @@
+info:
+  company: wuzhicms
+  product: WUZHICMS
+  softhard: '2'
+matches: |
+  body.icontains("powered by wuzhicms") && body.icontains("content=\"wuzhicms")

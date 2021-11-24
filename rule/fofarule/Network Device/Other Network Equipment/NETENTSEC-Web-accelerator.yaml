@@ -1,0 +1,6 @@
+info:
+  company: NETENTSEC
+  product: NETENTSEC-Web-accelerator
+  softhard: '1'
+matches: |
+  title.icontains("网康广域网加速网关")

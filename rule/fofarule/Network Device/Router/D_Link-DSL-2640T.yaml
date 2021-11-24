@@ -1,0 +1,7 @@
+info:
+  company: DLink
+  product: D_Link-DSL-2640T
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"dsl-2640t")
+  banner.icontains("dsl-2640t")

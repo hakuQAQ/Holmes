@@ -1,0 +1,6 @@
+info:
+  company: Honeywell International Inc.
+  product: Honeywell-IP-AK2
+  softhard: '1'
+matches: |
+  body.icontains("class=\"ak2word\">ip-ak2")

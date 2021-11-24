@@ -1,0 +1,7 @@
+info:
+  company: Sony Corporation
+  product: SONY-PCS-Video-Conferencing
+  softhard: '1'
+matches: |
+  header.icontains("pcs-") && header.icontains(" web control")
+  banner.icontains("pcs-") && banner.icontains(" web control")

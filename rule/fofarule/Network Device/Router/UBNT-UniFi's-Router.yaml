@@ -1,0 +1,6 @@
+info:
+  company: Ubiquiti Inc.
+  product: UBNT-UniFi's-Router
+  softhard: '1'
+matches: |
+  title == "unifi" && body.icontains("<div class=\"appglobalheader\">")

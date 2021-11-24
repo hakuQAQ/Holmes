@@ -1,0 +1,6 @@
+info:
+  company: Transom Capital Group
+  product: Pelco_VideoXpert
+  softhard: '2'
+matches: |
+  title.icontains("videoxpert admin portal")

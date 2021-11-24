@@ -1,0 +1,6 @@
+info:
+  company: VIVOTEK Inc.
+  product: VIVOTEK-3102
+  softhard: '1'
+matches: |
+  banner.icontains("welcome to network camera telnet daemon")

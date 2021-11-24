@@ -1,0 +1,6 @@
+info:
+  company: KYOCERA Corporation
+  product: KYOCERA-ECOSYS-P3155dn
+  softhard: '1'
+matches: |
+  banner.icontains("ecosys p3155dn")

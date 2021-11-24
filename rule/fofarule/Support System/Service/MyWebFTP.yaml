@@ -1,0 +1,9 @@
+info:
+  company: Other
+  product: MyWebFTP
+  softhard: '2'
+matches: |
+  title.icontains("mywebftp")
+  body.icontains("href='mwftp/common/mwftp.css")
+  body.icontains("mwftp/common/mwftp.js")
+  body.icontains(">mywebftp</a>")

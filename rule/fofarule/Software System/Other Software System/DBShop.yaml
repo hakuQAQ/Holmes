@@ -1,0 +1,6 @@
+info:
+  company: dbshop
+  product: DBShop
+  softhard: '2'
+matches: |
+  body.icontains("content=\"dbshop")

@@ -1,0 +1,8 @@
+info:
+  company: YunAnBao
+  product: YunAnBao-YunXZ
+  softhard: '2'
+matches: |
+  body.icontains("id=mtokenplugin width=0 height=0 style=\"position: absolute;left: 0px; top: 0px\"")
+  body.icontains("type=application/x-xtx-axhost") && cert.icontains("domain control validated")
+  cert.icontains("云匣子")

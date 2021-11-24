@@ -1,0 +1,8 @@
+info:
+  company: ipmotor
+  product: QuarkMail
+  softhard: '2'
+matches: |
+  body.icontains("window.location.replace(\"/cgi-bin/web2cgi/index.cgi\");")
+  body.icontains("<a") && banner.icontains("quarkmail server")
+  body.icontains("<iframe src=\"/cgi-bin/web2cgi/index.cgi\" scrolling=\"no\" frameborder=")

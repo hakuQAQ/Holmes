@@ -1,0 +1,6 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-EMG2306-R10A
+  softhard: '1'
+matches: |
+  body.icontains("class=\"modelname\">emg2306-r10a")

@@ -1,0 +1,11 @@
+info:
+  company: HUAWEI
+  product: HuaWei-eSpace-product
+  softhard: '1'
+matches: |
+  banner.icontains("huawei espace ")
+  title.icontains("huawei espace ")
+  banner.icontains("espace 7900 web") && header.icontains("realm=\"enterprise ip phone huawei espace ")
+  banner.icontains("realm=\"enterprise ip phone huawei espace ")
+  header.icontains("espace") && header.icontains("sever-ver: ")
+  banner.icontains("espace") && banner.icontains("sever-ver: ")

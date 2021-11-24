@@ -1,0 +1,8 @@
+info:
+  company: intelbras lnc.
+  product: TELEFONE-IP-TIP200
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"telefone ip tip200")
+  banner.icontains("realm=\"telefone ip tip200")
+  title.icontains("telefone ip tip200/200 lite")

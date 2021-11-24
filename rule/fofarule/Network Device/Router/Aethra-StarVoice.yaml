@@ -1,0 +1,6 @@
+info:
+  company: A TLC S.r.l.
+  product: Aethra-StarVoice
+  softhard: '1'
+matches: |
+  banner.icontains("aethra starvoice - adsl integrated access device.")

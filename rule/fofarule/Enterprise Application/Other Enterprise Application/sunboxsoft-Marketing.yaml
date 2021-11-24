@@ -1,0 +1,6 @@
+info:
+  company: sunboxsoft
+  product: sunboxsoft-Marketing
+  softhard: '2'
+matches: |
+  body.icontains("/sunbox/assets/js/ace.min.js")

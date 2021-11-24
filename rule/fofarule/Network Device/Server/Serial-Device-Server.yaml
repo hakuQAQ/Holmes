@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Serial-Device-Server
+  softhard: '1'
+matches: |
+  title == "串口服务器"

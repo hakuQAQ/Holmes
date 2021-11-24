@@ -1,0 +1,7 @@
+info:
+  company: easy888
+  product: Soeasy-Website-cluster-system
+  softhard: '2'
+matches: |
+  body.icontains("egss_user")
+  title.icontains("soeasy网站集群")

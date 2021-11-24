@@ -1,0 +1,6 @@
+info:
+  company: Agencia Co.,Ltd.
+  product: doitVR-Product
+  softhard: '1'
+matches: |
+  body.icontains("src=\"/svnmedia/images/logo.svg\" alt=\"doit vr®\"")

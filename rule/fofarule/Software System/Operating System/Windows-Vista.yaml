@@ -1,0 +1,7 @@
+info:
+  company: Microsoft Corporation
+  product: Windows-Vista
+  softhard: '2'
+matches: |
+  banner.icontains("native os : windows vista ")
+  header.icontains("windows vista")

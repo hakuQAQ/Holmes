@@ -1,0 +1,6 @@
+info:
+  company: HUMAX Co.，Ltd.
+  product: HUMAX-QUANTUM-E3
+  softhard: '1'
+matches: |
+  body.icontains("class=\"pro-model\">quantum e3")

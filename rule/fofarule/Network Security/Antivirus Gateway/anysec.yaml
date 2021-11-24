@@ -1,0 +1,7 @@
+info:
+  company: anysec
+  product: anysec
+  softhard: '1'
+matches: |
+  cert.icontains("sz_dalton")
+  title.icontains("anysec login")

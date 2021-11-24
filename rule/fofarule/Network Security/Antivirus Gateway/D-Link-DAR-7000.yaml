@@ -1,0 +1,7 @@
+info:
+  company: D-Link
+  product: D-Link-DAR-7000
+  softhard: '1'
+matches: |
+  title.icontains("d-link")
+  body.icontains("dar-7000")

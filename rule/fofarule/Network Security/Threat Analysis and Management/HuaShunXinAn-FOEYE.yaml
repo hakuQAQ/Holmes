@@ -1,0 +1,8 @@
+info:
+  company: HuaShunXinAn
+  product: HuaShunXinAn-FOEYE
+  softhard: '1'
+matches: |
+  body.icontains("class=\"dlbrowsertext\"")
+  body.icontains("北京白帽汇科技有限公司")
+  title.icontains("foeye") && body.icontains("/assets/foeye/logo")

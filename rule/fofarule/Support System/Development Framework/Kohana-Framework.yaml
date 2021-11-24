@@ -1,0 +1,10 @@
+info:
+  company: Other
+  product: Kohana-Framework
+  softhard: '2'
+matches: |
+  header.icontains("kohana framework")
+  header.icontains("kohanasession")
+  header.icontains("kohanasession_data") && banner.icontains("kohana framework")
+  banner.icontains("kohanasession")
+  banner.icontains("kohanasession_data")

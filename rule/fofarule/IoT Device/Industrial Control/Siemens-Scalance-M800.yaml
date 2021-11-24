@@ -1,0 +1,6 @@
+info:
+  company: Siemens AG.
+  product: Siemens-Scalance-M800
+  softhard: '1'
+matches: |
+  cert.icontains("scalance m800")

@@ -1,0 +1,10 @@
+info:
+  company: Other
+  product: Honeypot
+  softhard: '2'
+matches: |
+  header.icontains("apache") && header.icontains("tomcat") && header.icontains("jboss") && header.icontains("uc-httpd 1.0.0")
+  header.icontains("jboss-5.0")
+  header.icontains("apache,tomcat,jboss,weblogic,phpstudy,struts")
+  header.icontains("apache") && header.icontains("tomcat") && header.icontains("jboss") && body.icontains("<h2>my resource</h2>")
+  body.icontains("<h2>blog comments</h2>")

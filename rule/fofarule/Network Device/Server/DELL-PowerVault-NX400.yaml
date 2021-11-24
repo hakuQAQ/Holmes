@@ -1,0 +1,6 @@
+info:
+  company: Dell Inc.
+  product: DELL-PowerVault-NX400
+  softhard: '1'
+matches: |
+  body.icontains("id=\"serverinfo\"> powervault nx400")

@@ -1,0 +1,6 @@
+info:
+  company: sdtec
+  product: CITEC-System
+  softhard: '2'
+matches: |
+  body.icontains("正在使用腾讯qq帐号登录消防联网系统")

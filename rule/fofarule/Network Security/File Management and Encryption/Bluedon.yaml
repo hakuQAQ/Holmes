@@ -1,0 +1,6 @@
+info:
+  company: bluedon
+  product: Bluedon
+  softhard: '2'
+matches: |
+  title.icontains("蓝盾文档安全管理系统")

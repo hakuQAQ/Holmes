@@ -1,0 +1,8 @@
+info:
+  company: '360'
+  product: 360-Skyeye
+  softhard: '1'
+matches: |
+  title.icontains("360天眼")
+  body.icontains("/index.bundle.872998a4.js")
+  body.icontains("src=\"/static/img/skyeye-logo-big.png\">")

@@ -1,0 +1,11 @@
+info:
+  company: Zoho Corporation Pvt. Ltd.
+  product: ManageEngine-ADSelfService
+  softhard: '2'
+matches: |
+  body.icontains("href=\"images/adssp_favicon.ico")
+  body.icontains("small_status_box")
+  body.icontains("src=\"adsf/js/")
+  body.icontains("manageengine")
+  title.icontains("manageengine - adselfservice plus")
+  cert.icontains("o=manageengine zoho corporation, ou=adselfservice plus")

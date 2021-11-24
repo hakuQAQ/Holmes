@@ -1,0 +1,6 @@
+info:
+  company: Raritan Inc.
+  product: Raritan-Remote-Client
+  softhard: '2'
+matches: |
+  title.icontains("raritan remote client")

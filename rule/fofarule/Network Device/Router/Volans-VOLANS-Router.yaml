@@ -1,0 +1,7 @@
+info:
+  company: adslr
+  product: Volans-VOLANS-Router
+  softhard: '1'
+matches: |
+  header.icontains("飞鱼星科技volans")
+  header.icontains("路由器")

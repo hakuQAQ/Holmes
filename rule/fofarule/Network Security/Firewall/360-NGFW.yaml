@@ -1,0 +1,10 @@
+info:
+  company: '360'
+  product: 360-NGFW
+  softhard: '1'
+matches: |
+  title.icontains("360天堤新一代智慧防火墙")
+  body.icontains("var __permission = \"360防火墙\"")
+  title.icontains("360网神新一代智慧防火墙")
+  body.icontains("<span class=\"fwtitle_big\">360 ")
+  body.icontains("ngfw_encode")

@@ -1,0 +1,6 @@
+info:
+  company: TOTOLINK
+  product: TOTO_LINK-A3
+  softhard: '1'
+matches: |
+  title == "totolink a3"

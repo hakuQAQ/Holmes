@@ -1,0 +1,6 @@
+info:
+  company: Alcatel-Lucent S.A.
+  product: Alcatel_Lucent-Ascend-Max
+  softhard: '1'
+matches: |
+  banner.icontains("ascend max-")

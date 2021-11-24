@@ -1,0 +1,6 @@
+info:
+  company: haoyuntech
+  product: Haoyun-Security
+  softhard: '1'
+matches: |
+  body.icontains("<span>浩云安防</span></div>")

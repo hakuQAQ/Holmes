@@ -1,0 +1,7 @@
+info:
+  company: raisecom
+  product: RAISECOM-Router
+  softhard: '1'
+matches: |
+  body.icontains("var lang = document.getelementsbyname(\"sradioindex\")")
+  title.icontains("web user login")

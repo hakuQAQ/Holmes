@@ -1,0 +1,8 @@
+info:
+  company: fiberhome
+  product: FiberHome-R2640
+  softhard: '1'
+matches: |
+  banner.icontains("fiberhome networks ")
+  banner.icontains("r2640") && header.icontains("fh_r2640")
+  banner.icontains("r2640-ac ")

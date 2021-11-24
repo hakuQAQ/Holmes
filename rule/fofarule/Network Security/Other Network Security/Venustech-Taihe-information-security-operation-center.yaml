@@ -1,0 +1,6 @@
+info:
+  company: venustech
+  product: Venustech-Taihe-information-security-operation-center
+  softhard: '2'
+matches: |
+  title.icontains("泰合信息安全运营中心")

@@ -1,0 +1,6 @@
+info:
+  company: D-Link
+  product: D-Link-DIR-505
+  softhard: '1'
+matches: |
+  body.icontains("<a href=\"javascript:check_is_modified('http://support.dlink.com/')\"><script>lang_obj.write('lng038')")

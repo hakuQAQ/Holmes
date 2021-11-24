@@ -1,0 +1,6 @@
+info:
+  company: Google LLC
+  product: Google-Webmaster-Platform
+  softhard: '2'
+matches: |
+  body.icontains("google-site-verification")

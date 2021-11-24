@@ -1,0 +1,7 @@
+info:
+  company: netpas
+  product: NETPAS-Traffic-management-system
+  softhard: '2'
+matches: |
+  title.icontains("netpas流量管理系统")
+  body.icontains("版权所有 <a href=\"http://www.netpas.cc")

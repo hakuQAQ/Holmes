@@ -1,0 +1,6 @@
+info:
+  company: hanwei
+  product: Hanwei-CMS
+  softhard: '2'
+matches: |
+  body.icontains("showsubpage.jsp")

@@ -1,0 +1,7 @@
+info:
+  company: Dell Inc.
+  product: DELL-PowerEdge-750
+  softhard: '1'
+matches: |
+  banner.icontains("poweredge-750")
+  cert.icontains("poweredge-750")

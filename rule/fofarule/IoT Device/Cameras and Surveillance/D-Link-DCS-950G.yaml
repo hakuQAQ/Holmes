@@ -1,0 +1,7 @@
+info:
+  company: D-Link
+  product: D-Link-DCS-950G
+  softhard: '1'
+matches: |
+  body.icontains("if (document.domain.tolowercase() == \"dcs-950g\".tolowercase())")
+  banner.icontains("dcs-950g")

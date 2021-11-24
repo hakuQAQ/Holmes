@@ -1,0 +1,7 @@
+info:
+  company: AirTies Wireless Networks
+  product: AirTies-WAV
+  softhard: '1'
+matches: |
+  banner.icontains("airties wav-")
+  banner.icontains("wireless")

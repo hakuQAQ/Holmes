@@ -1,0 +1,7 @@
+info:
+  company: pioneerw
+  product: VAA-Embedded-telephone-recording-system
+  softhard: '1'
+matches: |
+  body.icontains("content=\"先锋易讯")
+  title.icontains("先锋嵌入式电话录音系统")

@@ -1,0 +1,11 @@
+info:
+  company: The Cacti Group, Inc.
+  product: Cacti
+  softhard: '2'
+matches: |
+  header.icontains("set-cookie: cacti=")
+  title.icontains("login to cacti")
+  body.icontains("/plugins/jqueryskin/include/login.css")
+  header.icontains("cacti access")
+  banner.icontains("set-cookie: cacti=")
+  banner.icontains("cacti access")

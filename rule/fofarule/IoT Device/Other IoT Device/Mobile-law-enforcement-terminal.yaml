@@ -1,0 +1,8 @@
+info:
+  company: huadean
+  product: Mobile-law-enforcement-terminal
+  softhard: '1'
+matches: |
+  title.icontains("pmedia platform")
+  body.icontains("src=\"images/login/badgezh_cn.png")
+  body.icontains("huadean. all rights ")

@@ -1,0 +1,9 @@
+info:
+  company: Oracle Corporation
+  product: Oracle-ILOM-Web-Server
+  softhard: '2'
+matches: |
+  header.icontains("oracle-ilom-web-server")
+  banner.icontains("server: oracle-ilom-web-server")
+  header.icontains("sun-ilom-web-server") && banner.icontains("sun-ilom-web-server")
+  banner.icontains("server: ")

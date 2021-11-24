@@ -1,0 +1,6 @@
+info:
+  company: Hanwha Techwin Co., Ltd.
+  product: Hanwha-SNO-S202R
+  softhard: '1'
+matches: |
+  body.icontains("var defaultfilename = \"sno-s202r\"")

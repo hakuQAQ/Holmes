@@ -1,0 +1,6 @@
+info:
+  company: Check Point Software Technologies Ltd.
+  product: Checkpoint-Firewall
+  softhard: '1'
+matches: |
+  header.icontains("checkpoint firewall") && banner.icontains("checkpoint firewall")

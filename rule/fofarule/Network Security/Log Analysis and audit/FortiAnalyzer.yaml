@@ -1,0 +1,6 @@
+info:
+  company: Fortinet, Inc.
+  product: FortiAnalyzer
+  softhard: '2'
+matches: |
+  banner.icontains("fortianalyzer")

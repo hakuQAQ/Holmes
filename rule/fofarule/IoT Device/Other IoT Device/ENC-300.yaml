@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: ENC-300
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp")
+  banner.icontains("enc-300")

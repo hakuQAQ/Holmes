@@ -1,0 +1,6 @@
+info:
+  company: EFM Networks
+  product: ipTIME-A704NS-BCM
+  softhard: '1'
+matches: |
+  body.icontains("src=\"/images2/login_title.a704nb.gif\"")

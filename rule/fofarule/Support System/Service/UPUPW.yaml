@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: UPUPW
+  softhard: '2'
+matches: |
+  title.icontains("upupw环境集成包")

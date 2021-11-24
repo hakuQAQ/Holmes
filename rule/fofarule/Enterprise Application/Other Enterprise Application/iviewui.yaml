@@ -1,0 +1,6 @@
+info:
+  company: iviewui
+  product: iviewui
+  softhard: '2'
+matches: |
+  title.icontains("iview admin")

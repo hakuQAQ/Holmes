@@ -1,0 +1,7 @@
+info:
+  company: RPA Networks
+  product: RPA-Gateway
+  softhard: '1'
+matches: |
+  title.icontains("- residetial gateway - rpa networks")
+  body.icontains("<td align='middle' class='tb_skybg'>")

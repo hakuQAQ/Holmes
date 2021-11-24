@@ -1,0 +1,7 @@
+info:
+  company: MOXA
+  product: Moxa-ioLogik-Web-Server
+  softhard: '1'
+matches: |
+  header.icontains("iologik web server")
+  banner.icontains("iologik web server")

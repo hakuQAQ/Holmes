@@ -1,0 +1,14 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TP-LINK-TD-W8968
+  softhard: '1'
+matches: |
+  header.icontains("tp-link td-w8968")
+  banner.icontains("tp-link td-w8968")
+  title.icontains("td-w8968") && banner.icontains("0.6.0 1.1 v0005.0 build 120926 rel.27100n")
+  banner.icontains("0.6.0 1.4 v0019.0 build 130812 rel.55657n")
+  banner.icontains("0.6.0 1.7 v0019.0 build 131011 rel.50940n")
+  banner.icontains("1.0.5 build 140821 rel.52209")
+  banner.icontains("1.0.5 build 150504 rel.57027")
+  banner.icontains("1.0.5 build 150512 rel.42337")
+  banner.icontains("td-w8968")

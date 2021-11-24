@@ -1,0 +1,6 @@
+info:
+  company: Eltek AS
+  product: Eltex-R3621-W2
+  softhard: '1'
+matches: |
+  banner.icontains("eltek r3621-w2")

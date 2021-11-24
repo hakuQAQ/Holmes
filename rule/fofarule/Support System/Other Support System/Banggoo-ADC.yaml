@@ -1,0 +1,8 @@
+info:
+  company: Banggoo Technology Co. Ltd.,Inc.
+  product: Banggoo-ADC
+  softhard: '1'
+matches: |
+  body.icontains("content=\"banggoo adc ")
+  title.icontains("登录(adc :: adc1)")
+  body.icontains("欢迎登录banggoo adc管理界面</div>")

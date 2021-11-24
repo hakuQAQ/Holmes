@@ -1,0 +1,8 @@
+info:
+  company: Extreme Networks, Inc.
+  product: ExtremeWare-Company's-product
+  softhard: '0'
+matches: |
+  header.icontains("server: extremeware") && banner.icontains("server: extremeware")
+  body.icontains("<frame src=\"extremetop")
+  banner.icontains("vendor: enterasys networks")

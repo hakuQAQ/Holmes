@@ -1,0 +1,7 @@
+info:
+  company: Efficient Networks, Inc.
+  product: Efficient-Gateway
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp") && banner.icontains("efficient ")
+  banner.icontains("efficient networks ")

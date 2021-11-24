@@ -1,0 +1,6 @@
+info:
+  company: ultrapower
+  product: UltraME
+  softhard: '2'
+matches: |
+  title.icontains("me移动协调办公平台")

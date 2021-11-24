@@ -1,0 +1,9 @@
+info:
+  company: yunsuo
+  product: Yunsuo
+  softhard: '2'
+matches: |
+  header.icontains("yunsuo_session_verify")
+  banner.icontains("yunsuo_session_verify")
+  body.icontains("href=\"http://bbs.yunsuo.com.cn")
+  body.icontains("<img class=\"yunsuologo\"")

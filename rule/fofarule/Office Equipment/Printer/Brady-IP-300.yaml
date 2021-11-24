@@ -1,0 +1,6 @@
+info:
+  company: Brady Corporation
+  product: Brady-IP-300
+  softhard: '1'
+matches: |
+  banner.icontains("brady ip 300")

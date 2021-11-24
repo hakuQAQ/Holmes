@@ -1,0 +1,7 @@
+info:
+  company: SoftPLC Corporation
+  product: SoftPLC-Controller
+  softhard: '1'
+matches: |
+  header.icontains("syswww")
+  header.icontains("softplc") && banner.icontains("syswww") && banner.icontains("softplc")

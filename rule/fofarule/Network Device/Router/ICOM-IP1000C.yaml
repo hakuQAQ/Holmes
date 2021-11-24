@@ -1,0 +1,7 @@
+info:
+  company: Icom Inc.
+  product: ICOM-IP1000C
+  softhard: '1'
+matches: |
+  banner.icontains("ip1000c")
+  banner.icontains("icom inc.")

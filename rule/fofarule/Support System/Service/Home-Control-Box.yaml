@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: Home-Control-Box
+  softhard: '2'
+matches: |
+  header.icontains("realm=\"hcb_web")
+  banner.icontains("realm=\"hcb_web")

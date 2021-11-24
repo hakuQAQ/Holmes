@@ -1,0 +1,7 @@
+info:
+  company: Smartlogic Semaphore Ltd
+  product: Semaphore
+  softhard: '2'
+matches: |
+  body.icontains("www.smartlogic.com")
+  body.icontains("alt=\"powered by semaphore\"")

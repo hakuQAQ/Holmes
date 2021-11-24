@@ -1,0 +1,6 @@
+info:
+  company: LG Electronics.
+  product: LG-49UH603V-ZE
+  softhard: '1'
+matches: |
+  body.icontains("<modelnumber>49uh603v-ze</modelnumber>")

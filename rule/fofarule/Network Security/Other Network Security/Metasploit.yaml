@@ -1,0 +1,12 @@
+info:
+  company: Rapid7
+  product: Metasploit
+  softhard: '2'
+matches: |
+  title.icontains("metasploit is initializing...")
+  header.icontains("https://dev.metasploit.com")
+  banner.icontains("https://dev.metasploit.com")
+  body.icontains("r7bottom-strip")
+  body.icontains("metasploit")
+  header.icontains("_ui_session")
+  body.icontains("metasploit")

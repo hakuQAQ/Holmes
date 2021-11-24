@@ -1,0 +1,8 @@
+info:
+  company: Link International Corp.
+  product: TimeLink
+  softhard: '2'
+matches: |
+  title.icontains("timelink")
+  body.icontains("link international corp. all rights reserved")
+  body.icontains("<link rel=\"shortcut icon\" type=\"image/png\" href=\"/timelink/images/favicon.ico\"/>")

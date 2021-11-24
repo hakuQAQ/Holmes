@@ -1,0 +1,6 @@
+info:
+  company: seliSoft.
+  product: ActiveHTML
+  softhard: '2'
+matches: |
+  header.icontains("activehtml") && banner.icontains("activehtml")

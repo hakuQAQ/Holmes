@@ -1,0 +1,11 @@
+info:
+  company: Tencent
+  product: Discuz
+  softhard: '2'
+matches: |
+  title.icontains("powered by discuz")
+  body.icontains("content=\"discuz")
+  body.icontains("discuz_uid") && body.icontains("portal.php?mod=")
+  body.icontains("href=\"/forum.php?")
+  body.icontains("id=\"discuz_tips")
+  body.icontains("powered by <strong><a href=\"http://www.discuz.net")

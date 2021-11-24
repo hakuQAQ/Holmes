@@ -1,0 +1,6 @@
+info:
+  company: NETGEAR, Inc.
+  product: Netgear-Wireless-Modem
+  softhard: '1'
+matches: |
+  banner.icontains("netgear wireless cable modem")

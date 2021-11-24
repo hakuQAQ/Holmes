@@ -1,0 +1,7 @@
+info:
+  company: Synology Inc.
+  product: Synology-Router-Manager
+  softhard: '2'
+matches: |
+  body.icontains("hostname\" : \"synologyrouter\"")
+  body.icontains("content=\"synologyrouter")

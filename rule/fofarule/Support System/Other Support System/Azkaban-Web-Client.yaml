@@ -1,0 +1,6 @@
+info:
+  company: Azkaban
+  product: Azkaban-Web-Client
+  softhard: '2'
+matches: |
+  title.icontains("azkaban web client")

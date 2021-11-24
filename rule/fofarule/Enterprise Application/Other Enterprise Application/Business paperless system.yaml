@@ -1,0 +1,7 @@
+info:
+  company: Chinaunicom
+  product: Business paperless system
+  softhard: '2'
+matches: |
+  title.icontains("中国联通营业无纸化系统")
+  body.icontains("//获取营业台席pc机 ip地址 mac地址")

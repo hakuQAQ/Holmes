@@ -1,0 +1,7 @@
+info:
+  company: Sangfor
+  product: Sangfor-Company's-product
+  softhard: '0'
+matches: |
+  body.icontains("arr[count++] = '%' + ('0'+(parseint(str.substr(i, 2), 16)^key[i/2%32]).tostring(16)).touppercase().slice(-2);")
+  banner.icontains("openssh_x.ypn sangforx")

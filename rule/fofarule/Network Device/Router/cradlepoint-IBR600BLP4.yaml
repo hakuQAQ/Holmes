@@ -1,0 +1,7 @@
+info:
+  company: Cradlepoint, Inc.
+  product: cradlepoint-IBR600BLP4
+  softhard: '1'
+matches: |
+  title.icontains("login :: ibr600blp4")
+  banner.icontains("ibr600blp4")

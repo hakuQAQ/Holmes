@@ -1,0 +1,6 @@
+info:
+  company: NETENTSEC
+  product: NETENTSEC-Intelligent-traffic-management-system
+  softhard: '1'
+matches: |
+  title.icontains("网康智能流量管理系统")

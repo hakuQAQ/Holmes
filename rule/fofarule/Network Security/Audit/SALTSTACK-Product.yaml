@@ -1,0 +1,6 @@
+info:
+  company: SaltStack，Inc.
+  product: SALTSTACK-Product
+  softhard: '2'
+matches: |
+  title == "saltstack"

@@ -1,0 +1,6 @@
+info:
+  company: Cinlan
+  product: kaihuibao
+  softhard: '0'
+matches: |
+  body.icontains("<a href=\"/admin/index/home\" class=\"header-home-link\">开会宝</a>")

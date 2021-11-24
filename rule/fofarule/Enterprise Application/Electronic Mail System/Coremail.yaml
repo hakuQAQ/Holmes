@@ -1,0 +1,12 @@
+info:
+  company: Netease
+  product: Coremail
+  softhard: '2'
+matches: |
+  body.icontains("/coremail/common/")
+  title.icontains("coremail邮件系统")
+  protocol.icontains("smtp") && banner.icontains("coremail")
+  title.icontains("coremail 电子邮局")
+  body.icontains("action=\"/coremail/index.jsp")
+  body.icontains("fmt_logoalt: \"coremail 电子邮件系统")
+  banner.icontains("coremail mail")

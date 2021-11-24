@@ -1,0 +1,7 @@
+info:
+  company: ZTE
+  product: ZTE-ZXDSL
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"zxdsl")
+  banner.icontains("zxdsl")

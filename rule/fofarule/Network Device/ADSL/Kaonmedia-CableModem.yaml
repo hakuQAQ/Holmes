@@ -1,0 +1,6 @@
+info:
+  company: Kaonmedia Co., Ltd.
+  product: Kaonmedia-CableModem
+  softhard: '1'
+matches: |
+  banner.icontains("kaonmedia cablemodem")

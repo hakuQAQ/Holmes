@@ -1,0 +1,7 @@
+info:
+  company: DNS
+  product: xinnet-Mail
+  softhard: '2'
+matches: |
+  body.icontains("src=\"cgijson/getloginimg.php?img=logo")
+  body.icontains("/webmail//cssv2/tamail.css")

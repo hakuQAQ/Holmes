@@ -1,0 +1,6 @@
+info:
+  company: Sinapsi S.r.l.
+  product: SinaPSi-eSola
+  softhard: '1'
+matches: |
+  title.icontains("esolar")

@@ -1,0 +1,7 @@
+info:
+  company: Nomadix，Inc.
+  product: NOMADIX-AG-5800
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"ag 5800")
+  title == "ag 5800: login" && banner.icontains("ag 5800")

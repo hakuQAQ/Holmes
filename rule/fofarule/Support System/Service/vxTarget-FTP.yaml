@@ -1,0 +1,6 @@
+info:
+  company: Wind River
+  product: vxTarget-FTP
+  softhard: '2'
+matches: |
+  banner.icontains("vxtarget ftp server")

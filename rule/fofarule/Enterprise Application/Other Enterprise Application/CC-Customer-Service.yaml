@@ -1,0 +1,6 @@
+info:
+  company: qycn
+  product: CC-Customer-Service
+  softhard: '2'
+matches: |
+  body.icontains("<script src=\"http://kefu.qycn.com/")

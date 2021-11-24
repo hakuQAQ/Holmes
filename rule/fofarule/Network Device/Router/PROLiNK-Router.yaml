@@ -1,0 +1,10 @@
+info:
+  company: Fida International（S）Pte Ltd
+  product: PROLiNK-Router
+  softhard: '1'
+matches: |
+  body.icontains("<! copyright (c) realtek semiconductor corp.")
+  title.icontains("mmc technology mw")
+  body.icontains("tw-eav510")
+  body.icontains("<frame src=\"attention.htm\" name=\"attention\" frameborder=")
+  title.icontains("rfwell adsl router status")

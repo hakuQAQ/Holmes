@@ -1,0 +1,6 @@
+info:
+  company: zxtdsjjx
+  product: ZXTD-ManagementSystem
+  softhard: '0'
+matches: |
+  body.icontains("action=\"whichlogin.jsp\"")

@@ -1,0 +1,7 @@
+info:
+  company: Alcatel-Lucent S.A.
+  product: Alcatel_Lucent-Enterprise-gateway
+  softhard: '1'
+matches: |
+  body.icontains("欢迎登陆alcatel-lucent企业网关<p></p>请输入用户名和密码，3次出错将被锁定<p>")
+  title.icontains("欢迎登陆网页配置界面") && body.icontains("alcatel-lucent")

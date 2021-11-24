@@ -1,0 +1,6 @@
+info:
+  company: uniview
+  product: uniview-ISC2500-S
+  softhard: '1'
+matches: |
+  title.icontains("isc2500-s")

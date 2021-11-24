@@ -1,0 +1,8 @@
+info:
+  company: Oracle Corporation
+  product: Oracle-Commerce-Cloud
+  softhard: '2'
+matches: |
+  header.icontains("realm=\"oraclecommercecloud")
+  body.icontains("id=\"oracle-cc")
+  banner.icontains("realm=\"oraclecommercecloud")

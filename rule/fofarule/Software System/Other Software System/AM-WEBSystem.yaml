@@ -1,0 +1,7 @@
+info:
+  company: amtxts
+  product: AM-WEBSystem
+  softhard: '2'
+matches: |
+  body.icontains("id=\"dvlogo\"")
+  title.icontains("天心天思web管理平台")

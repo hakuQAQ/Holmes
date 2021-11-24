@@ -1,0 +1,6 @@
+info:
+  company: zkteco
+  product: Zkteco-Access-Control-System
+  softhard: '1'
+matches: |
+  body.icontains("/logozkaccess_zh-cn.jpg")

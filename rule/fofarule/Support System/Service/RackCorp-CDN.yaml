@@ -1,0 +1,7 @@
+info:
+  company: RACKCORP.
+  product: RackCorp-CDN
+  softhard: '2'
+matches: |
+  header.icontains("server: rackcorpcdn")
+  banner.icontains("server: rackcorpcdn")

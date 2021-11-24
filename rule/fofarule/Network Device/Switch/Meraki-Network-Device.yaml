@@ -1,0 +1,8 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Meraki-Network-Device
+  softhard: '1'
+matches: |
+  banner.icontains("meraki ")
+  body.icontains("alt=\"cisco meraki\" src=\"img/cisco-meraki.png\"")
+  body.icontains("src=\"images/cisco-meraki.png\"")

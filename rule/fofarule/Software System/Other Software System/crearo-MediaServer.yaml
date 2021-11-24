@@ -1,0 +1,6 @@
+info:
+  company: crearo
+  product: crearo-MediaServer
+  softhard: '2'
+matches: |
+  banner.icontains("server: crearo rtsp server")

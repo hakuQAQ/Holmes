@@ -1,0 +1,10 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TP-LINK-TD-VG3631
+  softhard: '1'
+matches: |
+  header.icontains("tp-link td-vg3631")
+  banner.icontains("tp-link td-vg3631")
+  banner.icontains("0.6.0 1.0 v0001.0 build 130413 rel.52459n")
+  banner.icontains("0.6.0 1.0 v0001.0 build 140415 rel.39003n")
+  banner.icontains("0.6.0 1.0 v0001.0 build 140925 rel.50379n")

@@ -1,0 +1,7 @@
+info:
+  company: chnitc
+  product: chnitc-System
+  softhard: '2'
+matches: |
+  body.icontains("<a href=\"http://www.chnitc.com\" style=\"text-decoration:none;color:#fff;\">")
+  body.icontains("科业开发团队出品")

@@ -1,0 +1,7 @@
+info:
+  company: FileMaker, Inc
+  product: FileMakerPro
+  softhard: '2'
+matches: |
+  header.icontains("server: filemakerpro")
+  banner.icontains("server: filemakerpro")

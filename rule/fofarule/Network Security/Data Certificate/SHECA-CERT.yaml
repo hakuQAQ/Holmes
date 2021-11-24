@@ -1,0 +1,7 @@
+info:
+  company: sheca
+  product: SHECA-CERT
+  softhard: '2'
+matches: |
+  body.icontains("content: \"获取一证通信息异常。请检查数字证书是否正常运行")
+  body.icontains("<li class=\"in\" id=\"cert_li\">")

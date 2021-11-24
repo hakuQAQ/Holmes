@@ -1,0 +1,7 @@
+info:
+  company: DrugPak, LLC
+  product: DrugPak
+  softhard: '2'
+matches: |
+  body.icontains("powered by drugpak")
+  body.icontains("/dplimg/dpstyle.css")

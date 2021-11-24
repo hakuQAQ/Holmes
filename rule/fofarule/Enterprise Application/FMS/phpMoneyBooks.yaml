@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: phpMoneyBooks
+  softhard: '2'
+matches: |
+  body.icontains("href='http://phpmoneybooks.com'>phpmoneybooks")

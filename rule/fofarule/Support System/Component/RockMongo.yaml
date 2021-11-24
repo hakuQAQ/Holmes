@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: RockMongo
+  softhard: '2'
+matches: |
+  title.icontains("rockmongo")

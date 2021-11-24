@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: Tradingeye
+  softhard: '2'
+matches: |
+  body.icontains("content=\"dpivision.com ltd\" />")
+  body.icontains("id=\"credits\"><a href=\"http://www.tradingeye.com/\">powered by tradingeye</a>")

@@ -1,0 +1,8 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-USG1900
+  softhard: '1'
+matches: |
+  banner.icontains("usg1900")
+  body.icontains("<div class=\"model\" id=\"model\" name=\"model\">usg1900</div>")
+  title.icontains("usg1900")

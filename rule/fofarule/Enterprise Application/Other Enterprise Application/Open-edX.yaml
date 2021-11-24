@@ -1,0 +1,8 @@
+info:
+  company: edX inc.
+  product: Open-edX
+  softhard: '2'
+matches: |
+  body.icontains("id=\"footer-openedx")
+  body.icontains("class=\"footer-about-openedx")
+  body.icontains("alt=\"powered by open edx")

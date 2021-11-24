@@ -1,0 +1,6 @@
+info:
+  company: Silver Peak Systems, Inc.
+  product: Silver_Peak-Company's-product
+  softhard: '1'
+matches: |
+  banner.icontains("silver peak systems, inc. ")

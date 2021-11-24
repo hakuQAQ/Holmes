@@ -1,0 +1,7 @@
+info:
+  company: lanysec
+  product: LanyEye
+  softhard: '2'
+matches: |
+  body.icontains("<font>兰眼下一代威胁感知系统</font>")
+  body.icontains("/skin/admin/img/login/laneye.png")

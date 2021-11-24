@@ -1,0 +1,6 @@
+info:
+  company: TOPSEC
+  product: Topsec-TopFilter
+  softhard: '1'
+matches: |
+  title.icontains("天融信网络卫士过滤网关")

@@ -1,0 +1,8 @@
+info:
+  company: kedacom
+  product: Kedacom-NVR
+  softhard: '1'
+matches: |
+  title.icontains("nvr station web")
+  body.icontains("location=\"index_cn.htm\";")
+  body.icontains("if(syslan == \"zh-cn") && title.icontains("wms browse nvr")

@@ -1,0 +1,8 @@
+info:
+  company: Eisoo
+  product: Eisoo-AnyBackup
+  softhard: '2'
+matches: |
+  title.icontains("anybackup")
+  body.icontains("id=\"topmask\"")
+  body.icontains("svr ('local/common/init_flag')") && title == "anybackup"

@@ -1,0 +1,6 @@
+info:
+  company: Codis
+  product: Codis
+  softhard: '2'
+matches: |
+  title == "codis" && body.icontains("ng-app=codiscontrollers")

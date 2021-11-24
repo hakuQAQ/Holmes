@@ -1,0 +1,6 @@
+info:
+  company: '360'
+  product: 360-Total-Security
+  softhard: '2'
+matches: |
+  header.icontains("x-safe-firewall") && banner.icontains("x-safe-firewall: zhuji.360.cn")

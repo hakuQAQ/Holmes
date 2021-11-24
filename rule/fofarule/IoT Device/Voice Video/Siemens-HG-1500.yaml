@@ -1,0 +1,6 @@
+info:
+  company: Siemens AG.
+  product: Siemens-HG-1500
+  softhard: '1'
+matches: |
+  title.icontains("hg 1500")

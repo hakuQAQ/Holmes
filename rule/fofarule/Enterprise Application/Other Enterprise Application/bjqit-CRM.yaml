@@ -1,0 +1,6 @@
+info:
+  company: bjqit
+  product: bjqit-CRM
+  softhard: '2'
+matches: |
+  body.icontains("href=/css/ordercomplaint")

@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: ChinaTelecomCustomerBroadbandAddressQuerySystem
+  softhard: '2'
+matches: |
+  body.icontains("<strong>客户宽带地址查询")

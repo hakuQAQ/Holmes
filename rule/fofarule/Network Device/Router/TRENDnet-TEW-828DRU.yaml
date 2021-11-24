@@ -1,0 +1,9 @@
+info:
+  company: TRENDnet, Inc.
+  product: TRENDnet-TEW-828DRU
+  softhard: '1'
+matches: |
+  title.icontains("tew-828dru")
+  body.icontains("var wanport")
+  body.icontains("capture(status_router.sys_model)</script></div>trendnet tew828dru")
+  header.icontains("realm=\"tew-828dru")

@@ -1,0 +1,6 @@
+info:
+  company: phome
+  product: EmpireCMS
+  softhard: '2'
+matches: |
+  title.icontains("powered by empirecms")

@@ -1,0 +1,7 @@
+info:
+  company: HUAWEI
+  product: HuaWei-Video-Conferencing
+  softhard: '1'
+matches: |
+  title.icontains("mcu v100r005")
+  body.icontains("window.location.replace(pathname + \"login.html\");")

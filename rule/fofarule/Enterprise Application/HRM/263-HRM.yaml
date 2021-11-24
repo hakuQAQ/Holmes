@@ -1,0 +1,7 @@
+info:
+  company: '263'
+  product: 263-HRM
+  softhard: '2'
+matches: |
+  title.icontains("263人事管理系统")
+  body.icontains("<p align=\"center\">请使用263em登陆!</p>")

@@ -1,0 +1,6 @@
+info:
+  company: facemeeting
+  product: facemeeting-Meeting
+  softhard: '2'
+matches: |
+  body.icontains("class=\"subnav\">飞视美</div>")

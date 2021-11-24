@@ -1,0 +1,6 @@
+info:
+  company: NTT DOCOMO, INC.
+  product: NTT_docomo-L-04D
+  softhard: '1'
+matches: |
+  body.icontains("model name -->l-04d connection manager")

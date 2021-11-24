@@ -1,0 +1,6 @@
+info:
+  company: ECI TELECOM
+  product: ECI-HiFOCuS
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp") && banner.icontains("eci telecom hifocus")

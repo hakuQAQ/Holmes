@@ -1,0 +1,9 @@
+info:
+  company: SIMS, Inc.
+  product: SIMSWeb
+  softhard: '2'
+matches: |
+  body.icontains("<form onsubmit=\"sendinfo(); return false;\" name=\"logon")
+  body.icontains("src=\"/simsweb/monitor.js")
+  title.icontains("simsweb loading.....")
+  body.icontains("index.html\"><font color=\"black\" face=\"arial\">loading simsweb, please wait.....</font></a></h2>")

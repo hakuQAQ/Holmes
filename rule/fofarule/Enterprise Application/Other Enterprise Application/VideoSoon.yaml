@@ -1,0 +1,7 @@
+info:
+  company: linksoon
+  product: VideoSoon
+  softhard: '2'
+matches: |
+  body.icontains("power by linksoon - videosoon")
+  body.icontains("href=\"skin/anysoondefault/anystyles.css")

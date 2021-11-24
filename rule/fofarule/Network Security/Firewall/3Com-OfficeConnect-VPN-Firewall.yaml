@@ -1,0 +1,6 @@
+info:
+  company: Hewlett Packard Enterprise
+  product: 3Com-OfficeConnect-VPN-Firewall
+  softhard: '1'
+matches: |
+  title.icontains("3com - officeconnect vpn firewall")

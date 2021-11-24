@@ -1,0 +1,6 @@
+info:
+  company: Kinemetrics All Rights Reserved.
+  product: Quanterra-Q330
+  softhard: '2'
+matches: |
+  header.icontains("q330") && body.icontains("name=\"pwr\" value=\"turn on baler power")

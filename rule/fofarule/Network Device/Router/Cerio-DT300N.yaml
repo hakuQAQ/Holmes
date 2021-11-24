@@ -1,0 +1,7 @@
+info:
+  company: CERIO Corp.
+  product: Cerio-DT300N
+  softhard: '1'
+matches: |
+  body.icontains("copyright &copy; 2012 cerio. all rights reserved")
+  title.icontains("dt-300n")

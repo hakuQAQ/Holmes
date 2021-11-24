@@ -1,0 +1,7 @@
+info:
+  company: fengzon
+  product: Foosun
+  softhard: '2'
+matches: |
+  body.icontains("created by dotnetcms") && body.icontains("for foosun")
+  body.icontains("powered by www.foosun.net,products:foosun content manage system")

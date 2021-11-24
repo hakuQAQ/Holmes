@@ -1,0 +1,10 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-WNDR3400v3
+  softhard: '1'
+matches: |
+  header.icontains("netgear wndr3400v3")
+  body.icontains("var mmc = {")
+  body.icontains("netgear wndr3400v3&nbsp;")
+  banner.icontains("netgear wndr3400v3")
+  title.icontains("netgear router wndr3400v3")

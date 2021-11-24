@@ -1,0 +1,6 @@
+info:
+  company: LG Electronics.
+  product: LG-65UH6550-UB
+  softhard: '1'
+matches: |
+  body.icontains("<modelnumber>65uh6550-ub</modelnumber>")

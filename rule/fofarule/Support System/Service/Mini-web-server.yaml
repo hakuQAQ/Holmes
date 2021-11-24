@@ -1,0 +1,9 @@
+info:
+  company: ZTE
+  product: Mini-web-server
+  softhard: '2'
+matches: |
+  header.icontains("mini web server")
+  header.icontains("zte corp")
+  banner.icontains("mini web server")
+  banner.icontains("zte corp")

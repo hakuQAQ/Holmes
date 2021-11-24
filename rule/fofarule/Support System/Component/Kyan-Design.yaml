@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Kyan-Design
+  softhard: '2'
+matches: |
+  title == "platform - login" && body.icontains("<h1 id='bluesky_education_login' ")
+  body.icontains("<meta name='author' content='http://www.kyanmedia.com'>")
+  title == "platform - login" && body.icontains("content='http://www.kyanmedia.com'>")

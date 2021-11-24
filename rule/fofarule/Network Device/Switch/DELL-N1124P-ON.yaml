@@ -1,0 +1,6 @@
+info:
+  company: Dell Inc.
+  product: DELL-N1124P-ON
+  softhard: '1'
+matches: |
+  body.icontains("class=\"login_server_default\">n1124p-on")

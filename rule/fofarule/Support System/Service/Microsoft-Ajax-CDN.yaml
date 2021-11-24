@@ -1,0 +1,8 @@
+info:
+  company: Microsoft Corporation
+  product: Microsoft-Ajax-CDN
+  softhard: '2'
+matches: |
+  header.icontains("ajax.aspnetcdn.com/ajax")
+  banner.icontains("ajax.aspnetcdn.com/ajax")
+  body.icontains("ajax.aspnetcdn.com/ajax")

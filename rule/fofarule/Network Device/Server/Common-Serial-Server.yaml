@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Common-Serial-Server
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"serial server")
+  banner.icontains("realm=\"serial server")
+  protocol.icontains("telnet") && banner.icontains("welcome to serial server")

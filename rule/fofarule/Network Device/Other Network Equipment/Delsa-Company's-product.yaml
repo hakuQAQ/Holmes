@@ -1,0 +1,7 @@
+info:
+  company: Delsa
+  product: Delsa-Company's-product
+  softhard: '0'
+matches: |
+  header.icontains("realm=\"delsa telecommunication technology")
+  banner.icontains("realm=\"delsa telecommunication technology")

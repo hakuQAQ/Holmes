@@ -1,0 +1,6 @@
+info:
+  company: infogo
+  product: Infogo-ASM6000
+  softhard: '1'
+matches: |
+  banner.icontains("asm6000")

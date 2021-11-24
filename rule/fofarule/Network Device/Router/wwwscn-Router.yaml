@@ -1,0 +1,6 @@
+info:
+  company: wwwscn
+  product: wwwscn-Router
+  softhard: '1'
+matches: |
+  title.icontains("文网卫士安全路由器")

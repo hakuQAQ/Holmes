@@ -1,0 +1,7 @@
+info:
+  company: YiYu
+  product: YiYu-OPMS
+  softhard: '2'
+matches: |
+  title.icontains("opms管理系统") && body.icontains("903561702@qq.com")
+  body.icontains("opms") && body.icontains("opms管理系统,织蝶-企业应用系统为您的企业保驾护航")

@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-Email-Security-Appliance-C690
+  softhard: '1'
+matches: |
+  title.icontains("email security appliance   c690")

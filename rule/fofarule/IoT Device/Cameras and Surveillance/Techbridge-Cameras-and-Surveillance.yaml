@@ -1,0 +1,6 @@
+info:
+  company: Techbridge
+  product: Techbridge-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  body.icontains("sorry,you need to use ie brower")

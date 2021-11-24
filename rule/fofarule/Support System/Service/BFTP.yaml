@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: BFTP
+  softhard: '2'
+matches: |
+  protocol.icontains("ftp")
+  banner.icontains("bftpd")

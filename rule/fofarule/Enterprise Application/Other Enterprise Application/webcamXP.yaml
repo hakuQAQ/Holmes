@@ -1,0 +1,7 @@
+info:
+  company: Moonware Studios.
+  product: webcamXP
+  softhard: '2'
+matches: |
+  title.icontains("webcamxp") && header.icontains("server: webcamxp 5")
+  banner.icontains("server: webcamxp 5")

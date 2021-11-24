@@ -1,0 +1,16 @@
+info:
+  company: Sangoma Technologies.
+  product: Asterisk
+  softhard: '2'
+matches: |
+  header.icontains("asterisk")
+  body.icontains("asterisk_rawmanpath")
+  banner.icontains("asterisk") && banner.icontains("server: asteriskcoxo")
+  banner.icontains("server: asterisknow") && banner.icontains("server: asteriskpbx")
+  banner.icontains("server: asteriskpbx18")
+  banner.icontains("server: asterisktz")
+  banner.icontains("server: asterisk_14.3.0") && banner.icontains("server: asterisk_dbc") && banner.icontains("server: asterisk_eut")
+  banner.icontains("server: asterisk_eutv3")
+  banner.icontains("server: mfasterisk")
+  banner.icontains("server: mttasterisk") && banner.icontains("server: mfasterisk")
+  title.icontains("asterisk")

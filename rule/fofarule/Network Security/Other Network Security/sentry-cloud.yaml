@@ -1,0 +1,7 @@
+info:
+  company: moresec
+  product: sentry-cloud
+  softhard: '2'
+matches: |
+  title.icontains("哨兵云")
+  body.icontains("src: url(/static/fonts/lcdd.eot) format(\"truetype\"), url(/static/fonts/lcdd.ttf) format(\"truetype\");")

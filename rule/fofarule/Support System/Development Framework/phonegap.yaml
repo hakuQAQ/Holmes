@@ -1,0 +1,7 @@
+info:
+  company: Adobe Systems Inc.
+  product: phonegap
+  softhard: '2'
+matches: |
+  body.icontains("phonegap.js")
+  body.icontains("cordova.js")

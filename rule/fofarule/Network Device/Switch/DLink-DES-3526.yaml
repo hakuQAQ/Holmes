@@ -1,0 +1,6 @@
+info:
+  company: DLink
+  product: DLink-DES-3526
+  softhard: '1'
+matches: |
+  banner.icontains("des-3526")

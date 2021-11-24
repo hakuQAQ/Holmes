@@ -1,0 +1,7 @@
+info:
+  company: Oracle Corporation
+  product: Oracle-Enterprise-Performance-Management-System
+  softhard: '2'
+matches: |
+  title.icontains("oracle enterprise performance management system")
+  body.icontains("<a href=\"workspace/dynamichelp")

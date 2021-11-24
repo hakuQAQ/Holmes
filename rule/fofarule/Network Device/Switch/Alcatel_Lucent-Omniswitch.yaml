@@ -1,0 +1,11 @@
+info:
+  company: Alcatel-Lucent S.A.
+  product: Alcatel_Lucent-Omniswitch
+  softhard: '1'
+matches: |
+  title.icontains("webview logon page")
+  body.icontains("document.write(errmsg==\"\"?\"&nbsp;\"")
+  header.icontains("/web/content/login.html")
+  header.icontains("agranat-emweb")
+  banner.icontains("/web/content/login.html")
+  banner.icontains("agranat-emweb")

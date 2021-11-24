@@ -1,0 +1,12 @@
+info:
+  company: scms
+  product: S-CMS
+  softhard: '2'
+matches: |
+  body.icontains("class=\"scms_container w1200\"") && body.icontains("<p class=\"alignright\">powered by s:cms - copyright ©")
+  title.icontains("scms") && body.icontains("<!-- inizio righe di indicizzazione nei motori di ricerca -->")
+  body.icontains("www.smartlogic.com")
+  body.icontains("/media/20151019095214828.png")
+  body.icontains("<h2>闪灵cms建站系统</h2>")
+  body.icontains("type=news&s_id=")
+  body.icontains("type=newsinfo&s_id=")

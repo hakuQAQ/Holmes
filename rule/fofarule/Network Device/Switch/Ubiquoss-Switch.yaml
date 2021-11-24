@@ -1,0 +1,6 @@
+info:
+  company: Ubiquiti Inc.
+  product: Ubiquoss-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("ubiquoss switch ")

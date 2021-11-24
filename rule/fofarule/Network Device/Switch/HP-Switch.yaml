@@ -1,0 +1,7 @@
+info:
+  company: HP Development Company, L.P.
+  product: HP-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("switch software version")
+  banner.icontains("hewlett-packard development company")

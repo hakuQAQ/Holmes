@@ -1,0 +1,7 @@
+info:
+  company: PengWei
+  product: TengWeiOA
+  softhard: '2'
+matches: |
+  body.icontains("/_common/scripts/global.js")
+  body.icontains("/valcode.aspx")

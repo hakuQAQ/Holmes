@@ -1,0 +1,6 @@
+info:
+  company: phpweb
+  product: PHPWEB
+  softhard: '2'
+matches: |
+  body.icontains("pdv_pagename")

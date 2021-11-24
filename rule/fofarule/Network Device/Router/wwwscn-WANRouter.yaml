@@ -1,0 +1,7 @@
+info:
+  company: wwwscn
+  product: wwwscn-WANRouter
+  softhard: '1'
+matches: |
+  title.icontains("文网卫士全千兆多wan智能路由器")
+  body.icontains("abcdefghjkmnpqrstwxyzabcdefhijkmnprstwxyz2345678")

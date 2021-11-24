@@ -1,0 +1,6 @@
+info:
+  company: '360'
+  product: 360-CDN
+  softhard: '2'
+matches: |
+  body.icontains("src=\"http://js.passport.qihucdn.com/\"")

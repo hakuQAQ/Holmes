@@ -1,0 +1,8 @@
+info:
+  company: OvisLink Corp.
+  product: AirLive-Modem
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"airlive arm-")
+  header.icontains("realm=\"airlive arm201")
+  banner.icontains("realm=\"airlive arm-") && banner.icontains("realm=\"airlive arm201")

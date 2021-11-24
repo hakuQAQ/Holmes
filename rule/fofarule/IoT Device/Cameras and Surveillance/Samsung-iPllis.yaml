@@ -1,0 +1,9 @@
+info:
+  company: Samsung Group
+  product: Samsung-iPllis
+  softhard: '1'
+matches: |
+  body.icontains("document.location.replace('./home/monitoring.cgi');")
+
+#yamlflag
+#body.icontains("<a")

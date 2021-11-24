@@ -1,0 +1,7 @@
+info:
+  company: MERCURY
+  product: MERCURY-MW313R
+  softhard: '1'
+matches: |
+  header.icontains("mw313r")
+  banner.icontains("mw313r") && banner.icontains("server:") && title.icontains("mw313r")

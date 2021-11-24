@@ -1,0 +1,7 @@
+info:
+  company: Microsoft Corporation
+  product: Windows-Server-2016
+  softhard: '2'
+matches: |
+  banner.icontains("windows server 2016")
+  header.icontains("windows server 2016")

@@ -1,0 +1,6 @@
+info:
+  company: KYOCERA Corporation
+  product: KYOCERA-IB-110
+  softhard: '1'
+matches: |
+  banner.icontains("kyocera print system ib-110")

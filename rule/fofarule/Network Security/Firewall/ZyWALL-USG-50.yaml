@@ -1,0 +1,11 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyWALL-USG-50
+  softhard: '1'
+matches: |
+  body.icontains("<div class=\"model\" id=\"model\" name=\"model\">zywall usg 50")
+  title.icontains("zywall 110")
+  title == "zywall usg 50" && banner.icontains("zywall usg 50")
+  title.icontains("zywall usg 50")
+  body.icontains("multi_lingual")
+  body.icontains("model\">zywall usg 50")

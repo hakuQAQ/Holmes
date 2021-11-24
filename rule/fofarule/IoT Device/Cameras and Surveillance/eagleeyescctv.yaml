@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: eagleeyescctv
+  softhard: '1'
+matches: |
+  body.icontains("ip surveillance for your life")
+  body.icontains("/nobody/logindevice.js")
+  header.icontains("avtech")

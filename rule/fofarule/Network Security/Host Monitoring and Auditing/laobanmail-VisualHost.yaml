@@ -1,0 +1,6 @@
+info:
+  company: laobanmail
+  product: laobanmail-VisualHost
+  softhard: '2'
+matches: |
+  body.icontains("/public/js/util/xg_oyang.js")

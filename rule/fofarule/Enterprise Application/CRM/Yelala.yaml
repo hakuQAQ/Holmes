@@ -1,0 +1,8 @@
+info:
+  company: WangYe
+  product: Yelala
+  softhard: '2'
+matches: |
+  body.icontains("/public/js/knockout-3.4.1.debug.js")
+  body.icontains("<form action=\"/index.php/home/login/login.html\" method=\"post\" id=\"login\" class=\"form\" data-bind=\"submit: submitform\">")
+  header.icontains("access-control-allow-methods")

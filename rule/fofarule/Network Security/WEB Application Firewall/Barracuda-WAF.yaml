@@ -1,0 +1,7 @@
+info:
+  company: Barracuda Networks, Inc.
+  product: Barracuda-WAF
+  softhard: '1'
+matches: |
+  banner.icontains("barracuda web application firewall")
+  header.icontains("bni__barracuda_lb_cookie=")

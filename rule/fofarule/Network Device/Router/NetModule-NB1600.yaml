@@ -1,0 +1,9 @@
+info:
+  company: NetModule AG
+  product: NetModule-NB1600
+  softhard: '1'
+matches: |
+  banner.icontains("nb1600")
+  body.icontains("content=\"netmodule ag, switzerland\"")
+  body.icontains("nb1600 netmodule router<br>")
+  title.icontains("nb1600 web manager")

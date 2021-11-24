@@ -1,0 +1,8 @@
+info:
+  company: LG Electronics.
+  product: LG-Smart-TV
+  softhard: '1'
+matches: |
+  body.icontains("<modelname>lg smart tv</modelname>")
+  body.icontains("<friendlyname>lg smart tv</friendlyname>")
+  body.icontains("<friendlyname>[lg] smart tv")

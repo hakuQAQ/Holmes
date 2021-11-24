@@ -1,0 +1,11 @@
+info:
+  company: Synology Inc.
+  product: Synology-photo-station
+  softhard: '2'
+matches: |
+  body.icontains("photo_new/syno_photo_main.js")
+  body.icontains("content=\"photo station 6\"")
+  body.icontains("content=\"service_not_available\"")
+  title.icontains("photo station 6")
+  body.icontains("content=\"photo station")
+  body.icontains("content=\"album")

@@ -1,0 +1,7 @@
+info:
+  company: TOPSEC
+  product: Topsec-TTopWAF
+  softhard: '1'
+matches: |
+  title.icontains("天融信web应用安全网关")
+  body.icontains("this.src='/style/images/rand.php?update=1'")

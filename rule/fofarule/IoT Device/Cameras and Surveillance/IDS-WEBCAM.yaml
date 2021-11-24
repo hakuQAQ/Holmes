@@ -1,0 +1,8 @@
+info:
+  company: IDS Imaging Development Systems GmbH
+  product: IDS-WEBCAM
+  softhard: '1'
+matches: |
+  body.icontains("action=\"webcam_login\"")
+  body.icontains("ids_web_change_pwd")
+  body.icontains("ids_web_")

@@ -1,0 +1,8 @@
+info:
+  company: Zakon Group LLC.
+  product: OpenConf
+  softhard: '2'
+matches: |
+  header.icontains("set-cookie: openconf=")
+  body.icontains("powered by <a href=\"http://www.openconf.org")
+  body.icontains("src=\"openconf.js?")

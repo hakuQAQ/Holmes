@@ -1,0 +1,8 @@
+info:
+  company: Technicolor SA
+  product: Thomson-Gateway
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"xauth_session_id")
+  body.icontains("thomson gateway")
+  header.icontains("realm=\"thomson gateway")

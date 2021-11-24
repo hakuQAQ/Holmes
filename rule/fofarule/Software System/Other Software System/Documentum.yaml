@@ -1,0 +1,6 @@
+info:
+  company: Dell Inc.
+  product: Documentum
+  softhard: '2'
+matches: |
+  title.icontains("documentum 6")

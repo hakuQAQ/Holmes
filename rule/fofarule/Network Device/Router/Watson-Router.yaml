@@ -1,0 +1,11 @@
+info:
+  company: Multiplex Ltd.
+  product: Watson-Router
+  softhard: '1'
+matches: |
+  title.icontains("watson management console")
+  body.icontains(" case 32: if (is_button_in_focus)")
+  banner.icontains("schmid-telecom ag")
+  banner.icontains("watson shdsl router")
+  body.icontains("<!--- page(page_login)=[login] ---><html>")
+  body.icontains("watson")

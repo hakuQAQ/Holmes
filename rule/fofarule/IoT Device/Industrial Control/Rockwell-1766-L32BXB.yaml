@@ -1,0 +1,6 @@
+info:
+  company: Rockwell Automation, Inc.
+  product: Rockwell-1766-L32BXB
+  softhard: '1'
+matches: |
+  banner.icontains("1766-l32bxb ")

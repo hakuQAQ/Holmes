@@ -1,0 +1,6 @@
+info:
+  company: usctech
+  product: USC-Gateway
+  softhard: '1'
+matches: |
+  body.icontains("href=\"ipxweb/login.html")

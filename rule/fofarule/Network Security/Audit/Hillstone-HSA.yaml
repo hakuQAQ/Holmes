@@ -1,0 +1,7 @@
+info:
+  company: HILLSTONE
+  product: Hillstone-HSA
+  softhard: '2'
+matches: |
+  body.icontains("href=\"resources/login-all.css\"")
+  title.icontains("loading")

@@ -1,0 +1,6 @@
+info:
+  company: PCITC
+  product: PCITC-System
+  softhard: '2'
+matches: |
+  body.icontains("动设备运行风险分析系统")

@@ -1,0 +1,10 @@
+info:
+  company: DLink
+  product: D_Link-DIR-815
+  softhard: '1'
+matches: |
+  header.icontains("dir-815 web server")
+  banner.icontains("dir-815") && body.icontains("target=\"_blank\">dir-815</a>")
+  body.icontains("<div class='model'>dir-815</div>")
+  body.icontains("content=\"dir-815\"")
+  body.icontains("class='title'>dir-815/ac")

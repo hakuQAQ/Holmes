@@ -1,0 +1,6 @@
+info:
+  company: Avaya Inc.
+  product: Avaya-Communication-Manager
+  softhard: '2'
+matches: |
+  body.icontains("var newlocation = \"https://\" + target + \"/cgi-bin/common/issue\";")

@@ -1,0 +1,6 @@
+info:
+  company: raisecom
+  product: Raisecom-Device
+  softhard: '1'
+matches: |
+  banner.icontains("raisecom device")

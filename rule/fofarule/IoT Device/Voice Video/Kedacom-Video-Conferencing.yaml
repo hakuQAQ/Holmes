@@ -1,0 +1,7 @@
+info:
+  company: kedacom
+  product: Kedacom-Video-Conferencing
+  softhard: '1'
+matches: |
+  title.icontains("kedacom meeting teminal ")
+  title.icontains("meeting control system - kedacom")

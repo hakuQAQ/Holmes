@@ -1,0 +1,6 @@
+info:
+  company: TengDa
+  product: Tenda-AC15
+  softhard: '1'
+matches: |
+  banner.icontains("tenda ac15")

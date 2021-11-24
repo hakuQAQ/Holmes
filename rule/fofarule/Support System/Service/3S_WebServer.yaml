@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: 3S_WebServer
+  softhard: '2'
+matches: |
+  header.icontains("3s_webserver")
+  banner.icontains("3s_webserver")
+  banner.icontains("server: ")

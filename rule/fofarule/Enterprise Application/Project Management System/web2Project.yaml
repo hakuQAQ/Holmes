@@ -1,0 +1,7 @@
+info:
+  company: SRS Solutions
+  product: web2Project
+  softhard: '2'
+matches: |
+  header.icontains("set-cookie web2project")
+  body.icontains("</head><body>fatal error. you haven't created a config file yet.<br/><a href=")

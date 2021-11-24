@@ -1,0 +1,8 @@
+info:
+  company: Hewlett Packard Enterprise Development LP
+  product: HP-Blade-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("ethernet blade switch for hp")
+  header.icontains("realm=\"ethernet blade switch for hp")
+  banner.icontains("hp pc blade switch")

@@ -1,0 +1,6 @@
+info:
+  company: Lantronix, Inc.
+  product: LANTRONIX-SCS1600
+  softhard: '1'
+matches: |
+  banner.icontains("lantronix scs1600")

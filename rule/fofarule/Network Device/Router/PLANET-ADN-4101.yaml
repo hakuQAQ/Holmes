@@ -1,0 +1,8 @@
+info:
+  company: PLANET Technology Corporation.
+  product: PLANET-ADN-4101
+  softhard: '1'
+matches: |
+  title.icontains("planet adn-4101")
+  header.icontains("realm=\"adn-4101")
+  banner.icontains("adn-4101")

@@ -1,0 +1,6 @@
+info:
+  company: Hanvon
+  product: hw99-Checking
+  softhard: '2'
+matches: |
+  body.icontains("/hwface/script/logincheck.js")

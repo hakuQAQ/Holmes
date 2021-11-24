@@ -1,0 +1,6 @@
+info:
+  company: Canon Inc.
+  product: Canon-MX450-series
+  softhard: '1'
+matches: |
+  body.icontains("nowrap>canon mx450 series</td>")

@@ -1,0 +1,6 @@
+info:
+  company: Zyxel
+  product: ZyXEL-SBG5500
+  softhard: '1'
+matches: |
+  banner.icontains("sbg5500")

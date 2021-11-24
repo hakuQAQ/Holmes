@@ -1,0 +1,6 @@
+info:
+  company: Trend Micro Incorporated.
+  product: TrendMicro-S1050F
+  softhard: '1'
+matches: |
+  cert.icontains("commonname: n-s1050f-50r4-3018")

@@ -1,0 +1,6 @@
+info:
+  company: TOPSEC
+  product: Topsec-Intrusion-prevention-system-TopIDP
+  softhard: '1'
+matches: |
+  body.icontains("天融信入侵防御系统topidp")

@@ -1,0 +1,6 @@
+info:
+  company: Trango Networks LLC
+  product: Trango-Systems--Company's-product
+  softhard: '0'
+matches: |
+  banner.icontains("trango systems inc. snmp ")

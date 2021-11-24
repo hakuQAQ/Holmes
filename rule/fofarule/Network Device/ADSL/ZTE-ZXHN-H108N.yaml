@@ -1,0 +1,10 @@
+info:
+  company: ZTE
+  product: ZTE-ZXHN-H108N
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"zxhn h108n")
+  banner.icontains("realm=\"zxhn h108n")
+  body.icontains("<modelname>zxhn h108n</modelname>")
+  title.icontains("zxhn h108n")
+  banner.icontains("login:zxhn h108n")

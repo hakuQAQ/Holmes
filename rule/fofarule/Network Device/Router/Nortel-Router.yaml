@@ -1,0 +1,8 @@
+info:
+  company: Avaya Inc.
+  product: Nortel-Router
+  softhard: '1'
+matches: |
+  body.icontains("nowrap>router model:")
+  body.icontains("about nortel secure router")
+  header.icontains("nortel http server")

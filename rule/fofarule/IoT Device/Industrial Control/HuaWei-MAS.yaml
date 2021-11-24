@@ -1,0 +1,6 @@
+info:
+  company: HUAWEI
+  product: HuaWei-MAS
+  softhard: '1'
+matches: |
+  banner.icontains("mas ") && banner.icontains("huawei technologies ")

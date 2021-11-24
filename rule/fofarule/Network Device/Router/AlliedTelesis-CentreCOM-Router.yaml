@@ -1,0 +1,6 @@
+info:
+  company: Allied Telesis, Inc.
+  product: AlliedTelesis-CentreCOM-Router
+  softhard: '1'
+matches: |
+  banner.icontains("centrecom ")

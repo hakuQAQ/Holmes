@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Camera-Web-Server
+  softhard: '2'
+matches: |
+  header.icontains("camera web server")

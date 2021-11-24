@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: iNovo-IB8120
+  softhard: '1'
+matches: |
+  banner.icontains("inovo ib-8120-w21")

@@ -1,0 +1,6 @@
+info:
+  company: Hitachi Data Systems Corporation
+  product: Hitachi-DF600F
+  softhard: '1'
+matches: |
+  banner.icontains("hitachi  df600f")

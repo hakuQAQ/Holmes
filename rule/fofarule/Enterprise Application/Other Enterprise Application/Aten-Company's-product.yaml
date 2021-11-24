@@ -1,0 +1,9 @@
+info:
+  company: ATEN INTERNATIONAL Co., Ltd.
+  product: Aten-Company's-product
+  softhard: '1'
+matches: |
+  body.icontains("<meta name=\"aten international co ltd.")
+  body.icontains("action=\"/cgi/login.cgi")
+  body.icontains("name=\"aten international co ltd.")
+  body.icontains("document.writeln(lang.lang_login_prompt)")

@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: GoCDN
+  softhard: '2'
+matches: |
+  header.icontains("gocdn")

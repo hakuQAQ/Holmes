@@ -1,0 +1,6 @@
+info:
+  company: hongtec
+  product: HONGHAO-WLAN
+  softhard: '1'
+matches: |
+  title.icontains("弘浩明传 - 集中无线控制器")

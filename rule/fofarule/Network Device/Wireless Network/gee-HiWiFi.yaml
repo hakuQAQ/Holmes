@@ -1,0 +1,7 @@
+info:
+  company: hiwifi
+  product: gee-HiWiFi
+  softhard: '1'
+matches: |
+  body.icontains("此方法与hiwifi中的方法保持一致")
+  header.icontains("hiwifi")

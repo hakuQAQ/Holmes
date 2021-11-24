@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-Prime-Network-Registrar
+  softhard: '2'
+matches: |
+  body.icontains("productname=\"network registrar")

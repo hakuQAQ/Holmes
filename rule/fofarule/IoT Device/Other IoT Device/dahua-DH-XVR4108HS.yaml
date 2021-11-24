@@ -1,0 +1,6 @@
+info:
+  company: Dahua
+  product: dahua-DH-XVR4108HS
+  softhard: '1'
+matches: |
+  banner.icontains("dh-xvr4108hs")

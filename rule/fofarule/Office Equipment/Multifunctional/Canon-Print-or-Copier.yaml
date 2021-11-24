@@ -1,0 +1,9 @@
+info:
+  company: Canon Inc.
+  product: Canon-Print-or-Copier
+  softhard: '1'
+matches: |
+  header.icontains("canon http server")
+  protocol.icontains("snmp") && banner.icontains("canon") && title.icontains("ir-adv") && body.icontains("<span id=\"devicename\">ir-adv")
+  header.icontains("server: catwalk")
+  banner.icontains("server: catwalk")

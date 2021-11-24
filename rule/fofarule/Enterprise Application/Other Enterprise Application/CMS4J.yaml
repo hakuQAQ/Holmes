@@ -1,0 +1,7 @@
+info:
+  company: paidao
+  product: CMS4J
+  softhard: '2'
+matches: |
+  body.icontains("href=\"/cms4jadmin/login.jsp")
+  body.icontains("method=\"post\" name=\"cms4jsearchform\" id=\"cms4jsearchform")

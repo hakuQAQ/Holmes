@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: uTorrent
+  softhard: '2'
+matches: |
+  header.icontains("basic realm=\"utorrent\"")
+  banner.icontains("basic realm=\"utorrent\"")
+  header.icontains("www-authenticate basic realm=\"utorrent")

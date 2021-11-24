@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: ESMTP-Exim
+  softhard: '2'
+matches: |
+  banner.icontains("esmtp exim")

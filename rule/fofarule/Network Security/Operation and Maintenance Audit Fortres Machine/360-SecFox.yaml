@@ -1,0 +1,12 @@
+info:
+  company: '360'
+  product: 360-SecFox
+  softhard: '1'
+matches: |
+  body.icontains("id=mtokenplugin width=0 height=0 style=\"position: absolute;left: 0px; top: 0px\"")
+  body.icontains("type=application/x-xtx-axhost") && cert.icontains("organization: 360企业安全集团")
+  title.icontains("网神secfox安全审计系统")
+  title.icontains("secfox-las-bh")
+  title.icontains("secfox") && body.icontains("document.getelementbyid('pic').src")
+  body.icontains("class=\"secfox-login-browser-continue\"")
+  body.icontains("<p>欢迎您使用网神secfox日志收集与分析系统")

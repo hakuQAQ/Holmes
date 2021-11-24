@@ -1,0 +1,6 @@
+info:
+  company: jovision
+  product: Cloudsee-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  header.icontains("jdvr/4.0") && body.icontains("data-i18n-l=\"jovision")

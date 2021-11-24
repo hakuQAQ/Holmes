@@ -1,0 +1,6 @@
+info:
+  company: Ruijie
+  product: Ruijie-RG-NPE
+  softhard: '1'
+matches: |
+  banner.icontains("rg-npe")

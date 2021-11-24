@@ -1,0 +1,8 @@
+info:
+  company: hishop
+  product: HiShop
+  softhard: '2'
+matches: |
+  body.icontains("hishop.plugins.openid")
+  body.icontains("hishop development team")
+  header.icontains("hishop:")

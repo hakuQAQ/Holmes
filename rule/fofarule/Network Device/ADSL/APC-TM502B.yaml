@@ -1,0 +1,6 @@
+info:
+  company: Schneider Electric
+  product: APC-TM502B
+  softhard: '1'
+matches: |
+  banner.icontains("tm502b")

@@ -1,0 +1,7 @@
+info:
+  company: Motorola Solutions, Inc
+  product: Motorola-DCX-Media-device
+  softhard: '1'
+matches: |
+  banner.icontains("vendor: motorola corporation;")
+  banner.icontains("dcx-")

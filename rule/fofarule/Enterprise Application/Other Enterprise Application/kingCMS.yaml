@@ -1,0 +1,7 @@
+info:
+  company: kingcms
+  product: kingCMS
+  softhard: '2'
+matches: |
+  title.icontains("kingcms") && body.icontains("content=\"kingcms")
+  body.icontains("powered by kingcms")

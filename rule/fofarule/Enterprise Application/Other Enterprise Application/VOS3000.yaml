@@ -1,0 +1,7 @@
+info:
+  company: linknat
+  product: VOS3000
+  softhard: '2'
+matches: |
+  title == "vos3000" && body.icontains("content=\"vos3000")
+  body.icontains("images/vos3000.ico")

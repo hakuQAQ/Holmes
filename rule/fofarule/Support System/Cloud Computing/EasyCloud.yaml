@@ -1,0 +1,6 @@
+info:
+  company: Alibaba Group
+  product: EasyCloud
+  softhard: '2'
+matches: |
+  body.icontains("<h1 class=\"white\">云资源管控平台</h1>")

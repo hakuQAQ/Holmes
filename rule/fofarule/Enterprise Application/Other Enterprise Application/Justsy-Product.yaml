@@ -1,0 +1,7 @@
+info:
+  company: justsafe
+  product: Justsy-Product
+  softhard: '0'
+matches: |
+  title.icontains("密聊后台管理系统")
+  body.icontains("嘉兴嘉赛信息技术有限公司. all rights reserved.")

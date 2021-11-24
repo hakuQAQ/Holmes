@@ -1,0 +1,7 @@
+info:
+  company: InterRed GmbH
+  product: InterRed
+  softhard: '2'
+matches: |
+  body.icontains("content=\"interred")
+  body.icontains("created with interred")

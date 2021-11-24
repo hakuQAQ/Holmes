@@ -1,0 +1,7 @@
+info:
+  company: vts
+  product: VTS-CMS
+  softhard: '2'
+matches: |
+  title.icontains("vts后台管理系统")
+  body.icontains("errmag")

@@ -1,0 +1,6 @@
+info:
+  company: Hewlett Packard Enterprise Development LP
+  product: HP-3Com-3CRWE554G72
+  softhard: '1'
+matches: |
+  body.icontains("http-equiv=\"3cnumber\" content=\"3crwe554g72\"")

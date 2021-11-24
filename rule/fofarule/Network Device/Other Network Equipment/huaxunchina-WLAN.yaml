@@ -1,0 +1,7 @@
+info:
+  company: huaxunchina
+  product: huaxunchina-WLAN
+  softhard: '1'
+matches: |
+  body.icontains("var url=\"resetwebsvr.php?act=reset\";")
+  title == "华讯方舟 - 集中无线控制器"

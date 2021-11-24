@@ -1,0 +1,6 @@
+info:
+  company: DeShang
+  product: DESHANG-DSMALL
+  softhard: '2'
+matches: |
+  body.icontains("/static/plugins/js/dialog/dialog.js\" id=\"dialog_js\"")

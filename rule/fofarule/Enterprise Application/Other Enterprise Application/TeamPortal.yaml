@@ -1,0 +1,6 @@
+info:
+  company: TeamSystem S.p.A.
+  product: TeamPortal
+  softhard: '2'
+matches: |
+  body.icontains("ts_expiredurl")

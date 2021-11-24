@@ -1,0 +1,6 @@
+info:
+  company: New Rock
+  product: New-Rock--IP-PBX-Management-System
+  softhard: '2'
+matches: |
+  body.icontains("var data = formatparams(params.data)")

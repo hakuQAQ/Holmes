@@ -1,0 +1,7 @@
+info:
+  company: Sierra Wireless Inc.
+  product: uplink-Product
+  softhard: '1'
+matches: |
+  title.icontains("up-link")
+  body.icontains("up-link systems, inc.")

@@ -1,0 +1,7 @@
+info:
+  company: Vision Engineering Ltd.
+  product: Evo-Cam
+  softhard: '1'
+matches: |
+  body.icontains("value=\"evocam.jar")
+  body.icontains("<applet archive=\"evocam.jar")

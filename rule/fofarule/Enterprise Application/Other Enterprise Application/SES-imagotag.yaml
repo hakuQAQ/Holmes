@@ -1,0 +1,6 @@
+info:
+  company: SES imagotag
+  product: SES-imagotag
+  softhard: '1'
+matches: |
+  body.icontains("href=\"/xsl/accesspoint.xsl\"")

@@ -1,0 +1,6 @@
+info:
+  company: Topbpm
+  product: Topbpm-User-Authorization-Center
+  softhard: '2'
+matches: |
+  body.icontains("src=\"/images/sinopeclogo.png\"")

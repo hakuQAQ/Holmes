@@ -1,0 +1,6 @@
+info:
+  company: siangsoft
+  product: siangsoft-FileSystem
+  softhard: '2'
+matches: |
+  body.icontains("$.cookie('sianglng' , null)")

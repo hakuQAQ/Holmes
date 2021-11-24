@@ -1,0 +1,7 @@
+info:
+  company: EDIMAX Technology Co., Ltd.
+  product: EDIMAX-Company's-product
+  softhard: '0'
+matches: |
+  title.icontains("edimax technology")
+  body.icontains("content=\"edimax")

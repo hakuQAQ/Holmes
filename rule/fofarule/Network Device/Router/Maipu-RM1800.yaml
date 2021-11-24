@@ -1,0 +1,7 @@
+info:
+  company: Maipu
+  product: Maipu-RM1800
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"rm1800")
+  banner.icontains("rm1800")

@@ -1,0 +1,10 @@
+info:
+  company: Other
+  product: zikula-framework
+  softhard: '2'
+matches: |
+  header.icontains("zikulasid1")
+  header.icontains("zikulasid2")
+  header.icontains("zikulasid3") && banner.icontains("zikulasid1")
+  banner.icontains("zikulasid2")
+  banner.icontains("zikulasid3")

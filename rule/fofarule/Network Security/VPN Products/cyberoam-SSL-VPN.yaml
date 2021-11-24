@@ -1,0 +1,6 @@
+info:
+  company: Sophos Technologies Pvt. Ltd.
+  product: cyberoam-SSL-VPN
+  softhard: '1'
+matches: |
+  body.icontains("src=\"/images/customizeimages/uploadedlogo.jpg\"")

@@ -1,0 +1,8 @@
+info:
+  company: Apache Software Foundation.
+  product: APACHE-Unomi
+  softhard: '2'
+matches: |
+  cert.icontains("apache unomi")
+  title.icontains("apache unomi welcome page")
+  body.icontains("logo apache unomi")

@@ -1,0 +1,6 @@
+info:
+  company: Open Document Management System S.L.
+  product: OpenKM
+  softhard: '2'
+matches: |
+  title == "openkm login"

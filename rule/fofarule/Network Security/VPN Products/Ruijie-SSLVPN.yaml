@@ -1,0 +1,6 @@
+info:
+  company: Ruijie
+  product: Ruijie-SSLVPN
+  softhard: '0'
+matches: |
+  body.icontains("document.cookie = \"rjsslvpn_encookie=yes;\"")

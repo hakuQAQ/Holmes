@@ -1,0 +1,8 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TP-LINK-TD-8840T
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"td-8840t")
+  banner.icontains("0.8.0 1.1 v0007.0 build 130621 rel.36846n")
+  banner.icontains("0.8.0 2.4 v0007.0 build 141022 rel.38384n")

@@ -1,0 +1,9 @@
+info:
+  company: 'Ubiquiti Inc. '
+  product: Ubiquiti-airCube-ISP
+  softhard: '1'
+matches: |
+  body.icontains("href=\"main.90b93d4e91.css\"")
+  body.icontains("href=\"main.3bd1a14e0b.css\"")
+  body.icontains("href=\"main.c3c0eeb2ed.css\"")
+  title.icontains("aircube dashboard")

@@ -1,0 +1,6 @@
+info:
+  company: MOXA
+  product: Moxa-Network-Enabler
+  softhard: '1'
+matches: |
+  title.icontains("network enabler web console") && body.icontains("src=\"main.htm\"")

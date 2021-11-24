@@ -1,0 +1,6 @@
+info:
+  company: ZTE
+  product: ZTE-W860A
+  softhard: '1'
+matches: |
+  banner.icontains("w860a")

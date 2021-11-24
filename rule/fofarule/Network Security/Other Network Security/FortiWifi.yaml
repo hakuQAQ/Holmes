@@ -1,0 +1,8 @@
+info:
+  company: Fortinet, Inc.
+  product: FortiWifi
+  softhard: '1'
+matches: |
+  banner.icontains("fortiwifi")
+  banner.icontains("fortiwifi60b")
+  banner.icontains("fortiwifi60c") && header.icontains("fortiwifi")

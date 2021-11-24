@@ -1,0 +1,8 @@
+info:
+  company: Colasoft
+  product: Colasoft-MDP
+  softhard: '2'
+matches: |
+  body.icontains("科来 版权所有 保留所有权利")
+  body.icontains("<div id=\"processtime\" time=\"0.000033\" >#processtime</div>")
+  title.icontains("科来元数据分析系统（mdp)") && title.icontains("科来元数据分析系统")

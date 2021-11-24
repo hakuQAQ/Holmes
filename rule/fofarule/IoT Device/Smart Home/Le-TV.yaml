@@ -1,0 +1,8 @@
+info:
+  company: LeEco
+  product: Le-TV
+  softhard: '1'
+matches: |
+  header.icontains("letv live")
+  banner.icontains("letv live")
+  banner.icontains("server:")

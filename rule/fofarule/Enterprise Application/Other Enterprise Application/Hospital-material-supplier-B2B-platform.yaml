@@ -1,0 +1,6 @@
+info:
+  company: hspcn
+  product: Hospital-material-supplier-B2B-platform
+  softhard: '2'
+matches: |
+  body.icontains("医院物资供应商b2b平台")

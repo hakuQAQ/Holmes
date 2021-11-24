@@ -1,0 +1,8 @@
+info:
+  company: Colasoft
+  product: Colasoft-Network-Information-Comprehensive-Detection-and-Processing-Platform
+  softhard: '2'
+matches: |
+  title.icontains("科来网络信息综合检测处理平台")
+  body.icontains("<meta name=\"colasoft\"")
+  body.icontains("科来网络信息综合检测处理平台")

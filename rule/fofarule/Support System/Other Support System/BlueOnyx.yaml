@@ -1,0 +1,7 @@
+info:
+  company: Compass Networks
+  product: BlueOnyx
+  softhard: '2'
+matches: |
+  title.icontains("login - blueonyx")
+  body.icontains("thank you for using the blueonyx")

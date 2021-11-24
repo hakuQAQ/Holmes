@@ -1,0 +1,6 @@
+info:
+  company: Zyxel Communications Corp.
+  product: zyxel-P874S7
+  softhard: '1'
+matches: |
+  banner.icontains("p874s7_tr069_20180413")

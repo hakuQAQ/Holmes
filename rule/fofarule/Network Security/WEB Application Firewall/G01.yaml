@@ -1,0 +1,9 @@
+info:
+  company: gov110
+  product: G01
+  softhard: '2'
+matches: |
+  header.icontains("security_session_verify")
+  header.icontains("yunsuo_session_verify")
+  body.icontains("href=\"http://bbs.yunsuo.com.cn")
+  body.icontains("<img class=\"yunsuologo\"")

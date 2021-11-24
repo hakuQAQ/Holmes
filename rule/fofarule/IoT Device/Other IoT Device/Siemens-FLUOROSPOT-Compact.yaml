@@ -1,0 +1,7 @@
+info:
+  company: Siemens AG.
+  product: Siemens-FLUOROSPOT-Compact
+  softhard: '1'
+matches: |
+  title.icontains("fluorospot compact")
+  body.icontains("<form id=\"inicio\" name=\"inicio\" action=\"/rsf/init.do\"")

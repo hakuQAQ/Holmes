@@ -1,0 +1,7 @@
+info:
+  company: Micronet Communication Inc.
+  product: Micronet-Router
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"securesoho web configuration")
+  banner.icontains("realm=\"securesoho web configuration")

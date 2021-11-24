@@ -1,0 +1,6 @@
+info:
+  company: ZTE
+  product: ZTE-OP-EONU-92001Z
+  softhard: '1'
+matches: |
+  body.icontains("op-eonu 92001z</font></div>")

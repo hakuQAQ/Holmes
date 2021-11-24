@@ -1,0 +1,7 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-GS716Tv3
+  softhard: '1'
+matches: |
+  body.icontains("class=\"gs716tv3image spacer50percent topalign righthalign\"")
+  banner.icontains("gs716tv3")

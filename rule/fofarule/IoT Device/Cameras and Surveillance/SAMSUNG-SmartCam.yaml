@@ -1,0 +1,10 @@
+info:
+  company: Samsung Group
+  product: SAMSUNG-SmartCam
+  softhard: '1'
+matches: |
+  header.icontains("hss web server")
+  banner.icontains("hss web server")
+  body.icontains("pages/camera_login.php?login=true")
+  header.icontains("smartcamwebservice")
+  banner.icontains("server: smartcamwebservice")

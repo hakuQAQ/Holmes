@@ -1,0 +1,6 @@
+info:
+  company: WHOLETON
+  product: WHOLETON-Remote-Access
+  softhard: '1'
+matches: |
+  body.icontains(" 远程接入平台") && body.icontains("<a href=\"http://www.wholeton.com\" target=\"_blank\">")

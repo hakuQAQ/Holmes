@@ -1,0 +1,6 @@
+info:
+  company: influxdata
+  product: chronograf
+  softhard: '2'
+matches: |
+  title == "chronograf"

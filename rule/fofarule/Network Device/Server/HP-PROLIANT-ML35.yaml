@@ -1,0 +1,6 @@
+info:
+  company: Hewlett Packard Enterprise Development LP
+  product: HP-PROLIANT-ML35
+  softhard: '1'
+matches: |
+  banner.icontains("proliant-ml35")

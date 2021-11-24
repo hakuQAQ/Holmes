@@ -1,0 +1,14 @@
+info:
+  company: leadsec
+  product: Leadsec-Security-gateway
+  softhard: '1'
+matches: |
+  title == "联想网御 安全网关" && title.icontains("sag系统")
+  body.icontains("var cookiename = \"sagloginfailtimes\";")
+  body.icontains("<img src=\"securitycodeservlet")
+  title.icontains("网御 安全网关")
+  body.icontains("href=\"leadsec.cer")
+  body.icontains("id=\"changeyzm\"")
+  body.icontains("www.leadsec.com.cn</a>")
+  body.icontains("content=\"北京启明星辰信息安全技术有限公司\"")
+  body.icontains("txt_username\").val()==\"administrator\"")

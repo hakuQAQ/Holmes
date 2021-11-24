@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: TOTVS-SmartClient
+  softhard: '2'
+matches: |
+  body.icontains("<param name=\"environment\" value=")

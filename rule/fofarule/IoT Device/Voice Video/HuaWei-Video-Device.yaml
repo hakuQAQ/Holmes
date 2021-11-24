@@ -1,0 +1,7 @@
+info:
+  company: HUAWEI
+  product: HuaWei-Video-Device
+  softhard: '1'
+matches: |
+  body.icontains("<html><body><script language=javascript>window.open('/cn/login.htm','_top', null, true);</script></body></html>")
+  header.icontains("host: huaweivp")

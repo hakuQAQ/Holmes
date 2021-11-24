@@ -1,0 +1,7 @@
+info:
+  company: Apache Software Foundation.
+  product: Apache-Forrest
+  softhard: '2'
+matches: |
+  body.icontains("content=\"apache forrest")
+  body.icontains("name=\"forrest")

@@ -1,0 +1,18 @@
+info:
+  company: Dell Inc.
+  product: Dell-Remote-Access-Controller
+  softhard: '1'
+matches: |
+  body.icontains("/cgi-bin/webcgi/ssologin")
+  header.icontains("server: rac_one_http")
+  banner.icontains("server: rac_one_http") && title.icontains("dell remote management controller")
+  body.icontains("javascript:getaimintprop")
+  body.icontains("top.document.location.href = \"/index.html?console\";")
+  banner.icontains("dell out-of-band")
+  banner.icontains("remote access controller")
+  body.icontains("/session?aimgetintprop")
+  body.icontains("/index.html?console")
+  protocol.icontains("snmp") && banner.icontains("linux idrac-")
+  header.icontains("/start.html")
+  header.icontains("embedthis")
+  banner.icontains("/applications/dellui/login.htm") && title.icontains("dell remote access controller")

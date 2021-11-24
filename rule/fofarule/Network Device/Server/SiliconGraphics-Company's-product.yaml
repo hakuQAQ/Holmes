@@ -1,0 +1,6 @@
+info:
+  company: SGI
+  product: SiliconGraphics-Company's-product
+  softhard: '0'
+matches: |
+  banner.icontains("silicon graphics ")

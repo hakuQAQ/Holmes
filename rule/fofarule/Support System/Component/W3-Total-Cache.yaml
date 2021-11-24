@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: W3-Total-Cache
+  softhard: '2'
+matches: |
+  header.icontains("x-powered-by w3 total cache")
+  body.icontains("<!-- performance optimized by w3 total cache. learn more: http://www.w3-edge.com/wordpress-plugins/")

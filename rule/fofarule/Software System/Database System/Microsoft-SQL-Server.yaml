@@ -1,0 +1,6 @@
+info:
+  company: Microsoft Corporation
+  product: Microsoft-SQL-Server
+  softhard: '2'
+matches: |
+  protocol.icontains("mssql") && banner.icontains("mssql server")

@@ -1,0 +1,7 @@
+info:
+  company: Avatic
+  product: Aardvark-Topsites
+  softhard: '2'
+matches: |
+  body.icontains("powered by")
+  body.icontains("aardvark topsites")

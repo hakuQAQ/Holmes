@@ -1,0 +1,7 @@
+info:
+  company: supermap
+  product: SuperMap-GIS
+  softhard: '2'
+matches: |
+  body.icontains("北京超图软件股份有限公司")
+  title.icontains("supermap iserver 9d")

@@ -1,0 +1,8 @@
+info:
+  company: Ubiquiti Inc.
+  product: UBNT-airOS-wireless
+  softhard: '1'
+matches: |
+  body.icontains("/160819.1157/")
+  body.icontains("/130107.2221/")
+  body.icontains("/171117.1237/") && body.icontains("airos_logo.png")

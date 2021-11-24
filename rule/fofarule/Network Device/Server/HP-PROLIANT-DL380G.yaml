@@ -1,0 +1,6 @@
+info:
+  company: Hewlett Packard Enterprise Development LP
+  product: HP-PROLIANT-DL380G
+  softhard: '1'
+matches: |
+  banner.icontains("proliant-dl380g")

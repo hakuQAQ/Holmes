@@ -1,0 +1,7 @@
+info:
+  company: xgimi
+  product: XGIMI-H1S
+  softhard: '1'
+matches: |
+  banner.icontains("xgimi tv")
+  banner.icontains("h1s")

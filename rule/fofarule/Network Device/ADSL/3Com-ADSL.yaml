@@ -1,0 +1,7 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: 3Com-ADSL
+  softhard: '1'
+matches: |
+  banner.icontains("3com wireless")
+  banner.icontains("3com: ap8760: ")

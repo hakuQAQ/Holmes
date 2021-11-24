@@ -1,0 +1,6 @@
+info:
+  company: Telefonaktiebolaget LM Ericsson
+  product: Ericsson-IP-telephone
+  softhard: '1'
+matches: |
+  title.icontains("ericsson ip telephone")

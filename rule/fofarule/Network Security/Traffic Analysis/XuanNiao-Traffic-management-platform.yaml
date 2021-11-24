@@ -1,0 +1,6 @@
+info:
+  company: ihotzone
+  product: XuanNiao-Traffic-management-platform
+  softhard: '2'
+matches: |
+  body.icontains("玄鸟流量管理平台")

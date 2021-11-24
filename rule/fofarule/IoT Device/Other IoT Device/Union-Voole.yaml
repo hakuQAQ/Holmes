@@ -1,0 +1,7 @@
+info:
+  company: voole
+  product: Union-Voole
+  softhard: '1'
+matches: |
+  protocol.icontains("rtsp")
+  banner.icontains("union voole rtsp")

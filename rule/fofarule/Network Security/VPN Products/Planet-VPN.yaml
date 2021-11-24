@@ -1,0 +1,7 @@
+info:
+  company: PLANET Technology Corporation.
+  product: Planet-VPN
+  softhard: '1'
+matches: |
+  banner.icontains("planet ")
+  banner.icontains("vpn security")

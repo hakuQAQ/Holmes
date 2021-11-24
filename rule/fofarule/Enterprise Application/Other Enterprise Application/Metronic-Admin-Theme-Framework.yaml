@@ -1,0 +1,8 @@
+info:
+  company: Metronic
+  product: Metronic-Admin-Theme-Framework
+  softhard: '2'
+matches: |
+  body.icontains("metronic. admin dashboard template.")
+  body.icontains("<div class=\"copyright\">")
+  title == "metronic | admin dashboard template"

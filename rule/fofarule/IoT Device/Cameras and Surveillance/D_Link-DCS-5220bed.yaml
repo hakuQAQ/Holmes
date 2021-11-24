@@ -1,0 +1,7 @@
+info:
+  company: D-Link Corporation
+  product: D_Link-DCS-5220bed
+  softhard: '1'
+matches: |
+  header.icontains("basic realm=\"dcs-5220bed\"")
+  banner.icontains("basic realm=\"dcs-5220bed\"")

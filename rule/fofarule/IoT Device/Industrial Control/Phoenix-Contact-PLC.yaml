@@ -1,0 +1,6 @@
+info:
+  company: Phoenix Contact GmbH & Co. KG
+  product: Phoenix-Contact-PLC
+  softhard: '1'
+matches: |
+  banner.icontains("plc type: ilc ")

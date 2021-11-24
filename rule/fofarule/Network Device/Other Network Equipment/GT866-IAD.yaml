@@ -1,0 +1,6 @@
+info:
+  company: gwdelight
+  product: GT866-IAD
+  softhard: '1'
+matches: |
+  banner.icontains("gt866_iad")

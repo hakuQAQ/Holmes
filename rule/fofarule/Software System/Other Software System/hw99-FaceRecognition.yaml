@@ -1,0 +1,6 @@
+info:
+  company: Hanvon
+  product: hw99-FaceRecognition
+  softhard: '2'
+matches: |
+  title.icontains("汉王人脸识别管理系统")

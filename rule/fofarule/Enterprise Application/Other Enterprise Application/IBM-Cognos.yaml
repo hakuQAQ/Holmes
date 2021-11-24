@@ -1,0 +1,7 @@
+info:
+  company: International Business Machines Corporation
+  product: IBM-Cognos
+  softhard: '2'
+matches: |
+  body.icontains("/cgi-bin/cognos.cgi") && body.icontains("cognos &#26159; international business machines corp")
+  title.icontains("ibm cognos business intelligence")

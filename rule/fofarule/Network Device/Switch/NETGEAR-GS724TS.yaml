@@ -1,0 +1,6 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-GS724TS
+  softhard: '1'
+matches: |
+  banner.icontains("gs724ts")

@@ -1,0 +1,6 @@
+info:
+  company: Newdefend
+  product: Newdefend-WAF
+  softhard: '2'
+matches: |
+  header.icontains("newdefend")

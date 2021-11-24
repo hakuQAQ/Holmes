@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: KISSY
+  softhard: '2'
+matches: |
+  body.icontains("kissy.ready")
+  body.icontains("kissy-min.js")
+  body.icontains("kissy.js")

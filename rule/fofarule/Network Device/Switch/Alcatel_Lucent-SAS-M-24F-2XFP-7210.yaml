@@ -1,0 +1,6 @@
+info:
+  company: Alcatel-Lucent S.A.
+  product: Alcatel_Lucent-SAS-M-24F-2XFP-7210
+  softhard: '1'
+matches: |
+  banner.icontains("alcatel sas-m 24f 2xfp 7210")

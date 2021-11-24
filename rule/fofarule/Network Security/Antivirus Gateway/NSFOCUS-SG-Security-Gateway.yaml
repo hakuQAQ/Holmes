@@ -1,0 +1,6 @@
+info:
+  company: NSFOCUS
+  product: NSFOCUS-SG-Security-Gateway
+  softhard: '1'
+matches: |
+  body.icontains("/login_logo_sg_zh_cn.png")

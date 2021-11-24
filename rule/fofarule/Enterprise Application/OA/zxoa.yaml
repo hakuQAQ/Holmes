@@ -1,0 +1,7 @@
+info:
+  company: zxoa
+  product: zxoa
+  softhard: '2'
+matches: |
+  body.icontains("obj.src = \"createcheckcode.aspx?id\"+strmath;")
+  body.icontains("name=\"button1\" value=\"\" onclick=\"javascript:return checkfrom();\" id=\"button1\" class=\"loginbtn\" />")

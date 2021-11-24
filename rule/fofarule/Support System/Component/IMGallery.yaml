@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: IMGallery
+  softhard: '2'
+matches: |
+  body.icontains("href=\"http://www.imgallery.zor.pl\"><b>imgallery")

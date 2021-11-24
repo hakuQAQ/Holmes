@@ -1,0 +1,6 @@
+info:
+  company: suncereltd
+  product: SUNCERE-System
+  softhard: '2'
+matches: |
+  body.icontains("技术支持：广东旭诚科技有限公司")

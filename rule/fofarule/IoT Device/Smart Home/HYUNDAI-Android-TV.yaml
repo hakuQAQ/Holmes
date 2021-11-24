@@ -1,0 +1,6 @@
+info:
+  company: GTC-Aldis Philippines，Inc.
+  product: HYUNDAI-Android-TV
+  softhard: '1'
+matches: |
+  banner.icontains("hyundai android tv")

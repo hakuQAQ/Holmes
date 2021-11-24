@@ -1,0 +1,7 @@
+info:
+  company: Motorola Solutions, Inc
+  product: Motorola-Company's-product
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"motorola")
+  banner.icontains("realm=\"motorola")

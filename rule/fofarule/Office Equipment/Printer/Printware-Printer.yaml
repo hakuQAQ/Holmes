@@ -1,0 +1,6 @@
+info:
+  company: Printware, LLC
+  product: Printware-Printer
+  softhard: '1'
+matches: |
+  banner.icontains("tallygenicom ")

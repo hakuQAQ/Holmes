@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-CP
+  softhard: '1'
+matches: |
+  banner.icontains("cisco configuration professional")

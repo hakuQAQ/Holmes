@@ -1,0 +1,7 @@
+info:
+  company: Nsfocus
+  product: NSFOCUS-UTS
+  softhard: '0'
+matches: |
+  body.icontains("/uts_v2/webstatic/")
+  title.icontains("uts ")

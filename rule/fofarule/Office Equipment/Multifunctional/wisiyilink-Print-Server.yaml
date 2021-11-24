@@ -1,0 +1,7 @@
+info:
+  company: wisiyilink
+  product: wisiyilink-Print-Server
+  softhard: '1'
+matches: |
+  body.icontains("<a class=\"brand\" href=http://www.wisiyilink.com")
+  body.icontains("wisiyilink©2013-2017版权所有 专注打印服务器")

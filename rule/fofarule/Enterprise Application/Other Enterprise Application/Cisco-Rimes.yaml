@@ -1,0 +1,7 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-Rimes
+  softhard: '2'
+matches: |
+  header.icontains("rimes-cisco")
+  banner.icontains("rimes-cisco")

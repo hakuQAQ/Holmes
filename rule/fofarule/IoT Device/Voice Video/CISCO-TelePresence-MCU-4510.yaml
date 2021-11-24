@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-TelePresence-MCU-4510
+  softhard: '1'
+matches: |
+  banner.icontains("cisco telepresence mcu 4510")

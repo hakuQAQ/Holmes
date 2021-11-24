@@ -1,0 +1,6 @@
+info:
+  company: Dell Inc.
+  product: DELL-PC8024
+  softhard: '1'
+matches: |
+  body.icontains("class=\"login_server_default\">pc8024")

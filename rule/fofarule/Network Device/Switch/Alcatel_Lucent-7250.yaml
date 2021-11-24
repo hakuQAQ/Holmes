@@ -1,0 +1,7 @@
+info:
+  company: Alcatel-Lucent S.A.
+  product: Alcatel_Lucent-7250
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"alcatel-lucent 7250")
+  banner.icontains("realm=\"alcatel-lucent 7250")

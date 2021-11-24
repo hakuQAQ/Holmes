@@ -1,0 +1,8 @@
+info:
+  company: Salien
+  product: Salien-Software-System
+  softhard: '2'
+matches: |
+  title.icontains("时林软件系统")
+  body.icontains("href=\"images/login/msn/favicon.ico\"")
+  body.icontains("北京市时林电脑公司")

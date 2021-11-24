@@ -1,0 +1,6 @@
+info:
+  company: ZTE
+  product: ZTE-Super-Conference-Center
+  softhard: '1'
+matches: |
+  body.icontains("link href='./zxms80.css")

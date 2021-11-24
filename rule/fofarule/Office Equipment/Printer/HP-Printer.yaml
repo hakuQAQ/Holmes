@@ -1,0 +1,22 @@
+info:
+  company: HP Development Company, L.P.
+  product: HP-Printer
+  softhard: '1'
+matches: |
+  header.icontains("hp-chaiserver")
+  title.icontains("hp laserjet")
+  body.icontains("/hp/jetdirect") && banner.icontains("hp ethernet")
+  banner.icontains("jd149") && banner.icontains("jd153") && header.icontains("hp http server")
+  header.icontains("hp http server; samsung")
+  header.icontains("gzip") && banner.icontains("printer network card")
+  header.icontains("hp-chaisoe")
+  banner.icontains("hp ethernet multi-environment")
+  banner.icontains("hp officejet pro")
+  banner.icontains("hp designjet")
+  banner.icontains("hp laserjet")
+  banner.icontains("hp pagewide pro")
+  banner.icontains("hp color laserjet")
+  banner.icontains("hp pagewide")
+  banner.icontains("serial number")
+  banner.icontains("@pjl info status")
+  banner.icontains("hostname: hp laserjet")

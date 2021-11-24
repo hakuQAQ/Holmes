@@ -1,0 +1,6 @@
+info:
+  company: Polycom, Inc.
+  product: Polycom-dst-mcs-Video-Conferencing
+  softhard: '1'
+matches: |
+  body.icontains("document.location.href=\"/cgi-bin/cgiserver?_dstp_functionid=homepage&language_type=")

@@ -1,0 +1,7 @@
+info:
+  company: eiProject
+  product: eiProject
+  softhard: '0'
+matches: |
+  title.icontains("eiproject")
+  body.icontains("hello eiproject <br>")

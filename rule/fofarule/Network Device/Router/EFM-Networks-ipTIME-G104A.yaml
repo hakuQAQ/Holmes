@@ -1,0 +1,7 @@
+info:
+  company: EFM Networks Co.,Ltd.
+  product: EFM-Networks-ipTIME-G104A
+  softhard: '1'
+matches: |
+  body.icontains("src =\"/images2/login_title.g104a.gif\"")
+  body.icontains("src =\"/images/login_back_g104a.gif\"")

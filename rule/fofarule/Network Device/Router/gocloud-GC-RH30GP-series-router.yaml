@@ -1,0 +1,6 @@
+info:
+  company: GoCloud
+  product: gocloud-GC-RH30GP-series-router
+  softhard: '1'
+matches: |
+  banner.icontains("gocloud gc-rh30gp series router")

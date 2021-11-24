@@ -1,0 +1,6 @@
+info:
+  company: Citrix Systems, Inc.
+  product: Citrix-Metaframe
+  softhard: '2'
+matches: |
+  body.icontains("window.location=\"/citrix/metaframe")

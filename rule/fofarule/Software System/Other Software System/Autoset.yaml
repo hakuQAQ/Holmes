@@ -1,0 +1,7 @@
+info:
+  company: Autoset
+  product: Autoset
+  softhard: '2'
+matches: |
+  body.icontains(".logo-autoset")
+  title.icontains("autoset")

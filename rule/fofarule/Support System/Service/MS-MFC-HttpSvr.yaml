@@ -1,0 +1,7 @@
+info:
+  company: Microsoft Corporation
+  product: MS-MFC-HttpSvr
+  softhard: '2'
+matches: |
+  body.icontains("action=\"i.cgi")
+  header.icontains("ms-mfc-httpsvr")

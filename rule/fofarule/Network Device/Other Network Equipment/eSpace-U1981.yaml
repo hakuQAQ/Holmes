@@ -1,0 +1,6 @@
+info:
+  company: HUAWEI
+  product: eSpace-U1981
+  softhard: '1'
+matches: |
+  banner.icontains("espace u1981 ")

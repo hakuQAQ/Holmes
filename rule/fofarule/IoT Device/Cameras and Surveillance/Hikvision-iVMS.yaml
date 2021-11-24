@@ -1,0 +1,19 @@
+info:
+  company: Hikvision
+  product: Hikvision-iVMS
+  softhard: '1'
+matches: |
+  body.icontains("g_szcachetime")
+  body.icontains("ivms")
+  title.icontains("ivms-") && body.icontains("tab-border code-iivms\">")
+  body.icontains(" window.document.location = '/license!getexpiredateofdays.action';")
+  cert.icontains("o=hikvision, ou=louyu, cn=ivms8700")
+  body.icontains("var uuid = \"2b73083e-9b29-4005-a123-1d4ec47a36d5\"; // 用于检测vms是否超时, chenliangyf1")
+  body.icontains("class=\"enname\">ivms-4200")
+  body.icontains("larempassword")
+  body.icontains("//caoshiyan modify 2015-06-30 中转页面")
+  body.icontains("/home/locationindex.action?time=")
+  body.icontains("<div class=\"enname\">ivms-4200")
+  header.icontains("if you want know, you can ask me")
+  body.icontains("if (refreshurl == null || refreshurl == '') { window.location.reload();}")
+  body.icontains("class=\"out\"><a href=\"download/ivms-")

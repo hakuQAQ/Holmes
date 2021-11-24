@@ -1,0 +1,6 @@
+info:
+  company: Google LLC
+  product: Angular
+  softhard: '2'
+matches: |
+  title.icontains("be angular | bootstrap admin web app with angularjs")

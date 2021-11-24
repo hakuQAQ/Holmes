@@ -1,0 +1,6 @@
+info:
+  company: ' D-Link Corporation'
+  product: D-Link-DIR-110
+  softhard: '1'
+matches: |
+  body.icontains("<a href=\"http://support.dlink.com\" target=\"_blank\">dir-110")

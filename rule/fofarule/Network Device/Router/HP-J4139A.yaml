@@ -1,0 +1,6 @@
+info:
+  company: HP Development Company, L.P.
+  product: HP-J4139A
+  softhard: '1'
+matches: |
+  banner.icontains("hewlett-packard company j4139a")

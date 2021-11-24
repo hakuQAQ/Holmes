@@ -1,0 +1,8 @@
+info:
+  company: Atlassian
+  product: FishEye
+  softhard: '2'
+matches: |
+  header.icontains("set-cookie: fesessionid")
+  body.icontains("fisheye ")
+  body.icontains("fisheye-16.ico")

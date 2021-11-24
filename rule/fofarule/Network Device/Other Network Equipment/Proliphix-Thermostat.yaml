@@ -1,0 +1,6 @@
+info:
+  company: PROLIPHIX.
+  product: Proliphix-Thermostat
+  softhard: '0'
+matches: |
+  body.icontains("printstatushead(adstat")

@@ -1,0 +1,9 @@
+info:
+  company: Apache Software Foundation.
+  product: APACHE-Shiro
+  softhard: '2'
+matches: |
+  body.icontains("</i> shiro</li>")
+  header.icontains("shiro-cas")
+  banner.icontains("shiro-cas") && header.icontains("rememberme=deleteme")
+  title.icontains("apache shiro quickstart")

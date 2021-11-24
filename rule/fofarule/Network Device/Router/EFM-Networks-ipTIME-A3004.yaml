@@ -1,0 +1,7 @@
+info:
+  company: EFM Networks Co.,Ltd.
+  product: EFM-Networks-ipTIME-A3004
+  softhard: '1'
+matches: |
+  body.icontains("src=\"/images2/login_title.a3004.gif\"")
+  body.icontains("src=\"/images2/login_title.a3004d.gif")

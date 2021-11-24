@@ -1,0 +1,6 @@
+info:
+  company: MEDIA5 CORPORATION
+  product: Mediatrix-Sentinel
+  softhard: '1'
+matches: |
+  banner.icontains("mediatrix sentinel")

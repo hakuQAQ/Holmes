@@ -1,0 +1,7 @@
+info:
+  company: PLANET Technology Corporation.
+  product: Planet-Managed-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("planet")
+  banner.icontains("managed switch")

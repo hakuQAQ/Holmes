@@ -1,0 +1,7 @@
+info:
+  company: Cimetrics, Inc.
+  product: BACnet/IP-to-Web-Services-Gateway
+  softhard: '1'
+matches: |
+  header.icontains("server: cimetrics eplus web server ")
+  banner.icontains("server: cimetrics eplus web server ")

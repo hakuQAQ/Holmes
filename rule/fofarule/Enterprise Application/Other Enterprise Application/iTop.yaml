@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: iTop
+  softhard: '2'
+matches: |
+  title.icontains("itop login") && body.icontains("href=\"http://www.combodo.com/itop")

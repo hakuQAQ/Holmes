@@ -1,0 +1,7 @@
+info:
+  company: Microsoft Corporation
+  product: Parature
+  softhard: '2'
+matches: |
+  body.icontains("src=\"kbfolder.asp?deptid=")
+  body.icontains("redirectportalurl('/ics/support/custhandler.asp?")

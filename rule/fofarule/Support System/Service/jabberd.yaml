@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: jabberd
+  softhard: '2'
+matches: |
+  banner.icontains("server: jabberd")
+  header.icontains("server: jabberd")

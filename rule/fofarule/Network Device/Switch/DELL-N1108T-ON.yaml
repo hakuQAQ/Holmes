@@ -1,0 +1,6 @@
+info:
+  company: Dell Inc.
+  product: DELL-N1108T-ON
+  softhard: '1'
+matches: |
+  body.icontains("class=\"login_server_default\">n1108t-on<")

@@ -1,0 +1,6 @@
+info:
+  company: Avaya Inc.
+  product: Avaya-BayStack-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("baystack ")

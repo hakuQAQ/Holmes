@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: ClipShare
+  softhard: '2'
+matches: |
+  body.icontains("<!--!!!!!!!!!!!!!!!!!!!!!!!!! processing script")
+  body.icontains("powered by <a href=\"http://www.clip-share.com")

@@ -1,0 +1,6 @@
+info:
+  company: hetongkj
+  product: hetongkj
+  softhard: '2'
+matches: |
+  body.icontains("href=\"/web/mainmenu/images/favicon.ico\">")

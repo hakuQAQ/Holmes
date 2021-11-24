@@ -1,0 +1,8 @@
+info:
+  company: Hughes Network Systems, LLC,
+  product: Hughes-Satellite-Router
+  softhard: '1'
+matches: |
+  body.icontains("<frame src=/fs/dynaform/dw_logo.html")
+  header.icontains("hughes terminal")
+  title.icontains("system control center")

@@ -1,0 +1,6 @@
+info:
+  company: newdon
+  product: NDF7300
+  softhard: '1'
+matches: |
+  banner.icontains("ndf7300")

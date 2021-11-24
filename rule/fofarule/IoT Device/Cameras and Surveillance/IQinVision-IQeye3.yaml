@@ -1,0 +1,6 @@
+info:
+  company: IQinVision, Inc.
+  product: IQinVision-IQeye3
+  softhard: '1'
+matches: |
+  title.icontains("iqeye3") && banner.icontains("iqeye3")

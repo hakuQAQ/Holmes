@@ -1,0 +1,8 @@
+info:
+  company: ABUS
+  product: ABUS-DVR
+  softhard: '1'
+matches: |
+  body.icontains("document.activex.url.value=\"172.7.76.84\"")
+  header.icontains("content-length: 1292")
+  title == "abus dvr"

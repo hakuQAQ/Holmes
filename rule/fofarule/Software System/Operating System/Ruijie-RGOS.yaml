@@ -1,0 +1,7 @@
+info:
+  company: Ruijie
+  product: Ruijie-RGOS
+  softhard: '2'
+matches: |
+  banner.icontains("server: rgos http-server")
+  header.icontains("server: rgos http-server")

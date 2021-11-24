@@ -1,0 +1,7 @@
+info:
+  company: dptech
+  product: Dptech-UMC
+  softhard: '2'
+matches: |
+  header.icontains("jsessionid") && header.icontains("umc") && header.icontains("dptech umc server")
+  body.icontains("onsubmit=\"return sys_submit(this)")

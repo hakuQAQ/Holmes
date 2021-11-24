@@ -1,0 +1,7 @@
+info:
+  company: ZHYU-Technologies
+  product: ZHYU-TrustMore
+  softhard: '1'
+matches: |
+  body.icontains("alt=\"trustmore 安全可信的应用授权平台\"")
+  header.icontains("trustmore proxy")

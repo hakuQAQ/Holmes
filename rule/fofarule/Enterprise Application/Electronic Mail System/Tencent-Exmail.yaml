@@ -1,0 +1,9 @@
+info:
+  company: Tencent
+  product: Tencent-Exmail
+  softhard: '2'
+matches: |
+  body.icontains("/cgi-bin/getinvestigate?flowid=")
+  header.icontains("ssl_edition=mail.qq.com")
+  body.icontains("/cgi-bin/bizmail_portal") && title.icontains("腾讯企业邮箱")
+  body.icontains("content=\"登录腾讯企业邮箱")

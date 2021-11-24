@@ -1,0 +1,9 @@
+info:
+  company: Mesosphere
+  product: Mesosphere-DC/OS
+  softhard: '2'
+matches: |
+  title.icontains("mesosphere dcos")
+  title.icontains("mesosphere dc/os")
+  title.icontains("dc/os") && header.icontains("realm=\"mesosphere")
+  banner.icontains("realm=\"mesosphere")

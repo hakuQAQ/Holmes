@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: WS-server
+  softhard: '2'
+matches: |
+  body.icontains("websocket servers index.html")

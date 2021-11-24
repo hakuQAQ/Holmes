@@ -1,0 +1,6 @@
+info:
+  company: o2security
+  product: O2Security-VPN
+  softhard: '1'
+matches: |
+  header.icontains("client_param=install_active")

@@ -1,0 +1,6 @@
+info:
+  company: chanjet
+  product: Chanjet
+  softhard: '2'
+matches: |
+  title.icontains("畅捷通")

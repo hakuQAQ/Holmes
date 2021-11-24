@@ -1,0 +1,6 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-SR8804-X
+  softhard: '1'
+matches: |
+  banner.icontains("h3c sr8804-x")

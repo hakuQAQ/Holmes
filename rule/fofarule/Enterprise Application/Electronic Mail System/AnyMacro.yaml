@@ -1,0 +1,9 @@
+info:
+  company: anymacro
+  product: AnyMacro
+  softhard: '2'
+matches: |
+  header.icontains("login_key")
+  body.icontains("document.aa.f_email")
+  body.icontains("anywebapp")
+  banner.icontains("esmtp anymacro")

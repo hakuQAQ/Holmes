@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: ATutor-elearning
+  softhard: '2'
+matches: |
+  body.icontains("content=\"atutor")
+  header.icontains("set-cookie: atutorid")
+  banner.icontains("set-cookie: atutorid") && body.icontains("atutor.course")

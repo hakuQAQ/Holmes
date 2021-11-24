@@ -1,0 +1,15 @@
+info:
+  company: panabit
+  product: Panabit-Intelligent-gateway
+  softhard: '1'
+matches: |
+  title.icontains("panabit") && banner.icontains("panabit") && banner.icontains("panaos") && body.icontains("parent.location.href = \"/login/login.htm\"")
+  body.icontains("src=\"/img/jq.js\"")
+  banner.icontains("httpd/1.2 2012/08/10")
+  cert.icontains("panabit") && banner.icontains("cache-control: max-age=1")
+  cert.icontains("organizational unit: panabit")
+  header.icontains("content-length: 1807")
+  body.icontains("parent.location.href = \"/login/login.htm\";")
+  body.icontains("pacheckcode")
+  body.icontains("entersub")
+  cert.icontains("organization: panabit")

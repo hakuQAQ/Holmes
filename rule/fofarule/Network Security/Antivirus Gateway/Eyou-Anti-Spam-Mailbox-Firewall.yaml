@@ -1,0 +1,7 @@
+info:
+  company: Eyou
+  product: Eyou-Anti-Spam-Mailbox-Firewall
+  softhard: '2'
+matches: |
+  title.icontains("反垃圾邮件网关  - 亿邮通讯")
+  body.icontains("content=\"亿邮大容量电子邮件系统，反垃圾邮件网关")

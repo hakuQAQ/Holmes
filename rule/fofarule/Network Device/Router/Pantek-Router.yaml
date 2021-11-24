@@ -1,0 +1,6 @@
+info:
+  company: Pantek Corp.
+  product: Pantek-Router
+  softhard: '1'
+matches: |
+  body.icontains("alt=\"歡迎使用智慧路由器\"")

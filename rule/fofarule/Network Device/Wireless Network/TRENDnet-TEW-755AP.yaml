@@ -1,0 +1,6 @@
+info:
+  company: TRENDnet, Inc.
+  product: TRENDnet-TEW-755AP
+  softhard: '1'
+matches: |
+  body.icontains("var model = \"tew-755ap\"")

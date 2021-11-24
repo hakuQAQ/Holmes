@@ -1,0 +1,7 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-FVS318
+  softhard: '1'
+matches: |
+  banner.icontains("fvs318")
+  header.icontains("netgear") && body.icontains("top.html")

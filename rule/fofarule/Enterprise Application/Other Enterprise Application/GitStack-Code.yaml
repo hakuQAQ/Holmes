@@ -1,0 +1,6 @@
+info:
+  company: Smart Mobile Software
+  product: GitStack-Code
+  softhard: '2'
+matches: |
+  body.icontains("^gitstack/")

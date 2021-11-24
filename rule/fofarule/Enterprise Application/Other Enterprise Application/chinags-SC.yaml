@@ -1,0 +1,6 @@
+info:
+  company: chinags
+  product: chinags-SC
+  softhard: '2'
+matches: |
+  body.icontains("src=\"/animation/images/teacher_2.png\"")

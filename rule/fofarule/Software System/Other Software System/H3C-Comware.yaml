@@ -1,0 +1,7 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-Comware
+  softhard: '2'
+matches: |
+  protocol.icontains("ssh")
+  banner.icontains("comware") && banner.icontains("h3c comware")

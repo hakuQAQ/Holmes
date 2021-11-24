@@ -1,0 +1,9 @@
+info:
+  company: Siemens AG.
+  product: Siemens-SIMATIC-NET
+  softhard: '1'
+matches: |
+  title.icontains("simatic net it-cp")
+  body.icontains("/home/siemens.gif")
+  body.icontains("server information</title></head>")
+  body.icontains("<table border=2><tr><td><b>device-name: </b></td><td>")

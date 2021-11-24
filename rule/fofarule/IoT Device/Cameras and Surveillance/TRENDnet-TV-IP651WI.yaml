@@ -1,0 +1,8 @@
+info:
+  company: TRENDnet, Inc.
+  product: TRENDnet-TV-IP651WI
+  softhard: '1'
+matches: |
+  banner.icontains("tv-ip651wi")
+  header.icontains("realm=\"tv-ip651wi")
+  body.icontains("(tv-ip651wi)</title>") && body.icontains("<modelname>tv-ip651wi</modelname>")

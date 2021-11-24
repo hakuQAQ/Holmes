@@ -1,0 +1,8 @@
+info:
+  company: ProcessMaker Inc
+  product: ProcessMaker
+  softhard: '2'
+matches: |
+  body.icontains("processmaker ver")
+  body.icontains("href=\"http://www.processmaker.com\" alt=\"processmaker")
+  body.icontains("alt=\"powered by processmaker")

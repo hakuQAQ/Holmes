@@ -1,0 +1,7 @@
+info:
+  company: Mobinat Communication Company
+  product: Mobinat-Wireless-Router
+  softhard: '1'
+matches: |
+  body.icontains("http://mobinnet.ir/faq")
+  body.icontains("http://mobinnet.ir/coverage")

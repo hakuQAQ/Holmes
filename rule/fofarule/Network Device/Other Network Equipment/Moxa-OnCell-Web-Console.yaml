@@ -1,0 +1,6 @@
+info:
+  company: MOXA
+  product: Moxa-OnCell-Web-Console
+  softhard: '1'
+matches: |
+  title.icontains("oncell ") && title.icontains("web console")

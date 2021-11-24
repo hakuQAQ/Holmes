@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Mailman
+  softhard: '2'
+matches: |
+  body.icontains("delivered by mailman") && body.icontains("/images/mailman")
+  body.icontains("href=\"http://www.gnu.org/software/mailman/index.html")
+  title.icontains("mailman")

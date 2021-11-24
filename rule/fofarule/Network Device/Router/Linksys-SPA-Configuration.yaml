@@ -1,0 +1,6 @@
+info:
+  company: Belkin International, Inc.
+  product: Linksys-SPA-Configuration
+  softhard: '1'
+matches: |
+  title.icontains("linksys spa configuration")

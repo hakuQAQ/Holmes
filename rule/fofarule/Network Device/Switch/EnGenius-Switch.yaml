@@ -1,0 +1,7 @@
+info:
+  company: EnGenius Technologies, Inc.
+  product: EnGenius-Switch
+  softhard: '1'
+matches: |
+  body.icontains("conner_basic conner_gdl")
+  body.icontains("/egs-logo.png")

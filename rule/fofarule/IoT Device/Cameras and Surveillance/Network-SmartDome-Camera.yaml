@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Network-SmartDome-Camera
+  softhard: '1'
+matches: |
+  banner.icontains("ipnc") && banner.icontains("network smartdome camera")

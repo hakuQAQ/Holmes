@@ -1,0 +1,8 @@
+info:
+  company: Cradlepoint, Inc.
+  product: cradlepoint-IBR650LPE
+  softhard: '1'
+matches: |
+  body.icontains("cplogin.model = \"ibr650lpe\"")
+  banner.icontains("cradlepoint ibr650lpe")
+  title.icontains("login :: ibr650lpe")

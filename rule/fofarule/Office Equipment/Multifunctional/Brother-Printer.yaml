@@ -1,0 +1,10 @@
+info:
+  company: Brother Industries, Ltd.
+  product: Brother-Printer
+  softhard: '1'
+matches: |
+  body.icontains("<frame src=\"/printer/inc_head.html")
+  body.icontains("<img src=\"/common/image/hl4040cn")
+  protocol.icontains("snmp") && banner.icontains("brother") && banner.icontains("firmware")
+  title.icontains("brother mfc")
+  banner.icontains("brother nc-")

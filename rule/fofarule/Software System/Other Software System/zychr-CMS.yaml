@@ -1,0 +1,6 @@
+info:
+  company: zychr
+  product: zychr-CMS
+  softhard: '2'
+matches: |
+  body.icontains("powered by zychr.com") && title.icontains("powered by zychr.com")

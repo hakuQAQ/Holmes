@@ -1,0 +1,7 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-X6-R8000
+  softhard: '1'
+matches: |
+  body.icontains("content=\"r8000\"")
+  cert.icontains("organization: netgear")

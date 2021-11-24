@@ -1,0 +1,7 @@
+info:
+  company: Quantum Corporation.
+  product: Quantum-Company's-product
+  softhard: '1'
+matches: |
+  body.icontains("class=\"loginbodybackground")
+  body.icontains("class=\"loginpatent\"")

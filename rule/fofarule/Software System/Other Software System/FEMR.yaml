@@ -1,0 +1,7 @@
+info:
+  company: Team fEMR
+  product: FEMR
+  softhard: '2'
+matches: |
+  body.icontains("/res/vendor/bootstrap-3.3.5/css/bootstrap.min.css")
+  body.icontains("/res/images/login-bg-1.png")

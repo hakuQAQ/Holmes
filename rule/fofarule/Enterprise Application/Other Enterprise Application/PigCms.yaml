@@ -1,0 +1,7 @@
+info:
+  company: pigcms
+  product: PigCms
+  softhard: '2'
+matches: |
+  header.icontains("x-powered-by: pigcms.com")
+  banner.icontains("x-powered-by: pigcms.com")

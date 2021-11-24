@@ -1,0 +1,10 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TP-LINK-Archer-D2
+  softhard: '1'
+matches: |
+  banner.icontains("0.6.0 0.7 v003e.0 build 140928 rel.38569n")
+  banner.icontains("0.8.0 1.1 v003e.0 build 150730 rel.62022n")
+  banner.icontains("0.8.0 1.2 v003e.0 build 150921 rel.39523n")
+  banner.icontains("1.4.0 0.8.0 v003e.0 build 160216 rel.55536n")
+  banner.icontains("1.4.0 0.8.0 v003e.0 build 160216 rel.55536n")

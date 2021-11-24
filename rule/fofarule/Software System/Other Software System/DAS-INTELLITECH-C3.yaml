@@ -1,0 +1,6 @@
+info:
+  company: DAS INTELLITECH
+  product: DAS-INTELLITECH-C3
+  softhard: '2'
+matches: |
+  body.icontains("window.location.href=\"single/empmain2.aspx")

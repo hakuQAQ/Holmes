@@ -1,0 +1,8 @@
+info:
+  company: Alcatel-Lucent S.A.
+  product: Alcatel_Lucent-EG-Gateway
+  softhard: '1'
+matches: |
+  banner.icontains("alcatel-eg692hw")
+  banner.icontains("alcatel-eg682hw")
+  banner.icontains("alcatel-eg662hw")

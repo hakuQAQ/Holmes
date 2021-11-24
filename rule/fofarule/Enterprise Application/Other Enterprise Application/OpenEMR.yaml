@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: OpenEMR
+  softhard: '2'
+matches: |
+  header.icontains("openemr=") && body.icontains("<frame src=\"/interface/login/filler.php")
+  title.icontains("openemr login")

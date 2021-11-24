@@ -1,0 +1,6 @@
+info:
+  company: konka
+  product: KONKA-Android-TV-553
+  softhard: '1'
+matches: |
+  banner.icontains("konka android tv 553")

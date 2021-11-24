@@ -1,0 +1,6 @@
+info:
+  company: TW Systems, Inc.
+  product: TWSys-Product
+  softhard: '1'
+matches: |
+  title.icontains("tw") && body.icontains("tw systems, inc.")

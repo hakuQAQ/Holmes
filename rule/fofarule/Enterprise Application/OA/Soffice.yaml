@@ -1,0 +1,6 @@
+info:
+  company: isoffice
+  product: Soffice
+  softhard: '2'
+matches: |
+  title.icontains("soffice")

@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: WebServer(IPCamera_Logo)
+  softhard: '1'
+matches: |
+  header.icontains("webserver(ipcamera_logo)")
+  banner.icontains("server: webserver(ipcamera_logo)")

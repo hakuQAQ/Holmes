@@ -1,0 +1,6 @@
+info:
+  company: McAfee, Inc.
+  product: McAfee-ePolicy-Orchestrator
+  softhard: '2'
+matches: |
+  header.icontains("undefined") && title.icontains("epolicy orchestrator")

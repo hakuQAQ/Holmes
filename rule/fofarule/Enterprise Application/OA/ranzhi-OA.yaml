@@ -1,0 +1,7 @@
+info:
+  company: easycorp
+  product: ranzhi-OA
+  softhard: '2'
+matches: |
+  body.icontains("/sys/index.php?m=user&f=login&referer=")
+  header.icontains("rid") && header.icontains("theme") && header.icontains("lang")

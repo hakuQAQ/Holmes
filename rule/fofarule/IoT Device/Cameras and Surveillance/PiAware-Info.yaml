@@ -1,0 +1,8 @@
+info:
+  company: FlightAware
+  product: PiAware-Info
+  softhard: '1'
+matches: |
+  title.icontains("piaware info")
+  body.icontains("piaware status")
+  body.icontains("<%= t('this is a piaware ads-b feeder') %>.")

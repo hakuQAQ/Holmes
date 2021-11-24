@@ -1,0 +1,10 @@
+info:
+  company: Billion Electric Co. Ltd.
+  product: Billion-Router
+  softhard: '1'
+matches: |
+  header.icontains("billion sky")
+  header.icontains("conexant-emweb")
+  header.icontains("basic realm=\"webadmin")
+  banner.icontains("billion electric co.,ltd.")
+  banner.icontains("adsl router")

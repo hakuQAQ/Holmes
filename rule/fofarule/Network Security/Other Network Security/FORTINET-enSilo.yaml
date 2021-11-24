@@ -1,0 +1,6 @@
+info:
+  company: enSilo Inc.
+  product: FORTINET-enSilo
+  softhard: '2'
+matches: |
+  body.icontains("<img src=\"images/ensilo_logo.png")

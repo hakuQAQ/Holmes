@@ -1,0 +1,6 @@
+info:
+  company: tg-net
+  product: TG-RE8800T-series-router
+  softhard: '1'
+matches: |
+  banner.icontains("tg-net re8800t series router")

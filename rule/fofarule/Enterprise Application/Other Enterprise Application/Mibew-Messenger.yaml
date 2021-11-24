@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: Mibew-Messenger
+  softhard: '2'
+matches: |
+  body.icontains("class=\"empty_inner")
+  body.icontains("class=\"flink\">mibew messenger")

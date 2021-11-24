@@ -1,0 +1,6 @@
+info:
+  company: Mitel Networks Corporation
+  product: Mitel-Communications-Director
+  softhard: '2'
+matches: |
+  title.icontains("mitel communications director")

@@ -1,0 +1,8 @@
+info:
+  company: cisco
+  product: Cisco-SA520W
+  softhard: '1'
+matches: |
+  body.icontains("id=\"hdboardname\" value=\"sa520w\"")
+  body.icontains("class=\"h3login\">small business pro")
+  cert.icontains("sa520w")

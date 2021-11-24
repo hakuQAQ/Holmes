@@ -1,0 +1,6 @@
+info:
+  company: RedHat
+  product: Red Hat Certificate System
+  softhard: '2'
+matches: |
+  title == "certificate system" && body.icontains("red hat, inc.")

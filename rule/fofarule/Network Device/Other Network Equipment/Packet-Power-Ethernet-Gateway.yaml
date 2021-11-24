@@ -1,0 +1,7 @@
+info:
+  company: Packet Power
+  product: Packet-Power-Ethernet-Gateway
+  softhard: '1'
+matches: |
+  banner.icontains("packet power ethernet gateway")
+  banner.icontains("packet power eg4 ethernet gateway")

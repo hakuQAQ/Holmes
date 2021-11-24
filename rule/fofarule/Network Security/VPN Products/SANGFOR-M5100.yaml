@@ -1,0 +1,6 @@
+info:
+  company: Sangfor
+  product: SANGFOR-M5100
+  softhard: '1'
+matches: |
+  body.icontains("value=\"m5100-q-4.0")

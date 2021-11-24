@@ -1,0 +1,12 @@
+info:
+  company: Other
+  product: NetBox
+  softhard: '2'
+matches: |
+  header.icontains("server: netbox")
+  banner.icontains("server: netbox")
+  header.icontains("逆风工作室 netbox")
+  banner.icontains("逆风工作室 netbox")
+  header.icontains("realm=\"netbox")
+  banner.icontains("realm=\"netbox")
+  banner.icontains("netbox login")

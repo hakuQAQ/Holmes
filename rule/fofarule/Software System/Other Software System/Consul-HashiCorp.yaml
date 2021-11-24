@@ -1,0 +1,10 @@
+info:
+  company: HashiCorp
+  product: Consul-HashiCorp
+  softhard: '2'
+matches: |
+  title == "consul by hashicorp" && body.icontains("/ui/assets/consul-ui")
+  body.icontains("consul-ui/config/environment")
+  body.icontains("consulhost")
+  body.icontains("consul instance")
+  body.icontains("www.consul.io")

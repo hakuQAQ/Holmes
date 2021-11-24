@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Web-Crossing-Server
+  softhard: '2'
+matches: |
+  header.icontains("server: web crossing")
+  banner.icontains("server: web crossing")
+  header.icontains("set-cookie: webxsess") && banner.icontains("set-cookie: webxsess")

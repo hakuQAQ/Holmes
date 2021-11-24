@@ -1,0 +1,7 @@
+info:
+  company: Digital Loggers Inc.
+  product: DLI-LPC
+  softhard: '1'
+matches: |
+  header.icontains("dlilpc=")
+  banner.icontains("dlilpc=")

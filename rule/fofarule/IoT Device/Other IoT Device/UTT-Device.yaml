@@ -1,0 +1,6 @@
+info:
+  company: UTT
+  product: UTT-Device
+  softhard: '2'
+matches: |
+  body.icontains("class=\"utt-inline-block\" src=\"./images/login_btmlogo.png\"")

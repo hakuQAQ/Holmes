@@ -1,0 +1,7 @@
+info:
+  company: NUUO Inc.
+  product: NUUO-NVRmini
+  softhard: '1'
+matches: |
+  title.icontains("network video recorder login")
+  body.icontains("nvrmini")

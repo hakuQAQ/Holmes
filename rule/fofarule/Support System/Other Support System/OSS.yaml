@@ -1,0 +1,6 @@
+info:
+  company: Chinaunicom
+  product: OSS
+  softhard: '2'
+matches: |
+  body.icontains("src=\"/uf/login/login.jsp\" >")

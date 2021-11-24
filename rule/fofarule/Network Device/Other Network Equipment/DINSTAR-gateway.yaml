@@ -1,0 +1,6 @@
+info:
+  company: dinstar
+  product: DINSTAR-gateway
+  softhard: '1'
+matches: |
+  body.icontains("action=\"/goform/iadidentityauth\"")

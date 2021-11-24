@@ -1,0 +1,7 @@
+info:
+  company: Intel Corporation
+  product: NetportExpress-Print-Server
+  softhard: '1'
+matches: |
+  banner.icontains("netportexpress")
+  banner.icontains("print server")

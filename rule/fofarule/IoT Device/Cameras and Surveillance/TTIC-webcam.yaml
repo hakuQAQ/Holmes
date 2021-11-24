@@ -1,0 +1,6 @@
+info:
+  company: ttic
+  product: TTIC-webcam
+  softhard: '1'
+matches: |
+  title.icontains("ttic webserver client")

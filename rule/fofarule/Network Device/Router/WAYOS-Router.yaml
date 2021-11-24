@@ -1,0 +1,6 @@
+info:
+  company: wayos
+  product: WAYOS-Router
+  softhard: '1'
+matches: |
+  title.icontains("维盟（wayos）智能路由管理系统")

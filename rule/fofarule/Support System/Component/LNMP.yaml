@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: LNMP
+  softhard: '2'
+matches: |
+  body.icontains("lnmp一键安装包")

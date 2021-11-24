@@ -1,0 +1,7 @@
+info:
+  company: Symfony™ is a trademark of Symfony SAS.
+  product: Symfony
+  softhard: '2'
+matches: |
+  body.icontains("powered by symfony")
+  body.icontains("powered by <a href=\"http://www.symfony-project.org/\">")

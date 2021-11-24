@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Squid
+  softhard: '2'
+matches: |
+  header.icontains("server: squid")
+  banner.icontains("server: squid")
+  banner.icontains("router")

@@ -1,0 +1,7 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-CVR100W
+  softhard: '1'
+matches: |
+  body.icontains("href=\"http://www.cisco.com/go/cn/cvr100w\"")
+  cert.icontains("cvr100w")

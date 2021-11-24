@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: CGEZ-48-Router
+  softhard: '1'
+matches: |
+  banner.icontains("48 fe ports routing switch(cgez-48)")

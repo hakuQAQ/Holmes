@@ -1,0 +1,8 @@
+info:
+  company: ruvar
+  product: Ruvar-OA
+  softhard: '2'
+matches: |
+  body.icontains("<iframe id=\"ifrm\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\" src=\"/include/login.aspx")
+  title.icontains("协同办公平台") && body.icontains("/include/login.aspx")
+  body.icontains("<frame") && body.icontains("<iframe ")

@@ -1,0 +1,9 @@
+info:
+  company: Other
+  product: typecho-CMS
+  softhard: '2'
+matches: |
+  body.icontains("generator\" content=\"typecho")
+  body.icontains("强力驱动")
+  body.icontains("typecho") && body.icontains("content=\"typecho")
+  body.icontains("class=\"typecho-login-wrap")

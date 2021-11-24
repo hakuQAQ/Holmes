@@ -1,0 +1,7 @@
+info:
+  company: 'Ubiquiti Inc. '
+  product: UniFi-swich
+  softhard: '1'
+matches: |
+  title.icontains("unifi network")
+  body.icontains("window.unificonfig.version")

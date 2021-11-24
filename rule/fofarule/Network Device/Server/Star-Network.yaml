@@ -1,0 +1,9 @@
+info:
+  company: MyHost Inc.
+  product: Star-Network
+  softhard: '1'
+matches: |
+  body.icontains(">star network &amp; promotion ltd")
+  body.icontains(">star network and promotion ltd")
+  body.icontains("<a href=\"http://www.s4u.co.il ")
+  body.icontains("<a href=\"http://www.starltd.net")

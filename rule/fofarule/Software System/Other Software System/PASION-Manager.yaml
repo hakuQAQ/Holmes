@@ -1,0 +1,6 @@
+info:
+  company: PASION
+  product: PASION-Manager
+  softhard: '2'
+matches: |
+  title.icontains("ログイン | パシオン社内業務管理システム")

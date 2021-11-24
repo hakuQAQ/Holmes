@@ -1,0 +1,7 @@
+info:
+  company: Horde LLC
+  product: Horde
+  softhard: '2'
+matches: |
+  body.icontains("imp: copyright 2001-2009 the horde project")
+  header.icontains("horde3") && banner.icontains("horde3")

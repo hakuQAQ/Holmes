@@ -1,0 +1,6 @@
+info:
+  company: International Business Machines Corporation
+  product: IBM-TotalStorage
+  softhard: '1'
+matches: |
+  banner.icontains("adaptec") && banner.icontains("ibm totalstorage")

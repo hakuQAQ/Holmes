@@ -1,0 +1,6 @@
+info:
+  company: raisecom
+  product: RAISECOM-ISCOM2624G
+  softhard: '1'
+matches: |
+  body.icontains("color=\"#000000\">iscom2624g")

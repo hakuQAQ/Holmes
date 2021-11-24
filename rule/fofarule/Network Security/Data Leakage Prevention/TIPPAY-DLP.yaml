@@ -1,0 +1,6 @@
+info:
+  company: tipray
+  product: TIPPAY-DLP
+  softhard: '2'
+matches: |
+  title.icontains("绿盾信息安全系统管理")

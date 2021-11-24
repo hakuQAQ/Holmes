@@ -1,0 +1,6 @@
+info:
+  company: Wavlink
+  product: Wavlink-WiFi-Repeater
+  softhard: '1'
+matches: |
+  title == "wifi repeater web server"

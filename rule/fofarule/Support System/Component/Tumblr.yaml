@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Tumblr
+  softhard: '2'
+matches: |
+  header.icontains("x-tumblr-user")
+  body.icontains("<meta name=\"tumblr-theme\" content=")
+  body.icontains("<!-- begin tumblr code --><iframe src=\"http://assets.tumblr.com/iframe.html")

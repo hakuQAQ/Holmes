@@ -1,0 +1,22 @@
+info:
+  company: kedacom
+  product: Kedacom-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  body.icontains("var syslan = window.navigator.userlanguage;")
+  header.icontains("kedacom-webs")
+  title.icontains("meeting ")
+  banner.icontains("kedacom login:")
+  banner.icontains("kedacom-pc")
+  body.icontains("/kedacom.common.js")
+  body.icontains("codebase=\"kdmv53.cab#version=")
+  header.icontains("kedacom-hs")
+  body.icontains("top.location.href = \"login.htm?_=\"+new date().gettime()")
+  body.icontains("<strong>科达系列音视频解码器</strong>")
+  body.icontains("<strong>版本信息：</strong>svr station")
+  body.icontains("background=\"images/keda_svrstation.jpg")
+  body.icontains("onkeyup=\"pwstrength(this.value)") && body.icontains("usermailokclick") && header.icontains("goahead-http")
+  header.icontains("/index.htm")
+  cert.icontains("o=kedacaom, ou=keda")
+  body.icontains("location.href='./login.htm';")
+  body.icontains("settimeout(\"goindexpage()")

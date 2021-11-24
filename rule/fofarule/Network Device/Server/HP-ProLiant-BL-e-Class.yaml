@@ -1,0 +1,6 @@
+info:
+  company: Hewlett Packard Enterprise Development LP
+  product: HP-ProLiant-BL-e-Class
+  softhard: '1'
+matches: |
+  banner.icontains("proliant bl e-class")

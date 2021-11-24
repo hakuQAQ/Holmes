@@ -1,0 +1,6 @@
+info:
+  company: Schneider Electric
+  product: Schneider-Modicon-M340
+  softhard: '1'
+matches: |
+  banner.icontains("modicon m340")

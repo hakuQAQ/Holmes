@@ -1,0 +1,9 @@
+info:
+  company: CODESYS GmbH
+  product: CODESYS-WebVisu
+  softhard: '2'
+matches: |
+  header.icontains("/plc/webvisu.htm ")
+  body.icontains("<param name=\"startvisu\" value=\"plc_visu\">")
+  title == "codesys webvisualization" && body.icontains("<applet codebase=. code=webvisu/webvisu.class name=\"webvisu")
+  header.icontains("wago_webs")

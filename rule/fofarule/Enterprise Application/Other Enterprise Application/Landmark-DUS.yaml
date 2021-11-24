@@ -1,0 +1,8 @@
+info:
+  company: Landmark Information Group Ltd
+  product: Landmark-DUS
+  softhard: '2'
+matches: |
+  title.icontains("- royalties admin application")
+  body.icontains("landmark")
+  body.icontains("href=\"/landmark.admin.web_deploy/")

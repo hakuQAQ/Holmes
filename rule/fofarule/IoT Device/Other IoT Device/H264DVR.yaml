@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: H264DVR
+  softhard: '1'
+matches: |
+  protocol.icontains("rtsp")
+  banner.icontains("server: h264dvr ")

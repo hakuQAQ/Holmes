@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: David-WebBox
+  softhard: '0'
+matches: |
+  header.icontains("david-webbox")

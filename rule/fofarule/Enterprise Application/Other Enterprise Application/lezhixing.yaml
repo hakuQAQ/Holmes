@@ -1,0 +1,8 @@
+info:
+  company: lezhixing
+  product: lezhixing
+  softhard: '2'
+matches: |
+  body.icontains("action=\"/datacenter/authentication/login.do\" method=\"post")
+  body.icontains("location.href=contextpath+\"/login/password/password.jsp")
+  body.icontains("var contextpath = \"/datacenter") && body.icontains("/static/thirdparty/jquery/")

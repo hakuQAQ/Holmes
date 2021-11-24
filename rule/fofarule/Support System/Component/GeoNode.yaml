@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: GeoNode
+  softhard: '2'
+matches: |
+  body.icontains("powered by <a href=\"http://geonode.org")
+  body.icontains("href=\"/catalogue/opensearch\" title=\"geonode search")
+  title.icontains("geonode")

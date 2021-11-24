@@ -1,0 +1,7 @@
+info:
+  company: ZTE
+  product: ZTE-ZSRV2-Router
+  softhard: '1'
+matches: |
+  title.icontains("zsrv2路由器web管理系统")
+  body.icontains("zte corporation. all rights reserved.")

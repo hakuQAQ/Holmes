@@ -1,0 +1,6 @@
+info:
+  company: yeastar
+  product: Yeastar-S50
+  softhard: '1'
+matches: |
+  banner.icontains("server: yeastar s50")

@@ -1,0 +1,6 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-ZyAIR-G-4100v2
+  softhard: '1'
+matches: |
+  title.icontains("zyxel zyair g-4100v2")

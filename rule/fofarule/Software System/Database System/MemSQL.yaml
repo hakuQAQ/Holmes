@@ -1,0 +1,6 @@
+info:
+  company: MemSQL
+  product: MemSQL
+  softhard: '2'
+matches: |
+  title == "memsql ops" && body.icontains("<h1>this browser is not supported by memsql ops</h2>")

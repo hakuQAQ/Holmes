@@ -1,0 +1,7 @@
+info:
+  company: IBM
+  product: IBM Spectrum Computing
+  softhard: '2'
+matches: |
+  body.icontains("/platform/framework/logout/logout.action")
+  body.icontains("ssoclient_")

@@ -1,0 +1,8 @@
+info:
+  company: BangYong
+  product: BangYong-PM2
+  softhard: '2'
+matches: |
+  header.icontains("accid=1001")
+  title.icontains("pm2工程项目管理系统")
+  body.icontains("pm2项目管理系统bs版增强工具.zip")

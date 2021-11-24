@@ -1,0 +1,6 @@
+info:
+  company: Highfive.
+  product: Highfive
+  softhard: '1'
+matches: |
+  body.icontains("highfive_device_hand")

@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: Simple-Phishing-Toolkit
+  softhard: '2'
+matches: |
+  body.icontains("<span id=\"spt\"><a href=\"http://www.sptoolkit.com/download/\" target=\"_blank\">")
+  body.icontains("content=\"welcome to spt - simple phishing toolkit.  spt is a super simple but powerful phishing toolkit.\" />")

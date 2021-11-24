@@ -1,0 +1,8 @@
+info:
+  company: AAT HOLDING S.A.
+  product: WebGuard
+  softhard: '1'
+matches: |
+  title.icontains("webguard login")
+  body.icontains("onload=\"getinfo()\" onresize=\"fit_center()\">")
+  protocol.icontains("rtsp") && banner.icontains("server: novus rtsp server")

@@ -1,0 +1,10 @@
+info:
+  company: jinher
+  product: Jinher-OA
+  softhard: '2'
+matches: |
+  title.icontains("金和协同管理平台")
+  body.icontains("js/passwordcommon.js")
+  body.icontains("js/passwordnew.js")
+  body.icontains("jinher network")
+  body.icontains("c6/jhsoft.web.login") && body.icontains("closewindownoask")

@@ -1,0 +1,7 @@
+info:
+  company: Server Technology, Inc.
+  product: ServerTechnology-Sentry-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("sentry switched ")
+  banner.icontains("sentry smart ")

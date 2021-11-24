@@ -1,0 +1,6 @@
+info:
+  company: Electronics For Imaging, Inc
+  product: efi-Printing-device
+  softhard: '1'
+matches: |
+  title == "webtools" && body.icontains("efi")

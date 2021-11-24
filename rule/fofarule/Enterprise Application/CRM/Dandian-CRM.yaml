@@ -1,0 +1,8 @@
+info:
+  company: dandian
+  product: Dandian-CRM
+  softhard: '2'
+matches: |
+  body.icontains("url=general/erp/login/")
+  body.icontains("content=\"单点crm系统")
+  title == "客户关系管理-crm"

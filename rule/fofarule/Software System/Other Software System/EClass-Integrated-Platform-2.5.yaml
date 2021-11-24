@@ -1,0 +1,6 @@
+info:
+  company: eclass
+  product: EClass-Integrated-Platform-2.5
+  softhard: '2'
+matches: |
+  title.icontains("eclass integrated platform 2.5")

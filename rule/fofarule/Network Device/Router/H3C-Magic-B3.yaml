@@ -1,0 +1,7 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-Magic-B3
+  softhard: '1'
+matches: |
+  body.icontains("var product_type = \"b3\"")
+  title.icontains("magic b3&nbsp路由器登录")

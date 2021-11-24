@@ -1,0 +1,6 @@
+info:
+  company: Samsung Group
+  product: Samsung-IP-Phone
+  softhard: '1'
+matches: |
+  banner.icontains("sasmsung ip-phone ")

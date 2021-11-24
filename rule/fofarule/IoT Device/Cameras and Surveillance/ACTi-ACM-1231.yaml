@@ -1,0 +1,6 @@
+info:
+  company: acti
+  product: ACTi-ACM-1231
+  softhard: '1'
+matches: |
+  body.icontains("url=/cgi-bin/videoconfiguration.cgi")

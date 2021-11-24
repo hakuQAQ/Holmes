@@ -1,0 +1,6 @@
+info:
+  company: CathexisVision Integrations
+  product: Cathexis-WNVR3000-PC
+  softhard: '1'
+matches: |
+  title.icontains("wnvr3000-pc")

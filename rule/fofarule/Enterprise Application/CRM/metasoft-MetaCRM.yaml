@@ -1,0 +1,6 @@
+info:
+  company: metasoft
+  product: metasoft-MetaCRM
+  softhard: '2'
+matches: |
+  title.icontains("metacrm6客户关系管理系统")

@@ -1,0 +1,14 @@
+info:
+  company: TongTa
+  product: TongDa-OA
+  softhard: '2'
+matches: |
+  body.icontains("/static/templates/2013_01/index.css/")
+  body.icontains("javascript:document.form1.uname.focus()")
+  body.icontains("href=\"/static/images/tongda.ico\"")
+  body.icontains("<link rel=\"shortcut icon\" href=\"/images/tongda.ico\" />")
+  body.icontains("oa提示：不能登录oa")
+  body.icontains("紧急通知：今日10点停电")
+  title.icontains("office anywhere 2013")
+  title.icontains("office anywhere 2015") && body.icontains("tongda.ico")
+  title.icontains("oa") && title.icontains("办公") && body.icontains("class=\"style1\">新oa办公系统")

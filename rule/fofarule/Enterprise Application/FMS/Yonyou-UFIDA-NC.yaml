@@ -1,0 +1,11 @@
+info:
+  company: Yonyou Network Co Ltd
+  product: Yonyou-UFIDA-NC
+  softhard: '2'
+matches: |
+  body.icontains("ufida") && body.icontains("logo/images/")
+  body.icontains("logo/images/ufida_nc.png")
+  title.icontains("yonyou nc")
+  body.icontains("<div id=\"nc_text\">")
+  body.icontains("<div id=\"nc_img\" onmouseover=\"overimage('nc');")
+  title == "产品登录界面" && body.icontains("ufida nc")

@@ -1,0 +1,6 @@
+info:
+  company: douco
+  product: DouPHP
+  softhard: '2'
+matches: |
+  body.icontains("content=\"douphp ")

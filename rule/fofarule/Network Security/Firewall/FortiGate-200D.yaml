@@ -1,0 +1,6 @@
+info:
+  company: Fortinet, Inc.
+  product: FortiGate-200D
+  softhard: '1'
+matches: |
+  banner.icontains("fortigate-200d")

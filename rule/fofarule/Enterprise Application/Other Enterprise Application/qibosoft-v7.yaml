@@ -1,0 +1,6 @@
+info:
+  company: Qibosoft
+  product: qibosoft-v7
+  softhard: '2'
+matches: |
+  body.icontains("/images/v7/cms.css\">")

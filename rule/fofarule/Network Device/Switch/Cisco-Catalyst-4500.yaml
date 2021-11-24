@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-Catalyst-4500
+  softhard: '1'
+matches: |
+  banner.icontains("catalyst 4500 l3 switch")

@@ -1,0 +1,7 @@
+info:
+  company: Trend Micro Incorporated.
+  product: TrendMicro-Product
+  softhard: '1'
+matches: |
+  title.icontains("trend micro deep security")
+  body.icontains("deep security</h4>")

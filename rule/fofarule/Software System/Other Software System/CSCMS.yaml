@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: CSCMS
+  softhard: '2'
+matches: |
+  body.icontains("tag_adfo dis_wap")
+  body.icontains("/js/cscms.js")
+  title.icontains("cscms-多元化内容管理系统")

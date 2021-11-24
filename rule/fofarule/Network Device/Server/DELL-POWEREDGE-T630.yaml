@@ -1,0 +1,7 @@
+info:
+  company: Dell Inc.
+  product: DELL-POWEREDGE-T630
+  softhard: '1'
+matches: |
+  banner.icontains("poweredge-t630")
+  cert.icontains("poweredge-t630")

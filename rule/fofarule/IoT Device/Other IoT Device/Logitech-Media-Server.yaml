@@ -1,0 +1,7 @@
+info:
+  company: Logitech International S.A.
+  product: Logitech-Media-Server
+  softhard: '1'
+matches: |
+  header.icontains("logitech media server")
+  banner.icontains("logitech media server")

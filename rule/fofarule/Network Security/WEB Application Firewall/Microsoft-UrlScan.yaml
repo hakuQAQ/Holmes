@@ -1,0 +1,6 @@
+info:
+  company: Microsoft Corporation
+  product: Microsoft-UrlScan
+  softhard: '2'
+matches: |
+  header.icontains("rejected-by-urlscan")

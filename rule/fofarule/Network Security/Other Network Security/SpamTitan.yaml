@@ -1,0 +1,6 @@
+info:
+  company: Titan Technology Solutions US INC
+  product: SpamTitan
+  softhard: '2'
+matches: |
+  body.icontains("<table class=\"lhead\"><tr><td class=\"img\"><img src=\"/imgs/logo.gif\" alt=\"spamtitan logo\"></td></tr></table></div>")

@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Help-Desk-Software
+  softhard: '2'
+matches: |
+  body.icontains("target=\"_blank\">freehelpdesk.org")

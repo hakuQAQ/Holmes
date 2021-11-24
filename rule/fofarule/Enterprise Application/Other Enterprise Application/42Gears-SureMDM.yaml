@@ -1,0 +1,6 @@
+info:
+  company: 42Gears Mobility Systems Inc.
+  product: 42Gears-SureMDM
+  softhard: '2'
+matches: |
+  body.icontains("suremdm") && body.icontains("astrocontacts")

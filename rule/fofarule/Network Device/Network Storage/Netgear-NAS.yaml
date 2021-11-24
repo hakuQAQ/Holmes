@@ -1,0 +1,7 @@
+info:
+  company: NETGEAR, Inc.
+  product: Netgear-NAS
+  softhard: '1'
+matches: |
+  banner.icontains("netgear")
+  banner.icontains("100nas") && banner.icontains("cable modem") && header.icontains("netgear") && header.icontains("100nas")

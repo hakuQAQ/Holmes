@@ -1,0 +1,6 @@
+info:
+  company: Red Lion
+  product: Red-Lion-HMI
+  softhard: '1'
+matches: |
+  body.icontains("powered by <a href=http://www.redlion.net>red lion")

@@ -1,0 +1,7 @@
+info:
+  company: OrientDB LTD.
+  product: OrientDB
+  softhard: '2'
+matches: |
+  header.icontains("orientdb")
+  header.icontains("x-") && title.icontains("redirecting to orientdb")

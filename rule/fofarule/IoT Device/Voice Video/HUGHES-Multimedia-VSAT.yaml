@@ -1,0 +1,6 @@
+info:
+  company: Hughes Network Systems, LLC,
+  product: HUGHES-Multimedia-VSAT
+  softhard: '1'
+matches: |
+  banner.icontains("hughes network systems multimedia vsat")

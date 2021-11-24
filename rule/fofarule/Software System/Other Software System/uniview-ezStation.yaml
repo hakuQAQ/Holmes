@@ -1,0 +1,7 @@
+info:
+  company: uniview
+  product: uniview-ezStation
+  softhard: '2'
+matches: |
+  body.icontains("<h1>welcome to ezstation vc server")
+  banner.icontains("ezstation")

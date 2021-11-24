@@ -1,0 +1,6 @@
+info:
+  company: Cisco
+  product: Cisco-ISE
+  softhard: '2'
+matches: |
+  title.icontains("identity services engine")

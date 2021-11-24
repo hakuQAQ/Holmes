@@ -1,0 +1,6 @@
+info:
+  company: Toshiba Corporation
+  product: TOSHIBA-Canvio
+  softhard: '1'
+matches: |
+  body.icontains("welcome to silverstore 2-drive nas")

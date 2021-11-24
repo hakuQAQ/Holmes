@@ -1,0 +1,10 @@
+info:
+  company: HUAWEI
+  product: Hua-EchoLife-Home-Gateway
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"echolife home gateway")
+  header.icontains("realm=\"echolife portal de inicio")
+  header.icontains("realm=\"echolife hg520s")
+  banner.icontains("echolife hg520s")
+  banner.icontains("echolife home ga")

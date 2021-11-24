@@ -1,0 +1,7 @@
+info:
+  company: Pandora FMS Team
+  product: Pandora-FMS
+  softhard: '2'
+matches: |
+  title.icontains("pandora fms")
+  body.icontains("title=\"pandora rss feed")

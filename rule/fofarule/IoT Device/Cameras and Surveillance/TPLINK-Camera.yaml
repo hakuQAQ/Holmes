@@ -1,0 +1,6 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TPLINK-Camera
+  softhard: '1'
+matches: |
+  title == "ip camera viewer" && body.icontains("<frame src=\"controlmenu.htm")

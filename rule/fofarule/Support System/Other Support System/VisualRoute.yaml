@@ -1,0 +1,6 @@
+info:
+  company: Visualware Inc.
+  product: VisualRoute
+  softhard: '2'
+matches: |
+  header.icontains("visualroute")

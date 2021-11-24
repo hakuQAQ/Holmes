@@ -1,0 +1,8 @@
+info:
+  company: Elster Solutions
+  product: EnergyICT-RTU
+  softhard: '1'
+matches: |
+  header.icontains("energyict rtu ")
+  body.icontains("<frame name=\"webrtumenu\" target=\"main\" src=\"webrtumenu.shtml")
+  title == "webrtu z1"

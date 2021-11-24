@@ -1,0 +1,9 @@
+info:
+  company: thinksns
+  product: ThinkSNS
+  softhard: '2'
+matches: |
+  body.icontains("_static/image/favicon.ico")
+  header.icontains("t3_lang") && header.icontains("tsv3_lang")
+  body.icontains("powered by <a href=\"http://www.thinksns.com\">")
+  banner.icontains("t3_lang") && banner.icontains("tsv3_lang")

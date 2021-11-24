@@ -1,0 +1,7 @@
+info:
+  company: EnGenius Technologies, Inc.
+  product: EnGenius-Product
+  softhard: '1'
+matches: |
+  body.icontains("<div class=\"rndcrnr1_top\">")
+  title.icontains("login")

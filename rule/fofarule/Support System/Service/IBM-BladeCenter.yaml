@@ -1,0 +1,10 @@
+info:
+  company: International Business Machines Corporation
+  product: IBM-BladeCenter
+  softhard: '1'
+matches: |
+  body.icontains("/shared/ibmbch.png")
+  body.icontains("/shared/ibmbcs.png")
+  body.icontains("alt=\"ibm bladecenter") && protocol.icontains("snmp") && banner.icontains("bladecenter management module")
+  banner.icontains("bladecenter advanced management module")
+  banner.icontains("ibm bladecenter(r)")

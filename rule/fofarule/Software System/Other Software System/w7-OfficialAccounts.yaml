@@ -1,0 +1,10 @@
+info:
+  company: Other
+  product: w7-OfficialAccounts
+  softhard: '2'
+matches: |
+  title.icontains("微擎 - 公众平台自助引擎")
+  title.icontains("powered by we7.cc")
+  body.icontains("class=\"copyright\">powered by <a href=\"http://www.we7.cc\"><b>微擎</b>")
+  body.icontains("onsubmit=\"return formcheck();\" class=\"we7-form\">") && body.icontains("content=\"微擎,微信")
+  body.icontains("powered by we7.cc")

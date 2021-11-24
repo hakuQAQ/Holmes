@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Beego-Server
+  softhard: '2'
+matches: |
+  header.icontains("beegoserver")
+  banner.icontains("beegoserver")
+  banner.icontains("server: ")

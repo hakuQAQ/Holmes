@@ -1,0 +1,6 @@
+info:
+  company: Panasonic Corporation
+  product: Panasonic-Ethernet-webcam
+  softhard: '1'
+matches: |
+  body.icontains("content=\"ncs g 2062\"")

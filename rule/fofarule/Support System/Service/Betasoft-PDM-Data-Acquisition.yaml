@@ -1,0 +1,7 @@
+info:
+  company: betasoft
+  product: Betasoft-PDM-Data-Acquisition
+  softhard: '2'
+matches: |
+  body.icontains("align=\"center\" class=\"login_pdm\">")
+  body.icontains("background: no-repeat url(../images/login/pdmdenglu1_28.png);")

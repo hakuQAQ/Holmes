@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: CodePush-server
+  softhard: '2'
+matches: |
+  body.icontains("content=\"codepush service is hotupdate services")

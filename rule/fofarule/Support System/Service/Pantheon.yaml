@@ -1,0 +1,7 @@
+info:
+  company: Pantheon
+  product: Pantheon
+  softhard: '2'
+matches: |
+  header.icontains("x-pantheon-edge")
+  banner.icontains("x-pantheon-edge")

@@ -1,0 +1,6 @@
+info:
+  company: Sophos Technologies Pvt. Ltd.
+  product: SOPHOS-UTM220
+  softhard: '1'
+matches: |
+  cert.icontains("utm220") && body.icontains("var own_status")

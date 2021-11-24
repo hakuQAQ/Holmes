@@ -1,0 +1,7 @@
+info:
+  company: leadsec
+  product: Leadsec-SOC
+  softhard: '1'
+matches: |
+  body.icontains("/leadsec-soc")
+  body.icontains("action=\"/leadsec-soc/signin")

@@ -1,0 +1,6 @@
+info:
+  company: International Business Machines Corporation
+  product: IBM_OpenAdmin_Tool
+  softhard: '2'
+matches: |
+  body.icontains("class=\"oat oneui\"")

@@ -1,0 +1,6 @@
+info:
+  company: wantit
+  product: wantit-ERP
+  softhard: '2'
+matches: |
+  body.icontains("/javascript/js/witfunctions.js")

@@ -1,0 +1,6 @@
+info:
+  company: McAfee, Inc.
+  product: McAfee_EG4500
+  softhard: '1'
+matches: |
+  banner.icontains("eg4500/smtp ")

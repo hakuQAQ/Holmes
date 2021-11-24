@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: octoprint
+  softhard: '1'
+matches: |
+  body.icontains("/octoprint/wiki/plugin:-discovery")

@@ -1,0 +1,8 @@
+info:
+  company: ACME Laboratories
+  product: mini_httpd
+  softhard: '2'
+matches: |
+  header.icontains("mini_httpd")
+  header.icontains("acme mini_httpd")
+  banner.icontains("server: mini_httpd")

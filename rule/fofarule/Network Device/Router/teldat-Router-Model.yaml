@@ -1,0 +1,7 @@
+info:
+  company: Teldat Group
+  product: teldat-Router-Model
+  softhard: '1'
+matches: |
+  banner.icontains("router model ")
+  banner.icontains("teldat")

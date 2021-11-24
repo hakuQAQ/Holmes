@@ -1,0 +1,12 @@
+info:
+  company: MDaemon Technologies, Ltd.
+  product: MDaemon-email-server
+  softhard: '2'
+matches: |
+  body.icontains("/worldclient.dll?view=main")
+  body.icontains("mdaemon ")
+  title.icontains("worldclient")
+  body.icontains("<strong>mdaemon/worldclient")
+  banner.icontains("esmtp mdaemon")
+  banner.icontains("pop3 mdaemon")
+  banner.icontains("pop mdaemon")

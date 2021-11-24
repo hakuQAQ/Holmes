@@ -1,0 +1,6 @@
+info:
+  company: Sarian Solutions Inc
+  product: Sarian-DR6410-HPA
+  softhard: '1'
+matches: |
+  banner.icontains(" sarian dr6410-hpa ")

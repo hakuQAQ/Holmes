@@ -1,0 +1,8 @@
+info:
+  company: HUAWEI
+  product: Huawei-Firewall
+  softhard: '1'
+matches: |
+  header.icontains("server: eudemon server")
+  banner.icontains("server: eudemon server")
+  body.icontains("modify by wangxiangguang")

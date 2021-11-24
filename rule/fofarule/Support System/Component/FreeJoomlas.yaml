@@ -1,0 +1,6 @@
+info:
+  company: Open Source Matters, Inc.
+  product: FreeJoomlas
+  softhard: '2'
+matches: |
+  body.icontains("<a title=\"free joomla hosting\" href=\"http://freejoomlas.com")

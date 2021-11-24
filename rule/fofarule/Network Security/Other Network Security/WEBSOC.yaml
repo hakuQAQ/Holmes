@@ -1,0 +1,7 @@
+info:
+  company: knownsec
+  product: WEBSOC
+  softhard: '1'
+matches: |
+  title.icontains("网站立体监控系统")
+  body.icontains("<div id=\"logo-websoc\" class=\"png-bg\"></div>")

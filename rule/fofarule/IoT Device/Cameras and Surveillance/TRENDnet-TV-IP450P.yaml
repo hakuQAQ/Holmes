@@ -1,0 +1,7 @@
+info:
+  company: TRENDnet, Inc.
+  product: TRENDnet-TV-IP450P
+  softhard: '1'
+matches: |
+  banner.icontains("tv-ip450p")
+  header.icontains("realm=\"tv-ip450p")

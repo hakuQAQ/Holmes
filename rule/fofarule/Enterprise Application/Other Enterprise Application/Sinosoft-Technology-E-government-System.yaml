@@ -1,0 +1,8 @@
+info:
+  company: skynj
+  product: Sinosoft-Technology-E-government-System
+  softhard: '2'
+matches: |
+  body.icontains("app_themes/1/style.css")
+  body.icontains("window.location = \"homepages/index.aspx")
+  body.icontains("homepages/content_page.aspx")

@@ -1,0 +1,6 @@
+info:
+  company: Dahua
+  product: dahua-DH-SD29204T-GN-W
+  softhard: '1'
+matches: |
+  banner.icontains("dh-sd29204t-gn-w")

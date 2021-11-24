@@ -1,0 +1,7 @@
+info:
+  company: F5 Networks, Inc.
+  product: F5-TrafficShield
+  softhard: '2'
+matches: |
+  banner.icontains("asinfo=") && banner.icontains("f5-trafficshield")
+  header.icontains("asinfo=") && header.icontains("f5-trafficshield")

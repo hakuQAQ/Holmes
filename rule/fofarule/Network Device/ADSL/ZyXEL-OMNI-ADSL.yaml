@@ -1,0 +1,8 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-OMNI-ADSL
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"omni adsl")
+  banner.icontains("omni adsl ")
+  header.icontains("realm=\"zyxel keenetic omni")

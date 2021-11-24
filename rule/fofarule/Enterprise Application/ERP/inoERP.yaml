@@ -1,0 +1,6 @@
+info:
+  company: inoERP
+  product: inoERP
+  softhard: '2'
+matches: |
+  body.icontains("id=\"ino-body\"")

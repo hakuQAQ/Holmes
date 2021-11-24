@@ -1,0 +1,11 @@
+info:
+  company: Other
+  product: Digifort
+  softhard: '1'
+matches: |
+  body.icontains("content=\"digifort")
+  body.icontains("href=\"http://www.digifort.jp/\"><img src=\"/user_data/packages/digifort_pc/img/common/logo.gif")
+  header.icontains("realm=\"digifort http ")
+  header.icontains("realm=\"serveur digifort http")
+  banner.icontains("realm=\"digifort http ")
+  banner.icontains("realm=\"serveur digifort http")

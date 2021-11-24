@@ -1,0 +1,7 @@
+info:
+  company: Vodafone Group plc
+  product: Arcor-DSL-Modem
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"arcor-dsl wlan-modem")
+  banner.icontains("realm=\"arcor-dsl wlan-modem")

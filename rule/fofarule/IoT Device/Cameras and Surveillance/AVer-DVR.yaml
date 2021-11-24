@@ -1,0 +1,6 @@
+info:
+  company: AVer Information Inc.
+  product: AVer-DVR
+  softhard: '1'
+matches: |
+  body.icontains("var isexist = get_cookie(\"ocx\")")

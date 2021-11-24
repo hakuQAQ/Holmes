@@ -1,0 +1,8 @@
+info:
+  company: 'VisualSVN Software Ltd. '
+  product: VisualSVN
+  softhard: '2'
+matches: |
+  title.icontains("visualsvn server")
+  header.icontains("realm=\"visualsvn server")
+  banner.icontains("realm=\"visualsvn server")

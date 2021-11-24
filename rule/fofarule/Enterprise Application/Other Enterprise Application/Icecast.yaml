@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Icecast
+  softhard: '2'
+matches: |
+  header.icontains("icecast") && banner.icontains("server: icecast")
+  banner.icontains("ezstream")
+  title.icontains("icecast")

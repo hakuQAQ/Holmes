@@ -1,0 +1,6 @@
+info:
+  company: MinIO, Inc.
+  product: MINIO-Browser
+  softhard: '2'
+matches: |
+  body.icontains("href=\"/minio/loader.css\"")

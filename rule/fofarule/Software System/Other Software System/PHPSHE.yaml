@@ -1,0 +1,7 @@
+info:
+  company: haovip
+  product: PHPSHE
+  softhard: '2'
+matches: |
+  body.icontains("powered by phpshe")
+  body.icontains("content=\"phpshe")

@@ -1,0 +1,6 @@
+info:
+  company: neusoft
+  product: Neusoft-NetEye-Unified-login
+  softhard: '2'
+matches: |
+  title.icontains("neteye 统一身份管控系统登录")

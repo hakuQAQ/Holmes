@@ -1,0 +1,6 @@
+info:
+  company: myfax
+  product: Myfax
+  softhard: '1'
+matches: |
+  body.icontains("/cgi-bin/ed3.cgi")

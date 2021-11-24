@@ -1,0 +1,6 @@
+info:
+  company: Juniper Networks, Inc.
+  product: Juniper-Gateway
+  softhard: '1'
+matches: |
+  banner.icontains("juniper gateway")

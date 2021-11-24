@@ -1,0 +1,8 @@
+info:
+  company: HUAWEI
+  product: HUAWEI-Eudemon1000E
+  softhard: '1'
+matches: |
+  banner.icontains("eudemon 1000e")
+  banner.icontains("eudemon1000e")
+  header.icontains("huawei eudemon1000e-n6")

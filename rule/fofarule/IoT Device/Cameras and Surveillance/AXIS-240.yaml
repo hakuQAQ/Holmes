@@ -1,0 +1,6 @@
+info:
+  company: Axis Communications AB.
+  product: AXIS-240
+  softhard: '1'
+matches: |
+  title.icontains("axis 240 camera server")

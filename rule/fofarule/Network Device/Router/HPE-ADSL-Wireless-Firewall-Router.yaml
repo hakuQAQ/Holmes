@@ -1,0 +1,7 @@
+info:
+  company: HPE
+  product: HPE-ADSL-Wireless-Firewall-Router
+  softhard: '1'
+matches: |
+  body.icontains("<meta http-equiv=\"3cnumber\" content=\"3crwdr200a-75\">")
+  body.icontains("<meta http-equiv=\"sysobjectid\" content=\"1.3.6.1.4.1.43.1.19.14\">")

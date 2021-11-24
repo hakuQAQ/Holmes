@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: HP-Network-Automation
+  softhard: '2'
+matches: |
+  title.icontains("hp network automation")

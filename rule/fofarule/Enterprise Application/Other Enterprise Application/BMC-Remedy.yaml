@@ -1,0 +1,6 @@
+info:
+  company: BMC Software, Inc.
+  product: BMC-Remedy
+  softhard: '2'
+matches: |
+  title.icontains("remedy mid tier")

@@ -1,0 +1,12 @@
+info:
+  company: szreach
+  product: Reach-HD-recording-system
+  softhard: '1'
+matches: |
+  title.icontains("锐取rex录播管理平台")
+  body.icontains("/common/js/reach.js")
+  body.icontains("深圳锐取信息技术股份有限公司")
+  body.icontains("/reach/jquery.reach.js")
+  body.icontains("<font size=4.5>锐取多媒体录播系统")
+  body.icontains("多媒体录播系统")
+  body.icontains("锐取")

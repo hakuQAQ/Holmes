@@ -1,0 +1,6 @@
+info:
+  company: Synchrotech, a Division of Synchronized Technologies, Inc.
+  product: MB8000
+  softhard: '1'
+matches: |
+  banner.icontains("mb8000")

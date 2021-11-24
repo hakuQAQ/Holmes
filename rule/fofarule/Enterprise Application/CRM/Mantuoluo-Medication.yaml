@@ -1,0 +1,6 @@
+info:
+  company: Mantuoluo
+  product: Mantuoluo-Medication
+  softhard: '2'
+matches: |
+  body.icontains("<h2>曼陀罗医疗</h2>")

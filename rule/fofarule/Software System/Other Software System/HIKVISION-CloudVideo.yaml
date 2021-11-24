@@ -1,0 +1,6 @@
+info:
+  company: Hikvision
+  product: HIKVISION-CloudVideo
+  softhard: '2'
+matches: |
+  body.icontains("嗨看云视频</p>")

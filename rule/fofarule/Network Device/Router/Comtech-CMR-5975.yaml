@@ -1,0 +1,6 @@
+info:
+  company: Comtech EF Data Corporation.
+  product: Comtech-CMR-5975
+  softhard: '1'
+matches: |
+  banner.icontains("cmr-5975")

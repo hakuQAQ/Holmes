@@ -1,0 +1,7 @@
+info:
+  company: kedacom
+  product: Kedacom-Redundant-Arrays-of-Independent-Drives（RAID）
+  softhard: '1'
+matches: |
+  title.icontains("科达磁盘阵列系统")
+  body.icontains("href=\"kstormon.exe")

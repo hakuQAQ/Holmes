@@ -1,0 +1,6 @@
+info:
+  company: GoCloud
+  product: gocloud-S1A_xiaomi-series-router
+  softhard: '1'
+matches: |
+  banner.icontains("gocloud s1a_xiaomi series router")

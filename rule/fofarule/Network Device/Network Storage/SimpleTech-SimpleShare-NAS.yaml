@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: SimpleTech-SimpleShare-NAS
+  softhard: '1'
+matches: |
+  banner.icontains("realm=\"simpleshare(default user name is admin and password is simple")
+  header.icontains("realm=\"simpleshare(default user name is admin and password is simple")

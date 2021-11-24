@@ -1,0 +1,9 @@
+info:
+  company: Other
+  product: Materialize-CSS
+  softhard: '2'
+matches: |
+  body.icontains("/materialize.css")
+  body.icontains("/materialize.min.css")
+  body.icontains("materialize/materialize")
+  body.icontains("materialize/css")

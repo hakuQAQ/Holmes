@@ -1,0 +1,7 @@
+info:
+  company: Brickstream Corp.
+  product: FLIR-Brickstream-1100
+  softhard: '1'
+matches: |
+  title.icontains("brickstream 1100")
+  body.icontains("<h1>brickstream 1100 basic configuration</h1>")

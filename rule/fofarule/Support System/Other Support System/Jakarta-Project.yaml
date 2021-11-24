@@ -1,0 +1,8 @@
+info:
+  company: Apache Software Foundation.
+  product: Jakarta-Project
+  softhard: '2'
+matches: |
+  title.icontains("jakarta project")
+  body.icontains("alt=\"the jakarta project")
+  body.icontains("<a href=\"http://jakarta.apache.org/\">")

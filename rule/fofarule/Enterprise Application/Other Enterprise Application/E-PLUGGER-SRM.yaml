@@ -1,0 +1,6 @@
+info:
+  company: eplugger
+  product: E-PLUGGER-SRM
+  softhard: '2'
+matches: |
+  body.icontains("lan12-jingbian-hong") && body.icontains("科研管理系统，北京易普拉格科技")

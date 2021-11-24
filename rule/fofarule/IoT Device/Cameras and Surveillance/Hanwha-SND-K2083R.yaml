@@ -1,0 +1,6 @@
+info:
+  company: Hanwha Techwin Co., Ltd.
+  product: Hanwha-SND-K2083R
+  softhard: '1'
+matches: |
+  body.icontains("var defaultfilename = \"snd-k2083r\"")

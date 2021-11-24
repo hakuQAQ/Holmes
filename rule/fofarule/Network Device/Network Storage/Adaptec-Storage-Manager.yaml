@@ -1,0 +1,6 @@
+info:
+  company: Microchip Technology Inc.
+  product: Adaptec-Storage-Manager
+  softhard: '2'
+matches: |
+  header.icontains("adaptec asm")

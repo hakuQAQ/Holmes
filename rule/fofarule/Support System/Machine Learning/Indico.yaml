@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Indico
+  softhard: '0'
+matches: |
+  header.icontains("makacsession")
+  banner.icontains("makacsession")
+  body.icontains("href=\"http://cern.ch/indico")

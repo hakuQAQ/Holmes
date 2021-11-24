@@ -1,0 +1,8 @@
+info:
+  company: Schneider Electric
+  product: Schneider-CitectSCADA
+  softhard: '2'
+matches: |
+  body.icontains("<meta http-equiv=\"refresh\" content=\"0; url=/citectscada\">")
+  body.icontains("content=\"start services, start group, the start group, automation, industrial, software engineering, scada, plc, rtu, rockwell, rockwell automation, allen-bradley, allen bradley, allenbradley, citect, citectscada, kingfisher")
+  banner.icontains("citectscada")

@@ -1,0 +1,7 @@
+info:
+  company: Extreme Networks, Inc.
+  product: ExtremeWare-XOS
+  softhard: '2'
+matches: |
+  banner.icontains("extremeware xos")
+  banner.icontains("extremexos")

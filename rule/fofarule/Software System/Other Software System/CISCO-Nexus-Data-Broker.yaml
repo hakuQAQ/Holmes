@@ -1,0 +1,7 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-Nexus-Data-Broker
+  softhard: '2'
+matches: |
+  body.icontains("j_security_check")
+  body.icontains("window.location.href = '/monitor';")

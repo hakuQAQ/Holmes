@@ -1,0 +1,7 @@
+info:
+  company: intelbras lnc.
+  product: Roteador-Intelbras-Wireless
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"roteador intelbras wireless")
+  banner.icontains("realm=\"roteador intelbras wireless")

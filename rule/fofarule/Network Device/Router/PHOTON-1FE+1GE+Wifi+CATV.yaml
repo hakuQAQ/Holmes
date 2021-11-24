@@ -1,0 +1,6 @@
+info:
+  company: photonbroadband
+  product: PHOTON-1FE+1GE+Wifi+CATV
+  softhard: '1'
+matches: |
+  title.icontains("1fe+1ge+wifi+catv")

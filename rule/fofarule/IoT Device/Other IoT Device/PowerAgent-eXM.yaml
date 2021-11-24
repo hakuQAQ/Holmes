@@ -1,0 +1,6 @@
+info:
+  company: Phoenix Broadband Technologies, LLC.
+  product: PowerAgent-eXM
+  softhard: '1'
+matches: |
+  banner.icontains("poweragent exm")

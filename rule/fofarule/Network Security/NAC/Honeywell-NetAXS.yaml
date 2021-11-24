@@ -1,0 +1,6 @@
+info:
+  company: Honeywell International Inc.
+  product: Honeywell-NetAXS
+  softhard: '1'
+matches: |
+  title.icontains("honeywell netaxs")

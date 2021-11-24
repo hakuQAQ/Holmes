@@ -1,0 +1,8 @@
+info:
+  company: Huawei
+  product: HUAWEI-7706
+  softhard: '1'
+matches: |
+  header.icontains("simple/view/login.html")
+  header.icontains("7706") && header.icontains("s7706") && banner.icontains("simple/view/login.html")
+  banner.icontains("7706") && banner.icontains("server") && header.icontains("s7706")

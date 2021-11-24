@@ -1,0 +1,6 @@
+info:
+  company: lflflf
+  product: lflflf
+  softhard: '2'
+matches: |
+  body.icontains("/lfradius/")

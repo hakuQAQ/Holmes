@@ -1,0 +1,6 @@
+info:
+  company: Digital Data Communications GmbH
+  product: LevelOne-IPS-0008
+  softhard: '1'
+matches: |
+  banner.icontains("ips-0008")

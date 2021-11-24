@@ -1,0 +1,7 @@
+info:
+  company: D-Link
+  product: DCS-2103
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"dcs-2103")
+  banner.icontains("dcs-2103")

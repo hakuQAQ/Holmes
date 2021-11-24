@@ -1,0 +1,6 @@
+info:
+  company: WatchGuard Technologies, Inc.
+  product: WatchGuard-XTM545
+  softhard: '1'
+matches: |
+  banner.icontains("xtm545")

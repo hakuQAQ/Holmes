@@ -1,0 +1,6 @@
+info:
+  company: umeye
+  product: UMEye-webcam
+  softhard: '1'
+matches: |
+  body.icontains("name=\"utbd_v\"")

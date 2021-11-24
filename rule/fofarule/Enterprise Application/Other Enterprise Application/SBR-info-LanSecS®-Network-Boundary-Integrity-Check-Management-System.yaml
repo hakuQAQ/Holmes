@@ -1,0 +1,6 @@
+info:
+  company: SBR
+  product: SBR-info-LanSecS®-Network-Boundary-Integrity-Check-Management-System
+  softhard: '2'
+matches: |
+  title.icontains("网络边界完整性检查管理系统 v2.0")

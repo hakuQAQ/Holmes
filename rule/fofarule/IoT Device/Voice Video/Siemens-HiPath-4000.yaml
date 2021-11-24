@@ -1,0 +1,7 @@
+info:
+  company: Siemens AG.
+  product: Siemens-HiPath-4000
+  softhard: '1'
+matches: |
+  body.icontains("hipath 4000 administration tutorial")
+  banner.icontains("server: hipath 4000")

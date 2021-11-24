@@ -1,0 +1,10 @@
+info:
+  company: ASUSTeK Computer Inc.
+  product: ASUS-RT-AX88U
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"rt-ax88u")
+  banner.icontains("realm=\"rt-ax88u")
+  body.icontains("<div class=\"prod_madelname\">rt-ax88u</div>")
+  body.icontains("var product_name='rt-ax88u'")
+  body.icontains("\"model_name\":\"rt-ax88u\"")

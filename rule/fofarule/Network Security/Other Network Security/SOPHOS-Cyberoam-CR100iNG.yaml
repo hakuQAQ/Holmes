@@ -1,0 +1,6 @@
+info:
+  company: Sophos Technologies Pvt. Ltd.
+  product: SOPHOS-Cyberoam-CR100iNG
+  softhard: '1'
+matches: |
+  cert.icontains("cr100ing")

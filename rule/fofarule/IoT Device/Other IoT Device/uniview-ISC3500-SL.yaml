@@ -1,0 +1,6 @@
+info:
+  company: uniview
+  product: uniview-ISC3500-SL
+  softhard: '1'
+matches: |
+  title.icontains("isc3500-sl")

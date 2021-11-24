@@ -1,0 +1,7 @@
+info:
+  company: HP Development Company, L.P.
+  product: Compact-Router
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"compact router")
+  protocol.icontains("snmp") && banner.icontains("compact router")

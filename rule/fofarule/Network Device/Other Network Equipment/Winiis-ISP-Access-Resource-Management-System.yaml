@@ -1,0 +1,7 @@
+info:
+  company: winiis
+  product: Winiis-ISP-Access-Resource-Management-System
+  softhard: '2'
+matches: |
+  title.icontains("isp接入管理系统")
+  body.icontains("winisp.gif")

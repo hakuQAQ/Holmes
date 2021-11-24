@@ -1,0 +1,6 @@
+info:
+  company: Ruijie
+  product: Ruijie--Commercial-Cloud-Router
+  softhard: '1'
+matches: |
+  body.icontains("<meta http-equiv=\"refresh\" content=\"0; url=/cgi-bin/mcfi\" />")

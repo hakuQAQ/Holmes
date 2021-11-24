@@ -1,0 +1,7 @@
+info:
+  company: Proxicast, LLC.
+  product: Proxicast-Enterprise-3G/4G-Router
+  softhard: '1'
+matches: |
+  banner.icontains("proxicast lan-cell")
+  title.icontains("wan-proxicast lan-cell")

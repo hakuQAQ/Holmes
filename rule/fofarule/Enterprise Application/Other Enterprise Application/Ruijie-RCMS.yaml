@@ -1,0 +1,7 @@
+info:
+  company: Ruijie
+  product: Ruijie-RCMS
+  softhard: '2'
+matches: |
+  body.icontains("/r/cms/www/")
+  body.icontains("jhtml")

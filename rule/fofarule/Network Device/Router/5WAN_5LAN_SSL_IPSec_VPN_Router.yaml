@@ -1,0 +1,6 @@
+info:
+  company: QNO
+  product: 5WAN_5LAN_SSL_IPSec_VPN_Router
+  softhard: '1'
+matches: |
+  banner.icontains("5wan_5lan_ssl_ipsec_vpn_router")

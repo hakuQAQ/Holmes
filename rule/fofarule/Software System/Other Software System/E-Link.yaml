@@ -1,0 +1,6 @@
+info:
+  company: ZhiGao
+  product: E-Link
+  softhard: '2'
+matches: |
+  body.icontains("document.writeln(\"（温馨提示：此处为志高美萍分支机构联系方式，志高美萍总部联系方式请点击<a href='javascript:var")

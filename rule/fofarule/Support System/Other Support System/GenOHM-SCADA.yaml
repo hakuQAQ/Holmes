@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: GenOHM-SCADA
+  softhard: '1'
+matches: |
+  title.icontains("genohm scada launcher")
+  body.icontains("/cgi-bin/scada-vis/")

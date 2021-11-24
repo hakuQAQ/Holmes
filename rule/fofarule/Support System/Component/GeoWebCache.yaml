@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: GeoWebCache
+  softhard: '2'
+matches: |
+  title.icontains("gwc home")
+  body.icontains("welcome to geowebcache version")
+  body.icontains("<a href=\"http://geowebcache.org\">geowebcache</a>")

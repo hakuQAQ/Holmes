@@ -1,0 +1,7 @@
+info:
+  company: International Business Machines Corporation
+  product: Lotus-Notes-Traveler
+  softhard: '2'
+matches: |
+  header.icontains("realm=\"lotus notes traveler")
+  banner.icontains("realm=\"lotus notes traveler")

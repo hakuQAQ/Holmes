@@ -1,0 +1,6 @@
+info:
+  company: Seehealth
+  product: Seehealth-Health-Management-System
+  softhard: '2'
+matches: |
+  body.icontains("href=\"upvalidatefile.aspx")

@@ -1,0 +1,7 @@
+info:
+  company: Nomadix，Inc.
+  product: Bandwidth-Management-Gateway
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"bandwidth management gateway ")
+  banner.icontains("bandwidth management gateway")

@@ -1,0 +1,6 @@
+info:
+  company: Broadcom Inc.
+  product: BROADCOM-SG-S500
+  softhard: '1'
+matches: |
+  banner.icontains("blue coat sg-s500")

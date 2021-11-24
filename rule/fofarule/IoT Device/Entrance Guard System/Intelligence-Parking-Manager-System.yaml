@@ -1,0 +1,6 @@
+info:
+  company: baishengmen
+  product: Intelligence-Parking-Manager-System
+  softhard: '1'
+matches: |
+  body.icontains("江西百胜门控设备有限公司::智能停车场管理系统")

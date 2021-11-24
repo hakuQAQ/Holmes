@@ -1,0 +1,7 @@
+info:
+  company: AP Router. Todos os direitos reservados.
+  product: APRouter
+  softhard: '1'
+matches: |
+  title.icontains("ap router new generation")
+  banner.icontains("aprouter login:")

@@ -1,0 +1,6 @@
+info:
+  company: Alcatel-Lucent S.A.
+  product: Alcatel_Lucent-VoIP-terminal
+  softhard: '1'
+matches: |
+  banner.icontains("alcatel voip terminal")

@@ -1,0 +1,7 @@
+info:
+  company: Dell Technologies
+  product: Dell-NetWorker-Management-Console
+  softhard: '2'
+matches: |
+  title.icontains("welcome to networker management console")
+  body.icontains("emc corporation")

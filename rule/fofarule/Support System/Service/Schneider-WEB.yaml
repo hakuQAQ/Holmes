@@ -1,0 +1,7 @@
+info:
+  company: Schneider Electric
+  product: Schneider-WEB
+  softhard: '2'
+matches: |
+  header.icontains("schneider-web")
+  banner.icontains("server: schneider-web")

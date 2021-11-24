@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: testlink
+  softhard: '2'
+matches: |
+  body.icontains("testlink_library.js") && body.icontains("content=\"martin havlat\" />")
+  body.icontains("testlink project <a href=\"http://testlink.sourceforge.net/docs/testlink.php\">home</a><br />")

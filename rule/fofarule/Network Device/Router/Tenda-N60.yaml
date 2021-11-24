@@ -1,0 +1,9 @@
+info:
+  company: Shenzhen Tenda Technology Co.,Ltd
+  product: Tenda-N60
+  softhard: '1'
+matches: |
+  body.icontains("class=\"loagin_title\">tenda n60")
+  banner.icontains("tenda-n60")
+  header.icontains("realm=\"tenda n60")
+  banner.icontains("realm=\"tenda n60")

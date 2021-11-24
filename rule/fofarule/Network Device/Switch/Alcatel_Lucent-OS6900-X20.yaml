@@ -1,0 +1,6 @@
+info:
+  company: Alcatel-Lucent S.A.
+  product: Alcatel_Lucent-OS6900-X20
+  softhard: '1'
+matches: |
+  body.icontains("<span>device os6900-x20")

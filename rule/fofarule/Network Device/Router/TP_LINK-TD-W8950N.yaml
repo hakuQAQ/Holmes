@@ -1,0 +1,7 @@
+info:
+  company: TPlink
+  product: TP_LINK-TD-W8950N
+  softhard: '1'
+matches: |
+  title.icontains("router td-w8950n")
+  body.icontains("model no. td-w8950n")

@@ -1,0 +1,9 @@
+info:
+  company: Sony Corporation
+  product: SONY-Projector
+  softhard: '1'
+matches: |
+  banner.icontains("realm=\"projector")
+  header.icontains("realm=\"projector")
+  body.icontains("<body onload=\"setwindowtitle();showindex();\">")
+  body.icontains("<script type=\"text/javascript\" src=\"sonylogojs.js\"></script>")

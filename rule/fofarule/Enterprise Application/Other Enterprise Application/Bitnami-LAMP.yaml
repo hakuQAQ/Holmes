@@ -1,0 +1,6 @@
+info:
+  company: Bitnami
+  product: Bitnami-LAMP
+  softhard: '2'
+matches: |
+  title.icontains("bitnami: open source. simplified")

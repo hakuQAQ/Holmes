@@ -1,0 +1,7 @@
+info:
+  company: diancms
+  product: DianCMS
+  softhard: '2'
+matches: |
+  body.icontains("diancms_sitename")
+  body.icontains("diancms_用户登陆引用")

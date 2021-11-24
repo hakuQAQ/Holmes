@@ -1,0 +1,6 @@
+info:
+  company: Hewlett Packard Enterprise Development LP
+  product: HP-DL380-G5
+  softhard: '1'
+matches: |
+  banner.icontains("dl380-g5") && cert.icontains("dl380-g5")

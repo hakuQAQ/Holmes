@@ -1,0 +1,6 @@
+info:
+  company: NOVUS Automation Inc.
+  product: AirGate-3G
+  softhard: '1'
+matches: |
+  banner.icontains("airgate-3g")

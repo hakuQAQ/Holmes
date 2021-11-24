@@ -1,0 +1,6 @@
+info:
+  company: Trend Micro Incorporated.
+  product: Trendmicro-IWSVA
+  softhard: '2'
+matches: |
+  banner.icontains("iwsva")

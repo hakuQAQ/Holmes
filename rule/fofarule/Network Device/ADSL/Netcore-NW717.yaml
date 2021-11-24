@@ -1,0 +1,7 @@
+info:
+  company: netcoretec
+  product: Netcore-NW717
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"netcorenw717")
+  banner.icontains("realm=\"netcorenw717")

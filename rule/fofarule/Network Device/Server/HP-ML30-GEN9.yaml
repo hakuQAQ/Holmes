@@ -1,0 +1,6 @@
+info:
+  company: Hewlett Packard Enterprise Development LP
+  product: HP-ML30-GEN9
+  softhard: '1'
+matches: |
+  banner.icontains("ml30-gen9") && cert.icontains("ml30-gen9")

@@ -1,0 +1,8 @@
+info:
+  company: D-Link
+  product: D-Link-DSL-2890AL
+  softhard: '1'
+matches: |
+  body.icontains("product page : dsl-2890al")
+  body.icontains("<a href=\"http://support.dlink.com\" target=\"_blank\">dsl-2890al")
+  header.icontains("dsl-2890al")

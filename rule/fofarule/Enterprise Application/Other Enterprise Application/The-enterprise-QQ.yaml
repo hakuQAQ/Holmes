@@ -1,0 +1,7 @@
+info:
+  company: Tencent
+  product: The-enterprise-QQ
+  softhard: '2'
+matches: |
+  body.icontains("http://wpa.b.qq.com/cgi/wpa.php")
+  body.icontains("href=\"http://wpa.qq.com/")

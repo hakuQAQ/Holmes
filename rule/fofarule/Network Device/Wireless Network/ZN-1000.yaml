@@ -1,0 +1,7 @@
+info:
+  company: zcom
+  product: ZN-1000
+  softhard: '1'
+matches: |
+  cert.icontains("l=nanjing, o=zdc")
+  title.icontains("zn-1000") && title.icontains(" wireless smart access point")

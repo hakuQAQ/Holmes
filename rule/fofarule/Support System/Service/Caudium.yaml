@@ -1,0 +1,8 @@
+info:
+  company: The Caudium Group
+  product: Caudium
+  softhard: '2'
+matches: |
+  header.icontains("caudium")
+  header.icontains("x-got-fish: pike")
+  banner.icontains("x-got-fish: pike")

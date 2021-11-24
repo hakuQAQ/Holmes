@@ -1,0 +1,8 @@
+info:
+  company: Dahua
+  product: Dahua-DH-NVR4216
+  softhard: '1'
+matches: |
+  banner.icontains("dh-nvr4216")
+  cert.icontains("commonname: dhi-nvr4216")
+  banner.icontains("dhi-nvr4216")

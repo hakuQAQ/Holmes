@@ -1,0 +1,6 @@
+info:
+  company: ChartMuseum
+  product: ChartMuseum
+  softhard: '2'
+matches: |
+  title.icontains("welcome to chartmuseum!")

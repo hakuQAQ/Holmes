@@ -1,0 +1,7 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-SecPath-Operation-and-maintenance-audit-system
+  softhard: '1'
+matches: |
+  title.icontains("h3c secpath 运维审计")
+  body.icontains("<span>h3c secpath 运维审计系统</span></div>")

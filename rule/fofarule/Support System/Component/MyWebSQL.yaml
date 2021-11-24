@@ -1,0 +1,8 @@
+info:
+  company: Slashdot Media
+  product: MyWebSQL
+  softhard: '2'
+matches: |
+  title.icontains("mywebsql")
+  body.icontains("target=\"_blank\" href=\"http://mywebsql.net")
+  body.icontains("method=\"post\" action=\"\" name=\"dbform\" ")

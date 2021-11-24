@@ -1,0 +1,6 @@
+info:
+  company: ZTE
+  product: ZTE-ZXMW-NR8000
+  softhard: '1'
+matches: |
+  banner.icontains("nr8000!")

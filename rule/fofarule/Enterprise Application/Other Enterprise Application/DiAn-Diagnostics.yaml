@@ -1,0 +1,7 @@
+info:
+  company: dazd
+  product: DiAn-Diagnostics
+  softhard: '2'
+matches: |
+  body.icontains("浙江迪安诊断技术股份有限公司")
+  body.icontains("src=\"/resources/pages/img/logo.svg\"")

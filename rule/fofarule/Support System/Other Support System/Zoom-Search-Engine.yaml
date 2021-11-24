@@ -1,0 +1,6 @@
+info:
+  company: PassMark Software Pty Ltd.
+  product: Zoom-Search-Engine
+  softhard: '2'
+matches: |
+  body.icontains("name=\"zoom_query\"")

@@ -1,0 +1,7 @@
+info:
+  company: XINHUANET
+  product: NEWS
+  softhard: '2'
+matches: |
+  body.icontains("<img id=\"createcheckcode\" src=\"login/picturecheckcode\" name=\"check_code\" ng-click=\"reloadcheckcode()")
+  body.icontains("ng-disabled=\"!loginform.$valid\"")

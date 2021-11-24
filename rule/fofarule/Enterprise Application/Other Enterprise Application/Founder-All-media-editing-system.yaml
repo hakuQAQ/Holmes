@@ -1,0 +1,6 @@
+info:
+  company: founderinternational
+  product: Founder-All-media-editing-system
+  softhard: '2'
+matches: |
+  body.icontains("/newsedit/newsedit/css/login_1.css")

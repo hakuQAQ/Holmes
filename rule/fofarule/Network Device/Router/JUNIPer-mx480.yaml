@@ -1,0 +1,6 @@
+info:
+  company: Juniper Networks, Inc.
+  product: JUNIPer-mx480
+  softhard: '1'
+matches: |
+  banner.icontains("juniper networks, inc. mx480")

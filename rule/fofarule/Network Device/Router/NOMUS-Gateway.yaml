@@ -1,0 +1,8 @@
+info:
+  company: Nomus Comm-Systems PVT. LTD
+  product: NOMUS-Gateway
+  softhard: '1'
+matches: |
+  banner.icontains("nomus gateway")
+  banner.icontains("nomus gw")
+  banner.icontains("nomus rb")

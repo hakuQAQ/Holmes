@@ -1,0 +1,8 @@
+info:
+  company: v2tech
+  product: V2-Video-Conferencing
+  softhard: '2'
+matches: |
+  title.icontains("v2 conference")
+  body.icontains("<frame src=\"../conference/currentconfaction.do")
+  body.icontains("src=\"content.jsp\"")

@@ -1,0 +1,8 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-DLT
+  softhard: '0'
+matches: |
+  header.icontains("cisco-dlt")
+  body.icontains("system name: cisco dlt")
+  banner.icontains("server: cisco-dlt")

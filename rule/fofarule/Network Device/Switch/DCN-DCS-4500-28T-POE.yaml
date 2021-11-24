@@ -1,0 +1,6 @@
+info:
+  company: Digital China Group Co., Ltd.
+  product: DCN-DCS-4500-28T-POE
+  softhard: '1'
+matches: |
+  body.icontains("<b>dcs-4500-28t-poe</b>")

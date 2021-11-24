@@ -1,0 +1,6 @@
+info:
+  company: Juniper Networks, Inc.
+  product: Juniper-Web-Device-Manager
+  softhard: '2'
+matches: |
+  title.icontains("juniper web device manager")

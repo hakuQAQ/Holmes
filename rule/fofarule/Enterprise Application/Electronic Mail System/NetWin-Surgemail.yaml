@@ -1,0 +1,10 @@
+info:
+  company: Netwin Ltd.
+  product: NetWin-Surgemail
+  softhard: '2'
+matches: |
+  title.icontains("surgemail welcome page")
+  body.icontains("href=\"/about_mail.htm\">about surgemail")
+  header.icontains("basic realm=\"surgemail.")
+  banner.icontains("basic realm=\"surgemail.")
+  body.icontains("/surgemail.css")

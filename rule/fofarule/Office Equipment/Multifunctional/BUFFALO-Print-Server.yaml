@@ -1,0 +1,7 @@
+info:
+  company: Buffalo Inc.
+  product: BUFFALO-Print-Server
+  softhard: '1'
+matches: |
+  banner.icontains("buffalo inc")
+  banner.icontains("print server")

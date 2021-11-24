@@ -1,0 +1,6 @@
+info:
+  company: Sugon
+  product: Sugon-RAID-Manager
+  softhard: '1'
+matches: |
+  title.icontains("sugon raid manager")

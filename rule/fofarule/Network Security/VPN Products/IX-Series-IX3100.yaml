@@ -1,0 +1,7 @@
+info:
+  company: NEC Corporation
+  product: IX-Series-IX3100
+  softhard: '1'
+matches: |
+  banner.icontains("ix series ix3100")
+  header.icontains("ix series ix3100")

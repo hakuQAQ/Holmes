@@ -1,0 +1,10 @@
+info:
+  company: RaidenMAILD TEAM
+  product: RAIDEN-Mail
+  softhard: '2'
+matches: |
+  body.icontains("/webimages/raidenmaild.jpg")
+  banner.icontains("raidenmaild pop3")
+  banner.icontains("raidenmaild esmtp")
+  banner.icontains("raidenmaild imap4rev1")
+  banner.icontains("raidenmaild smtp")

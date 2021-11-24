@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: ThinkSAAS
+  softhard: '2'
+matches: |
+  body.icontains("href=\"https://www.thinksaas.cn/app/home/skins/default/style.css\"")

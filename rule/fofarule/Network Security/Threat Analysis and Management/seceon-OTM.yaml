@@ -1,0 +1,7 @@
+info:
+  company: Seceon Inc.
+  product: seceon-OTM
+  softhard: '2'
+matches: |
+  body.icontains("use this if you want to run the seceon module of kibana.")
+  title.icontains("seceon otm")

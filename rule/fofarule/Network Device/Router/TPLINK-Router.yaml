@@ -1,0 +1,7 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TPLINK-Router
+  softhard: '1'
+matches: |
+  body.icontains("var is_tplogin = cur_url.indexof(\"tplogin.cn\")")
+  body.icontains("class=\"link-detail-table detail\"")

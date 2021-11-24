@@ -1,0 +1,6 @@
+info:
+  company: HUAWEI
+  product: HuaWei-RBT
+  softhard: '2'
+matches: |
+  title.icontains("rbt gateway management system")

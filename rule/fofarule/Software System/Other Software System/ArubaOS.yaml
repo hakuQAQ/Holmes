@@ -1,0 +1,6 @@
+info:
+  company: Hewlett Packard Enterprise Development LP
+  product: ArubaOS
+  softhard: '2'
+matches: |
+  protocol.icontains("snmp") && banner.icontains("arubaos") && body.icontains("/screens/wms/wms.login")

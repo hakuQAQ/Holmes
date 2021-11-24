@@ -1,0 +1,6 @@
+info:
+  company: International Business Machines Corporation
+  product: IBM-x3400-M2
+  softhard: '1'
+matches: |
+  banner.icontains("ibm system x3400 m2")

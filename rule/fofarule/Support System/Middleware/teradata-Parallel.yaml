@@ -1,0 +1,6 @@
+info:
+  company: Teradata Corporation.
+  product: teradata-Parallel
+  softhard: '2'
+matches: |
+  body.icontains("var currentmode ='fittowindowonload")

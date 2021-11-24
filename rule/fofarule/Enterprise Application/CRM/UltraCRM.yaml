@@ -1,0 +1,7 @@
+info:
+  company: allytel
+  product: UltraCRM
+  softhard: '2'
+matches: |
+  title.icontains("ultracrm by tonethink.soft")
+  body.icontains("&nbsp;tonethink.soft&nbsp;&nbsp;all rights reserved")

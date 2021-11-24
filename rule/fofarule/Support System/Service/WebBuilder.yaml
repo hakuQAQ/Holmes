@@ -1,0 +1,6 @@
+info:
+  company: putdb
+  product: WebBuilder
+  softhard: '2'
+matches: |
+  body.icontains("src=\"webbuilder/script/wb.js")

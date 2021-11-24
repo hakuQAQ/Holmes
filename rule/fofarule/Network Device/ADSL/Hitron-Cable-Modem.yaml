@@ -1,0 +1,8 @@
+info:
+  company: Hitron Technologies Inc.
+  product: Hitron-Cable-Modem
+  softhard: '1'
+matches: |
+  banner.icontains("docsis ")
+  banner.icontains("cable modem")
+  banner.icontains("hitron technologies")

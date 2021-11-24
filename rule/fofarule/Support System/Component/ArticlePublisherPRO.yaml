@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: ArticlePublisherPRO
+  softhard: '2'
+matches: |
+  body.icontains("powered by")
+  body.icontains("www.articlepublisherpro.com")
+  body.icontains("content=\"article publisher pro")

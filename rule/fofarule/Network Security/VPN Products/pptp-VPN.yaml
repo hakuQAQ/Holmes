@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: pptp-VPN
+  softhard: '2'
+matches: |
+  header.icontains("realm=\"pptp vpn")
+  banner.icontains("realm=\"pptp vpn")
+  title == "pptp vpn" && body.icontains("<span class=subt>pptp vpn server")

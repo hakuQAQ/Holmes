@@ -1,0 +1,6 @@
+info:
+  company: Telefonaktiebolaget LM Ericsson
+  product: Ericsson-ESN108
+  softhard: '1'
+matches: |
+  banner.icontains("ericsson esn108")

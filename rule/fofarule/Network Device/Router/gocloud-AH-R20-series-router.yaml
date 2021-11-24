@@ -1,0 +1,6 @@
+info:
+  company: GoCloud
+  product: gocloud-AH-R20-series-router
+  softhard: '1'
+matches: |
+  banner.icontains("gocloud ah-r20 series router")

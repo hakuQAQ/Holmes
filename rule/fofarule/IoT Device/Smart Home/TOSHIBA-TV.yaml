@@ -1,0 +1,6 @@
+info:
+  company: Toshiba Corporation
+  product: TOSHIBA-TV
+  softhard: '1'
+matches: |
+  banner.icontains("ro.product.model=toshiba-tv")

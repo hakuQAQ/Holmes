@@ -1,0 +1,12 @@
+info:
+  company: Other
+  product: IDC_server
+  softhard: '2'
+matches: |
+  header.icontains("location: https://54.79.99.238:2087/")
+  header.icontains("link: ; rel=\"https://api.w.org/\", ; rel=shortlink")
+  header.icontains("location: https://35.183.123.252:80/")
+  header.icontains("location: https://www.xczimi.com/")
+  header.icontains("set-cookie: asp.net_sessionid=tjrshwv3w1sp0n4pbjvw0w0v; path=/; httponly; samesite=lax")
+  header.icontains("location: https://13.236.211.161/")
+  header.icontains("location: https://www.belleproperty.com/lane-cove/")

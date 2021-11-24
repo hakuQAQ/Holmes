@@ -1,0 +1,6 @@
+info:
+  company: CenturyLink Inc.
+  product: CenturyLink-Actiontec-M1000
+  softhard: '1'
+matches: |
+  body.icontains(">centurylink&reg; modem configuration actiontec m1000<")

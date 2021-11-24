@@ -1,0 +1,6 @@
+info:
+  company: Canon Inc.
+  product: Canon-iP7200-series
+  softhard: '1'
+matches: |
+  body.icontains("nowrap>canon ip7200 series</td>")

@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: Sitecore
+  softhard: '2'
+matches: |
+  header.icontains("sitecore cms")
+  banner.icontains("sitecore cms")

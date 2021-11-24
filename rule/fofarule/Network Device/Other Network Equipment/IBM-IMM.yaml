@@ -1,0 +1,9 @@
+info:
+  company: International Business Machines Corporation
+  product: IBM-IMM
+  softhard: '2'
+matches: |
+  body.icontains("<meta http-equiv=\"refresh\" content=\"0;url=/designs/imm/noscript/noscript_en.php\" />")
+  body.icontains("ibm.stg.inlinemessage.messagetypes.msg_critical")
+  body.icontains("<meta http-equiv=\"refresh\" content=\"0;url=/designs/imm/noscript/noscript_en.php\" />")
+  body.icontains("/ibmdojo/")

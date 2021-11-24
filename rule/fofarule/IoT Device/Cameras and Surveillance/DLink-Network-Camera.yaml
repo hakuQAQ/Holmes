@@ -1,0 +1,7 @@
+info:
+  company: DLink
+  product: DLink-Network-Camera
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"dcs-")
+  header.icontains("d-link internet camera")

@@ -1,0 +1,7 @@
+info:
+  company: Applicure Technologies Ltd.
+  product: Dotdefender
+  softhard: '2'
+matches: |
+  header.icontains("x-dotdefender-denied") && body.icontains("dotdefender blocked your request")
+  banner.icontains("x-dotdefender-denied")

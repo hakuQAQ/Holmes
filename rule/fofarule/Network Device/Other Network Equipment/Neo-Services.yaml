@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Neo-Services
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"neo services") && banner.icontains("realm=\"neo services")

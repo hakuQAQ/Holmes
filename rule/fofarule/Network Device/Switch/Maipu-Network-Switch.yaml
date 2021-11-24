@@ -1,0 +1,7 @@
+info:
+  company: Maipu
+  product: Maipu-Network-Switch
+  softhard: '1'
+matches: |
+  body.icontains("maipu communication")
+  title.icontains("网络交换机")

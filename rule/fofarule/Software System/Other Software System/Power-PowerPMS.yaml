@@ -1,0 +1,8 @@
+info:
+  company: Power Science
+  product: Power-PowerPMS
+  softhard: '2'
+matches: |
+  body.icontains("apphub.server.registertohub(qrcodeid)")
+  body.icontains("/app_themes/default/assets/css/style.min.css")
+  body.icontains("/scripts/boot.js")

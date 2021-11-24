@@ -1,0 +1,7 @@
+info:
+  company: digitalchina
+  product: dstmedia-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"dstmedia authentication")
+  banner.icontains("realm=\"dstmedia authentication")

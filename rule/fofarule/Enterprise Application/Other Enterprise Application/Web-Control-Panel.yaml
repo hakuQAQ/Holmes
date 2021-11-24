@@ -1,0 +1,7 @@
+info:
+  company: CommuniLink Internet Limited.
+  product: Web-Control-Panel
+  softhard: '2'
+matches: |
+  title.icontains("web control panel express v")
+  body.icontains("<td><img src=\"/images/wcpe.gif")

@@ -1,0 +1,10 @@
+info:
+  company: Microsoft Corporation
+  product: Windows
+  softhard: '2'
+matches: |
+  banner.icontains("microsoft")
+  banner.icontains("win32") && banner.icontains("win64") && header.icontains("windows") && banner.icontains("target name")
+  protocol.icontains("smb")
+  protocol.icontains("rdp")
+  header.icontains("microsoft-windows")

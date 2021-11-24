@@ -1,0 +1,7 @@
+info:
+  company: upai
+  product: Upyun-JS-Library
+  softhard: '2'
+matches: |
+  header.icontains("b0.upaiyun.com")
+  body.icontains("b0.upaiyun.com")

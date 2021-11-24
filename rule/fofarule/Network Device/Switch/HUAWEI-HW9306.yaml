@@ -1,0 +1,6 @@
+info:
+  company: Huawei
+  product: HUAWEI-HW9306
+  softhard: '1'
+matches: |
+  header.icontains("hw9306")

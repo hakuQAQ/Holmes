@@ -1,0 +1,6 @@
+info:
+  company: bitservice
+  product: Bit-Service
+  softhard: '2'
+matches: |
+  body.icontains("bit-xxzs") && body.icontains("xmlpzs/webissue.asp")

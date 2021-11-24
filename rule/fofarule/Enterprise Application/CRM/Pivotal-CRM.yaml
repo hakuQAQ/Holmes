@@ -1,0 +1,7 @@
+info:
+  company: CDC Software LLC
+  product: Pivotal-CRM
+  softhard: '2'
+matches: |
+  body.icontains("<frame name=\"hidden\" src=\"xmlloader.asp?type=portal")
+  body.icontains("title=\"hidden\" src=\"xmlloader.asp?type=portal")

@@ -1,0 +1,6 @@
+info:
+  company: zkteco
+  product: ZKTECO-ZEM500
+  softhard: '1'
+matches: |
+  banner.icontains("zem500 login:")

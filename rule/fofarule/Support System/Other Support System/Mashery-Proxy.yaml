@@ -1,0 +1,9 @@
+info:
+  company: TIBCO Software Inc.
+  product: Mashery-Proxy
+  softhard: '2'
+matches: |
+  header.icontains("server: mashery proxy")
+  header.icontains("x-mashery-")
+  banner.icontains("server: mashery proxy")
+  banner.icontains("x-mashery-")

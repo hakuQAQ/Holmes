@@ -1,0 +1,6 @@
+info:
+  company: yuge
+  product: yuge-telemedicine
+  softhard: '2'
+matches: |
+  body.icontains("渔歌医疗远程影响诊疗系统") && title.icontains("影像诊疗")

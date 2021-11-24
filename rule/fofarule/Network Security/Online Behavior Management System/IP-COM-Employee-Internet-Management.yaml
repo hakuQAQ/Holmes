@@ -1,0 +1,9 @@
+info:
+  company: IP-COM
+  product: IP-COM-Employee-Internet-Management
+  softhard: '1'
+matches: |
+  title.icontains("深度上网行为管理")
+  body.icontains("assets/img/ip-com-logo.png")
+  header.icontains("ugwsessionid=")
+  body.icontains("parent.location.href=\"/login\"")

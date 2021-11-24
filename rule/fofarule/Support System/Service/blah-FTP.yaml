@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: blah-FTP
+  softhard: '2'
+matches: |
+  protocol.icontains("ftp")
+  banner.icontains("blah ftp")

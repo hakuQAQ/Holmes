@@ -1,0 +1,6 @@
+info:
+  company: Tenon Intersystems
+  product: Tenon-iTools
+  softhard: '2'
+matches: |
+  header.icontains("(itools") && header.icontains("mac os x")

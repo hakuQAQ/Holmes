@@ -1,0 +1,6 @@
+info:
+  company: Aastra Technologies Limited
+  product: Aastra-6757i
+  softhard: '1'
+matches: |
+  header.icontains("aastra 6757i")

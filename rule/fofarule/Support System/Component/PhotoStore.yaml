@@ -1,0 +1,6 @@
+info:
+  company: Ktools.net LLC.
+  product: PhotoStore
+  softhard: '2'
+matches: |
+  body.icontains("powered by <a href=\"http://www.ktools.net/photostore/index.php")

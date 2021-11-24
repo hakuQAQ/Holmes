@@ -1,0 +1,7 @@
+info:
+  company: Samsung Group
+  product: Samsung-DVR
+  softhard: '1'
+matches: |
+  title.icontains("samsung dvr")
+  header.icontains("samsung dvr")

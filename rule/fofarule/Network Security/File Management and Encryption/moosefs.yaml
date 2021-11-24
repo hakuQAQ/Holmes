@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: moosefs
+  softhard: '2'
+matches: |
+  body.icontains("mfs.cgi") && body.icontains("under-goal files")

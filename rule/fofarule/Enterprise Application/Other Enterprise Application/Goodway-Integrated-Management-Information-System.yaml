@@ -1,0 +1,7 @@
+info:
+  company: Goodway
+  product: Goodway-Integrated-Management-Information-System
+  softhard: '2'
+matches: |
+  body.icontains("option value=\"enterprise\"")
+  body.icontains("是否域账户登录")

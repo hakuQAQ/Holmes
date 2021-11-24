@@ -1,0 +1,10 @@
+info:
+  company: Apache Software Foundation.
+  product: Struts2
+  softhard: '2'
+matches: |
+  header.icontains("jsessionid")
+  body.icontains("struts problem report")
+  body.icontains("there is no action mapped for namespace")
+  body.icontains("no result defined for action and result input")
+  header.icontains("servlet") && header.icontains("jboss")

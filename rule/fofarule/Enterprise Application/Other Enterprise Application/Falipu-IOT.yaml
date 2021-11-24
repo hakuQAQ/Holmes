@@ -1,0 +1,6 @@
+info:
+  company: Falipu
+  product: Falipu-IOT
+  softhard: '2'
+matches: |
+  body.icontains("id=\"t1\">安全、稳定、安全</div>")

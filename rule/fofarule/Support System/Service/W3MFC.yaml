@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: W3MFC
+  softhard: '2'
+matches: |
+  header.icontains("w3mfc")
+  banner.icontains("server: w3mfc")

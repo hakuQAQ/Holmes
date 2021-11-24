@@ -1,0 +1,6 @@
+info:
+  company: Actiontec Electronics, Inc.
+  product: Company's-product
+  softhard: '1'
+matches: |
+  banner.icontains("actiontec")

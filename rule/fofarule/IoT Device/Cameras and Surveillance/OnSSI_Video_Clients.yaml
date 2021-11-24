@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: OnSSI_Video_Clients
+  softhard: '1'
+matches: |
+  title.icontains("onssi video clients") && body.icontains("x-value=\"on-net surveillance systems inc.\"")

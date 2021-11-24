@@ -1,0 +1,8 @@
+info:
+  company: Layanan Pengadaan Secara Elektronik
+  product: LPSE
+  softhard: '2'
+matches: |
+  body.icontains("href=\"/eproc/assets/application.css")
+  header.icontains("/eproc/app")
+  banner.icontains("/eproc/app")

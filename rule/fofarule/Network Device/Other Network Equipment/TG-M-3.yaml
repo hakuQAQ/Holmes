@@ -1,0 +1,7 @@
+info:
+  company: tg-net
+  product: TG-M-3
+  softhard: '1'
+matches: |
+  body.icontains("src=\"index/image/multi_service.svg\"")
+  title.icontains("多业务云智能管理平台")

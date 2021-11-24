@@ -1,0 +1,6 @@
+info:
+  company: 3liuliang
+  product: AiXun-Traffic-management-platform
+  softhard: '2'
+matches: |
+  title.icontains("爱讯流量管理平台")

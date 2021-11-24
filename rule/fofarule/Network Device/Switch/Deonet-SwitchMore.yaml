@@ -1,0 +1,6 @@
+info:
+  company: Deonet.
+  product: Deonet-SwitchMore
+  softhard: '1'
+matches: |
+  banner.icontains("switchmore")

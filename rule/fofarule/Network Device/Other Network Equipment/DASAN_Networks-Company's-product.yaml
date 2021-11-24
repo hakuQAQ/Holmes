@@ -1,0 +1,8 @@
+info:
+  company: DASAN Networks, Inc.
+  product: DASAN_Networks-Company's-product
+  softhard: '0'
+matches: |
+  header.icontains("dasannetwork solution")
+  cert.icontains("o=dasan networks solution")
+  banner.icontains("server: dasan networks")

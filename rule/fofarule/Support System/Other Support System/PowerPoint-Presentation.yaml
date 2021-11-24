@@ -1,0 +1,6 @@
+info:
+  company: Microsoft Corporation
+  product: PowerPoint-Presentation
+  softhard: '2'
+matches: |
+  title == "powerpoint presentation" && body.icontains("content=\"microsoft powerpoint ")

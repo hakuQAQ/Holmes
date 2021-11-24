@@ -1,0 +1,8 @@
+info:
+  company: Carrier Corporation
+  product: Carrier-Access-Router
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp")
+  banner.icontains("carrier access adit-family router")
+  banner.icontains("carrier access router")

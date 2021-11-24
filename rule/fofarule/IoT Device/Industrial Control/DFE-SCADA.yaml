@@ -1,0 +1,7 @@
+info:
+  company: dongfang
+  product: DFE-SCADA
+  softhard: '2'
+matches: |
+  body.icontains("scada")
+  body.icontains("536870912")

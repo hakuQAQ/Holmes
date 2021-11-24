@@ -1,0 +1,7 @@
+info:
+  company: D-Link
+  product: D-link-DSL-2640B
+  softhard: '1'
+matches: |
+  body.icontains("product : dsl-2640b")
+  title.icontains("d-link dsl-2640b")

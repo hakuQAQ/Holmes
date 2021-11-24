@@ -1,0 +1,7 @@
+info:
+  company: Apache Software Foundation.
+  product: DolphinScheduler
+  softhard: '2'
+matches: |
+  body.icontains("let node_env = 'true'")
+  body.icontains("<title>dolphinscheduler</title>")

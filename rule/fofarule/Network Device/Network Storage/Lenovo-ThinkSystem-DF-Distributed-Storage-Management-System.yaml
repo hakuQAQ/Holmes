@@ -1,0 +1,6 @@
+info:
+  company: Lenovo
+  product: Lenovo-ThinkSystem-DF-Distributed-Storage-Management-System
+  softhard: '1'
+matches: |
+  body.icontains("lenovo thinksystem df系列分布式存储管理系统")

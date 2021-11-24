@@ -1,0 +1,7 @@
+info:
+  company: sansec
+  product: sansec-SJJ1012
+  softhard: '1'
+matches: |
+  body.icontains(">多用户在线管理可能导致不可预知错误")
+  body.icontains("sjj1012")

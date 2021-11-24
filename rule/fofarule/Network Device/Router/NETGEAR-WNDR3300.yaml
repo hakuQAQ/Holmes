@@ -1,0 +1,8 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-WNDR3300
+  softhard: '1'
+matches: |
+  header.icontains("netgear wndr3300")
+  banner.icontains("netgear wndr3300")
+  banner.icontains("wndr3300 login") && banner.icontains("netgear wndr3300")

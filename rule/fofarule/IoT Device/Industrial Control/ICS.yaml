@@ -1,0 +1,12 @@
+info:
+  company: Other
+  product: ICS
+  softhard: '1'
+matches: |
+  protocol.icontains("codesys") && protocol.icontains("gesrtp") && protocol.icontains("omron") && protocol.icontains("modbus") && protocol.icontains("fox")
+  protocol.icontains("ethernetip")
+  protocol.icontains("dnp3") && protocol.icontains("bacnet") && protocol.icontains("melsecq")
+  protocol.icontains("hart") && protocol.icontains("pcworx") && protocol.icontains("proconos")
+  protocol.icontains("redlion") && protocol.icontains("iec")
+  protocol.icontains("vertx") && protocol.icontains("moxa") && protocol.icontains("lantronix")
+  protocol.icontains("opcua")

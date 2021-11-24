@@ -1,0 +1,7 @@
+info:
+  company: EFS Software Inc.
+  product: Easy-File-Sharing-Web-Server
+  softhard: '2'
+matches: |
+  header.icontains("server: easy file sharing web server")
+  banner.icontains("server: easy file sharing web server")

@@ -1,0 +1,11 @@
+info:
+  company: sinocc
+  product: Collaborative management platform
+  softhard: '2'
+matches: |
+  title.icontains("广州协商科技有限公司协同管理平台")
+  body.icontains("广州协商科技有限公司")
+  body.icontains("/web/submitlogon2.do")
+  body.icontains("css/hitalklogin.css")
+  body.icontains("/activex/sinoccshell.cab")
+  body.icontains("/web/submitlogon2.do ")

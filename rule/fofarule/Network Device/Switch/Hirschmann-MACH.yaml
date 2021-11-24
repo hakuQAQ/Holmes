@@ -1,0 +1,7 @@
+info:
+  company: Belden Inc.
+  product: Hirschmann-MACH
+  softhard: '1'
+matches: |
+  banner.icontains("hirschmann mach")
+  banner.icontains("hirschmann mach100")

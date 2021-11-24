@@ -1,0 +1,7 @@
+info:
+  company: lc000
+  product: lc000-System
+  softhard: '2'
+matches: |
+  body.icontains("cdn.jsdelivr.net/npm/vue")
+  body.icontains("<title>secondary_nodes</title>")

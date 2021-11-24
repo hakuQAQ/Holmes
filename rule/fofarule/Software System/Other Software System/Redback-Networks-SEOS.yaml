@@ -1,0 +1,6 @@
+info:
+  company: Telefonaktiebolaget LM Ericsson
+  product: Redback-Networks-SEOS
+  softhard: '2'
+matches: |
+  banner.icontains("redback networks smartedge os")

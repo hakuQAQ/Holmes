@@ -1,0 +1,10 @@
+info:
+  company: richdata
+  product: RichMail
+  softhard: '2'
+matches: |
+  title.icontains("richmail")
+  body.icontains("content=\"richmail")
+  title.icontains("richmail 企业邮箱")
+  body.icontains("app_download\":\"\",\"richmail官网")
+  banner.icontains("richmail system")

@@ -1,0 +1,6 @@
+info:
+  company: '360'
+  product: QiAnXin-Analytics
+  softhard: '2'
+matches: |
+  body.icontains("href=\"/static/build/animate_nprogress_timepiacker_tooltipster.min.css")

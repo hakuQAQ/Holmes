@@ -1,0 +1,8 @@
+info:
+  company: yxlink
+  product: Yxlink-WAF
+  softhard: '1'
+matches: |
+  header.icontains("server: yxlinkwaf")
+  banner.icontains("server: yxlinkwaf")
+  title.icontains("铱迅web应用防护系统")

@@ -1,0 +1,7 @@
+info:
+  company: VMware, Inc.
+  product: VMware-vFabric
+  softhard: '2'
+matches: |
+  title.icontains("vfabric")
+  header.icontains("ts01efd1fa")

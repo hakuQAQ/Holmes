@@ -1,0 +1,7 @@
+info:
+  company: Rockwell Automation, Inc.
+  product: Rockwell-MicroLogix-1400
+  softhard: '1'
+matches: |
+  title.icontains("micrologix 1400")
+  body.icontains("<font face=\"helvetica\" size=6>micrologix 1400 ")

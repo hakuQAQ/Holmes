@@ -1,0 +1,6 @@
+info:
+  company: Aiphone Corporation
+  product: IX-Series
+  softhard: '2'
+matches: |
+  header.icontains("ix series")

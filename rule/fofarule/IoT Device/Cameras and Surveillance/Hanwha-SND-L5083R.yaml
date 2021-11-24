@@ -1,0 +1,6 @@
+info:
+  company: Hanwha Techwin Co., Ltd.
+  product: Hanwha-SND-L5083R
+  softhard: '1'
+matches: |
+  body.icontains("var defaultfilename = \"snd-l5083r\"")

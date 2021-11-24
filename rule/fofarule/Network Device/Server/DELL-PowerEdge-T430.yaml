@@ -1,0 +1,9 @@
+info:
+  company: Dell Inc.
+  product: DELL-PowerEdge-T430
+  softhard: '1'
+matches: |
+  banner.icontains("poweredge-t430")
+  cert.icontains("poweredge-t430")
+  body.icontains("https://user-poweredge-t430:10000")
+  header.icontains("poweredge-t430")

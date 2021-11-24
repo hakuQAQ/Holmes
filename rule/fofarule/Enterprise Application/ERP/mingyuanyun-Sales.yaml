@@ -1,0 +1,7 @@
+info:
+  company: mingyuanyun
+  product: mingyuanyun-Sales
+  softhard: '2'
+matches: |
+  body.icontains("value=\"明源售楼管理系统v5.0\"")
+  body.icontains("<img id=\"erp\" src=\"/_imgs/login/zs_erp.png")

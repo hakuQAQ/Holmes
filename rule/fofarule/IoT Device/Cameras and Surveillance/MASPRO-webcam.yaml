@@ -1,0 +1,7 @@
+info:
+  company: MASPRO DENKOH CORP.
+  product: MASPRO-webcam
+  softhard: '1'
+matches: |
+  body.icontains("href=\"/keitai/index.html\"")
+  body.icontains("href=\"/mobile/index.html\"")

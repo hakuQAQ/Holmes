@@ -1,0 +1,6 @@
+info:
+  company: Sangoma Technologies.
+  product: Asterisk-PBX
+  softhard: '1'
+matches: |
+  banner.icontains("asterisk pbx")

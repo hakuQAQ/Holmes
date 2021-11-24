@@ -1,0 +1,8 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-PK5001Z
+  softhard: '1'
+matches: |
+  body.icontains(">centurylink&reg; modem configuration zyxel pk5001z<")
+  body.icontains("centurylink.com</a>")
+  banner.icontains("pk5001z login")

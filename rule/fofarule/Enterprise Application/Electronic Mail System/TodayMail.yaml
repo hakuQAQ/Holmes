@@ -1,0 +1,9 @@
+info:
+  company: now
+  product: TodayMail
+  softhard: '2'
+matches: |
+  body.icontains("todaynic.com,inc.")
+  body.icontains("todaymail anti-spam police")
+  body.icontains("['company']=\"todaymail")
+  title.icontains("&#26102;&#20195;&#20225;&#19994;&#37038")

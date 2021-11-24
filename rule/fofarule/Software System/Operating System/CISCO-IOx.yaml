@@ -1,0 +1,7 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-IOx
+  softhard: '2'
+matches: |
+  title.icontains("cisco iox local manager")
+  body.icontains("var g_url_version = \"/iox/api/v2\"")

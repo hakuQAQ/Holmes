@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: PaxRunner-Remote-Console
+  softhard: '2'
+matches: |
+  banner.icontains("pax-runner remote console")

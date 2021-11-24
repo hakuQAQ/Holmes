@@ -1,0 +1,7 @@
+info:
+  company: International Business Machines Corporation
+  product: IBM-WebSEAL
+  softhard: '2'
+matches: |
+  header.icontains("server: webseal")
+  banner.icontains("server: webseal")

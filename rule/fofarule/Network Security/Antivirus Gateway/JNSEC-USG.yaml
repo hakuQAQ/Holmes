@@ -1,0 +1,6 @@
+info:
+  company: JNSEC
+  product: JNSEC-USG
+  softhard: '1'
+matches: |
+  body.icontains("content=\"jnsec web ui\"")

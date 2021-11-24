@@ -1,0 +1,9 @@
+info:
+  company: Dell Inc.
+  product: DELL-POWEREDGE-T620
+  softhard: '1'
+matches: |
+  body.icontains("id=\"serverinfo\"> poweredge t620")
+  banner.icontains("poweredge-t620")
+  body.icontains("id=\"serverinfo\"> t620, dbe")
+  cert.icontains("poweredge-t620")

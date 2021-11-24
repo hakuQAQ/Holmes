@@ -1,0 +1,6 @@
+info:
+  company: goldlib
+  product: goldlibCMS
+  softhard: '2'
+matches: |
+  body.icontains("speakintertscarch.aspx")

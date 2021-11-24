@@ -1,0 +1,12 @@
+info:
+  company: Samsung Group
+  product: Samsung-Laser-printer
+  softhard: '1'
+matches: |
+  header.icontains("hp http server; samsung")
+  banner.icontains(" hp http server; samsung")
+  banner.icontains("samsung sl")
+  header.icontains("samsung m332x")
+  banner.icontains("samsung clx-")
+  banner.icontains("samsung scx")
+  banner.icontains("samsung clp-")

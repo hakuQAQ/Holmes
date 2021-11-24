@@ -1,0 +1,7 @@
+info:
+  company: Robert Bosch GmbH
+  product: BOSCH-DIVAR-IP
+  softhard: '1'
+matches: |
+  body.icontains("vrmchunk.sethelpname('vrm_monitor')")
+  body.icontains("the requested url '/' was not found on the divar")

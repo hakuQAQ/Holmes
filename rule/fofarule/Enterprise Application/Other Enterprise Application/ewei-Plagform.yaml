@@ -1,0 +1,6 @@
+info:
+  company: 'ewei '
+  product: ewei-Plagform
+  softhard: '2'
+matches: |
+  body.icontains("易维平台</h1>")

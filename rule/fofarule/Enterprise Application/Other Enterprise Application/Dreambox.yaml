@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Dreambox
+  softhard: '2'
+matches: |
+  header.icontains("dreambox") && banner.icontains("welcome to dreambox")

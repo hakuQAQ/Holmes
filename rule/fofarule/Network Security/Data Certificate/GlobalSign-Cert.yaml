@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: GlobalSign-Cert
+  softhard: '2'
+matches: |
+  body.icontains("//seal.globalsign.com/siteseal")

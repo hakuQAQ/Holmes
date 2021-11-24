@@ -1,0 +1,7 @@
+info:
+  company: szhtkj
+  product: GC-System
+  softhard: '0'
+matches: |
+  body.icontains(" href='统一支付平台学生使用说明.doc'")
+  title.icontains("平台")

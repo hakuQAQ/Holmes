@@ -1,0 +1,9 @@
+info:
+  company: EverFocus Co., Ltd.
+  product: EverFocus-CCTV
+  softhard: '1'
+matches: |
+  header.icontains("server: http server/everfocus")
+  banner.icontains("server: http server/everfocus")
+  header.icontains("realm=\"everfocus")
+  banner.icontains("realm=\"everfocus")

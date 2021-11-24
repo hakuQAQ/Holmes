@@ -1,0 +1,10 @@
+info:
+  company: zohocorp
+  product: NetFlow-Analyzer-Zoho-Traffic-Management
+  softhard: '2'
+matches: |
+  body.icontains("netflow analyzer")
+  body.icontains("zoho")
+  title.icontains("manageengine netflow")
+  body.icontains("href=\"/netflow/css/netflow.css")
+  title.icontains("manageengine analytics plus")

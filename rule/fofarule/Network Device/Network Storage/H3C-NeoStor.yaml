@@ -1,0 +1,6 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-NeoStor
+  softhard: '2'
+matches: |
+  title.icontains("h3c neostor")

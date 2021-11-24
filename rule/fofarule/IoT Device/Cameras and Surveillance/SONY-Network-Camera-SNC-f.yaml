@@ -1,0 +1,7 @@
+info:
+  company: Sony Corporation
+  product: SONY-Network-Camera-SNC-f
+  softhard: '1'
+matches: |
+  header.icontains("basic realm=\"sony network camera snc-f\"")
+  banner.icontains("basic realm=\"sony network camera snc-f\"")

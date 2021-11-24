@@ -1,0 +1,8 @@
+info:
+  company: General Electric Company
+  product: GE-UPS
+  softhard: '1'
+matches: |
+  title.icontains("ge ups snmp")
+  body.icontains("<td>gede-snmp-ups-interface")
+  title.icontains("gede ups snmp") && title.icontains("snmp/web interface")

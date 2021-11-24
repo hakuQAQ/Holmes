@@ -1,0 +1,6 @@
+info:
+  company: Silex Technology, Inc.
+  product: silex-C-6600GB
+  softhard: '1'
+matches: |
+  banner.icontains("silex c-6600gb")

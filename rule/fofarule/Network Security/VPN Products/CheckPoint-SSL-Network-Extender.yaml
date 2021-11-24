@@ -1,0 +1,7 @@
+info:
+  company: Check Point Software Technologies Ltd.
+  product: CheckPoint-SSL-Network-Extender
+  softhard: '2'
+matches: |
+  header.icontains("check point svn foundation")
+  banner.icontains("check point svn foundation")

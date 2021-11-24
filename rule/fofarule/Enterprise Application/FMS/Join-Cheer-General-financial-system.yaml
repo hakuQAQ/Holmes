@@ -1,0 +1,9 @@
+info:
+  company: jiuqi
+  product: Join-Cheer-General-financial-system
+  softhard: '2'
+matches: |
+  title.icontains("久其报表大厅")
+  body.icontains("北京久其软件股份有限公司 版权所有")
+  body.icontains("/netrep/intf") && body.icontains("/netrep/message2/")
+  body.icontains("<meta http-equiv=\"refresh\" content=\"0\";url=\"../netrep\">")

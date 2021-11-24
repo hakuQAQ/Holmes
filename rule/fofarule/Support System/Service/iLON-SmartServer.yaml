@@ -1,0 +1,8 @@
+info:
+  company: Adesto Technologies Corporation.
+  product: iLON-SmartServer
+  softhard: '1'
+matches: |
+  header.icontains("windriver")
+  header.icontains("i.lon") && banner.icontains("windriver")
+  banner.icontains("i.lon")

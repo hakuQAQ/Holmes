@@ -1,0 +1,7 @@
+info:
+  company: usezan
+  product: usezan-System
+  softhard: '2'
+matches: |
+  title.icontains("环企优站素材网管理系统")
+  body.icontains("action=\"/usezan/login/getlogin\"")

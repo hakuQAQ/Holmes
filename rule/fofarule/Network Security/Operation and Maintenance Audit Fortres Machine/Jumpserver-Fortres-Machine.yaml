@@ -1,0 +1,7 @@
+info:
+  company: SegmentFault
+  product: Jumpserver-Fortres-Machine
+  softhard: '2'
+matches: |
+  title.icontains("jumpserver") && body.icontains("<a href=\"/users/password/forgot/\">")
+  body.icontains("csrfmiddlewaretoken") && body.icontains("<input type=\"password\" class=\"form-control\" name=\"password\" placeholder=\"密码\" required=\"\">")

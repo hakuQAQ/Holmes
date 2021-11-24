@@ -1,0 +1,8 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-WNDR3400v2
+  softhard: '1'
+matches: |
+  header.icontains("netgear wndr3400v2")
+  banner.icontains("netgear wndr3400v2")
+  title.icontains("netgear router wndr3400v2")

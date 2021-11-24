@@ -1,0 +1,6 @@
+info:
+  company: TrueConf LLC. 
+  product: TrueConf-Meeting
+  softhard: '1'
+matches: |
+  body.icontains("content=\"trueconf server guest page\"")

@@ -1,0 +1,6 @@
+info:
+  company: Canon Inc.
+  product: Canon-iP5200R
+  softhard: '1'
+matches: |
+  body.icontains("nowrap width=\"#\"> canon ip5200r</td>")

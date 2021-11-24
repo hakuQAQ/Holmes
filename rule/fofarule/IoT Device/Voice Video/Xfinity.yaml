@@ -1,0 +1,6 @@
+info:
+  company: Comcast Corporation
+  product: Xfinity
+  softhard: '1'
+matches: |
+  title == "xfinity" && body.icontains("/reset-meyer-1.0.min.css")

@@ -1,0 +1,11 @@
+info:
+  company: phpyun
+  product: php-cloud
+  softhard: '2'
+matches: |
+  body.icontains("<div class=\"index_link_list_name\">")
+  body.icontains("yun_toplogin a.yun_more")
+  body.icontains("yun_index.css")
+  title.icontains("powered by phpyun")
+  body.icontains("$(this).removeclass('dn'")
+  body.icontains("phpyun")

@@ -1,0 +1,7 @@
+info:
+  company: eZ Systems
+  product: eZ-Publish
+  softhard: '2'
+matches: |
+  header.icontains("set-cookie: ezsessioncookie")
+  banner.icontains("set-cookie: ezsessioncookie")

@@ -1,0 +1,7 @@
+info:
+  company: Micro Focus International plc
+  product: Micro-Focus-Open-Enterprise-Server
+  softhard: '2'
+matches: |
+  title.icontains("micro focus open enterprise server")
+  body.icontains("<h3>micro focus open enterprise server 提供市场中的最佳网络、文件和打印服务。</h3>")

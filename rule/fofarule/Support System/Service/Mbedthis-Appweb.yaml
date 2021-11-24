@@ -1,0 +1,7 @@
+info:
+  company: Embedthis Software LLC.
+  product: Mbedthis-Appweb
+  softhard: '2'
+matches: |
+  header.icontains("server: mbedthis-appweb")
+  banner.icontains("server: mbedthis-appweb")

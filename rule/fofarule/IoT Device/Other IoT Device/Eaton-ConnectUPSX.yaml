@@ -1,0 +1,9 @@
+info:
+  company: Eaton.
+  product: Eaton-ConnectUPSX
+  softhard: '1'
+matches: |
+  header.icontains("server: ups_server/")
+  banner.icontains("server: ups_server/")
+  body.icontains("ups firmware version") && banner.icontains("connectups web/snmp card")
+  banner.icontains("powerware connectups")

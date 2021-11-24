@@ -1,0 +1,7 @@
+info:
+  company: '300'
+  product: Emfuture-product
+  softhard: '1'
+matches: |
+  body.icontains("copyright(c) 2005-2009　　emsyschina co.,ltd.")
+  body.icontains("<meta content=\"中嵌科技")

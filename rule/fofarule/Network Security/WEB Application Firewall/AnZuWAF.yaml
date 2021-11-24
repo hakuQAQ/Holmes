@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: AnZuWAF
+  softhard: '2'
+matches: |
+  header.icontains("anzuwaf") && banner.icontains("anzuwaf")

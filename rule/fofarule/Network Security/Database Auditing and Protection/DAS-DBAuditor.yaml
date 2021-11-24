@@ -1,0 +1,6 @@
+info:
+  company: DAS-security
+  product: DAS-DBAuditor
+  softhard: '1'
+matches: |
+  title.icontains("明御数据库审计")

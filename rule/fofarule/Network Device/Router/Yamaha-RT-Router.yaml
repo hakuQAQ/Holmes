@@ -1,0 +1,7 @@
+info:
+  company: Yamaha Corporation
+  product: Yamaha-RT-Router
+  softhard: '1'
+matches: |
+  header.icontains("yamaha-rt")
+  banner.icontains("yamaha-rt")

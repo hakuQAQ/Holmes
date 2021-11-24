@@ -1,0 +1,7 @@
+info:
+  company: paraview
+  product: paraview-UAMS
+  softhard: '2'
+matches: |
+  body.icontains("<!-- <title>派拉统一身份管理系统</title> -->")
+  title.icontains("派拉统一身份管理系统")

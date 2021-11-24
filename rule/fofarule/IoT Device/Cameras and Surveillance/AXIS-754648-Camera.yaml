@@ -1,0 +1,6 @@
+info:
+  company: Axis Communications AB.
+  product: AXIS-754648-Camera
+  softhard: '1'
+matches: |
+  title.icontains("axis 754648")

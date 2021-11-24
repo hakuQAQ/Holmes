@@ -1,0 +1,7 @@
+info:
+  company: HP Development Company, L.P.
+  product: HP-OfficeJet-Printer
+  softhard: '1'
+matches: |
+  title.icontains("hp officejet")
+  body.icontains("align=\"center\">hp officejet")

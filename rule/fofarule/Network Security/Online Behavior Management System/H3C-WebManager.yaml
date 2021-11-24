@@ -1,0 +1,6 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-WebManager
+  softhard: '2'
+matches: |
+  title.icontains("web网管用户登录")

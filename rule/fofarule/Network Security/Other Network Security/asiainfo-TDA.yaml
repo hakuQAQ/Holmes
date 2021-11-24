@@ -1,0 +1,6 @@
+info:
+  company: Asiainfo
+  product: asiainfo-TDA
+  softhard: '1'
+matches: |
+  title.icontains("亚信安全&trade; 深度威胁发现设备")

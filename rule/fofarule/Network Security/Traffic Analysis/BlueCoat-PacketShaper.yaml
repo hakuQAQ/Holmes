@@ -1,0 +1,8 @@
+info:
+  company: Broadcom Inc.
+  product: BlueCoat-PacketShaper
+  softhard: '2'
+matches: |
+  title.icontains("packetshaper customer login")
+  header.icontains("pscfgstr=")
+  banner.icontains("pscfgstr=")

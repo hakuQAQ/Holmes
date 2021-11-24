@@ -1,0 +1,7 @@
+info:
+  company: ruvar
+  product: RuvarHRM
+  softhard: '2'
+matches: |
+  title.icontains("ruvarhrm")
+  body.icontains("src=\"/ruvarhrm/web_login/login.aspx")

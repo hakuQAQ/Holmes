@@ -1,0 +1,6 @@
+info:
+  company: iWT Ltd.
+  product: FaceSentry
+  softhard: '1'
+matches: |
+  title.icontains("facesentry access control system")

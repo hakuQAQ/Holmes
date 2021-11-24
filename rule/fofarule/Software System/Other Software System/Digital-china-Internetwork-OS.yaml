@@ -1,0 +1,8 @@
+info:
+  company: digitalchina
+  product: Digital-china-Internetwork-OS
+  softhard: '2'
+matches: |
+  banner.icontains("digital china internetwork operating system")
+  banner.icontains("digital china networks limited internetwork operating system")
+  banner.icontains("digitalchina internetwork operating system")

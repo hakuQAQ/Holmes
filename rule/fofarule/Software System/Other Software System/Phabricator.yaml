@@ -1,0 +1,8 @@
+info:
+  company: 'Phacility, Inc. '
+  product: Phabricator
+  softhard: '2'
+matches: |
+  header.icontains("phsid") && banner.icontains("set-cookie: phsid")
+  body.icontains("phabricator-application-launch-container")
+  body.icontains("res/phabricator")

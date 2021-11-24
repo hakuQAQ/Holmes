@@ -1,0 +1,6 @@
+info:
+  company: fiberhome
+  product: Fiberhome-Network-Device
+  softhard: '1'
+matches: |
+  banner.icontains("fiberhome networks internetwork operating system")

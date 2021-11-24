@@ -1,0 +1,7 @@
+info:
+  company: Strategic Healthcare Programs，LLC
+  product: SGP-managerial-system
+  softhard: '2'
+matches: |
+  body.icontains("/static/all/img/logo/sgp")
+  title == "sgp"

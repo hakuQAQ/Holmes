@@ -1,0 +1,8 @@
+info:
+  company: Adobe Inc.
+  product: Adobe-Connect
+  softhard: '2'
+matches: |
+  body.icontains("/common/scripts/showcontent.js")
+  header.icontains("breezesession=")
+  banner.icontains("breezesession=")

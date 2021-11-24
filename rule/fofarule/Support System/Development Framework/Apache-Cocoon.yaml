@@ -1,0 +1,7 @@
+info:
+  company: Apache Software Foundation.
+  product: Apache-Cocoon
+  softhard: '2'
+matches: |
+  header.icontains("x-cocoon-version")
+  banner.icontains("x-cocoon-version")

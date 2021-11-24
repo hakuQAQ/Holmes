@@ -1,0 +1,6 @@
+info:
+  company: YongHong
+  product: Z-Suite
+  softhard: '1'
+matches: |
+  title.icontains("yonghong") && body.icontains("contentdiv imgposition desw")

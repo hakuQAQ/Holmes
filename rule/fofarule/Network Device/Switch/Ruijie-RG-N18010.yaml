@@ -1,0 +1,6 @@
+info:
+  company: Ruijie
+  product: Ruijie-RG-N18010
+  softhard: '1'
+matches: |
+  banner.icontains("n18010")

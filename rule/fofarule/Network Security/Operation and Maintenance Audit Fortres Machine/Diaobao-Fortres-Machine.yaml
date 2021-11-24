@@ -1,0 +1,6 @@
+info:
+  company: baoleiji
+  product: Diaobao-Fortres-Machine
+  softhard: '1'
+matches: |
+  title.icontains(" 碉堡堡垒机")

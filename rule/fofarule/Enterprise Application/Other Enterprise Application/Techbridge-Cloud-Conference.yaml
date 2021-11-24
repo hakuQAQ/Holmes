@@ -1,0 +1,9 @@
+info:
+  company: Techbridge
+  product: Techbridge-Cloud-Conference
+  softhard: '2'
+matches: |
+  header.icontains("/common/web_meeting/index.php")
+  body.icontains("href=\"http://www.techbridge-inc.com/\" target=\"_blank\"></a></span>")
+  body.icontains("/images/web_meeting/tool_bg.jpg")
+  body.icontains("/joinmeeting.js")

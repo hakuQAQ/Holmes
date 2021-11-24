@@ -1,0 +1,6 @@
+info:
+  company: ICEsoft Technologies Inc.
+  product: icesoft
+  softhard: '2'
+matches: |
+  cert.icontains("l=haidian, o=icesoft")

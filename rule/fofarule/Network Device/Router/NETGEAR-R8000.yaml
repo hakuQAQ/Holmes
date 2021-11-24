@@ -1,0 +1,8 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-R8000
+  softhard: '1'
+matches: |
+  header.icontains("netgear r8000")
+  banner.icontains("netgear r8000")
+  banner.icontains("netgear r8000") && banner.icontains("netgear-r8000")

@@ -1,0 +1,7 @@
+info:
+  company: ADVA Optical Networking
+  product: ADVA-FSP
+  softhard: '1'
+matches: |
+  title.icontains("adva fsp ")
+  body.icontains("var gtitle = 'adva fsp ")

@@ -1,0 +1,7 @@
+info:
+  company: Fortinet, Inc.
+  product: FortiMail
+  softhard: '2'
+matches: |
+  banner.icontains("fortimail")
+  banner.icontains("fortimail login")

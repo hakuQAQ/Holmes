@@ -1,0 +1,9 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-ASR
+  softhard: '1'
+matches: |
+  header.icontains("cisco asr")
+  banner.icontains("cisco asr")
+  header.icontains("cisco 8600") && banner.icontains("cisco ios software, asr1000")
+  banner.icontains("cisco ios software, asr900")

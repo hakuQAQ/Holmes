@@ -1,0 +1,7 @@
+info:
+  company: Verizon Communications Inc.
+  product: Verizon-Router
+  softhard: '1'
+matches: |
+  title.icontains("verizon router")
+  body.icontains("<div id=\"bgimage\" class=\"container\" ng-view></div>")

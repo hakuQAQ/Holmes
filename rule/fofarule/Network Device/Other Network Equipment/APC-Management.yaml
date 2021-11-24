@@ -1,0 +1,6 @@
+info:
+  company: Schneider Electric
+  product: APC-Management
+  softhard: '2'
+matches: |
+  body.icontains("this object on the apc management web server is protected")

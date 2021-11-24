@@ -1,0 +1,8 @@
+info:
+  company: Apache Software Foundation.
+  product: APACHE-Guacamole
+  softhard: '2'
+matches: |
+  body.icontains("images/guacamole-logo")
+  title.icontains("guacamole gateway")
+  body.icontains("guacamole - clientless remote desktop") && body.icontains("scripts/guac-ui.js")

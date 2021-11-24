@@ -1,0 +1,11 @@
+info:
+  company: SMA Solar Technology AG
+  product: SMA-Sunny_Webbox
+  softhard: '2'
+matches: |
+  title.icontains("sma sunny webbox")
+  header.icontains("webbox-20")
+  banner.icontains("server: webbox-20") && header.icontains("webbox-20")
+  header.icontains("sunny webbox")
+  body.icontains("<meta http-equiv=\"refresh\" content=\"0; url=/culture/index.dml\">")
+  title.icontains("sunny webbox")

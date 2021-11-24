@@ -1,0 +1,6 @@
+info:
+  company: Digital China Group Co., Ltd.
+  product: DCN-DCRS-7604E
+  softhard: '1'
+matches: |
+  body.icontains("<b>dcrs-7604e</b>")

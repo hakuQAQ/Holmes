@@ -1,0 +1,6 @@
+info:
+  company: linkedcare
+  product: linkedcare-Software
+  softhard: '2'
+matches: |
+  title.icontains("e看牙云口腔")

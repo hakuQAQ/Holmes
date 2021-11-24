@@ -1,0 +1,7 @@
+info:
+  company: dvripc
+  product: dvripc
+  softhard: '1'
+matches: |
+  body.icontains("title=\"download android\" href=\"http://www.dvripc.net/common/download/")
+  body.icontains("<p><a href=\"nvocx_setup.exe\">click here to download and install the activex packet mannually.</a></p>")

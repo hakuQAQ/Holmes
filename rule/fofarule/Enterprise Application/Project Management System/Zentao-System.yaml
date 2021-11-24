@@ -1,0 +1,12 @@
+info:
+  company: easycorp
+  product: Zentao-System
+  softhard: '2'
+matches: |
+  title.icontains("欢迎使用禅道集成运行环境")
+  body.icontains("<a id='zentaopro' href='/pro/'")
+  body.icontains("$('#zentaopro').addclass")
+  body.icontains("powered by <a href='http://www.zentao.net' target='_blank'>zentaopms") && body.icontains("welcome to use zentao!")
+  body.icontains("href='/zentao/favicon.ico")
+  header.icontains("360 web server") && body.icontains("server: netvox z206-webs")
+  body.icontains("server: cpws")

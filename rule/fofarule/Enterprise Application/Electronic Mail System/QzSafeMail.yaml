@@ -1,0 +1,6 @@
+info:
+  company: qzsoft
+  product: QzSafeMail
+  softhard: '2'
+matches: |
+  body.icontains("/qzmail/index.php")

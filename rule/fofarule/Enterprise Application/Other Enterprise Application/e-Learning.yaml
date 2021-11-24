@@ -1,0 +1,6 @@
+info:
+  company: 21tb
+  product: e-Learning
+  softhard: '2'
+matches: |
+  body.icontains("method=\"post\" action=\"/eln3_asp/login.do")

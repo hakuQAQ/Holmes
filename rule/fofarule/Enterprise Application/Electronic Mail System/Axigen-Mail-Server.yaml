@@ -1,0 +1,11 @@
+info:
+  company: Axigen Messaging SRL
+  product: Axigen-Mail-Server
+  softhard: '2'
+matches: |
+  title.icontains("axigen webmail - ")
+  header.icontains("axigen-webmail")
+  banner.icontains("server: axigen-webmail")
+  banner.icontains("axigen mail-server")
+  banner.icontains("axigen imap4rev1")
+  banner.icontains("esmtp axigen mail-server")

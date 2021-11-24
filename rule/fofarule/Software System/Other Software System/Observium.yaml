@@ -1,0 +1,6 @@
+info:
+  company: Observium Limited
+  product: Observium
+  softhard: '2'
+matches: |
+  body.icontains("href=\"images/observium-icon.png\"")

@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-CSCSSM
+  softhard: '1'
+matches: |
+  header.icontains("proxy-agent: cscssm") && banner.icontains("proxy-agent: cscssm")

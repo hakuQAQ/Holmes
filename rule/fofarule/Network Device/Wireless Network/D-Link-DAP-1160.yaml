@@ -1,0 +1,7 @@
+info:
+  company: D-Link
+  product: D-Link-DAP-1160
+  softhard: '1'
+matches: |
+  body.icontains("<a href=\"http://www.dlink.com.tw\" target=_blank>dap-1160")
+  body.icontains("<a href=\"http://support.dlink.com.tw/\">dap-1160")

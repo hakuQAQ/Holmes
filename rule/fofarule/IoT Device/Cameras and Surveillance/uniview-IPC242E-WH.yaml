@@ -1,0 +1,6 @@
+info:
+  company: uniview
+  product: uniview-IPC242E-WH
+  softhard: '1'
+matches: |
+  banner.icontains("ipc242e-wh")

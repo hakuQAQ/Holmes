@@ -1,0 +1,8 @@
+info:
+  company: byzoro
+  product: Byzoro-Security-gateway
+  softhard: '1'
+matches: |
+  title.icontains("patrolflow")
+  body.icontains("&nbsp;patrolflow 多业务安全网关")
+  title.icontains("patflow--管理平台")

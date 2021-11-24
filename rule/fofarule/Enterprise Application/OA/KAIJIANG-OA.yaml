@@ -1,0 +1,6 @@
+info:
+  company: KAIJIANG
+  product: KAIJIANG-OA
+  softhard: '2'
+matches: |
+  body.icontains("src=\"/kjoa/sheep/login/login.js")

@@ -1,0 +1,7 @@
+info:
+  company: beijinghuayu
+  product: beijinghuayu-SafeGateway
+  softhard: '1'
+matches: |
+  body.icontains("copy_right = {cn : \"\", en ")
+  body.icontains("var opzoon_ver")

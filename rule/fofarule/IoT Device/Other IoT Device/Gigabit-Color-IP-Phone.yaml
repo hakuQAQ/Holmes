@@ -1,0 +1,7 @@
+info:
+  company: Yealink Inc.
+  product: Gigabit-Color-IP-Phone
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"gigabit color ip phone")
+  banner.icontains("realm=\"gigabit color ip phone")

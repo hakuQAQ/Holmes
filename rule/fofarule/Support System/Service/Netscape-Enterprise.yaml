@@ -1,0 +1,7 @@
+info:
+  company: Oracle Corporation
+  product: Netscape-Enterprise
+  softhard: '2'
+matches: |
+  header.icontains("netscape-enterprise")
+  banner.icontains("server: netscape-enterprise")

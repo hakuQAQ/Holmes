@@ -1,0 +1,8 @@
+info:
+  company: szreach
+  product: Reach-DSS-ENC-100
+  softhard: '1'
+matches: |
+  title.icontains("视音频编码器dss-enc-100")
+  body.icontains("深圳市锐取软件技术有限公司")
+  title.icontains(":::sd encoder(enc110):::")

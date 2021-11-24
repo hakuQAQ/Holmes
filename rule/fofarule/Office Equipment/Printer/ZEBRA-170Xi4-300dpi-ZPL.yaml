@@ -1,0 +1,6 @@
+info:
+  company: Zebra Technologies Corp.
+  product: ZEBRA-170Xi4-300dpi-ZPL
+  softhard: '1'
+matches: |
+  body.icontains("ztc 170xi4-300dpi zpl</h1>")

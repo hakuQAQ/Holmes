@@ -1,0 +1,8 @@
+info:
+  company: Oracle Corporation
+  product: Oracle-Fusion-Middleware
+  softhard: '2'
+matches: |
+  title.icontains("welcome to oracle fusion middleware")
+  body.icontains("href=\"css/fmw_bottom_area.css")
+  header.icontains("oracle-fusion-middleware")

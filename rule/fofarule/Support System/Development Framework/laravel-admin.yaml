@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: laravel-admin
+  softhard: '2'
+matches: |
+  body.icontains("vendor/laravel-admin/")
+  body.icontains("欢迎登录laravel-admin</p>")

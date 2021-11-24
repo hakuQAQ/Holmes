@@ -1,0 +1,7 @@
+info:
+  company: InfoPro
+  product: InfoPro-System
+  softhard: '2'
+matches: |
+  body.icontains("<input type=\"submit\" name=\"cmdsubmit\" value=\" 登 录 \" onclick=\"javascript:webform_dopostbackwithoptions(new webform_postbackoptions(&quot;cmdsubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))\" id=\"cmdsubmit\" class=\"colorbutton")
+  body.icontains("workflow")

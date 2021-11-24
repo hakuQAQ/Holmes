@@ -1,0 +1,8 @@
+info:
+  company: TECLIB GROUP
+  product: TECLIB-GLPI
+  softhard: '2'
+matches: |
+  body.icontains("href=\"/pics/favicon.ico\"")
+  body.icontains("autofocus=\"autofocus\"")
+  title.icontains("glpi - 登陆入口") && body.icontains("_glpi_csrf_token")

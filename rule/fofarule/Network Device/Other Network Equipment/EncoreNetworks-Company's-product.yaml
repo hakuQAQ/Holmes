@@ -1,0 +1,6 @@
+info:
+  company: Encore Networks, Inc.
+  product: EncoreNetworks-Company's-product
+  softhard: '0'
+matches: |
+  banner.icontains("encorenetworks-products")

@@ -1,0 +1,7 @@
+info:
+  company: lizcom
+  product: Intelligence-Parking-Integrated-management-platform
+  softhard: '2'
+matches: |
+  body.icontains("厦门立智通讯科技有限公司 版权所有")
+  title.icontains("财富中心智能停车场综合管理平台")

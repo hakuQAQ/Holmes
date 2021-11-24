@@ -1,0 +1,10 @@
+info:
+  company: Other
+  product: NTP
+  softhard: '0'
+matches: |
+  protocol.icontains("snmp")
+  banner.icontains("ntp snmp")
+  title.icontains("ntp time")
+  title.icontains("ntpserver")
+  protocol.icontains("ntp")

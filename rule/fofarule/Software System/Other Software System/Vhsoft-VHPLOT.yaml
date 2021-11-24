@@ -1,0 +1,6 @@
+info:
+  company: Vhsoft
+  product: Vhsoft-VHPLOT
+  softhard: '2'
+matches: |
+  body.icontains("/vhplot/webresource.axd")

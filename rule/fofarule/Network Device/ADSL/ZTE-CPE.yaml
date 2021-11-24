@@ -1,0 +1,6 @@
+info:
+  company: ZTE
+  product: ZTE-CPE
+  softhard: '1'
+matches: |
+  banner.icontains("realm=\"cpe@zte.com")

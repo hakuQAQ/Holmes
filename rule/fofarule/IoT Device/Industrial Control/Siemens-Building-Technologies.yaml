@@ -1,0 +1,7 @@
+info:
+  company: Siemens AG.
+  product: Siemens-Building-Technologies
+  softhard: '1'
+matches: |
+  title.icontains("siemens building technologies")
+  body.icontains("<br><i>siemens building technologies")

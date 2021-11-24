@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Icinga
+  softhard: '2'
+matches: |
+  header.icontains("icinga") && banner.icontains("icinga")

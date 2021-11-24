@@ -1,0 +1,7 @@
+info:
+  company: HUAWEI
+  product: HuaWei-S5728C
+  softhard: '1'
+matches: |
+  banner.icontains("s5728c ")
+  header.icontains("s5728c ")

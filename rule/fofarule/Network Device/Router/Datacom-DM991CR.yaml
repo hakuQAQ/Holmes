@@ -1,0 +1,8 @@
+info:
+  company: Datacom Group
+  product: Datacom-DM991CR
+  softhard: '1'
+matches: |
+  banner.icontains("dm991cr")
+  banner.icontains("type enter to run terminal ")
+  banner.icontains("dm706cr") && banner.icontains("dm991cs")

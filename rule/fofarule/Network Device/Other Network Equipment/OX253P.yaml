@@ -1,0 +1,6 @@
+info:
+  company: ZTE
+  product: OX253P
+  softhard: '1'
+matches: |
+  banner.icontains("ox253p")

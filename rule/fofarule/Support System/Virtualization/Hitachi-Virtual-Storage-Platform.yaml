@@ -1,0 +1,6 @@
+info:
+  company: Hitachi
+  product: Hitachi-Virtual-Storage-Platform
+  softhard: '2'
+matches: |
+  body.icontains("src=\"/cgismryset/smryset.cgi/clk\"")

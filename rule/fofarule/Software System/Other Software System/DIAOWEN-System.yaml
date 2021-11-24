@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: DIAOWEN-System
+  softhard: '2'
+matches: |
+  title.icontains("调问-专业且开源的问卷表单系统")
+  body.icontains("powered by <a href=\"http://www.dwsurvey.net\" style=")

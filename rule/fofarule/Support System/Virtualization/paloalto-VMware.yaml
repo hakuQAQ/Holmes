@@ -1,0 +1,6 @@
+info:
+  company: Palo Alto Networks，Inc.
+  product: paloalto-VMware
+  softhard: '2'
+matches: |
+  cert.icontains("l=palo alto, ou=vmware")

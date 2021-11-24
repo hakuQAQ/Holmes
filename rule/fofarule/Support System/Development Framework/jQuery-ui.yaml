@@ -1,0 +1,6 @@
+info:
+  company: The jQuery Foundation.
+  product: jQuery-ui
+  softhard: '2'
+matches: |
+  body.icontains("jquery-ui")

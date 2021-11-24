@@ -1,0 +1,6 @@
+info:
+  company: hispider
+  product: hispider-Router
+  softhard: '2'
+matches: |
+  body.icontains("action=\"login.pl\" method=\"post\"  onsubmit=\"encryptpasswd()")

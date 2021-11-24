@@ -1,0 +1,6 @@
+info:
+  company: EGroupware GmbH
+  product: eGroupWare
+  softhard: '2'
+matches: |
+  body.icontains("content=\"egroupware")

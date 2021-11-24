@@ -1,0 +1,9 @@
+info:
+  company: hjsoft
+  product: HJSoft-HCM
+  softhard: '2'
+matches: |
+  title.icontains("人力资源信息管理系统")
+  body.icontains("src=\"/images/hcm/copyright.gif\"")
+  body.icontains("src=\"/images/hcm/themes/default/login/login_banner2.png?v=12334\"")
+  body.icontains("src=\"/general/sys/hjaxmanage.js\"")

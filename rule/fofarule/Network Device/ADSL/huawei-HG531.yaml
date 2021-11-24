@@ -1,0 +1,7 @@
+info:
+  company: HUAWEI
+  product: huawei-HG531
+  softhard: '1'
+matches: |
+  body.icontains("300mbps wireless adsl2+ router")
+  body.icontains("#d1d1d1")

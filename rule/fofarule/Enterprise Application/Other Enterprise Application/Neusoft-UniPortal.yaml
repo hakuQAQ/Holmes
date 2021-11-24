@@ -1,0 +1,6 @@
+info:
+  company: neusoft
+  product: Neusoft-UniPortal
+  softhard: '2'
+matches: |
+  body.icontains("ecdomain/unieap/ria/unieap/themes/earth/common/unieap.css")

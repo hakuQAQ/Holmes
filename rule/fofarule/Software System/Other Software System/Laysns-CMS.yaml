@@ -1,0 +1,7 @@
+info:
+  company: laysns
+  product: Laysns-CMS
+  softhard: '2'
+matches: |
+  body.icontains("title=\"laysns\"")
+  body.icontains("href=\"http://www.laysns.com/\"> laysns")

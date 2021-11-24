@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Locus-SolarNOC
+  softhard: '2'
+matches: |
+  title.icontains("solarnoc - login")

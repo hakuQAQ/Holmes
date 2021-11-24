@@ -1,0 +1,7 @@
+info:
+  company: Vicon Industries.
+  product: IQinVision-IQeye702
+  softhard: '1'
+matches: |
+  banner.icontains("iqeye702")
+  title.icontains("iqeye702")

@@ -1,0 +1,11 @@
+info:
+  company: 1C-Bitrix company
+  product: Bitrix-Site-Manager
+  softhard: '2'
+matches: |
+  header.icontains("x-powered-cms: bitrix site manager")
+  banner.icontains("x-powered-cms: bitrix site manager")
+  banner.icontains("bitrix site manager") && header.icontains("policyref=\"/bitrix/p3p.xml")
+  banner.icontains("policyref=\"/bitrix/p3p.xml")
+  body.icontains("bitrix_sm_time_zone")
+  body.icontains("bx.setcsslist")

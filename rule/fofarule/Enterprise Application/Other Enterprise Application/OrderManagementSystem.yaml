@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: OrderManagementSystem
+  softhard: '2'
+matches: |
+  body.icontains("联系新订单系统开发同事进行修改。</div>")

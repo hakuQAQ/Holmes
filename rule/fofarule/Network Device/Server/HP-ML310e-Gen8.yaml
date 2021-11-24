@@ -1,0 +1,7 @@
+info:
+  company: Hewlett Packard Enterprise Development LP
+  product: HP-ML310e-Gen8
+  softhard: '1'
+matches: |
+  banner.icontains("ml310e-gen8") && cert.icontains("ml310e-gen8")
+  header.icontains("ml310e-gen8")

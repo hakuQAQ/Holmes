@@ -1,0 +1,6 @@
+info:
+  company: ASUSTeK Computer Inc.
+  product: ASUS-ZenWiFi-AX
+  softhard: '1'
+matches: |
+  body.icontains("class=\"prod_madelname\">zenwifi ax")

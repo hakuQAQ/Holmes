@@ -1,0 +1,10 @@
+info:
+  company: NETENTSEC
+  product: Netentsec-NS-ASG-Security-gateway
+  softhard: '1'
+matches: |
+  title.icontains("ns-asg")
+  body.icontains("400-678-3600")
+  body.icontains("client/thickbox.css") && body.icontains("/commonplugin/softkeyboard.js")
+  body.icontains("id=\"slotserialnumber\"")
+  title.icontains("应用安全网关")

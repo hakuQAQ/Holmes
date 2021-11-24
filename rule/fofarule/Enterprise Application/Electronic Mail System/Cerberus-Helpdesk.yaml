@@ -1,0 +1,8 @@
+info:
+  company: Webgroup Media, LLC.
+  product: Cerberus-Helpdesk
+  softhard: '2'
+matches: |
+  header.icontains("cerberuspublicgui")
+  banner.icontains("cerberuspublicgui")
+  body.icontains("<!-- if you have your own stylesheet for html elements, you can remove the cerberus-html.css link")

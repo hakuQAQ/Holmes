@@ -1,0 +1,7 @@
+info:
+  company: TOPSEC
+  product: TOPSEC-Employee-Internet-Management
+  softhard: '1'
+matches: |
+  body.icontains("activexobject") && body.icontains("name=\"dkey_login\" ")
+  body.icontains("repeat-x left top")

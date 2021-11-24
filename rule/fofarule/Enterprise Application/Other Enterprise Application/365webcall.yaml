@@ -1,0 +1,6 @@
+info:
+  company: 365webcall
+  product: 365webcall
+  softhard: '2'
+matches: |
+  body.icontains("src='http://www.365webcall.com/imme1.aspx?")

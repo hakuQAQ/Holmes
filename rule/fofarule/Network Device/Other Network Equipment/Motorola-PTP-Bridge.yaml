@@ -1,0 +1,6 @@
+info:
+  company: Motorola Solutions, Inc
+  product: Motorola-PTP-Bridge
+  softhard: '1'
+matches: |
+  banner.icontains("motorola ptp ")

@@ -1,0 +1,8 @@
+info:
+  company: dayrui
+  product: Dayrui-CMS
+  softhard: '2'
+matches: |
+  header.icontains("dr_ci_session")
+  body.icontains("dayrui/statics")
+  banner.icontains("dr_ci_session")

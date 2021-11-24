@@ -1,0 +1,7 @@
+info:
+  company: Zscaler, Inc.
+  product: Zscaler-FIREWALL
+  softhard: '1'
+matches: |
+  header.icontains("set-cookie: _sm_au_d")
+  banner.icontains("set-cookie: _sm_au_d")

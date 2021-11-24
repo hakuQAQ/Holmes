@@ -1,0 +1,6 @@
+info:
+  company: AhnLab, Inc.
+  product: AhnLab-MDS
+  softhard: '1'
+matches: |
+  title.icontains("ahnlab mds")

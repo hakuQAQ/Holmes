@@ -1,0 +1,6 @@
+info:
+  company: SHARP Corporation
+  product: SHARP-MX-Printer
+  softhard: '1'
+matches: |
+  banner.icontains("sharp mx-")

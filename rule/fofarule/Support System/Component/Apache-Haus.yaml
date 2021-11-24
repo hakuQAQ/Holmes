@@ -1,0 +1,8 @@
+info:
+  company: Apache Software Foundation.
+  product: Apache-Haus
+  softhard: '2'
+matches: |
+  title.icontains("apache haus")
+  body.icontains("href=\"/apachehaus.ico")
+  body.icontains("copyright &copy; 2008-2017 <a href=\"http://www.apachehaus.com\">the apache haus</a>")

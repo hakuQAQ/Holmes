@@ -1,0 +1,6 @@
+info:
+  company: AJA Video Systems, Inc.
+  product: AJA-Video-Converter
+  softhard: '1'
+matches: |
+  body.icontains("eparamid_swversion")

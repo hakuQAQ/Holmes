@@ -1,0 +1,14 @@
+info:
+  company: Secworld
+  product: Secworld-Firewall
+  softhard: '1'
+matches: |
+  title.icontains("secgate 3600")
+  protocol.icontains("snmp") && banner.icontains("secos ") && body.icontains("css/lsec/login.css")
+  body.icontains("src=\"?g=login_captcha")
+  body.icontains("content=\"上海斐讯数据通信技术有限公司\"")
+  banner.icontains("secgate3600")
+  body.icontains("var __permission = \"360网神防火墙系统nsg")
+  body.icontains("var __permission = \"360网神防火墙系统\"")
+  body.icontains("var __permission = \"网神防火墙\"")
+  body.icontains("var __permission = \"网神secgate3600 防火墙\"")

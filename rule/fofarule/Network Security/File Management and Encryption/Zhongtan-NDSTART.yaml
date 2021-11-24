@@ -1,0 +1,7 @@
+info:
+  company: Zhongtan
+  product: Zhongtan-NDSTART
+  softhard: '2'
+matches: |
+  body.icontains("var pubnewsarray")
+  body.icontains("<title>南大之星信息发布系统 ")

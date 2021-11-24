@@ -1,0 +1,7 @@
+info:
+  company: Zoho Corporation Pvt. Ltd.
+  product: ManageEngine-ServiceDesk
+  softhard: '2'
+matches: |
+  title.icontains("manageengine servicedesk")
+  body.icontains(",'manageengine servicedesk plus',")

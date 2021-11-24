@@ -1,0 +1,8 @@
+info:
+  company: NETENTSEC
+  product: NETENTSEC-NGFW
+  softhard: '1'
+matches: |
+  title.icontains("网康下一代防火墙")
+  body.icontains("/images/dashboard/dashboard.png")
+  banner.icontains("netentsec ngfw")

@@ -1,0 +1,8 @@
+info:
+  company: OpenJS Foundation
+  product: Node.js
+  softhard: '2'
+matches: |
+  header.icontains("x-powered-by: express")
+  header.icontains("pump.io") && header.icontains("node.js") && banner.icontains("x-powered-by: express")
+  banner.icontains("pump.io") && banner.icontains("node.js")

@@ -1,0 +1,9 @@
+info:
+  company: ZTE
+  product: ZTE-WLANController
+  softhard: '1'
+matches: |
+  body.icontains("background:transparent;border:0px;color=#de0108;font-weight:")
+  body.icontains("中兴通讯")
+  body.icontains("var url=\"resetwebsvr.php?act=reset\";")
+  title == "中兴通讯 - wlan无线接入控制器"

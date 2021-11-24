@@ -1,0 +1,6 @@
+info:
+  company: Hisense
+  product: Hisense-Business-Management-Platform
+  softhard: '2'
+matches: |
+  body.icontains("src=\"up.jpg\"") && body.icontains("src=\"left.jpg\"")

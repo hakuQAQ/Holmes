@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: ANECMS
+  softhard: '2'
+matches: |
+  body.icontains("content=\"erwin aligam - ealigam@gmail.com")

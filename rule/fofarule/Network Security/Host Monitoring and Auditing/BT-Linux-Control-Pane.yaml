@@ -1,0 +1,11 @@
+info:
+  company: baota
+  product: BT-Linux-Control-Pane
+  softhard: '2'
+matches: |
+  body.icontains("<img src=\"https://app.bt.cn/static/app.png\">")
+  body.icontains("href=\"http://www.bt.cn/bbs/thread-1172-1-1.html")
+  body.icontains("宝塔linux面板")
+  body.icontains("src=\"/static/js/validform_v5.3.2_min.js")
+  header.icontains("set-cookie: bt_panel=")
+  banner.icontains("set-cookie: bt_panel=")

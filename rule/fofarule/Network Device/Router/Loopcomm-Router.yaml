@@ -1,0 +1,6 @@
+info:
+  company: 'Loopcomm Technology. '
+  product: Loopcomm-Router
+  softhard: '1'
+matches: |
+  title.icontains("loopcomm")

@@ -1,0 +1,7 @@
+info:
+  company: topwalk
+  product: Topwalk-UIS
+  softhard: '1'
+matches: |
+  body.icontains("<meta http-equiv=\"refresh\" content=\"0;url=/usermainaction.action\" />")
+  title.icontains("天行安全单向导入系统")

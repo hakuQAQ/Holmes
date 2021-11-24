@@ -1,0 +1,6 @@
+info:
+  company: EnGenius Technologies, Inc.
+  product: EnGenius-wifi
+  softhard: '1'
+matches: |
+  body.icontains("style=\"background: url(/pictures/img_bg_horizon.png) repeat-x\"")

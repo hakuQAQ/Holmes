@@ -1,0 +1,6 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TP-LINK-TL-SC2000N
+  softhard: '1'
+matches: |
+  title.icontains("tl-sc2000n")

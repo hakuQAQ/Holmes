@@ -1,0 +1,6 @@
+info:
+  company: hphu
+  product: hphu-System
+  softhard: '2'
+matches: |
+  body.icontains("id='psssdiv'") && body.icontains("src='kss_inc/js/jquery.1.3.2.pack.js'")

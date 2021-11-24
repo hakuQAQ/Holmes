@@ -1,0 +1,7 @@
+info:
+  company: Phönix-PACS GmbH.
+  product: PHONIX-PACS
+  softhard: '2'
+matches: |
+  body.icontains("<a href=\"/pacs/\"><img src=\"pacs/images/logo.svg\">")
+  title.icontains("ph&ouml;nix pacs merlin")

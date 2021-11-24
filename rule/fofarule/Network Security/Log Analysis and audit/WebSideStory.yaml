@@ -1,0 +1,9 @@
+info:
+  company: WEBSIDESTORY,INC.
+  product: WebSideStory
+  softhard: '2'
+matches: |
+  body.icontains("http://websidestory.com")
+  body.icontains("websidestory code")
+  body.icontains("websidestory,inc. all rights reserved. u.s.patent no. 6,393,479b1")
+  body.icontains("<!-- websidestory html for search -->")

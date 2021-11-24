@@ -1,0 +1,7 @@
+info:
+  company: Sito gestito da ATL SRL P.Iva
+  product: AtlantisLand-Router
+  softhard: '1'
+matches: |
+  banner.icontains("atlantis land")
+  banner.icontains("adsl router")

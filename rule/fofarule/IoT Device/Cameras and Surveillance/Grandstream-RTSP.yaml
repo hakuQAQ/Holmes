@@ -1,0 +1,6 @@
+info:
+  company: Grandstream Networks, Inc.
+  product: Grandstream-RTSP
+  softhard: '1'
+matches: |
+  banner.icontains("server: grandstream rtsp server")

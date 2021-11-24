@@ -1,0 +1,8 @@
+info:
+  company: EFM Networks Co.,Ltd.
+  product: EFM-Networks-ipTIME-V116
+  softhard: '1'
+matches: |
+  body.icontains("src =\"/images/login_back_tv116.gif\"")
+  body.icontains("src=\"/images2/login_title.tv116.gif\"")
+  title.icontains("iptime v116")

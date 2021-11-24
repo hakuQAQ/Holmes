@@ -1,0 +1,6 @@
+info:
+  company: redwoodhq
+  product: redwoodhq
+  softhard: '2'
+matches: |
+  body.icontains("stylesheets/redwoodtheme/resources/js/azzurra.js")

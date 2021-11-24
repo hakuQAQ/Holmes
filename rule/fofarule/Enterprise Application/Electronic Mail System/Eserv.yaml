@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Eserv
+  softhard: '2'
+matches: |
+  header.icontains("eserv") && body.icontains("content=\"eserv")

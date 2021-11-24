@@ -1,0 +1,10 @@
+info:
+  company: huilan
+  product: Easysite
+  softhard: '2'
+matches: |
+  body.icontains("generator\" content=\"easysite")
+  body.icontains("copyright 2009 by huilan")
+  body.icontains("_desktopmodules_picturenews")
+  header.icontains("easysite-compression")
+  banner.icontains("easysite-compression")

@@ -1,0 +1,6 @@
+info:
+  company: GoCloud
+  product: gocloud-GX2-series-router
+  softhard: '1'
+matches: |
+  banner.icontains("gocloud gx2 series router")

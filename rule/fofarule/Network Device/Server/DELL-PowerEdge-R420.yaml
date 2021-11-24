@@ -1,0 +1,7 @@
+info:
+  company: Dell Inc.
+  product: DELL-PowerEdge-R420
+  softhard: '1'
+matches: |
+  body.icontains("id=\"serverinfo\"> poweredge r420")
+  banner.icontains("poweredge r420")

@@ -1,0 +1,8 @@
+info:
+  company: uniview
+  product: Uniview-MS8500
+  softhard: '1'
+matches: |
+  banner.icontains("uniview ms8500")
+  title.icontains("ivs-ms8500")
+  title.icontains("ms8500配置管理系统")

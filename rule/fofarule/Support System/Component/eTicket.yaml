@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: eTicket
+  softhard: '2'
+matches: |
+  body.icontains("powered by eticket")
+  body.icontains("<a href=\"http://www.eticketsupport.com\" target=\"_blank\">")
+  body.icontains("/eticket/eticket.css")

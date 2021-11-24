@@ -1,0 +1,8 @@
+info:
+  company: Google LLC
+  product: Google-Hosted-Libraries
+  softhard: '2'
+matches: |
+  header.icontains("ajax.googleapis.com/ajax/libs")
+  banner.icontains("ajax.googleapis.com/ajax/libs")
+  body.icontains("ajax.googleapis.com/ajax/libs")

@@ -1,0 +1,10 @@
+info:
+  company: HUAWEI
+  product: HuaWei-USG6320
+  softhard: '1'
+matches: |
+  body.icontains("(logo_type)? document.write(logo_type):document.write('')")
+  body.icontains("var logo_type = getcookie('logotype')")
+  body.icontains("usg6320") && banner.icontains("huawei usg6320")
+  banner.icontains("secospace usg6320")
+  header.icontains("&huawei usg6320&langfrombrows=zh-cn")

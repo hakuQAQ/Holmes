@@ -1,0 +1,7 @@
+info:
+  company: shopbuilder
+  product: Shop_Builder-shopbuilder
+  softhard: '2'
+matches: |
+  body.icontains("content=\"shopbuilder") && body.icontains("powered by shopbuilder")
+  body.icontains("shopbuilder版权所有")

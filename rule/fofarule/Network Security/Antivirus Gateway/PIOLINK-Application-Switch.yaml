@@ -1,0 +1,6 @@
+info:
+  company: PIOLINK, Inc.
+  product: PIOLINK-Application-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("piolink application switch")

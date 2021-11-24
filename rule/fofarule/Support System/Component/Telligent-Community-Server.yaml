@@ -1,0 +1,11 @@
+info:
+  company: Verint, Inc.
+  product: Telligent-Community-Server
+  softhard: '2'
+matches: |
+  header.icontains("communityserver-lastvisitupdated")
+  header.icontains("communityserver")
+  header.icontains("communityserver-usercookie")
+  banner.icontains("communityserver-lastvisitupdated")
+  banner.icontains("communityserver")
+  banner.icontains("communityserver-usercookie")

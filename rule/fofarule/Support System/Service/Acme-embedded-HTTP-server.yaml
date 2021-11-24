@@ -1,0 +1,6 @@
+info:
+  company: ACME Laboratories
+  product: Acme-embedded-HTTP-server
+  softhard: '2'
+matches: |
+  header.icontains("acme")

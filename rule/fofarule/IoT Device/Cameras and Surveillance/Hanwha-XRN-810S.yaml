@@ -1,0 +1,7 @@
+info:
+  company: Hanwha Techwin Co., Ltd.
+  product: Hanwha-XRN-810S
+  softhard: '1'
+matches: |
+  body.icontains("$.nvr.model_name=\"xrn-810s\"")
+  banner.icontains("xrn-810s")

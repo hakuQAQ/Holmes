@@ -1,0 +1,7 @@
+info:
+  company: Netwave Equipment Corporation
+  product: Netwave-Cable-Modem
+  softhard: '1'
+matches: |
+  banner.icontains("netwave")
+  banner.icontains("cable modem")

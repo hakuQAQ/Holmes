@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: GSM-RF-gateway
+  softhard: '1'
+matches: |
+  banner.icontains("gsm/gprs rf gateway")

@@ -1,0 +1,6 @@
+info:
+  company: arago GmbH
+  product: Arago-Project
+  softhard: '2'
+matches: |
+  banner.icontains("arago project http://arago-project.org")

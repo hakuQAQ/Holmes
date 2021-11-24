@@ -1,0 +1,7 @@
+info:
+  company: sohutv
+  product: Cachecloud
+  softhard: '2'
+matches: |
+  title.icontains("cachecloud系统")
+  body.icontains("alert(\"系统不存在该用户名，请确认该用户申请了cachecloud权限!\");")

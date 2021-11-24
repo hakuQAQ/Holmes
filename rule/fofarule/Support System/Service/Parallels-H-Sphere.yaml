@@ -1,0 +1,6 @@
+info:
+  company: Ingram Micro Inc.
+  product: Parallels-H-Sphere
+  softhard: '2'
+matches: |
+  title.icontains("parallels h-sphere")

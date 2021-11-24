@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Logsign-SIEM
+  softhard: '2'
+matches: |
+  body.icontains("window.location = '/ui/modules/login/'")

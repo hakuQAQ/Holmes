@@ -1,0 +1,6 @@
+info:
+  company: 'Ubiquiti Inc. '
+  product: unifi-Camera
+  softhard: '1'
+matches: |
+  body.icontains("css/ubnt-icon")

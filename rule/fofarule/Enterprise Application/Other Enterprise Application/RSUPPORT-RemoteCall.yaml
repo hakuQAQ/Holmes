@@ -1,0 +1,8 @@
+info:
+  company: RSUPPORT CO., LTD.
+  product: RSUPPORT-RemoteCall
+  softhard: '2'
+matches: |
+  title.icontains(" remotecall 用户管理员 ")
+  body.icontains("http://www.remotecall.com")
+  body.icontains("msg_abortservice")

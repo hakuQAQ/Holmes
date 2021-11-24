@@ -1,0 +1,6 @@
+info:
+  company: foundir
+  product: CSmail
+  softhard: '2'
+matches: |
+  title == "csmail" && body.icontains("<frame src=\"/mainframe_zh-cn.html\" />")

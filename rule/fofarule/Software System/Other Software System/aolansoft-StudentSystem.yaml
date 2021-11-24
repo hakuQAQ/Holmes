@@ -1,0 +1,7 @@
+info:
+  company: aolansoft
+  product: aolansoft-StudentSystem
+  softhard: '2'
+matches: |
+  title.icontains("奥蓝学生管理信息系统")
+  body.icontains("vcode.aspx")

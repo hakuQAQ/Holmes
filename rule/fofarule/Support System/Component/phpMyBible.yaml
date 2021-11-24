@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: phpMyBible
+  softhard: '2'
+matches: |
+  body.icontains("<div class='chaphead'>")

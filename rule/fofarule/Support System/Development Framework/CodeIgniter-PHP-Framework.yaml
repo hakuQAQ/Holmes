@@ -1,0 +1,7 @@
+info:
+  company: British Columbia Institute of Technology
+  product: CodeIgniter-PHP-Framework
+  softhard: '2'
+matches: |
+  header.icontains("ci_session=")
+  banner.icontains("ci_session=")

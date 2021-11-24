@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: WeBid
+  softhard: '2'
+matches: |
+  body.icontains("powered by <a href=\"http://www.webidsupport.com/\">webid")
+  body.icontains("<meta name=\"generator\" content=\"webid\">")
+  header.icontains("set-cookie webid_online=")

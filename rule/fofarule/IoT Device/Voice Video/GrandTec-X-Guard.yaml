@@ -1,0 +1,7 @@
+info:
+  company: GrandTec USA
+  product: GrandTec-X-Guard
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"walkguard")
+  banner.icontains("realm=\"walkguard")

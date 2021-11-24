@@ -1,0 +1,7 @@
+info:
+  company: Yonyou Network Co Ltd
+  product: Yonyou-Uclient
+  softhard: '2'
+matches: |
+  body.icontains("http-equiv=refresh content=0;url=index.jsp")
+  header.icontains("content-length: 102")

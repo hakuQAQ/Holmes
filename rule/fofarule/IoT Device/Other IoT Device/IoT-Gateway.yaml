@@ -1,0 +1,6 @@
+info:
+  company: cointec
+  product: IoT-Gateway
+  softhard: '1'
+matches: |
+  title.icontains("物联网网关-北京融智兴华科技有限公司")

@@ -1,0 +1,6 @@
+info:
+  company: Eaton.
+  product: Eaton-Monitored-ePDU
+  softhard: '1'
+matches: |
+  banner.icontains("eaton monitored epdu")

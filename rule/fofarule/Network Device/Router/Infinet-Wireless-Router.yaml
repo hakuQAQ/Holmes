@@ -1,0 +1,8 @@
+info:
+  company: InfiNet Wireless
+  product: Infinet-Wireless-Router
+  softhard: '1'
+matches: |
+  body.icontains("content=\"infinet")
+  header.icontains("server: wanflex http daemon")
+  banner.icontains("server: wanflex http daemon")

@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Dopra-Linux
+  softhard: '2'
+matches: |
+  banner.icontains("dopra")

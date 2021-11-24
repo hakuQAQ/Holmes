@@ -1,0 +1,6 @@
+info:
+  company: Rimage Corporation
+  product: Rimage-System-Manager
+  softhard: '1'
+matches: |
+  body.icontains("style=\"color:#330066;font-size:18pt;font-weight:bold;\">rimage system manager</span>")

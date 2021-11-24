@@ -1,0 +1,10 @@
+info:
+  company: Intermesh BV
+  product: Group-Office
+  softhard: '2'
+matches: |
+  header.icontains("groupoffice=")
+  banner.icontains("groupoffice=")
+  body.icontains("powered by group-office")
+  body.icontains("\"theme\":\"group-office\",")
+  title.icontains("group-office")

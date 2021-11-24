@@ -1,0 +1,7 @@
+info:
+  company: HUAWEI
+  product: HuaWei-SmartAX
+  softhard: '1'
+matches: |
+  header.icontains("basic realm=\"huawei smartax\"")
+  header.icontains("smartax") && banner.icontains("huawei smartax")

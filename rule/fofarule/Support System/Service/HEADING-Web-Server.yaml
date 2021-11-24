@@ -1,0 +1,6 @@
+info:
+  company: HEADING
+  product: HEADING-Web-Server
+  softhard: '2'
+matches: |
+  body.icontains("location.href='/otter'")

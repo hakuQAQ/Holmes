@@ -1,0 +1,7 @@
+info:
+  company: Panasonic
+  product: Panasonic-Maintenance-Utility
+  softhard: '2'
+matches: |
+  body.icontains("panasonic_logo.gif")
+  title.icontains("maintenance utility")

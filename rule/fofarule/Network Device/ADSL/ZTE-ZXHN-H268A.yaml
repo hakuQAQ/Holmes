@@ -1,0 +1,6 @@
+info:
+  company: ZTE
+  product: ZTE-ZXHN-H268A
+  softhard: '1'
+matches: |
+  body.icontains("logintitle\">welcome to &#72;&#50;&#54;&#56;&#65;. please login")

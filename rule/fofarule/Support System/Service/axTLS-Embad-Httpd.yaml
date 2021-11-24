@@ -1,0 +1,7 @@
+info:
+  company: Cameron Hamilton-Rich
+  product: axTLS-Embad-Httpd
+  softhard: '2'
+matches: |
+  header.icontains("server: axhttpd")
+  banner.icontains("server: axhttpd")

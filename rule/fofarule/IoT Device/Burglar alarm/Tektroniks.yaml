@@ -1,0 +1,8 @@
+info:
+  company: Tektroniks Ltd
+  product: Tektroniks
+  softhard: '1'
+matches: |
+  header.icontains("basic realm=\"datacentre")
+  header.icontains("tektroniks")
+  body.icontains("<td width=\"100\"><label id=\"au_login_id_label\" for=\"au_login_id\" datatype=\"\" required=\"true\">user name:</label></td>")

@@ -1,0 +1,8 @@
+info:
+  company: NetComm Limited
+  product: Casa-NS4000
+  softhard: '1'
+matches: |
+  banner.icontains("ns4000.twinservers.net")
+  header.icontains("ns4000.twinservers.net")
+  body.icontains("url=https://ns4000.twinservers.net")

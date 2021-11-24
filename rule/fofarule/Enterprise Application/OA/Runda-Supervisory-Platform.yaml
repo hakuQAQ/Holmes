@@ -1,0 +1,6 @@
+info:
+  company: Runda
+  product: Runda-Supervisory-Platform
+  softhard: '2'
+matches: |
+  body.icontains("class=\"log_rbox\"")

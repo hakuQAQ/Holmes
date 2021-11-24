@@ -1,0 +1,7 @@
+info:
+  company: Treck Inc.
+  product: Treck-Product
+  softhard: '2'
+matches: |
+  protocol.icontains("icmp")
+  banner.icontains("icmp_166")

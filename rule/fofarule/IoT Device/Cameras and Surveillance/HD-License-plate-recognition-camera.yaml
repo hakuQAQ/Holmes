@@ -1,0 +1,8 @@
+info:
+  company: park8898
+  product: HD-License-plate-recognition-camera
+  softhard: '1'
+matches: |
+  title.icontains("高清车牌识别摄像机")
+  body.icontains("<h3 >系统升级</h3>")
+  body.icontains("action=\"sysupgrade.php")

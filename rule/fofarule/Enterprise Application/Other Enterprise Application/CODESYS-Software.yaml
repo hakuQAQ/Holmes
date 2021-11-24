@@ -1,0 +1,6 @@
+info:
+  company: 3S-Smart Software Solutions
+  product: CODESYS-Software
+  softhard: '0'
+matches: |
+  banner.icontains("3s-smart software solutions")

@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: Android-Webcam-Server
+  softhard: '1'
+matches: |
+  header.icontains("server: android webcam server")
+  banner.icontains("server: android webcam server")

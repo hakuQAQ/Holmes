@@ -1,0 +1,6 @@
+info:
+  company: ultrapower
+  product: Ultrapower-Identity
+  softhard: '2'
+matches: |
+  body.icontains("<li><p>欢迎进入身份与安全管控系统</p></li>")

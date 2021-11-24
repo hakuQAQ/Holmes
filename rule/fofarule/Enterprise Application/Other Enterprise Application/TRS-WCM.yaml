@@ -1,0 +1,11 @@
+info:
+  company: TRS
+  product: TRS-WCM
+  softhard: '2'
+matches: |
+  body.icontains("/wcm/app/js")
+  body.icontains("0;url=/wcm")
+  body.icontains("window.location.href = \"/wcm\";")
+  body.icontains("forum.trs.com.cn")
+  body.icontains("wcm") && body.icontains("/wcm\" target=\"_blank\">网站管理")
+  body.icontains("/wcm\" target=\"_blank\">管理")

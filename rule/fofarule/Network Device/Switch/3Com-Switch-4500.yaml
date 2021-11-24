@@ -1,0 +1,8 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: 3Com-Switch-4500
+  softhard: '1'
+matches: |
+  banner.icontains("3com switch 4500")
+  banner.icontains("3com switch 4500g")
+  banner.icontains("switch 4500")

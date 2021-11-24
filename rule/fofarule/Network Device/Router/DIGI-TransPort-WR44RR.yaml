@@ -1,0 +1,6 @@
+info:
+  company: Digi International Inc.
+  product: DIGI-TransPort-WR44RR
+  softhard: '1'
+matches: |
+  title.icontains("transport wr44rr")

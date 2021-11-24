@@ -1,0 +1,6 @@
+info:
+  company: wishtech
+  product: WishOA
+  softhard: '2'
+matches: |
+  body.icontains("wishoa_webplugin.js")

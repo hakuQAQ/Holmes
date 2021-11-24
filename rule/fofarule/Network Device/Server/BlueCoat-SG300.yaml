@@ -1,0 +1,7 @@
+info:
+  company: Blue Coat Systems, Inc.
+  product: BlueCoat-SG300
+  softhard: '1'
+matches: |
+  banner.icontains("blue coat sg300")
+  cert.icontains("blue coat sg300")

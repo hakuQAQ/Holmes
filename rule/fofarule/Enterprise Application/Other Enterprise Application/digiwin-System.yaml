@@ -1,0 +1,6 @@
+info:
+  company: digiwin
+  product: digiwin-System
+  softhard: '2'
+matches: |
+  body.icontains("class=\"common_footer1030_textfontlink\"")

@@ -1,0 +1,6 @@
+info:
+  company: phicomm
+  product: Phicomm-FWR-Router
+  softhard: '1'
+matches: |
+  title == "斐讯" && body.icontains("document.getelementbyid('model').innerhtml='<div class=\"login_model\">model:fwr-;")

@@ -1,0 +1,6 @@
+info:
+  company: HP Development Company, L.P.
+  product: HP-PageWide-Pro-452dn-Printer
+  softhard: '1'
+matches: |
+  header.icontains("hp pagewide pro 452dn printer")

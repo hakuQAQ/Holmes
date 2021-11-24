@@ -1,0 +1,7 @@
+info:
+  company: HP Development Company, L.P.
+  product: HP-Switch
+  softhard: '1'
+matches: |
+  body.icontains("src=\"/avct.js")
+  body.icontains("alt=\"hp\"")

@@ -1,0 +1,8 @@
+info:
+  company: Cloodie S.A.
+  product: Cloodie-HIS
+  softhard: '2'
+matches: |
+  title.icontains("- cloodie his")
+  body.icontains("src=\"/design/common/his.logo.white.svg\" alt=\"his logo")
+  body.icontains("href=\"/design/design/cloodie.css")

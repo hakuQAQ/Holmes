@@ -1,0 +1,9 @@
+info:
+  company: Elastic, Inc.
+  product: Elasticsearch
+  softhard: '2'
+matches: |
+  header.icontains("application/json")
+  body.icontains("build_hash")
+  body.icontains("you know, for search") && header.icontains("dvrdvs-webs")
+  body.icontains("<html") && protocol.icontains("elastic") && header.icontains("realm=\"elasticsearch")

@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: WebPower-Smart-Card
+  softhard: '1'
+matches: |
+  banner.icontains("webpower smart ii card")

@@ -1,0 +1,7 @@
+info:
+  company: ProPoint Solutions, LLC
+  product: SuperSalon-POS
+  softhard: '2'
+matches: |
+  header.icontains("realm=\"supersalon pos")
+  banner.icontains("realm=\"supersalon pos")

@@ -1,0 +1,6 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: 3Com-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("3com switch ")

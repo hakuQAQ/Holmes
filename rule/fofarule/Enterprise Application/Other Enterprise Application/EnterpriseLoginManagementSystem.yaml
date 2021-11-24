@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: EnterpriseLoginManagementSystem
+  softhard: '2'
+matches: |
+  body.icontains("themes/scripts/functionjs.js")
+  body.icontains("txtusername\").focus(); //默认焦点")
+  body.icontains("id=\"cp\"")

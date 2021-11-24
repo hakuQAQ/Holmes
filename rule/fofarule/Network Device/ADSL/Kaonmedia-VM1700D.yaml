@@ -1,0 +1,6 @@
+info:
+  company: Kaonmedia Co., Ltd.
+  product: Kaonmedia-VM1700D
+  softhard: '1'
+matches: |
+  banner.icontains("vm1700d")

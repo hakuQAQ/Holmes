@@ -1,0 +1,7 @@
+info:
+  company: Good10000
+  product: Good10000-Tios
+  softhard: '2'
+matches: |
+  body.icontains("value=\"https://mail.sinopec.com/owa/\"")
+  body.icontains("北京万佳信科技有限公司")

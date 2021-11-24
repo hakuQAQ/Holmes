@@ -1,0 +1,7 @@
+info:
+  company: HP Development Company, L.P.
+  product: HP-SiteScope
+  softhard: '2'
+matches: |
+  body.icontains("sitescope login")
+  header.icontains("sitescope")

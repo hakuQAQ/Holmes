@@ -1,0 +1,16 @@
+info:
+  company: VMware, Inc.
+  product: VMware-ESX
+  softhard: '2'
+matches: |
+  body.icontains("content=\"vmware esxi")
+  title.icontains("id_eesx_welcome")
+  body.icontains("document.write(\"<title>\" + id_eesx_welcome + \"</title>\");")
+  cert.icontains("o=vmware, inc, ou=vmware esx")
+  body.icontains("<meta http-equiv=\"refresh\" content=\"0;url='/ui'\"/>")
+  header.icontains("content-length: 258") && title.icontains("id_esx_welcome")
+  body.icontains("content=\"vmware esx ")
+  body.icontains("document.write(id_esx_viclientdesc);")
+  title.icontains("id_vc_welcome")
+  body.icontains("<meta http-equiv=\"refresh\" content=\"0;url='/ui'\"/>")
+  body.icontains("body") && body.icontains("<meta http-equiv=\"content-type\" content=\"text/html; charset=utf8\">")

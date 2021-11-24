@@ -1,0 +1,24 @@
+info:
+  company: Microsoft Corporation
+  product: Microsoft-Exchange
+  softhard: '2'
+matches: |
+  header.icontains("owa") && body.icontains("owalgnbdy")
+  banner.icontains("microsoft esmtp mail service")
+  banner.icontains("microsoft exchange server")
+  body.icontains("<!-- owapage = asp.auth_logon_aspx")
+  body.icontains("/exchweb/bin/auth/owalogon.asp")
+  header.icontains("x-owa-version")
+  body.icontains("/exchweb/bin/auth/owalogon.asp?url=")
+  body.icontains("href=\"/owa/auth/")
+  body.icontains("window.location.replace(\"/owa/\" + window.location.hash);</script></head><body></body>")
+  body.icontains("<meta http-equiv=\"refresh\" contect=\"0;url=/owa\">")
+  banner.icontains("microsoft exchange")
+  banner.icontains("owa") && banner.icontains("location")
+  body.icontains("themes/resources/segoeui-semibold.ttf")
+  title == "microsoft outlook web access" && body.icontains("aria-label=\"outlook web app")
+  title == "microsoft outlook web access" && header.icontains("outlooksession") && body.icontains(".mouse .owalogocontainer, .twide .owalogocontainer")
+  body.icontains("owalogocontainer") && body.icontains("<div class=\"signinheader\">outlook</div>")
+  body.icontains("/owa/") && body.icontains("owapage = asp.auth_logon_aspx")
+  body.icontains("/owa/") && body.icontains("showpasswordcheck")
+  body.icontains("outlook")

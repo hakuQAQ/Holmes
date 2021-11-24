@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Phorum
+  softhard: '2'
+matches: |
+  body.icontains("powered by <a href=\"http://www.phorum.org")

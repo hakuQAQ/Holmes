@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: TrafSys-People-Counting
+  softhard: '1'
+matches: |
+  banner.icontains("automatic people counting device")

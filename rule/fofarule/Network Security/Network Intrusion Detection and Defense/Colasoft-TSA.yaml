@@ -1,0 +1,8 @@
+info:
+  company: Colasoft
+  product: Colasoft-TSA
+  softhard: '2'
+matches: |
+  title.icontains("科来网络全流量安全分析系统 - 服务器")
+  body.icontains("data-i18n=\"[html]username\">#username&nbsp;&nbsp;</td>")
+  body.icontains("nfr=\"true\"")

@@ -1,0 +1,6 @@
+info:
+  company: Apache Software Foundation.
+  product: Axis2-Web
+  softhard: '2'
+matches: |
+  body.icontains("axis2-web/css/axis-style.css")

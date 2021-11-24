@@ -1,0 +1,9 @@
+info:
+  company: Other
+  product: SEMCMS
+  softhard: '2'
+matches: |
+  body.icontains("sc_mid_c_left_c sc_mid_left_bt")
+  body.icontains("semcms php 3.9")
+  body.icontains("<b semcms php 2.9</b>")
+  body.icontains("powered by <a href=\"http://www.sem-cms.com\"")

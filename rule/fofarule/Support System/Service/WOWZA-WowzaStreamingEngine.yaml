@@ -1,0 +1,7 @@
+info:
+  company: Wowza Media Systems, LLC.
+  product: WOWZA-WowzaStreamingEngine
+  softhard: '2'
+matches: |
+  header.icontains("server: wowzastreamingengine")
+  banner.icontains("server: wowzastreamingengine")

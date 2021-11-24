@@ -1,0 +1,7 @@
+info:
+  company: Canon Inc.
+  product: Oce
+  softhard: '1'
+matches: |
+  title.icontains("print exec workgroup")
+  body.icontains("/servlet/owslhtml/owslicons/header_pewg.jpg")

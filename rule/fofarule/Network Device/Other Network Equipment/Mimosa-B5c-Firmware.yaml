@@ -1,0 +1,6 @@
+info:
+  company: Mimosa Networks, Inc.
+  product: Mimosa-B5c-Firmware
+  softhard: '1'
+matches: |
+  banner.icontains("mimosa b5c firmware")

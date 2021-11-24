@@ -1,0 +1,7 @@
+info:
+  company: International Business Machines Corporation
+  product: IBM-Lotus-iNotes
+  softhard: '2'
+matches: |
+  body.icontains("alt=\"lotus inotes login screen")
+  title.icontains("ibm lotus inotes")

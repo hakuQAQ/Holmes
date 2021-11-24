@@ -1,0 +1,9 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TP_LINK-TL-WDR7500
+  softhard: '1'
+matches: |
+  banner.icontains("tp-link wireless dual band gigabit router wdr7500")
+  header.icontains("realm=\"tp-link wireless wdr7500")
+  header.icontains("realm=\"tp-link wireless dual band gigabit router wdr7500")
+  banner.icontains("tp-link wireless wdr7500")

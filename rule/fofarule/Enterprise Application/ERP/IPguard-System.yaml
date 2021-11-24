@@ -1,0 +1,6 @@
+info:
+  company: 'IPguard '
+  product: IPguard-System
+  softhard: '2'
+matches: |
+  body.icontains("onchange=\"is_empty('#txtusername','#lblemptyname')")

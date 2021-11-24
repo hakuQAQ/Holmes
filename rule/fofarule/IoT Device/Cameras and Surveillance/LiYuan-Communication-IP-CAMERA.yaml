@@ -1,0 +1,6 @@
+info:
+  company: liveyc
+  product: LiYuan-Communication-IP-CAMERA
+  softhard: '1'
+matches: |
+  title.icontains("dvs/ipc") && body.icontains("<a href=\"../geocx.exe\">")

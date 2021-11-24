@@ -1,0 +1,7 @@
+info:
+  company: Sundray
+  product: Sundray-Enterprise-AP
+  softhard: '1'
+matches: |
+  body.icontains("url = '/cgi-bin/dispatcher.cgi?cmd=0&login_language='+idx")
+  body.icontains("/login-btn.png")

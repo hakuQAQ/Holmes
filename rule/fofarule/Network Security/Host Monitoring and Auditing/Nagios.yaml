@@ -1,0 +1,6 @@
+info:
+  company: Nagios Enterprises, LLC
+  product: Nagios
+  softhard: '2'
+matches: |
+  header.icontains("nagios ") && banner.icontains("nagios ") && body.icontains("/nagios/cgi-bin/status.cgi")

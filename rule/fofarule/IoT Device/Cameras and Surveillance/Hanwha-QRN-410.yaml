@@ -1,0 +1,6 @@
+info:
+  company: Hanwha Techwin Co., Ltd.
+  product: Hanwha-QRN-410
+  softhard: '1'
+matches: |
+  body.icontains("$.nvr.model_name=\"qrn-410\"")

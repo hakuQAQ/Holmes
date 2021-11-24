@@ -1,0 +1,6 @@
+info:
+  company: Sangfor
+  product: Sangfor-IPSec-VPN
+  softhard: '1'
+matches: |
+  title.icontains("sangfor-ipsec")

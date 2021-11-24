@@ -1,0 +1,7 @@
+info:
+  company: people2000
+  product: PeopleNet-iKEY
+  softhard: '2'
+matches: |
+  body.icontains("content=\"ikey,众人科技,ikey")
+  title == "ikey管理系统" && body.icontains("<div id=\"ikey_conter\">")

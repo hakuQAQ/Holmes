@@ -1,0 +1,6 @@
+info:
+  company: ebrigade
+  product: ebrigade-ERP
+  softhard: '2'
+matches: |
+  body.icontains("class='btn btn-ebrigade btn-lg'")

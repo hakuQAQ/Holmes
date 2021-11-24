@@ -1,0 +1,11 @@
+info:
+  company: Sucuri Inc.
+  product: Sucuri
+  softhard: '2'
+matches: |
+  header.icontains("sucuri/cloudproxy")
+  banner.icontains("sucuri/cloudproxy")
+  body.icontains("sucuri website firewall - cloudproxy - access denied")
+  body.icontains("cloudproxy@sucuri.net")
+  header.icontains("x-sucuri-id")
+  banner.icontains("x-sucuri-id")

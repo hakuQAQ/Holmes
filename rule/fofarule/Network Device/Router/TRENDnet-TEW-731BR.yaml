@@ -1,0 +1,6 @@
+info:
+  company: TRENDnet, Inc.
+  product: TRENDnet-TEW-731BR
+  softhard: '1'
+matches: |
+  body.icontains("<font size=4><b>tew-731br")

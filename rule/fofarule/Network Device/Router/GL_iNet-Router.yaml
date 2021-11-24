@@ -1,0 +1,6 @@
+info:
+  company: Gl.iNet
+  product: GL_iNet-Router
+  softhard: '1'
+matches: |
+  body.icontains("/cgi-bin/login_cgi?action=checklogin")

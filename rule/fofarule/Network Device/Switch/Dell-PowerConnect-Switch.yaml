@@ -1,0 +1,6 @@
+info:
+  company: Dell Inc.
+  product: Dell-PowerConnect-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("powerconnect ")

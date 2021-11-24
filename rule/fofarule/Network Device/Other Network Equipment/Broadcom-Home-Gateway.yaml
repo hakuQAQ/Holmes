@@ -1,0 +1,7 @@
+info:
+  company: Broadcom Inc.
+  product: Broadcom-Home-Gateway
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"broadcom home gateway")
+  banner.icontains("realm=\"broadcom home gateway")

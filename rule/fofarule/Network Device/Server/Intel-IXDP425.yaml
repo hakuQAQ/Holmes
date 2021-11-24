@@ -1,0 +1,7 @@
+info:
+  company: Intel Corporation
+  product: Intel-IXDP425
+  softhard: '1'
+matches: |
+  title.icontains("ixdp425 demo")
+  body.icontains("intel(r)")

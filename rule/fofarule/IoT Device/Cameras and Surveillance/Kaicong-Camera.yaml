@@ -1,0 +1,7 @@
+info:
+  company: kaicong
+  product: Kaicong-Camera
+  softhard: '1'
+matches: |
+  body.icontains("window.open(\"http://www.kaicong.net\")")
+  title.icontains("camera")

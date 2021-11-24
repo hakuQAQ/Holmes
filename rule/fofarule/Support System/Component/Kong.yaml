@@ -1,0 +1,8 @@
+info:
+  company: Kong Inc.
+  product: Kong
+  softhard: '2'
+matches: |
+  title.icontains("kong dashboard")
+  banner.icontains("server: kong")
+  header.icontains("kong") && header.icontains("360 web server")

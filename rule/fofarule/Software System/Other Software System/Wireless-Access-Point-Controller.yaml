@@ -1,0 +1,11 @@
+info:
+  company: hanmingtech
+  product: Wireless-Access-Point-Controller
+  softhard: '2'
+matches: |
+  body.icontains("var oemproductname = \"mvc_howay6000\"")
+  body.icontains("<select id = \"selclangswitch\" class=\"langswitch\" onchange = \"switchpagelanguage()\">")
+  body.icontains("苏州汉明科技有限公司")
+  body.icontains("var oemproductname = \"mvc_howay6100\")")
+  body.icontains("src=\"images/acchtext.png\"")
+  body.icontains("版权所有 &copy 2009-2017</div>")

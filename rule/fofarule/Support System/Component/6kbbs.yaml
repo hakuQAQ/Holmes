@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: 6kbbs
+  softhard: '2'
+matches: |
+  body.icontains("powered by 6kbbs")
+  body.icontains("generator\" content=\"6kbbs")

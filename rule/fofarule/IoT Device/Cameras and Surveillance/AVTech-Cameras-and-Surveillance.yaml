@@ -1,0 +1,8 @@
+info:
+  company: AVTECH Software, Inc.
+  product: AVTech-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  header.icontains("linux/2.x upnp/1.0 avtech/1.0") && title.icontains("28ze") && banner.icontains("linux/2.x upnp/1.0 avtech/1.0")
+  header.icontains("nserver: avtech/")
+  banner.icontains("nserver: avtech/")

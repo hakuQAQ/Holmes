@@ -1,0 +1,6 @@
+info:
+  company: intelbras lnc.
+  product: Intelbras-Roteador-ACtion-RF-1200
+  softhard: '1'
+matches: |
+  body.icontains("id=\"product\">roteador action rf 1200")

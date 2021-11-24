@@ -1,0 +1,7 @@
+info:
+  company: Plisch GmbH
+  product: Plisch-transmitter
+  softhard: '1'
+matches: |
+  banner.icontains("plisch scu ")
+  banner.icontains("plisch") && banner.icontains("transmitter")

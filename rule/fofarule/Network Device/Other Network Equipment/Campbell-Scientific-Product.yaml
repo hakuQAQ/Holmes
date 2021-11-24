@@ -1,0 +1,6 @@
+info:
+  company: Campbell Scientific, Inc.
+  product: Campbell-Scientific-Product
+  softhard: '1'
+matches: |
+  banner.icontains("campbell scientific, inc.")

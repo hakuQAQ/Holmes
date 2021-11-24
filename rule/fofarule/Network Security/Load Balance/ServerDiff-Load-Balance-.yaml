@@ -1,0 +1,6 @@
+info:
+  company: softinbox
+  product: ServerDiff-Load-Balance-
+  softhard: '1'
+matches: |
+  banner.icontains("serverdiff ")

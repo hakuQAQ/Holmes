@@ -1,0 +1,6 @@
+info:
+  company: creatsoft
+  product: creatsoft-SafeSystem
+  softhard: '2'
+matches: |
+  body.icontains("href=\"javascript:update_news('board/noticelist.jsp')")

@@ -1,0 +1,6 @@
+info:
+  company: A10 Networks, Inc.
+  product: ACOS-Network-operating-system
+  softhard: '2'
+matches: |
+  header.icontains("a10ws") && banner.icontains("server: a10ws")

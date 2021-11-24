@@ -1,0 +1,7 @@
+info:
+  company: Fujitsu Ltd.
+  product: FUJITSU-IPCOM300
+  softhard: '1'
+matches: |
+  header.icontains("fujitsu-ipcom300")
+  banner.icontains("fujitsu-ipcom300")

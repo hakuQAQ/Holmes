@@ -1,0 +1,8 @@
+info:
+  company: infcn
+  product: YiRui-IRAS
+  softhard: '2'
+matches: |
+  body.icontains("/authjsp/login.jsp")
+  body.icontains("fe0174bb-f093-42af-ab20-7ec621d10488")
+  title.icontains("易瑞授权访问系统")

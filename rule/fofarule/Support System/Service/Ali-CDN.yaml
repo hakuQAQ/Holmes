@@ -1,0 +1,7 @@
+info:
+  company: Alibaba Group
+  product: Ali-CDN
+  softhard: '2'
+matches: |
+  header.icontains("server: tengine")
+  header.icontains("x-cache")

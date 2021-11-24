@@ -1,0 +1,14 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-VPN
+  softhard: '1'
+matches: |
+  header.icontains("webvpn")
+  header.icontains("rv082") && title.icontains("cisco systems, inc. vpn 3000 concentrator")
+  banner.icontains("4-port ssl/ipsec vpn ")
+  header.icontains("centrala_vpnrv082")
+  body.icontains("value=\" + svpnbtnlogin + \"")
+  cert.icontains("commonname: sfshq-rtr-01.spi.studifranchini.com")
+  title.icontains("''+ sitetitle + \"")
+  body.icontains("cisco") && header.icontains("basic realm=\"vpn8\"")
+  banner.icontains("basic realm=\"vpn8\"")

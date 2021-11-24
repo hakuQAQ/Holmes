@@ -1,0 +1,7 @@
+info:
+  company: Pannaway
+  product: Pannaway-ADSL
+  softhard: '1'
+matches: |
+  banner.icontains("pannaway bas-adsl48r")
+  banner.icontains("pannaway rgn-adsl")

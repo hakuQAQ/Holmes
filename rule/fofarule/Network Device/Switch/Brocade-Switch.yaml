@@ -1,0 +1,7 @@
+info:
+  company: Brocade Communications Systems, Inc.
+  product: Brocade-Switch
+  softhard: '1'
+matches: |
+  title == "/switchexplorer.html" && body.icontains("originalurl=\"/switchexplorer.html\"")
+  body.icontains("com.brocade.web.secsan.loginapplet")

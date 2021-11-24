@@ -1,0 +1,6 @@
+info:
+  company: niushop
+  product: NIUSHOP-Shop
+  softhard: '2'
+matches: |
+  title.icontains("niushop开源商城") && body.icontains("template/shop/blue")

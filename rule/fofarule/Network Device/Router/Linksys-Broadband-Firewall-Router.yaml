@@ -1,0 +1,6 @@
+info:
+  company: Belkin International, Inc.
+  product: Linksys-Broadband-Firewall-Router
+  softhard: '1'
+matches: |
+  banner.icontains("broadband firewall router")

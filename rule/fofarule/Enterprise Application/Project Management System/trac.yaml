@@ -1,0 +1,10 @@
+info:
+  company: Edgewall Software
+  product: trac
+  softhard: '2'
+matches: |
+  body.icontains("<h1>available projects</h1>")
+  body.icontains("wiki/tracguide")
+  header.icontains("trac_session")
+  banner.icontains("trac_session")
+  body.icontains("powered by trac")

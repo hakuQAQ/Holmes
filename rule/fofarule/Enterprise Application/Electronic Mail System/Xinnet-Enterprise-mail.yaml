@@ -1,0 +1,7 @@
+info:
+  company: xinnet
+  product: Xinnet-Enterprise-mail
+  softhard: '2'
+matches: |
+  body.icontains("北京新网数码信息技术有限公司 版权所有</span>")
+  body.icontains("mail") && body.icontains("webmail")

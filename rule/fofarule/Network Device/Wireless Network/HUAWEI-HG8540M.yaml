@@ -1,0 +1,6 @@
+info:
+  company: Huawei
+  product: HUAWEI-HG8540M
+  softhard: '1'
+matches: |
+  body.icontains("var productname = 'hg8540m'")

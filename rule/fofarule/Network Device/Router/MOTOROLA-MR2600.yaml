@@ -1,0 +1,6 @@
+info:
+  company: Motorola Solutions, Inc
+  product: MOTOROLA-MR2600
+  softhard: '1'
+matches: |
+  title.icontains("motorola router")

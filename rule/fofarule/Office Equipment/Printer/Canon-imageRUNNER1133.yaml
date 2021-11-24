@@ -1,0 +1,6 @@
+info:
+  company: Canon Inc.
+  product: Canon-imageRUNNER1133
+  softhard: '1'
+matches: |
+  banner.icontains("canon imagerunner1133")

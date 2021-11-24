@@ -1,0 +1,7 @@
+info:
+  company: Shenzhen Tenda Technology Co.,Ltd
+  product: Tenda-11N-Wireless-AP
+  softhard: '1'
+matches: |
+  title.icontains("tenda 11n wireless ap")
+  title.icontains("tenda 11n")

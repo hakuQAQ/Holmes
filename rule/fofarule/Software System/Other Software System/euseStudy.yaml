@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: euseStudy
+  softhard: '2'
+matches: |
+  body.icontains("userinfo/userfp.aspx")

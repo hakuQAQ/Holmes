@@ -1,0 +1,7 @@
+info:
+  company: ShareTech Information Co., LTD.
+  product: ShareTech-NU-860H
+  softhard: '1'
+matches: |
+  body.icontains("nu-860h")
+  body.icontains("sharetech information co., ltd")

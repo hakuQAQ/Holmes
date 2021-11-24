@@ -1,0 +1,6 @@
+info:
+  company: uniview
+  product: uniview-EZclould
+  softhard: '2'
+matches: |
+  body.icontains("src=\"images/pag-logo.png\"")

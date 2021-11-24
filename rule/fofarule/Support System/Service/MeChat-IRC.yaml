@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: MeChat-IRC
+  softhard: '2'
+matches: |
+  body.icontains("obj.reserve = strreserve")

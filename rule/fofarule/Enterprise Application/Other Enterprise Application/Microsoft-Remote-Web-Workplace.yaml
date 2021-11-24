@@ -1,0 +1,7 @@
+info:
+  company: Microsoft Corporation
+  product: Microsoft-Remote-Web-Workplace
+  softhard: '2'
+matches: |
+  body.icontains("content=\"copyright (c) microsoft corporation")
+  body.icontains("action=\"logon.aspx?")

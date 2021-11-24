@@ -1,0 +1,7 @@
+info:
+  company: Alcatel-Lucent S.A.
+  product: Alcatel_Lucent-IP1020
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"alcatel ip1020")
+  banner.icontains("realm=\"alcatel ip1020")

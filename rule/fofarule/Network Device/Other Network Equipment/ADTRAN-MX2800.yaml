@@ -1,0 +1,6 @@
+info:
+  company: ADTRAN, Inc.
+  product: ADTRAN-MX2800
+  softhard: '1'
+matches: |
+  banner.icontains("adtran mx2800 ds3")

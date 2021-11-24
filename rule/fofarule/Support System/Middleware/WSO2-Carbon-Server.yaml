@@ -1,0 +1,7 @@
+info:
+  company: WSO2
+  product: WSO2-Carbon-Server
+  softhard: '2'
+matches: |
+  header.icontains("server: wso2 carbon server")
+  banner.icontains("server: wso2 carbon server")

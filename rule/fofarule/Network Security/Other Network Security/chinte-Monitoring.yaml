@@ -1,0 +1,7 @@
+info:
+  company: chinte
+  product: chinte-Monitoring
+  softhard: '1'
+matches: |
+  body.icontains("src=\"images/logo/logo40.png\"")
+  body.icontains("监控系统")

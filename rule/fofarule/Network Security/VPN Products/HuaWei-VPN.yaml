@@ -1,0 +1,7 @@
+info:
+  company: HUAWEI
+  product: HuaWei-VPN
+  softhard: '2'
+matches: |
+  body.icontains("oncompleted(hresult,perrorobject, pasynccontext)")
+  header.icontains("auth-http server")

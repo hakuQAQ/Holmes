@@ -1,0 +1,14 @@
+info:
+  company: tiandy
+  product: Tiandy-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  title == "net video browser" && body.icontains("name=\"tiandyvideo\" id=\"nvsvideo\"")
+  body.icontains("<link href=\"tdvideo.css\" rel=\"stylesheet\">")
+  protocol.icontains("rtsp") && banner.icontains("tiandy rtsp server")
+  cert.icontains("o=tiandy tech, cn=dvr_ui")
+  body.icontains("<html> <head> <meta http-equiv=\"refresh\" content=\"0;url=http:")
+  body.icontains("/index.html\"> </head> </html>")
+
+#yamlflag
+#header.icontains("server")

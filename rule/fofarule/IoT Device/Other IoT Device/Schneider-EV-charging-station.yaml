@@ -1,0 +1,8 @@
+info:
+  company: Schneider Electric
+  product: Schneider-EV-charging-station
+  softhard: '1'
+matches: |
+  body.icontains("cgiserver")
+  title.icontains("charging station")
+  title.icontains("charging station interface")

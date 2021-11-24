@@ -1,0 +1,7 @@
+info:
+  company: Zoom Telephonics, Inc.
+  product: Zoom-Modem
+  softhard: '1'
+matches: |
+  banner.icontains("ethernet/wireless cable")
+  banner.icontains("zoom telephonics, inc.")

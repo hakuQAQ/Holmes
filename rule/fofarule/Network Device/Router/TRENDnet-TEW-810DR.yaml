@@ -1,0 +1,6 @@
+info:
+  company: TRENDnet, Inc.
+  product: TRENDnet-TEW-810DR
+  softhard: '1'
+matches: |
+  body.icontains("tew-810dr pre-test")

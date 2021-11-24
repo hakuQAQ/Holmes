@@ -1,0 +1,10 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TP-LINK-TD-W9980
+  softhard: '1'
+matches: |
+  banner.icontains("0.6.0 1.12 v0021.0 build 150507 rel.40130n")
+  banner.icontains("0.6.0 1.10 v0021.0 build 141215 rel.41342n")
+  banner.icontains("0.6.0 1.12 v0021.0 build 150507 rel.40130n")
+  banner.icontains("0.6.0 1.13 v0021.0 build 160125 rel.52064n")
+  banner.icontains("0.6.0 1.8 v0021.0 build 140925 rel.32089n")

@@ -1,0 +1,6 @@
+info:
+  company: NEC Corporation
+  product: NEC-NetworkPrinter500081
+  softhard: '1'
+matches: |
+  banner.icontains("nec networkprinter500081")

@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: ZIO-Router
+  softhard: '1'
+matches: |
+  title.icontains("zio router")

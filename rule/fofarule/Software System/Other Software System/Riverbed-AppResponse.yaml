@@ -1,0 +1,6 @@
+info:
+  company: Riverbed Technology.
+  product: Riverbed-AppResponse
+  softhard: '2'
+matches: |
+  body.icontains("uiwebinsights/webinsights.html")

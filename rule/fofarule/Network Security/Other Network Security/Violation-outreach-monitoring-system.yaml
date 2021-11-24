@@ -1,0 +1,8 @@
+info:
+  company: superred
+  product: Violation-outreach-monitoring-system
+  softhard: '2'
+matches: |
+  body.icontains("<body onload=\"forward_to_logon()\">")
+  body.icontains("window.location='login.action';")
+  body.icontains("欢迎登录违规外联平台")

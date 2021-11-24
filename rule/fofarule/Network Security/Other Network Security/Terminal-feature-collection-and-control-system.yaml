@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: Terminal-feature-collection-and-control-system
+  softhard: '2'
+matches: |
+  title.icontains("终端特征采集管控系统")
+  body.icontains("/home/pkibinduser?subjectname=")

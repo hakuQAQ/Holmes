@@ -1,0 +1,6 @@
+info:
+  company: Quest Software Inc.
+  product: Quest-Foglight
+  softhard: '2'
+matches: |
+  title.icontains("foglight")

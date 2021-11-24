@@ -1,0 +1,9 @@
+info:
+  company: Other
+  product: mylittleforum
+  softhard: '2'
+matches: |
+  body.icontains("powered by my little forum")
+  body.icontains("index.php?mode=js_defaults")
+  header.icontains("mlf2_general_forum_usersettings")
+  banner.icontains("mlf2_general_forum_usersettings")

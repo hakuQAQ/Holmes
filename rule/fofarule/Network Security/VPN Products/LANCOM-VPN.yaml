@@ -1,0 +1,7 @@
+info:
+  company: LANCOM Systems GmbH
+  product: LANCOM-VPN
+  softhard: '1'
+matches: |
+  header.icontains("lancom")
+  header.icontains("vpn") && banner.icontains("lancom ") && banner.icontains(" vpn")

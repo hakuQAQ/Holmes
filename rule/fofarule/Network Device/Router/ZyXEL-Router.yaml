@@ -1,0 +1,13 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-Router
+  softhard: '1'
+matches: |
+  title.icontains(".:: welcome to the web-based configuration::.")
+  body.icontains("zyxel") && title.icontains(".:: welcome to the web-based configurator::.")
+  body.icontains("/zycss.css")
+  body.icontains("zyxel") && title.icontains("do router zyxel")
+  title.icontains("welcome to zyrouter")
+  title.icontains("zyxel router")
+  body.icontains("<friendlyname>zyxel router</friendlyname>")
+  banner.icontains("zyxel-router")

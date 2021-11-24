@@ -1,0 +1,7 @@
+info:
+  company: Brother Industries, Ltd.
+  product: brother-8510DN
+  softhard: '1'
+matches: |
+  title.icontains("brother mfc-8510dn")
+  body.icontains("id=\"modelname\"><h1>mfc-8510dn")

@@ -1,0 +1,7 @@
+info:
+  company: Apache Flink
+  product: Apache Flink
+  softhard: '2'
+matches: |
+  title.icontains("apache flink web dashboard")
+  body.icontains("<img alt=\"apache flink dashboard\" src=\"images/flink-logo.png")

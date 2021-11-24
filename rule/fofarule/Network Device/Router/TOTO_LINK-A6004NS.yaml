@@ -1,0 +1,6 @@
+info:
+  company: TOTOLINK
+  product: TOTO_LINK-A6004NS
+  softhard: '1'
+matches: |
+  title.icontains("totolink a6004ns")

@@ -1,0 +1,8 @@
+info:
+  company: SPRINKLR INC.
+  product: sprinklr-System
+  softhard: '2'
+matches: |
+  header.icontains("sprinklr")
+  banner.icontains("sprinklr")
+  banner.icontains("server: ")

@@ -1,0 +1,6 @@
+info:
+  company: cht
+  product: cht-I-040GW
+  softhard: '1'
+matches: |
+  body.icontains("meta_config['modelname'] = 'i-040gw'")

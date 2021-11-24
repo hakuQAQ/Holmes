@@ -1,0 +1,6 @@
+info:
+  company: Phoenix Contact GmbH & Co. KG
+  product: Phoenix-ILC-151-GSM
+  softhard: '1'
+matches: |
+  banner.icontains("ilc 151 gsm")

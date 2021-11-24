@@ -1,0 +1,7 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-ES-2108
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"es-2108")
+  banner.icontains("es-2108")

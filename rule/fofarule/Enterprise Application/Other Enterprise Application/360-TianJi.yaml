@@ -1,0 +1,7 @@
+info:
+  company: '360'
+  product: 360-TianJi
+  softhard: '2'
+matches: |
+  title.icontains("360天机管理中心")
+  body.icontains("src=\"/resource/img/login/logo_403.png\" alt=\"360天机\"/></a>")

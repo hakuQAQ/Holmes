@@ -1,0 +1,8 @@
+info:
+  company: TOPSEC
+  product: TOPSEC-Product
+  softhard: '1'
+matches: |
+  header.icontains("topsec") && body.icontains("content=\"jnsec web ui\"")
+  cert.icontains("topsec network security technology") && header.icontains("topsecos")
+  banner.icontains("beijing topsec network security technology co.,ltd")

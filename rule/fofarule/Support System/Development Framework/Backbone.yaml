@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: Backbone
+  softhard: '2'
+matches: |
+  body.icontains("new backbone.model()") && body.icontains("backbone-validation-min.js")
+  body.icontains("backbone.js")

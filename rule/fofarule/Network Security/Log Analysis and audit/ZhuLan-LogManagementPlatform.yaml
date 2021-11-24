@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: ZhuLan-LogManagementPlatform
+  softhard: '2'
+matches: |
+  title.icontains("琢蓝日志大数据管理平台")

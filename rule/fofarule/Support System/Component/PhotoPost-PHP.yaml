@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: PhotoPost-PHP
+  softhard: '2'
+matches: |
+  body.icontains("src=\"adm-misc.php?admact=mainmenu")
+  title.icontains("powered by photopost")
+  body.icontains("href=\"http://www.photopost.com\">photopost")

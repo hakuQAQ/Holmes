@@ -1,0 +1,7 @@
+info:
+  company: UXSINO
+  product: UXSINO-NGFW
+  softhard: '1'
+matches: |
+  title.icontains("优炫下一代防火墙")
+  body.icontains("http://www.uxsino.com")

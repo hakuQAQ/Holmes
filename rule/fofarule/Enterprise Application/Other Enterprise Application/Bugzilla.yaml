@@ -1,0 +1,10 @@
+info:
+  company: Other
+  product: Bugzilla
+  softhard: '2'
+matches: |
+  body.icontains("enter_bug.cgi")
+  body.icontains("/cgi-bin/bugzilla/")
+  header.icontains("bugzilla_login_request_cookie")
+  banner.icontains("bugzilla_login_request_cookie")
+  title.icontains("bugzilla main page")

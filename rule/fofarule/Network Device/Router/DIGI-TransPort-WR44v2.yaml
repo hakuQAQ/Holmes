@@ -1,0 +1,7 @@
+info:
+  company: Digi International Inc.
+  product: DIGI-TransPort-WR44v2
+  softhard: '1'
+matches: |
+  body.icontains("class=\"heading\">transport wr44v2")
+  banner.icontains("digi transport wr44v2")

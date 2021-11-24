@@ -1,0 +1,6 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-SR6604
+  softhard: '1'
+matches: |
+  banner.icontains("sr6604")

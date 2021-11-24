@@ -1,0 +1,8 @@
+info:
+  company: jltech
+  product: JLOA
+  softhard: '2'
+matches: |
+  body.icontains("selectcss")
+  body.icontains("toptitleimg")
+  body.icontains("logintable")

@@ -1,0 +1,10 @@
+info:
+  company: Atlassian
+  product: JIRA
+  softhard: '2'
+matches: |
+  body.icontains("jira.webresources")
+  header.icontains("atlassian.xsrf.token")
+  body.icontains("ams-build-number")
+  body.icontains("com.atlassian.plugins")
+  title.icontains("system dashboard - ") && body.icontains("content=\"jira")

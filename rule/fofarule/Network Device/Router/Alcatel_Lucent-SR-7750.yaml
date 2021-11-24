@@ -1,0 +1,6 @@
+info:
+  company: Alcatel-Lucent S.A.
+  product: Alcatel_Lucent-SR-7750
+  softhard: '1'
+matches: |
+  banner.icontains("alcatel sr 7750")

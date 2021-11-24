@@ -1,0 +1,7 @@
+info:
+  company: Cradlepoint, Inc.
+  product: cradlepoint-IBR1150LP6
+  softhard: '1'
+matches: |
+  body.icontains("cplogin.model = \"ibr1150lp6\";")
+  title.icontains("login :: ibr1150lp6")

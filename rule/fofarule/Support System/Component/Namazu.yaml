@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Namazu
+  softhard: '2'
+matches: |
+  body.icontains("http://www.namazu.org/\">namazu")

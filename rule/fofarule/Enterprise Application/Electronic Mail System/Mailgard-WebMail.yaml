@@ -1,0 +1,7 @@
+info:
+  company: hechen
+  product: Mailgard-WebMail
+  softhard: '2'
+matches: |
+  body.icontains("window.open('http://www.hechen.com')")
+  title.icontains("mailgard webmail")

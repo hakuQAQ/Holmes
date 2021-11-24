@@ -1,0 +1,6 @@
+info:
+  company: Seiko Epson Corporation.
+  product: Epson-Network-Projector
+  softhard: '1'
+matches: |
+  banner.icontains("epson network projector")

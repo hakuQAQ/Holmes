@@ -1,0 +1,6 @@
+info:
+  company: Canon Inc.
+  product: Canon-imageRUNNER2520i
+  softhard: '1'
+matches: |
+  title.icontains("imagerunner2520i")

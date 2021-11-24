@@ -1,0 +1,7 @@
+info:
+  company: Django Software Foundation
+  product: Django
+  softhard: '2'
+matches: |
+  body.icontains("__admin_media_prefix__")
+  body.icontains("csrfmiddlewaretoken")

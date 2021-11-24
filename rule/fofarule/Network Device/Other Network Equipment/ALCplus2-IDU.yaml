@@ -1,0 +1,6 @@
+info:
+  company: Siae Microelettronica S. P. A.
+  product: ALCplus2-IDU
+  softhard: '1'
+matches: |
+  banner.icontains("alcplus2 idu") && banner.icontains("alcplus2e idu")

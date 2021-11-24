@@ -1,0 +1,7 @@
+info:
+  company: fanpusoft
+  product: Fanpusoft-Construction-work-OA
+  softhard: '2'
+matches: |
+  body.icontains("/dwr/interface/loginservice.js")
+  title.icontains("泛普")

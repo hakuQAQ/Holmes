@@ -1,0 +1,7 @@
+info:
+  company: Emerson Electric Co.
+  product: WirelessHART-Gateway-Access-Control
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"wirelesshart gateway access control")
+  banner.icontains("realm=\"wirelesshart gateway access control")

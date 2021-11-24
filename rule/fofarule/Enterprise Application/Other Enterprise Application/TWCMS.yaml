@@ -1,0 +1,7 @@
+info:
+  company: twcms
+  product: TWCMS
+  softhard: '2'
+matches: |
+  body.icontains("href=\"/twcms/theme/default/css/global.css\"")
+  title.icontains("twcms")

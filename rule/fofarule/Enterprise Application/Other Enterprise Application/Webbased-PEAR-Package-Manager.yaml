@@ -1,0 +1,7 @@
+info:
+  company: The PHP Group
+  product: Webbased-PEAR-Package-Manager
+  softhard: '2'
+matches: |
+  body.icontains("pear_frontend_web")
+  body.icontains("<img src=\"?img=pear\" width=\"104\" height=\"50\" vspace=\"2\" hspace=\"5\" alt=\"pear\">")

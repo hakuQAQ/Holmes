@@ -1,0 +1,9 @@
+info:
+  company: Other
+  product: ChiliProject
+  softhard: '2'
+matches: |
+  body.icontains("powered by <a href=\"https://www.chiliproject.org/")
+  body.icontains("content=\"chiliproject")
+  header.icontains("_chiliproject_session=")
+  banner.icontains("_chiliproject_session=")

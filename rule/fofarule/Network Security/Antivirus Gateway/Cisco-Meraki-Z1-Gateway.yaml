@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-Meraki-Z1-Gateway
+  softhard: '1'
+matches: |
+  banner.icontains("meraki z1 cloud managed teleworker gateway")

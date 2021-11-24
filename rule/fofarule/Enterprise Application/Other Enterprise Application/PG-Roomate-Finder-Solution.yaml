@@ -1,0 +1,7 @@
+info:
+  company: PG RealEstate
+  product: PG-Roomate-Finder-Solution
+  softhard: '2'
+matches: |
+  body.icontains("powered by pg roomate finder solution")
+  body.icontains("powered by <a href=\"http://www.realtysoft.pro")

@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: HFS
+  softhard: '2'
+matches: |
+  header.icontains("hfs") && header.icontains("hfs_sid_=")
+  banner.icontains("hfs_sid_=")
+  title.icontains("hfs") && body.icontains("hfs/\">httpfileserver") && body.icontains("<a href=\"http://www.rejetto.com/hfs/\">httpfileserver 2.3g</a>")

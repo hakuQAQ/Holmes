@@ -1,0 +1,8 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-DPC3848-DOCSIS-Gateway
+  softhard: '1'
+matches: |
+  body.icontains("cisco")
+  body.icontains("docsis_system.php")
+  body.icontains("check.php")

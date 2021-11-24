@@ -1,0 +1,7 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-GSM7224V2
+  softhard: '1'
+matches: |
+  body.icontains("http://kbserver.netgear.com/products/gsm7224r.asp")
+  banner.icontains("gsm7224v2")

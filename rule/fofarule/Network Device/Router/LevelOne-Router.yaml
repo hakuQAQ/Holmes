@@ -1,0 +1,6 @@
+info:
+  company: Digital Data Communications GmbH
+  product: LevelOne-Router
+  softhard: '1'
+matches: |
+  title.icontains("wireless broadband nat router web-console")

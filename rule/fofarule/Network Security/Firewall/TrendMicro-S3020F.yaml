@@ -1,0 +1,6 @@
+info:
+  company: Trend Micro Incorporated.
+  product: TrendMicro-S3020F
+  softhard: '1'
+matches: |
+  cert.icontains("s3020f")

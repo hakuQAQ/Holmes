@@ -1,0 +1,6 @@
+info:
+  company: SMA Solar Technology AG
+  product: Sunny-Matrix
+  softhard: '1'
+matches: |
+  title.icontains("- - - sunny matrix - - -")

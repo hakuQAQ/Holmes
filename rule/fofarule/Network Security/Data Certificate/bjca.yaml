@@ -1,0 +1,6 @@
+info:
+  company: BJCA
+  product: bjca
+  softhard: '2'
+matches: |
+  body.icontains("<li><a href=\"/install/certapp_bd.exe\">下载证书应用环境</a></li>")

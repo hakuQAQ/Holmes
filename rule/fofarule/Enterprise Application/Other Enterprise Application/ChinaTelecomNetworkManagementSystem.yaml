@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: ChinaTelecomNetworkManagementSystem
+  softhard: '2'
+matches: |
+  title.icontains("主机及网络管理系统")

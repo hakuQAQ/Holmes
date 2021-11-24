@@ -1,0 +1,7 @@
+info:
+  company: Sercomm Corporation
+  product: SERCOMM-CPE
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"sercomm cpe authentication")
+  banner.icontains("realm=\"sercomm cpe authentication")

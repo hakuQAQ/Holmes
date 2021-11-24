@@ -1,0 +1,6 @@
+info:
+  company: yungoucms
+  product: tao-long-YunGouCMS
+  softhard: '2'
+matches: |
+  body.icontains("/yungou/css/comm.css") && title.icontains("yungoucms")

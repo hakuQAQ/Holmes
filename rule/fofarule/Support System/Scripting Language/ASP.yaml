@@ -1,0 +1,7 @@
+info:
+  company: Microsoft Corporation
+  product: ASP
+  softhard: '2'
+matches: |
+  header.icontains("x-powered-by: asp")
+  body.icontains(".asp?") && banner.icontains("x-powered-by: asp")

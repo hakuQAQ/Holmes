@@ -1,0 +1,6 @@
+info:
+  company: Mega System Technologies Inc
+  product: Mega-UPS-Card
+  softhard: '1'
+matches: |
+  banner.icontains("ups") && banner.icontains("mega system technologies inc")

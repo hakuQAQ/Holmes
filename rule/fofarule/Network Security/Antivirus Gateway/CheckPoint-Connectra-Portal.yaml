@@ -1,0 +1,6 @@
+info:
+  company: Check Point Software Technologies Ltd.
+  product: CheckPoint-Connectra-Portal
+  softhard: '1'
+matches: |
+  title.icontains("connectra portal") && body.icontains("if (document.loginform.launchsws.checked)")

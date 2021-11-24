@@ -1,0 +1,8 @@
+info:
+  company: Seagate Technology LLC
+  product: Seagate-GoFlex
+  softhard: '1'
+matches: |
+  body.icontains("_gaq.push(['_setaccount', 'ua-2586520-12']);")
+  header.icontains("https://www.seagateshare.com/?hipname=")
+  body.icontains("<input id=\"insubdomain\" name=\"insubdomain\" type=\"text\" maxlength=\"30\" size=\"23\" value=\"")

@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Wallarm-WAF
+  softhard: '2'
+matches: |
+  header.icontains("nginx-wallarm")

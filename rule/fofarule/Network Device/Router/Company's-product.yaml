@@ -1,0 +1,6 @@
+info:
+  company: bintec elmeg GmbH
+  product: Company's-product
+  softhard: '1'
+matches: |
+  banner.icontains("bintec ")

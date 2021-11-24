@@ -1,0 +1,6 @@
+info:
+  company: zhidesoft
+  product: Zidesoft-E6
+  softhard: '2'
+matches: |
+  body.icontains("src=\"/static/images/login/btn-login.gif\"")

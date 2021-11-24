@@ -1,0 +1,7 @@
+info:
+  company: Intoto, Inc.
+  product: Intoto-Router
+  softhard: '1'
+matches: |
+  header.icontains("server: intoto http server ")
+  banner.icontains("server: intoto http server ")

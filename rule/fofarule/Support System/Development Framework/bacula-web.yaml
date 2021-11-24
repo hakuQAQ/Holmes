@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: bacula-web
+  softhard: '2'
+matches: |
+  title.icontains("webacula")
+  title.icontains("bacula web")
+  title.icontains("bacula-web") && title.icontains("bacula-web")

@@ -1,0 +1,6 @@
+info:
+  company: Virtual Graffiti Inc
+  product: GuardSite-WatchGuard-AP300
+  softhard: '1'
+matches: |
+  title.icontains("watchguard ap300")

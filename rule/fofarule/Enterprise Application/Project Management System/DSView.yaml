@@ -1,0 +1,12 @@
+info:
+  company: Vertiv Group Corp.
+  product: DSView
+  softhard: '2'
+matches: |
+  title.icontains("avocent dsview ")
+  body.icontains("src=\"/dsview/images/avocent-logo.png")
+  body.icontains("href=\"/dsview/themes/")
+  header.icontains("server: avocent dsview")
+  banner.icontains("server: avocent dsview")
+  body.icontains("/dsview/images/favicon.ico")
+  body.icontains("/dsview/protected/login.do")

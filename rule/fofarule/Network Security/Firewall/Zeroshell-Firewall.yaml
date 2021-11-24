@@ -1,0 +1,7 @@
+info:
+  company: Fulvio Ricciardi - Lecce (Italy)
+  product: Zeroshell-Firewall
+  softhard: '2'
+matches: |
+  title.icontains("zeroshell")
+  cert.icontains("zeroshell")

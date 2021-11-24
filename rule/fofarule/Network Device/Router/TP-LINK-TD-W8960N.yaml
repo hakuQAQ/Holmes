@@ -1,0 +1,16 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TP-LINK-TD-W8960N
+  softhard: '1'
+matches: |
+  title.icontains("td-w8960n")
+  body.icontains("align='right'>model no. td-w8960n</div>")
+  banner.icontains("1.0.5 build 160118 rel.59896")
+  banner.icontains("1.1.1 build 120912 rel.67406")
+  banner.icontains("1.1.1 build 131129 rel.49672")
+  banner.icontains("1.1.1 build 140317 rel.31821")
+  banner.icontains("1.1.1 build 140815 rel.40202")
+  banner.icontains("1.1.1 build 141107 rel.34856")
+  banner.icontains("1.1.1 build 150522 rel.51226")
+  banner.icontains("td-w8960n")
+  header.icontains("wireless n adsl2+ modem router td-w8960n")

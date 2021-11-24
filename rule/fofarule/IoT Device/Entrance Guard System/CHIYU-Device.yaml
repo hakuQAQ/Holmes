@@ -1,0 +1,6 @@
+info:
+  company: Chiyu Technology Co., Ltd.
+  product: CHIYU-Device
+  softhard: '1'
+matches: |
+  body.icontains("cmdbar.htm")

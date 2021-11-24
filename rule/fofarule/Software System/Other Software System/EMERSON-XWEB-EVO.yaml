@@ -1,0 +1,7 @@
+info:
+  company: Emerson Electric Co.
+  product: EMERSON-XWEB-EVO
+  softhard: '2'
+matches: |
+  body.icontains("src=\"img/xweb-logo.png\"")
+  body.icontains("src=\"/css/images/logo_xweb_alpha.png\"")

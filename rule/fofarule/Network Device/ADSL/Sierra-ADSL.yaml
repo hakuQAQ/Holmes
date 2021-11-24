@@ -1,0 +1,9 @@
+info:
+  company: Sierra Wireless Inc.
+  product: Sierra-ADSL
+  softhard: '1'
+matches: |
+  title.icontains("::: acemanager :::")
+  header.icontains("sierra wireless inc, embedded server")
+  body.icontains("sierra wireless, inc.")
+  body.icontains("acemanager")

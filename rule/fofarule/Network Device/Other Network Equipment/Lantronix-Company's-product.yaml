@@ -1,0 +1,9 @@
+info:
+  company: Lantronix, Inc.
+  product: Lantronix-Company's-product
+  softhard: '0'
+matches: |
+  title.icontains("lantronix thinweb manager")
+  body.icontains("alt=\"lantronix thinweb manager")
+  header.icontains("gordian embedded")
+  banner.icontains("lantronix ")

@@ -1,0 +1,7 @@
+info:
+  company: WHOLETON
+  product: wholeton-VPN
+  softhard: '1'
+matches: |
+  body.icontains("images/l_name.jpg")
+  body.icontains("jtpsoft style1")

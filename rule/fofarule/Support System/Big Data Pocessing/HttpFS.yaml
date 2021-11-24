@@ -1,0 +1,6 @@
+info:
+  company: Hadoop HDFS
+  product: HttpFS
+  softhard: '2'
+matches: |
+  body.icontains("<b>httpfs service</b")

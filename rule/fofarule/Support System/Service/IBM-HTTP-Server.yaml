@@ -1,0 +1,9 @@
+info:
+  company: International Business Machines Corporation
+  product: IBM-HTTP-Server
+  softhard: '2'
+matches: |
+  header.icontains("ibm_http_server")
+  title.icontains("ibm administration server")
+  header.icontains("ibm http server")
+  banner.icontains("server: ibm http server")

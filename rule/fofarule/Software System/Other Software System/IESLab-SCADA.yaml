@@ -1,0 +1,7 @@
+info:
+  company: IESLab
+  product: IESLab-SCADA
+  softhard: '2'
+matches: |
+  body.icontains("copyrightpt12")
+  body.icontains("青岛积成电子有限公司")

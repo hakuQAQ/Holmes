@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Open-Blog
+  softhard: '2'
+matches: |
+  body.icontains("target=\"_blank\">open blog")

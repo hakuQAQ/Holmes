@@ -1,0 +1,6 @@
+info:
+  company: Surfilter
+  product: Surfilter-RAG
+  softhard: '1'
+matches: |
+  title.icontains("任天行网络安全管理系统")

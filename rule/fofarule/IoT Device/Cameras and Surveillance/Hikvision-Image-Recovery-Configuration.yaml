@@ -1,0 +1,7 @@
+info:
+  company: Hikvision
+  product: Hikvision-Image-Recovery-Configuration
+  softhard: '1'
+matches: |
+  title.icontains("图像复原服务配置客户端")
+  body.icontains("杭州海康威视数字技术股份有限公司")

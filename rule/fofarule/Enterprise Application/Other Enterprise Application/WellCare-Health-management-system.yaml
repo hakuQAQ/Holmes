@@ -1,0 +1,7 @@
+info:
+  company: wellcare
+  product: WellCare-Health-management-system
+  softhard: '2'
+matches: |
+  body.icontains("href=\"/web/vfyphrmedical\">健康档案</a></li>")
+  body.icontains("www.wellcare.cn")

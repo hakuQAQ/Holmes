@@ -1,0 +1,6 @@
+info:
+  company: hisilicon
+  product: HISILICON-Hi3518E
+  softhard: '1'
+matches: |
+  banner.icontains("the products of network camera")

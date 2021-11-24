@@ -1,0 +1,9 @@
+info:
+  company: Digi International Inc.
+  product: Digi-Connect-SP
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp")
+  banner.icontains("digi connect sp ")
+  body.icontains("href=\"http://www.digi.com\"")
+  body.icontains("welcome to the configuration and management interface of the digi connect sp python.")

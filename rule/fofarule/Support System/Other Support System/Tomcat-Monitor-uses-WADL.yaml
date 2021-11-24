@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Tomcat-Monitor-uses-WADL
+  softhard: '2'
+matches: |
+  body.icontains("tomcat monitor uses wadl to describe services it can offer")

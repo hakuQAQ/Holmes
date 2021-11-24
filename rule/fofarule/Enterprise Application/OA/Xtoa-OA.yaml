@@ -1,0 +1,8 @@
+info:
+  company: xtoa
+  product: Xtoa-OA
+  softhard: '2'
+matches: |
+  body.icontains("/app_qjuserinfo/qjuserinfoadd.jsp")
+  body.icontains("/images/default/first/xtoa_logo.png")
+  body.icontains("src=\"systemfiles/js/iawebclientactivexcheck.js\"")

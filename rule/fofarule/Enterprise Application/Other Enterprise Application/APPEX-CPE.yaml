@@ -1,0 +1,6 @@
+info:
+  company: AppEx Networks
+  product: APPEX-CPE
+  softhard: '2'
+matches: |
+  title.icontains("appex cpe")

@@ -1,0 +1,8 @@
+info:
+  company: TPlink
+  product: TP_LINK-TL-PS110U
+  softhard: '1'
+matches: |
+  body.icontains("img src=\"images/blank.gif")
+  body.icontains("href=\"tcpip.htm\"")
+  header.icontains("tl-ps110u")

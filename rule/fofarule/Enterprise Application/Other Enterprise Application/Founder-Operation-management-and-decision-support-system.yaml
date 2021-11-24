@@ -1,0 +1,7 @@
+info:
+  company: founder
+  product: Founder-Operation-management-and-decision-support-system
+  softhard: '2'
+matches: |
+  body.icontains("src=\"/portal/img/logo.png\"")
+  body.icontains("src=\"/desktop/ui/custom/getimage?img=iphoneview.png\"")

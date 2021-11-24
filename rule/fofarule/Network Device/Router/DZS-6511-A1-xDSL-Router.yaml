@@ -1,0 +1,6 @@
+info:
+  company: Dasan Zhone Solutions
+  product: DZS-6511-A1-xDSL-Router
+  softhard: '1'
+matches: |
+  banner.icontains("6511-a1 xdsl router")

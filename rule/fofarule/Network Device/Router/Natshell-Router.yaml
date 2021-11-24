@@ -1,0 +1,6 @@
+info:
+  company: natshell
+  product: Natshell-Router
+  softhard: '1'
+matches: |
+  body.icontains("<h4>欢迎登录natshell</h4")

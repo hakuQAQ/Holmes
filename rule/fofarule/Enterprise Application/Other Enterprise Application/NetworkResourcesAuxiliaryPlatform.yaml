@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: NetworkResourcesAuxiliaryPlatform
+  softhard: '2'
+matches: |
+  body.icontains("<b>网络资源综合支撑辅助平台</b>")

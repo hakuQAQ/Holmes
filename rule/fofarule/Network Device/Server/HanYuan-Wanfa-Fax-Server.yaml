@@ -1,0 +1,7 @@
+info:
+  company: HanYuan
+  product: HanYuan-Wanfa-Fax-Server
+  softhard: '2'
+matches: |
+  body.icontains("background=\"images/centerfax0.gif\"")
+  body.icontains("background-image:url(images/bgfax0.jpg);")

@@ -1,0 +1,7 @@
+info:
+  company: yinhe
+  product: Yinhe-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  body.icontains("psd.innerhtml = '<embed id=\"pcclient\" type=\"application/webdvrctrl/' + ctl_version")
+  body.icontains("webdvrctrl.setdvrip(window.location.host);")

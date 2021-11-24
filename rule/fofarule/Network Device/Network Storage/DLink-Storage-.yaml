@@ -1,0 +1,7 @@
+info:
+  company: DLink
+  product: DLink-Storage-
+  softhard: '1'
+matches: |
+  body.icontains("document.cookie = \"m_language=\"+v+\"; path=/\";")
+  body.icontains("<img src=\"/web/images/storage.jpg")

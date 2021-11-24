@@ -1,0 +1,7 @@
+info:
+  company: Belkin International, Inc.
+  product: Linksys-USB-HDD
+  softhard: '1'
+matches: |
+  title.icontains("network storage link for usb 2.0 disks")
+  body.icontains("href=\"management/setup.cgi?next_file=lan.htm")

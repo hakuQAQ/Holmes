@@ -1,0 +1,9 @@
+info:
+  company: Project Jupyter
+  product: Jupyter-Notebook
+  softhard: '2'
+matches: |
+  title.icontains("jupyter notebook")
+  body.icontains("<div id=\"ipython-main-app\" class=\"container\">")
+  body.icontains("<div id=\"ipython_notebook\" class=\"nav navbar-brand\">")
+  title.icontains("soasta dswb")

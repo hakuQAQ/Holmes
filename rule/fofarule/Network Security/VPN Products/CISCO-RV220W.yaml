@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-RV220W
+  softhard: '1'
+matches: |
+  cert.icontains("rv220w")

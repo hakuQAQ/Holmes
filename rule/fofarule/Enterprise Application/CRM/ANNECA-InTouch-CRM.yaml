@@ -1,0 +1,8 @@
+info:
+  company: ANNECA s.r.o.
+  product: ANNECA-InTouch-CRM
+  softhard: '2'
+matches: |
+  title.icontains("intouch crm")
+  title.icontains("app.name")
+  body.icontains("href=\"http://www.anneca.cz\"")

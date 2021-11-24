@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: ALCASAR
+  softhard: '2'
+matches: |
+  body.icontains("valoriserdiv5")

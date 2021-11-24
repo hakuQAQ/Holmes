@@ -1,0 +1,8 @@
+info:
+  company: Alibaba Group
+  product: YunKeMail
+  softhard: '2'
+matches: |
+  body.icontains("action=\"/alimail/error/browserlog")
+  body.icontains("content=\"阿里企业邮箱")
+  header.icontains("alimail_browser_instance")

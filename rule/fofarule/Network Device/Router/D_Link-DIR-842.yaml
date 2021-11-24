@@ -1,0 +1,7 @@
+info:
+  company: DLink
+  product: D_Link-DIR-842
+  softhard: '1'
+matches: |
+  body.icontains("<td><script>i18n(\"h\", \"model name\");</script> : dir-842")
+  body.icontains("<h1>dir-842 login</h1>")

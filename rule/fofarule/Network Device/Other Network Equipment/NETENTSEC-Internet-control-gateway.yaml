@@ -1,0 +1,11 @@
+info:
+  company: NETENTSEC
+  product: NETENTSEC-Internet-control-gateway
+  softhard: '1'
+matches: |
+  title.icontains("网康互联网控制网关")
+  title.icontains("网康科技·互联网控制网关")
+  title.icontains("互联网控制网关")
+  body.icontains("北京网康科技有限公司")
+  title.icontains("互联网控制网关")
+  body.icontains("function getslotserialnumber(slotid)")

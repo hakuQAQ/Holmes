@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: RaidenHTTPD
+  softhard: '2'
+matches: |
+  header.icontains("raidenhttpd")

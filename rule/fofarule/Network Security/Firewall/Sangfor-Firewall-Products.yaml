@@ -1,0 +1,14 @@
+info:
+  company: Sangfor
+  product: Sangfor-Firewall-Products
+  softhard: '1'
+matches: |
+  body.icontains("sangfor fw")
+  title.icontains("sangfor | ngaf ")
+  title.icontains("sangfor | af ") && body.icontains("if (!this.sf)")
+  body.icontains("sf.cookie('sangfor_session_id")
+  body.icontains("version = _(\"异步获取提交成功，但是获取版本信息失败\");")
+  body.icontains("this.sf = {};")
+  body.icontains("<div class=\"title title-login\">登录防火墙web防篡改管理系统</div>")
+  body.icontains("return decodeuricomponent(arr.join(''))")
+  body.icontains("name=\"robots\" content=\"nofollow\"")

@@ -1,0 +1,6 @@
+info:
+  company: Lantronix, Inc.
+  product: Lantronix-Embedded-device-networking-module
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp") && banner.icontains("v6.6.0.2 (080926)")

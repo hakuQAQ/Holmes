@@ -1,0 +1,10 @@
+info:
+  company: yaozhi
+  product: CMailServer
+  softhard: '2'
+matches: |
+  banner.icontains("cmailserver")
+  title.icontains("mail server webmail - ")
+  body.icontains("<font size=2>username ( contatto email )</font>")
+  title.icontains("cmailserver ") && body.icontains("<img src=\"images/webmail.gif")
+  body.icontains("<input type=checkbox name=\"saveuserpass")

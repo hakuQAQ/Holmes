@@ -1,0 +1,6 @@
+info:
+  company: Sophos Technologies Pvt. Ltd.
+  product: Sophos-Cyberoam-Product
+  softhard: '1'
+matches: |
+  header.icontains("webpages/login.jsp ") && body.icontains("href=\"http://www.cyberoam.com\" target=\"_blank\">www.cyberoam.com")

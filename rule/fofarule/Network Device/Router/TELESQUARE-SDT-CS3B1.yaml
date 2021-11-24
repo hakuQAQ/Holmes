@@ -1,0 +1,7 @@
+info:
+  company: TELESQUARE, Inc.
+  product: TELESQUARE-SDT-CS3B1
+  softhard: '1'
+matches: |
+  title.icontains("sdt-cs3b1")
+  banner.icontains("sdt-cs3b1")

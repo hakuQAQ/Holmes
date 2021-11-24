@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: webtrust-Cert
+  softhard: '2'
+matches: |
+  body.icontains("https://cert.webtrust.org/viewseal")

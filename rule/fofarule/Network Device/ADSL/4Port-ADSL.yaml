@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: 4Port-ADSL
+  softhard: '1'
+matches: |
+  banner.icontains("4 port adsl iad")
+  banner.icontains("4 port adsl iad")

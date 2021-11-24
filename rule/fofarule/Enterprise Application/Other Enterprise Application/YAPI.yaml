@@ -1,0 +1,7 @@
+info:
+  company: YApi
+  product: YAPI
+  softhard: '2'
+matches: |
+  body.icontains("content=\"yapi")
+  body.icontains("<div id=\"yapi\" style=\"height: 100%;")

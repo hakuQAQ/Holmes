@@ -1,0 +1,9 @@
+info:
+  company: Wiwide
+  product: Wiwide-Commercial-Wi-Fi-Device
+  softhard: '1'
+matches: |
+  body.icontains("http-equiv=\"refresh\" content=\"0; url=/cgi-bin/luci\"")
+  header.icontains("tx-server: mixr")
+  title.icontains("小米路由器")
+  header.icontains("micgi") && title.icontains("迈外迪商业wi-fi设备管理后台")

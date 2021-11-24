@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: NCSA-HTTPd
+  softhard: '2'
+matches: |
+  header.icontains("ncsa") && banner.icontains("server: ncsa")

@@ -1,0 +1,22 @@
+info:
+  company: Polycom, Inc.
+  product: Polycom-Video-Conferencing
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp")
+  banner.icontains("\"videoconferencing device\"")
+  title.icontains("polycom rmx")
+  header.icontains("viavideo-web")
+  title.icontains("polycom") && body.icontains("kallowdirecthtmlfileaccess")
+  title.icontains("polycom") && body.icontains("src='app/util/proxy/configfqnames.js")
+  body.icontains("<iframe src=\"\" name=\"contentframe\" scrolling=\"auto\" class=\"content\" id=\"contentframe\" frameborder=\"no\">")
+  body.icontains("document.title = sysname+' - polycom '+model") && title == "polycom" && body.icontains("resources/webmain-all.css")
+  body.icontains("/rmx1000/js/")
+  body.icontains("rmx1000 device")
+  body.icontains("'<title>'+sysname+' - polycom '+getcurrentpagename ()+'</title>'")
+  body.icontains("var g_ishdvideoioenabled = ")
+  banner.icontains("polycom hdx ")
+  body.icontains("content=\"' +currentlanguage.tolowercase ()+'\"")
+  title.icontains("polycom? realpresence? media suite")
+  body.icontains("common.login.loginctrl")
+  body.icontains("fake_password")

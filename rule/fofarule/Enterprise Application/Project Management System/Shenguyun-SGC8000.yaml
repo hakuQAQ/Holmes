@@ -1,0 +1,6 @@
+info:
+  company: Shenguyun
+  product: Shenguyun-SGC8000
+  softhard: '2'
+matches: |
+  body.icontains("var granttype=\"authorization_code")

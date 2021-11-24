@@ -1,0 +1,6 @@
+info:
+  company: unipus
+  product: iTEST3.0
+  softhard: '2'
+matches: |
+  title.icontains("itest3.0登录界面") && body.icontains("src=\"/itest/static/its/lib/")

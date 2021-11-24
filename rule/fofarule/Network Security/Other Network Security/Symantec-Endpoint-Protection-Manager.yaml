@@ -1,0 +1,10 @@
+info:
+  company: Symantec Corporation
+  product: Symantec-Endpoint-Protection-Manager
+  softhard: '2'
+matches: |
+  body.icontains("<div style=\"font-family: tahoma, verdana, arial, helvetica, sans-serif; font-size:11px;\">version")
+  body.icontains("/portal/about.jsp") && body.icontains("<!-- now, if it is ie on windows platform, we check to see which version of jws is installed -->")
+  body.icontains("<tr><td align=\"left\" style=\"font-family:arial; font-size:18pt\"><b>symantec endpoint protection manager<br>web access</b></td></tr>")
+  header.icontains("sepm") && header.icontains("symantec endpoint protection manager")
+  banner.icontains("symantec endpoint protection manager")

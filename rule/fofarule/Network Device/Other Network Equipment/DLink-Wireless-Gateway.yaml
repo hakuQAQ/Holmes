@@ -1,0 +1,6 @@
+info:
+  company: DLink
+  product: DLink-Wireless-Gateway
+  softhard: '1'
+matches: |
+  banner.icontains("d-link wireless voice gateway")

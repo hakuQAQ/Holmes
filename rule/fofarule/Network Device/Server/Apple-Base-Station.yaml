@@ -1,0 +1,6 @@
+info:
+  company: Apple Inc.
+  product: Apple-Base-Station
+  softhard: '1'
+matches: |
+  banner.icontains("apple base station")

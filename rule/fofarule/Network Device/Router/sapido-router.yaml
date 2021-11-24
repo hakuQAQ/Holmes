@@ -1,0 +1,7 @@
+info:
+  company: sapido
+  product: sapido-router
+  softhard: '1'
+matches: |
+  body.icontains("/etop_home_menu_style.css")
+  body.icontains("/b28n.js")

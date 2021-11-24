@@ -1,0 +1,9 @@
+info:
+  company: Juniper Networks, Inc.
+  product: JUNIPer-mx960
+  softhard: '1'
+matches: |
+  banner.icontains("juniper networks, inc. mx960")
+  body.icontains("face=\"verdana\">mx960")
+  banner.icontains("juniper_mx960")
+  banner.icontains("mx960_ce")

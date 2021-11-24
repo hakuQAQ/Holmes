@@ -1,0 +1,8 @@
+info:
+  company: ZKTECO
+  product: ZKTECO-Security-Management-System
+  softhard: '2'
+matches: |
+  body.icontains("百傲瑞达") && body.icontains("src='/login/images/zksecurity.png'")
+  body.icontains("id=\"password_hidden\"") && body.icontains("class=\"login-finger-btn disabled\"")
+  body.icontains("$(\".copyright\").text(\"copyright ? \" + server_current_year + \" zkteco co., ltd. all rights reserved\");")

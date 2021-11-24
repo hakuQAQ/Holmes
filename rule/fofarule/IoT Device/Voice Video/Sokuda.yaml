@@ -1,0 +1,8 @@
+info:
+  company: sokuda
+  product: Sokuda
+  softhard: '1'
+matches: |
+  title.icontains("会讯通电话会议系统")
+  header.icontains("easymeetingsession=")
+  body.icontains("easymeeting web ")

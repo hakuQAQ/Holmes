@@ -1,0 +1,7 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-ER2100V2
+  softhard: '1'
+matches: |
+  title.icontains("er2100v2系统管理")
+  banner.icontains("h3c er2100v2")

@@ -1,0 +1,6 @@
+info:
+  company: Teleradiology Solutions
+  product: Teleradiology-Telrads
+  softhard: '2'
+matches: |
+  body.icontains("https://clients.telrads.com/css/feedback.css")

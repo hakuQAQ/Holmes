@@ -1,0 +1,10 @@
+info:
+  company: HUAWEI
+  product: HuaWei-Auth-Server
+  softhard: '2'
+matches: |
+  body.icontains("75718c9a-f029-11d1-a1ac-00c04fb6c223")
+  header.icontains("auth-http server")
+  header.icontains("huawei auth-http server")
+  banner.icontains("huawei auth-http server")
+  banner.icontains("server:")

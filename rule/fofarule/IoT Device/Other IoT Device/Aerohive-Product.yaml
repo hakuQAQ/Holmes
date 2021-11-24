@@ -1,0 +1,7 @@
+info:
+  company: Extreme Networks
+  product: Aerohive-Product
+  softhard: '1'
+matches: |
+  body.icontains("company_logo.png")
+  body.icontains("aerohive")

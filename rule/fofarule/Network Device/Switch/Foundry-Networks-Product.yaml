@@ -1,0 +1,6 @@
+info:
+  company: Brocade Communications Systems, Inc.
+  product: Foundry-Networks-Product
+  softhard: '1'
+matches: |
+  banner.icontains("foundry networks, inc. ")

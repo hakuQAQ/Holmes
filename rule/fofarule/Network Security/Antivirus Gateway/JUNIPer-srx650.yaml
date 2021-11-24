@@ -1,0 +1,7 @@
+info:
+  company: Juniper Networks, Inc.
+  product: JUNIPer-srx650
+  softhard: '1'
+matches: |
+  banner.icontains("srx650")
+  body.icontains("srx650") && header.icontains("embedthis-appweb") && body.icontains("class=\"jweb-title uppercase\"> - srx650")

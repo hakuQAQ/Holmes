@@ -1,0 +1,8 @@
+info:
+  company: Nagios Enterprises, LLC
+  product: Nagios-XI
+  softhard: '2'
+matches: |
+  title.icontains("nagios xi")
+  body.icontains("click the link below to get started using nagios xi.")
+  body.icontains("/nagiosxi/images/favicon.ico")

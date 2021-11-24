@@ -1,0 +1,7 @@
+info:
+  company: Shenzhen Tenda Technology Co.,Ltd
+  product: Tenda-N6
+  softhard: '1'
+matches: |
+  body.icontains("var sys_target = \"n6\"")
+  body.icontains("class=\"loagin_title\">tenda n6")

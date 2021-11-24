@@ -1,0 +1,6 @@
+info:
+  company: GoCloud
+  product: gocloud-SX1000
+  softhard: '1'
+matches: |
+  banner.icontains("gocloud sx1000 series router")

@@ -1,0 +1,8 @@
+info:
+  company: msvod
+  product: msvod-MediaManager
+  softhard: '2'
+matches: |
+  body.icontains("$('.sign-btn').addclass(\"completion\");")
+  body.icontains("static/js/meisicms.js")
+  body.icontains("content=\"魅思cms")

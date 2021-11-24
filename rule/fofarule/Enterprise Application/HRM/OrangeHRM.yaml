@@ -1,0 +1,9 @@
+info:
+  company: OrangeHRM Inc.
+  product: OrangeHRM
+  softhard: '2'
+matches: |
+  body.icontains("welcome to the orangehrm ver")
+  body.icontains("name=\"hdnusertimezoneoffset")
+  title == "orangehrm" && body.icontains("/js/orangehrm.validate.js")
+  body.icontains("href=\"http://www.orangehrm.com\" target=")

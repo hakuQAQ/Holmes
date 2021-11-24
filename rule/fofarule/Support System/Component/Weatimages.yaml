@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Weatimages
+  softhard: '2'
+matches: |
+  body.icontains("<a href=\"http://nazarkin.name/projects/weatimages")
+  body.icontains("<meta name=\"generator\" content=\"weatimages\"/>")
+  body.icontains("<div align=\"center\" class=\"weatimages_toppest_navig\" style=\"text-decoration:underline;\">")

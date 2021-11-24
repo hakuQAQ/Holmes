@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-ASR-9010
+  softhard: '1'
+matches: |
+  banner.icontains("asr9010")

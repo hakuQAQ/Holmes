@@ -1,0 +1,6 @@
+info:
+  company: flyrise
+  product: FE-OA
+  softhard: '2'
+matches: |
+  body.icontains("js39/flyrise.stopbackspace.js")

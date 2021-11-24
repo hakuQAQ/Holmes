@@ -1,0 +1,7 @@
+info:
+  company: Metaswitch Networks
+  product: Metaswitch-Networks-MetaView-Web
+  softhard: '2'
+matches: |
+  body.icontains("content='dcl.metaview.web.client'")
+  body.icontains("src=\"dcl.metaview.web.client.nocache.js\">")

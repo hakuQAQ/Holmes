@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: Matrix-Mail-Server
+  softhard: '2'
+matches: |
+  banner.icontains("matrix smtp server")
+  banner.icontains("matrix mail server")

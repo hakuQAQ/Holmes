@@ -1,0 +1,7 @@
+info:
+  company: Oracle Corporation
+  product: Oracle-OPERA
+  softhard: '2'
+matches: |
+  title.icontains("micros systems inc., opera")
+  body.icontains("operalogin/welcome.do")

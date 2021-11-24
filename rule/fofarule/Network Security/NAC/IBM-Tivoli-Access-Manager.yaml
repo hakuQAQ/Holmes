@@ -1,0 +1,9 @@
+info:
+  company: International Business Machines Corporation
+  product: IBM-Tivoli-Access-Manager
+  softhard: '2'
+matches: |
+  body.icontains("<!--- do not translate or modify any part of the hidden parameter(s) --->")
+  header.icontains("realm=\"access manager for e-business")
+  body.icontains("var warningstring = \"<b>warning:</b> to maintain your login session, make sure that your browser is configured to accept cookies.\";")
+  title.icontains("access manager for e-business login") && body.icontains("<!-- copyright (c) 2000 tivoli systems, inc. -->")

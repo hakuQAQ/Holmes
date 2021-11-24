@@ -1,0 +1,7 @@
+info:
+  company: vpn358
+  product: vpn358System
+  softhard: '2'
+matches: |
+  body.icontains("class=\"form-actions j_add_ip_actions\"")
+  body.icontains("href=\"/lib/bootstrap/ico/favicon.ico\"")

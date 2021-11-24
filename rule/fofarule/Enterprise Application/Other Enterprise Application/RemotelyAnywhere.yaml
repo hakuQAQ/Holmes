@@ -1,0 +1,9 @@
+info:
+  company: 'LogMeIn, Inc. '
+  product: RemotelyAnywhere
+  softhard: '2'
+matches: |
+  title.icontains("remotelyanywhere")
+  body.icontains("/img/ralogo.png\" alt=\"remotelyanywhere")
+  header.icontains("server: remotelyanywhere")
+  banner.icontains("server: remotelyanywhere")

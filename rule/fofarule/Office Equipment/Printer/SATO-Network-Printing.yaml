@@ -1,0 +1,8 @@
+info:
+  company: SATO America, LLC.
+  product: SATO-Network-Printing
+  softhard: '1'
+matches: |
+  title.icontains("sato network printing")
+  body.icontains("welcome to sato network printing</legend>")
+  banner.icontains("sato network printing ")

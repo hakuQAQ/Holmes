@@ -1,0 +1,7 @@
+info:
+  company: wisedu
+  product: Wisedu-SC
+  softhard: '0'
+matches: |
+  body.icontains("portal/js/plugins/changeskin.js")
+  body.icontains("前端配置文件")

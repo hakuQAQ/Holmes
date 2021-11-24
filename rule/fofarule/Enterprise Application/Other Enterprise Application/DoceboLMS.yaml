@@ -1,0 +1,8 @@
+info:
+  company: Docebo Canada Inc
+  product: DoceboLMS
+  softhard: '2'
+matches: |
+  body.icontains("powered by docebo")
+  header.icontains("docebo_session=")
+  banner.icontains("docebo_session=")

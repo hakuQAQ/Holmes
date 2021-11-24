@@ -1,0 +1,6 @@
+info:
+  company: legendsec
+  product: legendsec-ImportSystem
+  softhard: '1'
+matches: |
+  body.icontains("document.myform.btn_login.disabled = true;")

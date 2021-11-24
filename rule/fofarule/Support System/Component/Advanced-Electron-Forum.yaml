@@ -1,0 +1,7 @@
+info:
+  company: AEF Group
+  product: Advanced-Electron-Forum
+  softhard: '2'
+matches: |
+  body.icontains("powered by aef")
+  header.icontains("aefsid") && body.icontains("content=\"aef") && banner.icontains("aefsid")

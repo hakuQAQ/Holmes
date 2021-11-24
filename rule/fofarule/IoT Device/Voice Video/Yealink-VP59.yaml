@@ -1,0 +1,6 @@
+info:
+  company: Yealink Inc.
+  product: Yealink-VP59
+  softhard: '1'
+matches: |
+  title.icontains("yealink vp59")

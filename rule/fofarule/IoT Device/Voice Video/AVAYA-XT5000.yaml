@@ -1,0 +1,6 @@
+info:
+  company: Avaya Inc.
+  product: AVAYA-XT5000
+  softhard: '2'
+matches: |
+  banner.icontains("scopia xt5000")

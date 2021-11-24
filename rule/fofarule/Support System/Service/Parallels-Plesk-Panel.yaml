@@ -1,0 +1,10 @@
+info:
+  company: Parallels Inc.
+  product: Parallels-Plesk-Panel
+  softhard: '2'
+matches: |
+  body.icontains("parallels ip holdings gmbh")
+  title.icontains("default parallels plesk panel page")
+  header.icontains("plesk-panel")
+  body.icontains("<img src=\"./img/panel-logo.png\" alt=\"parallels plesk panel\"></a>")
+  title.icontains("default parallels plesk page")

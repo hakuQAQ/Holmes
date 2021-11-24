@@ -1,0 +1,6 @@
+info:
+  company: HUAWEI
+  product: HuaWei-SRG20
+  softhard: '1'
+matches: |
+  banner.icontains("srg20")

@@ -1,0 +1,6 @@
+info:
+  company: Huawei
+  product: HUAWEI-ASG5530
+  softhard: '1'
+matches: |
+  body.icontains("('.huawei_title').html('asg5530')")

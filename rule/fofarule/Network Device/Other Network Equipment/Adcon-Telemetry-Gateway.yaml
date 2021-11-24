@@ -1,0 +1,9 @@
+info:
+  company: ADCON TELEMETRY
+  product: Adcon-Telemetry-Gateway
+  softhard: '1'
+matches: |
+  header.icontains("addupi") && body.icontains("adcon telemetry gmbh;")
+  banner.icontains("a850 telemetry gateway")
+  body.icontains("adcon telemetry")
+  title.icontains("a850 telemetry gateway") && body.icontains("welcome to the a840 telemetry gateway!")

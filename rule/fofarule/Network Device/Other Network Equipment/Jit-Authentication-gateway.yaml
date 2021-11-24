@@ -1,0 +1,8 @@
+info:
+  company: jit
+  product: Jit-Authentication-gateway
+  softhard: '1'
+matches: |
+  title.icontains("吉大正元身份认证网关")
+  body.icontains("/jit_pnx_portal/")
+  header.icontains("jit_pnxcore1 web service")

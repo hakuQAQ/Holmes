@@ -1,0 +1,6 @@
+info:
+  company: biept
+  product: biept-System
+  softhard: '2'
+matches: |
+  body.icontains("class=\"loginin loginin1\"")

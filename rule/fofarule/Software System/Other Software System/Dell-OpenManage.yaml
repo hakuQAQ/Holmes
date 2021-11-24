@@ -1,0 +1,8 @@
+info:
+  company: Dell Inc.
+  product: Dell-OpenManage
+  softhard: '2'
+matches: |
+  title.icontains("openmanage")
+  body.icontains("alt=\"openmanage\"")
+  body.icontains("src=\"/oem//data/images/logo.gif\"") && body.icontains("url=/servlet/omsalogin?msgstatus='")

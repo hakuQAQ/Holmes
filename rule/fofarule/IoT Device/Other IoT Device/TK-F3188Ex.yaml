@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: TK-F3188Ex
+  softhard: '1'
+matches: |
+  banner.icontains("tk-f3188ex")

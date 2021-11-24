@@ -1,0 +1,8 @@
+info:
+  company: Dell Inc.
+  product: EMC-RecoverPoint
+  softhard: '1'
+matches: |
+  title.icontains("recoverpoint management application")
+  body.icontains("content=\"recoverpoint management application")
+  body.icontains("src=\"scripts/services/wizarddatasharingservice.js\"")

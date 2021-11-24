@@ -1,0 +1,7 @@
+info:
+  company: Active Collab
+  product: activeCollab
+  softhard: '2'
+matches: |
+  body.icontains("powered by activecollab")
+  body.icontains("<p id=\"powered_by\"><a href=\"http://www.activecollab.com/\"")

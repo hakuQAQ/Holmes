@@ -1,0 +1,7 @@
+info:
+  company: ideacms
+  product: IDEACMS
+  softhard: '2'
+matches: |
+  body.icontains("powered by ideacms")
+  body.icontains("ejnav{ideacms:cursort")

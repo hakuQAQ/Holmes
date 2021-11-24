@@ -1,0 +1,9 @@
+info:
+  company: Cloudflare, Inc.
+  product: Cloudflare
+  softhard: '2'
+matches: |
+  header.icontains("cloudflare-nginx") && header.icontains("__cfduid=")
+  body.icontains("cloudflare ray id:") && body.icontains("var cloudflare=")
+  header.icontains("cloudflare")
+  banner.icontains("server: cloudflare")

@@ -1,0 +1,6 @@
+info:
+  company: looyu
+  product: Looyu-OMS
+  softhard: '2'
+matches: |
+  body.icontains("src=\"http://gate.looyu.com/")

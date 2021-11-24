@@ -1,0 +1,7 @@
+info:
+  company: zfsoft
+  product: Zfsoft-Educational-management-system
+  softhard: '2'
+matches: |
+  body.icontains("style/base/jw.css") && body.icontains("content=\"站点介绍\"")
+  title.icontains("正方教务管理系统")

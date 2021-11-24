@@ -1,0 +1,6 @@
+info:
+  company: Brivo Inc.
+  product: brivo-Onsite-Server
+  softhard: '1'
+matches: |
+  header.icontains("brivo onsite server")

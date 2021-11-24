@@ -1,0 +1,6 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-3800C
+  softhard: '1'
+matches: |
+  banner.icontains("cisco ios software, 3800c")

@@ -1,0 +1,7 @@
+info:
+  company: BULLWARK
+  product: BULLWARK-MomentumCamera
+  softhard: '1'
+matches: |
+  body.icontains("<img src=\"images/bullwark_nvr.png\"")
+  title.icontains("bullwark momentum series")

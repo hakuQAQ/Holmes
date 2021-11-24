@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: SU-ManagementSystem
+  softhard: '2'
+matches: |
+  title.icontains("su管理系统")

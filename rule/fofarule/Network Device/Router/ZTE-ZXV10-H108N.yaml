@@ -1,0 +1,6 @@
+info:
+  company: ZTE Corporation
+  product: ZTE-ZXV10-H108N
+  softhard: '1'
+matches: |
+  title.icontains("zxv10 h108n")

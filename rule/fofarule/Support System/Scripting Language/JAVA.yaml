@@ -1,0 +1,19 @@
+info:
+  company: Oracle Corporation
+  product: JAVA
+  softhard: '2'
+matches: |
+  header.icontains("set-cookie: jsessionid")
+  banner.icontains("set-cookie: jsessionid")
+  body.icontains("<h2>struts problem report</h2>")
+  body.icontains("there is no action mapped for namespace")
+  body.icontains("no result defined for action and result input")
+  header.icontains("x-powered-by: servlet")
+  banner.icontains("x-powered-by: servlet")
+  header.icontains("jboss") && header.icontains("x-powered-by")
+  header.icontains("router") && banner.icontains("jboss") && banner.icontains("x-powered-by")
+  banner.icontains("router") && body.icontains("index.jsp")
+  header.icontains("360 web server")
+  header.icontains("docker") && header.icontains("jsp") && header.icontains("x-powered-by")
+  banner.icontains("360 web server")
+  banner.icontains("docker") && banner.icontains("jsp") && banner.icontains("x-powered-by")

@@ -1,0 +1,8 @@
+info:
+  company: FileMaker, Inc
+  product: FileMaker
+  softhard: '2'
+matches: |
+  header.icontains("fmi-cookie")
+  banner.icontains("fmi-cookie")
+  body.icontains("/fmi/iwp/cgi?-noscript")

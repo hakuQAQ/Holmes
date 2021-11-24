@@ -1,0 +1,6 @@
+info:
+  company: TOTOLINK Corp.
+  product: TOTO_LINK-N600RD
+  softhard: '1'
+matches: |
+  body.icontains("src =\"/images/login_back_zn600rd.gif\"")

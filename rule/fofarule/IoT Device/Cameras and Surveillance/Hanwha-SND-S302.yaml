@@ -1,0 +1,6 @@
+info:
+  company: Hanwha Techwin Co., Ltd.
+  product: Hanwha-SND-S302
+  softhard: '1'
+matches: |
+  body.icontains("var defaultfilename = \"snd-s302\"")

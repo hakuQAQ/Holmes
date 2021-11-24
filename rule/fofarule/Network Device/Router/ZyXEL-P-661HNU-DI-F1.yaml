@@ -1,0 +1,6 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-P-661HNU-DI-F1
+  softhard: '1'
+matches: |
+  title.icontains("p-661hnu-di-f1")

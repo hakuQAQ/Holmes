@@ -1,0 +1,6 @@
+info:
+  company: Hanna
+  product: Hanna-Drawing-Service
+  softhard: '2'
+matches: |
+  body.icontains("hanna图纸服务")

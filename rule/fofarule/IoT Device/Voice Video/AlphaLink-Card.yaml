@@ -1,0 +1,6 @@
+info:
+  company: Alphalink Corporation
+  product: AlphaLink-Card
+  softhard: '1'
+matches: |
+  banner.icontains("alphalink card")

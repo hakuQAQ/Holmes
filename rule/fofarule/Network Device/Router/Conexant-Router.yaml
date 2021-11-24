@@ -1,0 +1,8 @@
+info:
+  company: Synaptics Incorporated.
+  product: Conexant-Router
+  softhard: '1'
+matches: |
+  banner.icontains("adsl router, vxworks ")
+  banner.icontains("conexant systems")
+  banner.icontains("conexant system")

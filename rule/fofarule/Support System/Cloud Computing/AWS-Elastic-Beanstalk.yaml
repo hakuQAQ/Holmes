@@ -1,0 +1,8 @@
+info:
+  company: Amazon.com, Inc.
+  product: AWS-Elastic-Beanstalk
+  softhard: '2'
+matches: |
+  title.icontains("aws elastic beanstalk ")
+  body.icontains("<h2>what's next?</h2>")
+  body.icontains("aws.amazon.com/elasticbeanstalk")

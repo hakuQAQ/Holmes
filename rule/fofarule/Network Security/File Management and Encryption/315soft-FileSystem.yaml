@@ -1,0 +1,6 @@
+info:
+  company: 315soft
+  product: 315soft-FileSystem
+  softhard: '2'
+matches: |
+  body.icontains(">多可电子档案管理系统</div")

@@ -1,0 +1,6 @@
+info:
+  company: ZTE
+  product: ZTE-E105
+  softhard: '1'
+matches: |
+  body.icontains("e105</font></div>")

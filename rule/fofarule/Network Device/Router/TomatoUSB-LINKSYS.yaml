@@ -1,0 +1,9 @@
+info:
+  company: Belkin International, Inc.
+  product: TomatoUSB-LINKSYS
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"tomatousb-linksys")
+  header.icontains("realm=\"tomatousb")
+  banner.icontains("realm=\"tomatousb-linksys")
+  banner.icontains("realm=\"tomatousb")

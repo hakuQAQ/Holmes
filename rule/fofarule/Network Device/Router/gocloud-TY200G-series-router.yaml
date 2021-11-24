@@ -1,0 +1,6 @@
+info:
+  company: GoCloud
+  product: gocloud-TY200G-series-router
+  softhard: '1'
+matches: |
+  banner.icontains("gocloud ty200g series router")

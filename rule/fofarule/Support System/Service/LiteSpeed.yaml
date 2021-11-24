@@ -1,0 +1,7 @@
+info:
+  company: LiteSpeed Technologies Inc.
+  product: LiteSpeed
+  softhard: '2'
+matches: |
+  header.icontains("server: litespeed")
+  banner.icontains("server: litespeed")

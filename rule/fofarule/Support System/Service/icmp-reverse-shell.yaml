@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: icmp-reverse-shell
+  softhard: '2'
+matches: |
+  banner.icontains("reverseshell")

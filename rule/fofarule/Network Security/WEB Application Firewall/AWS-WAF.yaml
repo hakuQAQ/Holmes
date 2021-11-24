@@ -1,0 +1,6 @@
+info:
+  company: Amazon.com, Inc.
+  product: AWS-WAF
+  softhard: '2'
+matches: |
+  header.icontains("aws") && header.icontains("http/1.1 403")

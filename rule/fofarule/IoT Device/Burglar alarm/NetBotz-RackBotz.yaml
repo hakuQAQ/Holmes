@@ -1,0 +1,6 @@
+info:
+  company: Schneider Electric
+  product: NetBotz-RackBotz
+  softhard: '1'
+matches: |
+  banner.icontains("netbotz rackbotz")

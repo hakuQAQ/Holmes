@@ -1,0 +1,6 @@
+info:
+  company: Digicel Group
+  product: IX280P
+  softhard: '1'
+matches: |
+  title.icontains(".:: welcome to ix280p configuration ::.")

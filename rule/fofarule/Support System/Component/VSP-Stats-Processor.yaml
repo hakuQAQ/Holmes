@@ -1,0 +1,8 @@
+info:
+  company: VSP-Stats-Processor
+  product: VSP-Stats-Processor
+  softhard: '1'
+matches: |
+  body.icontains("<a href=\"http://www.clanavl.com/vsp/\">vsp</a> v")
+  body.icontains("<body>error: cannot establish database connection or database database_name does not exist")
+  body.icontains("&nbsp;theme:bismarck by <a href=\"#\" title=\"myrddin8 <at> gmail <dot> com\">myrddin</a>&nbsp;")

@@ -1,0 +1,6 @@
+info:
+  company: Vectra AI，Inc
+  product: VECTRA-Product
+  softhard: '2'
+matches: |
+  body.icontains("vectra.base.css")

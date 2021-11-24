@@ -1,0 +1,14 @@
+info:
+  company: ASUS
+  product: ASUS-RT-AC68U
+  softhard: '1'
+matches: |
+  header.icontains("rt-ac68u")
+  banner.icontains("rt-ac68u")
+  body.icontains("var product_name='rt-ac68u'")
+  body.icontains("capture(status_router.sys_model)</script></div>asus rt-ac68u")
+  body.icontains("capture(status_router.sys_model)</script></div> asus rt-ac68u&nbsp;")
+  body.icontains("<div class=\"prod_madelname\">rt-ac68u") && body.icontains("class=\"prod_madelname\">jrs eco 100 on asus rt-ac68u</div>")
+  body.icontains("class=\"prod_madelname\" style=\"margin-left:78px;\">rt-ac68u")
+  banner.icontains("asus rt-ac68u") && body.icontains("var mmc = {")
+  body.icontains("asus rt-ac68u")

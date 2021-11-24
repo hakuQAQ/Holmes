@@ -1,0 +1,7 @@
+info:
+  company: YSRC
+  product: yulong-HIDS
+  softhard: '2'
+matches: |
+  body.icontains("<h1>驭龙</h1>")
+  body.icontains("<h2>yulong - a cool hids system.</h2>")

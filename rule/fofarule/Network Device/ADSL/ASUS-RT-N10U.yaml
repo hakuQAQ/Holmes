@@ -1,0 +1,13 @@
+info:
+  company: ASUS
+  product: ASUS-RT-N10U
+  softhard: '1'
+matches: |
+  header.icontains("asus rt-n10u")
+  banner.icontains("asus rt-n10u")
+  banner.icontains("rt-n10u") && header.icontains("asus rt n10u")
+  header.icontains("rt-n10u") && header.icontains("asus_rt-n10u")
+  body.icontains("var mmc = {")
+  body.icontains("asus rt-n10u")
+  body.icontains("<div class=\"prod_madelname\">rt-n10u") && banner.icontains("rt-n10u login")
+  banner.icontains("rt-n10u")

@@ -1,0 +1,6 @@
+info:
+  company: LG Electronics.
+  product: LG-OLED65B9FNA
+  softhard: '1'
+matches: |
+  body.icontains("<modelname>oled65b9fna</modelname>")

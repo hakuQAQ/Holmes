@@ -1,0 +1,15 @@
+info:
+  company: Other
+  product: WebObjects
+  softhard: '2'
+matches: |
+  header.icontains("webobjects")
+  header.icontains("wosid") && header.icontains("x-webobjects-customenv") && header.icontains("x-webobjects-server-name")
+  header.icontains("x-webobjects-adaptor-version")
+  header.icontains("x-webobjects-loadaverage")
+  header.icontains("x-apple-application-instance")
+  banner.icontains("x-webobjects-customenv")
+  banner.icontains("x-webobjects-server-name")
+  banner.icontains("x-webobjects-adaptor-version")
+  banner.icontains("x-webobjects-loadaverage")
+  banner.icontains("x-apple-application-instance")

@@ -1,0 +1,6 @@
+info:
+  company: grasp
+  product: grasp-ERP
+  softhard: '2'
+matches: |
+  body.icontains(" alert(\"欢迎使用 【管家婆分销erp)")

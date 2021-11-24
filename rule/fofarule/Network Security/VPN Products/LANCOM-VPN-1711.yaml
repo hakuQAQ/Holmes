@@ -1,0 +1,9 @@
+info:
+  company: LANCOM Systems GmbH
+  product: LANCOM-VPN-1711
+  softhard: '1'
+matches: |
+  header.icontains("lancom 1711 vpn")
+  banner.icontains("lancom 1711 vpn")
+  body.icontains("src=\"/images/prodimg.jpeg\" alt=\"lancom 1711 vpn")
+  body.icontains("src=\"/images/prodimg.jpeg\" alt=\"test lancom 1711 vpn")

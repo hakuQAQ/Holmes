@@ -1,0 +1,7 @@
+info:
+  company: csbit
+  product: VisualSec-VS-AD
+  softhard: '1'
+matches: |
+  body.icontains("class=\"top-wrapper fn-clear\"")
+  body.icontains("value=\"sysadmin\"")

@@ -1,0 +1,7 @@
+info:
+  company: HUAWEI
+  product: HuaWei-Enterprise-proxy-server
+  softhard: '1'
+matches: |
+  title == "user login" && body.icontains("huawei technologies co., ltd.")
+  body.icontains("<form name=\"frmlogon\" id=\"frmlogon\" method=\"post\"  action=\"/operatorlogin\" onsubmit=\"return check()\">")

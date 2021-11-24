@@ -1,0 +1,7 @@
+info:
+  company: idcos
+  product: iDCOS-CloudBoot
+  softhard: '2'
+matches: |
+  title.icontains("cloudboot")
+  body.icontains("/clipboard/zeroclipboard.min")

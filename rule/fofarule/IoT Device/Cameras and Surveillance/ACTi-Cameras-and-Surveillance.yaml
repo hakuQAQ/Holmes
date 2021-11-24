@@ -1,0 +1,9 @@
+info:
+  company: acti
+  product: ACTi-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  title.icontains("web configurator")
+  body.icontains("acti corporation all rights reserved")
+  header.icontains("httpd v1.0 05may2008") && title.icontains("web configurator")
+  body.icontains("url=/cgi-bin/videoconfiguration.cgi")

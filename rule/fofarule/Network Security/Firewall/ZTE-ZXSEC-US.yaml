@@ -1,0 +1,7 @@
+info:
+  company: ZTE
+  product: ZTE-ZXSEC-US
+  softhard: '1'
+matches: |
+  body.icontains("class=\"login_main_text\">zxsec us")
+  title.icontains("zxsec us")

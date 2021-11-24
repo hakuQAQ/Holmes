@@ -1,0 +1,9 @@
+info:
+  company: kingosoft
+  product: kingosoft
+  softhard: '2'
+matches: |
+  title.icontains("kingosoft")
+  body.icontains("setkingoencypt.jsp")
+  body.icontains("/jkingo.js") && body.icontains("kingosoft")
+  body.icontains("青果")

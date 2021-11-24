@@ -1,0 +1,8 @@
+info:
+  company: COMMSCOPE
+  product: ARRIS-DOCSIS-Modem
+  softhard: '1'
+matches: |
+  banner.icontains("arris docsis")
+  banner.icontains("arris euro-docsis")
+  banner.icontains("arris eurodocsis") && banner.icontains("modem")

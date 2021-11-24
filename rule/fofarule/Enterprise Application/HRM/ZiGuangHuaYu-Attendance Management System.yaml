@@ -1,0 +1,7 @@
+info:
+  company: ZiGuangHuaYu
+  product: ZiGuangHuaYu-Attendance Management System
+  softhard: '2'
+matches: |
+  body.icontains("广州紫光华宇信息技术有限公司")
+  title.icontains("考勤管理系统")

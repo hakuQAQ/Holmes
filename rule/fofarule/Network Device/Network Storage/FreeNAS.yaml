@@ -1,0 +1,7 @@
+info:
+  company: iXsystems, Inc.
+  product: FreeNAS
+  softhard: '2'
+matches: |
+  body.icontains("title=\"welcome to freenas")
+  body.icontains("/images/ui/freenas-logo.png")

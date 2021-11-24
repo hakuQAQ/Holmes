@@ -1,0 +1,9 @@
+info:
+  company: Schneider Electric
+  product: Schneider-EC
+  softhard: '1'
+matches: |
+  body.icontains("cgiserver")
+  title.icontains("charging station")
+  header.icontains("p3p: cp=this is not a privacy policy!")
+  header.icontains("267")

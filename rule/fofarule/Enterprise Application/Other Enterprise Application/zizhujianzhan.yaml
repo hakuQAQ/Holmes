@@ -1,0 +1,7 @@
+info:
+  company: xinnet
+  product: zizhujianzhan
+  softhard: '2'
+matches: |
+  body.icontains("content=\"模板系统xinnet")
+  body.icontains("href=\"msnim:chat?contact=xinnet@hotmail.com")

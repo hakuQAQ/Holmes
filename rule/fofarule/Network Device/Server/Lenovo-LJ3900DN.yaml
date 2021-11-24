@@ -1,0 +1,6 @@
+info:
+  company: lenovo
+  product: Lenovo-LJ3900DN
+  softhard: '1'
+matches: |
+  title.icontains("lenovo lj3900dn")

@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Rockoa-OA
+  softhard: '2'
+matches: |
+  body.icontains("onclick=\"loginsubmit()\"")
+  body.icontains("信呼开发团队")
+  body.icontains("技术支持：<a href=\"http://www.rockoa.com/\"")

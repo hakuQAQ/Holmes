@@ -1,0 +1,6 @@
+info:
+  company: TOTOLINK
+  product: TOTO_LINK-N150RA
+  softhard: '1'
+matches: |
+  body.icontains("src =\"/images/login_back_zn150ra.gif\"")

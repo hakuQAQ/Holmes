@@ -1,0 +1,9 @@
+info:
+  company: Belkin International, Inc.
+  product: Linksys-IP-Cameras
+  softhard: '1'
+matches: |
+  title.icontains("+tm01+") && body.icontains("content=\"wvc54gca")
+  body.icontains("content=\"wvc80n") && body.icontains("<img border=\"0\" src=\"linksys_blue_logo.gif\"></td>")
+  body.icontains("<a href=\"http://www.linksys.com/\" class=\"mainmenu\" target=\"_blank\"><script>dw(tm05)</script></a></td>")
+  body.icontains("content=\"lcs 3024") && body.icontains("align=\"center\">compact wireless-g")

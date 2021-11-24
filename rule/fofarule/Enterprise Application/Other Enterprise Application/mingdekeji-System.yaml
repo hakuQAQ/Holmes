@@ -1,0 +1,7 @@
+info:
+  company: mingdekeji
+  product: mingdekeji-System
+  softhard: '2'
+matches: |
+  body.icontains("href=\"imges/zgsh.ico\"")
+  body.icontains("荆州明德科技")

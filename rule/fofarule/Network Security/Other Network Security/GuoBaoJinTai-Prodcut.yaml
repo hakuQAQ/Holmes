@@ -1,0 +1,6 @@
+info:
+  company: jtsec
+  product: GuoBaoJinTai-Prodcut
+  softhard: '1'
+matches: |
+  body.icontains("\"程序\"->\"jtsec\"->") && banner.icontains("jtsec-os")

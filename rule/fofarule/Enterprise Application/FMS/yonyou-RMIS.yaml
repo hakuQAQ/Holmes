@@ -1,0 +1,7 @@
+info:
+  company: Yonyou Network Co Ltd
+  product: yonyou-RMIS
+  softhard: '2'
+matches: |
+  title == "用友grp-rmis系统" && body.icontains("meta http-equiv=\"grp-rmis")
+  body.icontains("href=\"clientfile/rmisupdate.exe")

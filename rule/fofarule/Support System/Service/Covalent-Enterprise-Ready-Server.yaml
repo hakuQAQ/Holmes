@@ -1,0 +1,7 @@
+info:
+  company: Pivotal Software, Inc.
+  product: Covalent-Enterprise-Ready-Server
+  softhard: '2'
+matches: |
+  header.icontains("covalentsnmp")
+  banner.icontains("covalentsnmp")

@@ -1,0 +1,8 @@
+info:
+  company: konnad
+  product: C2000-TURBO
+  softhard: '1'
+matches: |
+  title.icontains("c2000 turbo")
+  body.icontains("name=\"sublog")
+  body.icontains("name=\"version")

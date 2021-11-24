@@ -1,0 +1,10 @@
+info:
+  company: Dahua
+  product: Dahua-DSS
+  softhard: '1'
+matches: |
+  body.icontains("created by intellij idea.")
+  body.icontains("<meta http-equiv=\"refresh\" content=\"1;url='/itc'\"/>")
+  body.icontains("<meta http-equiv=\"refresh\" content=\"1;url='/admin'\"/>") && body.icontains("<a") && body.icontains("/portal/include/script/dahuadefined/headcommon.js")
+  body.icontains("created by intellij idea.")
+  body.icontains("url") && body.icontains("refresh")

@@ -1,0 +1,8 @@
+info:
+  company: znv
+  product: ZNV-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  body.icontains("object id=clientocx classid=clsid")
+  protocol.icontains("snmp") && banner.icontains("znv zxnvm")
+  banner.icontains("hdipcam login:")

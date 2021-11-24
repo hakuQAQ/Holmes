@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: iSpy-webcam
+  softhard: '1'
+matches: |
+  body.icontains("access this server via http://www.ispyconnect.com")

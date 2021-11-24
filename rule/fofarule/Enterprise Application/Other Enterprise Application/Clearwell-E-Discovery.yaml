@@ -1,0 +1,8 @@
+info:
+  company: Veritas Technologies LLC
+  product: Clearwell-E-Discovery
+  softhard: '2'
+matches: |
+  title.icontains("clearwell e-discovery platform log in")
+  header.icontains("server: clearwell")
+  banner.icontains("server: clearwell")

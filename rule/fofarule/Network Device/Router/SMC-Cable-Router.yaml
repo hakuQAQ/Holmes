@@ -1,0 +1,7 @@
+info:
+  company: SMC Networks Asia Pacific Pte Ltd
+  product: SMC-Cable-Router
+  softhard: '1'
+matches: |
+  banner.icontains("docsis1.1/docsis2.0 cable commercial router")
+  banner.icontains("smc networks")

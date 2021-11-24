@@ -1,0 +1,7 @@
+info:
+  company: Alibaba Group
+  product: DTS-Operation-Platform
+  softhard: '2'
+matches: |
+  title.icontains("dts运维平台")
+  body.icontains("window.appname = 'alidts';")

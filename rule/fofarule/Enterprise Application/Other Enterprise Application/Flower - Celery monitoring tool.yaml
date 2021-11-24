@@ -1,0 +1,6 @@
+info:
+  company: Flower
+  product: Flower - Celery monitoring tool
+  softhard: '2'
+matches: |
+  body.icontains("<a class=\"brand\" href=\"/\">flower</a>")

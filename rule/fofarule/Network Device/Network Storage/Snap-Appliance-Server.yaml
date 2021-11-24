@@ -1,0 +1,8 @@
+info:
+  company: Overland Tandberg
+  product: Snap-Appliance-Server
+  softhard: '1'
+matches: |
+  title.icontains("snap server")
+  header.icontains("snap appliance")
+  header.icontains("quantum corporation")

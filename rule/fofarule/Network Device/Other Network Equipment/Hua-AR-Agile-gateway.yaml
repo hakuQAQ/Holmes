@@ -1,0 +1,9 @@
+info:
+  company: HUAWEI
+  product: Hua-AR-Agile-gateway
+  softhard: '1'
+matches: |
+  body.icontains("document.title = 'ar web登录")
+  body.icontains("/verifycode.cgi?vrfcodeid=")
+  body.icontains("document.title = 'log in to ar web';") && body.icontains("checkvoiceservice.cgi")
+  body.icontains("ispbxmode_callback")

@@ -1,0 +1,6 @@
+info:
+  company: Zebra Technologies Corp.
+  product: ZEBRA-RZ600-200dpi-ZPL
+  softhard: '1'
+matches: |
+  body.icontains("ztc rz600-200dpi zpl</h1>")

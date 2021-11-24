@@ -1,0 +1,8 @@
+info:
+  company: Smart-Soft Ltd.
+  product: SMART-SOFT-VCard-Server
+  softhard: '1'
+matches: |
+  header.icontains("smart-soft vcard http ssl server")
+  body.icontains("<title>error</title></head><body><h1>403 - directory browsing not allowed</h1><hr>smart-soft vcard http/ssl server")
+  header.icontains("exception directory%20browsing%20not%20allowed")

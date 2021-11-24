@@ -1,0 +1,8 @@
+info:
+  company: opensns
+  product: OpenSNS
+  softhard: '2'
+matches: |
+  body.icontains("powered by opensns")
+  body.icontains("content=\"opensns")
+  body.icontains("os-icon-home app-icon ")

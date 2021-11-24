@@ -1,0 +1,7 @@
+info:
+  company: Hardlink Corporation
+  product: Hardlink-Printing-Server
+  softhard: '1'
+matches: |
+  body.icontains("<frame name=\"down\" src=\"menuindex5.htm\"")
+  title.icontains("hardlink usb mfp")

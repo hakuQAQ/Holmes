@@ -1,0 +1,7 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-UCS-Director
+  softhard: '2'
+matches: |
+  body.icontains("font-family: \"ciscosansthin\"")
+  body.icontains("cisco ucs director")

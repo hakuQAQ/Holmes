@@ -1,0 +1,6 @@
+info:
+  company: MOBOTIX AG
+  product: MOBOTIX-M25
+  softhard: '1'
+matches: |
+  body.icontains("<span class=\"bold companyname\">mobotix</span><span class=\"bold featurestypeinfo\">m25")

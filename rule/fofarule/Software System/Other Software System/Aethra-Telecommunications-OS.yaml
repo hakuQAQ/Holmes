@@ -1,0 +1,6 @@
+info:
+  company: A TLC S.r.l.
+  product: Aethra-Telecommunications-OS
+  softhard: '2'
+matches: |
+  header.icontains("atos") && title.icontains("aethra telecommunications operating system")

@@ -1,0 +1,6 @@
+info:
+  company: Samsung Group
+  product: SAMSUNG-SCX-2000FW
+  softhard: '1'
+matches: |
+  header.icontains("scx-2000fw")

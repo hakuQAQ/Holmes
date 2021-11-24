@@ -1,0 +1,6 @@
+info:
+  company: Hikvision
+  product: HIKVISION-iVMS7200
+  softhard: '1'
+matches: |
+  body.icontains("onkeydown=\"return cms.util.keydownpermit")

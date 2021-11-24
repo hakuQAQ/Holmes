@@ -1,0 +1,10 @@
+info:
+  company: Other
+  product: Redmine
+  softhard: '2'
+matches: |
+  body.icontains("redmine") && body.icontains("authenticity_token")
+  body.icontains("content=\"redmine")
+  header.icontains("_redmine_session=")
+  body.icontains("powered by <a href=\"http://www.redmine.org/")
+  banner.icontains("_redmine_session=")

@@ -1,0 +1,6 @@
+info:
+  company: ipcom
+  product: IP_COM-wifi
+  softhard: '1'
+matches: |
+  body.icontains("alt=\"ip-com logo\"")

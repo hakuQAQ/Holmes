@@ -1,0 +1,9 @@
+info:
+  company: 53kf
+  product: 53kf
+  softhard: '2'
+matches: |
+  body.icontains("chat.53kf.com/kf.php") && body.icontains("chat.53kf.com/company.php")
+  header.icontains("customer_service_language")
+  body.icontains("powered by 53kf")
+  body.icontains("tb.53kf.com/code/")

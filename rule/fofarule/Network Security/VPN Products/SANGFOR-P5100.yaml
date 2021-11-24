@@ -1,0 +1,7 @@
+info:
+  company: Sangfor
+  product: SANGFOR-P5100
+  softhard: '1'
+matches: |
+  body.icontains("<font color=\"white\">深信服科技版权所有")
+  body.icontains("p5100")

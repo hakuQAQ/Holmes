@@ -1,0 +1,6 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-Prosafe-Click-Switch
+  softhard: '1'
+matches: |
+  title.icontains("netgear prosafe click switch")

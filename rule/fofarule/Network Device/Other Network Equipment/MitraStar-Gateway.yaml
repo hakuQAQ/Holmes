@@ -1,0 +1,6 @@
+info:
+  company: MitraStar Technology Corp.
+  product: MitraStar-Gateway
+  softhard: '1'
+matches: |
+  banner.icontains("mitrastar gateway")

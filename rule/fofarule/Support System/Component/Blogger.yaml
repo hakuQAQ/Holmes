@@ -1,0 +1,7 @@
+info:
+  company: Google LLC
+  product: Blogger
+  softhard: '2'
+matches: |
+  body.icontains("content='blogger")
+  body.icontains("powered by blogger")

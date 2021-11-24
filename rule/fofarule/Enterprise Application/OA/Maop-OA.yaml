@@ -1,0 +1,9 @@
+info:
+  company: oooa
+  product: Maop-OA
+  softhard: '2'
+matches: |
+  body.icontains("pwd yahei16")
+  body.icontains("www.oooa.cn")
+  title.icontains("for 猫扑oa")
+  body.icontains("href=\"http://www.oooa.cn\">重庆猫扑网络科技有限公司</a>")

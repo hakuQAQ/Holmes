@@ -1,0 +1,7 @@
+info:
+  company: Sangfor
+  product: SANGFOR-Reporting
+  softhard: '2'
+matches: |
+  body.icontains("user_blur();")
+  body.icontains("ad report")

@@ -1,0 +1,7 @@
+info:
+  company: Best IT World(India) Pvt. Ltd.
+  product: iB-WRA150N
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"ib-wra150n")
+  banner.icontains("realm=\"ib-wra150n")

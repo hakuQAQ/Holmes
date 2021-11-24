@@ -1,0 +1,6 @@
+info:
+  company: Tranzeo Wireless
+  product: Tranzeo-Company's-product
+  softhard: '0'
+matches: |
+  banner.icontains("tranzeo ")

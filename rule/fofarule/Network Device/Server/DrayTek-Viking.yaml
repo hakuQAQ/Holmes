@@ -1,0 +1,6 @@
+info:
+  company: DrayTek Corp.
+  product: DrayTek-Viking
+  softhard: '1'
+matches: |
+  header.icontains("viking")

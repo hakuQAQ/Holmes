@@ -1,0 +1,9 @@
+info:
+  company: phpcms
+  product: PhpCMS
+  softhard: '2'
+matches: |
+  body.icontains("powered by") && body.icontains("http://www.phpcms.cn")
+  body.icontains("content=\"phpcms")
+  body.icontains("powered by phpcms")
+  body.icontains("data/config.js")

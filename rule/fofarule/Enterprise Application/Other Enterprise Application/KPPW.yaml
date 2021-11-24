@@ -1,0 +1,9 @@
+info:
+  company: kppw
+  product: KPPW
+  softhard: '2'
+matches: |
+  body.icontains("content=\"kekezu")
+  body.icontains("var siteurl = ")
+  body.icontains("skin_path = 'tpl/default',")
+  body.icontains("<img id='imgflag' src=\"tpl/default/img/")

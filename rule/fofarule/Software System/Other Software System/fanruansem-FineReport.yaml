@@ -1,0 +1,6 @@
+info:
+  company: FanRuan Software Co.，Ltd.
+  product: fanruansem-FineReport
+  softhard: '2'
+matches: |
+  body.icontains("content=\"finereport--web reporting tool\"")

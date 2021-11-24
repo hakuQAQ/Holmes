@@ -1,0 +1,8 @@
+info:
+  company: Dell Inc.
+  product: Dell-Printer
+  softhard: '1'
+matches: |
+  title.icontains("dell laser printer")
+  banner.icontains("dell laser printer")
+  header.icontains("ews-nic5") && body.icontains("<frame src=\"framelogo.htm\"")

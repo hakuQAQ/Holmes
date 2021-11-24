@@ -1,0 +1,8 @@
+info:
+  company: EFM Networks Co.,Ltd.
+  product: EFM-Networks-ipTIME-N6004
+  softhard: '1'
+matches: |
+  body.icontains("src =\"/images2/login_title.n6004.gif")
+  header.icontains("realm=\"iptime n6004")
+  banner.icontains("realm=\"iptime n6004")

@@ -1,0 +1,7 @@
+info:
+  company: Belkin International, Inc.
+  product: Linksys-VPN
+  softhard: '1'
+matches: |
+  header.icontains("linksys vpn")
+  header.icontains("linksys-vpn")

@@ -1,0 +1,7 @@
+info:
+  company: Zyxel Communications Corp.
+  product: zyxel-XGS3700
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"xgs3700")
+  banner.icontains("xgs3700")

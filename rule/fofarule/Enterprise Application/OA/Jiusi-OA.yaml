@@ -1,0 +1,7 @@
+info:
+  company: jiusi
+  product: Jiusi-OA
+  softhard: '2'
+matches: |
+  body.icontains("九思软件")
+  body.icontains("oa") && body.icontains("办公系统")

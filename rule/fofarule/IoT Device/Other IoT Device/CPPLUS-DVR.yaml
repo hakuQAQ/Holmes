@@ -1,0 +1,7 @@
+info:
+  company: CP PLUS GmbH & Co. KG.
+  product: CPPLUS-DVR
+  softhard: '1'
+matches: |
+  title.icontains("cpplus dvr –web view")
+  header.icontains("p3p: cp=cao psa our")

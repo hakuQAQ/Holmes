@@ -1,0 +1,6 @@
+info:
+  company: Raritan Inc.
+  product: Raritan-Dominion-SX
+  softhard: '1'
+matches: |
+  body.icontains("welcome to the dominion sx")

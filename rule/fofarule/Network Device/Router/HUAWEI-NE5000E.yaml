@@ -1,0 +1,6 @@
+info:
+  company: Huawei
+  product: HUAWEI-NE5000E
+  softhard: '1'
+matches: |
+  banner.icontains("huawei ne5000e")

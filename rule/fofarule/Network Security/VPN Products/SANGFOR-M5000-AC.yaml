@@ -1,0 +1,6 @@
+info:
+  company: Sangfor
+  product: SANGFOR-M5000-AC
+  softhard: '1'
+matches: |
+  body.icontains("value=\"m5000-ac")

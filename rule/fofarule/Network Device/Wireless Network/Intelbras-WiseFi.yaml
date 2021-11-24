@@ -1,0 +1,6 @@
+info:
+  company: intelbras lnc.
+  product: Intelbras-WiseFi
+  softhard: '1'
+matches: |
+  body.icontains("class=\"btn btn-wisefi\" id=\"access_wisefi\"")

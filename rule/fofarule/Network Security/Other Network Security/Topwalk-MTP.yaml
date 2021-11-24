@@ -1,0 +1,7 @@
+info:
+  company: topwalk
+  product: Topwalk-MTP
+  softhard: '2'
+matches: |
+  body.icontains("<meta http-equiv=\"refresh\" content=\"0;url=/usercertloginaction.action\" />")
+  title.icontains("天行视频图像安全监控接入系统")

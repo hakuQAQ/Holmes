@@ -1,0 +1,6 @@
+info:
+  company: Epygi Technologies，LLC
+  product: epygi-QXFXS24
+  softhard: '1'
+matches: |
+  body.icontains("epygi            <span class=\"product-name\">qxfxs24</span>")

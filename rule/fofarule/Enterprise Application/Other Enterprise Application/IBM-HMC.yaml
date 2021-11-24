@@ -1,0 +1,8 @@
+info:
+  company: International Business Machines Corporation
+  product: IBM-HMC
+  softhard: '2'
+matches: |
+  title.icontains("hmc1") && body.icontains("rel=\"icon\" href=\"/hmc.png")
+  title.icontains("硬件管理控制台")
+  body.icontains("<frame src=\"/preloginmonitor/welcome.jsp\"/>")

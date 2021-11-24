@@ -1,0 +1,8 @@
+info:
+  company: TRENDnet, Inc.
+  product: TRENDnet-TEW-733GR
+  softhard: '1'
+matches: |
+  header.icontains("tew-733gr")
+  banner.icontains("tew-733gr")
+  banner.icontains("server:")

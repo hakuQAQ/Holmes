@@ -1,0 +1,8 @@
+info:
+  company: ecshop
+  product: shopex
+  softhard: '2'
+matches: |
+  body.icontains("content=\"shopex")
+  body.icontains("@author litie[aita]shopex.cn")
+  body.icontains("http://www.shopex.cn' target='_blank'")

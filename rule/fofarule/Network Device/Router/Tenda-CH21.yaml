@@ -1,0 +1,6 @@
+info:
+  company: Shenzhen Tenda Technology Co.,Ltd
+  product: Tenda-CH21
+  softhard: '1'
+matches: |
+  body.icontains("var sys_target = \"ch21\"")

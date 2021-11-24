@@ -1,0 +1,6 @@
+info:
+  company: DAS-security
+  product: DAS-Logge
+  softhard: '1'
+matches: |
+  title.icontains("明御综合日志审计")

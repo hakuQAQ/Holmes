@@ -1,0 +1,7 @@
+info:
+  company: HUAWEI
+  product: HuaWei-SSL-VPN
+  softhard: '2'
+matches: |
+  body.icontains("href=\"./logo/&logo&.ico\"")
+  body.icontains("var apppath = \"/app/hw/\"")

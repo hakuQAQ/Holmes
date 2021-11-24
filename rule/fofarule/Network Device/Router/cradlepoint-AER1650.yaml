@@ -1,0 +1,6 @@
+info:
+  company: Cradlepoint, Inc.
+  product: cradlepoint-AER1650
+  softhard: '1'
+matches: |
+  title.icontains("login :: aer1650")

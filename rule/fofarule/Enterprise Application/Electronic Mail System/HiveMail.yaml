@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: HiveMail
+  softhard: '2'
+matches: |
+  body.icontains("content=\"hivemail")
+  header.icontains("hivesession")
+  banner.icontains("hivesession")

@@ -1,0 +1,10 @@
+info:
+  company: leadsec
+  product: Leadsec-Firewall
+  softhard: '1'
+matches: |
+  banner.icontains("leadsec power v firewall")
+  banner.icontains("leadsec smart v firewall")
+  banner.icontains("lenovo power v firewall")
+  banner.icontains("lenovo smart v firewall")
+  title.icontains("网御 防火墙")

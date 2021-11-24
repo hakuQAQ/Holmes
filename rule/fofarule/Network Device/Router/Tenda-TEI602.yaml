@@ -1,0 +1,6 @@
+info:
+  company: Shenzhen Tenda Technology Co.,Ltd
+  product: Tenda-TEI602
+  softhard: '1'
+matches: |
+  body.icontains("var sys_target = \"tei602\"")

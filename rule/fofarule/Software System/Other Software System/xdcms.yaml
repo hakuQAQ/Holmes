@@ -1,0 +1,6 @@
+info:
+  company: xdcms
+  product: xdcms
+  softhard: '2'
+matches: |
+  body.icontains("system/templates/xdcms")

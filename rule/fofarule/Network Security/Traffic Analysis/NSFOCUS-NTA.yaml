@@ -1,0 +1,6 @@
+info:
+  company: NSFOCUS
+  product: NSFOCUS-NTA
+  softhard: '1'
+matches: |
+  title == "nsfocus nta" && body.icontains("action=\"/auth/enforce")

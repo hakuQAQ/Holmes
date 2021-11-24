@@ -1,0 +1,7 @@
+info:
+  company: APPRO TECHNOLOGY INC.
+  product: DMS-DVR
+  softhard: '1'
+matches: |
+  header.icontains("operation=invalidoperation")
+  header.icontains("&unit=dms&id=")

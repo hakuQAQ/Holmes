@@ -1,0 +1,7 @@
+info:
+  company: Cisco Systems, Inc.
+  product: CISCO-IMC-Supervisor
+  softhard: '2'
+matches: |
+  body.icontains("font-family: \"ciscosansthin\"")
+  body.icontains("cisco imc supervisor")

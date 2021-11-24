@@ -1,0 +1,7 @@
+info:
+  company: NSFOCUS
+  product: NSFOCUS-BVS
+  softhard: '2'
+matches: |
+  body.icontains("/nsfocus_bvs.css")
+  title.icontains("nsfocus bvs")

@@ -1,0 +1,7 @@
+info:
+  company: Tencent
+  product: monitoring Center
+  softhard: '2'
+matches: |
+  title.icontains("鹰眼盒子监控中心")
+  body.icontains("content=\"鹰眼盒子监控中心")

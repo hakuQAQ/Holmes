@@ -1,0 +1,6 @@
+info:
+  company: Tracker Network
+  product: Network-Tracker
+  softhard: '2'
+matches: |
+  body.icontains(">network tracker<")

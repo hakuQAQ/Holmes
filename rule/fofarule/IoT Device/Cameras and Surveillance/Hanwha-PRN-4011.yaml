@@ -1,0 +1,6 @@
+info:
+  company: Hanwha Techwin Co., Ltd.
+  product: Hanwha-PRN-4011
+  softhard: '1'
+matches: |
+  body.icontains("$.nvr.model_name=\"prn-4011\"")

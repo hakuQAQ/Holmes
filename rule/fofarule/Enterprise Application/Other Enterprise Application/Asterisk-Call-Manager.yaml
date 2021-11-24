@@ -1,0 +1,7 @@
+info:
+  company: Sangoma Technologies.
+  product: Asterisk-Call-Manager
+  softhard: '0'
+matches: |
+  banner.icontains("asterisk call manager")
+  banner.icontains("asterisk call manager proxy")

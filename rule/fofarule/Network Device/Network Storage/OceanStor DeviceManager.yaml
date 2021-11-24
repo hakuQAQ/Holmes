@@ -1,0 +1,6 @@
+info:
+  company: HUAWEI
+  product: OceanStor DeviceManager
+  softhard: '1'
+matches: |
+  title.icontains("oceanstor devicemanager")

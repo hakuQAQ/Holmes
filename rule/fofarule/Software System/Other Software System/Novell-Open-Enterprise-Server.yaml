@@ -1,0 +1,8 @@
+info:
+  company: Micro Focus International plc
+  product: Novell-Open-Enterprise-Server
+  softhard: '2'
+matches: |
+  body.icontains("<!-- this is all just a super-duper redirect to the welcome page")
+  title.icontains("home - novell open enterprise server")
+  body.icontains("href=\"http://www.novell.com/products/openenterpriseserver")

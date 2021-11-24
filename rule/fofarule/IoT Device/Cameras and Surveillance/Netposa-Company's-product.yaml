@@ -1,0 +1,9 @@
+info:
+  company: netposa
+  product: Netposa-Company's-product
+  softhard: '1'
+matches: |
+  body.icontains("<h1>万解 - 东方网力: </h1>")
+  body.icontains("<span class=\"copyright\">东方网力科技股份有限公司")
+  body.icontains("<a href=\"http://www.netposa.com/\">关于我们</a>")
+  body.icontains("<span class=\"big\">东方网力科技股份有限公司")

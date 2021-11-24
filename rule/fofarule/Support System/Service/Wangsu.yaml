@@ -1,0 +1,11 @@
+info:
+  company: chinanetcenter
+  product: Wangsu
+  softhard: '2'
+matches: |
+  header.icontains("cdn cache server")
+  header.icontains("ws cdn server")
+  banner.icontains("server: ws cdn server")
+  header.icontains("ws-web-server")
+  banner.icontains("ws-web-server")
+  banner.icontains("server: ")

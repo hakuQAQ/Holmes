@@ -1,0 +1,6 @@
+info:
+  company: United Technologies Corporation.
+  product: lenel-video-management
+  softhard: '1'
+matches: |
+  body.icontains("lenel remove admin use lefttop setup button")

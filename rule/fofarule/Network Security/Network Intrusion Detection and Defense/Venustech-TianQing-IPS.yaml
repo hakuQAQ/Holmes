@@ -1,0 +1,7 @@
+info:
+  company: venustech
+  product: Venustech-TianQing-IPS
+  softhard: '1'
+matches: |
+  body.icontains("/css/cover_admin.css") && body.icontains("nips") && body.icontains("入侵防御系统")
+  title.icontains("天清入侵防御系统")

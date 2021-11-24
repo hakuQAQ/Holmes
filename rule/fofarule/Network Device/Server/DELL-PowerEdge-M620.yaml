@@ -1,0 +1,6 @@
+info:
+  company: Dell Inc.
+  product: DELL-PowerEdge-M620
+  softhard: '1'
+matches: |
+  body.icontains("id=\"serverinfo\"> poweredge m620")

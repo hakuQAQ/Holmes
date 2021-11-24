@@ -1,0 +1,6 @@
+info:
+  company: pldsec
+  product: Palladium-Core4A-UTM
+  softhard: '1'
+matches: |
+  title.icontains("帕拉迪core4a-utm") && title.icontains("帕拉迪 icore-4a")

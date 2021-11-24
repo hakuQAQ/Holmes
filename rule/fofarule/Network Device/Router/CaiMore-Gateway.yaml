@@ -1,0 +1,7 @@
+info:
+  company: caimore
+  product: CaiMore-Gateway
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"caimore gateway")
+  header.icontains("realm=\"caimore")

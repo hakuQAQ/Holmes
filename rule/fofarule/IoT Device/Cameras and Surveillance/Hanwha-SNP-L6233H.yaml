@@ -1,0 +1,6 @@
+info:
+  company: Hanwha Techwin Co., Ltd.
+  product: Hanwha-SNP-L6233H
+  softhard: '1'
+matches: |
+  body.icontains("var defaultfilename = \"snp-l6233h\"")

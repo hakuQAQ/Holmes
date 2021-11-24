@@ -1,0 +1,9 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-SecPath-ACG1000
+  softhard: '1'
+matches: |
+  banner.icontains("h3c secpath acg1000")
+  body.icontains("src=\"./js/web_auth.js")
+  body.icontains("var is_mobi = is_mobile()")
+  body.icontains("var msg1=\"username can not be empty\"")

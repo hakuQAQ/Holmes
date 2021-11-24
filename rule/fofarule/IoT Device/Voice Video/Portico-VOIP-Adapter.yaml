@@ -1,0 +1,6 @@
+info:
+  company: CITEL Inc
+  product: Portico-VOIP-Adapter
+  softhard: '1'
+matches: |
+  banner.icontains("portico telephone voip adapter")

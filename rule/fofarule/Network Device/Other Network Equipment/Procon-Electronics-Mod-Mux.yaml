@@ -1,0 +1,6 @@
+info:
+  company: Procon Electronics
+  product: Procon-Electronics-Mod-Mux
+  softhard: '1'
+matches: |
+  header.icontains("procon electronics mod-mux")

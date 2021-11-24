@@ -1,0 +1,8 @@
+info:
+  company: Clientexec LLC
+  product: ClientExec
+  softhard: '2'
+matches: |
+  body.icontains("powered by clientexec")
+  header.icontains("clientexec=")
+  banner.icontains("clientexec=")

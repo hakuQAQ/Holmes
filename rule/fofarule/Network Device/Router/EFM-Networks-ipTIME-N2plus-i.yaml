@@ -1,0 +1,6 @@
+info:
+  company: EFM Networks Co.,Ltd.
+  product: EFM-Networks-ipTIME-N2plus-i
+  softhard: '1'
+matches: |
+  body.icontains("src=\"/images2/login_title.n2pi.gif\"")

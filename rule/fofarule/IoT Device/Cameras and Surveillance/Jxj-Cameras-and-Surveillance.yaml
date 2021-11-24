@@ -1,0 +1,6 @@
+info:
+  company: szjxj
+  product: Jxj-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  body.icontains("classid=\"clsid:a90f043b-7fa7-44cd-99ae-f058629cf7aa\" codebase='javolede.cab#version")

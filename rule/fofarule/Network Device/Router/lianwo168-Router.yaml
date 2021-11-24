@@ -1,0 +1,8 @@
+info:
+  company: shunwang
+  product: lianwo168-Router
+  softhard: '1'
+matches: |
+  title.icontains("顺网无线")
+  body.icontains("/cgi-bin/sw_login.cgi")
+  body.icontains("document.form1.submit()")

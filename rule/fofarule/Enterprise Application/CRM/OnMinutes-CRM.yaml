@@ -1,0 +1,8 @@
+info:
+  company: OnMinutes Online CRM.
+  product: OnMinutes-CRM
+  softhard: '2'
+matches: |
+  title.icontains("- onminutes online crm")
+  body.icontains("<div class=\"extras\" id=\"password_extras\">")
+  body.icontains("crm")

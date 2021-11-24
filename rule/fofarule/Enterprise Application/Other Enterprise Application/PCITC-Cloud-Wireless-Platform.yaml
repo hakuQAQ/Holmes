@@ -1,0 +1,6 @@
+info:
+  company: PCITC
+  product: PCITC-Cloud-Wireless-Platform
+  softhard: '2'
+matches: |
+  title.icontains("石化盈科云无线平台")

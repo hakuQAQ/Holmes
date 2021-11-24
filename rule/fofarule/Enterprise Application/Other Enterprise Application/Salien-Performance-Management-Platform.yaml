@@ -1,0 +1,7 @@
+info:
+  company: Salien
+  product: Salien-Performance-Management-Platform
+  softhard: '2'
+matches: |
+  body.icontains("href=\"images/login/cbgl/favicon.ico\"")
+  body.icontains("content=\"copyright 2010 www.salien.com.cn\"")

@@ -1,0 +1,6 @@
+info:
+  company: Abi-Tech Solution PTE LTD.
+  product: abitech-Wireless-Router
+  softhard: '1'
+matches: |
+  title.icontains("abi  wireless router")

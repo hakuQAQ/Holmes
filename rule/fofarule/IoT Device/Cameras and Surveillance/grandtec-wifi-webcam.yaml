@@ -1,0 +1,7 @@
+info:
+  company: grandtec
+  product: grandtec-wifi-webcam
+  softhard: '1'
+matches: |
+  header.icontains("basic realm=\"welcome to ipcam !\"")
+  banner.icontains("basic realm=\"welcome to ipcam !\"")

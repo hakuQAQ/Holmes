@@ -1,0 +1,7 @@
+info:
+  company: SektionEins GmbH
+  product: Suhosin
+  softhard: '2'
+matches: |
+  header.icontains("suhosin")
+  banner.icontains("suhosin")

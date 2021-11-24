@@ -1,0 +1,6 @@
+info:
+  company: Auxilium software
+  product: Auxilium-PetRatePro
+  softhard: '2'
+matches: |
+  body.icontains("index.php?cmd=11")

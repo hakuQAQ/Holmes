@@ -1,0 +1,6 @@
+info:
+  company: TOPSEC
+  product: Topsec-TopFlow
+  softhard: '1'
+matches: |
+  body.icontains("天融信topflow")

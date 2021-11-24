@@ -1,0 +1,6 @@
+info:
+  company: founder
+  product: founder-SafeGateway
+  softhard: '1'
+matches: |
+  cert.icontains("organization: www.foundersec.com")

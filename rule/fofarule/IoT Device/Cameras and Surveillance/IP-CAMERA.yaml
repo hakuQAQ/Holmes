@@ -1,0 +1,7 @@
+info:
+  company: Netwave Equipment Corporation
+  product: IP-CAMERA
+  softhard: '1'
+matches: |
+  banner.icontains("netwave ip camera")
+  header.icontains("netwave ip camera")

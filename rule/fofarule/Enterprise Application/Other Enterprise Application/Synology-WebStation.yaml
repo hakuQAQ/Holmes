@@ -1,0 +1,8 @@
+info:
+  company: Synology Inc.
+  product: Synology-WebStation
+  softhard: '2'
+matches: |
+  title.icontains("welcome to synology web station")
+  body.icontains("id=\"paragraph\">web station has been enabled. to finish setting up your website, please see the \"web service")
+  title.icontains(" synology ") && body.icontains("web service")

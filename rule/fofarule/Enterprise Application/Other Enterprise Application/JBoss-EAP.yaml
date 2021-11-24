@@ -1,0 +1,7 @@
+info:
+  company: Red Hat, Inc.
+  product: JBoss-EAP
+  softhard: '2'
+matches: |
+  body.icontains("<h3>your jboss enterprise application platform is running.</h3>")
+  title == "eap 6" && body.icontains("href=\"eap.css")

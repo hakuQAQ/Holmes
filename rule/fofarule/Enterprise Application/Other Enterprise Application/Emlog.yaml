@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Emlog
+  softhard: '2'
+matches: |
+  body.icontains("content=\"emlog\"")

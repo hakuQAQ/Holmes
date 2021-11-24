@@ -1,0 +1,6 @@
+info:
+  company: Dahua
+  product: dahua-DH-SD2304
+  softhard: '1'
+matches: |
+  banner.icontains("sd2304") && cert.icontains("sd2304")

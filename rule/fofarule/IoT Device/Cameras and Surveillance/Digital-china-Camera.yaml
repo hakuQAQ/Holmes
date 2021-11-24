@@ -1,0 +1,7 @@
+info:
+  company: digitalchina
+  product: Digital-china-Camera
+  softhard: '1'
+matches: |
+  header.icontains("ipcamera-webs")
+  body.icontains("神州数码")

@@ -1,0 +1,6 @@
+info:
+  company: BMR s.r.o
+  product: BMR-HMS
+  softhard: '1'
+matches: |
+  header.icontains("bmr hms")

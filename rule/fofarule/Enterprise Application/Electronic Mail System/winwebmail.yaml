@@ -1,0 +1,13 @@
+info:
+  company: Other
+  product: winwebmail
+  softhard: '2'
+matches: |
+  title.icontains("winwebmail")
+  body.icontains("winwebmail server")
+  body.icontains("images/owin.css")
+  protocol.icontains("smtp") && banner.icontains("winwebmail")
+  body.icontains("<td class=newsdiv-mid2>邮局管理员可自行分配邮箱！</td>")
+  body.icontains("onclick=\"this.style.behavior='url(#default#homepage)';this.sethomepage")
+  body.icontains("type=\"hidden\" name=\"secex\"")
+  body.icontains("href=\"images/hwem.css\"")

@@ -1,0 +1,6 @@
+info:
+  company: TRENDnet, Inc.
+  product: TRENDnet-TEG-240WS
+  softhard: '1'
+matches: |
+  banner.icontains("teg-240ws")

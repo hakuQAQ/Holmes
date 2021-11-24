@@ -1,0 +1,8 @@
+info:
+  company: gnway
+  product: E-SoonLink-
+  softhard: '2'
+matches: |
+  header.icontains("gnway web server")
+  body.icontains("document.writeln(companymail)")
+  body.icontains("志高易联")

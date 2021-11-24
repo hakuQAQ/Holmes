@@ -1,0 +1,6 @@
+info:
+  company: bluedon
+  product: Bluedon-Intrusion-Detection
+  softhard: '2'
+matches: |
+  title.icontains("bluedon-idp - login")

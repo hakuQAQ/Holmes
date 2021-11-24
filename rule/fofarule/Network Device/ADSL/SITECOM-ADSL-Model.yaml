@@ -1,0 +1,7 @@
+info:
+  company: Sitecom B.V.
+  product: SITECOM-ADSL-Model
+  softhard: '1'
+matches: |
+  header.icontains("basic realm=\"sitecom")
+  banner.icontains("basic realm=\"sitecom")

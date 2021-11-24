@@ -1,0 +1,6 @@
+info:
+  company: foton
+  product: FOTON-System
+  softhard: '2'
+matches: |
+  title.icontains("ftdcs")

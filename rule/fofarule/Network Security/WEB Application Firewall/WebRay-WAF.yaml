@@ -1,0 +1,8 @@
+info:
+  company: webray
+  product: WebRay-WAF
+  softhard: '1'
+matches: |
+  header.icontains("rayengine")
+  header.icontains("drivedby: raysrv")
+  banner.icontains("rayengine") && banner.icontains("drivedby: raysrv")

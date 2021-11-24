@@ -1,0 +1,7 @@
+info:
+  company: wosign
+  product: Wosign-SSL-Cert
+  softhard: '2'
+matches: |
+  body.icontains("https://seal.wosign.com/tws.js")
+  body.icontains("https://seal.wosign.com/signature")

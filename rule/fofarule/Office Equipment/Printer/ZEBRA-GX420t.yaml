@@ -1,0 +1,6 @@
+info:
+  company: Zebra Technologies Corp.
+  product: ZEBRA-GX420t
+  softhard: '1'
+matches: |
+  body.icontains("ztc gx420t</h1>")

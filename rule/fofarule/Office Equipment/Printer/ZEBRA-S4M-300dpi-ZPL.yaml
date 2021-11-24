@@ -1,0 +1,6 @@
+info:
+  company: Zebra Technologies Corp.
+  product: ZEBRA-S4M-300dpi-ZPL
+  softhard: '1'
+matches: |
+  body.icontains("ztc s4m-300dpi zpl</h1>")

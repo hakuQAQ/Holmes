@@ -1,0 +1,7 @@
+info:
+  company: apdhc
+  product: APD-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  body.icontains("var listenport = 6002;")
+  body.icontains("lg_body_iptpsw")

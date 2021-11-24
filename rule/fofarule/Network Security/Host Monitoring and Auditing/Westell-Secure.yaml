@@ -1,0 +1,8 @@
+info:
+  company: Westell Technologies, Inc.
+  product: Westell-Secure
+  softhard: '2'
+matches: |
+  header.icontains("server: wstl cpe")
+  header.icontains("realm") && banner.icontains("server: wstl cpe")
+  banner.icontains(" realm") && header.icontains("realm=\"westell secure") && banner.icontains("realm=\"westell secure")

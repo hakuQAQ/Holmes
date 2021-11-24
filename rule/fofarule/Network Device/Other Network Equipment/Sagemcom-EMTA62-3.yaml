@@ -1,0 +1,6 @@
+info:
+  company: Sagemcom Group
+  product: Sagemcom-EMTA62-3
+  softhard: '1'
+matches: |
+  banner.icontains("emta62-3 wireless voice gateway")

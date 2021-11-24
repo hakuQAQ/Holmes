@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: EasySCP
+  softhard: '2'
+matches: |
+  header.icontains("easyscp=")
+  banner.icontains("easyscp=")
+  body.icontains("content='easyscp") && body.icontains("/css/easyscp.login.css")

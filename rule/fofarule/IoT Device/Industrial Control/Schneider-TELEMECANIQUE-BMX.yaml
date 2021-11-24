@@ -1,0 +1,6 @@
+info:
+  company: Schneider Electric
+  product: Schneider-TELEMECANIQUE-BMX
+  softhard: '1'
+matches: |
+  banner.icontains("telemecanique bmx")

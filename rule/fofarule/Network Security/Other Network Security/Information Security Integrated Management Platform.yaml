@@ -1,0 +1,7 @@
+info:
+  company: unisk
+  product: Information Security Integrated Management Platform
+  softhard: '2'
+matches: |
+  title.icontains("信息安全综合管理平台")
+  body.icontains("ccaq_kf@unisk.cn")

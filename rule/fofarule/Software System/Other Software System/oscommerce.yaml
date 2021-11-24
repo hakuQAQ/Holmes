@@ -1,0 +1,7 @@
+info:
+  company: osCommerce
+  product: oscommerce
+  softhard: '2'
+matches: |
+  body.icontains("src=\"images/oscommerce.png")
+  header.icontains("set-cookie: oscsid=")

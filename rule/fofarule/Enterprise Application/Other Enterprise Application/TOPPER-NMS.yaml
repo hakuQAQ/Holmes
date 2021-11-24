@@ -1,0 +1,6 @@
+info:
+  company: Topper Inc.
+  product: TOPPER-NMS
+  softhard: '2'
+matches: |
+  body.icontains("mailto:kenstar@kenstar-group.com")

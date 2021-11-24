@@ -1,0 +1,6 @@
+info:
+  company: 5V Technologies, Ltd.
+  product: 5VTechnologies-BlueAngelSoftwareSuite
+  softhard: '2'
+matches: |
+  body.icontains("/cgi-bin/webctrl.cgi?action=index_page")

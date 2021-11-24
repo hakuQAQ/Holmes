@@ -1,0 +1,8 @@
+info:
+  company: Gadspot
+  product: Gadspot-NC1000-L10
+  softhard: '1'
+matches: |
+  body.icontains("content=\"chenxiaohui\"")
+  body.icontains("src=\"/jpeg/camimg.jpg\"")
+  body.icontains("<nobr>video server")

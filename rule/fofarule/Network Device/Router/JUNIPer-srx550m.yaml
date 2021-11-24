@@ -1,0 +1,8 @@
+info:
+  company: Juniper Networks, Inc.
+  product: JUNIPer-srx550m
+  softhard: '1'
+matches: |
+  banner.icontains("juniper networks, inc. srx550m")
+  body.icontains("var modelphpstr = \"srx550m\"")
+  body.icontains("class=\"jweb-title uppercase\"> - srx550m")

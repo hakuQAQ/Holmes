@@ -1,0 +1,8 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-R8000P
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"netgear r8000p")
+  banner.icontains("netgear r8000p")
+  body.icontains("content=\"r8000p")

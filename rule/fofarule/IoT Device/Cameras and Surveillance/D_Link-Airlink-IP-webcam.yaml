@@ -1,0 +1,8 @@
+info:
+  company: D-Link Corporation
+  product: D_Link-Airlink-IP-webcam
+  softhard: '1'
+matches: |
+  header.icontains("camera web server")
+  header.icontains("apache-coyote")
+  body.icontains("bv = navigator.appversion")

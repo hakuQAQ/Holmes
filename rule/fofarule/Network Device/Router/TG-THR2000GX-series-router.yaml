@@ -1,0 +1,6 @@
+info:
+  company: tg-net
+  product: TG-THR2000GX-series-router
+  softhard: '1'
+matches: |
+  banner.icontains("tg-net thr2000gx series router")

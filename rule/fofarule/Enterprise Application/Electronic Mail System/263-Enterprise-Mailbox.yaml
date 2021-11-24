@@ -1,0 +1,9 @@
+info:
+  company: '263'
+  product: 263-Enterprise-Mailbox
+  softhard: '2'
+matches: |
+  body.icontains("net263.wm.custom_login.homepage_init")
+  title.icontains("263企业邮箱")
+  cert.icontains("subject: c=cn, st=beijing, l=beijing, o=beijing 263 enterprise correspondence co.,ltd")
+  body.icontains("src=\"/custom_login/js/net263_wm_util.js")

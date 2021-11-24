@@ -1,0 +1,6 @@
+info:
+  company: HWS
+  product: hws-Host
+  softhard: '2'
+matches: |
+  body.icontains("content=\"护卫神·主机大师 前台管理登录\"")

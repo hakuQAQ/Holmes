@@ -1,0 +1,6 @@
+info:
+  company: Hitachi Data Systems Corporation
+  product: Hitachi-Ethernet-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("hitachi cable ethernet switch")

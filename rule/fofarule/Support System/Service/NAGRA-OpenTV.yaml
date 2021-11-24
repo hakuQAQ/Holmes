@@ -1,0 +1,7 @@
+info:
+  company: Nagravision S.A.
+  product: NAGRA-OpenTV
+  softhard: '2'
+matches: |
+  header.icontains("opentv")
+  banner.icontains("opentv") && banner.icontains("server:")

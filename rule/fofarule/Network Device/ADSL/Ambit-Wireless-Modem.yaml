@@ -1,0 +1,6 @@
+info:
+  company: Ambit Wireless Networks, Inc.
+  product: Ambit-Wireless-Modem
+  softhard: '1'
+matches: |
+  banner.icontains("ambit wireless cablemodem")

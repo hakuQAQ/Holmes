@@ -1,0 +1,6 @@
+info:
+  company: sifayun
+  product: sifayun-System
+  softhard: '1'
+matches: |
+  title.icontains("新视云编码机管理系统")

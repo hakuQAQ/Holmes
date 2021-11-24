@@ -1,0 +1,7 @@
+info:
+  company: 'gitee '
+  product: CheungSSH
+  softhard: '2'
+matches: |
+  title.icontains("cheungssh") && body.icontains(".cheungsshareacontent")
+  title.icontains("cheungssh")

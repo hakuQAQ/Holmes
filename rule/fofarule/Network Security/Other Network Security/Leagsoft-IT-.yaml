@@ -1,0 +1,7 @@
+info:
+  company: leagsoft
+  product: Leagsoft-IT-
+  softhard: '1'
+matches: |
+  title.icontains("联软it安全运维管理系统")
+  body.icontains("action=\"/manager/logincontroller.htm?act=login")

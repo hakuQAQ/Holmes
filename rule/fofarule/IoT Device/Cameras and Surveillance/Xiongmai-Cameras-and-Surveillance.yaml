@@ -1,0 +1,6 @@
+info:
+  company: xiongmaitech
+  product: Xiongmai-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  title.icontains("netsurveillance web")

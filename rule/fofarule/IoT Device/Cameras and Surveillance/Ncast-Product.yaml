@@ -1,0 +1,7 @@
+info:
+  company: ncast
+  product: Ncast-Product
+  softhard: '1'
+matches: |
+  body.icontains("广州盈可视电子科技有限公司（ncast）")
+  body.icontains("content=\"盈可视ncast")

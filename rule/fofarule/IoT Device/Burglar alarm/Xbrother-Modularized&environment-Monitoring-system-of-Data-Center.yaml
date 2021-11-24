@@ -1,0 +1,8 @@
+info:
+  company: xbrother
+  product: Xbrother-Modularized&environment-Monitoring-system-of-Data-Center
+  softhard: '1'
+matches: |
+  title.icontains("深圳市共济科技机房监控系统")
+  body.icontains("id=webclient codebase=webclient.cab")
+  body.icontains("classid=clsid:6892ebc7-0186-4a73-a5ce-a144865f3dc5>")

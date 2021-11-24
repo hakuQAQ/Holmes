@@ -1,0 +1,8 @@
+info:
+  company: EnGenius Technologies, Inc.
+  product: EnGenius-Wireless-Router
+  softhard: '1'
+matches: |
+  body.icontains("firmwarever")
+  body.icontains("engeniusrouter")
+  body.icontains("/logo_engenius.png")

@@ -1,0 +1,10 @@
+info:
+  company: Emerson Electric Co.
+  product: Emerson-Network-Power
+  softhard: '1'
+matches: |
+  title.icontains("sitemonitor!")
+  body.icontains("emerson network power")
+  title.icontains("usbvideo webplayer")
+  banner.icontains("ups") && banner.icontains("emerson network power co.")
+  banner.icontains("emerson network power")

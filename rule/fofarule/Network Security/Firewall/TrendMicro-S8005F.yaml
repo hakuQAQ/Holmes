@@ -1,0 +1,6 @@
+info:
+  company: Trend Micro Incorporated.
+  product: TrendMicro-S8005F
+  softhard: '1'
+matches: |
+  cert.icontains("s8005f")

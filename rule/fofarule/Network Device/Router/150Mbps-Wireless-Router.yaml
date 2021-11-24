@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: 150Mbps-Wireless-Router
+  softhard: '1'
+matches: |
+  title.icontains("150mbps wireless router")

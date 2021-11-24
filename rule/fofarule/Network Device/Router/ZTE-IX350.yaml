@@ -1,0 +1,6 @@
+info:
+  company: ZTE
+  product: ZTE-IX350
+  softhard: '1'
+matches: |
+  body.icontains("welcome to zte ix350</span>")

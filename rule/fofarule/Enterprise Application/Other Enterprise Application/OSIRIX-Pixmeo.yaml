@@ -1,0 +1,6 @@
+info:
+  company: Pixmeo SARL
+  product: OSIRIX-Pixmeo
+  softhard: '2'
+matches: |
+  body.icontains("<span>radone pacs</span>")

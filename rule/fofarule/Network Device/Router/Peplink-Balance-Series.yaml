@@ -1,0 +1,7 @@
+info:
+  company: Peplink
+  product: Peplink-Balance-Series
+  softhard: '1'
+matches: |
+  banner.icontains("peplink balance series")
+  header.icontains("realm=\"peplink balance series")

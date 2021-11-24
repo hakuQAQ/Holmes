@@ -1,0 +1,6 @@
+info:
+  company: Dreambox
+  product: open-Dreambox
+  softhard: '2'
+matches: |
+  body.icontains("src=\"/web-data/img\"") && title.icontains("dreambox webcontrol")

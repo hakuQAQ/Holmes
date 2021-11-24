@@ -1,0 +1,6 @@
+info:
+  company: pmway
+  product: PMWAY-E6
+  softhard: '2'
+matches: |
+  title.icontains("鹏为软件 e6")

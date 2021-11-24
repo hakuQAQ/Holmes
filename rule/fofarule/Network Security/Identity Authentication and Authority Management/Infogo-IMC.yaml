@@ -1,0 +1,6 @@
+info:
+  company: infogo
+  product: Infogo-IMC
+  softhard: '2'
+matches: |
+  body.icontains("client_check/js/global.js")

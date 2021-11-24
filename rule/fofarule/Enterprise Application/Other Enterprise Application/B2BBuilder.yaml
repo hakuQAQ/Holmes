@@ -1,0 +1,6 @@
+info:
+  company: b2bbuilder
+  product: B2BBuilder
+  softhard: '2'
+matches: |
+  body.icontains("content=\"b2bbuilder") && body.icontains("translatebuttonid = \"b2bbuilder")

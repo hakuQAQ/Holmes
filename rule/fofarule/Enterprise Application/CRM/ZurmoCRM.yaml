@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: ZurmoCRM
+  softhard: '2'
+matches: |
+  title.icontains("zurmocrm sign in")

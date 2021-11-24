@@ -1,0 +1,7 @@
+info:
+  company: Intel Corporation
+  product: Intel-Router
+  softhard: '1'
+matches: |
+  banner.icontains("intel corporation")
+  banner.icontains(" router")

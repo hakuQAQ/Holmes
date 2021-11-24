@@ -1,0 +1,6 @@
+info:
+  company: International Business Machines Corporation
+  product: IBM-PowerPC
+  softhard: '1'
+matches: |
+  banner.icontains("powerpc chrp computer")

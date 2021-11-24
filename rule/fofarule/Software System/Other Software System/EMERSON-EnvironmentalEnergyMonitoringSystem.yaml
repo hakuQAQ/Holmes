@@ -1,0 +1,6 @@
+info:
+  company: EMERSON
+  product: EMERSON-EnvironmentalEnergyMonitoringSystem
+  softhard: '2'
+matches: |
+  body.icontains("alert(\"网络断连或者idu-s没有启动.")

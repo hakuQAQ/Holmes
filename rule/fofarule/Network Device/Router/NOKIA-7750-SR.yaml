@@ -1,0 +1,6 @@
+info:
+  company: Nokia Corporation
+  product: NOKIA-7750-SR
+  softhard: '1'
+matches: |
+  banner.icontains("nokia 7750 sr")

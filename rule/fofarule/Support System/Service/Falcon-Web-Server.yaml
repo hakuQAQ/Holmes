@@ -1,0 +1,6 @@
+info:
+  company: Blue Face Ltd.
+  product: Falcon-Web-Server
+  softhard: '2'
+matches: |
+  header.icontains("falcon web server")

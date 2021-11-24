@@ -1,0 +1,8 @@
+info:
+  company: cmseasy
+  product: CmsEasy
+  softhard: '2'
+matches: |
+  title.icontains("powered by cmseasy")
+  header.icontains("http://www.cmseasy.cn/service_1.html")
+  body.icontains("content=\"cmseasy")

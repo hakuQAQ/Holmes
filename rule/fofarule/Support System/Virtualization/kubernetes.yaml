@@ -1,0 +1,16 @@
+info:
+  company: Other
+  product: kubernetes
+  softhard: '2'
+matches: |
+  title.icontains("kubernetes dashboard")
+  body.icontains("href=\"assets/images/kubernetes-logo.png")
+  body.icontains("<article class=\"post kubernetes")
+  body.icontains("<b>kubernetes</b> listening")
+  body.icontains("value=\"kubernetes")
+  header.icontains("realm=\"kubernetes")
+  banner.icontains("realm=\"kubernetes")
+  title.icontains("kubernetes ci")
+  body.icontains("/healthz")
+  body.icontains("/metrics")
+  body.icontains("paths") && header.icontains("application/json")

@@ -1,0 +1,7 @@
+info:
+  company: Promise Technology Inc.
+  product: Promise-WebPAM
+  softhard: '2'
+matches: |
+  body.icontains("js/promise/themes/apple/images/logo_promise.png")
+  body.icontains("src=\"js/dojo/promise.js")

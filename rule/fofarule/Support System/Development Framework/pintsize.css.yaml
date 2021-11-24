@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: pintsize.css
+  softhard: '2'
+matches: |
+  body.icontains("pintsize.min.css")
+  body.icontains("pintsize.css")

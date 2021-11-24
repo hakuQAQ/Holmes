@@ -1,0 +1,6 @@
+info:
+  company: East Simulation
+  product: East-Simulation-NetTrmp
+  softhard: '2'
+matches: |
+  body.icontains("nettrmp登录界面")

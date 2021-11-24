@@ -1,0 +1,7 @@
+info:
+  company: Trend Micro Incorporated.
+  product: Trend-AdSubtract-proxy
+  softhard: '1'
+matches: |
+  header.icontains("adsubtract ")
+  banner.icontains("server: adsubtract")

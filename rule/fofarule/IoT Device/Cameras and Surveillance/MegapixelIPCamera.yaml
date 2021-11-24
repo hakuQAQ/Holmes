@@ -1,0 +1,9 @@
+info:
+  company: Axis Communications AB.
+  product: MegapixelIPCamera
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"megapixelipcamera")
+  header.icontains("realm=\"megapixel ip camera")
+  header.icontains("realm=\"megapixel_ip_camera")
+  banner.icontains("mega-pixel network camera")

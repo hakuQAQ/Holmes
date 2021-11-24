@@ -1,0 +1,7 @@
+info:
+  company: Epygi Technologies，LLC
+  product: epygi-QX200
+  softhard: '1'
+matches: |
+  body.icontains("epygi        <span class=\"product-name\">qx200")
+  title.icontains("epygi qx200")

@@ -1,0 +1,6 @@
+info:
+  company: Canon Inc.
+  product: Canon-MP640-series
+  softhard: '1'
+matches: |
+  body.icontains("nowrap>canon mp640 series</td>")

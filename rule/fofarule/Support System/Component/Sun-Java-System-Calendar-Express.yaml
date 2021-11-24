@@ -1,0 +1,7 @@
+info:
+  company: Oracle Corporation
+  product: Sun-Java-System-Calendar-Express
+  softhard: '2'
+matches: |
+  title.icontains("sun java[tm] system calendar express")
+  body.icontains("<img src=\"imx/login-logo.gif\" width=\"186\" height=\"79\" alt=\"sun microsystems, inc.\">")

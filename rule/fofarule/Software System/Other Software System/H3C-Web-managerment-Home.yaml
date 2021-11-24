@@ -1,0 +1,6 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-Web-managerment-Home
+  softhard: '2'
+matches: |
+  body.icontains("/wnm/ssl/web/frame/login.html")

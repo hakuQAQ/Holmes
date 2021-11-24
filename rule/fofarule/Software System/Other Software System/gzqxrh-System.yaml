@@ -1,0 +1,9 @@
+info:
+  company: gzqxrh
+  product: gzqxrh-System
+  softhard: '2'
+matches: |
+  body.icontains("广州全息若海信息科技有限公司")
+  body.icontains("src=\"/scripts/easyui/jquery.easyui.min.js\"")
+  body.icontains("style=\"vertical-align: middle; cursor: pointer")
+  body.icontains("响应键盘的回车事件")

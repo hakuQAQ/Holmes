@@ -1,0 +1,7 @@
+info:
+  company: neusoft
+  product: Neusoft-NetEye-Firewall
+  softhard: '1'
+matches: |
+  title.icontains("neteye防火墙系统")
+  body.icontains("name=\"login_form\" action=\"/fwm4/fwm.cgi/usrlgin\" ")

@@ -1,0 +1,7 @@
+info:
+  company: destoon
+  product: Destoon
+  softhard: '2'
+matches: |
+  body.icontains("content=\"destoon")
+  body.icontains("destoon_moduleid")

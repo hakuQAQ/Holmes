@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: jquerymobile
+  softhard: '2'
+matches: |
+  body.icontains("jquery.mobile.custom.js")
+  body.icontains("jquery.mobile.js")

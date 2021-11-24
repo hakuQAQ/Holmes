@@ -1,0 +1,8 @@
+info:
+  company: easycorp
+  product: BugFree
+  softhard: '2'
+matches: |
+  body.icontains("id=\"logo\" alt=bugfree")
+  body.icontains("class=\"loginbgimage\" alt=\"bugfree")
+  title.icontains("bugfree") && body.icontains("name=\"buguserpwd")

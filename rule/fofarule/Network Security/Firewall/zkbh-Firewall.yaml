@@ -1,0 +1,6 @@
+info:
+  company: zkbh
+  product: zkbh-Firewall
+  softhard: '1'
+matches: |
+  title.icontains("博华网龙防火墙")

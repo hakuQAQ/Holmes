@@ -1,0 +1,7 @@
+info:
+  company: Smart-Soft Ltd.
+  product: Traffic-Inspector
+  softhard: '1'
+matches: |
+  header.icontains("traffic inspector")
+  body.icontains("<title>error</title></head><body><h1>403 - forbidden</h1><hr")

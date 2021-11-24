@@ -1,0 +1,6 @@
+info:
+  company: MULTILASER INDUSTRIAL SA
+  product: MULTILASER-Roteador-Wireless-Router
+  softhard: '1'
+matches: |
+  title == "roteador wireless n"

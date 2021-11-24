@@ -1,0 +1,6 @@
+info:
+  company: Philex Enterprises, Inc.
+  product: Visec-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  header.icontains("visec")

@@ -1,0 +1,10 @@
+info:
+  company: Uncensored Communications Group.
+  product: Citadel-Servers
+  softhard: '2'
+matches: |
+  header.icontains("webcit=") && body.icontains("citadel server - powered by")
+  body.icontains("/styles/webcit.css")
+  title.icontains("- citadel server")
+  body.icontains("<div class=\"boxlabel\">citadel server - powered by")
+  header.icontains("citadel")

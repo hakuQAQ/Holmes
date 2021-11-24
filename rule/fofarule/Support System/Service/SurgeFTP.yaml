@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: SurgeFTP
+  softhard: '2'
+matches: |
+  banner.icontains("surgeftp")

@@ -1,0 +1,6 @@
+info:
+  company: GoCloud
+  product: gocloud-WF-R9100P-series-router
+  softhard: '1'
+matches: |
+  banner.icontains("gocloud wf-r9100p series router")

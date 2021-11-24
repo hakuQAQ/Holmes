@@ -1,0 +1,7 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-NWA1100-NH
+  softhard: '1'
+matches: |
+  title.icontains("zyxel nwa1100-nh")
+  banner.icontains("nwa1100-nh")

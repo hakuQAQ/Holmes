@@ -1,0 +1,7 @@
+info:
+  company: SweetRice
+  product: Sweetrice
+  softhard: '2'
+matches: |
+  body.icontains("content=\"sweetrice")
+  body.icontains("powered by <a href=\"http://www.basic-cms.org\">basic cms sweetrice</a>")

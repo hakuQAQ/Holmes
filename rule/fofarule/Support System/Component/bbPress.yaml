@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: bbPress
+  softhard: '2'
+matches: |
+  body.icontains("<!-- if you like showing off the fact that your server rocks -->")
+  body.icontains("is proudly powered by <a href=\"http://bbpress.org")

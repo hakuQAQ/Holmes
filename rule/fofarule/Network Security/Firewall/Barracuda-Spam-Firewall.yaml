@@ -1,0 +1,8 @@
+info:
+  company: Barracuda Networks, Inc.
+  product: Barracuda-Spam-Firewall
+  softhard: '1'
+matches: |
+  body.icontains("/barracuda.css")
+  title.icontains("vpn") && title.icontains("balancer")
+  body.icontains("http://www.barracudanetworks.com?a=bsf_product")

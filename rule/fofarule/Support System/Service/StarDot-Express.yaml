@@ -1,0 +1,7 @@
+info:
+  company: StarDot Technologies
+  product: StarDot-Express
+  softhard: '2'
+matches: |
+  body.icontains("<tr><td><a href=\"http://www.stardot.com\" target=\"_blank\"><img src=\"logo.gif\" alt=\"\" width=\"227\" height=\"45\"></a></td>")
+  title.icontains("express6 live image") && body.icontains("<tr><td><a href=\"http://www.stardot-tech.com\" target=\"_new\"><img src=\"logo.gif\" alt=\"\" width=\"227\" height=\"45\" border=\"0\"></a></td>")

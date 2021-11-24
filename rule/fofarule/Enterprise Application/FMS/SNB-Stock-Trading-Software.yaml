@@ -1,0 +1,6 @@
+info:
+  company: SMO
+  product: SNB-Stock-Trading-Software
+  softhard: '2'
+matches: |
+  body.icontains("copyright 2005–2009 <a href=\"http://www.s-mo.com\">")

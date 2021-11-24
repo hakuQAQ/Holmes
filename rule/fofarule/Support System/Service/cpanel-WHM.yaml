@@ -1,0 +1,8 @@
+info:
+  company: cPanel, Inc.
+  product: cpanel-WHM
+  softhard: '2'
+matches: |
+  header.icontains("whostmgrsession")
+  banner.icontains("whostmgrsession")
+  body.icontains("cpanel, inc.") && title == "whm 登录"

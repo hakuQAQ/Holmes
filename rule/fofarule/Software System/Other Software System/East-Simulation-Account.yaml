@@ -1,0 +1,6 @@
+info:
+  company: East Simulation
+  product: East-Simulation-Account
+  softhard: '2'
+matches: |
+  body.icontains("src=\"/scripts/eastsimutility.js\"")

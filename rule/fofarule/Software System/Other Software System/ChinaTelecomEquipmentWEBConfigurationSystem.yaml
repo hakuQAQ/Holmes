@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: ChinaTelecomEquipmentWEBConfigurationSystem
+  softhard: '2'
+matches: |
+  body.icontains("设备web配置</font")

@@ -1,0 +1,9 @@
+info:
+  company: Axis Communications AB.
+  product: Axis-Network-Camera
+  softhard: '1'
+matches: |
+  title.icontains("axis video server")
+  body.icontains("/incl/trash.shtml")
+  body.icontains("src=\"/incl/axis_connection.js")
+  body.icontains("/axis-media/media.amp?")

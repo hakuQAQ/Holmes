@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: DVR-WebClient
+  softhard: '1'
+matches: |
+  body.icontains("259f9fdf-97ea-4c59-b957-5160cab6884e")

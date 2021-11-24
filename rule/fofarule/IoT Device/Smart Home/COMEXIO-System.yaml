@@ -1,0 +1,7 @@
+info:
+  company: Comexio GmbH.
+  product: COMEXIO-System
+  softhard: '2'
+matches: |
+  header.icontains("comexio")
+  banner.icontains("comexio") && banner.icontains("server:")

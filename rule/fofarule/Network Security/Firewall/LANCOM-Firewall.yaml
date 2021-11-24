@@ -1,0 +1,7 @@
+info:
+  company: LANCOM Systems GmbH
+  product: LANCOM-Firewall
+  softhard: '1'
+matches: |
+  title == "firewall login" && body.icontains("<a href=\"http://www.lancom-systems.de\">")
+  body.icontains("firewall")

@@ -1,0 +1,6 @@
+info:
+  company: Teknotel Telekomünikasyon
+  product: TEKNOTEL-CBW700N
+  softhard: '1'
+matches: |
+  banner.icontains("cbw700n ")

@@ -1,0 +1,6 @@
+info:
+  company: yioks
+  product: Yioks-Campus-Football-Management-Platform
+  softhard: '2'
+matches: |
+  body.icontains("<script>document.location='/index.mpl?a=login'</script>")

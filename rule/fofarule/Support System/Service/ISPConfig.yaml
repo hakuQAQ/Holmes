@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: ISPConfig
+  softhard: '2'
+matches: |
+  body.icontains("powered by <a href=\"http://www.ispconfig.org")

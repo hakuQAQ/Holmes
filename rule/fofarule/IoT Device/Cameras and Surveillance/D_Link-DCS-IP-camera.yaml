@@ -1,0 +1,8 @@
+info:
+  company: DLink
+  product: D_Link-DCS-IP-camera
+  softhard: '1'
+matches: |
+  header.icontains("dcs-lig-httpd") && banner.icontains("server: dcs-lig-httpd")
+  title.icontains("checking language...")
+  body.icontains("var browsermsg = navigator.useragent.tolowercase()")

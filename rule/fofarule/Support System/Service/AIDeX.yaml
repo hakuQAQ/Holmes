@@ -1,0 +1,8 @@
+info:
+  company: Aidex GmbH
+  product: AIDeX
+  softhard: '2'
+matches: |
+  header.icontains("aidex")
+  body.icontains("powered by")
+  body.icontains("http://www.aidex.de/")

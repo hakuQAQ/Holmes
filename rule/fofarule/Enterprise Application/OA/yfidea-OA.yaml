@@ -1,0 +1,6 @@
+info:
+  company: yfidea
+  product: yfidea-OA
+  softhard: '2'
+matches: |
+  body.icontains("background=\"oa/images/index/oalogin.jpg\"")

@@ -1,0 +1,7 @@
+info:
+  company: webray
+  product: WebRAY-Cyberspace
+  softhard: '0'
+matches: |
+  title.icontains("网络空间探测系统")
+  body.icontains("asset_search_form")

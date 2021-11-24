@@ -1,0 +1,7 @@
+info:
+  company: Poul-Henning Kamp.
+  product: Varnish
+  softhard: '2'
+matches: |
+  header.icontains("x-varnish")
+  header.icontains("varnish") && banner.icontains("server: varnish")

@@ -1,0 +1,8 @@
+info:
+  company: China shine
+  product: China-shine-Video-On-Demand
+  softhard: '2'
+matches: |
+  body.icontains("视翰公司")
+  title.icontains("视频点播系统")
+  body.icontains("background=\"images/cbackground.jpg\"")

@@ -1,0 +1,7 @@
+info:
+  company: Belkin International, Inc.
+  product: Belkin-G-Wireless-Router
+  softhard: '1'
+matches: |
+  body.icontains("src=\"setup_top.htm\"")
+  body.icontains("def_pg=\"status.stm\"")

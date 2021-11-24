@@ -1,0 +1,7 @@
+info:
+  company: Chinaunicom
+  product: Account Manager Exhibition System
+  softhard: '2'
+matches: |
+  title.icontains("中国联通集团客户经理展业系统")
+  body.icontains("action=\"/system/login/login.shtml")

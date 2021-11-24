@@ -1,0 +1,6 @@
+info:
+  company: zkteco
+  product: ZKTECO-ZMM220
+  softhard: '1'
+matches: |
+  banner.icontains("(zmm220) for mips")

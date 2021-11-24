@@ -1,0 +1,6 @@
+info:
+  company: TOPSEC
+  product: topsec-DLP
+  softhard: '2'
+matches: |
+  body.icontains("<img src=\"static/images/login/loading.gif\" /><span id=\"message\">loading......</span>")

@@ -1,0 +1,7 @@
+info:
+  company: Fujitsu Ltd
+  product: Fujitsu-KVM-switch
+  softhard: '1'
+matches: |
+  body.icontains("src=\"/avct.js")
+  body.icontains("alt=\"fujitsu")

@@ -1,0 +1,6 @@
+info:
+  company: Integrating Century
+  product: Integrating-Century-EPBP
+  softhard: '2'
+matches: |
+  title.icontains("中国石化勘探开发业务平台")

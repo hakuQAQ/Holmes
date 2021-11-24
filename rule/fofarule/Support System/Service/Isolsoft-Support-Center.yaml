@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Isolsoft-Support-Center
+  softhard: '2'
+matches: |
+  body.icontains("powered by: support center")

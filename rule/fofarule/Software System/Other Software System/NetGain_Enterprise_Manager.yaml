@@ -1,0 +1,7 @@
+info:
+  company: NetGain
+  product: NetGain_Enterprise_Manager
+  softhard: '2'
+matches: |
+  title.icontains("netgain em")
+  title.icontains("netgain enterprise manager")

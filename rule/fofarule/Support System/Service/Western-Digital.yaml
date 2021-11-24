@@ -1,0 +1,7 @@
+info:
+  company: west263
+  product: Western-Digital
+  softhard: '2'
+matches: |
+  header.icontains("wt263cdn")
+  banner.icontains("wt263cdn")

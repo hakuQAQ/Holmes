@@ -1,0 +1,8 @@
+info:
+  company: Bangteng Inc.
+  product: kangle-Reverse-Proxy
+  softhard: '2'
+matches: |
+  header.icontains("kangle")
+  banner.icontains("server: kangle")
+  title.icontains("welcome use kangle")

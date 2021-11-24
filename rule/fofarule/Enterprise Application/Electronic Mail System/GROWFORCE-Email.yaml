@@ -1,0 +1,7 @@
+info:
+  company: '300'
+  product: GROWFORCE-Email
+  softhard: '2'
+matches: |
+  body.icontains("href=\"http://webmail.zmail300.cn")
+  body.icontains("href=\"/page/help/mailconfig/config/index.html")

@@ -1,0 +1,7 @@
+info:
+  company: Google LLC
+  product: Google-Search-Appliance
+  softhard: '1'
+matches: |
+  header.icontains("server: google search appliance")
+  banner.icontains("server: google search appliance")

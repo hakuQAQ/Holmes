@@ -1,0 +1,6 @@
+info:
+  company: Hitachi
+  product: VSP
+  softhard: '1'
+matches: |
+  banner.icontains("raid700")

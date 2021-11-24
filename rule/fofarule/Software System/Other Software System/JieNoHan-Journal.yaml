@@ -1,0 +1,6 @@
+info:
+  company: JieNoHan
+  product: JieNoHan-Journal
+  softhard: '2'
+matches: |
+  body.icontains("tougao/misc.js")

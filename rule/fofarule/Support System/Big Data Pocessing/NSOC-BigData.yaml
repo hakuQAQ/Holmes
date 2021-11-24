@@ -1,0 +1,8 @@
+info:
+  company: nsoc
+  product: NSOC-BigData
+  softhard: '2'
+matches: |
+  body.icontains("<h2>nsoc大数据分析系统</h2>")
+  body.icontains("src=\"/nfw/static/framework/images/views.png")
+  body.icontains("<b>nsoc云安全解决方案")

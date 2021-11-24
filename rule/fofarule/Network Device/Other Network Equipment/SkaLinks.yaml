@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: SkaLinks
+  softhard: '0'
+matches: |
+  body.icontains("skalinks_include/check.js")

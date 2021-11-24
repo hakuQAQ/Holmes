@@ -1,0 +1,7 @@
+info:
+  company: Axis Communications AB.
+  product: Axis-Video-Server
+  softhard: '1'
+matches: |
+  banner.icontains("video server")
+  banner.icontains("axis")

@@ -1,0 +1,7 @@
+info:
+  company: ambuf
+  product: AMBUF-OnlineExam
+  softhard: '2'
+matches: |
+  body.icontains("北京众恒志信科技")
+  title.icontains("在线考试系统")

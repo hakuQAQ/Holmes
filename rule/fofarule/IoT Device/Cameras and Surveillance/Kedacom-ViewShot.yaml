@@ -1,0 +1,7 @@
+info:
+  company: kedacom
+  product: Kedacom-ViewShot
+  softhard: '1'
+matches: |
+  title.icontains("科达viewshot用户登录系统")
+  body.icontains("background=\"image/viewshotuls-di.jpg")

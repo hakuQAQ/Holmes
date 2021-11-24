@@ -1,0 +1,6 @@
+info:
+  company: tg-net
+  product: TG-RSC200W-series-router
+  softhard: '1'
+matches: |
+  banner.icontains("tg-net rsc200w series router")

@@ -1,0 +1,7 @@
+info:
+  company: yadongsoft
+  product: yadongsoft-FS3
+  softhard: '2'
+matches: |
+  title.icontains("神盾fs3文档安全共享系统v2.0")
+  body.icontains("神盾fs<sup>3</sup>文档安全共享系统v2.0</div>")

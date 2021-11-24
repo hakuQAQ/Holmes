@@ -1,0 +1,8 @@
+info:
+  company: Techcom Engineering
+  product: DVR-Remote-Management-System
+  softhard: '1'
+matches: |
+  title.icontains("dvr remote management system")
+  body.icontains("<title>dvr remote management system</title>")
+  body.icontains("src=\"/js/web_homecache.js\"")

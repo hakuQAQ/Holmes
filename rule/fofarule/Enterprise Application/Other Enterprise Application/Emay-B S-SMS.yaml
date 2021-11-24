@@ -1,0 +1,7 @@
+info:
+  company: Emay
+  product: Emay-B/S-SMS
+  softhard: '2'
+matches: |
+  body.icontains("亿美满意通")
+  title.icontains("b/s满意通")

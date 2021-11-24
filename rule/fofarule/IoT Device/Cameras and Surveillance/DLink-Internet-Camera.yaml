@@ -1,0 +1,8 @@
+info:
+  company: DLink
+  product: DLink-Internet-Camera
+  softhard: '1'
+matches: |
+  header.icontains("d-link internet camera") && header.icontains("d-link internet camera")
+  banner.icontains("server: d-link internet camera")
+  title.icontains("d-link internet camera")

@@ -1,0 +1,10 @@
+info:
+  company: Oracle Corporation
+  product: BEA-WebLogic-Server
+  softhard: '2'
+matches: |
+  body.icontains("<h1>bea weblogic server")
+  header.icontains("weblogic")
+  body.icontains("content=\"weblogic server")
+  body.icontains("<h1>welcome to weblogic application")
+  body.icontains("<h1>bea weblogic server")

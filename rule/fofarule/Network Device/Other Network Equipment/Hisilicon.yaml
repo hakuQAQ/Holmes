@@ -1,0 +1,8 @@
+info:
+  company: hisilicon
+  product: Hisilicon
+  softhard: '1'
+matches: |
+  header.icontains("upnp devices")
+  body.icontains("<manufacturer>hisilicon technologies")
+  banner.icontains("server: hisilicon streaming media server")

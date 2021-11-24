@@ -1,0 +1,6 @@
+info:
+  company: Juniper Networks, Inc.
+  product: JUNIPer-QFX5100-96s-8q
+  softhard: '1'
+matches: |
+  banner.icontains("qfx5100-96s-8q")

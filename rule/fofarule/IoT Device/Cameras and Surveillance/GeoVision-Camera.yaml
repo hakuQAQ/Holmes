@@ -1,0 +1,11 @@
+info:
+  company: geovision
+  product: GeoVision-Camera
+  softhard: '1'
+matches: |
+  banner.icontains("geovision")
+  body.icontains("geovision inc. - video server")
+  body.icontains("geovision inc. - ip camera")
+  protocol.icontains("geovision-mobile")
+  protocol.icontains("vss")
+  banner.icontains("geov")

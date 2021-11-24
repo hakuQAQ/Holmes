@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Lime-Survey
+  softhard: '2'
+matches: |
+  body.icontains("content=\"limesurvey") && body.icontains("href=\"http://www.limesurvey.org\" target=\"_blank")

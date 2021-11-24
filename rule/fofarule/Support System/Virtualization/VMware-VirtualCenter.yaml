@@ -1,0 +1,13 @@
+info:
+  company: VMware, Inc.
+  product: VMware-VirtualCenter
+  softhard: '2'
+matches: |
+  body.icontains("content=\"vmware virtualcenter")
+  body.icontains("content=\"vmware vsphere")
+  title.icontains("vsphere web client")
+  banner.icontains("vsphere management ")
+  cert.icontains("issuer: cn=ca, dc=vsphere")
+  body.icontains("url=vcops-vsphere/")
+  body.icontains("the vshield manager requires")
+  title.icontains("id_vc_welcome")

@@ -1,0 +1,7 @@
+info:
+  company: netposa
+  product: Netposa-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  title.icontains("移动视频监控 配置平台")
+  body.icontains("by 重庆网力视界科技有限公司")

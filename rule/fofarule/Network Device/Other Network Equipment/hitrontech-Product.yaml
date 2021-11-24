@@ -1,0 +1,6 @@
+info:
+  company: Hitron Technologies Inc.
+  product: hitrontech-Product
+  softhard: '1'
+matches: |
+  body.icontains("href=\"/css/webono.css\"")

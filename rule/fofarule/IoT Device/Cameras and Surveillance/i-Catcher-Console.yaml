@@ -1,0 +1,8 @@
+info:
+  company: iCode Systems Ltd.
+  product: i-Catcher-Console
+  softhard: '1'
+matches: |
+  header.icontains("server: i-catcher")
+  banner.icontains("server: i-catcher")
+  body.icontains("by i-catcher console")

@@ -1,0 +1,6 @@
+info:
+  company: gzzmedu
+  product: gzzmedu-PrintSystem
+  softhard: '2'
+matches: |
+  title.icontains("文件信息真伪验证")

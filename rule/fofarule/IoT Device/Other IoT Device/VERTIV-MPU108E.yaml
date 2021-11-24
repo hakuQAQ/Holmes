@@ -1,0 +1,7 @@
+info:
+  company: Vertiv Group Corp.
+  product: VERTIV-MPU108E
+  softhard: '1'
+matches: |
+  title.icontains("mpu108e 资源管理器")
+  title.icontains("mpu108e explorer")

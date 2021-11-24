@@ -1,0 +1,7 @@
+info:
+  company: ITRS Group
+  product: Op5-Monitor
+  softhard: '2'
+matches: |
+  title.icontains("op5 monitor login")
+  body.icontains("/monitor/application/views/themes/default/css/default/common.css")

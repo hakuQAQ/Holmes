@@ -1,0 +1,6 @@
+info:
+  company: jnsh
+  product: jnsh-System
+  softhard: '2'
+matches: |
+  body.icontains("src=\"../../doc/config/shxmjgptapp.png\"")

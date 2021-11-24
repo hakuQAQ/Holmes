@@ -1,0 +1,7 @@
+info:
+  company: Sagemcom Group
+  product: Sagemcom-FAST3890V2
+  softhard: '1'
+matches: |
+  banner.icontains("fast3890v2 wireless voice gateway")
+  banner.icontains("sagemcom")

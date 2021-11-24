@@ -1,0 +1,6 @@
+info:
+  company: NSFOCUS
+  product: NSFOCUS-Product
+  softhard: '0'
+matches: |
+  header.icontains("nsfocus")

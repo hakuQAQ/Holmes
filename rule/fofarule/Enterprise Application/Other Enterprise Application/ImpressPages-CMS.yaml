@@ -1,0 +1,6 @@
+info:
+  company: ImpressPages, UAB
+  product: ImpressPages-CMS
+  softhard: '2'
+matches: |
+  body.icontains("content=\"impresspages cms")

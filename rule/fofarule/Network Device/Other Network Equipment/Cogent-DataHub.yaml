@@ -1,0 +1,7 @@
+info:
+  company: Cogent Real-Time Systems Inc
+  product: Cogent-DataHub
+  softhard: '2'
+matches: |
+  body.icontains("/images/cogent.gif")
+  title.icontains("cogent datahub webview")

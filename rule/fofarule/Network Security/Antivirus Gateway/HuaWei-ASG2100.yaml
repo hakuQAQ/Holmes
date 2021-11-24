@@ -1,0 +1,9 @@
+info:
+  company: HUAWEI
+  product: HuaWei-ASG2100
+  softhard: '1'
+matches: |
+  header.icontains("huawei asg2100")
+  header.icontains("huawei asg2050")
+  banner.icontains("asg2100") && banner.icontains("huawei asg2100")
+  banner.icontains("huawei asg2050")

@@ -1,0 +1,6 @@
+info:
+  company: Schneider Electric
+  product: Schneider-PM870SD
+  softhard: '1'
+matches: |
+  banner.icontains("schneider electric - pm870sd")

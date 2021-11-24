@@ -1,0 +1,8 @@
+info:
+  company: Blue Iris Software
+  product: BLUE_IRIS-VMS
+  softhard: '2'
+matches: |
+  title == "blue iris login" && header.icontains("blueiris")
+  banner.icontains("server: blueiris")
+  header.icontains("360 web server")

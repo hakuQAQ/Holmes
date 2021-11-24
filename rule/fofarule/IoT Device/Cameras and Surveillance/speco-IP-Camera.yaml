@@ -1,0 +1,6 @@
+info:
+  company: Speco Technologies
+  product: speco-IP-Camera
+  softhard: '1'
+matches: |
+  title.icontains("speco ip camera")

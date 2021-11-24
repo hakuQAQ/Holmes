@@ -1,0 +1,29 @@
+info:
+  company: HUAWEI
+  product: Huawei-Switch
+  softhard: '1'
+matches: |
+  header.icontains("server: lanswitch")
+  banner.icontains("server: lanswitch")
+  protocol.icontains("snmp") && banner.icontains("quidway") && header.icontains("/simple/view/login.html?redirect=")
+  banner.icontains("/simple/view/login.html?redirect=")
+  cert.icontains("o=huawei, ou=htipl/dnqualifier=lsw")
+  body.icontains("background: url('../style/default/image/diaphapic.png');")
+  body.icontains("huawei technologies co., ltd")
+  banner.icontains("/view/login.html?redirect=")
+  banner.icontains("ar") && banner.icontains(" 301 ") && banner.icontains("/view/login.html")
+  banner.icontains("server: v")
+  cert.icontains("o=huawei")
+  cert.icontains("cn=quidway")
+  header.icontains("/view/login.html")
+  header.icontains("quidway") && banner.icontains("/view/login.html")
+  banner.icontains("server: quidway")
+  body.icontains("entphysicalsoftwarerev") && body.icontains("window.location.href=\"main.html?sid=")
+  body.icontains("var msg = http.packagemsg(")
+  body.icontains("<div id=\"zhtip\" style=\"display:none\">web网管系统初始化中，请稍后</div>")
+  banner.icontains("huawei quidway ")
+  body.icontains("copyright.manufacturer !== \"huawei\"")
+  body.icontains(" body, p, a, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, img")
+  title.icontains("wlan web登录")
+  body.icontains(" id=\"httptipdiv\"")
+  body.icontains("/simple/view/main/modifypwd.html")

@@ -1,0 +1,6 @@
+info:
+  company: ELASTICSEARCH
+  product: Elasticsearch-sql
+  softhard: '2'
+matches: |
+  title == "elasticsearch-sql client" && body.icontains("elasticsearchsqlapp")

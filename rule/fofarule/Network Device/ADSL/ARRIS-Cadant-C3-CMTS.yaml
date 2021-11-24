@@ -1,0 +1,6 @@
+info:
+  company: COMMSCOPE
+  product: ARRIS-Cadant-C3-CMTS
+  softhard: '1'
+matches: |
+  banner.icontains("cadant c3 cmts")

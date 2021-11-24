@@ -1,0 +1,7 @@
+info:
+  company: OvisLink Corp.
+  product: AirCam-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  banner.icontains("aircam ") && header.icontains("realm=\"aircam ")
+  header.icontains("realm=\"airlive bu-") && banner.icontains("realm=\"airlive bu-")

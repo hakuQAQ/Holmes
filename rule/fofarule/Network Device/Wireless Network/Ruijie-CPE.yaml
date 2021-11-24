@@ -1,0 +1,7 @@
+info:
+  company: Ruijie
+  product: Ruijie-CPE
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"ruijie-cpe")
+  banner.icontains("realm=\"ruijie-cpe")

@@ -1,0 +1,7 @@
+info:
+  company: Sierra Wireless Inc.
+  product: AirLink-modem
+  softhard: '1'
+matches: |
+  header.icontains("modem@airlink.com")
+  banner.icontains("modem@airlink.com")

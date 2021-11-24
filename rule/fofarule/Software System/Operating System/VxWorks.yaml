@@ -1,0 +1,6 @@
+info:
+  company: Wind River
+  product: VxWorks
+  softhard: '2'
+matches: |
+  banner.icontains("vxworks")

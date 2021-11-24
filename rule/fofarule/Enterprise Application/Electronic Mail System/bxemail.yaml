@@ -1,0 +1,8 @@
+info:
+  company: bxemail
+  product: bxemail
+  softhard: '2'
+matches: |
+  title.icontains("百讯安全邮件系统")
+  title.icontains("百姓邮局")
+  body.icontains("请输入正确的电子邮件地址，如：abc@bxemail.com")

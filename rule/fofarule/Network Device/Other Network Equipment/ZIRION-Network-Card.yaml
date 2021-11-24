@@ -1,0 +1,6 @@
+info:
+  company: Zirion
+  product: ZIRION-Network-Card
+  softhard: '1'
+matches: |
+  banner.icontains("zirion network card")

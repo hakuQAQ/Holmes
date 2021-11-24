@@ -1,0 +1,7 @@
+info:
+  company: Microchip Technology Inc.
+  product: Datum-TymServe
+  softhard: '1'
+matches: |
+  body.icontains("<h2 align=center>datum tymserve")
+  header.icontains("datm")

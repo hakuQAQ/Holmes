@@ -1,0 +1,11 @@
+info:
+  company: Atlassian
+  product: Confluence
+  softhard: '2'
+matches: |
+  header.icontains("x-confluence-")
+  header.icontains("tp-link router upnp")
+  banner.icontains("x-confluence-")
+  banner.icontains("tp-link router upnp")
+  body.icontains("name=\"confluence-base-url\"") && body.icontains("id=\"com-atlassian-confluence")
+  title.icontains("atlassian confluence")

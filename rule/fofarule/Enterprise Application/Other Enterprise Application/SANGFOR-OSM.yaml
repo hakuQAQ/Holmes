@@ -1,0 +1,6 @@
+info:
+  company: Sangfor
+  product: SANGFOR-OSM
+  softhard: '2'
+matches: |
+  body.icontains("window.location.href=\"https://\"+window.location.host+\"/fort/login")

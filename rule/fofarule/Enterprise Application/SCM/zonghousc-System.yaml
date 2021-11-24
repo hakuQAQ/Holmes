@@ -1,0 +1,7 @@
+info:
+  company: zonghousc
+  product: zonghousc-System
+  softhard: '2'
+matches: |
+  body.icontains("style/default/frui.css")
+  body.icontains("data-errormessage-value-missing=\"* 请录入用户名")

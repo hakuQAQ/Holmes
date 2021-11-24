@@ -1,0 +1,7 @@
+info:
+  company: abtnetworks
+  product: ABT-Deep-Security-gateway
+  softhard: '1'
+matches: |
+  title.icontains("安博通深度安全网关")
+  title.icontains("安博通应用网关")

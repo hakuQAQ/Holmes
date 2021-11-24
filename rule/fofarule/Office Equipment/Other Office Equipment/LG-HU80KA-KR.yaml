@@ -1,0 +1,6 @@
+info:
+  company: LG Electronics.
+  product: LG-HU80KA-KR
+  softhard: '1'
+matches: |
+  body.icontains("<modelnumber>hu80ka-kr</modelnumber>")

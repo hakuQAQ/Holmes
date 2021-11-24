@@ -1,0 +1,8 @@
+info:
+  company: TeleWell Oy
+  product: TeleWell-EAV510
+  softhard: '1'
+matches: |
+  header.icontains("tw-eav510")
+  title.icontains("tw-eav510")
+  banner.icontains("tw-eav510")

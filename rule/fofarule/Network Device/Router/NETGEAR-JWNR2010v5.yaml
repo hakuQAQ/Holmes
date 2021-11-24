@@ -1,0 +1,9 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-JWNR2010v5
+  softhard: '1'
+matches: |
+  header.icontains("netgear jwnr2010v5")
+  banner.icontains("jwnr2010v5")
+  title.icontains("netgear router jwnr2010v5")
+  title.icontains("netgear wireless router jwnr2010v5")

@@ -1,0 +1,7 @@
+info:
+  company: DLink
+  product: D_Link-DSR-500
+  softhard: '1'
+matches: |
+  body.icontains("<div class=\"floatl txt01\">product page: dsr-500")
+  banner.icontains("dsr-500") && body.icontains("unified services router - dsr-500 </div>")

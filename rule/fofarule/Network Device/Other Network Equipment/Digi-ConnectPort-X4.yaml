@@ -1,0 +1,6 @@
+info:
+  company: Digi International Inc.
+  product: Digi-ConnectPort-X4
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp") && banner.icontains("connectport x4")

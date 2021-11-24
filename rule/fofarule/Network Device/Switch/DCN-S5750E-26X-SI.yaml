@@ -1,0 +1,6 @@
+info:
+  company: Digital China Group Co., Ltd.
+  product: DCN-S5750E-26X-SI
+  softhard: '1'
+matches: |
+  body.icontains("<b>s5750e-26x-si</b>")

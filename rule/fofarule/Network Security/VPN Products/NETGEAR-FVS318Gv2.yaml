@@ -1,0 +1,7 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-FVS318Gv2
+  softhard: '1'
+matches: |
+  body.icontains("gigabit 8 port vpn firewall fvs318gv2")
+  banner.icontains("fvs318gv2")

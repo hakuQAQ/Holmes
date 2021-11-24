@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Dovecot
+  softhard: '2'
+matches: |
+  banner.icontains("dovecot")

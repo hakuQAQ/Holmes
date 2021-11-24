@@ -1,0 +1,6 @@
+info:
+  company: New Atlanta Communications, LLC
+  product: BlueDragon
+  softhard: '2'
+matches: |
+  header.icontains("bluedragon") && banner.icontains("x-powered-by: bluedragon")

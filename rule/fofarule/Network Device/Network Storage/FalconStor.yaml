@@ -1,0 +1,7 @@
+info:
+  company: FalconStor Software.
+  product: FalconStor
+  softhard: '1'
+matches: |
+  title.icontains("falconstor console")
+  body.icontains("content=\"falconstor")

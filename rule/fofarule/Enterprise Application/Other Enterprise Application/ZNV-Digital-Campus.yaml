@@ -1,0 +1,6 @@
+info:
+  company: leawe
+  product: ZNV-Digital-Campus
+  softhard: '2'
+matches: |
+  body.icontains("list.asp?caseid=")

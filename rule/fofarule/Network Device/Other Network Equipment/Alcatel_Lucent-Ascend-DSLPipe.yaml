@@ -1,0 +1,6 @@
+info:
+  company: Alcatel-Lucent S.A.
+  product: Alcatel_Lucent-Ascend-DSLPipe
+  softhard: '1'
+matches: |
+  protocol.icontains("snmp") && banner.icontains("ascend dslpipe")

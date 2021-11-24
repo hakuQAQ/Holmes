@@ -1,0 +1,6 @@
+info:
+  company: venustech
+  product: Venustech-Harbour-Networks
+  softhard: '0'
+matches: |
+  title.icontains("::harbour networks::")

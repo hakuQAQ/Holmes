@@ -1,0 +1,6 @@
+info:
+  company: Oracle Corporation
+  product: Pillar-Axiom-Software
+  softhard: '2'
+matches: |
+  body.icontains("axiom storage services manager")

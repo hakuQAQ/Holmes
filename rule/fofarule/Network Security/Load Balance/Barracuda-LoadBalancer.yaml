@@ -1,0 +1,9 @@
+info:
+  company: Barracuda Networks, Inc.
+  product: Barracuda-LoadBalancer
+  softhard: '1'
+matches: |
+  header.icontains("barracuda_lb_cookie")
+  banner.icontains("barracuda_lb_cookie")
+  banner.icontains("barracuda load balancer")
+  header.icontains("bni_persistence=")

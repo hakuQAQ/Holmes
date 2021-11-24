@@ -1,0 +1,6 @@
+info:
+  company: TRENDnet, Inc.
+  product: TRENDnet-TV-NVR208
+  softhard: '1'
+matches: |
+  body.icontains("<div class=\"loginlogo\">tv-nvr208</div>")

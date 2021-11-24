@@ -1,0 +1,7 @@
+info:
+  company: Lantronix, Inc.
+  product: Lantronix-Modbus-Bridge
+  softhard: '1'
+matches: |
+  banner.icontains("modbus bridge")
+  header.icontains("modbus bridge")

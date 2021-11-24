@@ -1,0 +1,7 @@
+info:
+  company: D-Link
+  product: D-Link-DIR-835
+  softhard: '1'
+matches: |
+  body.icontains("<a href=\"javascript:check_is_modified('http://support.dlink.com/')\">dir-835")
+  body.icontains("<a href=\"http://support.dlink.com.tw/\">dir-835")

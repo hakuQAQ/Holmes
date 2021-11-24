@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: cgit
+  softhard: '2'
+matches: |
+  body.icontains("<div id='cgit'>")
+  body.icontains("href='/cgit.css'/>")
+  body.icontains("content='cgit")

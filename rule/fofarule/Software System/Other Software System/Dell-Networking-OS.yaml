@@ -1,0 +1,6 @@
+info:
+  company: Dell Inc.
+  product: Dell-Networking-OS
+  softhard: '2'
+matches: |
+  banner.icontains("dell networking os")

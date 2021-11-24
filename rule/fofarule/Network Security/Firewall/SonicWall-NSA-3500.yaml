@@ -1,0 +1,6 @@
+info:
+  company: SonicWall Inc.
+  product: SonicWall-NSA-3500
+  softhard: '1'
+matches: |
+  banner.icontains("sonicwall nsa 3500 ")

@@ -1,0 +1,7 @@
+info:
+  company: Oracle Corporation
+  product: Servlet
+  softhard: '2'
+matches: |
+  header.icontains("servlet")
+  banner.icontains("servlet")

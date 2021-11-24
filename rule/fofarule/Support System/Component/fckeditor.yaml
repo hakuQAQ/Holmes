@@ -1,0 +1,6 @@
+info:
+  company: CKSource sp. z o.o. sp.k.
+  product: fckeditor
+  softhard: '2'
+matches: |
+  body.icontains("new fckeditor")

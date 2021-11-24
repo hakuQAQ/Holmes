@@ -1,0 +1,7 @@
+info:
+  company: LANCOM Systems GmbH
+  product: LANCOM-Wireless-Device-
+  softhard: '1'
+matches: |
+  banner.icontains("lancom ")
+  banner.icontains(" wireless")

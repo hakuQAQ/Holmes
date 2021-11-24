@@ -1,0 +1,6 @@
+info:
+  company: Belden Inc.
+  product: Hirschmann-Security-Device
+  softhard: '1'
+matches: |
+  banner.icontains("hirschmann eagle security device")

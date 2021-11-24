@@ -1,0 +1,8 @@
+info:
+  company: Enstar LLC, Hebron
+  product: Mailtraq-Mail-Server
+  softhard: '2'
+matches: |
+  banner.icontains("mailtraq")
+  header.icontains("mailtraq")
+  title.icontains("mailtraq")

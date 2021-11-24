@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Macrec-DVR
+  softhard: '1'
+matches: |
+  title.icontains("macrec dvr")

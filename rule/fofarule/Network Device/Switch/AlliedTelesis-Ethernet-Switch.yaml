@@ -1,0 +1,6 @@
+info:
+  company: Allied Telesis, Inc.
+  product: AlliedTelesis-Ethernet-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("allied telesyn ethernet switch")

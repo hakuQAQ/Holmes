@@ -1,0 +1,7 @@
+info:
+  company: CLIPCOMM INC.
+  product: CLIPCOMM-KWS-1040N
+  softhard: '1'
+matches: |
+  body.icontains("kws-1040n")
+  header.icontains("maverick")

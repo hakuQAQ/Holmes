@@ -1,0 +1,8 @@
+info:
+  company: dcominfo
+  product: CNS-CoreNetwork-Services
+  softhard: '2'
+matches: |
+  title.icontains("登录 | cns系统")
+  body.icontains("<!--p>cns网络核心服务自动化开通平台系统. ")
+  body.icontains("<span class=\"left\">cns-app ")

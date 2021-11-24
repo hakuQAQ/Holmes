@@ -1,0 +1,8 @@
+info:
+  company: Barracuda Networks, Inc.
+  product: Barracuda-NG-Firewall
+  softhard: '1'
+matches: |
+  header.icontains("barracuda ng firewall")
+  banner.icontains("barracuda ng firewall")
+  header.icontains("barracuda/ngfirewall")

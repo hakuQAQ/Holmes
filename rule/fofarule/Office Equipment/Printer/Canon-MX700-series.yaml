@@ -1,0 +1,6 @@
+info:
+  company: Canon Inc.
+  product: Canon-MX700-series
+  softhard: '1'
+matches: |
+  body.icontains("nowrap width=\"#\"> canon mx700 series</td>")

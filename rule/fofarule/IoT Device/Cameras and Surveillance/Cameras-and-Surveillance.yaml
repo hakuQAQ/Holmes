@@ -1,0 +1,6 @@
+info:
+  company: bocom
+  product: Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  title.icontains("mpeg2/4 dvswebserver")

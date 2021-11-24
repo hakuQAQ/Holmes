@@ -1,0 +1,7 @@
+info:
+  company: EFM Networks Co.,Ltd.
+  product: EFM-Networks-ipTIME-N704M
+  softhard: '1'
+matches: |
+  body.icontains("src =\"/images2/login_title.n704m.gif\"")
+  body.icontains("src =\"/images2/login_title.n704mlg.gif\"")

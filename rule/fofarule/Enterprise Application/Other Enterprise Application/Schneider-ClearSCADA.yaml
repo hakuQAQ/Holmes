@@ -1,0 +1,7 @@
+info:
+  company: Schneider Electric
+  product: Schneider-ClearSCADA
+  softhard: '2'
+matches: |
+  header.icontains("clearscada") && body.icontains("<page title=\"clearscada")
+  banner.icontains("clearscada")

@@ -1,0 +1,8 @@
+info:
+  company: cPanel, Inc.
+  product: cPanel
+  softhard: '2'
+matches: |
+  header.icontains("cprelogin:")
+  banner.icontains("cprelogin:")
+  body.icontains("cpanel, inc.") && title == "cpanel 登录"

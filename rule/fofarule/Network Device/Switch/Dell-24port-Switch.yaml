@@ -1,0 +1,6 @@
+info:
+  company: Dell Inc.
+  product: Dell-24port-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("dell 24 port gigabit ethernet")

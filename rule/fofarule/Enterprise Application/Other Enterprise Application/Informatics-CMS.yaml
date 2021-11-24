@@ -1,0 +1,6 @@
+info:
+  company: Informatics Inc.
+  product: Informatics-CMS
+  softhard: '2'
+matches: |
+  body.icontains("content=\"informatics")

@@ -1,0 +1,7 @@
+info:
+  company: IT Guard Co.，Ltd
+  product: innotube-Manager
+  softhard: '2'
+matches: |
+  title == "itguard-manager" && body.icontains("itguard-manager")
+  body.icontains("images/intro/lin_bottom_nocr.gif")

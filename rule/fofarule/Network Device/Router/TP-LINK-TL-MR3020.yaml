@@ -1,0 +1,10 @@
+info:
+  company: TP-Link Technologies Co.，Ltd.
+  product: TP-LINK-TL-MR3020
+  softhard: '1'
+matches: |
+  title.icontains("tl-mr3020")
+  body.icontains("devname = \"wireless router tl-mr3020")
+  body.icontains("var modelname=\"tl-mr3020\"")
+  banner.icontains("mr3020") && header.icontains("realm=\"tp-link portable wireless n 3g/4g router mr3020")
+  header.icontains("realm=\"tp-link portable wireless n 3g router mr3020")

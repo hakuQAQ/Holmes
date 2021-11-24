@@ -1,0 +1,7 @@
+info:
+  company: HUAWEI
+  product: HuaWei-NetOpen
+  softhard: '2'
+matches: |
+  body.icontains("/netopen/theme/css/inframe.css")
+  title.icontains("huawei netopen system")

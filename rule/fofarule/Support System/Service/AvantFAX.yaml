@@ -1,0 +1,7 @@
+info:
+  company: iFAX Solutions, Inc.
+  product: AvantFAX
+  softhard: '2'
+matches: |
+  body.icontains("src=\"images/avantfax-big.png\" border=\"0\" alt=\"avantfax")
+  title.icontains("- avantfax - login")

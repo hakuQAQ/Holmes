@@ -1,0 +1,6 @@
+info:
+  company: Hewlett Packard Enterprise Development LP
+  product: HP-ML150-G6
+  softhard: '1'
+matches: |
+  banner.icontains("ml150-g6") && cert.icontains("ml150-g6")

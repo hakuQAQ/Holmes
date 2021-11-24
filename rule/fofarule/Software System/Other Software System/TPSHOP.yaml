@@ -1,0 +1,7 @@
+info:
+  company: tpshop
+  product: TPSHOP
+  softhard: '2'
+matches: |
+  body.icontains("/index.php/mobile/index/index.html")
+  body.icontains(">tpshop开源商城<")

@@ -1,0 +1,7 @@
+info:
+  company: xpaper
+  product: Xpaper
+  softhard: '2'
+matches: |
+  title.icontains("xpaper智慧全媒体数字报")
+  body.icontains("src=\"template/paper/")

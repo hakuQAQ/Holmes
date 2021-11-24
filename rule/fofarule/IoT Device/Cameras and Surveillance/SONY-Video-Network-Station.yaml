@@ -1,0 +1,7 @@
+info:
+  company: Sony Corporation
+  product: SONY-Video-Network-Station
+  softhard: '1'
+matches: |
+  body.icontains("<title>sony snt-v304 video network station</title>")
+  title.icontains("sony video network station")

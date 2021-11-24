@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: VisionGS-Webcam
+  softhard: '1'
+matches: |
+  body.icontains("<a href=\"http://www.visiongs.de")
+  body.icontains("<!-- visiongs still code begin -->")
+  title.icontains("visiongs webcam software")

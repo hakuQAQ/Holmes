@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: AWStats
+  softhard: '2'
+matches: |
+  body.icontains("generator\" content=\"awstats")
+  body.icontains("<frame name=\"mainleft\" src=\"awstats.pl?config=")
+  body.icontains("<a href=\"http://www.awstats.org\" target=\"awstatshome\">created by awstats ")

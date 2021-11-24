@@ -1,0 +1,9 @@
+info:
+  company: Virtual Airlines Manager
+  product: VAM-Product
+  softhard: '2'
+matches: |
+  body.icontains("id=\"mymodallabel\">login vam system")
+  body.icontains("powered by virtual airlines manager")
+  body.icontains("src=\"js/vam.js\"")
+  body.icontains("href=\"https://virtualairlinesmanager.net/\">virtual airlines manager")

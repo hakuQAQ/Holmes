@@ -1,0 +1,7 @@
+info:
+  company: Other
+  product: Pi3Web
+  softhard: '2'
+matches: |
+  header.icontains("pi3web")
+  banner.icontains("server: pi3web")

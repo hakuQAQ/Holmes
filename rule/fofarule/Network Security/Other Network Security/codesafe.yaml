@@ -1,0 +1,7 @@
+info:
+  company: QIANXIN
+  product: codesafe
+  softhard: '2'
+matches: |
+  title.icontains("360代码卫士")
+  body.icontains("baseurl : 'app',        //配置模块根路径到静态资源根目录。")

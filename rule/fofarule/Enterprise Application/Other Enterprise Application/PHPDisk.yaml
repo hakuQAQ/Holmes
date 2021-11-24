@@ -1,0 +1,7 @@
+info:
+  company: PHPDisk Team
+  product: PHPDisk
+  softhard: '2'
+matches: |
+  body.icontains("powered by phpdisk")
+  body.icontains("content=\"phpdisk")

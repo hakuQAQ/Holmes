@@ -1,0 +1,6 @@
+info:
+  company: TOPSEC
+  product: Topsec-ADS-Management-Platform
+  softhard: '1'
+matches: |
+  title.icontains("天融信ads管理平台")

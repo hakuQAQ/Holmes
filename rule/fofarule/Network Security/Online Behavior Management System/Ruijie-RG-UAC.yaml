@@ -1,0 +1,7 @@
+info:
+  company: Ruijie
+  product: Ruijie-RG-UAC
+  softhard: '2'
+matches: |
+  title.icontains("rg-uac登录页面")
+  body.icontains("src='images/free_login.png'")

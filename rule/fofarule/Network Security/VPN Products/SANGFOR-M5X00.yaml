@@ -1,0 +1,6 @@
+info:
+  company: Sangfor
+  product: SANGFOR-M5X00
+  softhard: '1'
+matches: |
+  body.icontains("m5x00-sinfor--sg")

@@ -1,0 +1,6 @@
+info:
+  company: orivon
+  product: oExam
+  softhard: '2'
+matches: |
+  title.icontains("oexam") && body.icontains("}else if(type===\"examcard\"){")

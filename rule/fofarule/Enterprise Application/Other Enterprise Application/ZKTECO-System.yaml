@@ -1,0 +1,6 @@
+info:
+  company: ZKTECO CO.,LTD.
+  product: ZKTECO-System
+  softhard: '2'
+matches: |
+  body.icontains("class=\"m-btn  zkgreen rnd\"")

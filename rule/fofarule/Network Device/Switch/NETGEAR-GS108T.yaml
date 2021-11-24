@@ -1,0 +1,7 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-GS108T
+  softhard: '1'
+matches: |
+  title.icontains("netgear gs108t")
+  body.icontains("class=\"gs108timage spacer50percent topalign righthalign\"")

@@ -1,0 +1,6 @@
+info:
+  company: sytown
+  product: sytown-CMS
+  softhard: '2'
+matches: |
+  title.icontains("尚医健康cms管理系统")

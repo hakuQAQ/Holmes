@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: FireEye
+  softhard: '2'
+matches: |
+  header.icontains("fireeye") && body.icontains("mobsc") && body.icontains("fireeye") && banner.icontains("basic realm=\"fireeye")

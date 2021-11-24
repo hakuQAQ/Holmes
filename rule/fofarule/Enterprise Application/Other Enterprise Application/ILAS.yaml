@@ -1,0 +1,10 @@
+info:
+  company: ilas
+  product: ILAS
+  softhard: '2'
+matches: |
+  title.icontains("欢迎您使用ilas网上图书馆")
+  body.icontains("<iframe name=\"content\"  src=\"index_middle.html\" frameborder=\"auto")
+  title.icontains("欢迎使用ilas小型版")
+  body.icontains("<select id=\"selprovince\"   onchange=\"getcity(this.options[this.selectedindex].value)\">")
+  title.icontains("欢迎使用ilas网上图书馆")

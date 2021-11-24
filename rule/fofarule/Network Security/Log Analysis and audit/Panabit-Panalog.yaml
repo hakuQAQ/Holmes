@@ -1,0 +1,8 @@
+info:
+  company: panabit
+  product: Panabit-Panalog
+  softhard: '2'
+matches: |
+  body.icontains("id=\"codeno\"")
+  body.icontains("日志系统")
+  title.icontains("panalog")

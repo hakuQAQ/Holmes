@@ -1,0 +1,6 @@
+info:
+  company: BJCA
+  product: Digital-signature-verification-server
+  softhard: '1'
+matches: |
+  title.icontains("数字签名验证服务器")

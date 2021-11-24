@@ -1,0 +1,7 @@
+info:
+  company: Cisco
+  product: Nexus-3000-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("nexus 3000 switch")
+  banner.icontains("cisco nx-os(tm) n3000")

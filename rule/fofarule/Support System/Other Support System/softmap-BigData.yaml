@@ -1,0 +1,6 @@
+info:
+  company: softmap
+  product: softmap-BigData
+  softhard: '2'
+matches: |
+  title == "正版软件大数据管理系统"

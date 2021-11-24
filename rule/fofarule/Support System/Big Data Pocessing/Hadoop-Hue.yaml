@@ -1,0 +1,8 @@
+info:
+  company: Cloudera, Inc.
+  product: Hadoop-Hue
+  softhard: '2'
+matches: |
+  title.icontains("hue - welcome to hue")
+  body.icontains("jhuehdfstreeglobals")
+  body.icontains("id=\"jhuenotify") && body.icontains("hue and the hue logo are trademarks of cloudera, inc.")

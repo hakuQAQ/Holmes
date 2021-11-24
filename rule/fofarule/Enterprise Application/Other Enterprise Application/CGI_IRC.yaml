@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: CGI:IRC
+  softhard: '2'
+matches: |
+  title.icontains("cgi:irc login")
+  body.icontains("<!-- this is part of cgi:irc")
+  body.icontains("<small id=\"ietest\"><a href=\"http://cgiirc.org/")

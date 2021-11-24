@@ -1,0 +1,6 @@
+info:
+  company: Zenoss Inc.
+  product: Zenoss
+  softhard: '2'
+matches: |
+  body.icontains("/zport/dmd/")

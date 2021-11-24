@@ -1,0 +1,6 @@
+info:
+  company: LANCOM Systems GmbH
+  product: LANCOM-VPN-1781EF
+  softhard: '1'
+matches: |
+  header.icontains("lancom 1781ef")

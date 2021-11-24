@@ -1,0 +1,7 @@
+info:
+  company: CastleNet Technology Inc
+  product: CastleNet-CBW38G4J
+  softhard: '1'
+matches: |
+  banner.icontains("cbw38g4j")
+  banner.icontains("castlenet")

@@ -1,0 +1,7 @@
+info:
+  company: venustech
+  product: Venustech-TianQing-Application-Security-Gateway
+  softhard: '1'
+matches: |
+  body.icontains("v2/global/vendor/modernizr/modernizr.js")
+  body.icontains("天清web应用安全网关")

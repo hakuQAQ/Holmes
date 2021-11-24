@@ -1,0 +1,7 @@
+info:
+  company: Cradlepoint, Inc.
+  product: cradlepoint-CBR450
+  softhard: '1'
+matches: |
+  banner.icontains("cradlepoint cbr450")
+  title.icontains("login :: cbr450")

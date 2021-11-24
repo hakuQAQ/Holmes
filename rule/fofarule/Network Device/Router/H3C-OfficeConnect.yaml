@@ -1,0 +1,6 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-OfficeConnect
+  softhard: '1'
+matches: |
+  banner.icontains("3com router 3031")

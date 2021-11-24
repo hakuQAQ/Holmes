@@ -1,0 +1,7 @@
+info:
+  company: TRENDnet, Inc.
+  product: TRENDnet-TEW-651BR
+  softhard: '1'
+matches: |
+  body.icontains("<b>login to the tew-651br</b>")
+  title.icontains("tew-651br")

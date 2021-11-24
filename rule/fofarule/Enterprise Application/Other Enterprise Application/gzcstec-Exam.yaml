@@ -1,0 +1,6 @@
+info:
+  company: gzcstec
+  product: gzcstec-Exam
+  softhard: '2'
+matches: |
+  body.icontains("placeholder=\"请输入凭据\"")

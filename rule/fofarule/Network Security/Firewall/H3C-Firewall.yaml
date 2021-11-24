@@ -1,0 +1,7 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-Firewall
+  softhard: '1'
+matches: |
+  body.icontains("class=\"dl_margin0\" align=\"left\">web网管用户登录</div>")
+  body.icontains("/php/common/checknum_creat.php?module=config_authnum")

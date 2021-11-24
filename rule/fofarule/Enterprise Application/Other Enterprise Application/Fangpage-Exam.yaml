@@ -1,0 +1,8 @@
+info:
+  company: fangpage
+  product: Fangpage-Exam
+  softhard: '2'
+matches: |
+  title.icontains("fpexam") && body.icontains("href=\"http://www.fangpage.com\" target=\"_blank")
+  body.icontains("href=\"http://fpexam.fangpage.com\" target=")
+  body.icontains("/sites/exam/statics/css/login.css")

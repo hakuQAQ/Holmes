@@ -1,0 +1,6 @@
+info:
+  company: zhuofansoft
+  product: zhuofansoft-CMS
+  softhard: '2'
+matches: |
+  body.icontains("session.infocss.infocssurl")

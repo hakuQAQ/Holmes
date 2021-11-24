@@ -1,0 +1,6 @@
+info:
+  company: Citrix Systems, Inc.
+  product: Citrix-ANG
+  softhard: '0'
+matches: |
+  cert.icontains("o=citrix ang")

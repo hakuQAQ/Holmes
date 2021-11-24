@@ -1,0 +1,9 @@
+info:
+  company: Oracle Corporation
+  product: SJSWS-OiWS
+  softhard: '2'
+matches: |
+  header.icontains("oracle-iplanet-web-server")
+  header.icontains("sun-java-system-web-server")
+  banner.icontains("oracle-iplanet-web-server")
+  banner.icontains("sun-java-system-web-server")

@@ -1,0 +1,7 @@
+info:
+  company: Visualware Inc.
+  product: Visualware-MyConnection-Server
+  softhard: '2'
+matches: |
+  body.icontains("<!-- begin myconnection server applet -->")
+  header.icontains("visualware myconnection server")

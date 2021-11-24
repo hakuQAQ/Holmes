@@ -1,0 +1,6 @@
+info:
+  company: Ruijie
+  product: Ruijie-RSR7708
+  softhard: '1'
+matches: |
+  banner.icontains("rsr7708")

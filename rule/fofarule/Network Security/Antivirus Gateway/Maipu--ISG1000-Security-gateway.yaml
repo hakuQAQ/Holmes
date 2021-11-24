@@ -1,0 +1,7 @@
+info:
+  company: Maipu
+  product: Maipu--ISG1000-Security-gateway
+  softhard: '1'
+matches: |
+  title.icontains("isg1000")
+  body.icontains("/php/common/checknum_creat.php?module=config_authnum")

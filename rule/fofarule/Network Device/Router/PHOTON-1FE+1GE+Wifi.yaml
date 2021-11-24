@@ -1,0 +1,6 @@
+info:
+  company: photonbroadband
+  product: PHOTON-1FE+1GE+Wifi
+  softhard: '1'
+matches: |
+  title == "1fe+1ge+wifi"

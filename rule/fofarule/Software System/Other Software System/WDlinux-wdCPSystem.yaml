@@ -1,0 +1,10 @@
+info:
+  company: wdlinux
+  product: WDlinux-wdCPSystem
+  softhard: '2'
+matches: |
+  body.icontains("href=\"http://www.wdlinux.cn/bbs/index.php")
+  body.icontains("linux云主机")
+  title.icontains("wdcp云主机管理系统")
+  header.icontains("set-cookie: wdcpsessionid")
+  banner.icontains("set-cookie: wdcpsessionid")

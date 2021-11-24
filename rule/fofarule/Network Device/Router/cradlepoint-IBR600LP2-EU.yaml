@@ -1,0 +1,6 @@
+info:
+  company: Cradlepoint, Inc.
+  product: cradlepoint-IBR600LP2-EU
+  softhard: '1'
+matches: |
+  title.icontains("login :: ibr600lp2-eu")

@@ -1,0 +1,6 @@
+info:
+  company: ShangHai JUSHUITAN
+  product: JUSHUITAN-SaaS-ERP
+  softhard: '2'
+matches: |
+  title.icontains("聚水潭saas协同平台")

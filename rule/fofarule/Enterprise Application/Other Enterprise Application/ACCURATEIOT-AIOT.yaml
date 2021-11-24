@@ -1,0 +1,6 @@
+info:
+  company: accurateiot
+  product: ACCURATEIOT-AIOT
+  softhard: '2'
+matches: |
+  title.icontains("aiot结构健康监测系统")

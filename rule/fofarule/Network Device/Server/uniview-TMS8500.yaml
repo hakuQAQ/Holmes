@@ -1,0 +1,6 @@
+info:
+  company: uniview
+  product: uniview-TMS8500
+  softhard: '1'
+matches: |
+  body.icontains("tms8500-imos110")

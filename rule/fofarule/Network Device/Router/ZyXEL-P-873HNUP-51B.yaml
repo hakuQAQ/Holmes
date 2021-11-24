@@ -1,0 +1,8 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-P-873HNUP-51B
+  softhard: '1'
+matches: |
+  title.icontains("zyxel p-873hnup-51b")
+  title.icontains("zyxel p-873hnu-51b")
+  banner.icontains("zyxel p-873hnup-51b")

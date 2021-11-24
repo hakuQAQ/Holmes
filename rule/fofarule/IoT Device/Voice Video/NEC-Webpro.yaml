@@ -1,0 +1,7 @@
+info:
+  company: NEC Corporation
+  product: NEC-Webpro
+  softhard: '2'
+matches: |
+  body.icontains("javascript/signal.js")
+  body.icontains("banner.htm")

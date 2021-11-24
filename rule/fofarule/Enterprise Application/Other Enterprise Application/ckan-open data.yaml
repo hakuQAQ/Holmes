@@ -1,0 +1,6 @@
+info:
+  company: CKAN
+  product: ckan-open data
+  softhard: '2'
+matches: |
+  title.icontains("opendata") && body.icontains("content=\"ckan")

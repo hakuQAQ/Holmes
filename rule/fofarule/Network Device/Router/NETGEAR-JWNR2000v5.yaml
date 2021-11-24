@@ -1,0 +1,8 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-JWNR2000v5
+  softhard: '1'
+matches: |
+  header.icontains("netgear jwnr2000v5")
+  banner.icontains("netgear jwnr2000v5")
+  body.icontains("var model=\"jwnr2000v5\"")

@@ -1,0 +1,6 @@
+info:
+  company: AVM International
+  product: AVM-FRITZ!Box7490
+  softhard: '1'
+matches: |
+  banner.icontains("fritz!box7490")

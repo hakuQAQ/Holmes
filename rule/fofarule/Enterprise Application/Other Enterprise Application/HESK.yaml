@@ -1,0 +1,9 @@
+info:
+  company: Help Desk Software.
+  product: HESK
+  softhard: '2'
+matches: |
+  body.icontains("hesk_javascript.js")
+  body.icontains("hesk_style.css")
+  body.icontains("powered by <a href=\"http://www.hesk.com")
+  body.icontains("powered by <a href=\"https://www.hesk.com")

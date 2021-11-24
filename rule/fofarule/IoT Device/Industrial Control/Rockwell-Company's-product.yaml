@@ -1,0 +1,6 @@
+info:
+  company: Rockwell Automation, Inc.
+  product: Rockwell-Company's-product
+  softhard: '0'
+matches: |
+  banner.icontains("rockwell automation")

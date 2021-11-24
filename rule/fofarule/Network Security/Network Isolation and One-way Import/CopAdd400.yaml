@@ -1,0 +1,8 @@
+info:
+  company: copsec
+  product: CopAdd400
+  softhard: '1'
+matches: |
+  body.icontains("科博安全隔离与信息单向导入系统</span>")
+  title.icontains("科博安全隔离与信息交换系统")
+  body.icontains("page/downloadlinuxclient.is.run")

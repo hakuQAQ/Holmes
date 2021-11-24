@@ -1,0 +1,7 @@
+info:
+  company: Dell Inc.
+  product: DELL-PowerEdge-R330
+  softhard: '1'
+matches: |
+  banner.icontains("poweredge-r330")
+  cert.icontains("poweredge-r330")

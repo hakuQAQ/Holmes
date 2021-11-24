@@ -1,0 +1,10 @@
+info:
+  company: HUAWEI
+  product: HuaWei-VCT
+  softhard: '1'
+matches: |
+  title.icontains("vct inner web")
+  body.icontains("src=\"system/ressrv/zh-cn.js")
+  title.icontains("huawei inner web") && body.icontains("<frame name=\"hidden_frame\" id=\"hidden_frame\" src=\"hidden_frame.html\" noresize=\"noresize")
+  header.icontains("tsp_http_server/2.1.3 vct web")
+  banner.icontains("tsp_http_server/2.1.3 vct web 1.0")

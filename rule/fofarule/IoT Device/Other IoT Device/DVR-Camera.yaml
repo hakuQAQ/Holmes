@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: DVR-Camera
+  softhard: '1'
+matches: |
+  title.icontains("dvr webclient")

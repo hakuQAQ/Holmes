@@ -1,0 +1,7 @@
+info:
+  company: Marvell Technology Group
+  product: SANbox-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("sanbox ")
+  banner.icontains(" switch")

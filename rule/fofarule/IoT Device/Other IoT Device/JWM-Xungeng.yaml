@@ -1,0 +1,6 @@
+info:
+  company: wmkj
+  product: JWM-Xungeng
+  softhard: '1'
+matches: |
+  body.icontains("id=\"removeietoolbar\" classid=\"clsid:2646205b-878c-11d1-b07c-0000c040bcdb\" codebase=\"dll/nskey.dll")

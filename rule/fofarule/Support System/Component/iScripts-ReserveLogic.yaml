@@ -1,0 +1,6 @@
+info:
+  company: Armia Systems Inc.
+  product: iScripts-ReserveLogic
+  softhard: '2'
+matches: |
+  body.icontains("powered by <a href=\"http://www.iscripts.com/reservelogic/")

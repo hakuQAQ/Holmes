@@ -1,0 +1,9 @@
+info:
+  company: metinfo
+  product: MetInfo
+  softhard: '2'
+matches: |
+  title.icontains("powered by metinfo")
+  body.icontains("content=\"metinfo")
+  body.icontains("powered_by_metinfo")
+  body.icontains("/images/css/metinfo.css")

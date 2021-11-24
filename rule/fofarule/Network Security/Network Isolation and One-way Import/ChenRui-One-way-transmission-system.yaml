@@ -1,0 +1,6 @@
+info:
+  company: trimps
+  product: ChenRui-One-way-transmission-system
+  softhard: '1'
+matches: |
+  title.icontains("辰锐单向传输系统")

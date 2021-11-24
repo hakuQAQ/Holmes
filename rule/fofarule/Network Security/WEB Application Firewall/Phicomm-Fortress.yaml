@@ -1,0 +1,6 @@
+info:
+  company: phicomm
+  product: Phicomm-Fortress
+  softhard: '1'
+matches: |
+  title.icontains("斐讯fortress防火墙")

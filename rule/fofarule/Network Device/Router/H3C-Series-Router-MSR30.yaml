@@ -1,0 +1,6 @@
+info:
+  company: H3C Technologies Co., Ltd
+  product: H3C-Series-Router-MSR30
+  softhard: '1'
+matches: |
+  banner.icontains("h3c series router msr30")

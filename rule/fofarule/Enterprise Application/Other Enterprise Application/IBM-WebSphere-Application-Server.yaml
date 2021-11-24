@@ -1,0 +1,6 @@
+info:
+  company: International Business Machines Corporation
+  product: IBM-WebSphere-Application-Server
+  softhard: '2'
+matches: |
+  header.icontains("websphere application server")

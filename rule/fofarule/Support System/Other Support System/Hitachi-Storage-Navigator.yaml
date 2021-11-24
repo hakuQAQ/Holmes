@@ -1,0 +1,8 @@
+info:
+  company: Hitachi
+  product: Hitachi-Storage-Navigator
+  softhard: '2'
+matches: |
+  title.icontains("hitachi device manager - storage navigator")
+  title == "jumping..." && body.icontains("<form method=\"post\" action=\"./index.do\" name=\"frm\" />")
+  title.icontains("jump to storagenavigator2")

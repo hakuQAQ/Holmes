@@ -1,0 +1,7 @@
+info:
+  company: HUAWEI
+  product: HuaWei-videoconferencing-terminal
+  softhard: '1'
+matches: |
+  banner.icontains("videoconferencing terminal")
+  banner.icontains("huawei technologies")

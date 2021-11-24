@@ -1,0 +1,7 @@
+info:
+  company: MICROSYS, spol. s r.o.
+  product: Microsys-PROMOTIC
+  softhard: '2'
+matches: |
+  header.icontains("promotic")
+  title.icontains("promotic redirection")

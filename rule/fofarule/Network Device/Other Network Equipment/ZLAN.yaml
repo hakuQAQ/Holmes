@@ -1,0 +1,6 @@
+info:
+  company: zlmcu
+  product: ZLAN
+  softhard: '1'
+matches: |
+  body.icontains("href=\"http://www.zlmcu.com\">zlan")

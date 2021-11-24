@@ -1,0 +1,6 @@
+info:
+  company: TCL
+  product: TCL-901
+  softhard: '1'
+matches: |
+  banner.icontains("android tv on tcl 901")

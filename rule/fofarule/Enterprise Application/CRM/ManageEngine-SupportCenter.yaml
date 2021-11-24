@@ -1,0 +1,6 @@
+info:
+  company: Zoho Corporation Pvt. Ltd.
+  product: ManageEngine-SupportCenter
+  softhard: '2'
+matches: |
+  title.icontains("manageengine supportcenter plus")

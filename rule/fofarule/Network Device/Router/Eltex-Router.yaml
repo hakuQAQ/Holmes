@@ -1,0 +1,8 @@
+info:
+  company: Eltek AS
+  product: Eltex-Router
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"eltex router")
+  banner.icontains("realm=\"eltex router")
+  protocol.icontains("snmp") && banner.icontains("eltex router")

@@ -1,0 +1,10 @@
+info:
+  company: ioffice
+  product: ioffice
+  softhard: '2'
+matches: |
+  title.icontains("ioffice.net")
+  body.icontains("/ioffice/js")
+  body.icontains("ioffice.net")
+  body.icontains("iofficeocxsetup.exe")
+  body.icontains("hongfan. all rights reserved")

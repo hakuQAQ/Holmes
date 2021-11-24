@@ -1,0 +1,6 @@
+info:
+  company: haidao
+  product: HaidaoShop
+  softhard: '2'
+matches: |
+  body.icontains("haidao.web.general.js")

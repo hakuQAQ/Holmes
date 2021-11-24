@@ -1,0 +1,7 @@
+info:
+  company: Dell Inc.
+  product: DELL-N1548
+  softhard: '1'
+matches: |
+  body.icontains("class=\"login_server_default\">n1548")
+  banner.icontains("dell networking n1548")

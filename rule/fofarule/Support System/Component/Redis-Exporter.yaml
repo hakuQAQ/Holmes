@@ -1,0 +1,6 @@
+info:
+  company: redis
+  product: Redis-Exporter
+  softhard: '2'
+matches: |
+  title.icontains("redis exporter")

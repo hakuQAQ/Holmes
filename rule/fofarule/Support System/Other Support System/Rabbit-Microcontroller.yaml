@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Rabbit-Microcontroller
+  softhard: '1'
+matches: |
+  header.icontains("z-world rabbit")

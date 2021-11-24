@@ -1,0 +1,7 @@
+info:
+  company: Kampyle LTD
+  product: Kampyle
+  softhard: '2'
+matches: |
+  body.icontains("http://cf.kampyle.com/k_button.js")
+  body.icontains("start kampyle feedback form button")

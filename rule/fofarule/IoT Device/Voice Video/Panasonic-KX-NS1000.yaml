@@ -1,0 +1,7 @@
+info:
+  company: Panasonic Corporation
+  product: Panasonic-KX-NS1000
+  softhard: '1'
+matches: |
+  banner.icontains("kx-ns1000")
+  cert.icontains("kx-ns1000")

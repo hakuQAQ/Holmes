@@ -1,0 +1,7 @@
+info:
+  company: ZhongShengSoft
+  product: ZhongShengSoft-CRM
+  softhard: '2'
+matches: |
+  body.icontains("clientutil.isff=!clientutil.isie")
+  body.icontains("alert(\"餐厅编号不能为空\")")

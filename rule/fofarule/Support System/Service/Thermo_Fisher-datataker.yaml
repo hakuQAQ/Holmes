@@ -1,0 +1,9 @@
+info:
+  company: Thermo Fisher Scientific Inc.
+  product: Thermo_Fisher-datataker
+  softhard: '1'
+matches: |
+  body.icontains("htmljavascript/multibox/multibox.css")
+  title.icontains("logger home - datataker")
+  body.icontains("htmljavascript/mootools.js")
+  body.icontains("htmlimages/mainbackground.png")

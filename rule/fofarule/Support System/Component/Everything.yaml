@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: Everything
+  softhard: '2'
+matches: |
+  body.icontains("everything.gif")
+  body.icontains("everything.png")
+  title == "everything"

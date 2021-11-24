@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Gree-Logistics
+  softhard: '2'
+matches: |
+  body.icontains("/images/gree/gree.gif")

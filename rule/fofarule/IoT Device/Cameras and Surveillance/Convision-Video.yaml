@@ -1,0 +1,9 @@
+info:
+  company: CONVISION SYSTEMS GMBH
+  product: Convision-Video
+  softhard: '1'
+matches: |
+  header.icontains("convision video webserver")
+  header.icontains("vistabox")
+  banner.icontains("server: vistabox")
+  banner.icontains("convision video webserver")

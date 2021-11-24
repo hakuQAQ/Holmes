@@ -1,0 +1,7 @@
+info:
+  company: Caucho Technology, Inc.
+  product: Resin
+  softhard: '2'
+matches: |
+  header.icontains("resin")
+  banner.icontains("server: resin")

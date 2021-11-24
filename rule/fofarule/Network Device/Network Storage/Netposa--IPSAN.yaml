@@ -1,0 +1,6 @@
+info:
+  company: netposa
+  product: Netposa--IPSAN
+  softhard: '1'
+matches: |
+  title.icontains("netposa ipsanmanager")

@@ -1,0 +1,8 @@
+info:
+  company: Polycom, Inc.
+  product: Polycom-SoundPoint
+  softhard: '1'
+matches: |
+  header.icontains("server: polycom soundpoint ip telephone httpd")
+  banner.icontains("server: polycom soundpoint ip telephone httpd")
+  title.icontains("soundpoint ip configuration utility")

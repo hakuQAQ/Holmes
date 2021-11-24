@@ -1,0 +1,6 @@
+info:
+  company: Sangfor
+  product: SANGFOR-NFW
+  softhard: '1'
+matches: |
+  body.icontains("window.open(\"/loginout.php\", \"_top\"")

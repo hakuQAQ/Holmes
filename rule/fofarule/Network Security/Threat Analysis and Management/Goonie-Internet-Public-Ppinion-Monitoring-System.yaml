@@ -1,0 +1,7 @@
+info:
+  company: Goonie
+  product: Goonie-Internet-Public-Ppinion-Monitoring-System
+  softhard: '2'
+matches: |
+  body.icontains("alert(\"菜单层数量和内容层数量不一样!\")")
+  body.icontains("网络舆情监控系统")

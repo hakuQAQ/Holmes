@@ -1,0 +1,11 @@
+info:
+  company: Other
+  product: Business-System
+  softhard: '2'
+matches: |
+  body.icontains("onsubmit=\"return checksubmit()")
+  body.icontains("function hiddenpass(e)")
+  body.icontains("window.location=contextpath+\"/work/index.jsp\"")
+  body.icontains("function omiga_window(url)")
+  body.icontains("images/login_d.png")
+  body.icontains("function updatapipeline(pipelinename)")

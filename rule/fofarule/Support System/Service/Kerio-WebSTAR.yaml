@@ -1,0 +1,11 @@
+info:
+  company: Kerio Technologies Inc.
+  product: Kerio-WebSTAR
+  softhard: '2'
+matches: |
+  header.icontains("server: kerio_webstar")
+  header.icontains("server: webstar")
+  header.icontains("4d_webstar")
+  banner.icontains("server: kerio_webstar")
+  banner.icontains("server: webstar")
+  banner.icontains("4d_webstar")

@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: ChinaTelecomArrearsRecoveryManagementSystem
+  softhard: '2'
+matches: |
+  body.icontains("id=\"v_login_container\"")

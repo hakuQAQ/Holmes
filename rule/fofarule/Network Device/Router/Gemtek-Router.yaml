@@ -1,0 +1,7 @@
+info:
+  company: Taiwan Secom Co.,Ltd.
+  product: Gemtek-Router
+  softhard: '1'
+matches: |
+  title.icontains("後台登入-中保無限路由器")
+  body.icontains("alt=\"歡迎使用中保無限路由器\"")

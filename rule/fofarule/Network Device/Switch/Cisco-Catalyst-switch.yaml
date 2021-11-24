@@ -1,0 +1,10 @@
+info:
+  company: Cisco Systems, Inc.
+  product: Cisco-Catalyst-switch
+  softhard: '1'
+matches: |
+  banner.icontains("cisco systems catalyst")
+  banner.icontains("cisco ios")
+  banner.icontains("catalyst l3 switch")
+  title.icontains("cisco catalyst switch")
+  banner.icontains("cisco catalyst")

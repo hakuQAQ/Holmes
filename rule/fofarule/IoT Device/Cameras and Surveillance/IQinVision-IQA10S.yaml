@@ -1,0 +1,6 @@
+info:
+  company: IQinVision, Inc.
+  product: IQinVision-IQA10S
+  softhard: '1'
+matches: |
+  title.icontains("iqa10s")

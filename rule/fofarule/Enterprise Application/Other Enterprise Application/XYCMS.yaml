@@ -1,0 +1,7 @@
+info:
+  company: XinYao
+  product: XYCMS
+  softhard: '2'
+matches: |
+  title.icontains("powered by xycms")
+  body.icontains("advfile/ad12.js")

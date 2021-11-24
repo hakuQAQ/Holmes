@@ -1,0 +1,6 @@
+info:
+  company: pixlink
+  product: PIX_LINK-WiFi-Repeater
+  softhard: '1'
+matches: |
+  body.icontains("_t(pg_login.user)")

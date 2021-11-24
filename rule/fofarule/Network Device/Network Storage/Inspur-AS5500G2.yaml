@@ -1,0 +1,7 @@
+info:
+  company: Inspur
+  product: Inspur-AS5500G2
+  softhard: '1'
+matches: |
+  title.icontains("inspur as5500g2")
+  body.icontains("\"productname\": \"inspur as5500g2\",")

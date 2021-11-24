@@ -1,0 +1,6 @@
+info:
+  company: apexsoft
+  product: apex-LiveBPM
+  softhard: '2'
+matches: |
+  body.icontains("href=\"/plug-in/login/fixed/css/login.css\"")

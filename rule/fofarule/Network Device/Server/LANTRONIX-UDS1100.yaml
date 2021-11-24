@@ -1,0 +1,6 @@
+info:
+  company: Lantronix, Inc.
+  product: LANTRONIX-UDS1100
+  softhard: '1'
+matches: |
+  banner.icontains("lantronix uds1100")

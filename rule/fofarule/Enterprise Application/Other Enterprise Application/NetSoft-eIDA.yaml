@@ -1,0 +1,7 @@
+info:
+  company: NetSoft
+  product: NetSoft-eIDA
+  softhard: '2'
+matches: |
+  body.icontains("window.location.href = \"/appframe/login_v2/login.jsp\";")
+  body.icontains("href=\"/images/common/favicon.ico\"")

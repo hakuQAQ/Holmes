@@ -1,0 +1,7 @@
+info:
+  company: Fujitsu Ltd.
+  product: FUJITSU-PRIMERGY-TX1310-M1
+  softhard: '1'
+matches: |
+  banner.icontains("primergy-tx1310-m1")
+  cert.icontains("primergy-tx1310-m1")

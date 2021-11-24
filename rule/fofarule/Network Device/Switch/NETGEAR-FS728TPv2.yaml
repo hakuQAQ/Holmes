@@ -1,0 +1,6 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-FS728TPv2
+  softhard: '1'
+matches: |
+  banner.icontains("fs728tpv2")

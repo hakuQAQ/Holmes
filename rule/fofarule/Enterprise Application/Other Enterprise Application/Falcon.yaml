@@ -1,0 +1,10 @@
+info:
+  company: Falcon System Consulting Inc.
+  product: Falcon
+  softhard: '2'
+matches: |
+  title.icontains("opsplatform")
+  body.icontains("<h3 class=\"font-bold\">opsplatform</h3>")
+  title.icontains("opsplatform")
+  body.icontains("<h3 class=\"font-bold\">opsplatform</h3>")
+  body.icontains("textarea class=\"form-control endpoints")

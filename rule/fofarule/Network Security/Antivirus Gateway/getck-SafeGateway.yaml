@@ -1,0 +1,7 @@
+info:
+  company: getck
+  product: getck-SafeGateway
+  softhard: '1'
+matches: |
+  body.icontains("webui/images/basic/login/main_logo.gif")
+  body.icontains("应用安全网关")

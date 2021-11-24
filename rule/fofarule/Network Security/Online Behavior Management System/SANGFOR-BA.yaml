@@ -1,0 +1,7 @@
+info:
+  company: SangFor
+  product: SANGFOR-BA
+  softhard: '2'
+matches: |
+  body.icontains("haovuytkjlnvxpuhsecmbljplpvjz = function(str, key) ")
+  header.icontains("x-frame-options: sameorigin")

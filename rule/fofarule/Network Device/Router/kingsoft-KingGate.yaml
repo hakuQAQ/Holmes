@@ -1,0 +1,6 @@
+info:
+  company: kingsoft
+  product: kingsoft-KingGate
+  softhard: '1'
+matches: |
+  body.icontains("/src/system/login.php")

@@ -1,0 +1,8 @@
+info:
+  company: SonicWall Inc.
+  product: SonicWALL-SSL-VPN
+  softhard: '1'
+matches: |
+  header.icontains("sonicwall ssl-vpn ")
+  banner.icontains("sonicwall ssl-vpn ")
+  body.icontains("javascript/aventail.js")

@@ -1,0 +1,7 @@
+info:
+  company: Google
+  product: PIXEL-M151RW3
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"pixel m151rw3")
+  banner.icontains("realm=\"pixel m151rw3")

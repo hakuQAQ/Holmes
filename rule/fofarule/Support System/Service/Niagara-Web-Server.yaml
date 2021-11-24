@@ -1,0 +1,14 @@
+info:
+  company: Tridium Inc.
+  product: Niagara-Web-Server
+  softhard: '2'
+matches: |
+  header.icontains("niagara")
+  banner.icontains("server: niagara")
+  header.icontains("niagara-release") && banner.icontains("niagara-release")
+  header.icontains("niagara_session=")
+  banner.icontains("niagara_session=")
+  header.icontains("niagara-release")
+  banner.icontains("niagara-release")
+  header.icontains("niagara_audit")
+  banner.icontains("niagara_audit")

@@ -1,0 +1,8 @@
+info:
+  company: jiaozhichu
+  product: Jiaozhichu-Online-test-system
+  softhard: '2'
+matches: |
+  title.icontains("教之初在线考试系统 - jiaozhichu")
+  body.icontains("content=\"jiaozhichu")
+  body.icontains("href=\"/ksxt/h5/images/jiaozhichu.ico")

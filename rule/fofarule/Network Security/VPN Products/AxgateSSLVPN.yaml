@@ -1,0 +1,6 @@
+info:
+  company: AXGATE CO., LTD.
+  product: AxgateSSLVPN
+  softhard: '2'
+matches: |
+  title == "ssl vpn client" && body.icontains("class=\"axgate\"")

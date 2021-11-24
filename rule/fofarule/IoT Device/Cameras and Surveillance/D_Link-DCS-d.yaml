@@ -1,0 +1,6 @@
+info:
+  company: D-Link Corporation
+  product: D_Link-DCS-d
+  softhard: '1'
+matches: |
+  header.icontains("basic realm=\"dcs-d\"") && banner.icontains("basic realm=\"dcs-d\"")

@@ -1,0 +1,10 @@
+info:
+  company: NVIDIA Corporation
+  product: NVIDIA-Mellanox-MLNX-OS
+  softhard: '2'
+matches: |
+  body.icontains("<div style='display: none;' id=\"setstatusiconstatediv\"></div>")
+  title.icontains("mellanox")
+  body.icontains("/mlx-default.css")
+  body.icontains("'/admin/launch?script=")
+  body.icontains("url=/admin/launch?script=")

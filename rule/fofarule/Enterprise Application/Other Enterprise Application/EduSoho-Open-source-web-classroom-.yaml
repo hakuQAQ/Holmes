@@ -1,0 +1,7 @@
+info:
+  company: edusoho
+  product: EduSoho-Open-source-web-classroom-
+  softhard: '2'
+matches: |
+  title.icontains("edusoho") && body.icontains("powered by <a href=\"http://www.edusoho.com")
+  body.icontains("powered by edusoho")

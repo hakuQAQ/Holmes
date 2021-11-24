@@ -1,0 +1,8 @@
+info:
+  company: Other
+  product: PHP-Server-Monitor
+  softhard: '2'
+matches: |
+  title.icontains("php server monitor")
+  body.icontains("target=\"_blank\">php server monitor")
+  body.icontains("powered by <a href=\"http://www.phpservermonitor.org/")

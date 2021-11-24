@@ -1,0 +1,7 @@
+info:
+  company: richcache
+  product: richcache-VPN
+  softhard: '1'
+matches: |
+  body.icontains("class=\"col-md-12 col-xs-12 col-lg-12 external_signin_links\"")
+  body.icontains("class=\"no-js\">请先启用javascript")

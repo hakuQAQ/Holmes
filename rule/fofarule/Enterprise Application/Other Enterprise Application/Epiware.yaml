@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: Epiware
+  softhard: '2'
+matches: |
+  body.icontains("epiware - project and document management")

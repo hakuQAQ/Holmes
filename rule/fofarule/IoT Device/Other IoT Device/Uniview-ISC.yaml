@@ -1,0 +1,10 @@
+info:
+  company: uniview
+  product: Uniview-ISC
+  softhard: '1'
+matches: |
+  body.icontains("clsid:9677f3f4-9c86-405c-897a-2aeaab2d085c' id='recordmanager_activex")
+  body.icontains("clsid:ebb0d154-7f02-44c7-a828-bed07c28469b")
+  body.icontains("recordmanager_activex")
+  body.icontains("playactivexobj = document.getelementbyid('recordmanager_activex');")
+  body.icontains("location.href = location.href.substring(0,location.href.indexof(\"?\"))+\"?langinfo=\"+")

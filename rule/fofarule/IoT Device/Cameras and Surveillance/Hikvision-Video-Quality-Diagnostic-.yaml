@@ -1,0 +1,9 @@
+info:
+  company: Hikvision
+  product: Hikvision-Video-Quality-Diagnostic-
+  softhard: '1'
+matches: |
+  title.icontains("视频质量诊断系统")
+  title.icontains("hikvision")
+  body.icontains("id =\"helpdoc\" class=\"help\" href=\"common/helpdoc/vqd system user manual(v2.4).pdf")
+  body.icontains("<meta http-equiv=\"refresh\" content=\"0;url=vqd.workbench.aspx\" /> ")

@@ -1,0 +1,6 @@
+info:
+  company: Ambit Wireless Networks, Inc.
+  product: AmbitWireless-U10C019
+  softhard: '1'
+matches: |
+  banner.icontains("model: u10c019")

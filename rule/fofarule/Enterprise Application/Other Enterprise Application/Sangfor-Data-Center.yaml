@@ -1,0 +1,8 @@
+info:
+  company: Sangfor
+  product: Sangfor-Data-Center
+  softhard: '2'
+matches: |
+  body.icontains("acloglogin.php")
+  title.icontains("sangfor 数据中心")
+  header.icontains("location: ./src/acloglogin.php")

@@ -1,0 +1,6 @@
+info:
+  company: AV Scripts
+  product: AV-Arcade
+  softhard: '2'
+matches: |
+  body.icontains("powered by <a href=\"http://www.avscripts.net/avarcade/")

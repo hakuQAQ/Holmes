@@ -1,0 +1,8 @@
+info:
+  company: shenri
+  product: shenri-elevator
+  softhard: '2'
+matches: |
+  body.icontains("/frameworks/images/ico.ico")
+  body.icontains("images/login/btnmobile.gif")
+  body.icontains("copyright 2015 shenri habiliment co.,ltd. all rights reserved")

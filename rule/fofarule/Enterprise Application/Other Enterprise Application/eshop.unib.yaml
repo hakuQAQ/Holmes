@@ -1,0 +1,6 @@
+info:
+  company: Chinaunicom
+  product: eshop.unib
+  softhard: '2'
+matches: |
+  title.icontains("中国联通电子商城外网接入平台")

@@ -1,0 +1,6 @@
+info:
+  company: Symantec Corporation
+  product: Symantec-Packeteer-PacketShaper
+  softhard: '1'
+matches: |
+  banner.icontains("packeteer packetshaper")

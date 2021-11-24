@@ -1,0 +1,6 @@
+info:
+  company: Technicolor SA
+  product: Thomson-CableHome-Gateway
+  softhard: '1'
+matches: |
+  banner.icontains("thomson cablehome gateway ")

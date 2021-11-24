@@ -1,0 +1,6 @@
+info:
+  company: SMC Networks Asia Pacific Pte Ltd
+  product: SMC8024L2
+  softhard: '1'
+matches: |
+  title.icontains("smc networks web interface")

@@ -1,0 +1,9 @@
+info:
+  company: Radware Ltd.
+  product: Radware-LinkProof-Switch
+  softhard: '1'
+matches: |
+  banner.icontains("linkproof ondemand switch")
+  banner.icontains("linkproof - entry level")
+  banner.icontains("linkproof application switch")
+  banner.icontains("linkproof branch")

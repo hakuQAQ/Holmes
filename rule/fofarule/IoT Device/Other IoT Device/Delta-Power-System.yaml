@@ -1,0 +1,6 @@
+info:
+  company: Delta Electronics, Inc.
+  product: Delta-Power-System
+  softhard: '1'
+matches: |
+  banner.icontains("delta power system controller")

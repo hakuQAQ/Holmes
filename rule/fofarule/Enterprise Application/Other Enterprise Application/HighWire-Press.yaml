@@ -1,0 +1,7 @@
+info:
+  company: HighWire Press, Inc.
+  product: HighWire-Press
+  softhard: '2'
+matches: |
+  header.icontains("x-firenze-processing") && header.icontains("x-highwire-sessionid")
+  banner.icontains("x-firenze-processing") && banner.icontains("x-highwire-sessionid")

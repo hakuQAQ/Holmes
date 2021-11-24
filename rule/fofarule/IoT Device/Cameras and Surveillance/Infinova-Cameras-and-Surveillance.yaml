@@ -1,0 +1,9 @@
+info:
+  company: Infinova Corporation
+  product: Infinova-Cameras-and-Surveillance
+  softhard: '1'
+matches: |
+  banner.icontains("infinova login:") && header.icontains("infinova-webs")
+  header.icontains("basic realm=\"infinova")
+  banner.icontains("server: infinova-webs")
+  title == "video management system" && body.icontains("vms.html")

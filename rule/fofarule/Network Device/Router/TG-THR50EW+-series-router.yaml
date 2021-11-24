@@ -1,0 +1,6 @@
+info:
+  company: tg-net
+  product: TG-THR50EW+-series-router
+  softhard: '1'
+matches: |
+  banner.icontains("tg-net thr50ew+ series router")

@@ -1,0 +1,9 @@
+info:
+  company: NETGEAR, Inc.
+  product: NETGEAR-XR500
+  softhard: '1'
+matches: |
+  header.icontains("realm=\"netgear xr500")
+  body.icontains("href=\"/npg/xr500\"")
+  body.icontains("var host_name = \"xr500\"")
+  banner.icontains("netgear-xr500")

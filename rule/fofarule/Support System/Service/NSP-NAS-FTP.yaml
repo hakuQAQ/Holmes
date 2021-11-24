@@ -1,0 +1,6 @@
+info:
+  company: Other
+  product: NSP-NAS-FTP
+  softhard: '2'
+matches: |
+  banner.icontains("nsp-nas ftp service")

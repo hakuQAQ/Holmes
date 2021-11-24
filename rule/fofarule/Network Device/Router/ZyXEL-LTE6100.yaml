@@ -1,0 +1,6 @@
+info:
+  company: Zyxel Communications Corp.
+  product: ZyXEL-LTE6100
+  softhard: '1'
+matches: |
+  title.icontains("lte6100")

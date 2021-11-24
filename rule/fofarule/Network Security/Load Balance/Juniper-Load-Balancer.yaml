@@ -1,0 +1,9 @@
+info:
+  company: Juniper Networks, Inc.
+  product: Juniper-Load-Balancer
+  softhard: '1'
+matches: |
+  header.icontains("set-cookie: rl-sticky-key")
+  banner.icontains("set-cookie: rl-sticky-key")
+  header.icontains("juniper networks application acceleration platform")
+  banner.icontains("juniper networks application acceleration platform")

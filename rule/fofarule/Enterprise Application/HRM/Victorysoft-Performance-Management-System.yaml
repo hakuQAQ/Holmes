@@ -1,0 +1,7 @@
+info:
+  company: Victorysoft
+  product: Victorysoft-Performance-Management-System
+  softhard: '2'
+matches: |
+  body.icontains("class=\"row fl-controls-left")
+  body.icontains("casui/themes/siam/login.css")

@@ -1,0 +1,7 @@
+info:
+  company: Belkin International, Inc.
+  product: Linksys-Smart-Wi-Fi
+  softhard: '1'
+matches: |
+  title.icontains("linksys smart wi-fi")
+  body.icontains("content=\"included with your linksys smart wi-fi ")

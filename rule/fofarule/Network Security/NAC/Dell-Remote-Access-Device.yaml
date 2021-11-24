@@ -1,0 +1,7 @@
+info:
+  company: Dell Inc.
+  product: Dell-Remote-Access-Device
+  softhard: '1'
+matches: |
+  body.icontains("setemclientinfo")
+  body.icontains("src=\"/initparams?emclientinfo")

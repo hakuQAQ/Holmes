@@ -1,0 +1,7 @@
+info:
+  company: Asurion, LLC
+  product: Aurion
+  softhard: '2'
+matches: |
+  body.icontains("<!-- aurion teal will be used as the login-time default")
+  body.icontains("/aurion.js")

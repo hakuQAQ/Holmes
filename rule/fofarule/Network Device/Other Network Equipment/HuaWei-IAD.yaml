@@ -1,0 +1,6 @@
+info:
+  company: HUAWEI
+  product: HuaWei-IAD
+  softhard: '1'
+matches: |
+  banner.icontains("huawei terminal multi-service")

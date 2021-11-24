@@ -1,0 +1,8 @@
+info:
+  company: urpsoft
+  product: URP-Integrated-educational-system
+  softhard: '2'
+matches: |
+  body.icontains("<input name=\"j_captcha_response\" type=\"hidden")
+  title.icontains("urp 综合教务系统")
+  body.icontains("北京清元优软科技有限公司") && body.icontains("教务系统")

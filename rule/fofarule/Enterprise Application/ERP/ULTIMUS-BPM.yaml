@@ -1,0 +1,6 @@
+info:
+  company: Ultimus Inc.
+  product: ULTIMUS-BPM
+  softhard: '2'
+matches: |
+  body.icontains("content=\"ultimus bpm") && body.icontains("class=\"toptitle\">bpm")

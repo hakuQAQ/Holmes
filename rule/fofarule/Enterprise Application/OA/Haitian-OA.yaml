@@ -1,0 +1,8 @@
+info:
+  company: haitiansoft
+  product: Haitian-OA
+  softhard: '2'
+matches: |
+  body.icontains("htvos.js")
+  body.icontains("images/myjs.js")
+  body.icontains("mshtml 8.00.6001.19298")

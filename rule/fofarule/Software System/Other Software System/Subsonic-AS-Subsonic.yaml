@@ -1,0 +1,8 @@
+info:
+  company: Subsonic
+  product: Subsonic-AS-Subsonic
+  softhard: '2'
+matches: |
+  body.icontains("subsonic")
+  body.icontains("onload=\"document.getelementbyid('j_username').focus()\"")
+  body.icontains("parent.frames.upper.keyboardshortcut(\"showindex\", index.touppercase());")

@@ -1,0 +1,7 @@
+info:
+  company: sxzrouter
+  product: sxzrouter-Caching
+  softhard: '2'
+matches: |
+  body.icontains("src=\"/public/sec/assets/js/libs/jquery.placeholder.min.js\">")
+  body.icontains(" href=\"http://www.dwcache.com\"")

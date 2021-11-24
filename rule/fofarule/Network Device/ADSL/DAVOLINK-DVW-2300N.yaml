@@ -1,0 +1,6 @@
+info:
+  company: DAVOLINK. Inc.
+  product: DAVOLINK-DVW-2300N
+  softhard: '1'
+matches: |
+  banner.icontains("dvw-2300n")

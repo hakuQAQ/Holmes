@@ -1,0 +1,7 @@
+info:
+  company: Docker，Inc
+  product: Docker-Distribution-Api
+  softhard: '2'
+matches: |
+  header.icontains("docker-distribution-api")
+  banner.icontains("docker-distribution-api")
